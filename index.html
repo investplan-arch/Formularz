@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DotacjaPlus — Formularz danych</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#101A2C;
+    --ink-soft:#2B3A52;
+    --paper:#FAF8F3;
+    --card:#FFFFFF;
+    --line:#E7E1D2;
+    --line-soft:#F0ECE0;
+    --slate:#6B7280;
+    --slate-light:#9CA3AF;
+    --brass:#A9822F;
+    --brass-light:#CDA85A;
+    --brass-wash:#F6EFDD;
+    --green:#2E6B52;
+    --green-wash:#E9F2ED;
+    --red:#B23B2E;
+    --red-wash:#FBEEEC;
+    --radius-lg:22px;
+    --radius-md:12px;
+    --radius-sm:8px;
+    --shadow-card: 0 1px 2px rgba(16,26,44,0.04), 0 20px 48px -20px rgba(16,26,44,0.18);
+    --shadow-btn: 0 1px 2px rgba(16,26,44,0.06), 0 8px 20px -8px rgba(16,26,44,0.28);
+  }
+
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    font-family:'Inter', -apple-system, sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    -webkit-font-smoothing:antialiased;
+    line-height:1.5;
+  }
+
+  body::before{
+    content:"";
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -5%, rgba(169,130,47,0.07), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 100% 100%, rgba(16,26,44,0.045), transparent 60%);
+  }
+
+  a{color:inherit;}
+  .skip-link{position:absolute; left:-999px;}
+  .skip-link:focus{
+    left:16px; top:16px; z-index:999; background:var(--ink); color:#fff;
+    padding:10px 16px; border-radius:6px;
+  }
+
+  .topbar{
+    position:sticky; top:0; z-index:30;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px clamp(20px,5vw,64px);
+    background:rgba(250,248,243,0.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line-soft);
+  }
+  .brand{ display:flex; align-items:center; gap:11px; }
+  .brand .mark{
+    width:34px;height:34px;border-radius:10px;
+    background:var(--ink);
+    display:flex;align-items:center;justify-content:center;
+    flex-shrink:0;
+  }
+  .brand .mark svg{width:16px;height:16px;}
+  .brand .name{
+    font-family:'Fraunces', serif; font-weight:600; font-size:1.2rem;
+    letter-spacing:-0.01em; color:var(--ink);
+  }
+  .brand .name em{ font-style:normal; color:var(--brass); }
+  .secure{ display:flex; align-items:center; gap:6px; font-size:0.8rem; color:var(--slate); font-weight:500; }
+  .secure svg{ width:14px;height:14px; flex-shrink:0; color:var(--slate-light); }
+  @media (max-width:480px){ .secure .txt{display:none;} }
+
+  .shell{
+    position:relative; z-index:1;
+    max-width:1040px; margin:0 auto;
+    padding:clamp(28px,5vw,56px) clamp(16px,4vw,32px) 90px;
+    display:grid; grid-template-columns: 220px 1fr; gap:clamp(28px,4vw,56px);
+  }
+  @media (max-width: 860px){ .shell{grid-template-columns:1fr; padding-top:20px;} .stepper{display:none;} }
+
+  .stepper{ position:sticky; top:96px; align-self:start; }
+  .stepper-eyebrow{
+    font-size:0.72rem; font-weight:600; text-transform:uppercase;
+    letter-spacing:0.09em; color:var(--slate-light); margin:0 0 20px 2px;
+  }
+  .steps{ list-style:none; margin:0; padding:0; position:relative; }
+  .steps::before{ content:""; position:absolute; left:5px; top:6px; bottom:6px; width:1px; background:var(--line); }
+  .step{ position:relative; display:flex; align-items:flex-start; gap:16px; padding:11px 0; cursor:default; }
+  .step .dot{
+    width:11px; height:11px; border-radius:50%; background:var(--paper);
+    border:1.5px solid var(--line); margin-top:5px; flex-shrink:0; position:relative; z-index:1;
+    transition:all .2s ease;
+  }
+  .step .label{ font-size:0.94rem; color:var(--slate-light); font-weight:500; transition:color .2s ease; padding-top:1px; }
+  .step.active .dot{ border-color:var(--ink); background:var(--ink); box-shadow:0 0 0 4px rgba(16,26,44,0.08); }
+  .step.active .label{ color:var(--ink); font-weight:600; }
+  .step.done .dot{ border-color:var(--brass); background:var(--brass); }
+  .step.done .label{ color:var(--ink-soft); }
+  .step.clickable{ cursor:pointer; }
+
+  .progress-mobile{display:none;}
+  @media (max-width: 860px){
+    .progress-mobile{
+      display:block; position:sticky; top:66px; z-index:25;
+      background:var(--paper); padding:16px clamp(16px,4vw,32px) 12px;
+      border-bottom:1px solid var(--line-soft);
+    }
+    .progress-mobile .top-row{ display:flex; justify-content:space-between; align-items:baseline; margin-bottom:10px; }
+    .progress-mobile .step-name{ font-family:'Fraunces', serif; font-weight:600; font-size:1.05rem; color:var(--ink); }
+    .progress-mobile .step-count{ font-size:0.78rem; color:var(--slate-light); font-weight:500; }
+    .progress-mobile .track{ height:4px; border-radius:99px; background:var(--line-soft); overflow:hidden; }
+    .progress-mobile .fill{
+      height:100%; background:linear-gradient(90deg, var(--brass), var(--ink));
+      border-radius:99px; transition:width .4s cubic-bezier(.4,0,.2,1);
+    }
+  }
+
+  .card{
+    background:var(--card); border-radius:var(--radius-lg); box-shadow:var(--shadow-card);
+    border:1px solid var(--line-soft); overflow:hidden; position:relative;
+  }
+  .card::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:3px;
+    background:linear-gradient(90deg, var(--brass-light), var(--brass) 40%, var(--ink) 100%);
+  }
+  .card-head{ padding:clamp(32px,5vw,48px) clamp(28px,5vw,48px) 6px; }
+  .eyebrow{ font-size:0.78rem; font-weight:600; color:var(--brass); letter-spacing:0.04em; margin-bottom:14px; }
+  h1.step-title{
+    font-family:'Fraunces', serif; font-weight:600; font-size:clamp(1.6rem, 2.6vw, 2.05rem);
+    margin:0 0 10px; color:var(--ink); line-height:1.18; letter-spacing:-0.01em;
+  }
+  .step-sub{ color:var(--slate); font-size:1rem; margin:0; line-height:1.55; max-width:46ch; }
+  .step-body{ padding:22px clamp(28px,5vw,48px) clamp(28px,5vw,48px); }
+
+  .field{ margin-bottom:26px; }
+  .field label{ display:block; font-weight:600; font-size:0.92rem; color:var(--ink); margin-bottom:9px; }
+  .field label .opt{ color:var(--slate-light); font-weight:400; font-size:0.85rem; }
+  .field label .req{ color:var(--brass); margin-left:3px; }
+  .hint{ font-size:0.82rem; color:var(--slate-light); margin-top:7px; line-height:1.45; }
+
+  .row2{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  @media (max-width:560px){ .row2{grid-template-columns:1fr;} }
+
+  input[type=text], input[type=email], input[type=tel], input[type=date],
+  select, textarea{
+    width:100%; font-family:'Inter', sans-serif; font-size:1rem;
+    padding:14px 16px; border-radius:var(--radius-sm); border:1.5px solid var(--line);
+    background:var(--paper); color:var(--ink);
+    transition:border-color .15s ease, background .15s ease, box-shadow .15s ease;
+  }
+  textarea{ resize:vertical; min-height:96px; line-height:1.55; font-family:inherit; }
+  ::placeholder{ color:var(--slate-light); }
+  input:focus, select:focus, textarea:focus{
+    outline:none; border-color:var(--ink); background:var(--card);
+    box-shadow:0 0 0 4px rgba(16,26,44,0.07);
+  }
+  .field.error input, .field.error select, .field.error textarea{ border-color:var(--red); background:var(--red-wash); }
+  .field-error-msg{ display:none; color:var(--red); font-size:0.83rem; margin-top:8px; font-weight:500; }
+  .field.error .field-error-msg{ display:block; }
+
+  select{
+    appearance:none; -webkit-appearance:none;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%236B7280' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat:no-repeat; background-position:right 16px center; padding-right:40px;
+  }
+  optgroup{ font-weight:600; font-style:normal; color:var(--ink); }
+  input[type=date]{ color-scheme:light; }
+
+  .choices{ display:flex; flex-wrap:wrap; gap:10px; }
+  .choices.stack{ flex-direction:column; align-items:stretch; }
+  .choice-btn{
+    appearance:none; -webkit-appearance:none;
+    display:flex; align-items:center; gap:10px; padding:13px 18px;
+    border-radius:var(--radius-sm); border:1.5px solid var(--line); background:var(--paper);
+    color:var(--ink-soft); font-size:0.94rem; font-weight:500; font-family:'Inter', sans-serif;
+    cursor:pointer; transition:border-color .15s ease, background .15s ease, color .15s ease;
+    text-align:left;
+  }
+  .choice-btn .indicator{
+    width:16px; height:16px; border-radius:50%; border:1.5px solid var(--line); flex-shrink:0;
+    display:flex; align-items:center; justify-content:center; background:var(--card);
+    transition:all .15s ease;
+  }
+  .choices[data-multi="true"] .choice-btn .indicator{ border-radius:4px; }
+  .choice-btn .indicator svg{ width:9px; height:9px; opacity:0; transform:scale(0.5); transition:all .15s ease; }
+  .choice-btn:hover{ border-color:var(--slate-light); }
+  .choice-btn.selected{ background:var(--ink); border-color:var(--ink); color:#fff; }
+  .choice-btn.selected .indicator{ background:var(--brass); border-color:var(--brass); }
+  .choice-btn.selected .indicator svg{ opacity:1; transform:scale(1); }
+
+  .check-grid{ display:grid; grid-template-columns:repeat(auto-fill, minmax(190px,1fr)); gap:10px; }
+
+  fieldset{ border:none; margin:0; padding:0; }
+  legend{ padding:0; margin-bottom:9px; font-weight:600; font-size:0.92rem; width:100%; }
+
+  .nav-row{ display:flex; justify-content:space-between; align-items:center; margin-top:10px; gap:14px; }
+  .btn{
+    appearance:none; -webkit-appearance:none;
+    font-family:'Inter', sans-serif; font-weight:600; font-size:0.96rem;
+    padding:14px 28px; border-radius:var(--radius-sm); border:none; cursor:pointer;
+    transition:transform .1s ease, box-shadow .15s ease, background .15s ease, opacity .15s ease;
+  }
+  .btn-primary{ background:var(--ink); color:#fff; box-shadow:var(--shadow-btn); }
+  .btn-primary:hover{ background:#1C2A44; }
+  .btn-primary:active{ transform:translateY(1px); }
+  .btn-ghost{ background:transparent; color:var(--slate); border:1.5px solid var(--line); }
+  .btn-ghost:hover{ border-color:var(--slate-light); color:var(--ink); }
+  .btn:disabled{ opacity:0.5; cursor:not-allowed; }
+  .btn-primary .arrow{ margin-left:8px; display:inline-block; transition:transform .15s ease; }
+  .btn-primary:hover .arrow{ transform:translateX(2px); }
+  .spacer{ flex:1; }
+
+  .step-panel{ display:none; }
+  .step-panel.active{ display:block; animation:fadeIn .3s cubic-bezier(.2,.8,.2,1); }
+  @keyframes fadeIn{ from{opacity:0; transform:translateY(8px);} to{opacity:1; transform:none;} }
+
+  .success{ text-align:center; padding:clamp(48px,7vw,72px) clamp(24px,5vw,48px); }
+  .success .seal{
+    width:64px; height:64px; margin:0 auto 26px; border-radius:50%; background:var(--green-wash);
+    display:flex; align-items:center; justify-content:center; border:1.5px solid var(--green);
+  }
+  .success .seal svg{ width:26px; height:26px; }
+  .success h2{ font-family:'Fraunces', serif; font-weight:600; font-size:1.7rem; color:var(--ink); margin:0 0 12px; }
+  .success p{ color:var(--slate); max-width:440px; margin:0 auto 34px; line-height:1.6; }
+  .timeline{ max-width:440px; margin:0 auto; text-align:left; display:flex; flex-direction:column; gap:20px; }
+  .timeline .t-item{ display:flex; gap:16px; align-items:flex-start; }
+  .timeline .t-num{
+    width:26px;height:26px;border-radius:50%; background:var(--paper); border:1px solid var(--line);
+    color:var(--ink); font-weight:600; font-size:0.8rem;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .timeline p{ margin:0; font-size:0.94rem; color:var(--ink-soft); text-align:left; line-height:1.5; }
+
+  .submit-error{
+    display:none; background:var(--red-wash); border:1px solid var(--red); color:var(--red);
+    padding:15px 18px; border-radius:var(--radius-sm); font-size:0.9rem; margin-bottom:20px;
+  }
+
+  footer.legal{
+    max-width:1040px; margin:0 auto; padding:0 clamp(16px,4vw,32px) 48px;
+    color:var(--slate-light); font-size:0.8rem; line-height:1.6; position:relative; z-index:1;
+  }
+  footer.legal a{ text-decoration:underline; color:var(--slate); }
+</style>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Przejdź do treści</a>
+
+<div class="topbar">
+  <div class="brand">
+    <span class="mark">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M6 16L16 6M16 6H10M16 6V12" stroke="#F6EFDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+    <span class="name">Dotacja<em>Plus</em></span>
+  </div>
+  <div class="secure">
+    <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4z" stroke="currentColor" stroke-width="1.6"/></svg>
+    <span class="txt">Połączenie szyfrowane</span>
+  </div>
+</div>
+
+<main id="main" class="shell">
+
+  <nav class="stepper" aria-label="Postęp formularza">
+    <p class="stepper-eyebrow">Postęp wniosku</p>
+    <ol class="steps" id="tabList">
+      <li class="step" data-step="0"><span class="dot"></span><span class="label">Dane osobowe</span></li>
+      <li class="step" data-step="1"><span class="dot"></span><span class="label">Lokalizacja</span></li>
+      <li class="step" data-step="2"><span class="dot"></span><span class="label">Status zawodowy</span></li>
+      <li class="step" data-step="3"><span class="dot"></span><span class="label">Działalność</span></li>
+      <li class="step" data-step="4"><span class="dot"></span><span class="label">Wydatki</span></li>
+      <li class="step" data-step="5"><span class="dot"></span><span class="label">Rynek i plany</span></li>
+    </ol>
+  </nav>
+
+  <div class="progress-mobile">
+    <div class="top-row">
+      <span class="step-name" id="mobileStepName">Dane osobowe</span>
+      <span class="step-count" id="mobileStepLabel">Krok 1 / 6</span>
+    </div>
+    <div class="track"><div class="fill" id="mobileFill" style="width:16.6%"></div></div>
+  </div>
+
+  <div class="card">
+    <form id="grantForm" novalidate>
+
+      <div class="step-panel active" data-panel="0">
+        <div class="card-head">
+          <div class="eyebrow">Krok 1 z 6</div>
+          <h1 class="step-title">Dane osobowe</h1>
+          <p class="step-sub">Podstawowe informacje kontaktowe. To na ten adres i telefon się odezwiemy.</p>
+        </div>
+        <div class="step-body">
+          <div class="row2">
+            <div class="field">
+              <label for="imie">Imię<span class="req">*</span></label>
+              <input type="text" id="imie" name="imie" required autocomplete="given-name">
+              <div class="field-error-msg">Podaj imię.</div>
+            </div>
+            <div class="field">
+              <label for="nazwisko">Nazwisko<span class="req">*</span></label>
+              <input type="text" id="nazwisko" name="nazwisko" required autocomplete="family-name">
+              <div class="field-error-msg">Podaj nazwisko.</div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="telefon">Numer telefonu<span class="req">*</span></label>
+              <input type="tel" id="telefon" name="telefon" required autocomplete="tel" placeholder="600 100 200">
+              <div class="field-error-msg">Podaj poprawny numer telefonu.</div>
+            </div>
+            <div class="field">
+              <label for="email">Adres email <span class="opt">(opcjonalnie)</span></label>
+              <input type="email" id="email" name="email" autocomplete="email">
+              <div class="field-error-msg">Podaj poprawny adres email.</div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="data_ur">Data urodzenia<span class="req">*</span></label>
+              <input type="date" id="data_ur" name="data_urodzenia" required>
+              <div class="field-error-msg">Podaj datę urodzenia.</div>
+            </div>
+            <div class="field">
+              <label for="wyksztalcenie">Wykształcenie</label>
+              <select id="wyksztalcenie" name="wyksztalcenie">
+                <option value="">Wybierz</option>
+                <option>Podstawowe</option>
+                <option>Zawodowe / zasadnicze</option>
+                <option>Średnie / technikum</option>
+                <option>Policealne</option>
+                <option>Wyższe licencjat/inżynier</option>
+                <option>Wyższe magister/doktor</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="adres_zam">Adres zamieszkania<span class="req">*</span></label>
+            <input type="text" id="adres_zam" name="adres_zamieszkania" required placeholder="Ulica, numer, kod pocztowy, miejscowość">
+            <div class="field-error-msg">Podaj adres zamieszkania.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-panel" data-panel="1">
+        <div class="card-head">
+          <div class="eyebrow">Krok 2 z 6</div>
+          <h1 class="step-title">Lokalizacja działalności</h1>
+          <p class="step-sub">Gdzie będzie prowadzona firma? Od tego zależy, który program się kwalifikuje.</p>
+        </div>
+        <div class="step-body">
+          <div class="row2">
+            <div class="field">
+              <label for="woj">Województwo<span class="req">*</span></label>
+              <select id="woj" name="wojewodztwo" required>
+                <option value="">Wybierz</option>
+                <option>dolnośląskie</option><option>kujawsko-pomorskie</option>
+                <option>lubelskie</option><option>lubuskie</option>
+                <option>łódzkie</option><option>małopolskie</option>
+                <option>mazowieckie</option><option>opolskie</option>
+                <option>podkarpackie</option><option>podlaskie</option>
+                <option>pomorskie</option><option>śląskie</option>
+                <option>świętokrzyskie</option><option>warmińsko-mazurskie</option>
+                <option>wielkopolskie</option><option>zachodniopomorskie</option>
+              </select>
+              <div class="field-error-msg">Wybierz województwo.</div>
+            </div>
+            <div class="field">
+              <label for="powiat">Powiat<span class="req">*</span></label>
+              <input type="text" id="powiat" name="powiat" required>
+              <div class="field-error-msg">Podaj powiat.</div>
+            </div>
+          </div>
+          <div class="field">
+            <label for="gmina">Gmina / miejscowość<span class="req">*</span></label>
+            <input type="text" id="gmina" name="gmina_miejscowosc" required>
+            <div class="field-error-msg">Podaj gminę lub miejscowość.</div>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Typ miejscowości<span class="req">*</span></legend>
+              <div class="choices" data-group="typ_miejscowosci" data-required="true">
+                <button type="button" class="choice-btn" data-value="Wieś"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Wieś</button>
+                <button type="button" class="choice-btn" data-value="Miasto poniżej 20 tys."><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Miasto poniżej 20 tys.</button>
+                <button type="button" class="choice-btn" data-value="Miasto powyżej 20 tys."><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Miasto powyżej 20 tys.</button>
+              </div>
+              <div class="field-error-msg" data-error-for="typ_miejscowosci">Wybierz typ miejscowości.</div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Czy lokal / obiekt już posiadasz?</legend>
+              <div class="choices" data-group="status_lokalu">
+                <button type="button" class="choice-btn" data-value="Tak, własny"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tak, własny</button>
+                <button type="button" class="choice-btn" data-value="Tak, wynajęty"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tak, wynajęty</button>
+                <button type="button" class="choice-btn" data-value="Nie, szukam"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Nie, szukam</button>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <label for="adres_lokalu">Adres lokalu / miejsca prowadzenia działalności <span class="opt">(zostaw puste, jeśli jeszcze nie wiesz)</span></label>
+            <input type="text" id="adres_lokalu" name="adres_lokalu">
+          </div>
+        </div>
+      </div>
+
+      <div class="step-panel" data-panel="2">
+        <div class="card-head">
+          <div class="eyebrow">Krok 3 z 6</div>
+          <h1 class="step-title">Status zawodowy</h1>
+          <p class="step-sub">Twoja aktualna sytuacja wpływa na to, który program dotacyjny jest dostępny.</p>
+        </div>
+        <div class="step-body">
+          <div class="field">
+            <fieldset>
+              <legend>Obecny status<span class="req">*</span></legend>
+              <div class="choices stack" data-group="status_zawodowy" data-required="true">
+                <button type="button" class="choice-btn" data-value="Pracujący (etat/umowa)"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pracujący (etat/umowa)</button>
+                <button type="button" class="choice-btn" data-value="Bezrobotny (zarejestrowany w PUP)"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Bezrobotny (zarejestrowany w PUP)</button>
+                <button type="button" class="choice-btn" data-value="Bezrobotny (nie w PUP)"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Bezrobotny (nie w PUP)</button>
+                <button type="button" class="choice-btn" data-value="Rolnik / ubezpieczony KRUS"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Rolnik / ubezpieczony KRUS</button>
+              </div>
+              <div class="field-error-msg" data-error-for="status_zawodowy">Wybierz obecny status.</div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Czy masz doświadczenie w planowanej branży?<span class="req">*</span></legend>
+              <div class="choices" data-group="doswiadczenie" data-required="true">
+                <button type="button" class="choice-btn" data-value="Tak, wieloletnie"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tak, wieloletnie</button>
+                <button type="button" class="choice-btn" data-value="Częściowe"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Częściowe</button>
+                <button type="button" class="choice-btn" data-value="Dopiero się uczę"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Dopiero się uczę</button>
+              </div>
+              <div class="field-error-msg" data-error-for="doswiadczenie">Wybierz poziom doświadczenia.</div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <label for="opis_dosw">Krótki opis doświadczenia zawodowego <span class="opt">(opcjonalnie)</span></label>
+            <textarea id="opis_dosw" name="opis_doswiadczenia"></textarea>
+          </div>
+          <div class="field">
+            <label for="kursy">Ukończone kursy / certyfikaty <span class="opt">(opcjonalnie)</span></label>
+            <textarea id="kursy" name="kursy_certyfikaty"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-panel" data-panel="3">
+        <div class="card-head">
+          <div class="eyebrow">Krok 4 z 6</div>
+          <h1 class="step-title">Planowana działalność</h1>
+          <p class="step-sub">Czym będzie zajmować się firma?</p>
+        </div>
+        <div class="step-body">
+          <div class="field">
+            <label for="branza">Branża<span class="req">*</span></label>
+            <select id="branza" name="branza" required>
+              <option value="">Wybierz najbliższą</option>
+              <optgroup label="Usługi techniczne">
+                <option>Usługi budowlane / remontowo-wykończeniowe</option>
+                <option>Mechanika pojazdowa / wulkanizacja</option>
+                <option>Stacja kontroli pojazdów (diagnostyka)</option>
+                <option>Usługi elektryczne / instalatorskie</option>
+                <option>Usługi komunalne / wywóz nieczystości</option>
+                <option>Transport / spedycja / przewóz osób</option>
+              </optgroup>
+              <optgroup label="Handel i usługi">
+                <option>Sklep / handel detaliczny</option>
+                <option>Kwiaciarnia / florystyka</option>
+                <option>Fryzjer / kosmetyczka / salon urody</option>
+                <option>Gastronomia / catering / kawiarnia</option>
+                <option>Usługi sprzątające / porządkowe</option>
+                <option>Usługi opiekuńcze / opieka nad dziećmi lub seniorami</option>
+              </optgroup>
+              <optgroup label="Cyfrowe i kreatywne">
+                <option>IT / programowanie / web development</option>
+                <option>Marketing / grafika / media społecznościowe</option>
+                <option>Edukacja / korepetycje / szkolenia</option>
+                <option>Fotografia / wideo</option>
+              </optgroup>
+              <optgroup label="Rolno-spożywcze">
+                <option>Przetwórstwo rolno-spożywcze</option>
+                <option>Agroturystyka / turystyka wiejska</option>
+                <option>Sprzedaż produktów rolnych / ekologicznych</option>
+              </optgroup>
+              <optgroup label="Produkcja i inne">
+                <option>Produkcja / wytwórstwo</option>
+                <option>Działalność rzemieślnicza</option>
+                <option>Inna (opisz poniżej)</option>
+              </optgroup>
+            </select>
+            <div class="field-error-msg">Wybierz branżę.</div>
+          </div>
+
+          <div class="field">
+            <label for="nazwa_firmy">Nazwa planowanej firmy <span class="opt">(jeśli masz pomysł)</span></label>
+            <input type="text" id="nazwa_firmy" name="nazwa_firmy">
+          </div>
+
+          <div class="field">
+            <label for="opis_dzial">Opis działalności — własnymi słowami<span class="req">*</span></label>
+            <textarea id="opis_dzial" name="opis_dzialalnosci" required></textarea>
+            <div class="hint">Im więcej szczegółów, tym lepiej przygotujemy wniosek.</div>
+            <div class="field-error-msg">Opisz planowaną działalność.</div>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Czy masz już potencjalnych klientów / zleceniodawców?</legend>
+              <div class="choices" data-group="klienci">
+                <button type="button" class="choice-btn" data-value="Tak"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tak</button>
+                <button type="button" class="choice-btn" data-value="Mam kontakty"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Mam kontakty</button>
+                <button type="button" class="choice-btn" data-value="Dopiero będę szukać"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Dopiero będę szukać</button>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <label for="motywacja">Dlaczego ta branża? Co Cię motywuje? <span class="opt">(opcjonalnie)</span></label>
+            <textarea id="motywacja" name="motywacja"></textarea>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-panel" data-panel="4">
+        <div class="card-head">
+          <div class="eyebrow">Krok 5 z 6</div>
+          <h1 class="step-title">Planowane zakupy i wydatki</h1>
+          <p class="step-sub">Co chcesz sfinansować z dotacji?</p>
+        </div>
+        <div class="step-body">
+          <div class="field">
+            <fieldset>
+              <legend>Rodzaj planowanych wydatków<span class="req">*</span> <span class="opt">(zaznacz wszystkie pasujące)</span></legend>
+              <div class="choices check-grid" data-group="wydatki" data-required="true" data-multi="true">
+                <button type="button" class="choice-btn" data-value="Maszyny / urządzenia"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Maszyny / urządzenia</button>
+                <button type="button" class="choice-btn" data-value="Pojazd / ciężarówka"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Pojazd / ciężarówka</button>
+                <button type="button" class="choice-btn" data-value="Wyposażenie lokalu"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Wyposażenie lokalu</button>
+                <button type="button" class="choice-btn" data-value="Remont / adaptacja"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Remont / adaptacja</button>
+                <button type="button" class="choice-btn" data-value="Sprzęt IT / komputer"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Sprzęt IT / komputer</button>
+                <button type="button" class="choice-btn" data-value="Oprogramowanie"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Oprogramowanie</button>
+                <button type="button" class="choice-btn" data-value="Materiały / towar"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Materiały / towar</button>
+                <button type="button" class="choice-btn" data-value="Inne"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Inne</button>
+              </div>
+              <div class="field-error-msg" data-error-for="wydatki">Zaznacz co najmniej jedną kategorię.</div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <label for="opis_zakupow">Szczegółowy opis planowanych zakupów<span class="req">*</span></label>
+            <textarea id="opis_zakupow" name="opis_zakupow" required></textarea>
+            <div class="field-error-msg">Opisz planowane zakupy.</div>
+          </div>
+
+          <div class="field">
+            <label for="wartosc_inw">Szacunkowa łączna wartość inwestycji<span class="req">*</span></label>
+            <select id="wartosc_inw" name="wartosc_inwestycji" required>
+              <option value="">Wybierz przedział</option>
+              <option>do 20 000 zł</option>
+              <option>20 000 – 40 000 zł</option>
+              <option>40 000 – 80 000 zł</option>
+              <option>80 000 – 120 000 zł</option>
+              <option>120 000 – 150 000 zł</option>
+              <option>powyżej 150 000 zł</option>
+            </select>
+            <div class="field-error-msg">Wybierz przedział wartości inwestycji.</div>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Czy posiadasz środki na wkład własny?</legend>
+              <div class="choices" data-group="wklad_wlasny">
+                <button type="button" class="choice-btn" data-value="Tak"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tak</button>
+                <button type="button" class="choice-btn" data-value="Częściowo"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Częściowo</button>
+                <button type="button" class="choice-btn" data-value="Nie"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Nie</button>
+              </div>
+            </fieldset>
+          </div>
+        </div>
+      </div>
+
+      <div class="step-panel" data-panel="5">
+        <div class="card-head">
+          <div class="eyebrow">Krok 6 z 6</div>
+          <h1 class="step-title">Rynek i plany</h1>
+          <p class="step-sub">Ostatnia sekcja — już prawie gotowe.</p>
+        </div>
+        <div class="step-body">
+          <div class="field">
+            <fieldset>
+              <legend>Kto będzie Twoim głównym klientem / odbiorcą?<span class="req">*</span></legend>
+              <div class="choices" data-group="odbiorca" data-required="true">
+                <button type="button" class="choice-btn" data-value="Osoby prywatne"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Osoby prywatne</button>
+                <button type="button" class="choice-btn" data-value="Firmy (B2B)"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Firmy (B2B)</button>
+                <button type="button" class="choice-btn" data-value="Samorządy / instytucje"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Samorządy / instytucje</button>
+                <button type="button" class="choice-btn" data-value="Mieszane"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Mieszane</button>
+              </div>
+              <div class="field-error-msg" data-error-for="odbiorca">Wybierz głównego odbiorcę.</div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <label for="rynek">Jak duży jest rynek na Twoje usługi w okolicy? <span class="opt">(opcjonalnie)</span></label>
+            <textarea id="rynek" name="rynek_okolica"></textarea>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Planowane zatrudnienie pracowników?</legend>
+              <div class="choices" data-group="zatrudnienie">
+                <button type="button" class="choice-btn" data-value="Tylko ja"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tylko ja</button>
+                <button type="button" class="choice-btn" data-value="1–2 osoby"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>1–2 osoby</button>
+                <button type="button" class="choice-btn" data-value="Więcej niż 2"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Więcej niż 2</button>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <fieldset>
+              <legend>Skąd dowiedziałeś/aś się o DotacjaPlus?</legend>
+              <div class="choices" data-group="zrodlo">
+                <button type="button" class="choice-btn" data-value="Facebook"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Facebook</button>
+                <button type="button" class="choice-btn" data-value="Polecenie"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Polecenie</button>
+                <button type="button" class="choice-btn" data-value="Google"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Google</button>
+                <button type="button" class="choice-btn" data-value="Inne"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Inne</button>
+              </div>
+            </fieldset>
+          </div>
+
+          <div class="field">
+            <label for="dodatkowe">Dodatkowe informacje / pytania do konsultanta <span class="opt">(opcjonalnie)</span></label>
+            <textarea id="dodatkowe" name="dodatkowe_info"></textarea>
+          </div>
+
+          <div style="position:absolute; left:-9999px;" aria-hidden="true">
+            <label for="_gotcha">Nie wypełniaj tego pola</label>
+            <input type="text" name="_gotcha" id="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+        </div>
+      </div>
+
+      <div class="step-panel" data-panel="success">
+        <div class="success">
+          <div class="seal">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 12l6 6L20 6" stroke="#2E6B52" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2>Formularz wysłany</h2>
+          <p>Twoje dane zostały bezpiecznie przesłane do konsultanta DotacjaPlus. Skontaktujemy się w ciągu <strong>24 godzin roboczych</strong>.</p>
+          <div class="timeline">
+            <div class="t-item"><div class="t-num">1</div><p>Konsultant analizuje Twoje dane i dobiera odpowiedni program dotacyjny.</p></div>
+            <div class="t-item"><div class="t-num">2</div><p>Przygotowujemy kompletny wniosek i biznesplan na podstawie Twoich odpowiedzi.</p></div>
+            <div class="t-item"><div class="t-num">3</div><p>Kontaktujemy się telefonicznie lub mailowo w sprawie dalszych kroków.</p></div>
+            <div class="t-item"><div class="t-num">4</div><p>Składamy wniosek i monitorujemy go aż do decyzji o dotacji.</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="navArea" class="step-body" style="padding-top:0;">
+        <div class="submit-error" id="submitError">Coś poszło nie tak przy wysyłce. Sprawdź połączenie z internetem i spróbuj ponownie.</div>
+        <div class="nav-row">
+          <button type="button" class="btn btn-ghost" id="btnBack">Wstecz</button>
+          <div class="spacer"></div>
+          <button type="button" class="btn btn-primary" id="btnNext">Dalej<span class="arrow">→</span></button>
+          <button type="submit" class="btn btn-primary" id="btnSubmit" style="display:none;">Wyślij formularz</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</main>
+
+<footer class="legal">
+  DotacjaPlus © 2026 · Twoje dane są przetwarzane wyłącznie w celu przygotowania wniosku dotacyjnego.
+  Pytania? Napisz na <a href="mailto:dotacjaplus.kontakt@gmail.com">dotacjaplus.kontakt@gmail.com</a>.
+</footer>
+
+<script>
+(function(){
+  const STEP_NAMES = ["Dane osobowe","Lokalizacja","Status zawodowy","Działalność","Wydatki","Rynek i plany"];
+  const TOTAL_STEPS = STEP_NAMES.length;
+  let current = 0;
+
+  const form = document.getElementById('grantForm');
+  const panels = Array.from(document.querySelectorAll('.step-panel'));
+  const tabs = Array.from(document.querySelectorAll('.step'));
+  const btnBack = document.getElementById('btnBack');
+  const btnNext = document.getElementById('btnNext');
+  const btnSubmit = document.getElementById('btnSubmit');
+  const mobileFill = document.getElementById('mobileFill');
+  const mobileStepLabel = document.getElementById('mobileStepLabel');
+  const mobileStepName = document.getElementById('mobileStepName');
+  const submitError = document.getElementById('submitError');
+  const navArea = document.getElementById('navArea');
+
+  const STORAGE_KEY = 'dotacjaplus_draft_v1';
+
+  const groups = {};
+  document.querySelectorAll('.choices[data-group]').forEach(group => {
+    const name = group.dataset.group;
+    const multi = group.dataset.multi === 'true';
+    groups[name] = { multi, selected: new Set(), el: group };
+    group.querySelectorAll('.choice-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const val = btn.dataset.value;
+        if(multi){
+          if(groups[name].selected.has(val)){
+            groups[name].selected.delete(val);
+            btn.classList.remove('selected');
+          } else {
+            groups[name].selected.add(val);
+            btn.classList.add('selected');
+          }
+        } else {
+          groups[name].selected.clear();
+          group.querySelectorAll('.choice-btn').forEach(b=>b.classList.remove('selected'));
+          groups[name].selected.add(val);
+          btn.classList.add('selected');
+        }
+        clearFieldError(group.closest('.field'));
+        saveDraft();
+      });
+    });
+  });
+
+  function clearFieldError(fieldEl){ if(fieldEl){ fieldEl.classList.remove('error'); } }
+
+  function validateStep(index){
+    const panel = panels.find(p => p.dataset.panel == index);
+    let valid = true;
+
+    panel.querySelectorAll('input[required], select[required], textarea[required]').forEach(input => {
+      const field = input.closest('.field');
+      let ok = true;
+      if(input.type === 'email' && input.value){
+        ok = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(input.value);
+      } else if(input.name === 'telefon'){
+        ok = input.value.replace(/\D/g,'').length >= 9;
+      } else {
+        ok = input.value.trim().length > 0;
+      }
+      if(!ok){ valid = false; field.classList.add('error'); }
+      else { field.classList.remove('error'); }
+    });
+
+    panel.querySelectorAll('.choices[data-required="true"]').forEach(group => {
+      const name = group.dataset.group;
+      const field = group.closest('.field');
+      const errMsg = field.querySelector(`[data-error-for="${name}"]`);
+      if(!groups[name] || groups[name].selected.size === 0){
+        valid = false; field.classList.add('error');
+        if(errMsg) errMsg.style.display = 'block';
+      } else {
+        field.classList.remove('error');
+        if(errMsg) errMsg.style.display = 'none';
+      }
+    });
+
+    return valid;
+  }
+
+  function showStep(index){
+    panels.forEach(p => p.classList.toggle('active', p.dataset.panel == index));
+    tabs.forEach((t,i) => {
+      t.classList.toggle('active', i === index);
+      t.classList.toggle('done', i < index);
+      t.classList.toggle('clickable', i <= current || i < index);
+    });
+    btnBack.style.visibility = index === 0 ? 'hidden' : 'visible';
+    btnNext.style.display = index === TOTAL_STEPS - 1 ? 'none' : 'inline-block';
+    btnSubmit.style.display = index === TOTAL_STEPS - 1 ? 'inline-block' : 'none';
+
+    const pct = ((index+1)/TOTAL_STEPS*100).toFixed(1);
+    mobileFill.style.width = pct + '%';
+    mobileStepLabel.textContent = `Krok ${index+1} / ${TOTAL_STEPS}`;
+    mobileStepName.textContent = STEP_NAMES[index];
+
+    window.scrollTo({top:0, behavior:'smooth'});
+  }
+
+  btnNext.addEventListener('click', () => {
+    if(!validateStep(current)){
+      const firstError = panels[current].querySelector('.error');
+      if(firstError) firstError.scrollIntoView({behavior:'smooth', block:'center'});
+      return;
+    }
+    saveDraft();
+    if(current < TOTAL_STEPS - 1){ current++; showStep(current); }
+  });
+
+  btnBack.addEventListener('click', () => {
+    if(current > 0){ current--; showStep(current); }
+  });
+
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('click', () => { if(i <= current){ current = i; showStep(current); } });
+  });
+
+  function saveDraft(){
+    try{
+      const data = {};
+      new FormData(form).forEach((v,k) => { data[k] = v; });
+      Object.keys(groups).forEach(name => { data['_choice_'+name] = Array.from(groups[name].selected); });
+      data['_step'] = current;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    }catch(e){}
+  }
+
+  function restoreDraft(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if(!raw) return;
+      const data = JSON.parse(raw);
+      Object.keys(data).forEach(key => {
+        if(key.startsWith('_choice_')){
+          const name = key.replace('_choice_','');
+          if(groups[name]){
+            data[key].forEach(val => {
+              const btn = groups[name].el.querySelector(`[data-value="${CSS.escape(val)}"]`);
+              if(btn){ btn.classList.add('selected'); groups[name].selected.add(val); }
+            });
+          }
+        } else if(key !== '_step'){
+          const el = form.elements[key];
+          if(el) el.value = data[key];
+        }
+      });
+      if(typeof data._step === 'number' && data._step < TOTAL_STEPS){ current = data._step; }
+    }catch(e){}
+  }
+
+  form.querySelectorAll('input, select, textarea').forEach(el => {
+    el.addEventListener('input', () => clearFieldError(el.closest('.field')));
+    el.addEventListener('change', saveDraft);
+  });
+
+  restoreDraft();
+  showStep(current);
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if(!validateStep(current)) return;
+
+    submitError.style.display = 'none';
+    btnSubmit.disabled = true;
+    btnSubmit.textContent = 'Wysyłanie…';
+
+    const payload = new FormData(form);
+    Object.keys(groups).forEach(name => { payload.set(name, Array.from(groups[name].selected).join(', ')); });
+    payload.set('_subject', 'Nowe zgłoszenie — DotacjaPlus');
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 15000);
+
+    fetch('https://formsubmit.co/ajax/dotacjaplus.kontakt@gmail.com', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: payload,
+      signal: controller.signal
+    })
+    .then(res => { clearTimeout(timeoutId); if(!res.ok) throw new Error('bad response'); return res.json(); })
+    .then(() => {
+      localStorage.removeItem(STORAGE_KEY);
+      panels.forEach(p => p.classList.remove('active'));
+      document.querySelector('[data-panel="success"]').classList.add('active');
+      navArea.style.display = 'none';
+      const st = document.querySelector('.stepper'); if(st) st.style.display='none';
+      const pm = document.querySelector('.progress-mobile'); if(pm) pm.style.display='none';
+      window.scrollTo({top:0, behavior:'smooth'});
+    })
+    .catch(() => {
+      submitError.style.display = 'block';
+      btnSubmit.disabled = false;
+      btnSubmit.textContent = 'Wyślij formularz';
+      submitError.scrollIntoView({behavior:'smooth', block:'center'});
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
