@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DotacjaPlus — Formularz danych</title>
+<title>Kapitałownia — Formularz danych</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -264,7 +264,7 @@
     <span class="mark">
       <svg viewBox="0 0 24 24" fill="none"><path d="M6 16L16 6M16 6H10M16 6V12" stroke="#F6EFDD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </span>
-    <span class="name">Dotacja<em>Plus</em></span>
+    <span class="name">Kapitałownia</span>
   </div>
   <div class="secure">
     <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4z" stroke="currentColor" stroke-width="1.6"/></svg>
@@ -275,14 +275,14 @@
 <main id="main" class="shell">
 
   <nav class="stepper" aria-label="Postęp formularza">
-    <p class="stepper-eyebrow">Postęp wniosku</p>
+    <p class="stepper-eyebrow">Formularz klienta</p>
     <ol class="steps" id="tabList">
       <li class="step" data-step="0"><span class="dot"></span><span class="label">Dane osobowe</span></li>
       <li class="step" data-step="1"><span class="dot"></span><span class="label">Lokalizacja</span></li>
       <li class="step" data-step="2"><span class="dot"></span><span class="label">Status zawodowy</span></li>
       <li class="step" data-step="3"><span class="dot"></span><span class="label">Działalność</span></li>
       <li class="step" data-step="4"><span class="dot"></span><span class="label">Wydatki</span></li>
-      <li class="step" data-step="5"><span class="dot"></span><span class="label">Rynek i plany</span></li>
+      <li class="step" data-step="5"><span class="dot"></span><span class="label">Plan i odbiorcy</span></li>
     </ol>
   </nav>
 
@@ -323,9 +323,40 @@
               <div class="field-error-msg">Podaj poprawny numer telefonu.</div>
             </div>
             <div class="field">
-              <label for="email">Adres email <span class="opt">(opcjonalnie)</span></label>
-              <input type="email" id="email" name="email" autocomplete="email">
+              <label for="email">Adres email<span class="req">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email">
               <div class="field-error-msg">Podaj poprawny adres email.</div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="rodzaj_klienta">Kogo dotyczy formularz?<span class="req">*</span></label>
+              <select id="rodzaj_klienta" name="rodzaj_klienta" required>
+                <option value="">Wybierz</option>
+                <option>Osoba planująca założenie działalności</option>
+                <option>JDG / istniejąca firma</option>
+                <option>Spółka</option>
+                <option>Fundacja / stowarzyszenie / NGO</option>
+                <option>Rolnik / gospodarstwo rolne</option>
+                <option>Inny podmiot</option>
+              </select>
+              <div class="field-error-msg">Wybierz rodzaj klienta.</div>
+            </div>
+            <div class="field">
+              <label for="rodzaj_finansowania">Rodzaj finansowania<span class="req">*</span></label>
+              <select id="rodzaj_finansowania" name="rodzaj_finansowania" required>
+                <option value="">Wybierz</option>
+                <option>Wsparcie w starcie</option>
+                <option>Dotacja z Urzędu Pracy</option>
+                <option>LGD</option>
+                <option>Dotacja / finansowanie na rozwój firmy</option>
+                <option>Fundacja / PES / NGO</option>
+                <option>Rolnictwo / Młody Rolnik</option>
+                <option>Pożyczka preferencyjna</option>
+                <option>Nie wiem — proszę dobrać właściwą opcję</option>
+                <option>Inne</option>
+              </select>
+              <div class="field-error-msg">Wybierz rodzaj finansowania.</div>
             </div>
           </div>
           <div class="row2">
@@ -466,7 +497,7 @@
       <div class="step-panel" data-panel="3">
         <div class="card-head">
           <div class="eyebrow">Krok 4 z 6</div>
-          <h1 class="step-title">Planowana działalność</h1>
+          <h1 class="step-title">Działalność / projekt</h1>
           <p class="step-sub">Czym będzie zajmować się firma?</p>
         </div>
         <div class="step-body">
@@ -516,7 +547,7 @@
           </div>
 
           <div class="field">
-            <label for="opis_dzial">Opis działalności — własnymi słowami<span class="req">*</span></label>
+            <label for="opis_dzial">Opis działalności lub projektu — własnymi słowami<span class="req">*</span></label>
             <textarea id="opis_dzial" name="opis_dzialalnosci" required></textarea>
             <div class="hint">Im więcej szczegółów, tym lepiej przygotujemy wniosek.</div>
             <div class="field-error-msg">Opisz planowaną działalność.</div>
@@ -600,7 +631,7 @@
       <div class="step-panel" data-panel="5">
         <div class="card-head">
           <div class="eyebrow">Krok 6 z 6</div>
-          <h1 class="step-title">Rynek i plany</h1>
+          <h1 class="step-title">Plan i odbiorcy</h1>
           <p class="step-sub">Ostatnia sekcja — już prawie gotowe.</p>
         </div>
         <div class="step-body">
@@ -618,7 +649,7 @@
           </div>
 
           <div class="field">
-            <label for="rynek">Jak duży jest rynek na Twoje usługi w okolicy? <span class="opt">(opcjonalnie)</span></label>
+            <label for="rynek">Jak wygląda zapotrzebowanie na Twoje usługi / projekt? <span class="opt">(opcjonalnie)</span></label>
             <textarea id="rynek" name="rynek_okolica"></textarea>
           </div>
 
@@ -635,7 +666,7 @@
 
           <div class="field">
             <fieldset>
-              <legend>Skąd dowiedziałeś/aś się o DotacjaPlus?</legend>
+              <legend>Skąd dowiedziałeś/aś się o Kapitałownia?</legend>
               <div class="choices" data-group="zrodlo">
                 <button type="button" class="choice-btn" data-value="Facebook"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Facebook</button>
                 <button type="button" class="choice-btn" data-value="Polecenie"><span class="indicator"><svg viewBox="0 0 10 8" fill="none"><path d="M1 4L4 7L9 1" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Polecenie</button>
@@ -663,12 +694,12 @@
             <svg viewBox="0 0 24 24" fill="none"><path d="M4 12l6 6L20 6" stroke="#2E6B52" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h2>Formularz wysłany</h2>
-          <p>Twoje dane zostały bezpiecznie przesłane do konsultanta DotacjaPlus. Skontaktujemy się w ciągu <strong>24 godzin roboczych</strong>.</p>
+          <p>Twoje dane zostały bezpiecznie przesłane do Kapitałowni. Na ich podstawie przygotujemy dalsze kroki dotyczące finansowania i dokumentacji.</p>
           <div class="timeline">
-            <div class="t-item"><div class="t-num">1</div><p>Konsultant analizuje Twoje dane i dobiera odpowiedni program dotacyjny.</p></div>
-            <div class="t-item"><div class="t-num">2</div><p>Przygotowujemy kompletny wniosek i biznesplan na podstawie Twoich odpowiedzi.</p></div>
+            <div class="t-item"><div class="t-num">1</div><p>Analizujemy dane i dopasowujemy właściwy instrument finansowania.</p></div>
+            <div class="t-item"><div class="t-num">2</div><p>Na podstawie odpowiedzi przygotowujemy zakres dokumentacji i kosztorysu.</p></div>
             <div class="t-item"><div class="t-num">3</div><p>Kontaktujemy się telefonicznie lub mailowo w sprawie dalszych kroków.</p></div>
-            <div class="t-item"><div class="t-num">4</div><p>Składamy wniosek i monitorujemy go aż do decyzji o dotacji.</p></div>
+            <div class="t-item"><div class="t-num">4</div><p>Prowadzimy dokumentację zgodnie z wymaganiami wybranego programu.</p></div>
           </div>
         </div>
       </div>
@@ -688,13 +719,13 @@
 </main>
 
 <footer class="legal">
-  DotacjaPlus © 2026 · Twoje dane są przetwarzane wyłącznie w celu przygotowania wniosku dotacyjnego.
-  Pytania? Napisz na <a href="mailto:dotacjaplus.kontakt@gmail.com">dotacjaplus.kontakt@gmail.com</a>.
+  Kapitałownia © 2026 · Twoje dane są przetwarzane wyłącznie w celu obsługi zapytania i przygotowania dokumentacji finansowania.
+  Pytania? Napisz na <a href="mailto:kapitalownia@gmail.com">kapitalownia@gmail.com</a>.
 </footer>
 
 <script>
 (function(){
-  const STEP_NAMES = ["Dane osobowe","Lokalizacja","Status zawodowy","Działalność","Wydatki","Rynek i plany"];
+  const STEP_NAMES = ["Dane osobowe","Lokalizacja","Status zawodowy","Działalność","Wydatki","Plan i odbiorcy"];
   const TOTAL_STEPS = STEP_NAMES.length;
   let current = 0;
 
@@ -710,7 +741,7 @@
   const submitError = document.getElementById('submitError');
   const navArea = document.getElementById('navArea');
 
-  const STORAGE_KEY = 'dotacjaplus_draft_v1';
+  const STORAGE_KEY = 'kapitalownia_form_draft_v1';
 
   const groups = {};
   document.querySelectorAll('.choices[data-group]').forEach(group => {
@@ -864,12 +895,12 @@
 
     const payload = new FormData(form);
     Object.keys(groups).forEach(name => { payload.set(name, Array.from(groups[name].selected).join(', ')); });
-    payload.set('_subject', 'Nowe zgłoszenie — DotacjaPlus');
+    payload.set('_subject', 'Nowy formularz klienta — Kapitałownia');
 
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000);
 
-    fetch('https://formsubmit.co/ajax/dotacjaplus.kontakt@gmail.com', {
+    fetch('https://formsubmit.co/ajax/kapitalownia@gmail.com', {
       method: 'POST',
       headers: { 'Accept': 'application/json' },
       body: payload,
