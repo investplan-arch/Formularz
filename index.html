@@ -12,7 +12,7 @@ main{max-width:760px;margin:0 auto;padding:32px 16px 72px}.intro{margin-bottom:2
 input,select,textarea{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:9px;background:#fcfbf8;color:var(--ink);font:inherit}textarea{min-height:110px;resize:vertical}input:focus,select:focus,textarea:focus{outline:3px solid #a9822f1c;border-color:var(--gold)}.route-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.route{border:1.5px solid var(--line);background:#fcfbf8;border-radius:12px;padding:16px;text-align:left;cursor:pointer;font:600 15px inherit;color:var(--ink)}.route.selected{border-color:var(--ink);background:var(--ink);color:#fff}.hint{font-size:12px;color:var(--muted);margin-top:6px}
 .nav{display:flex;gap:10px;margin-top:24px}.nav button{border:0;border-radius:9px;padding:13px 20px;font-weight:700;cursor:pointer}.back{background:#f0ece3;color:var(--ink)}.next,.submit{margin-left:auto;background:var(--ink);color:#fff}.error{color:var(--red);font-size:13px;margin-top:10px;display:none}.success{text-align:center;padding:36px 10px}.success h2{color:var(--green)}[hidden]{display:none!important}@media(max-width:600px){.grid,.route-grid{grid-template-columns:1fr}.card{padding:22px 17px}.intro h1{font-size:28px}}
 </style></head><body>
-<header><div class="brand">Kapitałownia</div><div class="secure">🔒 Bezpieczny formularz</div></header><main><section class="intro"><h1>Formularz danych klienta</h1><p>Wybierz swoją sytuację. Pokażemy tylko pytania potrzebne do przygotowania dokumentacji.</p></section><div class="progress"><div id="bar" style="width:25%"></div></div><form id="form" novalidate>
+<header><div class="brand">Kapitałownia</div><div class="secure">🔒 Bezpieczny formularz</div></header><main><section class="intro"><h1>Formularz danych klienta</h1><p>Wybierz swoją sytuację. Pokażemy tylko pytania potrzebne do przygotowania dokumentacji.</p></section><div class="progress"><div id="bar" style="width:25%"></div></div><form id="form" action="https://formsubmit.co/kapitalownia@gmail.com" method="POST" novalidate><input type="hidden" name="_subject" id="mail_subject" value="Nowy formularz klienta — Kapitałownia"><input type="hidden" name="_next" value="https://investplan-arch.github.io/Formularz/?wyslano=1"><input type="hidden" name="_url" value="https://investplan-arch.github.io/Formularz/"><input type="hidden" name="_template" value="table">
 <section class="card step active" data-step="0"><h2>Na czym pracujemy?</h2><p class="sub">Wybierz ścieżkę, której dotyczy zgłoszenie.</p><div class="route-grid" id="routes"><button type="button" class="route" data-value="Nowa działalność">Nowa działalność</button><button type="button" class="route" data-value="Istniejąca firma">Istniejąca firma</button><button type="button" class="route" data-value="Fundacja / stowarzyszenie" data-route="ngo">Fundacja / stowarzyszenie</button><button type="button" class="route" data-value="Inne">Inne</button></div><input type="hidden" id="client_type" name="rodzaj_klienta" required><div class="error" id="routeErr">Wybierz rodzaj klienta.</div><div class="nav"><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
 <section class="card step" data-step="1"><h2>Dane kontaktowe</h2><p class="sub">Dane osoby, z którą mamy kontaktować się w sprawie dokumentacji.</p><div class="grid"><div class="field"><label>Imię <span class="req">*</span></label><input name="imie" required></div><div class="field"><label>Nazwisko <span class="req">*</span></label><input name="nazwisko" required></div></div><div class="grid"><div class="field"><label>Telefon <span class="req">*</span></label><input name="telefon" type="tel" required></div><div class="field"><label>E-mail <span class="req">*</span></label><input name="email" type="email" required></div></div><div class="grid"><div class="field"><label>Województwo <span class="req">*</span></label><select name="wojewodztwo" required><option value="">Wybierz</option><option>dolnośląskie</option><option>kujawsko-pomorskie</option><option>lubelskie</option><option>lubuskie</option><option>łódzkie</option><option>małopolskie</option><option>mazowieckie</option><option>opolskie</option><option>podkarpackie</option><option>podlaskie</option><option>pomorskie</option><option>śląskie</option><option>świętokrzyskie</option><option>warmińsko-mazurskie</option><option>wielkopolskie</option><option>zachodniopomorskie</option></select></div><div class="field"><label>Powiat / miejscowość <span class="req">*</span></label><input name="powiat_miejscowosc" required></div></div><div class="nav"><button type="button" class="back" onclick="back()">← Wstecz</button><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
 <section class="card step" data-step="2" id="businessStep"><h2 id="businessTitle">Działalność i finansowanie</h2><p class="sub">Opisz sytuację i planowane wykorzystanie środków.</p><div class="field"><label>Obecna sytuacja / status <span class="req">*</span></label><textarea name="status_sytuacja" required placeholder="Np. osoba zatrudniona, bezrobotna, firma działa od 2022 r."></textarea></div><div class="field"><label>Czym ma zajmować się działalność lub na czym polega rozwój? <span class="req">*</span></label><textarea name="opis_dzialalnosci" required></textarea></div><div class="grid"><div class="field"><label>Oczekiwana kwota finansowania</label><input name="oczekiwana_kwota" placeholder="np. 80 000 zł"></div><div class="field"><label>Wkład własny</label><input name="wklad_wlasny" placeholder="kwota lub brak"></div></div><div class="field"><label>Na co mają zostać przeznaczone środki? <span class="req">*</span></label><textarea name="planowane_wydatki" required placeholder="Sprzęt, pojazd, lokal, szkolenia, marketing, wynagrodzenia itd."></textarea></div><div class="field"><label>Doświadczenie, kwalifikacje, uprawnienia</label><textarea name="doswiadczenie"></textarea></div><div class="field"><label>Dodatkowe informacje</label><textarea name="dodatkowe_info"></textarea></div><div class="nav"><button type="button" class="back" onclick="back()">← Wstecz</button><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
@@ -36,6 +36,7 @@ document.querySelectorAll('.route').forEach(button => button.onclick = () => {
   button.classList.add('selected');
   route = button.dataset.value;
   document.getElementById('client_type').value = route;
+  document.getElementById('mail_subject').value = 'Nowy formularz klienta — Kapitałownia — ' + route;
   document.getElementById('routeErr').style.display = 'none';
   syncRoute();
 });
@@ -89,11 +90,17 @@ form.addEventListener('submit', async event => {
   sending = true;
   button.disabled = true;
   button.textContent = 'Wysyłanie…';
+  let fallbackStarted = false;
   try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
     const response = await fetch('https://formsubmit.co/ajax/kapitalownia@gmail.com', {
-      method: 'POST', headers: {Accept: 'application/json', 'Content-Type': 'application/json'},
-      body: JSON.stringify(Object.fromEntries(data))
+      method: 'POST',
+      headers: {Accept: 'application/json', 'Content-Type': 'application/json'},
+      body: JSON.stringify(Object.fromEntries(data)),
+      signal: controller.signal
     });
+    clearTimeout(timeout);
     const result = await response.json();
     if (!response.ok || !(result.success === true || result.success === 'true')) throw new Error('Submission rejected');
     steps().forEach(panel => panel.classList.remove('active'));
@@ -101,13 +108,24 @@ form.addEventListener('submit', async event => {
     bar.style.width = '100%';
     try { localStorage.removeItem('kapitalownia_form_draft_v2'); } catch (_) {}
   } catch (_) {
-    error.textContent = 'Nie udało się potwierdzić wysłania formularza. Twoje odpowiedzi pozostają na tej stronie. Spróbuj ponownie lub napisz na kapitalownia@gmail.com.';
+    fallbackStarted = true;
+    error.textContent = 'Trwa wysyłanie formularza…';
     error.style.display = 'block';
+    button.textContent = 'Wysyłanie…';
+    HTMLFormElement.prototype.submit.call(form);
   } finally {
-    sending = false;
-    button.disabled = false;
-    button.textContent = 'Wyślij formularz';
+    if (!fallbackStarted) {
+      sending = false;
+      button.disabled = false;
+      button.textContent = 'Wyślij formularz';
+    }
   }
 });
 syncRoute();
+if (new URLSearchParams(window.location.search).get('wyslano') === '1') {
+  steps().forEach(panel => panel.classList.remove('active'));
+  document.querySelector('[data-step="success"]').classList.add('active');
+  bar.style.width = '100%';
+  try { localStorage.removeItem('kapitalownia_form_draft_v2'); } catch (_) {}
+}
 </script></body></html>
