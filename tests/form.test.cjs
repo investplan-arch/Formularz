@@ -6,7 +6,7 @@ function setup(response={success:'true',message:'The form was submitted successf
   const dom=new JSDOM(readFileSync('index.html','utf8'),{url:'https://example.test/',runScripts:'dangerously'});
   const w=dom.window,d=w.document,requests=[];
   w.scrollTo=()=>{};
-  w.fetch=async(url,options)=>{requests.push({url,data:Object.fromEntries(options.body)});return {ok:true,json:async()=>response}};
+  w.fetch=async(url,options)=>{requests.push({url,contentType:options.headers['Content-Type'],data:typeof options.body === 'string' ? JSON.parse(options.body) : Object.fromEntries(options.body)});return {ok:true,json:async()=>response}};
   const value=(name,text)=>d.querySelector(`[name="${name}"]`).value=text;
   function fill(route){
     [...d.querySelectorAll('.route')].find(b=>b.dataset.value===route).click();w.next();
@@ -20,7 +20,7 @@ function setup(response={success:'true',message:'The form was submitted successf
   return {w,d,requests,value,fill,submit,close:()=>w.close()};
 }
 for(const route of ['Nowa działalność','Istniejąca firma','Fundacja / stowarzyszenie','Inne'])test(`sends ${route} with unused branch empty`,async()=>{
-  const t=setup();try{t.fill(route);await t.submit();assert.equal(t.requests.length,1,'valid form must reach sending service');assert.equal(t.requests[0].data.rodzaj_klienta,route);assert.equal(t.requests[0].data[route==='Fundacja / stowarzyszenie'?'status_sytuacja':'ngo_misja'],undefined);assert.ok(t.d.querySelector('[data-step="success"]').classList.contains('active'));}finally{t.close()}
+  const t=setup();try{t.fill(route);await t.submit();assert.equal(t.requests.length,1,'valid form must reach sending service');assert.equal(t.requests[0].contentType,'application/json','service requires JSON transport');assert.equal(t.requests[0].data.rodzaj_klienta,route);assert.equal(t.requests[0].data[route==='Fundacja / stowarzyszenie'?'status_sytuacja':'ngo_misja'],undefined);assert.ok(t.d.querySelector('[data-step="success"]').classList.contains('active'));}finally{t.close()}
 });
 test('provider rejection preserves data and never displays success',async()=>{
   const t=setup({success:'false',message:'Form not activated'});try{t.fill('Nowa działalność');await t.submit();assert.equal(t.requests.length,1);assert.equal(t.d.querySelector('[data-step="success"]').classList.contains('active'),false);assert.equal(t.d.querySelector('#submitErr').style.display,'block');assert.equal(t.d.querySelector('[name="imie"]').value,'TEST');}finally{t.close()}
