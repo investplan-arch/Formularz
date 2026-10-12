@@ -33,8 +33,9 @@
   "firma": {
     "nazwa": "",
     "adres": "",
-    "nip": "",
-    "regon_krs": ""
+    "nip": "7393982505",
+    "regon_krs": "",
+    "_uwaga": "Imię i nazwisko właściciela celowo nie są publikowane. Pełne dane są w CEIDG pod numerem NIP. Adres można dopisać w polu adres."
   },
   "stats": [
     {

@@ -110,8 +110,20 @@ test('wersja robocza nie jest indeksowana i nie zawiera obsługi wysyłki', () =
   assert.ok(!existsSync(join(prev, 'api')));
 });
 
-test('produkcja nie buduje się bez danych administratora', () => {
-  assert.throws(() => execFileSync('node', [join(root, 'site/build.mjs'), '--mode=production', `--out=${join(tmp, 'x')}`], { stdio: 'pipe' }));
+test('produkcja nie buduje się bez NIP usługodawcy', () => {
+  const cfg = JSON.parse(readFileSync(join(root, 'site/site.json'), 'utf8'));
+  cfg.firma.nip = '';
+  const f = join(tmp, 'site-bez-nip.json');
+  writeFileSync(f, JSON.stringify(cfg));
+  assert.throws(() => execFileSync('node', [join(root, 'site/build.mjs'), '--mode=production', `--out=${join(tmp, 'x')}`], { stdio: 'pipe', env: { ...process.env, KAP_SITE_JSON: f } }));
+});
+
+test('polityka i regulamin identyfikują usługodawcę po NIP bez placeholderów', () => {
+  for (const f of ['polityka-prywatnosci/index.html', 'regulamin/index.html']) {
+    const h = readFileSync(join(dist, f), 'utf8');
+    assert.match(h, /NIP 7393982505/, f);
+    assert.doesNotMatch(h, /do uzupełnienia przed publikacją/, f);
+  }
 });
 
 async function fillCommon(p, email = 'test@example.com') {

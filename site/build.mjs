@@ -21,7 +21,7 @@ const mode = args.mode === 'production' ? 'production' : 'preview';
 const flat = Boolean(args.flat);
 const out = args.out ? String(args.out) : join(root, '..', mode === 'production' ? 'dist' : 'dist-preview');
 const readJson = f => JSON.parse(readFileSync(join(root, f), 'utf8'));
-const site = readJson('site.json');
+const site = process.env.KAP_SITE_JSON ? JSON.parse(readFileSync(process.env.KAP_SITE_JSON, 'utf8')) : readJson('site.json');
 const { programy, zrodla, sprawdzono } = readJson('programy.json');
 const { uslugi } = readJson('uslugi.json');
 const updated = new Date().toISOString().slice(0, 10);
@@ -31,15 +31,21 @@ const payments = uslugi.some(buyable);
 
 // Dane firmy są wymagane w polityce prywatności i regulaminie
 const firma = site.firma;
-const firmaFilled = Boolean(firma.nazwa && firma.adres && firma.nip);
+// Wymagany jest co najmniej NIP. Nazwa i adres są opcjonalne (jednoosobowa
+// działalność może nie chcieć publikować imienia i nazwiska wprost).
+const nipOk = /^\d{10}$/.test(String(firma.nip || '').replace(/\D/g, ''));
+const firmaFilled = nipOk;
 if (mode === 'production' && !firmaFilled && !args.local) {
-  console.error('Brak danych firmy w site/site.json (firma.nazwa, firma.adres, firma.nip). Polityka prywatności i regulamin nie mogą zostać opublikowane bez nich.');
+  console.error('Brak poprawnego NIP w site/site.json (firma.nip). Polityka prywatności i regulamin nie mogą zostać opublikowane bez danych identyfikujących usługodawcę.');
   process.exit(1);
 }
 const missing = label => `<mark>[${label} do uzupełnienia przed publikacją]</mark>`;
+const ceidg = 'https://aplikacja.ceidg.gov.pl/ceidg/ceidg.public.ui/search.aspx';
 const firmaText = firmaFilled
-  ? [firma.nazwa, firma.adres, `NIP ${firma.nip}`, firma.regon_krs].filter(Boolean).join(', ')
+  ? [firma.nazwa || 'Kapitałownia, jednoosobowa działalność gospodarcza', firma.adres, `NIP ${firma.nip}`, firma.regon_krs].filter(Boolean).join(', ') +
+    ` (pełne dane rejestrowe w <a href="${ceidg}" rel="noopener">CEIDG</a> po numerze NIP)`
   : missing('dane firmy');
+const firmaFooter = firmaFilled ? `NIP ${firma.nip}` : '';
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const pln = n => n.toLocaleString('pl-PL').replace(/ /g, ' ') + ' zł';
@@ -314,7 +320,7 @@ ${ctaBand}
       </ul>
     </nav>
   </div>
-  <div class="wrap site-footer__bottom"><p>© ${new Date().getFullYear()} Kapitałownia${firmaFilled ? `. ${esc(firmaText)}` : ''}</p></div>
+  <div class="wrap site-footer__bottom"><p>© ${new Date().getFullYear()} Kapitałownia${firmaFooter ? `, ${firmaFooter}` : ''}</p></div>
 </footer>
 <script src="/${jsName}" defer></script>
 </body>
