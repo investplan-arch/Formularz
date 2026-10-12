@@ -25,6 +25,9 @@ const site = readJson('site.json');
 const { programy, zrodla, sprawdzono } = readJson('programy.json');
 const { uslugi } = readJson('uslugi.json');
 const updated = new Date().toISOString().slice(0, 10);
+const updatedText = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date());
+const buyable = u => typeof u.cena === 'number' && Boolean(u.stripe);
+const payments = uslugi.some(buyable);
 
 // Dane firmy są wymagane w polityce prywatności i regulaminie
 const firma = site.firma;
@@ -67,7 +70,7 @@ const arrow = '<span aria-hidden="true"> →</span>';
 function statsHtml(variant = '') {
   return `<dl class="stats${variant ? ' stats--' + variant : ''}">${site.stats.map(s => `<div class="stat">
     <dt class="stat__label">${esc(s.label)}</dt>
-    <dd class="stat__value">${s.value != null ? `<span data-count="${s.value}">${s.value}</span>` : esc(s.text)}</dd>
+    <dd class="stat__value${s.value != null ? '' : ' stat__value--text'}">${s.value != null ? `<span data-count="${s.value}">${s.value}</span>` : esc(s.text)}</dd>
   </div>`).join('')}</dl>`;
 }
 
@@ -75,7 +78,7 @@ function programCard(g) {
   const row = (label, value) => `<div class="program__row"><dt>${label}</dt><dd>${value}</dd></div>`;
   return `<article class="program" id="program-${g.id}">
     <header class="program__head">
-      <p class="program__type">${esc(g.typ)}</p>
+      <p class="program__type"><span class="tag${g.typ.startsWith('Pożyczka') ? ' tag--yellow' : g.typ === 'Premia' ? ' tag--green' : ''}">${esc(g.typ)}</span></p>
       <h3>${esc(g.nazwa)}</h3>
     </header>
     <div class="program__amount"><span class="program__amount-label">Kwota</span><strong>${esc(g.kwota)}</strong><p>${esc(g.kwotaUwaga)}</p></div>
@@ -87,14 +90,23 @@ function programCard(g) {
       ${row('Plusy i minusy', `<ul class="pm">${g.plusy.map(p => `<li class="pm--plus">${esc(p)}</li>`).join('')}${g.minusy.map(m => `<li class="pm--minus">${esc(m)}</li>`).join('')}</ul>`)}
     </dl>
     <div class="program__actions">
-      <a class="btn btn--primary" href="/kontakt/?usluga=${g.usluga}">Sprawdź, czy się kwalifikujesz</a>
-      <a class="btn btn--ghost" href="/zamow/#usluga-${g.usluga}">Zamów wniosek</a>
+      <a class="btn btn--primary" href="/kontakt/?usluga=${g.usluga}">Sprawdź kwalifikację</a>
+      ${uslugi.some(u => u.id === g.usluga && buyable(u)) ? `<a class="btn btn--ghost" href="/zamow/#usluga-${g.usluga}">Zamów wniosek</a>` : ''}
     </div>
   </article>`;
 }
-function programsHtml(ids) {
+function programCompact(g) {
+  return `<a class="pcompact" href="/finansowanie-na-start/#program-${g.id}">
+    <span class="tag${g.typ.startsWith('Pożyczka') ? ' tag--yellow' : g.typ === 'Premia' ? ' tag--green' : ''}">${esc(g.typ)}</span>
+    <span class="pcompact__name">${esc(g.nazwa)}</span>
+    <span class="pcompact__amount">${esc(g.kwota)}</span>
+    <span class="pcompact__who">${esc(g.dlaKogo)}</span>
+    <span class="pcompact__more">Warunki i źródła${arrow}</span>
+  </a>`;
+}
+function programsHtml(ids, compact) {
   const list = ids ? ids.split(/[\s,]+/).map(id => programy.find(p => p.id === id)).filter(Boolean) : programy;
-  return `<div class="programs">${list.map(programCard).join('')}</div>`;
+  return compact ? `<div class="pcompacts">${list.map(programCompact).join('')}</div>` : `<div class="programs">${list.map(programCard).join('')}</div>`;
 }
 function sourcesHtml() {
   return `<aside class="sources" aria-label="Źródła">
@@ -105,7 +117,7 @@ function sourcesHtml() {
 
 function serviceCard(u) {
   const priced = typeof u.cena === 'number';
-  const buy = priced && u.stripe;
+  const buy = buyable(u);
   const price = priced ? `<p class="service__price"><strong>${pln(u.cena)}</strong> <span>brutto</span></p>` : '<p class="service__price service__price--quote">Wycena indywidualna</p>';
   const cta = buy
     ? `<a class="btn btn--primary" href="${esc(u.stripe)}" rel="noopener">Zamawiam i płacę</a>`
@@ -138,11 +150,15 @@ function sectionHead(md) {
   return md.trim() ? `<div class="section__head prose">${md2html(md)}</div>` : '';
 }
 function renderBlock(type, extra, md) {
+  const cond = (extra.match(/if=([\w-]+)/) || [])[1];
+  if (cond === 'platnosci' && !payments) return '';
+  if (cond === 'bez-platnosci' && payments) return '';
   const cls = extra ? ' ' + extra.split(/\s+/).filter(x => !x.includes('=')).map(x => `section--${x}`).join(' ') : '';
   if (type === 'stats') return `<section class="section section--stats"><div class="wrap">${sectionHead(md)}${statsHtml()}</div></section>`;
   if (type === 'programs') {
     const ids = (extra.match(/ids=([\w,]+)/) || [])[1];
-    return `<section class="section section--programs" id="programy"><div class="wrap">${sectionHead(md)}${programsHtml(ids)}${sourcesHtml()}</div></section>`;
+    const compact = /\bcompact\b/.test(extra);
+    return `<section class="section section--programs" id="programy"><div class="wrap">${sectionHead(md)}${programsHtml(ids, compact)}${compact ? `<p class="small sources-note">Dane sprawdzone: ${esc(sprawdzono)}, według stron instytucji publicznych. Źródła podajemy przy <a href="/finansowanie-na-start/#programy">pełnym opisie programów</a>.</p>` : sourcesHtml()}</div></section>`;
   }
   if (type === 'services') return `<section class="section section--services"><div class="wrap">${sectionHead(md)}<div class="services">${uslugi.map(serviceCard).join('')}</div></div></section>`;
   if (type === 'cards') {
@@ -188,7 +204,7 @@ const hash = s => createHash('sha256').update(s).digest('hex').slice(0, 8);
 const cssName = `assets/style.${hash(cssSrc)}.css`;
 const jsName = `assets/site.${hash(jsSrc)}.js`;
 
-const logo = (cls = '') => `<span class="brand__mark${cls}" aria-hidden="true"><img src="/assets/logo-znak.svg" alt="" width="40" height="40"></span><span class="brand__name">Kapitałownia</span>`;
+const logo = (cls = '') => `<span class="brand__mark${cls}" aria-hidden="true"><img src="/assets/logo-znak.svg" alt="" width="40" height="40"></span><span class="brand__name" translate="no">Kapitałownia</span>`;
 
 function layout(page, bodyHtml, extraHead = '') {
   const { path } = page;
@@ -200,10 +216,9 @@ function layout(page, bodyHtml, extraHead = '') {
   const heroHtml = `<section class="hero${isHome ? ' hero--home' : ''}">
     <div class="wrap">
       <div class="hero__text">
-        ${hero.eyebrow ? `<p class="eyebrow">${esc(hero.eyebrow)}</p>` : ''}
         <h1>${esc(hero.title || page.title)}</h1>
         ${hero.lead ? `<p class="lead">${esc(hero.lead)}</p>` : ''}
-        ${hero.cta ? `<p class="hero__actions"><a class="btn btn--primary btn--large" href="${hero.ctaHref || '/kontakt/'}">${esc(hero.cta)}</a>${hero.secondary ? `<a class="btn btn--outline-light btn--large" href="${hero.secondaryHref}">${esc(hero.secondary)}</a>` : ''}</p>` : ''}
+        ${hero.cta ? `<p class="hero__actions"><a class="btn btn--primary btn--large" href="${hero.ctaHref || '/kontakt/'}">${esc(hero.cta)}</a>${hero.secondary ? `<a class="btn btn--ghost btn--large" href="${hero.secondaryHref}">${esc(hero.secondary)}</a>` : ''}</p>` : ''}
       </div>
       ${isHome ? statsHtml('hero') : ''}
     </div>
@@ -214,7 +229,7 @@ function layout(page, bodyHtml, extraHead = '') {
         <h2>Sprawdźmy, jakie finansowanie pasuje do Ciebie</h2>
         <p>Odpowiedz na kilka pytań. Odpiszemy ze wstępną oceną na podany adres e-mail.</p>
       </div>
-      <a class="btn btn--light btn--large" href="/kontakt/">Sprawdź, czy się kwalifikujesz</a>
+      <a class="btn btn--light btn--large" href="/kontakt/">Sprawdź kwalifikację</a>
     </div>
   </section>`;
   const orgLd = isHome ? `<script type="application/ld+json">${JSON.stringify({
@@ -229,7 +244,7 @@ function layout(page, bodyHtml, extraHead = '') {
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>${esc(page.title)}</title>
 <meta name="description" content="${esc(page.description)}">
 ${robots}
@@ -241,11 +256,11 @@ ${page.noindex ? '' : `<link rel="canonical" href="${canonical}">`}
 <meta property="og:description" content="${esc(page.description)}">
 <meta property="og:url" content="${canonical}">
 <meta property="og:image" content="${site.url}/assets/og.png">
-<meta name="theme-color" content="#10192b">
+<meta name="theme-color" content="#f7f6f3">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
-<link rel="preload" href="/assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/${cssName}">
 <noscript><link rel="stylesheet" href="/assets/noscript.css"></noscript>
 ${extraHead}
@@ -308,7 +323,7 @@ writeFileSync(join(out, cssName), cssSrc);
 writeFileSync(join(out, jsName), jsSrc);
 cpSync(join(assetDir, 'img'), join(out, 'assets'), { recursive: true });
 const fontDir = join(root, '..', 'node_modules', '@fontsource-variable');
-for (const pkg of ['inter', 'manrope']) {
+for (const pkg of ['geist', 'newsreader']) {
   for (const sub of ['latin', 'latin-ext']) {
     const f = `${pkg}-${sub}-wght-normal.woff2`;
     cpSync(join(fontDir, pkg, 'files', f), join(out, 'assets', 'fonts', f));
@@ -322,7 +337,7 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
   const body = content
     .replaceAll('{{firma}}', firmaText)
     .replaceAll('{{email}}', site.email)
-    .replaceAll('{{updated}}', updated);
+    .replaceAll('{{updated}}', updatedText);
   let html, extraHead = '';
   if (page.layout === 'faq') {
     const faq = renderFaq(body);

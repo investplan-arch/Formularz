@@ -59,6 +59,34 @@
   var statusBox = document.getElementById('form-status');
   var success = document.getElementById('form-success');
   var submitBtn = form.querySelector('[type="submit"]');
+  var submitLabel = submitBtn.textContent;
+
+  // Szkic formularza zostaje tylko w tej przeglądarce i znika po wysłaniu
+  var DRAFT_KEY = 'kapitalownia-szkic-' + window.location.pathname;
+  var SKIP = { www: 1, t: 1, zgoda: 1, zamowienie: 1 };
+  function saveDraft() {
+    try {
+      var data = {};
+      Array.prototype.forEach.call(form.elements, function (el) {
+        if (!el.name || SKIP[el.name] || el.type === 'submit') return;
+        if (el.type === 'radio' || el.type === 'checkbox') { if (el.checked) (data[el.name] = data[el.name] || []).push(el.value); }
+        else if (el.value) data[el.name] = el.value;
+      });
+      localStorage.setItem(DRAFT_KEY, JSON.stringify(data));
+    } catch (e) { /* brak dostępu do pamięci przeglądarki */ }
+  }
+  function restoreDraft() {
+    try {
+      var data = JSON.parse(localStorage.getItem(DRAFT_KEY) || 'null');
+      if (!data) return;
+      Array.prototype.forEach.call(form.elements, function (el) {
+        if (!el.name || !(el.name in data)) return;
+        if (el.type === 'radio' || el.type === 'checkbox') el.checked = data[el.name].indexOf(el.value) >= 0;
+        else if (!el.value) el.value = data[el.name];
+      });
+    } catch (e) { /* uszkodzony lub niedostępny szkic */ }
+  }
+  function clearDraft() { try { localStorage.removeItem(DRAFT_KEY); } catch (e) { /* bez znaczenia */ } }
   form.elements.t.value = String(Date.now());
 
   function currentType() {
@@ -79,7 +107,10 @@
   }
   form.addEventListener('change', function (e) {
     if (e.target.name === 'rodzaj') { syncGroups(); clearError(e.target); }
+    saveDraft();
   });
+  form.addEventListener('input', saveDraft);
+  restoreDraft();
   syncGroups();
 
   function errorEl(input) {
@@ -209,6 +240,7 @@
     }).then(function (r) {
       if (r.res.ok && r.data && r.data.ok) {
         success.querySelector('[data-email]').textContent = form.elements.email.value.trim();
+        clearDraft();
         form.hidden = true;
         success.hidden = false;
         success.focus();
@@ -228,7 +260,7 @@
       setStatus('<p><strong>Nie udało się wysłać zgłoszenia.</strong> Twoje odpowiedzi zostały w formularzu. Spróbuj ponownie za chwilę albo napisz bezpośrednio na <a href="mailto:kapitalownia@gmail.com">kapitalownia@gmail.com</a>.</p>', 'error');
     }).then(function () {
       submitBtn.disabled = false;
-      submitBtn.textContent = 'Wyślij zgłoszenie';
+      submitBtn.textContent = submitLabel;
     });
   });
 })();

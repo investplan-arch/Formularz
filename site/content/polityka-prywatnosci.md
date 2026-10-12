@@ -47,7 +47,9 @@ Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia
 
 ## Pliki cookies i narzędzia analityczne
 
-Strona nie używa plików cookies, narzędzi analitycznych, pikseli reklamowych ani zewnętrznych czcionek. Link do profilu na Facebooku jest zwykłym odnośnikiem i nie przekazuje Facebookowi danych, dopóki w niego nie klikniesz. Strona płatności Stripe działa w domenie Stripe i stosuje własne pliki cookies. Serwer hostingu może zapisywać standardowe logi techniczne, takie jak adres IP, czas żądania i typ przeglądarki, w celu zapewnienia bezpieczeństwa i poprawnego działania usługi.
+Strona nie używa plików cookies, narzędzi analitycznych, pikseli reklamowych ani zewnętrznych czcionek. Link do profilu na Facebooku jest zwykłym odnośnikiem i nie przekazuje Facebookowi danych, dopóki w niego nie klikniesz. Strona płatności Stripe działa w domenie Stripe i stosuje własne pliki cookies.
+
+Żeby nie stracić odpowiedzi przy przypadkowym odświeżeniu strony, formularz zapisuje szkic w pamięci Twojej przeglądarki (localStorage). Szkic nie jest wysyłany do nas ani nigdzie indziej i znika po wysłaniu formularza. Możesz go też usunąć, czyszcząc dane witryny w przeglądarce. Serwer hostingu może zapisywać standardowe logi techniczne, takie jak adres IP, czas żądania i typ przeglądarki, w celu zapewnienia bezpieczeństwa i poprawnego działania usługi.
 
 ## Zmiany
 

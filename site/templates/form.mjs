@@ -56,7 +56,7 @@ export function formHtml({ mode, uslugi = [], order = false }) {
   </fieldset>
 
   ${group('start', '<span class="step-no" aria-hidden="true"></span> Planowana działalność', `
-    ${field({ name: 'start_branza', label: 'Czym chcesz się zajmować?', ...c, hint: 'Na przykład usługi remontowe, sklep internetowy, gabinet kosmetyczny.', attrs: ' maxlength="200"' })}
+    ${field({ name: 'start_branza', label: 'Czym chcesz się zajmować?', ...c, hint: 'Na przykład usługi remontowe, sklep internetowy, gabinet kosmetyczny.', attrs: ' maxlength="200" autocomplete="off"' })}
     ${field({ name: 'start_status', label: 'Twoja obecna sytuacja zawodowa', ...c, hint: 'Od tego zależy, z których programów możesz skorzystać.', options: ['Jestem zarejestrowany(-a) w urzędzie pracy jako osoba bezrobotna', 'Jestem zarejestrowany(-a) w urzędzie pracy jako poszukujący(-a) pracy', 'Pracuję na etacie lub umowie', 'Uczę się lub studiuję', 'Inna sytuacja'] })}
     <fieldset class="field field--checks">
       <legend>Które źródła Cię interesują? <span class="optional">(opcjonalnie)</span></legend>
@@ -68,23 +68,23 @@ export function formHtml({ mode, uslugi = [], order = false }) {
       ${field({ name: 'firma_forma', label: 'Forma prawna', ...c, options: ['Jednoosobowa działalność gospodarcza', 'Spółka cywilna', 'Spółka z o.o.', 'Inna spółka', 'Inna forma'] })}
       ${field({ name: 'firma_staz', label: 'Jak długo działa firma?', ...c, options: ['Krócej niż 12 miesięcy', 'Od 1 do 3 lat', 'Ponad 3 lata'] })}
     </div>
-    ${field({ name: 'firma_branza', label: 'Branża i główna działalność', ...c, attrs: ' maxlength="200"' })}
+    ${field({ name: 'firma_branza', label: 'Branża i główna działalność', ...c, attrs: ' maxlength="200" autocomplete="off"' })}
     ${field({ name: 'firma_cel', label: 'Na co szukasz finansowania?', ...c, options: ['Maszyny, urządzenia, wyposażenie', 'Lokal, budynek, nieruchomość', 'Nowe produkty lub usługi', 'Cyfryzacja i oprogramowanie', 'Energia i ochrona środowiska', 'Zatrudnienie i szkolenia', 'Kapitał obrotowy', 'Inny cel'] })}`)}
 
   ${group('rolnik', '<span class="step-no" aria-hidden="true"></span> Gospodarstwo', `
     ${field({ name: 'rolnik_cel', label: 'Czego dotyczy plan?', ...c, options: ['Rozwój lub modernizacja gospodarstwa', 'Uruchomienie działalności pozarolniczej', 'Przetwórstwo lub sprzedaż własnych produktów', 'Inny cel'] })}
-    ${field({ name: 'rolnik_profil', label: 'Profil gospodarstwa', hint: 'Na przykład uprawy, sadownictwo, hodowla.', attrs: ' maxlength="200"' })}`)}
+    ${field({ name: 'rolnik_profil', label: 'Profil gospodarstwa', hint: 'Na przykład uprawy, sadownictwo, hodowla.', attrs: ' maxlength="200" autocomplete="off"' })}`)}
 
   ${group('ngo', '<span class="step-no" aria-hidden="true"></span> Organizacja', `
     <div class="field-row">
       ${field({ name: 'ngo_forma', label: 'Forma organizacji', ...c, options: ['Fundacja', 'Stowarzyszenie', 'Stowarzyszenie zwykłe', 'Koło gospodyń wiejskich', 'Organizacja w trakcie zakładania', 'Inna'] })}
       ${field({ name: 'ngo_staz', label: 'Od kiedy działa?', ...c, options: ['Jeszcze nie jest zarejestrowana', 'Krócej niż 2 lata', 'Ponad 2 lata'] })}
     </div>
-    ${field({ name: 'ngo_obszar', label: 'Obszar działań', ...c, hint: 'Na przykład edukacja, kultura, sport, pomoc społeczna, ekologia.', attrs: ' maxlength="200"' })}
+    ${field({ name: 'ngo_obszar', label: 'Obszar działań', ...c, hint: 'Na przykład edukacja, kultura, sport, pomoc społeczna, ekologia.', attrs: ' maxlength="200" autocomplete="off"' })}
     ${field({ name: 'ngo_zasieg', label: 'Zasięg projektu', options: ['Lokalny', 'Regionalny', 'Ogólnopolski'] })}`)}
 
   ${group('inne', '<span class="step-no" aria-hidden="true"></span> Twoja sytuacja', `
-    ${field({ name: 'inne_kto', label: 'Kogo dotyczy zgłoszenie?', ...c, hint: 'Na przykład spółdzielnia, wspólnota, osoba prowadząca działalność nierejestrowaną.', attrs: ' maxlength="200"' })}`)}
+    ${field({ name: 'inne_kto', label: 'Kogo dotyczy zgłoszenie?', ...c, hint: 'Na przykład spółdzielnia, wspólnota, osoba prowadząca działalność nierejestrowaną.', attrs: ' maxlength="200" autocomplete="off"' })}`)}
 
   <fieldset class="form-group">
     <legend><span class="step-no" aria-hidden="true"></span> Cel i budżet</legend>
@@ -101,14 +101,14 @@ export function formHtml({ mode, uslugi = [], order = false }) {
       ${field({ name: 'budzet', label: 'Orientacyjny budżet', required: true, options: ['Do 50 tys. zł', '50–150 tys. zł', '150–500 tys. zł', 'Powyżej 500 tys. zł', 'Nie wiem jeszcze'] })}
       ${field({ name: 'termin', label: 'Kiedy chcesz zacząć?', options: ['Jak najszybciej', 'W ciągu 3 miesięcy', 'W ciągu 6 miesięcy', 'Później lub nie wiem'] })}
     </div>
-    ${field({ name: 'opis', label: 'Opisz krótko cel finansowania', type: 'textarea', required: true, hint: 'Co chcesz zrobić i na co przeznaczyć środki. Wystarczy kilka zdań. Nie podawaj danych o zdrowiu.', attrs: ' minlength="20" maxlength="3000"' })}
+    ${field({ name: 'opis', label: 'Opisz krótko cel finansowania', type: 'textarea', required: true, hint: 'Co chcesz zrobić i na co przeznaczyć środki. Wystarczy kilka zdań, co najmniej 20 znaków. Nie podawaj danych o zdrowiu.', attrs: ' minlength="20" maxlength="3000"' })}
   </fieldset>
 
   <fieldset class="form-group">
     <legend><span class="step-no" aria-hidden="true"></span> Kontakt</legend>
     <div class="field-row">
       ${field({ name: 'imie', label: 'Jak mamy się do Ciebie zwracać?', attrs: ' maxlength="80" autocomplete="given-name"' })}
-      ${field({ name: 'email', label: 'Adres e-mail', type: 'email', required: true, hint: 'Na ten adres wyślemy odpowiedź.', attrs: ' maxlength="160" autocomplete="email" inputmode="email"' })}
+      ${field({ name: 'email', label: 'Adres e-mail', type: 'email', required: true, hint: 'Na ten adres wyślemy odpowiedź.', attrs: ' maxlength="160" autocomplete="email" inputmode="email" spellcheck="false" autocapitalize="off"' })}
     </div>
     <div class="field field--consent">
       <label class="check"><input type="checkbox" name="zgoda" value="tak" id="f-zgoda" required> Zapoznałem(-am) się z <a href="/polityka-prywatnosci/">polityką prywatności</a> i chcę otrzymać odpowiedź na zgłoszenie.</label>

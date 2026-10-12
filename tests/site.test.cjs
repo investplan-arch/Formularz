@@ -373,3 +373,42 @@ test('strona nie przesuwa układu po wczytaniu skryptu (CLS)', async () => {
     } finally { await p.close(); }
   }
 });
+
+test('szkic formularza wraca po odświeżeniu i znika po wysłaniu', async () => {
+  const ctx = await browser.newContext();
+  const p = await ctx.newPage();
+  try {
+    await p.goto(base + '/kontakt/');
+    await p.click('input[name="rodzaj"][value="inne"]', { force: true });
+    await p.fill('#f-inne_kto', 'Spółdzielnia');
+    await fillCommon(p);
+    await p.reload();
+    assert.equal(await p.inputValue('#f-inne_kto'), 'Spółdzielnia');
+    assert.equal(await p.isChecked('input[name="rodzaj"][value="inne"]'), true);
+    assert.equal(await p.isChecked('#f-zgoda'), false, 'zgoda nie jest zapamiętywana');
+    await p.check('#f-zgoda');
+    await p.waitForTimeout(3100);
+    await p.click('button[type="submit"]');
+    await p.waitForSelector('#form-success:not([hidden])', { timeout: 5000 });
+    assert.equal(await p.evaluate(() => Object.keys(localStorage).filter(k => k.startsWith('kapitalownia-szkic')).length), 0);
+  } finally { await ctx.close(); }
+});
+
+test('bez linków Stripe nie ma przycisków zakupu ani obietnicy płatności online', () => {
+  const uslugi = JSON.parse(readFileSync(join(root, 'site/uslugi.json'), 'utf8')).uslugi;
+  if (uslugi.some(u => typeof u.cena === 'number' && u.stripe)) return;
+  for (const f of ['index.html', 'finansowanie-na-start/index.html', 'zamow/index.html']) {
+    const h = readFileSync(join(dist, f), 'utf8');
+    assert.doesNotMatch(h, />Zamów wniosek</, f);
+    assert.doesNotMatch(h, /stronę płatności Stripe/, f);
+  }
+  assert.match(readFileSync(join(dist, 'zamow/index.html'), 'utf8'), /Wycena e-mailem/);
+});
+
+test('stopka na telefonie ma odstęp od linii podziału', async () => {
+  const p = await browser.newPage({ viewport: { width: 390, height: 844 } });
+  try {
+    await p.goto(base + '/');
+    assert.ok(await p.evaluate(() => parseFloat(getComputedStyle(document.querySelector('.site-footer__bottom')).paddingTop)) >= 16);
+  } finally { await p.close(); }
+});
