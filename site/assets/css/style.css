@@ -239,11 +239,28 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 
 /* Formularz */
 .section--form { padding-top: 56px; }
-.form-layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); gap: 48px; align-items: start; }
-.form-aside { position: sticky; top: 100px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; font-size: .96rem; }
-.form-aside h2 { font-size: 1.4rem; margin: 1.2em 0 .5em; }
-.form-aside h2:first-child { margin-top: 0; }
-.form-aside ol { padding-left: 1.2em; }
+.form-layout { display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); grid-template-rows: auto 1fr; column-gap: 48px; row-gap: 16px; align-items: start; }
+.form-layout > .lead-form, .form-layout > .form-success { grid-row: 1 / span 2; }
+.form-aside { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; font-size: .96rem; }
+.form-aside h2 { font-size: 1.35rem; margin: 0 0 16px; }
+/* Kroki: numery jak w sekcjach kroków, bez listy z kropkami */
+.form-aside--steps ol { list-style: none; counter-reset: next; padding: 0; margin: 0; }
+.form-aside--steps li { counter-increment: next; position: relative; padding: 12px 0 12px 40px; border-top: 1px solid var(--line); margin: 0; }
+.form-aside--steps li:first-child { border-top: 0; padding-top: 2px; }
+.form-aside--steps li::before { content: counter(next, decimal-leading-zero); position: absolute; left: 0; top: 12px; font: 500 1.05rem/1.4 var(--serif); color: var(--blue); }
+.form-aside--steps li:first-child::before { top: 2px; }
+.form-aside--steps ol + p { margin: 14px 0 0; padding: 10px 12px; background: var(--tag-green-bg); color: var(--tag-green); border-radius: 6px; font-size: .9rem; font-weight: 500; }
+/* Karty kontaktu */
+.contact-cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.contact-cards li { margin: 0; }
+.contact-card { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 8px; background: var(--canvas); color: var(--ink); text-decoration: none; transition: border-color .15s, background-color .15s; min-height: 64px; }
+.contact-card:hover { border-color: var(--ink); background: var(--surface); color: var(--ink); }
+.contact-card__icon { flex: none; width: 40px; height: 40px; border-radius: 8px; display: grid; place-items: center; background: var(--navy); color: var(--cream); }
+.contact-card__text { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.contact-card__label { font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.contact-card__value { font-weight: 600; overflow-wrap: anywhere; }
+.contact-card__arrow { flex: none; color: var(--blue-ink); font-weight: 600; transition: transform .15s; }
+.contact-card:hover .contact-card__arrow { transform: translateX(3px); }
 .lead-form, .form-success { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 40px; }
 .lead-form { counter-reset: formstep; }
 .form-group { border: 0; margin: 0 0 8px; padding: 0 0 32px; min-width: 0; }
@@ -317,7 +334,8 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
   .site-nav ul a { display: block; padding: 14px 0; border-bottom: 1px solid var(--line); font-size: 1.05rem; color: var(--ink); }
   .site-nav ul a[aria-current="page"] { text-decoration: none; color: var(--blue-ink); }
   .split, .form-layout { grid-template-columns: minmax(0, 1fr); gap: 32px; }
-  .form-aside { position: static; }
+  .form-layout > .lead-form, .form-layout > .form-success { grid-row: auto; }
+  .form-aside--steps { order: -1; }
   .cards--3, .services { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .cards--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .pcompacts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -340,7 +358,8 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
   .section__head { margin-bottom: 32px; }
   .cards--2, .cards--3, .cards--4, .services, .choices, .field-row { grid-template-columns: minmax(0, 1fr); }
   .pcompacts { grid-template-columns: minmax(0, 1fr); }
-  .form-aside { order: -1; }
+  .form-aside--steps { padding: 20px; }
+  .form-aside--steps h2 { font-size: 1.2rem; margin-bottom: 10px; }
   .card, .service { padding: 22px; }
   .program__head { padding: 22px 20px 0; }
   .program__amount { margin: 16px 20px 0; }

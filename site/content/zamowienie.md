@@ -17,4 +17,4 @@ hero:
 2. Odzywamy się e-mailem z pytaniami i ustaleniami.
 3. Przygotowujemy dokumenty.
 
-Problem z płatnością albo ankietą? Napisz na [kapitalownia@gmail.com](mailto:kapitalownia@gmail.com).
+Problem z płatnością albo ankietą? Napisz do nas, adres znajdziesz pod formularzem.

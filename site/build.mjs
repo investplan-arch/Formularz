@@ -352,7 +352,25 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
     extraHead = `<script type="application/ld+json">${JSON.stringify(faq.ld)}</script>`;
   } else if (page.layout === 'contact') {
     const options = uslugi.map(u => [u.id, u.nazwa]);
-    html = `<section class="section section--form"><div class="wrap form-layout">${formHtml({ mode, uslugi: options, order: Boolean(page.order) })}<aside class="form-aside">${md2html(body)}</aside></div></section>`;
+    const ico = {
+      mail: '<path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5zm2.2.5 6.8 5.2L18.8 7zM19 8.9l-6.4 4.9a1 1 0 0 1-1.2 0L5 8.9V17h14z"/>',
+      fb: '<path d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.4V21z"/>',
+      faq: '<path d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm0 2a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm0 10.2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM12 6.8c1.9 0 3.3 1.2 3.3 2.9 0 1.3-.8 2-1.6 2.5-.6.4-.8.6-.8 1.1v.4h-2v-.5c0-1.2.6-1.8 1.4-2.3.6-.4 1-.7 1-1.2 0-.6-.6-1-1.3-1s-1.4.5-1.5 1.2l-2-.3c.3-1.7 1.7-2.8 3.5-2.8z"/>'
+    };
+    const contactRow = (href, icon, label, value, ext) => `<li><a class="contact-card" href="${href}"${ext ? ' rel="noopener"' : ''}>
+      <span class="contact-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">${ico[icon]}</svg></span>
+      <span class="contact-card__text"><span class="contact-card__label">${label}</span><span class="contact-card__value">${value}</span></span>
+      <span class="contact-card__arrow" aria-hidden="true">→</span>
+    </a></li>`;
+    const contacts = `<aside class="form-aside form-aside--contact" aria-labelledby="kontakt-bezposredni">
+      <h2 id="kontakt-bezposredni">Wolisz napisać bezpośrednio?</h2>
+      <ul class="contact-cards">
+        ${contactRow(`mailto:${site.email}`, 'mail', 'E-mail', esc(site.email))}
+        ${site.facebook ? contactRow(esc(site.facebook), 'fb', 'Facebook', 'Profil Kapitałowni', true) : ''}
+        ${contactRow('/faq/', 'faq', 'Masz pytania?', 'Zobacz FAQ')}
+      </ul>
+    </aside>`;
+    html = `<section class="section section--form"><div class="wrap form-layout">${formHtml({ mode, uslugi: options, order: Boolean(page.order) })}<aside class="form-aside form-aside--steps">${md2html(body)}</aside>${contacts}</div></section>`;
   } else if (page.layout === 'legal') {
     html = `<section class="section"><div class="wrap narrow prose prose--legal">${md2html(body)}</div></section>`;
   } else {

@@ -15,10 +15,4 @@ hero:
 2. Odpisujemy e-mailem ze wstępną oceną.
 3. Jeśli widzimy szansę, proponujemy usługę i cenę.
 
-Nie prosimy o telefon ani dokumenty na tym etapie. Odpowiedzi na częste pytania znajdziesz w [FAQ](/faq/).
-
-## Kontakt bezpośredni
-
-[kapitalownia@gmail.com](mailto:kapitalownia@gmail.com)
-
-[Kapitałownia na Facebooku](https://www.facebook.com/kapitalownia)
+Bez telefonu i dokumentów na tym etapie.
