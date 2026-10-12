@@ -1,0 +1,30 @@
+# Wysyła jedno oznaczone zgłoszenie testowe przez formularz na kapitalownia.pl.
+# Uruchamia się po zmianie pliku site/TEST-FORMULARZA.txt albo ręcznie.
+# Odpowiedź {"ok":true} oznacza tylko przyjęcie wiadomości przez serwer pocztowy hostingu,
+# dotarcie do skrzynki trzeba sprawdzić w Gmailu.
+name: Test formularza
+
+on:
+  push:
+    branches: [main]
+    paths: ['site/TEST-FORMULARZA.txt']
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Wysłanie zgłoszenia testowego
+        run: |
+          code=$(curl -s -o odp.json -w '%{http_code}' -X POST https://kapitalownia.pl/api/formularz.php \
+            -H 'Accept: application/json' \
+            --data-urlencode 'rodzaj=inne' \
+            --data-urlencode 'inne_kto=TEST techniczny wdrożenia' \
+            --data-urlencode 'wojewodztwo=mazowieckie' \
+            --data-urlencode 'budzet=Nie wiem jeszcze' \
+            --data-urlencode "opis=TEST techniczny wdrożenia strony z $(date -u +%Y-%m-%dT%H:%MZ). To nie jest zgłoszenie klienta." \
+            --data-urlencode 'imie=TEST' \
+            --data-urlencode 'email=kapitalownia@gmail.com' \
+            --data-urlencode 'zgoda=tak')
+          echo "HTTP $code"; cat odp.json; echo
+          test "$code" = 200 && grep -q '"ok":true' odp.json
