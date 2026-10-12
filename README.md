@@ -79,3 +79,22 @@ Przed każdym wgraniem workflow pobiera kopię plików z serwera i zapisuje ją 
 Opcja „Tylko sprawdź” wykonuje samą kopię i test połączenia.
 
 Wgrywanie nie usuwa plików, które już są na serwerze.
+
+## Skille Claude Code w projekcie
+
+W `.claude/skills/` są zapisane skille wspierające projektowanie i kontrolę jakości. Claude Code wczytuje je
+przy starcie sesji w tym katalogu.
+
+| Skill | Źródło | Wywołanie |
+| --- | --- | --- |
+| `web-design-guidelines` | vercel-labs/agent-skills | `/web-design-guidelines site/assets/css/style.css` |
+| `minimalist-ui` | leonxlnx/taste-skill | `/minimalist-ui` |
+| `seo-audit` | coreyhaines31/marketingskills | `/seo-audit` |
+| `impeccable` | pbakaus/impeccable | `/impeccable critique strona-glowna` (także `audit`, `polish` i inne) |
+
+`minimalist-ui` stosujemy w zakresie układu, typografii i oszczędnych komponentów. Kolory i logo pozostają
+zgodne z identyfikacją Kapitałowni (granat, niebieski, krem), a zdjęć zastępczych nie używamy.
+
+Impeccable jest zainstalowany bez hooków (bez `.claude/settings.local.json`). Przy pierwszym użyciu pobiera
+swój silnik z GitHub Releases i sprawdza jego sumę SHA-256. Odtworzenie lub aktualizacja zestawu:
+`sh scripts/skille.sh`. Źródła i sumy kontrolne są w `skills-lock.json`.
