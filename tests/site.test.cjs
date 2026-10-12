@@ -276,3 +276,100 @@ test('ankieta po płatności wymaga usługi i oznacza wiadomość jako zamówien
   assert.equal(r.status, 422);
   assert.ok((await r.json()).errors.usluga);
 });
+
+const allPaths = ['/', '/oferta/', '/finansowanie-na-start/', '/rozwoj-firmy/', '/fundacje-i-stowarzyszenia/', '/wspolpraca/', '/faq/', '/zamow/', '/kontakt/', '/zamowienie/', '/regulamin/', '/polityka-prywatnosci/', '/dziekujemy/', '/404.html'];
+
+test('każda podstrona bez poziomego przewijania przy 320, 768, 1024 i 1440 px', async () => {
+  for (const width of [320, 768, 1024, 1440]) {
+    const p = await browser.newPage({ viewport: { width, height: 900 } });
+    try {
+      for (const path of allPaths) {
+        await p.goto(base + path);
+        const wide = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
+        assert.ok(wide <= 0, `${path} przy ${width}px wystaje o ${wide}px`);
+      }
+    } finally { await p.close(); }
+  }
+});
+
+test('brak błędów w konsoli i niezaładowanych zasobów', async () => {
+  const p = await browser.newPage();
+  const problems = [];
+  p.on('console', m => { if (m.type() === 'error') problems.push(`${p.url()}: ${m.text()}`); });
+  p.on('pageerror', e => problems.push(`${p.url()}: ${e.message}`));
+  p.on('response', r => { if (r.status() >= 400 && r.url().startsWith(base)) problems.push(`${r.status()} ${r.url()}`); });
+  try {
+    for (const path of allPaths.filter(x => x !== '/404.html')) {
+      await p.goto(base + path, { waitUntil: 'networkidle' });
+      const broken = await p.evaluate(() => [...document.images].filter(i => !i.complete || i.naturalWidth === 0).map(i => i.src));
+      assert.deepEqual(broken, [], path);
+      const fonts = await p.evaluate(async () => { await document.fonts.ready; return [...document.fonts].filter(f => f.status === 'error').map(f => f.family); });
+      assert.deepEqual(fonts, [], path);
+    }
+    assert.deepEqual(problems, []);
+  } finally { await p.close(); }
+});
+
+test('formularz da się wypełnić i wysłać samą klawiaturą', async () => {
+  const p = await browser.newPage();
+  try {
+    await p.goto(base + '/kontakt/');
+    await p.keyboard.press('Tab');
+    assert.equal(await p.evaluate(() => document.activeElement.className), 'skip', 'pierwszy Tab trafia w link do treści');
+    await p.focus('#f-rodzaj');
+    await p.keyboard.press('ArrowDown'); // firma
+    assert.equal(await p.evaluate(() => document.querySelector('input[name="rodzaj"]:checked').value), 'firma');
+    assert.equal(await p.isVisible('#f-firma_forma'), true);
+    await p.focus('#f-firma_forma');
+    for (const id of ['#f-firma_forma', '#f-firma_staz', '#f-firma_cel']) { await p.focus(id); await p.keyboard.press('ArrowDown'); }
+    await p.focus('#f-firma_branza'); await p.keyboard.type('Stolarstwo');
+    await p.focus('#f-wojewodztwo'); await p.keyboard.press('ArrowDown');
+    await p.focus('#f-budzet'); await p.keyboard.press('ArrowDown');
+    await p.focus('#f-opis'); await p.keyboard.type('TEST obsługi klawiaturą, nie jest to zgłoszenie klienta.');
+    await p.focus('#f-email'); await p.keyboard.type('test@example.com');
+    await p.focus('#f-zgoda'); await p.keyboard.press('Space');
+    await p.waitForTimeout(3100);
+    await p.focus('button[type="submit"]'); await p.keyboard.press('Enter');
+    await p.waitForSelector('#form-success:not([hidden])', { timeout: 5000 });
+    assert.equal(await p.evaluate(() => document.activeElement.id), 'form-success', 'fokus przechodzi na potwierdzenie');
+  } finally { await p.close(); }
+});
+
+test('bez JavaScriptu formularz pokazuje wszystkie sekcje i da się go wysłać', async () => {
+  const ctx = await browser.newContext({ javaScriptEnabled: false });
+  const p = await ctx.newPage();
+  try {
+    await p.goto(base + '/kontakt/');
+    for (const t of ['start', 'firma', 'rolnik', 'ngo', 'inne']) assert.ok(await p.isVisible(`fieldset[data-type="${t}"]`), t);
+    await p.setViewportSize({ width: 390, height: 844 });
+    assert.ok(await p.isVisible('#menu a[href="/zamow/"]'), 'menu bez JavaScriptu jest rozwinięte');
+    await p.setViewportSize({ width: 1280, height: 900 });
+    await p.check('input[value="inne"]', { force: true });
+    await p.fill('#f-inne_kto', 'Spółdzielnia');
+    await p.selectOption('#f-wojewodztwo', 'opolskie');
+    await p.selectOption('#f-budzet', 'Nie wiem jeszcze');
+    await p.fill('#f-opis', 'TEST bez JavaScriptu, nie jest to zgłoszenie klienta.');
+    await p.fill('#f-email', 'test@example.com');
+    await p.check('#f-zgoda');
+    await p.click('button[type="submit"]');
+    await p.waitForURL(/\/dziekujemy\/$/);
+  } finally { await ctx.close(); }
+});
+
+test('strona nie przesuwa układu po wczytaniu skryptu (CLS)', async () => {
+  for (let i = 0; i < 10; i++) {
+    const p = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    // Opóźniony skrypt odtwarza wolne łącze, przy którym przesunięcie było widoczne
+    await p.route('**/assets/site.*.js', async r => { await new Promise(res => setTimeout(res, 400)); await r.continue(); });
+    try {
+      await p.addInitScript(() => {
+        window.__cls = 0;
+        new PerformanceObserver(l => { for (const e of l.getEntries()) if (!e.hadRecentInput) window.__cls += e.value; }).observe({ type: 'layout-shift', buffered: true });
+      });
+      await p.goto(base + (i % 2 ? '/kontakt/' : '/'), { waitUntil: 'networkidle' });
+      await p.waitForTimeout(300);
+      const cls = await p.evaluate(() => window.__cls);
+      assert.ok(cls < 0.05, `CLS ${cls.toFixed(3)} w próbie ${i + 1}`);
+    } finally { await p.close(); }
+  }
+});

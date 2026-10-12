@@ -247,6 +247,7 @@ ${page.noindex ? '' : `<link rel="canonical" href="${canonical}">`}
 <link rel="preload" href="/assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/${cssName}">
+<noscript><link rel="stylesheet" href="/assets/noscript.css"></noscript>
 ${extraHead}
 ${orgLd}
 </head>

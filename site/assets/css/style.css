@@ -237,7 +237,8 @@ mark { background: #fff1c2; padding: 0 .2em; }
 .lead-form { counter-reset: formstep; }
 .form-group { border: 0; margin: 0 0 8px; padding: 0 0 28px; min-width: 0; }
 .form-group + .form-group { box-shadow: inset 0 1px 0 var(--line); padding-top: 28px; }
-.form-group[hidden] { display: none; }
+.form-group[hidden], .form-group--type { display: none; }
+.form-group--type.is-active { display: block; }
 .form-group > legend { float: left; width: 100%; font: 800 1.25rem/1.3 var(--display); padding: 0; margin-bottom: 18px; display: flex; align-items: center; gap: 12px; }
 .form-group > legend + * { clear: both; }
 .step-no { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--navy); color: var(--cream); font: 800 .95rem/1 var(--display); flex: none; }
@@ -294,14 +295,14 @@ mark { background: #fff1c2; padding: 0 .2em; }
   .cards--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 1060px) {
-  .js .nav-toggle { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 12px; border: 1.5px solid var(--line-strong); border-radius: 10px; background: transparent; color: var(--ink); font: 700 .95rem var(--display); cursor: pointer; }
+  .nav-toggle { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 12px; border: 1.5px solid var(--line-strong); border-radius: 10px; background: transparent; color: var(--ink); font: 700 .95rem var(--display); cursor: pointer; }
   .nav-toggle__bar, .nav-toggle__bar::before, .nav-toggle__bar::after { display: block; width: 18px; height: 2px; background: currentColor; position: relative; content: ""; }
   .nav-toggle__bar::before { position: absolute; top: -6px; }
   .nav-toggle__bar::after { position: absolute; top: 6px; }
   .site-header__inner { flex-wrap: wrap; }
   .site-nav { flex-basis: 100%; flex-direction: column; align-items: stretch; gap: 12px; padding: 0 0 16px; }
-  .js .site-nav { display: none; }
-  .js .site-nav.is-open { display: flex; }
+  .site-nav { display: none; }
+  .site-nav.is-open { display: flex; }
   .site-nav ul { flex-direction: column; gap: 0; }
   .site-nav ul a { display: block; padding: 13px 0; border-bottom: 1px solid var(--line); font-size: 1.05rem; }
   .site-nav ul a[aria-current="page"] { border-bottom-color: var(--line); color: var(--blue-ink); }

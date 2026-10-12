@@ -1,0 +1,7 @@
+/* Wersja bez JavaScriptu: rozwinięte menu na telefonie i wszystkie sekcje formularza.
+   Serwer sprawdza tylko sekcję wybranego rodzaju klienta. */
+.form-group--type { display: block; }
+@media (max-width: 1060px) {
+  .nav-toggle { display: none !important; }
+  .site-nav { display: flex; }
+}

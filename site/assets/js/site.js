@@ -74,6 +74,7 @@
       var active = g.getAttribute('data-type') === type;
       g.hidden = !active;
       g.disabled = !active;
+      g.classList.toggle('is-active', active);
     });
   }
   form.addEventListener('change', function (e) {
