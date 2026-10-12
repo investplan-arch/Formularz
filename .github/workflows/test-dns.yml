@@ -1,0 +1,25 @@
+# Sprawdza rekordy DNS domeny: strona, poczta (MX), SPF, DKIM, DMARC. Tylko odczyt.
+name: Test DNS
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/test-dns.txt']
+  workflow_dispatch:
+
+jobs:
+  dns:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sudo apt-get install -y -qq dnsutils > /dev/null
+      - name: Rekordy DNS kapitalownia.pl
+        run: |
+          d=kapitalownia.pl
+          for r in NS A MX TXT; do echo "== $r"; dig +short $r $d @8.8.8.8; done
+          echo "== A www"; dig +short A www.$d @8.8.8.8
+          echo "== DMARC"; dig +short TXT _dmarc.$d @8.8.8.8
+          for s in default dkim mail home homepl x s1 s2 selector1 key1; do
+            v=$(dig +short TXT $s._domainkey.$d @8.8.8.8); [ -n "$v" ] && echo "== DKIM ($s)" && echo "$v"
+          done
+          echo "== Serwer poczty z MX odpowiada na porcie 25"
+          for mx in $(dig +short MX $d @8.8.8.8 | awk '{print $2}'); do timeout 10 bash -c "echo QUIT > /dev/tcp/${mx%.}/25" && echo "$mx: OK" || echo "$mx: brak połączenia"; done
