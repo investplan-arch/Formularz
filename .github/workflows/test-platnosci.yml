@@ -1,0 +1,21 @@
+# Otwiera stronę płatności Stripe tylko do odczytu i sprawdza, co widzi klient. Nic nie kupuje.
+name: Test strony płatności
+
+on:
+  push:
+    branches: [main]
+    paths: ['.github/test-platnosci.txt', 'scripts/sprawdz-platnosc.cjs']
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npx playwright-core install --with-deps chromium
+      - name: Odczyt strony płatności
+        run: node scripts/sprawdz-platnosc.cjs "$(node -p "require('./site/uslugi.json').uslugi.find(u => u.stripe).stripe")"
