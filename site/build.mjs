@@ -36,7 +36,7 @@ const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(
 
 // Ścieżka docelowa i adres linku dla danej ścieżki strony
 function fileFor(path) {
-  if (path === '/') return 'index.html';
+  if (path === '/') return flat && args.home ? String(args.home) : 'index.html';
   if (path.endsWith('.html')) return path.slice(1);
   return flat ? path.slice(1, -1) + '.html' : path.slice(1) + 'index.html';
 }
