@@ -1,13 +1,17 @@
 # Wdrożenie strony Kapitałowni na hosting home.pl przez FTPS.
+# Uruchamia się samo po zmianie strony na gałęzi main albo ręcznie (Actions > Wdrożenie > Run workflow).
 # Dane logowania są wyłącznie w GitHub Secrets (Settings > Secrets and variables > Actions):
 #   FTP_HOST      adres serwera FTP z panelu home.pl
 #   FTP_USER      login konta FTP
 #   FTP_PASSWORD  hasło konta FTP
-#   FTP_DIR       katalog docelowy domeny na serwerze, np. /public_html/ (sprawdź w panelu)
-# Uruchamiane ręcznie (Actions > Wdrożenie > Run workflow), żeby nic nie trafiło na serwer bez decyzji.
+#   FTP_DIR       katalog domeny na serwerze, np. /kapitalownia.pl/
+# Bez tych sekretów workflow tylko testuje i buduje stronę.
 name: Wdrożenie
 
 on:
+  push:
+    branches: [main]
+    paths: ['site/**', 'package.json', 'package-lock.json', '.github/workflows/wdrozenie.yml']
   workflow_dispatch:
     inputs:
       tylko_sprawdz:
@@ -28,26 +32,44 @@ jobs:
       - run: npm ci
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp php-cli > /dev/null
 
+      - name: Przeglądarka do testów
+        run: npx playwright-core install --with-deps chromium
+
       - name: Testy
-        run: npx playwright-core install-deps chromium > /dev/null 2>&1 || true; npx playwright-core install chromium > /dev/null && npm test
+        run: npm test
 
       - name: Budowa
         run: node site/build.mjs --mode=production --out=out
 
-      - name: Kopia zapasowa plików z serwera
+      - name: Sprawdzenie sekretów FTP
+        id: sekrety
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           FTP_DIR: ${{ secrets.FTP_DIR }}
         run: |
-          test -n "$FTP_HOST" -a -n "$FTP_USER" -a -n "$FTP_PASSWORD" -a -n "$FTP_DIR" || { echo "Brak sekretów FTP"; exit 1; }
+          if [ -n "$FTP_HOST" ] && [ -n "$FTP_USER" ] && [ -n "$FTP_PASSWORD" ] && [ -n "$FTP_DIR" ]; then
+            echo "gotowe=tak" >> "$GITHUB_OUTPUT"
+          else
+            echo "gotowe=nie" >> "$GITHUB_OUTPUT"
+            echo "::notice::Brak sekretów FTP (FTP_HOST, FTP_USER, FTP_PASSWORD, FTP_DIR). Strona przeszła testy i budowę, ale nie została wgrana."
+          fi
+
+      - name: Kopia zapasowa plików z serwera
+        if: steps.sekrety.outputs.gotowe == 'tak'
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DIR: ${{ secrets.FTP_DIR }}
+        run: |
           mkdir -p kopia
           lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; set net:max-retries 2; ls -la $FTP_DIR; mirror --verbose $FTP_DIR kopia; bye"
-          find kopia -type f | head -100
           echo "Plików w kopii: $(find kopia -type f | wc -l)"
 
       - uses: actions/upload-artifact@v4
+        if: steps.sekrety.outputs.gotowe == 'tak'
         with:
           name: kopia-serwera-${{ github.run_number }}
           path: kopia
@@ -56,7 +78,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Wgrywanie
-        if: ${{ !inputs.tylko_sprawdz }}
+        if: steps.sekrety.outputs.gotowe == 'tak' && (github.event_name == 'push' || !inputs.tylko_sprawdz)
         env:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
@@ -64,13 +86,15 @@ jobs:
           FTP_DIR: ${{ secrets.FTP_DIR }}
         run: |
           # Bez --delete: pliki spoza strony na serwerze pozostają nietknięte
-          lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; mirror --reverse --verbose --only-newer --exclude-glob .git* out $FTP_DIR; bye"
+          lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; mirror --reverse --verbose --only-newer out $FTP_DIR; bye"
 
       - name: Sprawdzenie po wdrożeniu
-        if: ${{ !inputs.tylko_sprawdz }}
+        if: steps.sekrety.outputs.gotowe == 'tak' && (github.event_name == 'push' || !inputs.tylko_sprawdz)
         run: |
-          for p in / /oferta/ /kontakt/ /polityka-prywatnosci/ /sitemap.xml /robots.txt; do
+          sleep 5
+          for p in / /oferta/ /kontakt/ /zamow/ /polityka-prywatnosci/ /regulamin/ /sitemap.xml /robots.txt; do
             printf '%s ' "$p"; curl -s -o /dev/null -w '%{http_code}\n' "https://kapitalownia.pl$p"
           done
-          curl -s -o /dev/null -w 'brak strony: %{http_code}\n' https://kapitalownia.pl/nie-ma-takiej-strony
-          curl -s -o /dev/null -w 'GET formularza: %{http_code}\n' https://kapitalownia.pl/api/formularz.php
+          printf 'brak strony (oczekiwane 404): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/nie-ma-takiej-strony
+          printf 'http -> https (oczekiwane 301): '; curl -s -o /dev/null -w '%{http_code}\n' http://kapitalownia.pl/
+          printf 'GET formularza (oczekiwane 405): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/api/formularz.php
