@@ -130,6 +130,6 @@ export function formHtml({ mode, uslugi = [], order = false }) {
 </form>
 <div class="form-success" id="form-success" tabindex="-1" hidden>
   <h2>Dziękujemy, zgłoszenie zostało wysłane</h2>
-  <p>Odpowiemy na adres <strong data-email></strong>. Jeśli w ciągu kilku dni robocznych nie zobaczysz naszej wiadomości, sprawdź folder ze spamem albo napisz na kapitalownia@gmail.com.</p>
+  <p>Odpowiemy na adres <strong data-email></strong>. Jeśli nie zobaczysz naszej wiadomości, sprawdź też folder ze spamem albo napisz na kontakt@kapitalownia.pl.</p>
 </div>`;
 }

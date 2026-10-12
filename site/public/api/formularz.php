@@ -26,7 +26,7 @@ function respond(bool $ok, int $code, array $extra = []): never {
         echo '<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Nie wysłano zgłoszenia | Kapitałownia</title>'
            . '<style>body{font:17px/1.6 system-ui,sans-serif;background:#f7f5f0;color:#14213a;max-width:640px;margin:60px auto;padding:0 16px}a{color:#1f5a4a}</style></head><body>'
            . '<h1>Nie wysłano zgłoszenia</h1><p>' . $msg . '</p>' . ($items ? '<ul>' . $items . '</ul>' : '')
-           . '<p>Wróć do formularza przyciskiem Wstecz w przeglądarce, popraw dane i wyślij ponownie. Możesz też napisać na <a href="mailto:kapitalownia@gmail.com">kapitalownia@gmail.com</a>.</p></body></html>';
+           . '<p>Wróć do formularza przyciskiem Wstecz w przeglądarce, popraw dane i wyślij ponownie. Możesz też napisać na <a href="mailto:kontakt@kapitalownia.pl">kontakt@kapitalownia.pl</a>.</p></body></html>';
     }
     exit;
 }

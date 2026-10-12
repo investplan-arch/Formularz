@@ -224,7 +224,7 @@
     errorBox.hidden = true;
 
     if (form.getAttribute('data-mode') === 'preview') {
-      setStatus('<p><strong>Wersja robocza.</strong> Formularz przeszedł walidację, ale w podglądzie nie wysyła danych. Po wdrożeniu zgłoszenie trafi na kapitalownia@gmail.com.</p>', 'info');
+      setStatus('<p><strong>Wersja robocza.</strong> Formularz przeszedł walidację, ale w podglądzie nie wysyła danych. Po wdrożeniu zgłoszenie trafi do Kapitałowni.</p>', 'info');
       return;
     }
 
@@ -257,7 +257,7 @@
       }
       throw new Error((r.data && r.data.message) || 'Błąd serwera');
     }).catch(function () {
-      setStatus('<p><strong>Nie udało się wysłać zgłoszenia.</strong> Twoje odpowiedzi zostały w formularzu. Spróbuj ponownie za chwilę albo napisz bezpośrednio na <a href="mailto:kapitalownia@gmail.com">kapitalownia@gmail.com</a>.</p>', 'error');
+      setStatus('<p><strong>Nie udało się wysłać zgłoszenia.</strong> Twoje odpowiedzi zostały w formularzu. Spróbuj ponownie za chwilę albo napisz bezpośrednio na <a href="mailto:kontakt@kapitalownia.pl">kontakt@kapitalownia.pl</a>.</p>', 'error');
     }).then(function () {
       submitBtn.disabled = false;
       submitBtn.textContent = submitLabel;
