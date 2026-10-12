@@ -202,6 +202,9 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 .checklist li::before { content: ""; position: absolute; left: 2px; top: .5em; width: 10px; height: 6px; border-left: 2px solid var(--blue); border-bottom: 2px solid var(--blue); transform: rotate(-45deg); }
 .service__foot { margin-top: auto; padding-top: 18px; border-top: 1px solid var(--line); display: grid; gap: 12px; }
 .service__price { margin: 0; }
+.service__price p { margin: 0; }
+.service__fee { margin-top: 6px !important; font-weight: 600; color: var(--ink); }
+.service__total { margin-top: 6px !important; font-size: .88rem; color: var(--muted); }
 .service__price strong { font: 500 1.8rem/1 var(--serif); letter-spacing: -.02em; color: var(--ink); }
 .service__price span { color: var(--muted); font-size: .9rem; }
 .service__price--quote { font-weight: 600; color: var(--ink); }

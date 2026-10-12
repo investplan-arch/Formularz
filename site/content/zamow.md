@@ -6,7 +6,7 @@ layout: shop
 hero:
   eyebrow: Cennik i zamówienie
   title: Zamów przygotowanie dokumentów
-  lead: Wybierz usługę i poproś o wycenę. Jeśli nie masz pewności, czy spełniasz warunki programu, zacznij od formularza kwalifikacyjnego.
+  lead: Wnioski o środki na start zamówisz i opłacisz online. Płacisz 850 zł przy zamówieniu, a 1050 zł tylko wtedy, gdy otrzymasz finansowanie. Jeśli nie masz pewności, czy spełniasz warunki, zacznij od formularza kwalifikacyjnego.
   cta: Sprawdź kwalifikację
   secondary: Porównaj programy
   secondaryHref: /finansowanie-na-start/#programy
@@ -19,10 +19,10 @@ hero:
 ::: section steps if=platnosci
 ## Jak przebiega zamówienie
 
-1. **Płatność** Przycisk przenosi Cię na bezpieczną stronę płatności Stripe. Potwierdzenie płatności dostaniesz e-mailem.
+1. **Płatność** Przycisk przenosi Cię na bezpieczną stronę płatności Stripe, gdzie płacisz 850 zł.
 2. **Ankieta** Po płatności wracasz na naszą stronę i wypełniasz krótką ankietę o planowanej działalności.
 3. **Ustalenia** Odzywamy się e-mailem, sprawdzamy aktualny nabór i dopytujemy o szczegóły.
-4. **Dokumenty** Przekazujemy komplet dokumentów gotowych do złożenia i instrukcję, jak je złożyć.
+4. **Dokumenty i decyzja** Przekazujemy komplet dokumentów gotowych do złożenia. Dopłata 1050 zł obowiązuje tylko po przyznaniu środków.
 :::
 
 ::: section steps if=bez-platnosci

@@ -424,3 +424,15 @@ test('stopka na telefonie ma odstęp od linii podziału', async () => {
     assert.ok(await p.evaluate(() => parseFloat(getComputedStyle(document.querySelector('.site-footer__bottom')).paddingTop)) >= 16);
   } finally { await p.close(); }
 });
+
+test('usługi z ceną pokazują opłatę początkową, success fee i łączny koszt', () => {
+  const h = readFileSync(join(dist, 'zamow/index.html'), 'utf8');
+  const uslugi = JSON.parse(readFileSync(join(root, 'site/uslugi.json'), 'utf8')).uslugi;
+  for (const u of uslugi.filter(x => typeof x.cena === 'number' && x.successFee)) {
+    const card = h.split(`id="usluga-${u.id}"`)[1].split('</article>')[0];
+    assert.match(card, new RegExp(`${u.cena} zł`));
+    assert.match(card, new RegExp(`\\+ ${u.successFee.toLocaleString('pl-PL').replace(/ /g, ' ')} zł po przyznaniu środków`));
+    assert.match(card, /Łącznie/);
+    assert.ok(card.includes(`href="${u.stripe}"`));
+  }
+});

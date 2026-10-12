@@ -91,3 +91,5 @@ jobs:
           printf 'brak strony (oczekiwane 404): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/nie-ma-takiej-strony
           printf 'http -> https (oczekiwane 301): '; curl -s -o /dev/null -w '%{http_code}\n' http://kapitalownia.pl/
           printf 'GET formularza (oczekiwane 405): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/api/formularz.php
+          css=$(basename out/assets/style.*.css)
+          curl -s https://kapitalownia.pl/ | grep -q "$css" && echo "Na serwerze jest nowa wersja ($css)" || { echo "Na serwerze nie ma nowej wersji ($css)"; exit 1; }

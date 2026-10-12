@@ -23,7 +23,16 @@ Usługa nie obejmuje gwarancji przyznania środków. Decyzję podejmuje instytuc
 
 Zamówienie składa się przez wybór usługi i opłacenie jej na stronie płatności Stripe albo przez akceptację indywidualnej oferty e-mailem. Umowa zostaje zawarta z chwilą potwierdzenia płatności albo akceptacji oferty.
 
-Ceny podane na stronie są cenami brutto w złotych.
+Ceny podane na stronie są kwotami ostatecznymi w złotych.
+
+## 3a. Wynagrodzenie przy wnioskach o finansowanie
+
+Przy usługach, dla których cennik podaje dwie kwoty, wynagrodzenie składa się z dwóch części.
+
+1. Opłata początkowa jest płatna przy zamówieniu i obejmuje przygotowanie dokumentów.
+2. Wynagrodzenie za sukces jest należne tylko wtedy, gdy instytucja prowadząca nabór przyzna klientowi środki na podstawie przygotowanych dokumentów. Kapitałownia przesyła wezwanie do zapłaty e-mailem po otrzymaniu od klienta informacji o pozytywnej decyzji, a termin płatności wynosi 14 dni od wezwania.
+
+Jeśli środki nie zostaną przyznane, klient nie płaci wynagrodzenia za sukces. Opłata początkowa nie podlega zwrotowi z tego powodu, bo dotyczy wykonanej pracy, z zastrzeżeniem prawa odstąpienia opisanego w punkcie 6.
 
 ## 4. Płatności
 

@@ -9,11 +9,11 @@ hero:
   lead: Jeśli nie znajdziesz tu odpowiedzi, napisz do nas. Odpowiemy na konkretne pytanie o Twoją sytuację.
 ---
 
-### Ile kosztuje przygotowanie dokumentacji?
-Ceny usług znajdziesz w [cenniku](/zamow/). Przy usługach z wyceną indywidualną cenę podajemy po wstępnej ocenie zgłoszenia, zanim rozpoczniemy pracę nad dokumentami.
+### Ile kosztuje przygotowanie wniosku?
+Przy wnioskach do urzędu pracy, PFRON, LGD i o pożyczkę Wsparcie w starcie płacisz 850 zł przy zamówieniu. Jeśli instytucja przyzna Ci środki, dopłacasz 1050 zł. Jeśli nie, na tym kończą się Twoje koszty. Pozostałe usługi wyceniamy indywidualnie. Wszystko znajdziesz w [cenniku](/zamow/).
 
 ### Jak mogę zapłacić?
-Usługi z ceną w cenniku opłacisz online na stronie płatności Stripe. Pozostałe usługi rozliczamy według indywidualnej oferty.
+Opłatę początkową zapłacisz online na stronie płatności Stripe. O wynagrodzenie za sukces poprosimy e-mailem dopiero po pozytywnej decyzji instytucji.
 
 ### Czy mogę odstąpić od zamówienia?
 Tak. Konsument ma 14 dni na odstąpienie od umowy. Szczegóły, w tym rozliczenie usługi rozpoczętej na Twoją prośbę przed upływem tego terminu, opisuje [regulamin](/regulamin/).

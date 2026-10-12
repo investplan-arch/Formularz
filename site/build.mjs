@@ -124,7 +124,10 @@ function sourcesHtml() {
 function serviceCard(u) {
   const priced = typeof u.cena === 'number';
   const buy = buyable(u);
-  const price = priced ? `<p class="service__price"><strong>${pln(u.cena)}</strong> <span>brutto</span></p>` : '<p class="service__price service__price--quote">Wycena indywidualna</p>';
+  const fee = typeof u.successFee === 'number' ? u.successFee : 0;
+  const price = priced
+    ? `<div class="service__price"><p><strong>${pln(u.cena)}</strong> <span>na start, płatne przy zamówieniu</span></p>${fee ? `<p class="service__fee">+ ${pln(fee)} po przyznaniu środków</p><p class="service__total">Łącznie ${pln(u.cena + fee)}, jeśli otrzymasz finansowanie. Jeśli nie, płacisz tylko ${pln(u.cena)}.</p>` : ''}</div>`
+    : '<p class="service__price service__price--quote">Wycena indywidualna</p>';
   const cta = buy
     ? `<a class="btn btn--primary" href="${esc(u.stripe)}" rel="noopener">Zamawiam i płacę</a>`
     : `<a class="btn btn--primary" href="/kontakt/?usluga=${u.id}">Poproś o wycenę</a>`;
