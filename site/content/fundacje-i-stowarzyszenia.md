@@ -1,5 +1,5 @@
 ---
-title: Wsparcie fundacji i stowarzyszeń | Kapitałownia
+title: Wnioski grantowe dla fundacji i stowarzyszeń | Kapitałownia
 description: Pomagamy fundacjom, stowarzyszeniom i innym organizacjom przygotować projekty i wnioski grantowe. Planowanie działań, budżetu i rezultatów.
 path: /fundacje-i-stowarzyszenia/
 hero:
@@ -31,6 +31,18 @@ Jeśli Twoja organizacja dopiero powstaje albo działa od niedawna, pomagamy wsk
 - stowarzyszenia, w tym stowarzyszenia zwykłe,
 - koła gospodyń wiejskich,
 - inne organizacje społeczne i grupy nieformalne, które planują założenie organizacji.
+:::
+
+::: section split
+## Co zawiera dobry wniosek grantowy
+
+Oceniający czytają wiele wniosków. Wygrywają te, w których wszystkie części mówią to samo.
+
+- **Problem i potrzeba.** Jasno opisany problem odbiorców i dowody, że naprawdę istnieje.
+- **Cele i rezultaty.** Mierzalne efekty, które da się sprawdzić po zakończeniu projektu.
+- **Działania i harmonogram.** Kolejne kroki rozpisane w czasie, wykonalne dla Twojego zespołu.
+- **Budżet.** Koszty powiązane z działaniami i zgodne z zasadami konkretnego konkursu.
+- **Potencjał organizacji.** Doświadczenie, zasoby i partnerzy, nawet jeśli organizacja dopiero startuje.
 :::
 
 ::: section note

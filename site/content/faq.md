@@ -1,6 +1,6 @@
 ---
-title: Częste pytania | Kapitałownia
-description: Odpowiedzi na najczęstsze pytania o dotacje, pożyczki, biznesplany, koszty i współpracę z Kapitałownią.
+title: Pytania o dotacje i pożyczki dla firm | Kapitałownia
+description: Odpowiedzi na częste pytania o dotacje z urzędu pracy, pożyczki, biznesplany, koszt przygotowania wniosku i współpracę z Kapitałownią.
 path: /faq/
 layout: faq
 hero:

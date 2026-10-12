@@ -1,5 +1,5 @@
 ---
-title: Jak wygląda współpraca | Kapitałownia
+title: Jak przygotowujemy wniosek o dotację | Kapitałownia
 description: Zobacz, jak pracujemy. Od krótkiego zgłoszenia przez wstępną ocenę i wycenę do kompletnej dokumentacji gotowej do złożenia.
 path: /wspolpraca/
 hero:

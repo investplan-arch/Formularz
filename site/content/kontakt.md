@@ -1,5 +1,5 @@
 ---
-title: Sprawdź kwalifikację | Kapitałownia
+title: Kontakt i wstępna ocena szans na dotację | Kapitałownia
 description: Opisz swoją sytuację w krótkim formularzu. Odpiszemy e-mailem, z jakich programów możesz skorzystać. Telefon nie jest wymagany.
 path: /kontakt/
 layout: contact
@@ -15,7 +15,7 @@ hero:
 2. Odpisujemy e-mailem ze wstępną oceną.
 3. Jeśli widzimy szansę, proponujemy usługę i cenę.
 
-Nie prosimy o telefon ani dokumenty na tym etapie.
+Nie prosimy o telefon ani dokumenty na tym etapie. Odpowiedzi na częste pytania znajdziesz w [FAQ](/faq/).
 
 ## Kontakt bezpośredni
 

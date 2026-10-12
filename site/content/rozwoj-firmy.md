@@ -1,5 +1,5 @@
 ---
-title: Finansowanie rozwoju firmy | Kapitałownia
+title: Dotacje i pożyczki na rozwój firmy | Kapitałownia
 description: Dotacje i pożyczki na inwestycje, maszyny, wyposażenie i rozwój usług. Kapitałownia przygotowuje biznesplany i dokumentację dla firm i spółek.
 path: /rozwoj-firmy/
 hero:
@@ -31,6 +31,18 @@ Fundusze pożyczkowe i instytucje rozwoju regionalnego. Przygotowujemy biznespla
 
 ### Biznesplan inwestycyjny
 Plan pokazujący, jak inwestycja wpłynie na przychody i koszty firmy. Przydaje się zarówno we wniosku, jak i przy decyzji o samej inwestycji.
+:::
+
+::: section split
+## Co warto przygotować przed rozmową
+
+Im więcej z tych informacji masz pod ręką, tym szybciej ocenimy, który program pasuje.
+
+- **Opis inwestycji.** Co chcesz kupić lub zrobić i jaki efekt ma to dać firmie.
+- **Orientacyjne koszty.** Lista wydatków z przybliżonymi kwotami, najlepiej na podstawie ofert.
+- **Dane o firmie.** Forma prawna, branża, liczba pracowników, główne źródła przychodu.
+- **Wyniki finansowe.** Przychody i koszty z ostatniego roku, a przy pożyczce także obecne zobowiązania.
+- **Otrzymana pomoc publiczna.** Informacja o wcześniejszych dotacjach i pomocy de minimis z ostatnich lat.
 :::
 
 ::: section note

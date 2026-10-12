@@ -1,10 +1,10 @@
 ---
-title: Finansowanie na start firmy | Kapitałownia
+title: Dotacja na otwarcie firmy z PUP, PFRON i LGD | Kapitałownia
 description: Dotacja z urzędu pracy, środki z LGD i PFRON, pożyczki na rozpoczęcie działalności. Pomagamy wybrać źródło finansowania i przygotować wniosek z biznesplanem.
 path: /finansowanie-na-start/
 hero:
   eyebrow: Start firmy
-  title: Finansowanie na rozpoczęcie działalności
+  title: Dotacja i pożyczka na otwarcie firmy
   lead: Własna firma zaczyna się od pierwszych wydatków na sprzęt, oprogramowanie, lokal czy wyposażenie. Pomagamy znaleźć na nie środki i przygotować dokumenty, które przekonają instytucję.
 ---
 

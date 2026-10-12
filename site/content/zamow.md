@@ -1,5 +1,5 @@
 ---
-title: Cennik i zamówienie | Kapitałownia
+title: Cennik usług, wnioski i biznesplany | Kapitałownia
 description: Zamów przygotowanie wniosku o dotację, dokumentów do pożyczki, biznesplanu albo wniosku grantowego. Płatność online przez Stripe lub wycena indywidualna.
 path: /zamow/
 layout: shop

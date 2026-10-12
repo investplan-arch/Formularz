@@ -1,6 +1,6 @@
 ---
-title: Oferta | Kapitałownia
-description: Dotacje, pożyczki preferencyjne, instrumenty zwrotne, biznesplany i dokumentacja aplikacyjna. Zobacz, w czym Kapitałownia pomaga osobom zakładającym firmę, przedsiębiorcom, rolnikom i organizacjom.
+title: Pisanie wniosków o dotacje i biznesplany | Kapitałownia
+description: Dotacje, pożyczki preferencyjne, biznesplany i dokumentacja aplikacyjna dla osób zakładających firmę, przedsiębiorców, rolników i organizacji w całej Polsce.
 path: /oferta/
 hero:
   eyebrow: Oferta
@@ -9,6 +9,8 @@ hero:
 ---
 
 ::: cards services
+## Usługi
+
 ### Dotacje
 Środki bezzwrotne z urzędów pracy, Lokalnych Grup Działania, PFRON i programów regionalnych. Sprawdzamy warunki naboru, przygotowujemy wniosek i wymagane załączniki.
 

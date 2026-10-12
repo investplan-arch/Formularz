@@ -232,6 +232,13 @@ function layout(page, bodyHtml, extraHead = '') {
       <a class="btn btn--light btn--large" href="/kontakt/">Sprawdź kwalifikację</a>
     </div>
   </section>`;
+  const crumbLd = !isHome && !page.noindex ? `<script type="application/ld+json">${JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Strona główna', item: site.url + '/' },
+      { '@type': 'ListItem', position: 2, name: hero.title || page.title, item: canonical }
+    ]
+  })}</script>` : '';
   const orgLd = isHome ? `<script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org', '@type': 'ProfessionalService', name: site.name, url: site.url + '/',
     logo: site.url + '/assets/apple-touch-icon.png', email: site.email, areaServed: { '@type': 'Country', name: 'Polska' },
@@ -264,7 +271,7 @@ ${page.noindex ? '' : `<link rel="canonical" href="${canonical}">`}
 <link rel="stylesheet" href="/${cssName}">
 <noscript><link rel="stylesheet" href="/assets/noscript.css"></noscript>
 ${extraHead}
-${orgLd}
+${orgLd}${crumbLd}
 </head>
 <body class="page-${page.layout || 'default'}">
 <a class="skip" href="#tresc">Przejdź do treści</a>
@@ -360,7 +367,7 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
 // Pliki publiczne: .htaccess, obsługa formularza, robots, sitemap
 if (!flat) cpSync(join(root, 'public'), out, { recursive: true });
 if (mode === 'production') {
-  writeFileSync(join(out, 'robots.txt'), `User-agent: *\nDisallow: /api/\nDisallow: /dziekujemy/\nDisallow: /zamowienie/\n\nSitemap: ${site.url}/sitemap.xml\n`);
+  writeFileSync(join(out, 'robots.txt'), `User-agent: *\nDisallow: /api/\n\nSitemap: ${site.url}/sitemap.xml\n`);
   const urls = pages.filter(p => !p.noindex).map(p => `  <url><loc>${site.url}${p.path}</loc><lastmod>${updated}</lastmod></url>`).join('\n');
   writeFileSync(join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 } else {

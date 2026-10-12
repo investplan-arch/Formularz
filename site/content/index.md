@@ -1,6 +1,6 @@
 ---
-title: Kapitałownia | Dotacje, pożyczki i biznesplany dla firm i organizacji
-description: Sprawdzamy, z którego programu możesz skorzystać, i przygotowujemy dokumenty. Środki z urzędu pracy, PFRON i LGD, pożyczki preferencyjne, biznesplany oraz wnioski dla NGO w całej Polsce.
+title: Dotacje i pożyczki na start i rozwój firmy | Kapitałownia
+description: Sprawdzamy, z którego programu możesz skorzystać, i piszemy wniosek z biznesplanem. Środki z urzędu pracy, PFRON i LGD, pożyczki preferencyjne, wnioski dla NGO.
 path: /
 layout: home
 hero:
@@ -48,6 +48,8 @@ Krótkie porównanie najczęściej wybieranych źródeł. Pełne warunki, plusy 
 2. **Zakres i cena** Ustalamy, co przygotujemy i ile to kosztuje. Usługi z ceną w cenniku można opłacić online.
 3. **Ankieta** Odpowiadasz na pytania o planowaną działalność i wydatki. Nie musisz pisać nic od zera.
 4. **Gotowe dokumenty** Dostajesz biznesplan i wniosek gotowe do złożenia, z instrukcją, gdzie i jak je złożyć.
+
+[Szczegóły współpracy](/wspolpraca/)
 :::
 
 ::: section split
