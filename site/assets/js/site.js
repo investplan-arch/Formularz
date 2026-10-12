@@ -20,8 +20,38 @@
     });
   }
 
+  // Liczniki: wartość końcowa jest w HTML, animacja tylko ją odtwarza
+  var counters = document.querySelectorAll('[data-count]');
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (counters.length && !reduce && 'IntersectionObserver' in window) {
+    var run = function (el) {
+      var end = Number(el.getAttribute('data-count'));
+      var start = null, dur = 1200;
+      var step = function (ts) {
+        if (start === null) start = ts;
+        var p = Math.min((ts - start) / dur, 1);
+        el.textContent = String(Math.round(end * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { io.unobserve(en.target); run(en.target); }
+      });
+    }, { threshold: 0.6 });
+    counters.forEach(function (el) { io.observe(el); });
+  }
+
   var form = document.getElementById('formularz');
   if (!form) return;
+
+  // Usługa wybrana na stronie programu lub cennika
+  try {
+    var wanted = new URLSearchParams(window.location.search).get('usluga');
+    var sel = form.elements.usluga;
+    if (wanted && sel && sel.querySelector('option[value="' + wanted.replace(/[^\w-]/g, '') + '"]')) sel.value = wanted;
+  } catch (e) { /* stare przeglądarki */ }
 
   var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
   var groups = form.querySelectorAll('.form-group--type');
@@ -77,6 +107,7 @@
   function labelOf(input) {
     if (input.name === 'rodzaj') return 'Kim jesteś';
     if (input.name === 'zgoda') return 'Zgoda';
+    if (input.name === 'usluga') return 'Usługa';
     var l = form.querySelector('label[for="' + input.id + '"]');
     return l ? l.firstChild.textContent.trim() : input.name;
   }

@@ -108,6 +108,12 @@ if (isset($types[$type])) {
     }
 }
 
+$uslugi = $config['uslugi'];
+$usluga = clean('usluga', 40);
+$isOrder = ($_POST['zamowienie'] ?? '') === 'tak';
+if ($usluga !== '' && isset($uslugi[$usluga])) $rows['Usługa'] = $uslugi[$usluga];
+elseif ($isOrder) $errors['usluga'] = 'Wybierz zamówioną usługę.';
+
 $woj = clean('wojewodztwo', 40);
 if (!in_array($woj, $wojewodztwa, true)) $errors['wojewodztwo'] = 'Wybierz województwo.';
 else $rows['Województwo'] = $woj;
@@ -124,6 +130,7 @@ if (mb_strlen($opis) < 20) $errors['opis'] = 'Napisz trochę więcej, co najmnie
 $imie = oneLine(clean('imie', 80));
 $email = oneLine(clean('email', 160));
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) $errors['email'] = 'Podaj poprawny adres e-mail.';
+if ($isOrder) $rows['Rozpoczęcie przed upływem 14 dni'] = (($_POST['start_teraz'] ?? '') === 'tak') ? 'TAK, klient zażądał' : 'nie, czekamy 14 dni';
 if (($_POST['zgoda'] ?? '') !== 'tak') $errors['zgoda'] = 'Zaznacz to pole, żebyśmy mogli odpowiedzieć.';
 
 if ($errors) {
@@ -133,8 +140,8 @@ if ($errors) {
 // Zgłoszenia testowe oznacza się słowem TEST na początku opisu
 $isTest = str_starts_with(mb_strtoupper($opis), 'TEST') || str_starts_with(mb_strtoupper($imie), 'TEST');
 
-$subject = ($isTest ? '[TEST] ' : '') . 'Zgłoszenie ze strony: ' . $types[$type] . ', ' . $woj;
-$lines = ['Nowe zgłoszenie z formularza na kapitalownia.pl', ''];
+$subject = ($isTest ? '[TEST] ' : '') . ($isOrder ? '[ZAMÓWIENIE] Ankieta po płatności: ' : 'Zgłoszenie ze strony: ') . $types[$type] . ', ' . $woj;
+$lines = [$isOrder ? 'Ankieta po opłaceniu zamówienia. Sprawdź płatność w panelu Stripe po adresie e-mail klienta.' : 'Nowe zgłoszenie z formularza na kapitalownia.pl', ''];
 if ($imie !== '') $lines[] = 'Imię: ' . $imie;
 $lines[] = 'E-mail: ' . $email;
 $lines[] = '';

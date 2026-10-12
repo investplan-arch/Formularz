@@ -1,67 +1,70 @@
 ---
 title: Kapitałownia | Dotacje, pożyczki i biznesplany dla firm i organizacji
-description: Pomagamy dobrać źródło finansowania i przygotować dokumentację. Dotacje z PUP, LGD i PFRON, pożyczki preferencyjne, biznesplany oraz wsparcie fundacji i stowarzyszeń w całej Polsce.
+description: Sprawdzamy, z którego programu możesz skorzystać, i przygotowujemy dokumenty. Środki z urzędu pracy, PFRON i LGD, pożyczki preferencyjne, biznesplany oraz wnioski dla NGO w całej Polsce.
 path: /
 layout: home
 hero:
-  eyebrow: Finansowanie i dokumentacja
-  title: Pomagamy zdobyć środki na start i rozwój działalności
-  lead: Kapitałownia dobiera źródło finansowania i przygotowuje wnioski, biznesplany oraz dokumentację dla osób zakładających firmę, przedsiębiorców, rolników, fundacji i stowarzyszeń. Pracujemy z klientami z całej Polski.
-  cta: Opisz swoją sytuację
-  secondary: Zobacz ofertę
-  secondaryHref: /oferta/
+  eyebrow: Dotacje, pożyczki, biznesplany
+  title: Zdobądź pieniądze na start i rozwój działalności
+  lead: Sprawdzamy, z którego programu możesz skorzystać, i przygotowujemy komplet dokumentów. Pomagamy osobom zakładającym firmę, przedsiębiorcom, rolnikom oraz fundacjom i stowarzyszeniom w całej Polsce.
+  cta: Sprawdź, czy się kwalifikujesz
+  secondary: Zobacz programy
+  secondaryHref: /#programy
 ---
 
-::: section intro
+::: programs ids=pup,pfron,wws,lgd
+## Programy na start firmy
+
+Najważniejsze informacje w jednym miejscu. Szczegóły zależą od konkretnego naboru, dlatego każde zgłoszenie zaczynamy od sprawdzenia aktualnego regulaminu.
+:::
+
+::: cards white
 ## Z kim pracujemy
 
-Każda sytuacja wymaga innego programu i innego zestawu dokumentów. Zaczynamy od tego, kim jesteś i co chcesz sfinansować.
-:::
+Zaczynamy od tego, kim jesteś i co chcesz sfinansować. Od tego zależy program i zestaw dokumentów.
 
-::: cards audience
-### Planujesz własną działalność
-Sprawdzamy, czy możesz skorzystać ze środków z urzędu pracy, LGD lub PFRON, i przygotowujemy wniosek wraz z biznesplanem.
+### Zakładasz firmę
+Środki z urzędu pracy, LGD i PFRON oraz pożyczki na start. Przygotowujemy wniosek razem z biznesplanem.
 [Finansowanie na start](/finansowanie-na-start/)
 
-### Prowadzisz firmę lub spółkę
-Szukamy dotacji i pożyczek na inwestycje, wyposażenie, nowe usługi albo rozbudowę. Przygotowujemy dokumenty dla instytucji i funduszy.
+### Rozwijasz firmę
+Dotacje i pożyczki na maszyny, wyposażenie, nowe usługi i inwestycje. Dla jednoosobowych firm i spółek.
 [Rozwój firmy](/rozwoj-firmy/)
 
-### Prowadzisz gospodarstwo rolne
-Pomagamy ocenić, które nabory dotyczą Twojego gospodarstwa lub planowanej działalności pozarolniczej, i porządkujemy dokumentację.
-[Zobacz ofertę](/oferta/#rolnicy)
+### Prowadzisz gospodarstwo
+Rozwój gospodarstwa albo działalność pozarolnicza. Sprawdzamy nabory dostępne w Twoim regionie.
+[Oferta dla rolników](/oferta/#rolnicy)
 
-### Działasz w fundacji lub stowarzyszeniu
-Pomagamy zaplanować projekt, budżet i harmonogram oraz napisać wniosek do konkursu grantowego.
-[Wsparcie NGO](/fundacje-i-stowarzyszenia/)
-:::
-
-::: section split
-## Co dla Ciebie zrobimy
-
-Nie wypełniamy formularzy na ślepo. Najpierw sprawdzamy, czy program pasuje do Twojego celu i możliwości, a dopiero potem piszemy.
-
-- **Dobór źródła finansowania.** Porównujemy dostępne dotacje, pożyczki preferencyjne i inne instrumenty zwrotne pod kątem Twojej sytuacji.
-- **Biznesplan.** Opracowujemy spójny plan z realnymi założeniami finansowymi, który obroni się przed oceniającym.
-- **Wniosek i załączniki.** Przygotowujemy komplet dokumentów zgodnie z wymaganiami naboru i pilnujemy terminów.
-- **Dokumentacja do pożyczki.** Zbieramy dane i przygotowujemy materiały wymagane przez fundusz lub instytucję finansującą.
-
-[Pełna oferta](/oferta/)
+### Działasz w NGO
+Projekty i wnioski grantowe dla fundacji, stowarzyszeń i kół gospodyń wiejskich.
+[Wsparcie organizacji](/fundacje-i-stowarzyszenia/)
 :::
 
 ::: section steps
-## Jak wygląda współpraca
+## Jak to działa
 
-1. **Zgłoszenie.** Wypełniasz krótki formularz. Wystarczy kilka informacji o celu i budżecie.
-2. **Wstępna ocena.** Odpisujemy z propozycją możliwych źródeł finansowania albo informacją, że w tej chwili nie widzimy dobrego dopasowania.
-3. **Zakres i wycena.** Ustalamy, co przygotowujemy, w jakim terminie i za jaką cenę. Wycena jest indywidualna.
-4. **Dokumentacja.** Piszemy dokumenty, konsultujemy je z Tobą i przekazujemy gotowe do złożenia.
+1. **Sprawdzenie kwalifikacji.** Wypełniasz krótki formularz. Odpisujemy, z jakich programów możesz skorzystać i czego potrzebujesz.
+2. **Zamówienie.** Wybierasz usługę w cenniku i płacisz online albo ustalamy wycenę indywidualnie.
+3. **Ankieta.** Odpowiadasz na pytania o planowaną działalność i wydatki. Nie musisz pisać nic od zera.
+4. **Gotowe dokumenty.** Dostajesz biznesplan i wniosek gotowe do złożenia, z instrukcją, gdzie i jak je złożyć.
+:::
 
-[Szczegóły współpracy](/wspolpraca/)
+::: section split
+## Dlaczego Kapitałownia
+
+Od 4 lat przygotowujemy wnioski i biznesplany. 211 z nich zostało ocenionych pozytywnie.
+
+- **Sprawdzamy warunki, zanim zamówisz.** Jeśli program nie jest dla Ciebie, mówimy to od razu.
+- **Aktualne informacje.** Kwoty i warunki podajemy według stron instytucji publicznych, z datą sprawdzenia.
+- **Cena znana z góry.** Wiesz, ile zapłacisz i co dostaniesz, zanim zaczniemy pracę.
+- **Dokumenty zgodne z regulaminem naboru.** Pilnujemy spójności biznesplanu, wniosku i załączników, bo to częsty powód odrzucenia.
+- **Cała Polska, bez wizyt w biurze.** Całą współpracę z nami prowadzisz mailowo i przez internet.
+
+[Zobacz cennik i zamów](/zamow/)
 :::
 
 ::: section note
 ## Uczciwie o szansach
 
-Decyzję o przyznaniu środków podejmuje instytucja, która prowadzi nabór. Nikt nie może zagwarantować jej wyniku. Możemy natomiast zadbać, żeby Twój wniosek był kompletny, przemyślany i zgodny z zasadami programu. Jeśli uznamy, że dany nabór nie jest dla Ciebie, powiemy to od razu.
+Decyzję o przyznaniu środków podejmuje instytucja, która prowadzi nabór. Nikt nie może zagwarantować jej wyniku. Możemy zadbać o to, żeby Twój wniosek był kompletny, przemyślany i zgodny z zasadami programu.
 :::

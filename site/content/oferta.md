@@ -47,5 +47,5 @@ Przygotowujemy wnioski do konkursów grantowych, pomagamy zaplanować działania
 ::: section note
 ## O cenach
 
-Koszt usługi zależy od programu, zakresu dokumentacji i stopnia przygotowania materiałów po Twojej stronie. Dlatego nie publikujemy cennika. Wycenę przedstawiamy po wstępnej ocenie, zanim zaczniemy pracę, a dalsze działania podejmujemy dopiero po jej akceptacji.
+Ceny usług znajdziesz w [cenniku](/zamow/), gdzie możesz też zamówić usługę i zapłacić online. Przy nietypowym zakresie przygotowujemy wycenę indywidualną, zanim zaczniemy pracę.
 :::

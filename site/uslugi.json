@@ -1,0 +1,53 @@
+{
+  "_opis": "Usługi do zamówienia na stronie /zamow/. cena: kwota brutto w zł albo null, gdy wycena jest indywidualna. stripe: adres Payment Link ze Stripe (https://buy.stripe.com/...) albo pusty. Gdy cena lub link są puste, przycisk prowadzi do formularza wyceny.",
+  "uslugi": [
+    {
+      "id": "pup",
+      "nazwa": "Wniosek o środki z urzędu pracy",
+      "opis": "Komplet dokumentów do jednorazowych środków na podjęcie działalności.",
+      "zakres": ["sprawdzenie warunków w Twoim urzędzie", "biznesplan i uzasadnienie wydatków", "wniosek z załącznikami według wzoru urzędu", "poprawki, jeśli urząd wezwie do uzupełnień"],
+      "cena": null,
+      "stripe": ""
+    },
+    {
+      "id": "pfron",
+      "nazwa": "Wniosek o środki PFRON na działalność",
+      "opis": "Dokumentacja do jednorazowych środków dla osób z niepełnosprawnościami.",
+      "zakres": ["wyjaśnienie procedury w Twoim powiecie", "biznesplan i kalkulacje", "wniosek z załącznikami", "poprawki po wezwaniu do uzupełnień"],
+      "cena": null,
+      "stripe": ""
+    },
+    {
+      "id": "wws",
+      "nazwa": "Dokumenty do pożyczki Wsparcie w starcie",
+      "opis": "Biznesplan i komplet dokumentów dla pośrednika BGK.",
+      "zakres": ["wybór pośrednika w Twoim regionie", "biznesplan z prognozą spłaty", "wniosek i wymagane załączniki"],
+      "cena": null,
+      "stripe": ""
+    },
+    {
+      "id": "lgd",
+      "nazwa": "Wniosek do Lokalnej Grupy Działania",
+      "opis": "Biznesplan i wniosek dopasowane do lokalnych kryteriów oceny.",
+      "zakres": ["analiza kryteriów punktowych LGD", "biznesplan", "wniosek i załączniki"],
+      "cena": null,
+      "stripe": ""
+    },
+    {
+      "id": "biznesplan",
+      "nazwa": "Biznesplan",
+      "opis": "Samodzielny biznesplan do banku, funduszu pożyczkowego albo na własne potrzeby.",
+      "zakres": ["analiza rynku i konkurencji", "plan działań", "prognoza finansowa"],
+      "cena": null,
+      "stripe": ""
+    },
+    {
+      "id": "ngo",
+      "nazwa": "Wniosek grantowy dla organizacji",
+      "opis": "Projekt i wniosek do konkursu dla fundacji lub stowarzyszenia.",
+      "zakres": ["opis problemu i działań", "harmonogram i rezultaty", "budżet zgodny z regulaminem konkursu"],
+      "cena": null,
+      "stripe": ""
+    }
+  ]
+}

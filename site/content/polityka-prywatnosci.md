@@ -11,7 +11,7 @@ hero:
 
 ## Administrator danych
 
-Administratorem danych osobowych jest {{admin}}. W sprawach dotyczących danych możesz pisać na adres [{{email}}](mailto:{{email}}).
+Administratorem danych osobowych jest {{firma}}. W sprawach dotyczących danych możesz pisać na adres [{{email}}](mailto:{{email}}).
 
 ## Jakie dane zbieramy
 
@@ -31,6 +31,12 @@ Po wysłaniu formularza serwer strony przekazuje treść zgłoszenia wiadomości
 
 Dane mogą być przetwarzane przez dostawców usług, z których korzystamy, czyli przez home.pl sp. z o.o. jako dostawcę hostingu i poczty serwera oraz przez Google jako dostawcę skrzynki Gmail. Google może przetwarzać dane poza Europejskim Obszarem Gospodarczym na podstawie mechanizmów przewidzianych w RODO, takich jak standardowe klauzule umowne.
 
+## Płatności
+
+Zamówienia opłaca się na stronie płatności Stripe. Stripe Payments Europe Ltd. przetwarza dane potrzebne do płatności, takie jak imię i nazwisko, adres e-mail i dane karty, jako odrębny administrator zgodnie z własną polityką prywatności. Od Stripe otrzymujemy informację o płatności, adres e-mail i dane podane przez Ciebie na stronie płatności. Nie otrzymujemy danych karty.
+
+Dane związane z zamówieniem przetwarzamy w celu wykonania umowy (art. 6 ust. 1 lit. b RODO) oraz wystawienia dokumentów księgowych i ich przechowywania przez okres wymagany przepisami (art. 6 ust. 1 lit. c RODO).
+
 ## Jak długo przechowujemy dane
 
 Korespondencję dotyczącą zgłoszenia przechowujemy przez 12 miesięcy od ostatniego kontaktu, jeśli nie dojdzie do współpracy. Jeżeli podpiszemy umowę, dane przechowujemy przez okres jej realizacji i przez czas wymagany przepisami, na przykład podatkowymi.
@@ -41,7 +47,7 @@ Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia, ograniczenia
 
 ## Pliki cookies i narzędzia analityczne
 
-Strona nie używa plików cookies, narzędzi analitycznych, pikseli reklamowych ani zewnętrznych czcionek. Serwer hostingu może zapisywać standardowe logi techniczne, takie jak adres IP, czas żądania i typ przeglądarki, w celu zapewnienia bezpieczeństwa i poprawnego działania usługi.
+Strona nie używa plików cookies, narzędzi analitycznych, pikseli reklamowych ani zewnętrznych czcionek. Link do profilu na Facebooku jest zwykłym odnośnikiem i nie przekazuje Facebookowi danych, dopóki w niego nie klikniesz. Strona płatności Stripe działa w domenie Stripe i stosuje własne pliki cookies. Serwer hostingu może zapisywać standardowe logi techniczne, takie jak adres IP, czas żądania i typ przeglądarki, w celu zapewnienia bezpieczeństwa i poprawnego działania usługi.
 
 ## Zmiany
 

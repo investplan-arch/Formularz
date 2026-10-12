@@ -8,20 +8,10 @@ hero:
   lead: Własna firma zaczyna się od pierwszych wydatków na sprzęt, oprogramowanie, lokal czy wyposażenie. Pomagamy znaleźć na nie środki i przygotować dokumenty, które przekonają instytucję.
 ---
 
-::: section
-## Skąd mogą pochodzić środki
+::: programs
+## Programy na start
 
-### Powiatowy urząd pracy
-Urzędy pracy przyznają jednorazowe środki na podjęcie działalności gospodarczej. Każdy urząd ma własny regulamin, terminy naborów i listę wymaganych dokumentów. Znaczenie ma również Twój status na rynku pracy. Sprawdzamy aktualne zasady w Twoim urzędzie i przygotowujemy wniosek z uzasadnieniem wydatków.
-
-### Lokalne Grupy Działania
-LGD prowadzą nabory w ramach lokalnych strategii rozwoju, często z myślą o mieszkańcach mniejszych miejscowości i obszarów wiejskich. Warunki, kwoty i kryteria oceny są różne w każdej LGD. Pomagamy odczytać kryteria i dopasować do nich biznesplan.
-
-### PFRON
-Osoby z niepełnosprawnościami mogą ubiegać się o jednorazowe środki na podjęcie działalności. Wniosek składa się za pośrednictwem właściwego starosty. Wyjaśniamy procedurę i przygotowujemy dokumentację.
-
-### Pożyczki na start
-Fundusze pożyczkowe oferują finansowanie dla osób rozpoczynających działalność, także wtedy, gdy dotacja nie jest dostępna. Pomagamy porównać warunki i złożyć komplet dokumentów.
+Porównanie najczęściej wybieranych źródeł finansowania. Kwoty to górne limity z przepisów i ogłoszeń. Konkretny nabór może mieć niższy limit i dodatkowe warunki.
 :::
 
 ::: section split

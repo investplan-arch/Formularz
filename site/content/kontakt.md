@@ -1,12 +1,24 @@
 ---
-title: Kontakt i wstępna ocena | Kapitałownia
-description: Opisz swoją sytuację w krótkim formularzu. Odpowiemy e-mailem z propozycją źródeł finansowania. Telefon nie jest wymagany.
+title: Sprawdź kwalifikację | Kapitałownia
+description: Opisz swoją sytuację w krótkim formularzu. Odpiszemy e-mailem, z jakich programów możesz skorzystać. Telefon nie jest wymagany.
 path: /kontakt/
 layout: contact
 hero:
-  eyebrow: Kontakt
-  title: Opisz swoją sytuację
-  lead: Formularz zajmie kilka minut. Pytania dopasują się do tego, kim jesteś. Odpowiemy e-mailem ze wstępną oceną.
+  eyebrow: Kwalifikacja i kontakt
+  title: Sprawdź, czy się kwalifikujesz
+  lead: Formularz zajmie kilka minut. Pytania dopasują się do Twojej sytuacji. Odpiszemy e-mailem ze wstępną oceną i propozycją dalszych kroków.
 ---
 
-Wolisz napisać bezpośrednio? Nasz adres to [kapitalownia@gmail.com](mailto:kapitalownia@gmail.com).
+## Co dalej
+
+1. Czytamy zgłoszenie i sprawdzamy dostępne programy.
+2. Odpisujemy e-mailem ze wstępną oceną.
+3. Jeśli widzimy szansę, proponujemy usługę i cenę.
+
+Nie prosimy o telefon ani dokumenty na tym etapie.
+
+## Kontakt bezpośredni
+
+[kapitalownia@gmail.com](mailto:kapitalownia@gmail.com)
+
+[Kapitałownia na Facebooku](https://www.facebook.com/kapitalownia)

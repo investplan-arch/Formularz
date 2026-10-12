@@ -3,19 +3,51 @@
   "url": "https://kapitalownia.pl",
   "email": "kapitalownia@gmail.com",
   "lang": "pl",
-  "facebook": "",
-  "administrator": {
+  "facebook": "https://www.facebook.com/kapitalownia",
+  "nav": [
+    {
+      "href": "/finansowanie-na-start/",
+      "label": "Start firmy"
+    },
+    {
+      "href": "/rozwoj-firmy/",
+      "label": "Rozwój firmy"
+    },
+    {
+      "href": "/fundacje-i-stowarzyszenia/",
+      "label": "NGO"
+    },
+    {
+      "href": "/zamow/",
+      "label": "Cennik i zamówienie"
+    },
+    {
+      "href": "/wspolpraca/",
+      "label": "Jak pracujemy"
+    },
+    {
+      "href": "/faq/",
+      "label": "FAQ"
+    }
+  ],
+  "firma": {
     "nazwa": "",
     "adres": "",
     "nip": "",
     "regon_krs": ""
   },
-  "nav": [
-    { "href": "/oferta/", "label": "Oferta" },
-    { "href": "/finansowanie-na-start/", "label": "Start firmy" },
-    { "href": "/rozwoj-firmy/", "label": "Rozwój firmy" },
-    { "href": "/fundacje-i-stowarzyszenia/", "label": "NGO" },
-    { "href": "/wspolpraca/", "label": "Współpraca" },
-    { "href": "/faq/", "label": "FAQ" }
+  "stats": [
+    {
+      "value": 4,
+      "label": "lata doświadczenia"
+    },
+    {
+      "value": 211,
+      "label": "wniosków ocenionych pozytywnie"
+    },
+    {
+      "text": "cała Polska",
+      "label": "pracujemy zdalnie z każdym regionem"
+    }
   ]
 }

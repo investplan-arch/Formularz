@@ -10,7 +10,13 @@ hero:
 ---
 
 ### Ile kosztuje przygotowanie dokumentacji?
-Cenę ustalamy indywidualnie, bo zależy od programu, zakresu dokumentów i ilości pracy. Wycenę przedstawiamy po wstępnej ocenie zgłoszenia, zanim rozpoczniemy pracę nad dokumentami.
+Ceny usług znajdziesz w [cenniku](/zamow/). Przy usługach z wyceną indywidualną cenę podajemy po wstępnej ocenie zgłoszenia, zanim rozpoczniemy pracę nad dokumentami.
+
+### Jak mogę zapłacić?
+Usługi z ceną w cenniku opłacisz online na stronie płatności Stripe. Pozostałe usługi rozliczamy według indywidualnej oferty.
+
+### Czy mogę odstąpić od zamówienia?
+Tak. Konsument ma 14 dni na odstąpienie od umowy. Szczegóły, w tym rozliczenie usługi rozpoczętej na Twoją prośbę przed upływem tego terminu, opisuje [regulamin](/regulamin/).
 
 ### Czy gwarantujecie otrzymanie dotacji?
 Nie. Decyzję podejmuje instytucja prowadząca nabór i nikt nie może zagwarantować jej wyniku. Odpowiadamy za jakość i kompletność przygotowanych dokumentów.

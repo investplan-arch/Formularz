@@ -76,7 +76,7 @@ test('treści nie zawierają dawnych marek ani myślników wtrąceniowych', () =
   for (const f of htmlFiles()) {
     const text = readFileSync(f, 'utf8').replace(/<script[\s\S]*?<\/script>/g, '').replace(/<[^>]+>/g, ' ');
     assert.doesNotMatch(text, /DotacjaPlus|InvestPlan/i, f);
-    assert.doesNotMatch(text, / — | – (?!\d)/, `myślnik w ${f}`);
+    assert.doesNotMatch(text.replaceAll('Pierwszy biznes – Wsparcie w starcie', ''), / — | – (?!\d)/, `myślnik w ${f}`);
   }
 });
 
@@ -201,9 +201,9 @@ test('menu mobilne otwiera się i zamyka klawiszem Escape', async () => {
   const p = await browser.newPage({ viewport: { width: 390, height: 844 } });
   try {
     await p.goto(base + '/');
-    assert.equal(await p.isVisible('#menu a[href="/oferta/"]'), false);
+    assert.equal(await p.isVisible('#menu a[href="/zamow/"]'), false);
     await p.click('.nav-toggle');
-    assert.ok(await p.isVisible('#menu a[href="/oferta/"]'));
+    assert.ok(await p.isVisible('#menu a[href="/zamow/"]'));
     await p.keyboard.press('Escape');
     assert.equal(await p.getAttribute('.nav-toggle', 'aria-expanded'), 'false');
     const overflow = await p.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
@@ -213,7 +213,7 @@ test('menu mobilne otwiera się i zamyka klawiszem Escape', async () => {
 
 test('brak naruszeń dostępności (axe, poziom WCAG AA)', async () => {
   const axe = readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8');
-  for (const path of ['/', '/oferta/', '/kontakt/', '/faq/', '/polityka-prywatnosci/', '/404.html']) {
+  for (const path of ['/', '/oferta/', '/finansowanie-na-start/', '/zamow/', '/kontakt/', '/zamowienie/', '/faq/', '/regulamin/', '/polityka-prywatnosci/', '/404.html']) {
     const p = await browser.newPage();
     try {
       await p.goto(base + path);
@@ -222,4 +222,57 @@ test('brak naruszeń dostępności (axe, poziom WCAG AA)', async () => {
       assert.deepEqual(res, [], path);
     } finally { await p.close(); }
   }
+});
+
+test('lista usług w config.php zgadza się z site/uslugi.json', () => {
+  const json = JSON.parse(readFileSync(join(root, 'site/uslugi.json'), 'utf8')).uslugi.map(u => u.id).sort();
+  const php = JSON.parse(execFileSync('php', ['-r', `echo json_encode(array_keys((require '${join(root, 'site/public/api/config.php')}')['uslugi']));`]).toString()).sort();
+  assert.deepEqual(php, json);
+});
+
+test('cennik bez ceny i linku Stripe kieruje do wyceny, a nie do płatności', () => {
+  const h = readFileSync(join(dist, 'zamow/index.html'), 'utf8');
+  const uslugi = JSON.parse(readFileSync(join(root, 'site/uslugi.json'), 'utf8')).uslugi;
+  for (const u of uslugi) {
+    assert.match(h, new RegExp(`id="usluga-${u.id}"`));
+    if (typeof u.cena !== 'number' || !u.stripe) assert.match(h, new RegExp(`href="/kontakt/\\?usluga=${u.id}"`));
+    else assert.ok(h.includes(`href="${u.stripe}"`));
+  }
+  for (const [, href] of h.matchAll(/href="(https:\/\/buy\.stripe\.com[^"]*)"/g)) assert.match(href, /^https:\/\/buy\.stripe\.com\//);
+});
+
+test('liczniki mają wartości końcowe w HTML', () => {
+  const h = readFileSync(join(dist, 'index.html'), 'utf8');
+  assert.match(h, /data-count="4">4</);
+  assert.match(h, /data-count="211">211</);
+});
+
+test('link z programu wybiera usługę w formularzu', async () => {
+  const p = await browser.newPage();
+  try {
+    await p.goto(base + '/kontakt/?usluga=pfron');
+    assert.equal(await p.inputValue('#f-usluga'), 'pfron');
+  } finally { await p.close(); }
+});
+
+test('ankieta po płatności wymaga usługi i oznacza wiadomość jako zamówienie', async () => {
+  const p = await browser.newPage();
+  try {
+    await p.goto(base + '/zamowienie/?usluga=wws');
+    assert.equal(await p.getAttribute('meta[name="robots"]', 'content'), 'noindex, nofollow');
+    await p.click('input[name="rodzaj"][value="start"]', { force: true });
+    await scenarios.start(p);
+    await fillCommon(p);
+    await p.check('#f-start_teraz');
+    await p.waitForTimeout(3100);
+    await p.click('button[type="submit"]');
+    await p.waitForSelector('#form-success:not([hidden])', { timeout: 5000 });
+    const m = lastMail();
+    assert.match(m.subject, /^\[TEST\] \[ZAMÓWIENIE\]/);
+    assert.match(m.body, /Usługa: Dokumenty do pożyczki Wsparcie w starcie/);
+    assert.match(m.body, /Rozpoczęcie przed upływem 14 dni: TAK/);
+  } finally { await p.close(); }
+  const r = await fetch(base + '/api/formularz.php', { method: 'POST', headers: { Accept: 'application/json', 'Content-Type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ zamowienie: 'tak', rodzaj: 'inne', inne_kto: 'x', wojewodztwo: 'mazowieckie', budzet: 'x', opis: 'x'.repeat(30), email: 'a@b.pl', zgoda: 'tak' }) });
+  assert.equal(r.status, 422);
+  assert.ok((await r.json()).errors.usluga);
 });

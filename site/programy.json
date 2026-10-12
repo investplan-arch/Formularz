@@ -1,0 +1,108 @@
+{
+  "sprawdzono": "październik 2026",
+  "zrodla": [
+    {
+      "label": "Wortal publicznych służb zatrudnienia, praca.gov.pl",
+      "href": "https://psz.praca.gov.pl/"
+    },
+    {
+      "label": "Zielona Linia, ogłoszenia naborów urzędów pracy",
+      "href": "https://zielonalinia.gov.pl/wlasna-firma-z-dotacja-z-urzedu-pracy/"
+    },
+    {
+      "label": "BGK, Pierwszy biznes – Wsparcie w starcie",
+      "href": "https://www.bgk.pl/male-i-srednie-przedsiebiorstwa/inwestycje/finansowanie-ze-srodkow-krajowych/pozyczki-z-programu-pierwszy-biznes-wsparcie-w-starcie/"
+    },
+    {
+      "label": "Ministerstwo Rodziny, Pracy i Polityki Społecznej, gov.pl",
+      "href": "https://www.gov.pl/web/rodzina/wsparcie-w-starcie--krok-po-kroku-do-wlasnego-biznesu"
+    },
+    {
+      "label": "Ustawa o rehabilitacji zawodowej i społecznej, art. 12a (ISAP)",
+      "href": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971230776"
+    }
+  ],
+  "programy": [
+    {
+      "id": "pup",
+      "typ": "Dotacja",
+      "nazwa": "Środki z urzędu pracy na start",
+      "kwota": "do 6-krotności przeciętnego wynagrodzenia",
+      "kwotaUwaga": "Każdy urząd ustala własny limit. W naborach z 2026 roku były to najczęściej kwoty od 30 do 40 tys. zł.",
+      "dlaKogo": "Przede wszystkim osoby bezrobotne zarejestrowane w powiatowym urzędzie pracy.",
+      "forma": "Bezzwrotna, w ramach pomocy de minimis.",
+      "nabor": "Ogłasza każdy urząd osobno. Część naborów trwa tylko kilka dni.",
+      "naCo": "Sprzęt, wyposażenie, oprogramowanie, adaptacja lokalu i inne wydatki dopuszczone w regulaminie urzędu.",
+      "plusy": [
+        "środki bezzwrotne",
+        "nabory prowadzi urząd w Twoim powiecie"
+      ],
+      "minusy": [
+        "urząd zwykle wymaga zabezpieczenia zwrotu, np. poręczenia",
+        "brak działalności w ostatnich 12 miesiącach",
+        "lokalne ograniczenia wydatków"
+      ],
+      "usluga": "pup"
+    },
+    {
+      "id": "pfron",
+      "typ": "Dotacja",
+      "nazwa": "Środki PFRON na działalność",
+      "kwota": "do 6-krotności przeciętnego wynagrodzenia",
+      "kwotaUwaga": "Do 15-krotności, jeśli zobowiążesz się prowadzić działalność co najmniej 24 miesiące zamiast 12.",
+      "dlaKogo": "Osoby z orzeczeniem o niepełnosprawności, zarejestrowane w urzędzie pracy jako bezrobotne albo poszukujące pracy i niepozostające w zatrudnieniu.",
+      "forma": "Bezzwrotna, na podstawie umowy ze starostą.",
+      "nabor": "Prowadzi powiatowy urząd pracy według własnych zasad i terminów.",
+      "naCo": "Wydatki związane z podjęciem działalności gospodarczej, rolniczej albo w formie spółdzielni socjalnej.",
+      "plusy": [
+        "wyższy limit przy dłuższym zobowiązaniu",
+        "środki bezzwrotne"
+      ],
+      "minusy": [
+        "nie można wcześniej otrzymać bezzwrotnych środków publicznych na ten cel",
+        "zasady różnią się między powiatami"
+      ],
+      "usluga": "pfron"
+    },
+    {
+      "id": "wws",
+      "typ": "Pożyczka preferencyjna",
+      "nazwa": "Pierwszy biznes – Wsparcie w starcie",
+      "kwota": "do 20-krotności przeciętnego wynagrodzenia",
+      "kwotaUwaga": "Kwota zmienia się co kwartał razem z przeciętnym wynagrodzeniem ogłaszanym przez GUS.",
+      "dlaKogo": "Między innymi osoby bezrobotne, absolwenci do 4 lat od ukończenia nauki, studenci ostatniego roku oraz opiekunowie osób z niepełnosprawnościami.",
+      "forma": "Pożyczka BGK, spłata do 7 lat, karencja w spłacie kapitału do 12 miesięcy.",
+      "nabor": "Wniosek składa się u pośrednika finansowego BGK w swoim regionie.",
+      "naCo": "Rozpoczęcie działalności gospodarczej i związane z tym wydatki.",
+      "plusy": [
+        "wysoka kwota",
+        "długi okres spłaty i karencja"
+      ],
+      "minusy": [
+        "środki trzeba oddać",
+        "pośrednik ocenia biznesplan i zdolność do spłaty"
+      ],
+      "usluga": "wws"
+    },
+    {
+      "id": "lgd",
+      "typ": "Premia",
+      "nazwa": "Premia z Lokalnej Grupy Działania",
+      "kwota": "określa LGD w ogłoszeniu naboru",
+      "kwotaUwaga": "Wysokość i kryteria wynikają z lokalnej strategii rozwoju danej LGD.",
+      "dlaKogo": "Mieszkańcy obszaru działania LGD, najczęściej obszarów wiejskich i mniejszych miejscowości.",
+      "forma": "Bezzwrotna premia na rozpoczęcie działalności.",
+      "nabor": "Według harmonogramu LGD. Liczy się punktacja według lokalnych kryteriów.",
+      "naCo": "Uruchomienie działalności opisanej w biznesplanie, zgodnej z celami strategii.",
+      "plusy": [
+        "środki bezzwrotne",
+        "kryteria premiują pomysły ważne dla regionu"
+      ],
+      "minusy": [
+        "konkurs punktowy",
+        "rzadkie nabory"
+      ],
+      "usluga": "lgd"
+    }
+  ]
+}

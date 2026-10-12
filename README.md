@@ -17,7 +17,10 @@ bezpośrednio na GitHubie (ikona ołówka przy pliku).
 | `fundacje-i-stowarzyszenia.md` | wsparcie NGO |
 | `wspolpraca.md` | opis współpracy |
 | `faq.md` | częste pytania (każde pytanie zaczyna się od `###`) |
-| `kontakt.md` | tekst obok formularza |
+| `kontakt.md` | formularz kwalifikacyjny i tekst obok niego |
+| `zamow.md` | cennik i zamówienie (usługi są w `site/uslugi.json`) |
+| `zamowienie.md` | ankieta po płatności (adres powrotu ze Stripe) |
+| `regulamin.md` | regulamin zamówień |
 | `polityka-prywatnosci.md` | polityka prywatności |
 
 Na górze pliku, między liniami `---`, są tytuł strony dla wyszukiwarki (`title`), opis (`description`)
@@ -32,10 +35,30 @@ a link w ostatniej linii karty staje się przyciskiem „więcej”.
 Nowa podstrona to nowy plik `.md` z polami `title`, `description` i `path` (np. `path: /nowa-strona/`).
 Pozycje menu zmienia się w `site/site.json`.
 
+## Programy, liczniki i cennik
+
+- `site/programy.json` zawiera karty programów (kwota, dla kogo, forma, nabór, plusy i minusy) oraz źródła z datą sprawdzenia.
+  Przy zmianie danych zaktualizuj też pole `sprawdzono`.
+- `site/site.json` w polu `stats` zawiera liczniki na stronie głównej.
+- `site/uslugi.json` zawiera usługi w cenniku. Pole `cena` to kwota brutto w zł, a `stripe` to adres Payment Link.
+  Gdy któregoś brakuje, przycisk prowadzi do formularza wyceny. Identyfikatory usług muszą być takie same
+  jak w `site/public/api/config.php`.
+
+### Płatności Stripe (Payment Links)
+
+Strona nie przechowuje kluczy Stripe. Dla każdej usługi tworzy się w panelu Stripe Payment Link
+(Katalog produktów, potem Utwórz link płatności) z ustawieniami:
+- cena brutto w PLN, ilość stała 1,
+- zbieranie imienia i nazwiska oraz adresu e-mail, opcjonalnie numeru NIP do faktury,
+- zgoda na regulamin z linkiem do https://kapitalownia.pl/regulamin/,
+- po płatności przekierowanie na `https://kapitalownia.pl/zamowienie/?usluga=ID` (ID z `uslugi.json`).
+
+Adres linku (https://buy.stripe.com/...) wpisuje się w polu `stripe` danej usługi.
+
 ## Ustawienia
 
-- `site/site.json` zawiera adres e-mail, menu, link do Facebooka (pusty = niewidoczny) i dane administratora
-  danych do polityki prywatności. Bez danych administratora wersja produkcyjna się nie zbuduje.
+- `site/site.json` zawiera adres e-mail, menu, link do Facebooka (pusty = niewidoczny) i dane firmy
+  do polityki prywatności i regulaminu. Bez nazwy, adresu i NIP wersja produkcyjna się nie zbuduje.
 - `site/public/api/config.php` zawiera adres, na który trafiają zgłoszenia, i adres nadawcy.
   Adres nadawcy musi być skrzynką założoną w panelu home.pl w domenie kapitalownia.pl.
 

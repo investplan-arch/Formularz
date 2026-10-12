@@ -8,4 +8,13 @@ return [
     'limit_per_hour' => (int)(getenv('KAP_FORM_LIMIT') ?: 5),
     'rate_dir' => getenv('KAP_RATE_DIR') ?: sys_get_temp_dir() . '/kapitalownia-rate',
     'salt' => 'kapitalownia-formularz',
+    // Identyfikatory zgodne z site/uslugi.json
+    'uslugi' => [
+        'pup' => 'Wniosek o środki z urzędu pracy',
+        'pfron' => 'Wniosek o środki PFRON na działalność',
+        'wws' => 'Dokumenty do pożyczki Wsparcie w starcie',
+        'lgd' => 'Wniosek do Lokalnej Grupy Działania',
+        'biznesplan' => 'Biznesplan',
+        'ngo' => 'Wniosek grantowy dla organizacji',
+    ],
 ];

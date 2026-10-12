@@ -39,7 +39,7 @@ function group(type, legend, inner) {
   </fieldset>`;
 }
 
-export function formHtml({ mode }) {
+export function formHtml({ mode, uslugi = [], order = false }) {
   const c = { required: true, conditional: true };
   const types = TYPES.map(([v, label, desc], i) => `<label class="choice">
       <input type="radio" name="rodzaj" value="${v}"${i === 0 ? ' id="f-rodzaj"' : ''} required>
@@ -88,6 +88,11 @@ export function formHtml({ mode }) {
 
   <fieldset class="form-group">
     <legend><span class="step-no" aria-hidden="true"></span> Cel i budżet</legend>
+    <div class="field">
+      <label for="f-usluga">${order ? 'Zamówiona usługa' : 'Która usługa Cię interesuje?'}${order ? '' : ' <span class="optional">(opcjonalnie)</span>'}</label>
+      <select id="f-usluga" name="usluga"${order ? ' required' : ''}><option value="">${order ? 'Wybierz' : 'Jeszcze nie wiem'}</option>${uslugi.map(([id, n]) => `<option value="${id}">${n}</option>`).join('')}</select>
+      <p class="field__error" id="f-usluga-error" hidden></p>
+    </div>
     <div class="field-row">
       ${field({ name: 'wojewodztwo', label: 'Województwo', required: true, options: WOJ })}
       ${field({ name: 'miejscowosc', label: 'Miejscowość lub powiat', hint: 'Pomaga sprawdzić nabory urzędu pracy i LGD.', attrs: ' maxlength="100" autocomplete="address-level2"' })}
@@ -109,12 +114,16 @@ export function formHtml({ mode }) {
       <label class="check"><input type="checkbox" name="zgoda" value="tak" id="f-zgoda" required> Zapoznałem(-am) się z <a href="/polityka-prywatnosci/">polityką prywatności</a> i chcę otrzymać odpowiedź na zgłoszenie.</label>
       <p class="field__error" id="f-zgoda-error" hidden></p>
     </div>
+    ${order ? `<div class="field field--consent">
+      <label class="check"><input type="checkbox" name="start_teraz" value="tak" id="f-start_teraz"> Proszę o rozpoczęcie usługi przed upływem 14 dni na odstąpienie od umowy. Wiem, że po pełnym wykonaniu usługi utracę prawo odstąpienia. <span class="optional">(opcjonalnie)</span></label>
+    </div>` : ''}
     <div class="hp" aria-hidden="true"><label for="f-www">Nie wypełniaj tego pola</label><input id="f-www" name="www" type="text" tabindex="-1" autocomplete="off"></div>
     <input type="hidden" name="t" value="">
+    ${order ? '<input type="hidden" name="zamowienie" value="tak">' : ''}
   </fieldset>
 
   <div class="form-submit">
-    <button class="btn btn--primary btn--large" type="submit">Wyślij zgłoszenie</button>
+    <button class="btn btn--primary btn--large" type="submit">${order ? 'Wyślij ankietę' : 'Wyślij zgłoszenie'}</button>
     <p class="small">Odpowiadamy e-mailem. Telefon nie jest wymagany.</p>
   </div>
   <div class="form-status" id="form-status" role="status" aria-live="polite" hidden></div>
