@@ -1,0 +1,76 @@
+# Wdrożenie strony Kapitałowni na hosting home.pl przez FTPS.
+# Dane logowania są wyłącznie w GitHub Secrets (Settings > Secrets and variables > Actions):
+#   FTP_HOST      adres serwera FTP z panelu home.pl
+#   FTP_USER      login konta FTP
+#   FTP_PASSWORD  hasło konta FTP
+#   FTP_DIR       katalog docelowy domeny na serwerze, np. /public_html/ (sprawdź w panelu)
+# Uruchamiane ręcznie (Actions > Wdrożenie > Run workflow), żeby nic nie trafiło na serwer bez decyzji.
+name: Wdrożenie
+
+on:
+  workflow_dispatch:
+    inputs:
+      tylko_sprawdz:
+        description: 'Tylko sprawdź połączenie i zrób kopię plików z serwera, bez wgrywania'
+        type: boolean
+        default: true
+
+concurrency: wdrozenie
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp php-cli > /dev/null
+
+      - name: Testy
+        run: npx playwright-core install-deps chromium > /dev/null 2>&1 || true; npx playwright-core install chromium > /dev/null && npm test
+
+      - name: Budowa
+        run: node site/build.mjs --mode=production --out=out
+
+      - name: Kopia zapasowa plików z serwera
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DIR: ${{ secrets.FTP_DIR }}
+        run: |
+          test -n "$FTP_HOST" -a -n "$FTP_USER" -a -n "$FTP_PASSWORD" -a -n "$FTP_DIR" || { echo "Brak sekretów FTP"; exit 1; }
+          mkdir -p kopia
+          lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; set net:max-retries 2; ls -la $FTP_DIR; mirror --verbose $FTP_DIR kopia; bye"
+          find kopia -type f | head -100
+          echo "Plików w kopii: $(find kopia -type f | wc -l)"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kopia-serwera-${{ github.run_number }}
+          path: kopia
+          retention-days: 90
+          include-hidden-files: true
+          if-no-files-found: warn
+
+      - name: Wgrywanie
+        if: ${{ !inputs.tylko_sprawdz }}
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_DIR: ${{ secrets.FTP_DIR }}
+        run: |
+          # Bez --delete: pliki spoza strony na serwerze pozostają nietknięte
+          lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; mirror --reverse --verbose --only-newer --exclude-glob .git* out $FTP_DIR; bye"
+
+      - name: Sprawdzenie po wdrożeniu
+        if: ${{ !inputs.tylko_sprawdz }}
+        run: |
+          for p in / /oferta/ /kontakt/ /polityka-prywatnosci/ /sitemap.xml /robots.txt; do
+            printf '%s ' "$p"; curl -s -o /dev/null -w '%{http_code}\n' "https://kapitalownia.pl$p"
+          done
+          curl -s -o /dev/null -w 'brak strony: %{http_code}\n' https://kapitalownia.pl/nie-ma-takiej-strony
+          curl -s -o /dev/null -w 'GET formularza: %{http_code}\n' https://kapitalownia.pl/api/formularz.php

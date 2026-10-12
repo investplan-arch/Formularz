@@ -1,0 +1,21 @@
+{
+  "name": "Kapitałownia",
+  "url": "https://kapitalownia.pl",
+  "email": "kapitalownia@gmail.com",
+  "lang": "pl",
+  "facebook": "",
+  "administrator": {
+    "nazwa": "",
+    "adres": "",
+    "nip": "",
+    "regon_krs": ""
+  },
+  "nav": [
+    { "href": "/oferta/", "label": "Oferta" },
+    { "href": "/finansowanie-na-start/", "label": "Start firmy" },
+    { "href": "/rozwoj-firmy/", "label": "Rozwój firmy" },
+    { "href": "/fundacje-i-stowarzyszenia/", "label": "NGO" },
+    { "href": "/wspolpraca/", "label": "Współpraca" },
+    { "href": "/faq/", "label": "FAQ" }
+  ]
+}
