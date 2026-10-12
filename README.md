@@ -74,7 +74,9 @@ npm test
 ## Wdrożenie
 
 Wdrożenie wykonuje GitHub Actions (`.github/workflows/wdrozenie.yml`), uruchamiane ręcznie w zakładce
-Actions. Dane FTP są przechowywane wyłącznie w GitHub Secrets: `FTP_HOST`, `FTP_USER`, `FTP_PASSWORD`, `FTP_DIR`.
+Actions po każdej zmianie strony na `main`. Adres serwera (`serwer2612522.hosting-home.pl`), login
+(`wdrozenie@kapitalownia.pl`) i katalog (`/`) są w pliku workflow, a hasło wyłącznie w GitHub Secrets
+jako `FTP_PASSWORD`.
 Przed każdym wgraniem workflow pobiera kopię plików z serwera i zapisuje ją jako artefakt na 90 dni.
 Opcja „Tylko sprawdź” wykonuje samą kopię i test połączenia.
 

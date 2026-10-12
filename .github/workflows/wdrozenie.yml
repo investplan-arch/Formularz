@@ -1,11 +1,8 @@
 # Wdrożenie strony Kapitałowni na hosting home.pl przez FTPS.
 # Uruchamia się samo po zmianie strony na gałęzi main albo ręcznie (Actions > Wdrożenie > Run workflow).
-# Dane logowania są wyłącznie w GitHub Secrets (Settings > Secrets and variables > Actions):
-#   FTP_HOST      adres serwera FTP z panelu home.pl
-#   FTP_USER      login konta FTP
-#   FTP_PASSWORD  hasło konta FTP
-#   FTP_DIR       katalog domeny na serwerze, np. /kapitalownia.pl/
-# Bez tych sekretów workflow tylko testuje i buduje stronę.
+# Hasło FTP jest wyłącznie w GitHub Secrets (Settings > Secrets and variables > Actions) jako FTP_PASSWORD.
+# Adres serwera, login i katalog są poniżej w env. Można je nadpisać sekretami FTP_HOST, FTP_USER, FTP_DIR.
+# Bez hasła workflow tylko testuje i buduje stronę.
 name: Wdrożenie
 
 on:
@@ -20,6 +17,11 @@ on:
         default: true
 
 concurrency: wdrozenie
+
+env:
+  FTP_HOST: ${{ secrets.FTP_HOST || 'serwer2612522.hosting-home.pl' }}
+  FTP_USER: ${{ secrets.FTP_USER || 'wdrozenie@kapitalownia.pl' }}
+  FTP_DIR: ${{ secrets.FTP_DIR || '/' }}
 
 jobs:
   deploy:
@@ -44,25 +46,19 @@ jobs:
       - name: Sprawdzenie sekretów FTP
         id: sekrety
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_DIR: ${{ secrets.FTP_DIR }}
         run: |
           if [ -n "$FTP_HOST" ] && [ -n "$FTP_USER" ] && [ -n "$FTP_PASSWORD" ] && [ -n "$FTP_DIR" ]; then
             echo "gotowe=tak" >> "$GITHUB_OUTPUT"
           else
             echo "gotowe=nie" >> "$GITHUB_OUTPUT"
-            echo "::notice::Brak sekretów FTP (FTP_HOST, FTP_USER, FTP_PASSWORD, FTP_DIR). Strona przeszła testy i budowę, ale nie została wgrana."
+            echo "::notice::Brak sekretu FTP_PASSWORD. Strona przeszła testy i budowę, ale nie została wgrana."
           fi
 
       - name: Kopia zapasowa plików z serwera
         if: steps.sekrety.outputs.gotowe == 'tak'
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_DIR: ${{ secrets.FTP_DIR }}
         run: |
           mkdir -p kopia
           lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; set net:max-retries 2; ls -la $FTP_DIR; mirror --verbose $FTP_DIR kopia; bye"
@@ -80,10 +76,7 @@ jobs:
       - name: Wgrywanie
         if: steps.sekrety.outputs.gotowe == 'tak' && (github.event_name == 'push' || !inputs.tylko_sprawdz)
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_DIR: ${{ secrets.FTP_DIR }}
         run: |
           # Bez --delete: pliki spoza strony na serwerze pozostają nietknięte
           lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" -e "set ftp:ssl-force true; set ssl:verify-certificate yes; mirror --reverse --verbose --only-newer out $FTP_DIR; bye"
