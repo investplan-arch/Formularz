@@ -179,7 +179,7 @@ function kalkulatorHtml() {
       <p class="small" id="calc-hint">Wpisz kwotę planowanych wydatków. Zaznaczymy, które programy mogą ją pokryć.</p>
       <p class="calc__summary" id="calc-wynik" aria-live="polite"></p>
     </form>
-    <div class="table-wrap"><table class="calc__table">
+    <div class="table-wrap" tabindex="0" role="region" aria-label="Limity programów"><table class="calc__table">
       <caption>Maksymalne kwoty na start firmy przy przeciętnym wynagrodzeniu ${zl(wyn.kwota)}</caption>
       <thead><tr><th scope="col">Program</th><th scope="col">Mnożnik</th><th scope="col">Maksymalnie</th><th scope="col"><span class="visually-hidden">Twoja kwota</span></th></tr></thead>
       <tbody>${rows}</tbody>
@@ -488,7 +488,7 @@ function articleHtml(page, body) {
     const id = slugify(t.replace(/<[^>]+>/g, ''));
     toc.push([id, t.replace(/<[^>]+>/g, '')]);
     return `<h2 id="${id}">${t}</h2>`;
-  }).replace(/<table>/g, '<div class="table-wrap"><table class="prose-table">').replace(/<\/table>/g, '</table></div>');
+  }).replace(/<table>/g, '<div class="table-wrap" tabindex="0" role="region" aria-label="Tabela, przewiń w bok"><table class="prose-table">').replace(/<\/table>/g, '</table></div>');
   const me = articles.find(a => a.path === page.path) || { minutes: 1 };
   const related = articles.filter(a => a.path !== page.path).slice(0, 3);
   const tocHtml = toc.length > 2 ? `<nav class="toc" aria-label="Spis treści"><p class="toc__title">W tym artykule</p><ol>${toc.filter(([id]) => !/^(zrodla|jak-mozemy-pomoc)$/.test(id)).map(([id, t]) => `<li><a href="#${id}">${t}</a></li>`).join('')}</ol></nav>` : '';
