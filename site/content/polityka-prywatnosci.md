@@ -29,7 +29,7 @@ Po wysłaniu formularza serwer strony przekazuje treść zgłoszenia wiadomości
 
 ## Formularz danych klienta
 
-Klientom, z którymi ustalamy przygotowanie dokumentacji, udostępniamy osobny [formularz danych klienta](https://investplan-arch.github.io/Formularz/). Zbiera on dane potrzebne do przygotowania wniosku, czyli imię, nazwisko, telefon, adres e-mail, województwo i miejscowość oraz opis sytuacji, planowanej działalności lub projektu. Formularz jest udostępniany przez GitHub Pages (GitHub, Inc.), a odpowiedzi przekazuje na skrzynkę {{email}} usługa FormSubmit (formsubmit.co). Te dane przetwarzamy w celu przygotowania dokumentacji i wykonania umowy (art. 6 ust. 1 lit. b RODO). Dostawcy tych usług mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym.
+Klientom, z którymi ustalamy przygotowanie dokumentacji, udostępniamy osobny [formularz danych klienta](https://formularz.kapitalownia.pl/) pod adresem formularz.kapitalownia.pl. Zbiera on dane potrzebne do przygotowania wniosku, czyli imię, nazwisko, telefon, adres e-mail, województwo i miejscowość oraz opis sytuacji, planowanej działalności lub projektu. Formularz jest udostępniany przez GitHub Pages (GitHub, Inc.), a odpowiedzi przekazuje na skrzynkę {{email}} usługa FormSubmit (formsubmit.co). Te dane przetwarzamy w celu przygotowania dokumentacji i wykonania umowy (art. 6 ust. 1 lit. b RODO). Dostawcy tych usług mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym.
 
 ## Odbiorcy danych
 
