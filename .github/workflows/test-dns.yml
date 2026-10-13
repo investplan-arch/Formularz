@@ -24,3 +24,9 @@ jobs:
           done
           echo "== Serwer poczty z MX odpowiada na porcie 25"
           for mx in $(dig +short MX $d @8.8.8.8 | awk '{print $2}'); do timeout 10 bash -c "echo QUIT > /dev/tcp/${mx%.}/25" && echo "$mx: OK" || echo "$mx: brak połączenia"; done
+      - name: Formularz klienta na własnej domenie
+        run: |
+          echo "== stary adres (oczekiwane 301 na formularz.kapitalownia.pl)"; curl -sI https://investplan-arch.github.io/Formularz/ | grep -iE '^(HTTP|location)' || true
+          echo "== http://formularz.kapitalownia.pl"; curl -sI http://formularz.kapitalownia.pl/ | grep -iE '^(HTTP|location)' || true
+          echo "== https://formularz.kapitalownia.pl"; curl -sI https://formularz.kapitalownia.pl/ | grep -iE '^HTTP' || echo "HTTPS jeszcze nie działa (certyfikat w przygotowaniu)"
+          curl -s https://formularz.kapitalownia.pl/ | grep -o '<title>[^<]*' || true
