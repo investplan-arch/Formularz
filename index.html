@@ -1,24 +1,361 @@
 <!doctype html>
 <html lang="pl">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kapitałownia — Formularz klienta</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Formularz klienta | Kapitałownia</title>
+<meta name="description" content="Formularz danych klienta Kapitałowni. Pytania potrzebne do przygotowania wniosku o dotację, pożyczkę lub grant.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#f7f6f3">
+<link rel="icon" href="formularz-zasoby/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="formularz-zasoby/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="formularz-zasoby/geist-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-:root{--ink:#101A2C;--paper:#FAF8F3;--card:#fff;--line:#E7E1D2;--muted:#6B7280;--gold:#A9822F;--green:#2E6B52;--red:#B23B2E}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 Inter,system-ui,-apple-system,sans-serif}
-header{position:sticky;top:0;z-index:5;background:#faf8f3ed;border-bottom:1px solid var(--line);padding:16px 22px;display:flex;justify-content:space-between;align-items:center}.brand{font:700 20px Georgia,serif}.secure{color:var(--muted);font-size:12px}
-main{max-width:760px;margin:0 auto;padding:32px 16px 72px}.intro{margin-bottom:22px}.intro h1{font:700 34px/1.15 Georgia,serif;margin:0 0 10px}.intro p{color:var(--muted);margin:0}.progress{height:5px;background:#eee8db;border-radius:9px;margin:20px 0 26px;overflow:hidden}.progress>div{height:100%;background:var(--gold);transition:.25s}
-.card{background:var(--card);border:1px solid #eee9df;border-radius:20px;padding:28px;box-shadow:0 18px 45px -30px #101a2c66}.step{display:none}.step.active{display:block}h2{font:700 25px Georgia,serif;margin:0 0 6px}.sub{color:var(--muted);margin:0 0 24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{margin-bottom:18px}label{display:block;font-weight:650;margin-bottom:7px}.req{color:var(--gold)}
-input,select,textarea{width:100%;padding:13px 14px;border:1.5px solid var(--line);border-radius:9px;background:#fcfbf8;color:var(--ink);font:inherit}textarea{min-height:110px;resize:vertical}input:focus,select:focus,textarea:focus{outline:3px solid #a9822f1c;border-color:var(--gold)}.route-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.route{border:1.5px solid var(--line);background:#fcfbf8;border-radius:12px;padding:16px;text-align:left;cursor:pointer;font:600 15px inherit;color:var(--ink)}.route.selected{border-color:var(--ink);background:var(--ink);color:#fff}.hint{font-size:12px;color:var(--muted);margin-top:6px}
-.nav{display:flex;gap:10px;margin-top:24px}.nav button{border:0;border-radius:9px;padding:13px 20px;font-weight:700;cursor:pointer}.back{background:#f0ece3;color:var(--ink)}.next,.submit{margin-left:auto;background:var(--ink);color:#fff}.error{color:var(--red);font-size:13px;margin-top:10px;display:none}.success{text-align:center;padding:36px 10px}.success h2{color:var(--green)}[hidden]{display:none!important}@media(max-width:600px){.grid,.route-grid{grid-template-columns:1fr}.card{padding:22px 17px}.intro h1{font-size:28px}}
-</style></head><body>
-<header><div class="brand">Kapitałownia</div><div class="secure">🔒 Bezpieczny formularz</div></header><main><section class="intro"><h1>Formularz danych klienta</h1><p>Wybierz swoją sytuację. Pokażemy tylko pytania potrzebne do przygotowania dokumentacji.</p></section><div class="progress"><div id="bar" style="width:25%"></div></div><form id="form" action="https://formsubmit.co/kapitalownia@gmail.com" method="POST" novalidate><input type="hidden" name="_subject" id="mail_subject" value="Nowy formularz klienta — Kapitałownia"><input type="hidden" name="_next" value="https://investplan-arch.github.io/Formularz/?wyslano=1"><input type="hidden" name="_url" value="https://investplan-arch.github.io/Formularz/"><input type="hidden" name="_template" value="table">
-<section class="card step active" data-step="0"><h2>Na czym pracujemy?</h2><p class="sub">Wybierz ścieżkę, której dotyczy zgłoszenie.</p><div class="route-grid" id="routes"><button type="button" class="route" data-value="Nowa działalność">Nowa działalność</button><button type="button" class="route" data-value="Istniejąca firma">Istniejąca firma</button><button type="button" class="route" data-value="Fundacja / stowarzyszenie" data-route="ngo">Fundacja / stowarzyszenie</button><button type="button" class="route" data-value="Inne">Inne</button></div><input type="hidden" id="client_type" name="rodzaj_klienta" required><div class="error" id="routeErr">Wybierz rodzaj klienta.</div><div class="nav"><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
-<section class="card step" data-step="1"><h2>Dane kontaktowe</h2><p class="sub">Dane osoby, z którą mamy kontaktować się w sprawie dokumentacji.</p><div class="grid"><div class="field"><label>Imię <span class="req">*</span></label><input name="imie" required></div><div class="field"><label>Nazwisko <span class="req">*</span></label><input name="nazwisko" required></div></div><div class="grid"><div class="field"><label>Telefon <span class="req">*</span></label><input name="telefon" type="tel" required></div><div class="field"><label>E-mail <span class="req">*</span></label><input name="email" type="email" required></div></div><div class="grid"><div class="field"><label>Województwo <span class="req">*</span></label><select name="wojewodztwo" required><option value="">Wybierz</option><option>dolnośląskie</option><option>kujawsko-pomorskie</option><option>lubelskie</option><option>lubuskie</option><option>łódzkie</option><option>małopolskie</option><option>mazowieckie</option><option>opolskie</option><option>podkarpackie</option><option>podlaskie</option><option>pomorskie</option><option>śląskie</option><option>świętokrzyskie</option><option>warmińsko-mazurskie</option><option>wielkopolskie</option><option>zachodniopomorskie</option></select></div><div class="field"><label>Powiat / miejscowość <span class="req">*</span></label><input name="powiat_miejscowosc" required></div></div><div class="nav"><button type="button" class="back" onclick="back()">← Wstecz</button><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
-<section class="card step" data-step="2" id="businessStep"><h2 id="businessTitle">Działalność i finansowanie</h2><p class="sub">Opisz sytuację i planowane wykorzystanie środków.</p><div class="field"><label>Obecna sytuacja / status <span class="req">*</span></label><textarea name="status_sytuacja" required placeholder="Np. osoba zatrudniona, bezrobotna, firma działa od 2022 r."></textarea></div><div class="field"><label>Czym ma zajmować się działalność lub na czym polega rozwój? <span class="req">*</span></label><textarea name="opis_dzialalnosci" required></textarea></div><div class="grid"><div class="field"><label>Oczekiwana kwota finansowania</label><input name="oczekiwana_kwota" placeholder="np. 80 000 zł"></div><div class="field"><label>Wkład własny</label><input name="wklad_wlasny" placeholder="kwota lub brak"></div></div><div class="field"><label>Na co mają zostać przeznaczone środki? <span class="req">*</span></label><textarea name="planowane_wydatki" required placeholder="Sprzęt, pojazd, lokal, szkolenia, marketing, wynagrodzenia itd."></textarea></div><div class="field"><label>Doświadczenie, kwalifikacje, uprawnienia</label><textarea name="doswiadczenie"></textarea></div><div class="field"><label>Dodatkowe informacje</label><textarea name="dodatkowe_info"></textarea></div><div class="nav"><button type="button" class="back" onclick="back()">← Wstecz</button><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
-<section class="card step" data-step="2" id="ngoStep" hidden><h2>Fundacja / stowarzyszenie / NGO</h2><p class="sub">Pytania potrzebne do kwalifikacji i przygotowania projektu grantowego.</p><div class="field"><label>Etap organizacji <span class="req">*</span></label><select id="ngo_stage" name="ngo_etap" required><option value="">Wybierz</option><option>Pomysł / organizacja jeszcze niepowołana</option><option>Po akcie założycielskim / w trakcie rejestracji</option><option>Zarejestrowana i działająca</option></select></div><div class="field"><label>Nazwa organizacji</label><input name="ngo_nazwa"></div><div class="grid"><div class="field"><label>KRS</label><input id="ngo_krs" name="ngo_krs"></div><div class="field"><label>NIP</label><input id="ngo_nip" name="ngo_nip"></div></div><div class="grid"><div class="field"><label>REGON</label><input id="ngo_regon" name="ngo_regon"></div><div class="field"><label>Rok rozpoczęcia działalności</label><input name="ngo_rok"></div></div><div class="field"><label>Czym zajmuje się lub ma zajmować organizacja? <span class="req">*</span></label><textarea name="ngo_misja" required></textarea></div><div class="field"><label>Pomysł na projekt <span class="req">*</span></label><textarea id="ngo_project" name="ngo_projekt" required placeholder="Jaki problem ma rozwiązać projekt i co konkretnie chcecie zrobić?"></textarea></div><div class="field"><label>Grupa odbiorców <span class="req">*</span></label><textarea id="ngo_audience" name="ngo_odbiorcy" required placeholder="Np. seniorzy 60+, młodzież, osoby z niepełnosprawnościami, mieszkańcy gminy"></textarea></div><div class="field"><label>Planowane działania <span class="req">*</span></label><textarea id="ngo_actions" name="ngo_dzialania" required placeholder="Warsztaty, wydarzenia, kampania, doradztwo, zajęcia cykliczne..."></textarea></div><div class="grid"><div class="field"><label>Planowany termin realizacji</label><input name="ngo_termin" placeholder="np. marzec–wrzesień 2027"></div><div class="field"><label>Oczekiwana kwota</label><input name="ngo_kwota" placeholder="np. 7 500 EUR"></div></div><div class="field"><label>Planowany budżet / główne koszty <span class="req">*</span></label><textarea id="ngo_budget" name="ngo_budzet" required placeholder="Wynagrodzenia, usługi, materiały, sprzęt, promocja, wynajem itd."></textarea></div><div class="field"><label>Doświadczenie i potencjał organizacji</label><textarea id="ngo_experience" name="ngo_doswiadczenie" placeholder="Zrealizowane projekty, doświadczenie zespołu, partnerzy, zasoby"></textarea></div><div class="field"><label>Partnerzy / współpraca z innymi podmiotami</label><textarea name="ngo_partnerzy"></textarea></div><div class="nav"><button type="button" class="back" onclick="back()">← Wstecz</button><button type="button" class="next" onclick="next()">Dalej →</button></div></section>
-<section class="card step" data-step="3"><h2>Ostatnie informacje</h2><p class="sub">Sprawdź dane i dodaj informacje, które mogą mieć znaczenie przy przygotowaniu dokumentacji.</p><div class="field"><label>Jaki rodzaj finansowania Cię interesuje?</label><select name="rodzaj_finansowania"><option>Nie wiem — proszę dobrać właściwą opcję</option><option>Dotacja</option><option>Pożyczka preferencyjna</option><option>LGD</option><option>PUP</option><option>Wsparcie w starcie</option><option>Grant dla NGO</option><option>Inne</option></select></div><div class="field"><label>Dodatkowe uwagi</label><textarea name="uwagi"></textarea></div><div class="field"><label><input type="checkbox" name="zgoda_kontakt" value="Tak" required style="width:auto;margin-right:8px">Wyrażam zgodę na kontakt w sprawie przesłanego formularza. <span class="req">*</span></label></div><div style="position:absolute;left:-9999px"><input name="_gotcha" tabindex="-1" autocomplete="off"></div><div class="error" id="submitErr">Nie udało się wysłać formularza. Spróbuj ponownie.</div><div class="nav"><button type="button" class="back" onclick="back()">← Wstecz</button><button type="submit" class="submit">Wyślij formularz</button></div></section>
-<section class="card step" data-step="success"><div class="success"><h2>Formularz wysłany</h2><p>Dane zostały przesłane do Kapitałowni. Na ich podstawie przygotujemy dalsze kroki dotyczące finansowania i dokumentacji.</p></div></section></form></main>
+@font-face { font-family: "Newsreader"; src: url(formularz-zasoby/newsreader-latin-wght-normal.woff2) format("woff2"); font-weight: 200 800; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215; }
+@font-face { font-family: "Newsreader"; src: url(formularz-zasoby/newsreader-latin-ext-wght-normal.woff2) format("woff2"); font-weight: 200 800; font-display: swap; unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Geist"; src: url(formularz-zasoby/geist-latin-wght-normal.woff2) format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122, U+2190-2199, U+2212, U+2215; }
+@font-face { font-family: "Geist"; src: url(formularz-zasoby/geist-latin-ext-wght-normal.woff2) format("woff2"); font-weight: 100 900; font-display: swap; unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+:root {
+  --navy: #10192b; --navy-hover: #26324a; --blue: #2256ee; --blue-ink: #1a44c4; --cream: #faf7f2;
+  --canvas: #f7f6f3; --surface: #fff; --ink: #10192b; --ink-2: #2f3437; --muted: #63625e;
+  --line: #eaeaea; --line-strong: #d6d5d1; --blue-bg: #e1f3fe; --danger: #9f2f2d; --ok: #346538; --ok-bg: #edf3ec;
+  --serif: "Newsreader", "Iowan Old Style", Georgia, serif; --sans: "Geist", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --radius: 10px; color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 90px; }
+body { margin: 0; background: var(--canvas); color: var(--ink-2); font: 400 1rem/1.6 var(--sans); -webkit-font-smoothing: antialiased; }
+a { color: var(--blue-ink); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--blue); outline-offset: 2px; }
+.wrap { max-width: 1100px; margin: 0 auto; padding-inline: max(20px, env(safe-area-inset-left)) max(20px, env(safe-area-inset-right)); }
+
+/* Nagłówek */
+.top { position: sticky; top: 0; z-index: 10; background: rgba(247, 246, 243, .92); backdrop-filter: saturate(1.2) blur(10px); border-bottom: 1px solid var(--line); }
+.top__inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 68px; }
+.brand { display: inline-flex; align-items: center; gap: 11px; color: var(--ink); text-decoration: none; }
+.brand img { width: 36px; height: 36px; display: block; }
+.brand span { font: 600 1.18rem/1 var(--sans); letter-spacing: -.02em; }
+.top__nav { display: flex; align-items: center; gap: 22px; font-size: .94rem; }
+.top__nav a { color: var(--ink-2); text-decoration: none; }
+.top__nav a:hover { color: var(--ink); text-decoration: underline; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 18px; border-radius: 6px; border: 1px solid transparent; font: 600 .95rem var(--sans); text-decoration: none; cursor: pointer; transition: background-color .15s, border-color .15s; }
+.btn--dark { background: var(--navy); color: #fff; }
+.btn--dark:hover { background: var(--navy-hover); }
+.btn--ghost { background: var(--surface); color: var(--ink); border-color: var(--line-strong); }
+.btn--ghost:hover { border-color: var(--ink); }
+.btn--small { min-height: 40px; padding: 8px 14px; font-size: .9rem; }
+.top__nav .btn--dark { color: #fff; }
+.top__nav .btn--dark:hover { text-decoration: none; }
+
+/* Wstęp */
+.intro { padding: 56px 0 28px; }
+.eyebrow { margin: 0 0 12px; font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--blue-ink); }
+.intro h1 { margin: 0 0 14px; font: 500 clamp(2rem, 4.4vw, 2.9rem)/1.1 var(--serif); color: var(--ink); letter-spacing: -.015em; text-wrap: balance; }
+.intro p.lead { margin: 0; max-width: 640px; font-size: 1.08rem; color: var(--muted); }
+.trust { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 22px 0 0; padding: 0; list-style: none; font-size: .9rem; color: var(--ink-2); }
+.trust li { display: inline-flex; align-items: center; gap: 8px; }
+.trust svg { color: var(--ok); flex: none; }
+
+/* Układ */
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 28px; align-items: start; padding-bottom: 72px; }
+
+/* Kroki */
+.stepper { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin: 0 0 16px; padding: 0; list-style: none; counter-reset: s; }
+.stepper li { counter-increment: s; position: relative; padding-top: 12px; font-size: .86rem; color: var(--muted); }
+.stepper li::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 4px; border-radius: 4px; background: var(--line-strong); }
+.stepper li::after { content: counter(s) ". "; }
+.stepper li span { font-weight: 500; }
+.stepper li.is-done::before, .stepper li.is-current::before { background: var(--navy); }
+.stepper li.is-current { color: var(--ink); font-weight: 600; }
+.stepper li::after { display: none; }
+.progress { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* Karty kroków */
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 36px; }
+.step { display: none; }
+.step.active { display: block; }
+.step h2 { margin: 0 0 6px; font: 500 1.65rem/1.2 var(--serif); color: var(--ink); }
+.sub { margin: 0 0 26px; color: var(--muted); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+.field { margin-bottom: 18px; }
+label { display: block; margin-bottom: 7px; font-weight: 600; font-size: .95rem; color: var(--ink); }
+.req { color: var(--danger); }
+.opt { font-weight: 400; color: var(--muted); font-size: .86rem; }
+input, select, textarea { width: 100%; min-height: 48px; padding: 11px 14px; border: 1px solid var(--line-strong); border-radius: 6px; background: #fff; color: var(--ink); font: inherit; font-size: 1rem; }
+textarea { min-height: 112px; resize: vertical; }
+select { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%2363625e' stroke-width='1.6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; padding-right: 40px; }
+input:hover, select:hover, textarea:hover { border-color: #b9b8b3; }
+input:focus, select:focus, textarea:focus { border-color: var(--blue); outline: 3px solid rgba(34, 86, 238, .18); outline-offset: 0; }
+input[aria-invalid="true"], select[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: var(--danger); }
+::placeholder { color: #8b8a85; }
+
+.route-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.route { display: flex; gap: 14px; align-items: flex-start; width: 100%; padding: 18px; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--surface); color: var(--ink); text-align: left; font: inherit; cursor: pointer; transition: border-color .15s, background-color .15s; }
+.route:hover { border-color: var(--ink); }
+.route__icon { flex: none; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 8px; background: var(--blue-bg); color: var(--blue-ink); }
+.route__title { display: block; font-weight: 600; }
+.route__desc { display: block; margin-top: 2px; font-size: .88rem; color: var(--muted); }
+.route.selected { border-color: var(--navy); background: var(--navy); color: #fff; }
+.route.selected .route__desc { color: #c9cfdb; }
+.route.selected .route__icon { background: rgba(255, 255, 255, .12); color: #fff; }
+
+.consent { display: flex; gap: 12px; align-items: flex-start; font-weight: 400; font-size: .95rem; color: var(--ink-2); cursor: pointer; }
+.consent input { width: 20px; min-height: 20px; height: 20px; margin: 2px 0 0; flex: none; accent-color: var(--navy); }
+.note { margin: 0 0 18px; padding: 14px 16px; background: var(--canvas); border-radius: 8px; font-size: .88rem; color: var(--muted); }
+
+.nav { display: flex; gap: 10px; margin-top: 28px; padding-top: 22px; border-top: 1px solid var(--line); }
+.nav button { min-height: 48px; padding: 12px 22px; border-radius: 6px; font: 600 1rem var(--sans); cursor: pointer; }
+.back { background: var(--surface); color: var(--ink); border: 1px solid var(--line-strong); }
+.back:hover { border-color: var(--ink); }
+.next, .submit { margin-left: auto; background: var(--navy); color: #fff; border: 1px solid var(--navy); }
+.next:hover, .submit:hover { background: var(--navy-hover); }
+.submit:disabled { opacity: .7; cursor: progress; }
+.error { display: none; margin-top: 12px; color: var(--danger); font-size: .92rem; }
+
+.success { text-align: center; padding: 20px 0 6px; }
+.success__icon { display: grid; place-items: center; width: 56px; height: 56px; margin: 0 auto 18px; border-radius: 50%; background: var(--ok-bg); color: var(--ok); }
+.success h2 { color: var(--ink); }
+.success p { max-width: 460px; margin: 0 auto 22px; color: var(--muted); }
+.success__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+
+/* Panel boczny */
+.aside { display: grid; gap: 16px; position: sticky; top: 92px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
+.panel h2 { margin: 0 0 6px; font: 500 1.25rem/1.25 var(--serif); color: var(--ink); }
+.panel p { margin: 0 0 14px; font-size: .92rem; color: var(--muted); }
+.links { margin: 0; padding: 0; list-style: none; }
+.links li + li { border-top: 1px solid var(--line); }
+.links a { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 11px 0; color: var(--ink); text-decoration: none; font-size: .95rem; }
+.links a:hover span:first-child { color: var(--blue-ink); text-decoration: underline; }
+.links a span:last-child { color: var(--muted); }
+.panel--dark { background: var(--navy); border-color: var(--navy); color: #fff; }
+.panel--dark h2 { color: #fff; }
+.panel--dark p { color: #c9cfdb; }
+.site-card { display: flex; align-items: center; gap: 12px; margin-bottom: 16px; padding: 12px 14px; border: 1px solid rgba(255, 255, 255, .16); border-radius: 8px; color: #fff; text-decoration: none; }
+.site-card:hover { border-color: rgba(255, 255, 255, .5); }
+.site-card img { width: 34px; height: 34px; }
+.site-card strong { display: block; font-size: 1rem; }
+.site-card small { color: #c9cfdb; font-size: .84rem; }
+.panel--dark .btn { width: 100%; background: var(--cream); color: var(--navy); }
+.panel--dark .btn:hover { background: #fff; }
+.contact { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.contact a { display: flex; align-items: center; gap: 12px; min-height: 52px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); text-decoration: none; font-size: .94rem; }
+.contact a:hover { border-color: var(--ink); }
+.contact svg { flex: none; color: var(--blue-ink); }
+
+/* Stopka */
+.foot { background: var(--navy); color: #c9cfdb; padding: 40px 0 calc(32px + env(safe-area-inset-bottom)); font-size: .92rem; }
+.foot__grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 22px; }
+.foot .brand { color: #fff; }
+.foot p { margin: 10px 0 0; max-width: 380px; }
+.foot ul { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 0; padding: 0; list-style: none; align-self: center; }
+.foot a { color: #fff; }
+
+@media (max-width: 960px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .aside { position: static; grid-template-columns: 1fr 1fr; }
+  .top__nav a:not(.btn) { display: none; }
+}
+@media (max-width: 640px) {
+  .intro { padding: 36px 0 22px; }
+  .grid, .route-grid, .aside { grid-template-columns: minmax(0, 1fr); }
+  .card { padding: 24px 18px; }
+  .stepper li span { display: none; }
+  .stepper li::after { display: inline; content: counter(s); }
+  .stepper li.is-current span { display: inline; }
+  .stepper li.is-current::after { display: none; }
+  .top__nav .btn span { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap top__inner">
+    <a class="brand" href="https://kapitalownia.pl/" aria-label="Kapitałownia, strona główna"><img src="formularz-zasoby/logo-znak.svg" alt="" width="36" height="36"><span translate="no">Kapitałownia</span></a>
+    <nav class="top__nav" aria-label="Kapitałownia w internecie">
+      <a href="https://kapitalownia.pl/oferta/">Oferta</a>
+      <a href="https://kapitalownia.pl/zamow/">Cennik</a>
+      <a href="https://kapitalownia.pl/faq/">FAQ</a>
+      <a class="btn btn--dark btn--small" href="https://kapitalownia.pl/">kapitalownia.pl<span aria-hidden="true"> →</span></a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="intro">
+    <p class="eyebrow">Formularz klienta</p>
+    <h1>Dane do przygotowania dokumentacji</h1>
+    <p class="lead">Wybierz swoją sytuację, a pokażemy tylko pytania potrzebne do przygotowania wniosku. Wypełnienie zajmuje zwykle kilka minut.</p>
+    <ul class="trust">
+      <li><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6L20.1 8.4 18.7 7z"/></svg>4 lata doświadczenia</li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6L20.1 8.4 18.7 7z"/></svg>211 wniosków ocenionych pozytywnie</li>
+      <li><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6L20.1 8.4 18.7 7z"/></svg>Działamy w całej Polsce</li>
+    </ul>
+  </section>
+
+  <div class="layout">
+    <div>
+      <ol class="stepper" id="stepper" aria-label="Postęp formularza">
+        <li class="is-current" aria-current="step"><span>Ścieżka</span></li>
+        <li><span>Kontakt</span></li>
+        <li><span>Szczegóły</span></li>
+        <li><span>Wysyłka</span></li>
+      </ol>
+      <div class="progress" aria-hidden="true"><div id="bar" style="width:25%"></div></div>
+
+      <form id="form" action="https://formsubmit.co/kapitalownia@gmail.com" method="POST" novalidate>
+        <input type="hidden" name="_subject" id="mail_subject" value="Nowy formularz klienta - Kapitałownia">
+        <input type="hidden" name="_next" value="https://investplan-arch.github.io/Formularz/?wyslano=1">
+        <input type="hidden" name="_url" value="https://investplan-arch.github.io/Formularz/">
+        <input type="hidden" name="_template" value="table">
+
+        <section class="card step active" data-step="0" aria-labelledby="h-krok0">
+          <h2 id="h-krok0">Na czym pracujemy?</h2>
+          <p class="sub">Wybierz ścieżkę, której dotyczy zgłoszenie.</p>
+          <div class="route-grid" id="routes">
+            <button type="button" class="route" data-value="Nowa działalność" aria-pressed="false"><span class="route__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a7 7 0 0 1 4 12.7V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.3A7 7 0 0 1 12 2zm-2 18h4v2h-4z"/></svg></span><span><span class="route__title">Nowa działalność</span><span class="route__desc">Dotacja z urzędu pracy, PFRON, LGD, pożyczka na start</span></span></button>
+            <button type="button" class="route" data-value="Istniejąca firma" aria-pressed="false"><span class="route__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M3 21V9l9-6 9 6v12h-6v-7H9v7z"/></svg></span><span><span class="route__title">Istniejąca firma</span><span class="route__desc">Rozwój, inwestycje, wyposażenie, zatrudnienie</span></span></button>
+            <button type="button" class="route" data-value="Fundacja / stowarzyszenie" data-route="ngo" aria-pressed="false"><span class="route__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M12 21s-7.5-4.6-9.5-9.2C1.2 8.6 3.3 5 6.8 5c2 0 3.4 1.1 5.2 3 1.8-1.9 3.2-3 5.2-3 3.5 0 5.6 3.6 4.3 6.8C19.5 16.4 12 21 12 21z"/></svg></span><span><span class="route__title">Fundacja / stowarzyszenie</span><span class="route__desc">Granty dla NGO, kół gospodyń i OSP</span></span></button>
+            <button type="button" class="route" data-value="Inne" aria-pressed="false"><span class="route__icon" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M6 10a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm6 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm6 0a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg></span><span><span class="route__title">Inne</span><span class="route__desc">Rolnik, biznesplan albo nietypowa sprawa</span></span></button>
+          </div>
+          <input type="hidden" id="client_type" name="rodzaj_klienta" required>
+          <div class="error" id="routeErr" role="alert">Wybierz rodzaj klienta.</div>
+          <div class="nav"><button type="button" class="next" onclick="next()">Dalej <span aria-hidden="true">→</span></button></div>
+        </section>
+
+        <section class="card step" data-step="1" aria-labelledby="h-krok1">
+          <h2 id="h-krok1">Dane kontaktowe</h2>
+          <p class="sub">Dane osoby, z którą mamy kontaktować się w sprawie dokumentacji.</p>
+          <div class="grid">
+            <div class="field"><label for="f-imie">Imię <span class="req" aria-hidden="true">*</span></label><input id="f-imie" name="imie" autocomplete="given-name" required></div>
+            <div class="field"><label for="f-nazwisko">Nazwisko <span class="req" aria-hidden="true">*</span></label><input id="f-nazwisko" name="nazwisko" autocomplete="family-name" required></div>
+          </div>
+          <div class="grid">
+            <div class="field"><label for="f-telefon">Telefon <span class="req" aria-hidden="true">*</span></label><input id="f-telefon" name="telefon" type="tel" autocomplete="tel" inputmode="tel" required></div>
+            <div class="field"><label for="f-email">E-mail <span class="req" aria-hidden="true">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" required></div>
+          </div>
+          <div class="grid">
+            <div class="field"><label for="f-woj">Województwo <span class="req" aria-hidden="true">*</span></label><select id="f-woj" name="wojewodztwo" required><option value="">Wybierz</option><option>dolnośląskie</option><option>kujawsko-pomorskie</option><option>lubelskie</option><option>lubuskie</option><option>łódzkie</option><option>małopolskie</option><option>mazowieckie</option><option>opolskie</option><option>podkarpackie</option><option>podlaskie</option><option>pomorskie</option><option>śląskie</option><option>świętokrzyskie</option><option>warmińsko-mazurskie</option><option>wielkopolskie</option><option>zachodniopomorskie</option></select></div>
+            <div class="field"><label for="f-powiat">Powiat i miejscowość <span class="req" aria-hidden="true">*</span></label><input id="f-powiat" name="powiat_miejscowosc" autocomplete="address-level2" required></div>
+          </div>
+          <div class="nav"><button type="button" class="back" onclick="back()"><span aria-hidden="true">←</span> Wstecz</button><button type="button" class="next" onclick="next()">Dalej <span aria-hidden="true">→</span></button></div>
+        </section>
+
+        <section class="card step" data-step="2" id="businessStep" aria-labelledby="businessTitle">
+          <h2 id="businessTitle">Działalność i finansowanie</h2>
+          <p class="sub">Opisz sytuację i planowane wykorzystanie środków.</p>
+          <div class="field"><label for="f-status">Obecna sytuacja lub status <span class="req" aria-hidden="true">*</span></label><textarea id="f-status" name="status_sytuacja" required placeholder="Np. osoba bezrobotna zarejestrowana w PUP, osoba zatrudniona, firma działa od 2022 r."></textarea></div>
+          <div class="field"><label for="f-opis">Czym ma zajmować się działalność albo na czym polega rozwój? <span class="req" aria-hidden="true">*</span></label><textarea id="f-opis" name="opis_dzialalnosci" required></textarea></div>
+          <div class="grid">
+            <div class="field"><label for="f-kwota">Oczekiwana kwota finansowania <span class="opt">(opcjonalnie)</span></label><input id="f-kwota" name="oczekiwana_kwota" placeholder="np. 80 000 zł"></div>
+            <div class="field"><label for="f-wklad">Wkład własny <span class="opt">(opcjonalnie)</span></label><input id="f-wklad" name="wklad_wlasny" placeholder="kwota albo brak"></div>
+          </div>
+          <div class="field"><label for="f-wydatki">Na co mają zostać przeznaczone środki? <span class="req" aria-hidden="true">*</span></label><textarea id="f-wydatki" name="planowane_wydatki" required placeholder="Sprzęt, pojazd, lokal, szkolenia, marketing, wynagrodzenia i inne"></textarea></div>
+          <div class="field"><label for="f-dosw">Doświadczenie, kwalifikacje, uprawnienia <span class="opt">(opcjonalnie)</span></label><textarea id="f-dosw" name="doswiadczenie"></textarea></div>
+          <div class="field"><label for="f-info">Dodatkowe informacje <span class="opt">(opcjonalnie)</span></label><textarea id="f-info" name="dodatkowe_info"></textarea></div>
+          <div class="nav"><button type="button" class="back" onclick="back()"><span aria-hidden="true">←</span> Wstecz</button><button type="button" class="next" onclick="next()">Dalej <span aria-hidden="true">→</span></button></div>
+        </section>
+
+        <section class="card step" data-step="2" id="ngoStep" hidden aria-labelledby="h-ngo">
+          <h2 id="h-ngo">Fundacja, stowarzyszenie, NGO</h2>
+          <p class="sub">Pytania potrzebne do kwalifikacji i przygotowania projektu grantowego.</p>
+          <div class="field"><label for="ngo_stage">Etap organizacji <span class="req" aria-hidden="true">*</span></label><select id="ngo_stage" name="ngo_etap" required><option value="">Wybierz</option><option>Pomysł / organizacja jeszcze niepowołana</option><option>Po akcie założycielskim / w trakcie rejestracji</option><option>Zarejestrowana i działająca</option></select></div>
+          <div class="field"><label for="ngo_nazwa">Nazwa organizacji <span class="opt">(opcjonalnie)</span></label><input id="ngo_nazwa" name="ngo_nazwa" autocomplete="organization"></div>
+          <div class="grid">
+            <div class="field"><label for="ngo_krs">KRS <span class="opt">(opcjonalnie)</span></label><input id="ngo_krs" name="ngo_krs" inputmode="numeric"></div>
+            <div class="field"><label for="ngo_nip">NIP <span class="opt">(opcjonalnie)</span></label><input id="ngo_nip" name="ngo_nip" inputmode="numeric"></div>
+          </div>
+          <div class="grid">
+            <div class="field"><label for="ngo_regon">REGON <span class="opt">(opcjonalnie)</span></label><input id="ngo_regon" name="ngo_regon" inputmode="numeric"></div>
+            <div class="field"><label for="ngo_rok">Rok rozpoczęcia działalności <span class="opt">(opcjonalnie)</span></label><input id="ngo_rok" name="ngo_rok" inputmode="numeric"></div>
+          </div>
+          <div class="field"><label for="ngo_misja">Czym zajmuje się lub ma zajmować organizacja? <span class="req" aria-hidden="true">*</span></label><textarea id="ngo_misja" name="ngo_misja" required></textarea></div>
+          <div class="field"><label for="ngo_project">Pomysł na projekt <span class="req" aria-hidden="true">*</span></label><textarea id="ngo_project" name="ngo_projekt" required placeholder="Jaki problem ma rozwiązać projekt i co konkretnie chcecie zrobić?"></textarea></div>
+          <div class="field"><label for="ngo_audience">Grupa odbiorców <span class="req" aria-hidden="true">*</span></label><textarea id="ngo_audience" name="ngo_odbiorcy" required placeholder="Np. seniorzy 60+, młodzież, osoby z niepełnosprawnościami, mieszkańcy gminy"></textarea></div>
+          <div class="field"><label for="ngo_actions">Planowane działania <span class="req" aria-hidden="true">*</span></label><textarea id="ngo_actions" name="ngo_dzialania" required placeholder="Warsztaty, wydarzenia, kampania, doradztwo, zajęcia cykliczne"></textarea></div>
+          <div class="grid">
+            <div class="field"><label for="ngo_termin">Planowany termin realizacji <span class="opt">(opcjonalnie)</span></label><input id="ngo_termin" name="ngo_termin" placeholder="np. marzec-wrzesień 2027"></div>
+            <div class="field"><label for="ngo_kwota">Oczekiwana kwota <span class="opt">(opcjonalnie)</span></label><input id="ngo_kwota" name="ngo_kwota" placeholder="np. 50 000 zł"></div>
+          </div>
+          <div class="field"><label for="ngo_budget">Planowany budżet i główne koszty <span class="req" aria-hidden="true">*</span></label><textarea id="ngo_budget" name="ngo_budzet" required placeholder="Wynagrodzenia, usługi, materiały, sprzęt, promocja, wynajem"></textarea></div>
+          <div class="field"><label for="ngo_experience">Doświadczenie i potencjał organizacji <span class="opt">(opcjonalnie)</span></label><textarea id="ngo_experience" name="ngo_doswiadczenie" placeholder="Zrealizowane projekty, doświadczenie zespołu, partnerzy, zasoby"></textarea></div>
+          <div class="field"><label for="ngo_partnerzy">Partnerzy i współpraca z innymi podmiotami <span class="opt">(opcjonalnie)</span></label><textarea id="ngo_partnerzy" name="ngo_partnerzy"></textarea></div>
+          <div class="nav"><button type="button" class="back" onclick="back()"><span aria-hidden="true">←</span> Wstecz</button><button type="button" class="next" onclick="next()">Dalej <span aria-hidden="true">→</span></button></div>
+        </section>
+
+        <section class="card step" data-step="3" aria-labelledby="h-krok3">
+          <h2 id="h-krok3">Ostatnie informacje</h2>
+          <p class="sub">Dodaj informacje, które mogą mieć znaczenie przy przygotowaniu dokumentacji.</p>
+          <div class="field"><label for="f-rodzaj">Jaki rodzaj finansowania Cię interesuje?</label><select id="f-rodzaj" name="rodzaj_finansowania"><option>Nie wiem, proszę dobrać właściwą opcję</option><option>Dotacja</option><option>Pożyczka preferencyjna</option><option>LGD</option><option>PUP</option><option>Wsparcie w starcie</option><option>Grant dla NGO</option><option>Dotacja dla OSP</option><option>Inne</option></select></div>
+          <div class="field"><label for="f-uwagi">Dodatkowe uwagi <span class="opt">(opcjonalnie)</span></label><textarea id="f-uwagi" name="uwagi"></textarea></div>
+          <p class="note">Formularz trafia do Kapitałowni przez usługę FormSubmit (formsubmit.co), która przekazuje odpowiedzi na naszą skrzynkę e-mail. Szczegóły opisuje <a href="https://kapitalownia.pl/polityka-prywatnosci/">polityka prywatności</a>.</p>
+          <div class="field"><label class="consent"><input type="checkbox" name="zgoda_kontakt" value="Tak" required><span>Wyrażam zgodę na kontakt w sprawie przesłanego formularza. <span class="req" aria-hidden="true">*</span></span></label></div>
+          <div style="position:absolute;left:-9999px" aria-hidden="true"><input name="_gotcha" tabindex="-1" autocomplete="off"></div>
+          <div class="error" id="submitErr" role="alert">Nie udało się wysłać formularza. Spróbuj ponownie.</div>
+          <div class="nav"><button type="button" class="back" onclick="back()"><span aria-hidden="true">←</span> Wstecz</button><button type="submit" class="submit">Wyślij formularz</button></div>
+        </section>
+
+        <section class="card step" data-step="success" aria-live="polite">
+          <div class="success">
+            <div class="success__icon" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24"><path fill="currentColor" d="M9.5 16.2 5.3 12l-1.4 1.4 5.6 5.6L20.1 8.4 18.7 7z"/></svg></div>
+            <h2>Formularz wysłany</h2>
+            <p>Dane trafiły do Kapitałowni. Na ich podstawie przygotujemy dalsze kroki dotyczące finansowania i dokumentacji.</p>
+            <div class="success__actions">
+              <a class="btn btn--dark" href="https://kapitalownia.pl/wspolpraca/">Zobacz, jak pracujemy</a>
+              <a class="btn btn--ghost" href="https://kapitalownia.pl/">Przejdź na kapitalownia.pl</a>
+            </div>
+          </div>
+        </section>
+      </form>
+    </div>
+
+    <aside class="aside" aria-label="Kapitałownia w internecie">
+      <section class="panel panel--dark">
+        <h2>Odwiedź naszą stronę</h2>
+        <p>Opisy programów, cennik i odpowiedzi na częste pytania znajdziesz na kapitalownia.pl.</p>
+        <a class="site-card" href="https://kapitalownia.pl/"><img src="formularz-zasoby/logo-znak-jasny.svg" alt="" width="34" height="34"><span><strong>kapitalownia.pl</strong><small>Dotacje, pożyczki i biznesplany</small></span></a>
+        <a class="btn" href="https://kapitalownia.pl/">Przejdź na stronę</a>
+      </section>
+      <section class="panel">
+        <h2>Programy, z którymi pomagamy</h2>
+        <ul class="links">
+          <li><a href="https://kapitalownia.pl/dotacja-z-urzedu-pracy/"><span>Dotacja z urzędu pracy</span><span aria-hidden="true">→</span></a></li>
+          <li><a href="https://kapitalownia.pl/wsparcie-w-starcie/"><span>Pożyczka BGK Wsparcie w starcie</span><span aria-hidden="true">→</span></a></li>
+          <li><a href="https://kapitalownia.pl/finansowanie-na-start/"><span>PFRON i LGD na start firmy</span><span aria-hidden="true">→</span></a></li>
+          <li><a href="https://kapitalownia.pl/rozwoj-firmy/"><span>Rozwój firmy</span><span aria-hidden="true">→</span></a></li>
+          <li><a href="https://kapitalownia.pl/fundacje-i-stowarzyszenia/"><span>Fundacje i stowarzyszenia</span><span aria-hidden="true">→</span></a></li>
+          <li><a href="https://kapitalownia.pl/dotacje-dla-osp/"><span>Dotacje dla OSP</span><span aria-hidden="true">→</span></a></li>
+          <li><a href="https://kapitalownia.pl/zamow/"><span>Cennik i zamówienie</span><span aria-hidden="true">→</span></a></li>
+        </ul>
+      </section>
+      <section class="panel">
+        <h2>Masz pytanie?</h2>
+        <ul class="contact">
+          <li><a href="mailto:kontakt@kapitalownia.pl"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5zm2.2.5 6.8 5.2L18.8 7zM19 8.9l-6.4 4.9a1 1 0 0 1-1.2 0L5 8.9V17h14z"/></svg>kontakt@kapitalownia.pl</a></li>
+          <li><a href="https://www.facebook.com/kapitalownia" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.4V21z"/></svg>Kapitałownia na Facebooku</a></li>
+          <li><a href="https://kapitalownia.pl/faq/"><svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zm0 2a7 7 0 1 0 0 14 7 7 0 0 0 0-14zm0 10.2a1.1 1.1 0 1 1 0 2.2 1.1 1.1 0 0 1 0-2.2zM12 6.8c1.9 0 3.3 1.2 3.3 2.9 0 1.3-.8 2-1.6 2.5-.6.4-.8.6-.8 1.1v.4h-2v-.5c0-1.2.6-1.8 1.4-2.3.6-.4 1-.7 1-1.2 0-.6-.6-1-1.3-1s-1.4.5-1.5 1.2l-2-.3c.3-1.7 1.7-2.8 3.5-2.8z"/></svg>Częste pytania</a></li>
+        </ul>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <div>
+      <a class="brand" href="https://kapitalownia.pl/"><img src="formularz-zasoby/logo-znak-jasny.svg" alt="" width="36" height="36"><span translate="no">Kapitałownia</span></a>
+      <p>Dotacje, pożyczki i dokumentacja dla osób zakładających firmę, przedsiębiorców, rolników i organizacji. Działamy w całej Polsce.</p>
+    </div>
+    <ul>
+      <li><a href="https://kapitalownia.pl/">kapitalownia.pl</a></li>
+      <li><a href="https://kapitalownia.pl/oferta/">Oferta</a></li>
+      <li><a href="https://kapitalownia.pl/zamow/">Cennik</a></li>
+      <li><a href="https://kapitalownia.pl/polityka-prywatnosci/">Polityka prywatności</a></li>
+    </ul>
+  </div>
+</footer>
 <script>
 let current = 0, route = '', sending = false;
 const form = document.getElementById('form'), bar = document.getElementById('bar');
@@ -32,11 +369,12 @@ function syncRoute() {
   }
 }
 document.querySelectorAll('.route').forEach(button => button.onclick = () => {
-  document.querySelectorAll('.route').forEach(el => el.classList.remove('selected'));
+  document.querySelectorAll('.route').forEach(el => { el.classList.remove('selected'); el.setAttribute('aria-pressed', 'false'); });
   button.classList.add('selected');
+  button.setAttribute('aria-pressed', 'true');
   route = button.dataset.value;
   document.getElementById('client_type').value = route;
-  document.getElementById('mail_subject').value = 'Nowy formularz klienta — Kapitałownia — ' + route;
+  document.getElementById('mail_subject').value = 'Nowy formularz klienta - Kapitałownia - ' + route;
   document.getElementById('routeErr').style.display = 'none';
   syncRoute();
 });
@@ -49,7 +387,6 @@ function validate(panel) {
   panel.querySelectorAll('input, select, textarea').forEach(el => {
     if (el.disabled || el.type === 'hidden') return;
     const valid = el.checkValidity() && !(el.required && el.type !== 'checkbox' && !el.value.trim());
-    el.style.borderColor = valid ? '' : 'var(--red)';
     el.setAttribute('aria-invalid', String(!valid));
     if (!valid && !firstInvalid) firstInvalid = el;
   });
@@ -59,13 +396,30 @@ function validate(panel) {
   }
   return !firstInvalid;
 }
+// Kroki nad formularzem: zrobione, bieżący i kolejne
+function syncStepper(i) {
+  document.querySelectorAll('#stepper li').forEach((li, n) => {
+    const done = i === 'success' || n < i;
+    li.classList.toggle('is-done', done);
+    li.classList.toggle('is-current', n === i);
+    if (n === i) li.setAttribute('aria-current', 'step'); else li.removeAttribute('aria-current');
+  });
+}
 function show(i) {
   syncRoute();
   steps().forEach(panel => panel.classList.remove('active'));
   const panel = panelFor(i);
   if (panel) panel.classList.add('active');
   bar.style.width = ((Math.min(i, 3) + 1) / 4 * 100) + '%';
+  syncStepper(i);
   window.scrollTo({top: 0, behavior: 'smooth'});
+}
+function showSuccess() {
+  steps().forEach(panel => panel.classList.remove('active'));
+  document.querySelector('[data-step="success"]').classList.add('active');
+  bar.style.width = '100%';
+  syncStepper('success');
+  try { localStorage.removeItem('kapitalownia_form_draft_v2'); } catch (_) {}
 }
 function next() {
   if (sending) return;
@@ -84,7 +438,7 @@ form.addEventListener('submit', async event => {
     if (!validate(panelFor(i))) { current = i; show(i); validate(panelFor(i)); return; }
   }
   const data = new FormData(form);
-  data.set('_subject', 'Nowy formularz klienta — Kapitałownia — ' + route);
+  data.set('_subject', 'Nowy formularz klienta - Kapitałownia - ' + route);
   const button = form.querySelector('.submit'), error = document.getElementById('submitErr');
   error.style.display = 'none';
   sending = true;
@@ -103,10 +457,7 @@ form.addEventListener('submit', async event => {
     clearTimeout(timeout);
     const result = await response.json();
     if (!response.ok || !(result.success === true || result.success === 'true')) throw new Error('Submission rejected');
-    steps().forEach(panel => panel.classList.remove('active'));
-    document.querySelector('[data-step="success"]').classList.add('active');
-    bar.style.width = '100%';
-    try { localStorage.removeItem('kapitalownia_form_draft_v2'); } catch (_) {}
+    showSuccess();
   } catch (_) {
     fallbackStarted = true;
     error.textContent = 'Trwa wysyłanie formularza…';
@@ -122,10 +473,7 @@ form.addEventListener('submit', async event => {
   }
 });
 syncRoute();
-if (new URLSearchParams(window.location.search).get('wyslano') === '1') {
-  steps().forEach(panel => panel.classList.remove('active'));
-  document.querySelector('[data-step="success"]').classList.add('active');
-  bar.style.width = '100%';
-  try { localStorage.removeItem('kapitalownia_form_draft_v2'); } catch (_) {}
-}
-</script></body></html>
+if (new URLSearchParams(window.location.search).get('wyslano') === '1') showSuccess();
+</script>
+</body>
+</html>

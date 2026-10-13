@@ -27,9 +27,13 @@ Dane z formularza przetwarzamy, żeby odpowiedzieć na zgłoszenie i przedstawi�
 
 Po wysłaniu formularza serwer strony przekazuje treść zgłoszenia wiadomością e-mail na adres {{email}}. Strona nie zapisuje zgłoszeń w bazie danych. Żeby ograniczyć spam, serwer przez krótki czas przechowuje skrót adresu IP, który nie pozwala odtworzyć samego adresu, i usuwa go automatycznie po godzinie.
 
+## Formularz danych klienta
+
+Klientom, z którymi ustalamy przygotowanie dokumentacji, udostępniamy osobny [formularz danych klienta](https://investplan-arch.github.io/Formularz/). Zbiera on dane potrzebne do przygotowania wniosku, czyli imię, nazwisko, telefon, adres e-mail, województwo i miejscowość oraz opis sytuacji, planowanej działalności lub projektu. Formularz jest udostępniany przez GitHub Pages (GitHub, Inc.), a odpowiedzi przekazuje na skrzynkę {{email}} usługa FormSubmit (formsubmit.co). Te dane przetwarzamy w celu przygotowania dokumentacji i wykonania umowy (art. 6 ust. 1 lit. b RODO). Dostawcy tych usług mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym.
+
 ## Odbiorcy danych
 
-Dane mogą być przetwarzane przez dostawców usług, z których korzystamy, czyli przez home.pl sp. z o.o. jako dostawcę hostingu i poczty serwera oraz przez Google jako dostawcę skrzynki Gmail. Google może przetwarzać dane poza Europejskim Obszarem Gospodarczym na podstawie mechanizmów przewidzianych w RODO, takich jak standardowe klauzule umowne.
+Dane mogą być przetwarzane przez dostawców usług, z których korzystamy, czyli przez home.pl sp. z o.o. jako dostawcę hostingu i poczty serwera, przez Google jako dostawcę skrzynki Gmail, a w przypadku formularza danych klienta także przez GitHub i FormSubmit. Google może przetwarzać dane poza Europejskim Obszarem Gospodarczym na podstawie mechanizmów przewidzianych w RODO, takich jak standardowe klauzule umowne.
 
 ## Płatności
 
