@@ -18,4 +18,7 @@ jobs:
       - run: npm ci
       - run: npx playwright-core install --with-deps chromium
       - name: Odczyt strony płatności
-        run: node scripts/sprawdz-platnosc.cjs "$(node -p "require('./site/uslugi.json').uslugi.find(u => u.stripe).stripe")"
+        run: |
+          node -e "const u=require('./site/uslugi.json').uslugi.filter(x=>x.stripe);const seen=new Set();for(const x of u){if(seen.has(x.stripe))continue;seen.add(x.stripe);console.log(x.stripe+' '+x.cena)}" | while read url kwota; do
+            echo "=== $url (oczekiwane $kwota zł)"; node scripts/sprawdz-platnosc.cjs "$url" "$kwota"
+          done

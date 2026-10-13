@@ -92,7 +92,7 @@
         "uwagi na piśmie w ciągu 3 dni roboczych"
       ],
       "cena": 249,
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/7sYfZj2Lm35Aat15UN6Zy0a",
       "successFee": null,
       "uwaga": "Jeśli w ciągu 14 dni od otrzymania uwag zamówisz u nas przygotowanie dokumentów, zaliczymy 249 zł na poczet tej usługi."
     },
@@ -106,7 +106,7 @@
         "odpowiedzi na Twoje pytania"
       ],
       "cena": 149,
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/cNibJ33Pq6hMdFd6YR6Zy09",
       "successFee": null
     }
   ]
