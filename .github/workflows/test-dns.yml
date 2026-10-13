@@ -17,6 +17,7 @@ jobs:
           d=kapitalownia.pl
           for r in NS A MX TXT; do echo "== $r"; dig +short $r $d @8.8.8.8; done
           echo "== A www"; dig +short A www.$d @8.8.8.8
+          echo "== CNAME formularz (oczekiwane investplan-arch.github.io.)"; dig +short CNAME formularz.$d @8.8.8.8
           echo "== DMARC"; dig +short TXT _dmarc.$d @8.8.8.8
           for s in default dkim mail home homepl x s1 s2 selector1 key1; do
             v=$(dig +short TXT $s._domainkey.$d @8.8.8.8); [ -n "$v" ] && echo "== DKIM ($s)" && echo "$v"
