@@ -87,7 +87,7 @@ jobs:
         if: steps.sekrety.outputs.gotowe == 'tak' && (github.event_name == 'push' || !inputs.tylko_sprawdz)
         run: |
           sleep 5
-          for p in / /oferta/ /kontakt/ /zamow/ /dotacja-z-urzedu-pracy/ /wsparcie-w-starcie/ /dotacje-dla-osp/ /polityka-prywatnosci/ /regulamin/ /sitemap.xml /robots.txt; do
+          for p in / /oferta/ /kontakt/ /zamow/ /dotacja-z-urzedu-pracy/ /wsparcie-w-starcie/ /dotacje-dla-osp/ /kalkulator-dotacji/ /ocena-szans/ /polityka-prywatnosci/ /regulamin/ /sitemap.xml /robots.txt; do
             printf '%s ' "$p"; curl -s -o /dev/null -w '%{http_code}\n' "https://kapitalownia.pl$p"
           done
           printf 'brak strony (oczekiwane 404): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/nie-ma-takiej-strony

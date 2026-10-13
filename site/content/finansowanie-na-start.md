@@ -11,7 +11,7 @@ hero:
 ::: programs
 ## Programy na start, od PUP do BGK
 
-Porównanie najczęściej wybieranych źródeł finansowania. Szczegółowo opisaliśmy [dotację z urzędu pracy](/dotacja-z-urzedu-pracy/) i [pożyczkę BGK Wsparcie w starcie](/wsparcie-w-starcie/). Kwoty to górne limity z przepisów i ogłoszeń. Konkretny nabór może mieć niższy limit i dodatkowe warunki.
+Porównanie najczęściej wybieranych źródeł finansowania. Szczegółowo opisaliśmy [dotację z urzędu pracy](/dotacja-z-urzedu-pracy/) i [pożyczkę BGK Wsparcie w starcie](/wsparcie-w-starcie/). Aktualne kwoty policzysz w [kalkulatorze](/kalkulator-dotacji/), a szanse sprawdzisz w [ocenie szans](/ocena-szans/). Kwoty to górne limity z przepisów i ogłoszeń. Konkretny nabór może mieć niższy limit i dodatkowe warunki.
 :::
 
 ::: section split

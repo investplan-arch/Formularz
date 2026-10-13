@@ -23,6 +23,9 @@ Podawaj linki dokładnie w tej postaci.
 | Ankieta po płatności | https://kapitalownia.pl/zamowienie/ |
 | Regulamin | https://kapitalownia.pl/regulamin/ |
 | Częste pytania | https://kapitalownia.pl/faq/ |
+| Ocena szans (quiz) | https://kapitalownia.pl/ocena-szans/ |
+| Kalkulator kwot | https://kapitalownia.pl/kalkulator-dotacji/ |
+| Formularz danych klienta | https://formularz.kapitalownia.pl/ |
 | Facebook | https://www.facebook.com/kapitalownia |
 | E-mail | kontakt@kapitalownia.pl |
 
@@ -37,9 +40,13 @@ Pierwszy kontakt najczęściej przychodzi przez Messengera na profilu Kapitałow
 | Dokumenty do pożyczki Wsparcie w starcie | 850 zł | 1050 zł | 1900 zł |
 | Wniosek do Lokalnej Grupy Działania | 850 zł | 1050 zł | 1900 zł |
 | Biznesplan | wycena indywidualna | nie dotyczy | nie dotyczy |
+| Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
+| Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
 | Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
+
+Sprawdzenie wniosku to ocena dokumentów napisanych przez klienta, z uwagami na piśmie w ciągu 3 dni roboczych od otrzymania plików. Jeśli klient w ciągu 14 dni od uwag zamówi przygotowanie dokumentów do tego samego naboru, 249 zł zaliczamy na poczet opłaty początkowej i zwracamy po opłaceniu zamówienia. Konsultacja trwa do 30 minut, telefonicznie albo online. Dopóki nie ma dla nich linków Stripe, klient zamawia przez formularz, a właściciel wysyła link do płatności.
 
 W cenie wniosku do PUP i PFRON są poprawki po wezwaniu urzędu do uzupełnień. Przy pożyczce i LGD tego nie obiecuj, bo strona tego nie zapisuje. Dla biznesplanu, NGO i spraw nietypowych cenę ustala właściciel. Gdy jej nie ma, zgłoś to w linii „Dla Ciebie”. Rabatów i płatności w ratach nie oferujemy, chyba że właściciel zdecyduje inaczej w danej sprawie.
 

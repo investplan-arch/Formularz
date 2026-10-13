@@ -34,6 +34,12 @@ Przy usługach, dla których cennik podaje dwie kwoty, wynagrodzenie składa si�
 
 Jeśli środki nie zostaną przyznane, klient nie płaci wynagrodzenia za sukces. Opłata początkowa nie podlega zwrotowi z tego powodu, bo dotyczy wykonanej pracy, z zastrzeżeniem prawa odstąpienia opisanego w punkcie 6.
 
+## 3b. Sprawdzenie wniosku i konsultacja
+
+1. Sprawdzenie wniosku polega na ocenie dokumentów przygotowanych przez klienta i przekazaniu uwag na piśmie, e-mailem, w ciągu 3 dni roboczych od otrzymania kompletu plików. Usługa nie obejmuje przepisania dokumentów.
+2. Jeśli klient w ciągu 14 dni od otrzymania uwag zamówi przygotowanie dokumentów do tego samego naboru, Kapitałownia zalicza 249 zł na poczet opłaty początkowej i zwraca tę kwotę tą samą metodą płatności po opłaceniu zamówienia.
+3. Konsultacja trwa do 30 minut i odbywa się telefonicznie albo online w terminie ustalonym e-mailem po płatności.
+
 ## 4. Płatności
 
 Płatności obsługuje Stripe Payments Europe Ltd. Dostępne metody płatności są widoczne na stronie płatności. Kapitałownia nie otrzymuje ani nie przechowuje danych kart płatniczych.

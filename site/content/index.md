@@ -35,6 +35,24 @@ Projekty i wnioski grantowe dla fundacji, stowarzyszeń, kół gospodyń wiejski
 [Wsparcie organizacji](/fundacje-i-stowarzyszenia/)
 :::
 
+::: cards white
+## Sprawdź w kilka minut
+
+Zanim cokolwiek zamówisz, sprawdź, na co masz szansę i ile możesz dostać.
+
+### Ocena szans
+Sześć pytań o Twoją sytuację. Pokażemy, które programy na start pasują do Ciebie i dlaczego.
+[Sprawdź swoje szanse](/ocena-szans/)
+
+### Kalkulator kwot
+Aktualne limity dotacji z urzędu pracy, PFRON i pożyczki BGK, liczone od przeciętnego wynagrodzenia z GUS.
+[Policz, ile możesz dostać](/kalkulator-dotacji/)
+
+### Sprawdzenie wniosku
+Masz już gotowy wniosek i biznesplan? Sprawdzimy je za 249 zł i odeślemy uwagi w ciągu 3 dni roboczych.
+[Zamów sprawdzenie](/zamow/#usluga-sprawdzenie)
+:::
+
 ::: programs compact ids=pup,pfron,wws,lgd
 ## Dotacje i pożyczki na start firmy
 

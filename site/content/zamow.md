@@ -6,14 +6,21 @@ layout: shop
 hero:
   eyebrow: Cennik i zamówienie
   title: Zamów przygotowanie dokumentów
-  lead: Wnioski o środki na start zamówisz i opłacisz online. Płacisz 850 zł przy zamówieniu, a 1050 zł tylko wtedy, gdy otrzymasz finansowanie. Jeśli nie masz pewności, czy spełniasz warunki, zacznij od formularza kwalifikacyjnego.
+  lead: Wnioski o środki na start zamówisz i opłacisz online. Płacisz 850 zł przy zamówieniu, a 1050 zł tylko wtedy, gdy otrzymasz finansowanie. Masz już gotowy wniosek? Sprawdzimy go za 249 zł.
   cta: Sprawdź kwalifikację
+  ctaHref: /ocena-szans/
   secondary: Porównaj programy
   secondaryHref: /finansowanie-na-start/#programy
 ---
 
-::: services
-## Usługi
+::: services ids=pup,pfron,wws,lgd,biznesplan,ngo
+## Przygotowanie dokumentów
+:::
+
+::: services ids=sprawdzenie,konsultacja
+## Na początek, bez dużego wydatku
+
+Masz już napisany wniosek albo chcesz najpierw porozmawiać? Te usługi kosztują niewiele i często wystarczą, żeby uniknąć błędów, przez które wnioski wracają.
 :::
 
 ::: section steps if=platnosci

@@ -26,6 +26,9 @@ const site = process.env.KAP_SITE_JSON ? JSON.parse(readFileSync(process.env.KAP
 const { programy, zrodla, sprawdzono } = readJson('programy.json');
 const { uslugi } = readJson('uslugi.json');
 const { opinie } = readJson('opinie.json');
+const wyn = readJson('wynagrodzenie.json');
+const wynDni = Math.round((Date.now() - new Date(wyn.komunikat)) / 864e5);
+if (wynDni > 100) console.log(`Uwaga, przeciętne wynagrodzenie w site/wynagrodzenie.json ma ${wynDni} dni. Sprawdź nowy komunikat GUS.`);
 const updated = new Date().toISOString().slice(0, 10);
 const updatedText = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date());
 const buyable = u => typeof u.cena === 'number' && Boolean(u.stripe);
@@ -51,6 +54,7 @@ const firmaFooter = firmaFilled ? `NIP ${firma.nip}` : '';
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const pln = n => n.toLocaleString('pl-PL').replace(/ /g, ' ') + ' zł';
+const zl = n => n.toLocaleString('pl-PL', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).replace(/\s/g, '\u00a0') + '\u00a0zł';
 
 function fileFor(path) {
   if (path === '/') return flat && args.home ? String(args.home) : 'index.html';
@@ -140,17 +144,77 @@ function serviceCard(u) {
   const buy = buyable(u);
   const fee = typeof u.successFee === 'number' ? u.successFee : 0;
   const price = priced
-    ? `<div class="service__price"><p><strong>${pln(u.cena)}</strong> <span>na start, płatne przy zamówieniu</span></p>${fee ? `<p class="service__fee">+ ${pln(fee)} po przyznaniu środków</p><p class="service__total">Łącznie ${pln(u.cena + fee)}, jeśli otrzymasz finansowanie. Jeśli nie, płacisz tylko ${pln(u.cena)}.</p>` : ''}</div>`
+    ? `<div class="service__price"><p><strong>${pln(u.cena)}</strong> <span>${fee ? 'na start, ' : ''}płatne przy zamówieniu</span></p>${u.uwaga ? `<p class="service__total">${esc(u.uwaga)}</p>` : ''}${fee ? `<p class="service__fee">+ ${pln(fee)} po przyznaniu środków</p><p class="service__total">Łącznie ${pln(u.cena + fee)}, jeśli otrzymasz finansowanie. Jeśli nie, płacisz tylko ${pln(u.cena)}.</p>` : ''}</div>`
     : '<p class="service__price service__price--quote">Wycena indywidualna</p>';
   const cta = buy
     ? `<a class="btn btn--primary" href="${esc(u.stripe)}" rel="noopener">Zamawiam i płacę</a>`
-    : `<a class="btn btn--primary" href="/kontakt/?usluga=${u.id}">Poproś o wycenę</a>`;
+    : `<a class="btn btn--primary" href="/kontakt/?usluga=${u.id}">${priced ? 'Zamawiam' : 'Poproś o wycenę'}</a>`;
   return `<article class="service" id="usluga-${u.id}">
     <h3>${esc(u.nazwa)}</h3>
     <p>${esc(u.opis)}</p>
     <ul class="checklist">${u.zakres.map(z => `<li>${esc(z)}</li>`).join('')}</ul>
     <div class="service__foot">${price}${cta}</div>
   </article>`;
+}
+
+// Kalkulator limitów. Mnożniki wynikają z przepisów, kwota bazowa z komunikatu GUS.
+const limity = [
+  { id: 'pup', nazwa: 'Dotacja z urzędu pracy', x: 6, typ: 'Dotacja', link: '/dotacja-z-urzedu-pracy/', uwaga: 'Górny limit z ustawy. Każdy urząd ustala własny limit, w naborach z 2026 roku najczęściej od 30 do 40 tys. zł.' },
+  { id: 'pfron', nazwa: 'Środki PFRON, firma przez 12 miesięcy', x: 6, typ: 'Dotacja', link: '/finansowanie-na-start/#program-pfron', uwaga: 'Dla osób z orzeczeniem o niepełnosprawności, przy zobowiązaniu do prowadzenia firmy co najmniej 12 miesięcy.' },
+  { id: 'pfron24', nazwa: 'Środki PFRON, firma przez 24 miesiące', x: 15, typ: 'Dotacja', link: '/finansowanie-na-start/#program-pfron', uwaga: 'Wyższy limit przy zobowiązaniu do prowadzenia firmy co najmniej 24 miesiące.' },
+  { id: 'wws', nazwa: 'Pożyczka BGK Wsparcie w starcie', x: 20, typ: 'Pożyczka', link: '/wsparcie-w-starcie/', uwaga: 'Pożyczkę trzeba spłacić, w czasie do 7 lat. Pośrednik ocenia zdolność do spłaty.' }
+];
+const dataGus = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(wyn.komunikat));
+function kalkulatorHtml() {
+  const rows = limity.map(l => `<tr data-limit="${(l.x * wyn.kwota).toFixed(2)}">
+      <th scope="row"><a href="${l.link}">${esc(l.nazwa)}</a> <span class="calc__type">${l.typ}</span></th>
+      <td class="calc__x">${l.x} ×</td>
+      <td class="calc__max"><strong>${zl(l.x * wyn.kwota)}</strong></td>
+      <td class="calc__fit"></td>
+    </tr>`).join('');
+  return `<div class="calc">
+    <form class="calc__form" id="kalkulator" novalidate>
+      <label for="calc-kwota">Ile potrzebujesz na start firmy?</label>
+      <div class="calc__input"><input id="calc-kwota" name="kwota" inputmode="numeric" autocomplete="off" placeholder="np. 45 000" aria-describedby="calc-hint"><span aria-hidden="true">zł</span></div>
+      <p class="small" id="calc-hint">Wpisz kwotę planowanych wydatków. Zaznaczymy, które programy mogą ją pokryć.</p>
+      <p class="calc__summary" id="calc-wynik" aria-live="polite"></p>
+    </form>
+    <div class="table-wrap"><table class="calc__table">
+      <caption>Maksymalne kwoty na start firmy przy przeciętnym wynagrodzeniu ${zl(wyn.kwota)}</caption>
+      <thead><tr><th scope="col">Program</th><th scope="col">Mnożnik</th><th scope="col">Maksymalnie</th><th scope="col"><span class="visually-hidden">Twoja kwota</span></th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>
+    <ul class="calc__notes">${limity.map(l => `<li><strong>${esc(l.nazwa)}.</strong> ${esc(l.uwaga)}</li>`).join('')}<li><strong>Premia z LGD.</strong> Kwotę określa Lokalna Grupa Działania w ogłoszeniu naboru, nie wynika z przeciętnego wynagrodzenia.</li></ul>
+    <p class="small sources-note">Kwota bazowa to przeciętne wynagrodzenie za ${esc(wyn.okres)} z <a href="${esc(wyn.zrodlo)}" rel="noopener">komunikatu Prezesa GUS</a> z ${dataGus}. Urząd liczy limit od wartości obowiązującej w dniu podpisania umowy, więc kwota zmienia się co kwartał.</p>
+  </div>`;
+}
+const pytania = [
+  { name: 'status', q: 'Jaka jest Twoja sytuacja zawodowa?', opts: [['bezrobotny', 'Mam status osoby bezrobotnej w urzędzie pracy'], ['poszukujacy', 'Mam status osoby poszukującej pracy i nie pracuję'], ['pracuje', 'Pracuję na etacie lub umowie'], ['student', 'Studiuję, to mój ostatni rok'], ['absolwent', 'Od ukończenia nauki minęło mniej niż 4 lata'], ['inne', 'Inna sytuacja']] },
+  { name: 'firma', q: 'Czy w ostatnich 12 miesiącach była zarejestrowana na Ciebie firma, także zawieszona?', opts: [['nie', 'Nie'], ['tak', 'Tak']] },
+  { name: 'orzeczenie', q: 'Czy masz orzeczenie o niepełnosprawności?', opts: [['nie', 'Nie'], ['tak', 'Tak']] },
+  { name: 'opiekun', q: 'Czy opiekujesz się osobą z niepełnosprawnością?', opts: [['nie', 'Nie'], ['tak', 'Tak']] },
+  { name: 'srodki', q: 'Czy w przeszłości przyznano Ci bezzwrotne środki publiczne na założenie firmy?', opts: [['nie', 'Nie'], ['tak', 'Tak'], ['niewiem', 'Nie wiem']] },
+  { name: 'miejsce', q: 'Gdzie chcesz prowadzić firmę?', opts: [['wies', 'Na wsi albo w mniejszej miejscowości'], ['miasto', 'W dużym mieście'], ['niewiem', 'Jeszcze nie wiem']] }
+];
+function ocenaHtml() {
+  const fs = pytania.map((p, i) => `<fieldset class="quiz__q" id="q-${p.name}">
+      <legend><span class="quiz__n">${i + 1} z ${pytania.length}</span>${esc(p.q)}</legend>
+      <div class="quiz__opts">${p.opts.map(([v, l]) => `<label class="choice"><input type="radio" name="${p.name}" value="${v}"><span class="choice__body">${esc(l)}</span></label>`).join('')}</div>
+    </fieldset>`).join('');
+  const kwoty = Object.fromEntries(limity.map(l => [l.id, zl(l.x * wyn.kwota)]));
+  return `<form class="quiz" id="ocena" novalidate data-kwoty="${esc(JSON.stringify(kwoty))}">
+    ${fs}
+    <p class="quiz__error" id="ocena-error" role="alert" hidden></p>
+    <p class="quiz__actions"><button class="btn btn--primary btn--large" type="submit">Pokaż wynik</button></p>
+    <p class="small">Odpowiedzi zostają w Twojej przeglądarce. Nic nie wysyłamy, dopóki nie wypełnisz formularza.</p>
+  </form>
+  <section class="quiz__result" id="ocena-wynik" tabindex="-1" hidden aria-labelledby="ocena-wynik-h">
+    <h2 id="ocena-wynik-h">Twój wstępny wynik</h2>
+    <ul class="quiz__list" id="ocena-lista"></ul>
+    <p class="quiz__disclaimer">To wstępna ocena na podstawie ogólnych warunków programów. Ostateczne zasady określa regulamin konkretnego urzędu, LGD albo pośrednika, dlatego przed zamówieniem sprawdzamy je w Twoim przypadku.</p>
+    <p class="hero__actions"><a class="btn btn--primary btn--large" id="ocena-cta" href="/kontakt/">Poproś o bezpłatną ocenę</a><a class="btn btn--ghost btn--large" href="/kalkulator-dotacji/">Zobacz kwoty</a></p>
+  </section>
+  <noscript><p class="note">Ocena działa w przeglądarce z włączonym JavaScriptem. Możesz od razu wypełnić <a href="/kontakt/">formularz kwalifikacyjny</a>, a ocenimy Twoją sytuację e-mailem.</p></noscript>`;
 }
 
 // Bloki ::: w treściach Markdown
@@ -183,6 +247,8 @@ function renderBlock(type, extra, md) {
     const compact = /\bcompact\b/.test(extra);
     return `<section class="section section--programs" id="programy"><div class="wrap">${sectionHead(md)}${programsHtml(ids, compact)}${compact ? `<p class="small sources-note">Dane sprawdzone: ${esc(sprawdzono)}, według stron instytucji publicznych. Źródła podajemy przy <a href="/finansowanie-na-start/#programy">pełnym opisie programów</a>.</p>` : sourcesHtml()}</div></section>`;
   }
+  if (type === 'kalkulator') return `<section class="section section--tool"><div class="wrap">${sectionHead(md)}${kalkulatorHtml()}</div></section>`;
+  if (type === 'ocena') return `<section class="section section--tool"><div class="wrap narrow">${sectionHead(md)}${ocenaHtml()}</div></section>`;
   if (type === 'opinie') return opinie.length ? `<section class="section section--reviews" id="opinie"><div class="wrap">${sectionHead(md)}${opinieHtml()}</div></section>` : '';
   if (type === 'services') {
     const ids = (extra.match(/ids=([\w,]+)/) || [])[1];
@@ -345,6 +411,8 @@ ${ctaBand}
         <li><a href="/dotacja-z-urzedu-pracy/">Dotacja z urzędu pracy</a></li>
         <li><a href="/wsparcie-w-starcie/">Pożyczka BGK Wsparcie w starcie</a></li>
         <li><a href="/dotacje-dla-osp/">Dotacje dla OSP</a></li>
+        <li><a href="/kalkulator-dotacji/">Kalkulator dotacji</a></li>
+        <li><a href="/ocena-szans/">Ocena szans</a></li>
         <li><a href="/rozwoj-firmy/">Rozwój firmy</a></li>
         <li><a href="/fundacje-i-stowarzyszenia/">Fundacje i stowarzyszenia</a></li>
         <li><a href="/zamow/">Cennik i zamówienie</a></li>
@@ -393,7 +461,8 @@ function lastmodOf(files) {
 const deps = body => [
   /::: *programs/.test(body) ? 'programy.json' : null,
   /::: *services|\{\{cena/.test(body) ? 'uslugi.json' : null,
-  /::: *opinie/.test(body) ? 'opinie.json' : null
+  /::: *opinie/.test(body) ? 'opinie.json' : null,
+  /::: *(kalkulator|ocena)/.test(body) ? 'wynagrodzenie.json' : null
 ].filter(Boolean);
 let todos = 0;
 const pages = [];

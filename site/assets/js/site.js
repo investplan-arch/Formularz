@@ -43,6 +43,91 @@
     counters.forEach(function (el) { io.observe(el); });
   }
 
+  // Kalkulator kwot: zaznacza programy, których limit pokrywa wpisaną kwotę
+  var calc = document.getElementById('kalkulator');
+  if (calc) {
+    var calcInput = document.getElementById('calc-kwota');
+    var calcOut = document.getElementById('calc-wynik');
+    var calcRows = document.querySelectorAll('.calc__table tbody tr');
+    var update = function () {
+      var raw = calcInput.value.replace(/[^\d,.]/g, '').replace(',', '.');
+      var v = parseFloat(raw);
+      var ok = 0;
+      calcRows.forEach(function (tr) {
+        var cell = tr.querySelector('.calc__fit');
+        tr.classList.remove('is-fit', 'is-short');
+        cell.textContent = '';
+        if (!v) return;
+        var fit = Number(tr.getAttribute('data-limit')) >= v;
+        if (fit) ok++;
+        tr.classList.add(fit ? 'is-fit' : 'is-short');
+        cell.textContent = fit ? 'Mieści się w limicie' : 'Powyżej limitu';
+      });
+      calcOut.textContent = !v ? '' : ok
+        ? 'Twoja kwota mieści się w limicie ' + ok + (ok === 1 ? ' programu.' : ' programów.') + ' Pamiętaj, że urząd może mieć niższy limit niż ustawowy.'
+        : 'Ta kwota przekracza limity programów na start. Można łączyć różne źródła, na przykład dotację i pożyczkę, jeśli pozwalają na to ich zasady.';
+    };
+    calcInput.addEventListener('input', update);
+    calc.addEventListener('submit', function (e) { e.preventDefault(); update(); });
+  }
+
+  // Ocena szans: proste reguły na podstawie ogólnych warunków programów
+  var quiz = document.getElementById('ocena');
+  if (quiz) {
+    var kwoty = JSON.parse(quiz.getAttribute('data-kwoty'));
+    var quizErr = document.getElementById('ocena-error');
+    var wynik = document.getElementById('ocena-wynik');
+    var lista = document.getElementById('ocena-lista');
+    var cta = document.getElementById('ocena-cta');
+    var val = function (n) { var r = quiz.querySelector('input[name="' + n + '"]:checked'); return r ? r.value : ''; };
+    var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+    quiz.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var names = ['status', 'firma', 'orzeczenie', 'opiekun', 'srodki', 'miejsce'];
+      var missing = names.filter(function (n) { return !val(n); });
+      if (missing.length) {
+        var n = missing.length;
+        quizErr.textContent = 'Odpowiedz jeszcze na ' + n + (n === 1 ? ' pytanie' : n < 5 ? ' pytania' : ' pytań') + ', żeby zobaczyć wynik.';
+        quizErr.hidden = false;
+        var first = quiz.querySelector('#q-' + missing[0] + ' input');
+        if (first) first.focus();
+        return;
+      }
+      quizErr.hidden = true;
+      var s = val('status'), firma = val('firma') === 'tak', orz = val('orzeczenie') === 'tak', opiekun = val('opiekun') === 'tak', srodki = val('srodki'), miejsce = val('miejsce');
+      var bezrob = s === 'bezrobotny', poszuk = s === 'poszukujacy';
+      var out = [];
+      // Dotacja z urzędu pracy
+      if (firma) out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Warunkiem jest brak firmy, także zawieszonej, w ostatnich 12 miesiącach.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else if (bezrob) out.push({ o: 'tak', p: 'Dotacja z urzędu pracy', t: 'Status osoby bezrobotnej to podstawowy warunek. Limit ustawowy to do ' + kwoty.pup + ', a urząd ustala własny.' + (srodki === 'tak' ? ' Sprawdzimy, czy wcześniejsze środki nie wykluczają Cię w Twoim urzędzie.' : ''), l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else if (poszuk || opiekun) out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Ustawa obejmuje też niektóre osoby spoza grupy bezrobotnych, na przykład opiekunów osób z niepełnosprawnościami. Trzeba to sprawdzić w Twoim urzędzie.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Najczęściej trzeba mieć status osoby bezrobotnej w urzędzie pracy. Jeśli stracisz pracę i się zarejestrujesz, ta ścieżka się otworzy.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      // PFRON
+      if (orz) {
+        if (srodki === 'tak') out.push({ o: 'nie', p: 'Środki PFRON na działalność', t: 'Środków PFRON nie można dostać, jeśli wcześniej otrzymano bezzwrotne środki publiczne na ten cel.', l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
+        else if ((bezrob || poszuk) && !firma) out.push({ o: srodki === 'niewiem' ? 'moze' : 'tak', p: 'Środki PFRON na działalność', t: 'Dla osób z orzeczeniem, zarejestrowanych w urzędzie pracy. Do ' + kwoty.pfron + ' albo do ' + kwoty.pfron24 + ' przy zobowiązaniu na 24 miesiące.' + (srodki === 'niewiem' ? ' Sprawdzimy, czy nie przyznano Ci wcześniej podobnych środków.' : ''), l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
+        else out.push({ o: 'moze', p: 'Środki PFRON na działalność', t: 'Potrzebna jest rejestracja w urzędzie pracy jako osoba bezrobotna albo poszukująca pracy, która nie pracuje.', l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
+      }
+      // Wsparcie w starcie
+      if (bezrob || s === 'student' || s === 'absolwent' || opiekun) out.push({ o: 'tak', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Należysz do jednej z grup, do których program jest skierowany. Pożyczka do ' + kwoty.wws + ', spłata do 7 lat.', l: '/wsparcie-w-starcie/', u: 'wws' });
+      else out.push({ o: 'moze', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Program obejmuje kilka grup osób. Sprawdzimy aktualną listę w BGK dla Twojej sytuacji.', l: '/wsparcie-w-starcie/', u: 'wws' });
+      // LGD
+      if (miejsce === 'miasto') out.push({ o: 'nie', p: 'Premia z Lokalnej Grupy Działania', t: 'LGD działają głównie na obszarach wiejskich i w mniejszych miejscowościach.', l: '/finansowanie-na-start/#program-lgd', u: 'lgd' });
+      else out.push({ o: 'moze', p: 'Premia z Lokalnej Grupy Działania', t: 'Sprawdzimy, czy Twoja gmina należy do LGD i kiedy jest najbliższy nabór. Kwotę określa ogłoszenie.', l: '/finansowanie-na-start/#program-lgd', u: 'lgd' });
+      var label = { tak: 'Pasuje wstępnie', moze: 'Do sprawdzenia', nie: 'Raczej nie teraz' };
+      var order = { tak: 0, moze: 1, nie: 2 };
+      out.sort(function (a, b) { return order[a.o] - order[b.o]; });
+      lista.innerHTML = out.map(function (r) {
+        return '<li class="quiz__item quiz__item--' + r.o + '"><span class="tag">' + label[r.o] + '</span><h3><a href="' + r.l + '">' + esc(r.p) + '</a></h3><p>' + esc(r.t) + '</p></li>';
+      }).join('');
+      var best = out[0];
+      cta.href = best.o === 'nie' ? '/kontakt/' : '/kontakt/?usluga=' + best.u;
+      wynik.hidden = false;
+      wynik.focus();
+      wynik.scrollIntoView({ block: 'start' });
+    });
+  }
+
   var form = document.getElementById('formularz');
   if (!form) return;
 
