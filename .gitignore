@@ -28,3 +28,7 @@ dist-*/
 # Lokalny cache Firecrawl
 .firecrawl/
 wdrozenie-reczne/
+
+# Notatki z researchu (lokalne, nie publikujemy)
+research_notes/
+reports/
