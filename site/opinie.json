@@ -1,0 +1,11 @@
+{
+  "_opis": "Prawdziwe opinie klientów przekazane przez właściciela. Wpisuj tylko opinie, które naprawdę wystawili klienci. Tekst bez zmian, poza literówkami i odstępami. Pusta lista ukrywa sekcję.",
+  "opinie": [
+    { "autor": "Piotr P.", "ocena": 5, "tekst": "Profesjonalna obsługa oraz pomoc w pozyskiwaniu środków na różnorakie projekty. Przemiły personel zapewnia stały kontakt. Dbają o klienta, informując o nowych programach wspierających jego firmę." },
+    { "autor": "Magda P.", "ocena": 5, "tekst": "Polecam serdecznie. Profesjonalna współpraca, począwszy od kontaktu po usługę końcową. Miła obsługa, zaangażowanie i indywidualne podejście do klienta." },
+    { "autor": "Michał R.", "ocena": 5, "tekst": "Pełen profesjonalizm na każdym kroku współpracy. Zaczynając od pozyskania środków, przygotowania dokumentacji oraz pomocy podczas procesów szkoleniowych." },
+    { "autor": "Karolina I.", "ocena": 5, "tekst": "Duży profesjonalizm i wiedza pracowników. Korzystałam parę razy z usług tej firmy i za każdym razem byłam bardzo zadowolona. Polecam." },
+    { "autor": "Iwona P.", "ocena": 5, "tekst": "Bardzo miła i kompetentna obsługa. Polecam do współpracy." },
+    { "autor": "Zofia M.", "ocena": 5, "tekst": "Pełna opieki i wsparcia, zgrana drużyna ludzi działająca dla dobra przedsiębiorcy." }
+  ]
+}

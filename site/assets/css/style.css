@@ -154,6 +154,19 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 .card__link { margin-top: auto; font-weight: 600; font-size: .96rem; text-decoration: none; padding-top: 4px; }
 .card__link:hover { text-decoration: underline; }
 
+/* Opinie */
+.reviews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.review { margin: 0; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 16px; }
+.review__stars { margin: 0; display: flex; gap: 2px; color: #c98a06; }
+.review__text { margin: 0; color: var(--ink-2); font: 400 1.12rem/1.55 var(--serif); }
+.review__text p { margin: 0; }
+.review__author { margin-top: auto; padding-top: 16px; border-top: 1px solid var(--line); display: flex; align-items: center; gap: 12px; font-weight: 600; color: var(--ink); }
+.review__avatar { flex: none; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; font-weight: 600; }
+.review__avatar--0 { background: var(--tag-blue-bg); color: var(--tag-blue); }
+.review__avatar--1 { background: var(--tag-green-bg); color: var(--tag-green); }
+.review__avatar--2 { background: var(--tag-yellow-bg); color: var(--tag-yellow); }
+.review__avatar--3 { background: var(--tag-red-bg); color: var(--tag-red); }
+
 /* Programy */
 .programs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .program { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); display: flex; flex-direction: column; scroll-margin-top: 100px; }
@@ -326,6 +339,7 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
   .site-nav { gap: 18px; }
 }
 @media (max-width: 1060px) {
+  .reviews { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .nav-toggle { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 6px; background: var(--surface); color: var(--ink); font: 600 .94rem var(--sans); cursor: pointer; }
   .nav-toggle__bar, .nav-toggle__bar::before, .nav-toggle__bar::after { display: block; width: 18px; height: 1.5px; background: currentColor; position: relative; content: ""; }
   .nav-toggle__bar::before { position: absolute; top: -6px; }
@@ -348,6 +362,8 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 }
 /* Telefon */
 @media (max-width: 640px) {
+  .reviews { grid-template-columns: minmax(0, 1fr); }
+  .review { padding: 22px; }
   body { font-size: 1rem; }
   .wrap { padding-inline: max(16px, env(safe-area-inset-left)) max(16px, env(safe-area-inset-right)); }
   .site-header__inner { min-height: 64px; }

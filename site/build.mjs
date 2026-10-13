@@ -24,6 +24,7 @@ const readJson = f => JSON.parse(readFileSync(join(root, f), 'utf8'));
 const site = process.env.KAP_SITE_JSON ? JSON.parse(readFileSync(process.env.KAP_SITE_JSON, 'utf8')) : readJson('site.json');
 const { programy, zrodla, sprawdzono } = readJson('programy.json');
 const { uslugi } = readJson('uslugi.json');
+const { opinie } = readJson('opinie.json');
 const updated = new Date().toISOString().slice(0, 10);
 const updatedText = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date());
 const buyable = u => typeof u.cena === 'number' && Boolean(u.stripe);
@@ -78,6 +79,15 @@ function statsHtml(variant = '') {
     <dt class="stat__label">${esc(s.label)}</dt>
     <dd class="stat__value${s.value != null ? '' : ' stat__value--text'}">${s.value != null ? `<span data-count="${s.value}">${s.value}</span>` : esc(s.text)}</dd>
   </div>`).join('')}</dl>`;
+}
+
+const star = '<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z" fill="currentColor"/></svg>';
+function opinieHtml() {
+  return `<div class="reviews">${opinie.map((o, i) => `<figure class="review">
+    <p class="review__stars" role="img" aria-label="Ocena ${o.ocena} na 5">${star.repeat(o.ocena)}</p>
+    <blockquote class="review__text"><p>${esc(o.tekst)}</p></blockquote>
+    <figcaption class="review__author"><span class="review__avatar review__avatar--${i % 4}" aria-hidden="true">${esc(o.autor.charAt(0))}</span><span>${esc(o.autor)}</span></figcaption>
+  </figure>`).join('')}</div>`;
 }
 
 function programCard(g) {
@@ -169,6 +179,7 @@ function renderBlock(type, extra, md) {
     const compact = /\bcompact\b/.test(extra);
     return `<section class="section section--programs" id="programy"><div class="wrap">${sectionHead(md)}${programsHtml(ids, compact)}${compact ? `<p class="small sources-note">Dane sprawdzone: ${esc(sprawdzono)}, według stron instytucji publicznych. Źródła podajemy przy <a href="/finansowanie-na-start/#programy">pełnym opisie programów</a>.</p>` : sourcesHtml()}</div></section>`;
   }
+  if (type === 'opinie') return opinie.length ? `<section class="section section--reviews" id="opinie"><div class="wrap">${sectionHead(md)}${opinieHtml()}</div></section>` : '';
   if (type === 'services') return `<section class="section section--services"><div class="wrap">${sectionHead(md)}<div class="services">${uslugi.map(serviceCard).join('')}</div></div></section>`;
   if (type === 'cards') {
     const [intro, ...items] = md.split(/^### /m);

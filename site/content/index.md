@@ -66,6 +66,12 @@ Od 4 lat przygotowujemy wnioski i biznesplany. 211 z nich zostało ocenionych po
 [Zobacz cennik i zamów](/zamow/)
 :::
 
+::: opinie
+## Co mówią klienci
+
+Opinie osób, z którymi pracowaliśmy. Wszystkie wystawiły nam pięć gwiazdek na pięć.
+:::
+
 ::: section note
 ## Uczciwie o szansach
 
