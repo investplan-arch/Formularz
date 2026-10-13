@@ -411,6 +411,7 @@ ${ctaBand}
         <li><a href="/dotacja-z-urzedu-pracy/">Dotacja z urzędu pracy</a></li>
         <li><a href="/wsparcie-w-starcie/">Pożyczka BGK Wsparcie w starcie</a></li>
         <li><a href="/dotacje-dla-osp/">Dotacje dla OSP</a></li>
+        <li><a href="/wiedza/">Wiedza i poradniki</a></li>
         <li><a href="/kalkulator-dotacji/">Kalkulator dotacji</a></li>
         <li><a href="/ocena-szans/">Ocena szans</a></li>
         <li><a href="/rozwoj-firmy/">Rozwój firmy</a></li>
@@ -465,6 +466,41 @@ const deps = body => [
   /::: *(kalkulator|ocena)/.test(body) ? 'wynagrodzenie.json' : null
 ].filter(Boolean);
 let todos = 0;
+// Artykuły z sekcji Wiedza: lista potrzebna do strony /wiedza/ i do powiązanych tekstów
+const plDate = d => new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d));
+const slugify = t => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/ł/g, 'l').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+const articles = readdirSync(join(root, 'content')).filter(f => f.endsWith('.md')).map(f => {
+  const { data, content } = matter(readFileSync(join(root, 'content', f), 'utf8'));
+  if (data.layout !== 'article') return null;
+  const words = stripComments(content).replace(/[#*|>\[\]()-]/g, ' ').split(/\s+/).filter(Boolean).length;
+  return { ...data, words, minutes: Math.max(1, Math.round(words / 200)) };
+}).filter(Boolean).sort((a, b) => String(b.date).localeCompare(String(a.date)) || a.hero.title.localeCompare(b.hero.title, 'pl'));
+const articleCard = a => `<a class="acard" href="${a.path}">
+    <span class="acard__meta">${a.minutes} min czytania</span>
+    <span class="acard__title">${esc(a.hero.title)}</span>
+    <span class="acard__desc">${esc(a.description)}</span>
+    <span class="acard__more">Czytaj${arrow}</span>
+  </a>`;
+function articleHtml(page, body) {
+  let html = md2html(body);
+  const toc = [];
+  html = html.replace(/<h2>(.*?)<\/h2>/g, (_, t) => {
+    const id = slugify(t.replace(/<[^>]+>/g, ''));
+    toc.push([id, t.replace(/<[^>]+>/g, '')]);
+    return `<h2 id="${id}">${t}</h2>`;
+  }).replace(/<table>/g, '<div class="table-wrap"><table class="prose-table">').replace(/<\/table>/g, '</table></div>');
+  const me = articles.find(a => a.path === page.path) || { minutes: 1 };
+  const related = articles.filter(a => a.path !== page.path).slice(0, 3);
+  const tocHtml = toc.length > 2 ? `<nav class="toc" aria-label="Spis treści"><p class="toc__title">W tym artykule</p><ol>${toc.filter(([id]) => !/^(zrodla|jak-mozemy-pomoc)$/.test(id)).map(([id, t]) => `<li><a href="#${id}">${t}</a></li>`).join('')}</ol></nav>` : '';
+  return `<section class="section"><div class="wrap article">
+      <aside class="article__aside">${tocHtml}</aside>
+      <div class="article__main">
+        <p class="article__meta">Aktualizacja ${plDate(page.updated || page.date)} · ${me.minutes} min czytania · Kapitałownia</p>
+        <div class="prose article__body">${html}</div>
+      </div>
+    </div></section>
+    ${related.length ? `<section class="section section--white"><div class="wrap"><div class="section__head"><h2>Przeczytaj też</h2></div><div class="acards">${related.map(articleCard).join('')}</div></div></section>` : ''}`;
+}
 const pages = [];
 for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.md'))) {
   const { data, content } = matter(readFileSync(join(root, 'content', file), 'utf8'));
@@ -501,6 +537,17 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
       </ul>
     </aside>`;
     html = `<section class="section section--form"><div class="wrap form-layout">${formHtml({ mode, uslugi: options, order: Boolean(page.order) })}<aside class="form-aside form-aside--steps">${md2html(body)}</aside>${contacts}</div></section>`;
+  } else if (page.layout === 'article') {
+    html = articleHtml(page, body);
+    extraHead = `<script type="application/ld+json">${JSON.stringify({
+      '@context': 'https://schema.org', '@type': 'Article', headline: page.hero.title, description: page.description,
+      datePublished: String(page.date), dateModified: String(page.updated || page.date), inLanguage: 'pl',
+      mainEntityOfPage: site.url + page.path, image: site.url + '/assets/og.png',
+      author: { '@type': 'Organization', name: site.name, url: site.url + '/' },
+      publisher: { '@type': 'Organization', name: site.name, logo: { '@type': 'ImageObject', url: site.url + '/assets/apple-touch-icon.png' } }
+    })}</script>`;
+  } else if (page.layout === 'wiedza') {
+    html = `<section class="section"><div class="wrap">${sectionHead(body)}<div class="acards">${articles.map(articleCard).join('')}</div></div></section>`;
   } else if (page.layout === 'legal') {
     html = `<section class="section"><div class="wrap narrow prose prose--legal">${md2html(body)}</div></section>`;
   } else {
