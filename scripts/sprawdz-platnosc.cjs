@@ -5,8 +5,8 @@ const kwota = process.argv[3] || '850';
 (async () => {
   const b = await chromium.launch();
   const p = await b.newPage({ locale: 'pl-PL' });
-  await p.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
-  await p.waitForTimeout(3000);
+  await p.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await p.waitForTimeout(8000);
   const text = await p.evaluate(() => document.body.innerText);
   const links = await p.evaluate(() => [...document.querySelectorAll('a')].map(a => a.href).filter(h => /kapitalownia\.pl/.test(h)));
   const checks = {
@@ -18,6 +18,6 @@ const kwota = process.argv[3] || '850';
   };
   console.log(JSON.stringify(checks, null, 2));
   console.log('--- tekst strony (początek) ---');
-  console.log(text.replace(/[^\S\n]+/g, ' ').slice(0, 1500));
+  console.log(text.replace(/[^\S\n]+/g, ' ').split('\n').filter(l => l.length > 2).slice(0, 25).join('\n'));
   await b.close();
 })();

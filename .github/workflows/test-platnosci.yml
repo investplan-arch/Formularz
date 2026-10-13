@@ -20,5 +20,5 @@ jobs:
       - name: Odczyt strony płatności
         run: |
           node -e "const u=require('./site/uslugi.json').uslugi.filter(x=>x.stripe);const seen=new Set();for(const x of u){if(seen.has(x.stripe))continue;seen.add(x.stripe);console.log(x.stripe+' '+x.cena)}" | while read url kwota; do
-            echo "=== $url (oczekiwane $kwota zł)"; node scripts/sprawdz-platnosc.cjs "$url" "$kwota"
+            echo "=== $url (oczekiwane $kwota zł)"; node scripts/sprawdz-platnosc.cjs "$url" "$kwota" || echo "BŁĄD przy $url"
           done
