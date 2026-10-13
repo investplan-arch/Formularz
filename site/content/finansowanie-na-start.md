@@ -1,6 +1,6 @@
 ---
-title: Dotacja na otwarcie firmy z PUP, PFRON i LGD | Kapitałownia
-description: Dotacja z urzędu pracy, środki z LGD i PFRON, pożyczki na rozpoczęcie działalności. Pomagamy wybrać źródło finansowania i przygotować wniosek z biznesplanem.
+title: Dotacja na otwarcie firmy z PUP, PFRON, LGD i BGK | Kapitałownia
+description: Dotacja z urzędu pracy, środki z LGD i PFRON oraz pożyczka BGK Pierwszy biznes - Wsparcie w starcie. Pomagamy wybrać źródło finansowania i przygotować wniosek z biznesplanem.
 path: /finansowanie-na-start/
 hero:
   eyebrow: Start firmy
@@ -9,9 +9,9 @@ hero:
 ---
 
 ::: programs
-## Programy na start
+## Programy na start, od PUP do BGK
 
-Porównanie najczęściej wybieranych źródeł finansowania. Kwoty to górne limity z przepisów i ogłoszeń. Konkretny nabór może mieć niższy limit i dodatkowe warunki.
+Porównanie najczęściej wybieranych źródeł finansowania. Szczegółowo opisaliśmy [dotację z urzędu pracy](/dotacja-z-urzedu-pracy/) i [pożyczkę BGK Wsparcie w starcie](/wsparcie-w-starcie/). Kwoty to górne limity z przepisów i ogłoszeń. Konkretny nabór może mieć niższy limit i dodatkowe warunki.
 :::
 
 ::: section split

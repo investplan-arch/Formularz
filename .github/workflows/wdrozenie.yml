@@ -28,6 +28,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # pełna historia, z niej liczone są daty lastmod w sitemap.xml
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -85,7 +87,7 @@ jobs:
         if: steps.sekrety.outputs.gotowe == 'tak' && (github.event_name == 'push' || !inputs.tylko_sprawdz)
         run: |
           sleep 5
-          for p in / /oferta/ /kontakt/ /zamow/ /polityka-prywatnosci/ /regulamin/ /sitemap.xml /robots.txt; do
+          for p in / /oferta/ /kontakt/ /zamow/ /dotacja-z-urzedu-pracy/ /wsparcie-w-starcie/ /dotacje-dla-osp/ /polityka-prywatnosci/ /regulamin/ /sitemap.xml /robots.txt; do
             printf '%s ' "$p"; curl -s -o /dev/null -w '%{http_code}\n' "https://kapitalownia.pl$p"
           done
           printf 'brak strony (oczekiwane 404): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/nie-ma-takiej-strony
@@ -93,3 +95,8 @@ jobs:
           printf 'GET formularza (oczekiwane 405): '; curl -s -o /dev/null -w '%{http_code}\n' https://kapitalownia.pl/api/formularz.php
           css=$(basename out/assets/style.*.css)
           curl -s https://kapitalownia.pl/ | grep -q "$css" && echo "Na serwerze jest nowa wersja ($css)" || { echo "Na serwerze nie ma nowej wersji ($css)"; exit 1; }
+
+      - name: Zgłoszenie zmienionych stron do IndexNow
+        if: steps.sekrety.outputs.gotowe == 'tak' && (github.event_name == 'push' || !inputs.tylko_sprawdz)
+        continue-on-error: true
+        run: node scripts/indexnow.cjs out/sitemap.xml kopia/sitemap.xml

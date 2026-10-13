@@ -10,7 +10,7 @@
       "href": "https://zielonalinia.gov.pl/wlasna-firma-z-dotacja-z-urzedu-pracy/"
     },
     {
-      "label": "BGK, Pierwszy biznes – Wsparcie w starcie",
+      "label": "BGK, Pierwszy biznes - Wsparcie w starcie",
       "href": "https://www.bgk.pl/male-i-srednie-przedsiebiorstwa/inwestycje/finansowanie-ze-srodkow-krajowych/pozyczki-z-programu-pierwszy-biznes-wsparcie-w-starcie/"
     },
     {
@@ -42,7 +42,8 @@
         "brak działalności w ostatnich 12 miesiącach",
         "lokalne ograniczenia wydatków"
       ],
-      "usluga": "pup"
+      "usluga": "pup",
+      "link": "/dotacja-z-urzedu-pracy/"
     },
     {
       "id": "pfron",
@@ -67,7 +68,7 @@
     {
       "id": "wws",
       "typ": "Pożyczka preferencyjna",
-      "nazwa": "Pierwszy biznes – Wsparcie w starcie",
+      "nazwa": "Pierwszy biznes - Wsparcie w starcie",
       "kwota": "do 20-krotności przeciętnego wynagrodzenia",
       "kwotaUwaga": "Kwota zmienia się co kwartał razem z przeciętnym wynagrodzeniem ogłaszanym przez GUS.",
       "dlaKogo": "Między innymi osoby bezrobotne, absolwenci do 4 lat od ukończenia nauki, studenci ostatniego roku oraz opiekunowie osób z niepełnosprawnościami.",
@@ -82,7 +83,8 @@
         "środki trzeba oddać",
         "pośrednik ocenia biznesplan i zdolność do spłaty"
       ],
-      "usluga": "wws"
+      "usluga": "wws",
+      "link": "/wsparcie-w-starcie/"
     },
     {
       "id": "lgd",

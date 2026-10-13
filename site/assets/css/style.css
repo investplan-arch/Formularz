@@ -189,6 +189,7 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 .pm--minus::before { content: "\2212"; background: var(--tag-red-bg); color: var(--tag-red); }
 .program__actions { display: flex; flex-wrap: wrap; gap: 10px; padding: 20px 28px 28px; }
 .program__actions .btn { flex: 1 1 200px; }
+.program__more { margin: 0; padding: 0 28px 24px; font-size: .96rem; }
 .sources { margin-top: 24px; font-size: .9rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 20px; }
 .sources p { margin: 0 0 8px; }
 .sources ul { margin: 0; padding-left: 1.1em; columns: 2; column-gap: 32px; }
@@ -207,6 +208,7 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 
 /* Usługi i cennik */
 .services { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.services.services--single { grid-template-columns: minmax(0, 520px); }
 .service { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; scroll-margin-top: 100px; }
 .service:target { border-color: var(--blue); }
 .service > p { color: var(--muted); font-size: .97rem; }
@@ -354,6 +356,7 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
   .form-layout > .lead-form, .form-layout > .form-success { grid-row: auto; }
   .form-aside--steps { order: -1; }
   .cards--3, .services { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .services.services--single { grid-template-columns: minmax(0, 1fr); }
   .cards--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .pcompacts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .split__head { position: static; }

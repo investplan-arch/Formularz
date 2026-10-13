@@ -30,6 +30,7 @@ Jeśli Twoja organizacja dopiero powstaje albo działa od niedawna, pomagamy wsk
 - fundacje,
 - stowarzyszenia, w tym stowarzyszenia zwykłe,
 - koła gospodyń wiejskich,
+- ochotnicze straże pożarne, dla których mamy osobną stronę o [dotacjach dla OSP](/dotacje-dla-osp/),
 - inne organizacje społeczne i grupy nieformalne, które planują założenie organizacji.
 :::
 

@@ -8,6 +8,7 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync, cpSync, rmSync, ex
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import { formHtml } from './templates/form.mjs';
@@ -68,8 +69,10 @@ function rewriteLinks(html) {
     });
 }
 
+// Komentarze HTML w treściach (np. TODO do weryfikacji) zostają tylko w repozytorium
+const stripComments = md => md.replace(/<!--[\s\S]*?-->\n?/g, '');
 function md2html(md) {
-  return marked.parse(md).replace(/<h([23])>(.*?) \{#([\w-]+)\}<\/h\1>/g, '<h$1 id="$3">$2</h$1>');
+  return marked.parse(stripComments(md)).replace(/<h([23])>(.*?) \{#([\w-]+)\}<\/h\1>/g, '<h$1 id="$3">$2</h$1>');
 }
 const arrow = '<span aria-hidden="true"> →</span>';
 
@@ -109,10 +112,11 @@ function programCard(g) {
       <a class="btn btn--primary" href="/kontakt/?usluga=${g.usluga}">Sprawdź kwalifikację</a>
       ${uslugi.some(u => u.id === g.usluga && buyable(u)) ? `<a class="btn btn--ghost" href="/zamow/#usluga-${g.usluga}">Zamów wniosek</a>` : ''}
     </div>
+    ${g.link ? `<p class="program__more"><a class="textlink" href="${g.link}">Wszystko o programie${arrow}</a></p>` : ''}
   </article>`;
 }
 function programCompact(g) {
-  return `<a class="pcompact" href="/finansowanie-na-start/#program-${g.id}">
+  return `<a class="pcompact" href="${g.link || `/finansowanie-na-start/#program-${g.id}`}">
     <span class="tag${g.typ.startsWith('Pożyczka') ? ' tag--yellow' : g.typ === 'Premia' ? ' tag--green' : ''}">${esc(g.typ)}</span>
     <span class="pcompact__name">${esc(g.nazwa)}</span>
     <span class="pcompact__amount">${esc(g.kwota)}</span>
@@ -180,7 +184,11 @@ function renderBlock(type, extra, md) {
     return `<section class="section section--programs" id="programy"><div class="wrap">${sectionHead(md)}${programsHtml(ids, compact)}${compact ? `<p class="small sources-note">Dane sprawdzone: ${esc(sprawdzono)}, według stron instytucji publicznych. Źródła podajemy przy <a href="/finansowanie-na-start/#programy">pełnym opisie programów</a>.</p>` : sourcesHtml()}</div></section>`;
   }
   if (type === 'opinie') return opinie.length ? `<section class="section section--reviews" id="opinie"><div class="wrap">${sectionHead(md)}${opinieHtml()}</div></section>` : '';
-  if (type === 'services') return `<section class="section section--services"><div class="wrap">${sectionHead(md)}<div class="services">${uslugi.map(serviceCard).join('')}</div></div></section>`;
+  if (type === 'services') {
+    const ids = (extra.match(/ids=([\w,]+)/) || [])[1];
+    const list = ids ? ids.split(',').map(id => uslugi.find(u => u.id === id)).filter(Boolean) : uslugi;
+    return `<section class="section section--services"><div class="wrap">${sectionHead(md)}<div class="services${list.length === 1 ? ' services--single' : ''}">${list.map(serviceCard).join('')}</div></div></section>`;
+  }
   if (type === 'cards') {
     const [intro, ...items] = md.split(/^### /m);
     const cards = items.map(item => {
@@ -260,10 +268,20 @@ function layout(page, bodyHtml, extraHead = '') {
     ]
   })}</script>` : '';
   const orgLd = isHome ? `<script type="application/ld+json">${JSON.stringify({
-    '@context': 'https://schema.org', '@type': 'ProfessionalService', name: site.name, url: site.url + '/',
-    logo: site.url + '/assets/apple-touch-icon.png', email: site.email, areaServed: { '@type': 'Country', name: 'Polska' },
-    description: page.description, ...(site.facebook ? { sameAs: [site.facebook] } : {})
+    '@context': 'https://schema.org', '@type': ['ProfessionalService', 'Organization'], '@id': site.url + '/#organizacja',
+    name: site.name, url: site.url + '/', logo: site.url + '/assets/apple-touch-icon.png', image: site.url + '/assets/og.png',
+    email: site.email, ...(firma.nip ? { taxID: firma.nip } : {}),
+    areaServed: { '@type': 'Country', name: 'Polska' },
+    description: page.description,
+    knowsAbout: ['dotacja z urzędu pracy', 'środki PFRON na działalność', 'pożyczka BGK Pierwszy biznes - Wsparcie w starcie', 'premia z Lokalnej Grupy Działania', 'biznesplan', 'wnioski grantowe dla NGO', 'dotacje dla OSP'],
+    hasOfferCatalog: { '@type': 'OfferCatalog', name: 'Usługi Kapitałowni', itemListElement: uslugi.map(u => ({
+      '@type': 'Offer', itemOffered: { '@type': 'Service', name: u.nazwa, description: u.opis },
+      ...(typeof u.cena === 'number' ? { price: u.cena, priceCurrency: 'PLN' } : {})
+    })) },
+    ...(site.facebook ? { sameAs: [site.facebook] } : {})
   })}</script>` : '';
+  const verify = isHome && mode === 'production' ? Object.entries({ 'google-site-verification': site.weryfikacja?.google, 'msvalidate.01': site.weryfikacja?.bing })
+    .filter(([, v]) => v).map(([k, v]) => `<meta name="${k}" content="${esc(v)}">`).join('\n') : '';
   const previewBar = mode === 'preview' ? '<div class="preview-bar" role="note">Wersja robocza do akceptacji. Formularz i płatności w podglądzie nie działają.</div>' : '';
   const fbIcon = '<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.2H8v3h2.4V21z"/></svg>';
 
@@ -275,6 +293,7 @@ function layout(page, bodyHtml, extraHead = '') {
 <title>${esc(page.title)}</title>
 <meta name="description" content="${esc(page.description)}">
 ${robots}
+${verify}
 ${page.noindex ? '' : `<link rel="canonical" href="${canonical}">`}
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
@@ -323,6 +342,9 @@ ${ctaBand}
       <ul class="site-footer__links">
         <li><a href="/oferta/">Oferta</a></li>
         <li><a href="/finansowanie-na-start/">Finansowanie na start</a></li>
+        <li><a href="/dotacja-z-urzedu-pracy/">Dotacja z urzędu pracy</a></li>
+        <li><a href="/wsparcie-w-starcie/">Pożyczka BGK Wsparcie w starcie</a></li>
+        <li><a href="/dotacje-dla-osp/">Dotacje dla OSP</a></li>
         <li><a href="/rozwoj-firmy/">Rozwój firmy</a></li>
         <li><a href="/fundacje-i-stowarzyszenia/">Fundacje i stowarzyszenia</a></li>
         <li><a href="/zamow/">Cennik i zamówienie</a></li>
@@ -357,10 +379,29 @@ for (const pkg of ['geist', 'newsreader']) {
   }
 }
 
+// Data ostatniej zmiany strony z historii gita: plik treści i dane, z których korzysta.
+// Plik zmieniony, ale jeszcze niezapisany w gicie, dostaje dzisiejszą datę.
+function lastmodOf(files) {
+  try {
+    const rel = files.map(f => join('site', f));
+    const cwd = join(root, '..');
+    if (execFileSync('git', ['status', '--porcelain', '--', ...rel], { cwd, encoding: 'utf8' }).trim()) return updated;
+    const d = execFileSync('git', ['log', '-1', '--format=%cs', '--', ...rel], { cwd, encoding: 'utf8' }).trim();
+    return d || updated;
+  } catch { return updated; }
+}
+const deps = body => [
+  /::: *programs/.test(body) ? 'programy.json' : null,
+  /::: *services|\{\{cena/.test(body) ? 'uslugi.json' : null,
+  /::: *opinie/.test(body) ? 'opinie.json' : null
+].filter(Boolean);
+let todos = 0;
 const pages = [];
 for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.md'))) {
   const { data, content } = matter(readFileSync(join(root, 'content', file), 'utf8'));
   const page = { ...data, source: file };
+  todos += (content.match(/<!--\s*TODO/g) || []).length;
+  page.lastmod = lastmodOf([join('content', file), ...deps(content)]);
   const body = content
     .replaceAll('{{firma}}', firmaText)
     .replaceAll('{{email}}', site.email)
@@ -406,7 +447,7 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
 if (!flat) cpSync(join(root, 'public'), out, { recursive: true });
 if (mode === 'production') {
   writeFileSync(join(out, 'robots.txt'), `User-agent: *\nDisallow: /api/\n\nSitemap: ${site.url}/sitemap.xml\n`);
-  const urls = pages.filter(p => !p.noindex).map(p => `  <url><loc>${site.url}${p.path}</loc><lastmod>${updated}</lastmod></url>`).join('\n');
+  const urls = pages.filter(p => !p.noindex).map(p => `  <url><loc>${site.url}${p.path}</loc><lastmod>${p.lastmod}</lastmod></url>`).join('\n');
   writeFileSync(join(out, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`);
 } else {
   writeFileSync(join(out, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
@@ -415,4 +456,5 @@ if (mode === 'production') {
     rmSync(join(out, 'api'), { recursive: true, force: true });
   }
 }
+if (todos) console.log(`Uwaga, ${todos} komentarzy TODO w treściach czeka na weryfikację (nie trafiają na stronę).`);
 console.log(`Zbudowano ${pages.length} stron (${mode}${flat ? ', flat' : ''}) w ${out}`);

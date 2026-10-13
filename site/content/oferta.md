@@ -1,6 +1,6 @@
 ---
 title: Pisanie wniosków o dotacje i biznesplany | Kapitałownia
-description: Dotacje, pożyczki preferencyjne, biznesplany i dokumentacja aplikacyjna dla osób zakładających firmę, przedsiębiorców, rolników i organizacji w całej Polsce.
+description: Dotacje z urzędu pracy, PFRON i LGD, pożyczka BGK Wsparcie w starcie, biznesplany i wnioski grantowe dla NGO i OSP w całej Polsce.
 path: /oferta/
 hero:
   eyebrow: Oferta
@@ -12,10 +12,10 @@ hero:
 ## Usługi
 
 ### Dotacje
-Środki bezzwrotne z urzędów pracy, Lokalnych Grup Działania, PFRON i programów regionalnych. Sprawdzamy warunki naboru, przygotowujemy wniosek i wymagane załączniki.
+Środki bezzwrotne z urzędów pracy, Lokalnych Grup Działania, PFRON i programów regionalnych. Sprawdzamy warunki naboru, przygotowujemy wniosek i wymagane załączniki. Zobacz, jak wygląda [dotacja z urzędu pracy](/dotacja-z-urzedu-pracy/).
 
 ### Pożyczki preferencyjne
-Pożyczki na start i rozwój, udzielane przez fundusze pożyczkowe i instytucje rozwoju regionalnego, często na korzystniejszych warunkach niż rynkowe. Pomagamy wybrać ofertę i przygotować dokumenty.
+Pożyczki na start i rozwój, udzielane przez fundusze pożyczkowe i instytucje rozwoju regionalnego, często na korzystniejszych warunkach niż rynkowe. Na start firmy najczęściej jest to [pożyczka BGK Wsparcie w starcie](/wsparcie-w-starcie/). Pomagamy wybrać ofertę i przygotować dokumenty.
 
 ### Instrumenty zwrotne
 Finansowanie, które trzeba oddać, ale które bywa łatwiej dostępne niż dotacja. Analizujemy, czy taka forma ma sens przy Twoich planach i możliwościach spłaty.
@@ -34,7 +34,7 @@ Projekty i wnioski grantowe dla fundacji, stowarzyszeń i innych organizacji. Po
 ## Dla kogo
 
 ### Osoby planujące działalność {#start}
-Pomagamy w przygotowaniu wniosków o środki na rozpoczęcie działalności, między innymi z powiatowego urzędu pracy, z naborów Lokalnych Grup Działania oraz ze środków PFRON dla osób z niepełnosprawnościami. [Więcej o finansowaniu na start](/finansowanie-na-start/)
+Pomagamy w przygotowaniu wniosków o środki na rozpoczęcie działalności, między innymi z powiatowego urzędu pracy, z naborów Lokalnych Grup Działania, ze środków PFRON dla osób z niepełnosprawnościami oraz o pożyczkę Pierwszy biznes - Wsparcie w starcie z BGK. [Więcej o finansowaniu na start](/finansowanie-na-start/)
 
 ### Firmy i spółki {#firmy}
 Szukamy finansowania na inwestycje, zakup maszyn i wyposażenia, rozwój usług, wejście na nowe rynki czy zatrudnienie. Pracujemy z jednoosobowymi działalnościami i spółkami. [Więcej o rozwoju firmy](/rozwoj-firmy/)
@@ -44,6 +44,9 @@ Pomagamy rolnikom i domownikom, którzy chcą rozwinąć gospodarstwo albo uruch
 
 ### Fundacje i stowarzyszenia {#ngo}
 Przygotowujemy wnioski do konkursów grantowych, pomagamy zaplanować działania, budżet i rezultaty projektu. [Więcej o wsparciu NGO](/fundacje-i-stowarzyszenia/)
+
+### Ochotnicze Straże Pożarne {#osp}
+Pomagamy jednostkom OSP pozyskać środki na sprzęt, wyposażenie i szkolenia, między innymi z programu Fundacji ORLEN Razem dla bezpieczeństwa. [Więcej o dotacjach dla OSP](/dotacje-dla-osp/)
 :::
 
 ::: section note

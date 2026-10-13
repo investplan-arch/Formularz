@@ -50,5 +50,10 @@
       "text": "cała Polska",
       "label": "pracujemy zdalnie z każdym regionem"
     }
-  ]
+  ],
+  "weryfikacja": {
+    "_opis": "Kody weryfikacyjne Google Search Console i Bing Webmaster Tools. Tag trafia na stronę główną tylko wtedy, gdy kod jest wpisany.",
+    "google": "",
+    "bing": ""
+  }
 }

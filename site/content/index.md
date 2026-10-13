@@ -1,6 +1,6 @@
 ---
 title: Dotacje i pożyczki na start i rozwój firmy | Kapitałownia
-description: Sprawdzamy, z którego programu możesz skorzystać, i piszemy wniosek z biznesplanem. Środki z urzędu pracy, PFRON i LGD, pożyczki preferencyjne, wnioski dla NGO.
+description: Sprawdzamy, z którego programu możesz skorzystać, i piszemy wniosek z biznesplanem. Dotacja z PUP, PFRON, LGD, pożyczka BGK Wsparcie w starcie, wnioski dla NGO i OSP.
 path: /
 layout: home
 hero:
@@ -19,7 +19,7 @@ hero:
 Zaczynamy od tego, kim jesteś i co chcesz sfinansować. Od tego zależy program i zestaw dokumentów.
 
 ### Zakładasz firmę
-Środki z urzędu pracy, Lokalnych Grup Działania (LGD) i PFRON oraz pożyczki na start. Przygotowujemy wniosek razem z biznesplanem.
+Środki z urzędu pracy, Lokalnych Grup Działania (LGD) i PFRON oraz pożyczka BGK Wsparcie w starcie. Przygotowujemy wniosek razem z biznesplanem.
 [Finansowanie na start](/finansowanie-na-start/)
 
 ### Rozwijasz firmę
@@ -31,14 +31,14 @@ Rozwój gospodarstwa albo działalność pozarolnicza. Sprawdzamy nabory dostęp
 [Oferta dla rolników](/oferta/#rolnicy)
 
 ### Działasz w NGO
-Projekty i wnioski grantowe dla fundacji, stowarzyszeń i kół gospodyń wiejskich.
+Projekty i wnioski grantowe dla fundacji, stowarzyszeń, kół gospodyń wiejskich i ochotniczych straży pożarnych.
 [Wsparcie organizacji](/fundacje-i-stowarzyszenia/)
 :::
 
 ::: programs compact ids=pup,pfron,wws,lgd
-## Programy na start firmy
+## Dotacje i pożyczki na start firmy
 
-Krótkie porównanie najczęściej wybieranych źródeł. Pełne warunki, plusy i minusy oraz źródła znajdziesz po kliknięciu w program.
+Krótkie porównanie najczęściej wybieranych źródeł, od dotacji z urzędu pracy po pożyczkę z BGK. Pełne warunki, plusy i minusy oraz źródła znajdziesz po kliknięciu w program. Prowadzisz OSP? Zobacz [dotacje dla OSP](/dotacje-dla-osp/).
 :::
 
 ::: section steps
