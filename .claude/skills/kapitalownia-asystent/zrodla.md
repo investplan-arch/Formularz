@@ -13,6 +13,7 @@ Research robisz przed odpowiedzią. Zaczynasz od źródła urzędowego (ogłosze
 - ARiMR
 - Ekonomia społeczna (OWES, BGK)
 - Organizacje pozarządowe
+- Firma klienta w rejestrach
 - Kwoty zależne od wynagrodzeń
 - Gdy strona się nie otwiera
 
@@ -93,6 +94,21 @@ Harmonogram naborów w ramach Planu Strategicznego WPR jest na https://www.gov.p
 - Otwarte konkursy ofert w BIP gminy, powiatu i województwa.
 - Serwis ngo.pl, sekcja konkursów i dotacji, jako przegląd. Warunki zawsze z ogłoszenia.
 - LGD (granty dla organizacji) i wyszukiwarka FE z filtrem organizacji.
+
+## Firma klienta w rejestrach
+
+Gdy klient ma albo miał firmę, daty decydują o kwalifikacji (12 miesięcy bez działalności przed PUP, rok przed premią LGD, staż przy pożyczkach dla firm).
+
+```bash
+python3 skrypty/firma.py 7393982505        # NIP, biała lista VAT, CEIDG i KRS
+python3 skrypty/firma.py --krs 0000123456  # spółka, fundacja, stowarzyszenie
+```
+
+- Biała lista VAT działa bez klucza, ale firm zwolnionych z VAT często w niej nie ma.
+- KRS działa bez klucza dla spółek, fundacji, stowarzyszeń i spółdzielni.
+- CEIDG (jednoosobowe firmy, daty zawieszenia i zakończenia) wymaga bezpłatnego tokenu z dane.biznes.gov.pl w zmiennej `CEIDG_TOKEN`. Bez tokenu sprawdzasz firmę w wyszukiwarce na https://www.biznes.gov.pl/pl/wyszukiwarka-firm/.
+
+Klientowi nie przepisujesz danych z rejestru. Wynik służy tylko do oceny, która ścieżka jest dla niego otwarta.
 
 ## Kwoty zależne od wynagrodzeń
 

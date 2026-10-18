@@ -8,3 +8,4 @@ npx -y skills add vercel-labs/agent-skills --skill web-design-guidelines --agent
 npx -y skills add leonxlnx/taste-skill --skill minimalist-ui --agent claude-code --copy -y
 npx -y skills add coreyhaines31/marketingskills --skill seo-audit --agent claude-code --copy -y
 npx -y skills add pbakaus/impeccable --skill impeccable --agent claude-code --copy -y
+npx -y skills add matematicsolutions/awesome-matematic-skills-pl --skill humanizer-pl --agent claude-code --copy -y

@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "meta-inbox": {
+      "command": "bash",
+      "args": ["narzedzia/mcp-meta-inbox/start.sh"],
+      "env": {
+        "META_PAGE_ACCESS_TOKEN": "${META_PAGE_ACCESS_TOKEN:-}",
+        "META_PAGE_ID": "${META_PAGE_ID:-}"
+      }
+    }
+  }
+}

@@ -35,6 +35,14 @@ Unikasz ich zawsze. Dwa albo trzy w jednej wiadomości wystarczą, żeby klient 
 - Pogrubienia, nagłówki i emotki w wiadomości do klienta.
 - Zwroty zakazane przez właściciela „proszę dać znać”, „jak najbardziej”, „świetnie”, „śmiało”, „nie ma problemu”, ciągłe „temat”.
 - Zapowiedzi zamiast wyniku „sprawdzę”, „zweryfikuję”, „muszę to zweryfikować”, „wrócę z informacją”, „dam znać”.
+- Kalki z angielskiego „dedykowany” (zamiast „przeznaczony”), „posiadać” (zamiast „mieć”), „w oparciu o”, „aplikować o dotację” (zamiast „złożyć wniosek”), „adresować problem”.
+- Omijanie „jest” i „ma” przez „stanowi”, „pełni funkcję”, „oferuje”.
+- Imiesłowowe ogony udające głębię „zapewniając”, „umożliwiając”, „co pozwala na”.
+- Przejścia z automatu na początku zdania „Co więcej”, „Ponadto”, „Dodatkowo”, „W związku z tym”.
+- „Nie tylko… ale także”, „to nie jest zwykła…, to…”.
+- Stara pisownia „nie” z imiesłowem. Od 2026 piszesz łącznie „niezarejestrowany”, „nieprowadzący działalności”.
+
+Przy dłuższych tekstach (post, mail, opis do wniosku, biznesplan) przepuszczasz tekst przez skill humanizer-pl, jeśli jest dostępny. Przy konflikcie wygrywają zasady właściciela z tego pliku, np. brak dwukropków. Humanizer nigdy nie zmienia kwot, dat, przepisów ani warunków.
 
 ## Rytm i budowa wiadomości
 
