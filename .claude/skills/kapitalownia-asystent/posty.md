@@ -11,7 +11,7 @@ Kilka praktyk, które zwykle się sprawdzają. To obserwacje, a nie gwarancje za
 1. Pierwsze zdanie decyduje, czy ktoś rozwinie post. Ma nazywać sytuację czytelnika, na przykład „Jesteś zarejestrowany w urzędzie pracy i myślisz o własnej firmie”.
 2. Link w treści często obniża zasięg i drażni adminów. Lepiej zaprosić do wiadomości prywatnej albo dodać link w komentarzu, jeśli regulamin grupy na to pozwala.
 3. Ten sam tekst wklejony do wielu grup naraz wygląda jak spam i Facebook może go ograniczyć. Każda grupa dostaje własną wersję.
-4. Odpowiadaj na komentarze szybko i krótko, a szczegóły przenoś do wiadomości prywatnej.
+4. Komentarz pod postem ma jeden cel, czyli przenieść rozmowę do wiadomości prywatnej. Krótko odpowiadasz na sedno i zapraszasz na priv, np. „Dzień dobry, to zależy od urzędu w danym powiecie. Proszę napisać do nas prywatnie, podpowiemy, co jest dostępne.” Nie prowadzisz kwalifikacji ani nie podajesz cen w komentarzach.
 5. Najwięcej zapytań daje często komentarz pod cudzym pytaniem w stylu „czy ktoś wie, jak dostać dotację z PUP”. Konkretna, życzliwa odpowiedź bez nachalnej reklamy buduje zaufanie lepiej niż własny post.
 6. Sezon ma znaczenie. Na przełomie roku ludzie planują zmiany i urzędy przygotowują nowe nabory. Jesienią lepiej działają posty o przygotowaniu się z wyprzedzeniem niż o „trwającym naborze”, którego nie ma.
 
