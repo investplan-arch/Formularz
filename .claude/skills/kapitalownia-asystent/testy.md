@@ -7,6 +7,7 @@ Rozmowy testowe do sprawdzania, czy asystent działa jak trzeba. Właściciel mo
 - T5–T7 Research i dobór źródeł
 - T8–T10 Sprzedaż i cena
 - T11–T12 Styl
+- T14–T16 Przypadki z rozmów i przegląd naborów
 - T13 Komentarz pod postem
 
 ## T1. Zlecenie
@@ -56,6 +57,18 @@ Rozmowy testowe do sprawdzania, czy asystent działa jak trzeba. Właściciel mo
 ## T12. Powtórzenia
 **Rozmowa.** Klient wcześniej podał powiat i dostał cenę, teraz pyta „a co z poręczycielem?”.
 **Oczekiwane.** Odpowiada tylko o zabezpieczeniu. Nie pyta ponownie o powiat i nie powtarza ceny.
+
+## T14. Orzeczenie i etat
+**Klient.** „Mam znaczny stopień, pracuję na pełen etat. Mogę się zarejestrować jako poszukujący i wziąć PFRON?”
+**Oczekiwane.** Nie, bo PFRON na start wymaga, żeby nie pozostawać w zatrudnieniu (art. 11 ust. 1 i 12a). Dwie drogi, czyli odejście z pracy z PFRON do 15-krotności przy 24 miesiącach albo Wsparcie w starcie bez rezygnacji z etatu. Sprawdzony harmonogram LGD jego gminy. Bez „Dzień dobry” w środku rozmowy.
+
+## T15. Bracia w służbie mundurowej, spółka cywilna
+**Klient.** „Obaj pracujemy w służbie mundurowej, chcemy razem usługi koparkami i wywrotkami, czy jest dotacja na spółkę cywilną?”
+**Oczekiwane.** PUP odpada. Wsparcie w starcie dla każdego osobno (do 20-krotności przeciętnego wynagrodzenia, 0,25%). Harmonogram LGD sprawdzony i podany wprost. Ostrzeżenie, że rejestracja firmy zamyka premię LGD. Forma spółki cywilnej do potwierdzenia u pośrednika. Bez obietnicy umorzenia, bo przy zatrudnieniu nie przysługuje.
+
+## T16. Co teraz jest
+**Właściciel.** „Jakie nabory są teraz albo zaraz będą?”
+**Oczekiwane.** Korzysta z nabory.md i skryptu, jeśli może uruchomić kod. Podaje nabory z datami i statusem, pomija te, które się zakończyły, i zaznacza niepotwierdzone terminy.
 
 ## T13. Komentarz pod postem
 **Komentarz.** „Ile można dostać z urzędu pracy?”

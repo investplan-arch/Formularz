@@ -107,7 +107,7 @@ Premia z Lokalnej Grupy Działania. Bezzwrotna, kwotę ustala LGD (spotykane 50 
 
 Te obserwacje pomagają doradzać, ale nie są faktami o konkretnym naborze.
 
-Urzędy pracy dostają limity z Funduszu Pracy na początku roku, dlatego dużo naborów ruszało dotąd w pierwszym kwartale, a jesienią środki bywają już wyczerpane. Zdarzają się też nabory dodatkowe w trakcie roku. W październiku sensownie jest przygotowywać klientów do naborów na początku przyszłego roku i od razu sprawdzać, czy ich urząd nie ma jeszcze otwartego naboru, zwłaszcza z EFS+, bo te często trwają do wyczerpania środków albo do końca roku.
+Urzędy pracy dostają limity z Funduszu Pracy na początku roku, dlatego najwięcej naborów rusza w pierwszym kwartale. Jesienią wiele urzędów ogłasza jednak dodatkowe rundy z oszczędności i z EFS+, często krótkie i dla wybranych grup (np. do 30. roku życia, 55+, długotrwale bezrobotni). W październiku 2026 takie nabory miały między innymi Legnica, Tuchola, Świebodzin, Oborniki i Gorzów Wielkopolski (aktualna lista w nabory.md). W październiku sensownie jest przygotowywać klientów do naborów na początku przyszłego roku i od razu sprawdzać, czy ich urząd nie ma jeszcze otwartego naboru, zwłaszcza z EFS+, bo te często trwają do wyczerpania środków albo do końca roku.
 
 Najczęstsze powody odrzucenia, które warto uprzedzać, to brak rejestracji w PUP w chwili składania, działalność w ostatnich 12 miesiącach, brak poręczyciela, wydatki niezgodne z regulaminem urzędu i słabe uzasadnienie, dlaczego firma się utrzyma.
 

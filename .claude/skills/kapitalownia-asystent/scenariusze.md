@@ -114,6 +114,24 @@ Uczciwie i z jednym krokiem, który coś otwiera.
 
 > Dzień dobry. W tej chwili nie widać drogi do bezzwrotnych pieniędzy, bo [konkretny powód]. Otworzy ją [konkretny krok, np. zakończenie zlecenia i rejestracja w urzędzie albo nabór LGD w terminie X]. Gdy tak się stanie, przygotujemy wniosek od razu.
 
+### B15. Orzeczenie, ale praca na etacie (klient chce PFRON bez odchodzenia z pracy)
+
+Środki PFRON na start wymagają, żeby osoba nie pozostawała w zatrudnieniu (art. 11 ust. 1 i art. 12a ustawy o rehabilitacji). Rejestracja jako poszukujący pracy przy etacie nie wystarczy. Mówisz to wprost z podstawą prawną i dajesz dwie drogi. Kwoty liczysz od aktualnego przeciętnego wynagrodzenia.
+
+> Przy pracy na etacie to niestety nie przejdzie. Środki PFRON na start przysługują osobie zarejestrowanej w urzędzie jako bezrobotna albo poszukująca pracy, ale niepozostającej w zatrudnieniu, więc sama rejestracja jako poszukujący przy umowie o pracę nie wystarczy. Realnie są dwie drogi. Pierwsza to zakończenie pracy, rejestracja w urzędzie i wniosek o PFRON, przy zobowiązaniu do prowadzenia firmy przez 2 lata nawet do 15-krotności przeciętnego wynagrodzenia. Druga, bez rezygnacji z etatu, to pożyczka Wsparcie w starcie przy zarobkach do przeciętnego wynagrodzenia, oprocentowana 0,25% rocznie, z rokiem bez spłaty. [Zdanie o LGD według researchu.] My zajmujemy się przygotowaniem całego wniosku przy każdej z tych dróg. Jaka ma być działalność?
+
+### B16. Kilka osób chce działać razem (rodzeństwo, wspólnicy, spółka cywilna)
+
+Dotacje z PUP, PFRON i premie LGD dostaje osoba fizyczna, więc wniosek składa każdy osobno. Pożyczkę Wsparcie w starcie też bierze każdy jako osoba zakładająca działalność. Czy wspólna spółka cywilna jest dopuszczalna, zależy od regulaminu urzędu, LGD albo pośrednika, i ustalasz to przed wyborem formy firmy (notatka dla właściciela, jeśli nie da się tego sprawdzić od razu). Przy grupie bezrobotnych rozważasz też spółdzielnię socjalną (do 6-krotności przeciętnego wynagrodzenia na każdego założyciela).
+
+### B17. Funkcjonariusz, żołnierz, inna służba mundurowa
+
+Etat wyklucza PUP, ale zarobki często mieszczą się w progu pożyczki Wsparcie w starcie. Na dodatkową działalność potrzebna jest zgoda przełożonego, o czym wspominasz raz, jeśli klient sam jej nie potwierdził. Przy kosztownym sprzęcie (maszyny, auta) pożyczka zwykle daje więcej niż premia.
+
+### B18. Klient chce od razu zarejestrować firmę
+
+Zanim zarejestruje, sprawdzasz, czy nie zamyka sobie lepszej ścieżki. Rejestracja wyklucza dotację z PUP na 12 miesięcy i premię LGD na start na co najmniej rok. Jeśli w jego urzędzie albo LGD jest nabór w najbliższych miesiącach, mówisz o tym przed rejestracją.
+
 ## C. Cena i obiekcje
 
 ### C1. Pytanie o cenę po przedstawieniu rozwiązania
