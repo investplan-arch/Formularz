@@ -28,6 +28,18 @@ Klient słyszy tylko stany 1–3. Stan 4 trafia do notatki „Dla Ciebie” z ad
 
 ## Urząd pracy (Fundusz Pracy i EFS+)
 
+**Najszybciej przez skrypt.** Portal Zielona Linia publikuje ogłoszenia urzędów pracy z całej Polski, a skrypt `skrypty/nabory_pup.py` pobiera je przez publiczne API. Uruchamiasz go, gdy masz dostęp do wykonywania kodu.
+
+```bash
+python3 skrypty/nabory_pup.py --urzad "Legnica"          # dotacje na start w jednym urzędzie
+python3 skrypty/nabory_pup.py --temat pfron --dni 60     # nabory PFRON w całej Polsce
+python3 skrypty/nabory_pup.py --temat kfs                # KFS
+python3 skrypty/nabory_pup.py --temat pracodawca         # refundacje, vouchery, prace interwencyjne
+python3 skrypty/nabory_pup.py --temat wszystko --dni 14  # wszystko z ostatnich 2 tygodni
+```
+
+Skrypt pokazuje tytuł, datę publikacji, terminy i kwoty znalezione w treści oraz link. Nie każdy urząd publikuje na portalu, więc brak wyniku nie znaczy, że naboru nie ma. Warunki zawsze potwierdzasz na stronie urzędu.
+
 Adres strony urzędu zwykle wygląda tak https://NAZWA.praca.gov.pl, gdzie NAZWA to miasto siedziby urzędu małymi literami bez polskich znaków (np. https://krapkowice.praca.gov.pl). Gdy nie działa, szukasz „powiatowy urząd pracy [miasto] praca.gov.pl”.
 
 Na stronie urzędu przeglądasz aktualności i ogłoszenia z ostatnich miesięcy. Szukasz dwóch rodzajów naborów, bo to osobne pule pieniędzy.
