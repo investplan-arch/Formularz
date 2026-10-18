@@ -1,50 +1,98 @@
-# Gdzie sprawdzać nabory
+# Gdzie i jak sprawdzać nabory
 
-Research robisz przed odpowiedzią, a nie po niej. Zaczynasz od źródła urzędowego, a artykuły doradców i portale traktujesz tylko jako drogę do niego. Dla każdego ustalenia zapisujesz adres i datę sprawdzenia, żeby podać je właścicielowi przy researchu.
+Research robisz przed odpowiedzią. Zaczynasz od źródła urzędowego (ogłoszenie, regulamin, harmonogram), a portale i artykuły doradców traktujesz tylko jako drogę do niego. Przy każdym ustaleniu zapamiętujesz adres i datę, żeby podać je przy researchu dla właściciela.
 
-## Kolejność dla osoby zakładającej firmę
+## Spis treści
+- Wynik researchu, czyli cztery stany naboru
+- Urząd pracy (Fundusz Pracy i EFS+)
+- Lokalna Grupa Działania
+- PFRON
+- Wsparcie w starcie (BGK)
+- Fundusze Europejskie
+- PARP i programy krajowe
+- ARiMR
+- Ekonomia społeczna (OWES, BGK)
+- Organizacje pozarządowe
+- Kwoty zależne od wynagrodzeń
+- Gdy strona się nie otwiera
 
-1. Urząd pracy jej powiatu (PUP), dotacja na start.
-2. LGD jej gminy, premia na start.
-3. Środki PFRON, gdy ma orzeczenie.
-4. Pożyczka Wsparcie w starcie, gdy jest w grupie docelowej.
+## Wynik researchu, czyli cztery stany naboru
 
-Dla istniejącej firmy kolejność to LGD na rozwój, PUP (refundacja wyposażenia stanowiska pracy), program samorządu województwa i regionalne fundusze pożyczkowe. Dla NGO to LGD, samorząd województwa, gmina i powiat oraz programy krajowe dla organizacji.
+Każdy sprawdzony nabór opisujesz jednym ze stanów.
+1. Otwarty do dnia X (albo do wyczerpania środków).
+2. Zapowiedziany na termin Y (harmonogram, komunikat).
+3. Zamknięty albo środki wyczerpane na ten rok.
+4. Brak informacji na stronach instytucji.
 
-## Powiatowy urząd pracy
+Klient słyszy tylko stany 1–3. Stan 4 trafia do notatki „Dla Ciebie” z adresem.
 
-Strony urzędów pracy mają wspólny układ pod adresem praca.gov.pl. Adres zwykle wygląda tak https://NAZWA.praca.gov.pl, gdzie NAZWA to miasto siedziby urzędu małymi literami, bez polskich znaków (np. https://krapkowice.praca.gov.pl, https://olkusz.praca.gov.pl). Gdy adres nie działa, szukasz w wyszukiwarce „powiatowy urząd pracy [miasto] praca.gov.pl”.
+## Urząd pracy (Fundusz Pracy i EFS+)
 
-Na stronie urzędu szukasz zakładek z aktualnościami, ogłoszeniami i naborami oraz wpisów ze słowami „nabór wniosków”, „środki na podjęcie działalności”, „jednorazowe środki”, „dotacja”. Sprawdzasz datę wpisu, termin składania, limit kwoty i regulamin.
+Adres strony urzędu zwykle wygląda tak https://NAZWA.praca.gov.pl, gdzie NAZWA to miasto siedziby urzędu małymi literami bez polskich znaków (np. https://krapkowice.praca.gov.pl). Gdy nie działa, szukasz „powiatowy urząd pracy [miasto] praca.gov.pl”.
 
-Gdy na stronie urzędu nic nie ma, sprawdzasz jeszcze te miejsca.
-- https://zielonalinia.gov.pl, gdzie urzędy publikują ogłoszenia naborów. W wyszukiwarce wpisujesz „zielonalinia.gov.pl PUP [miasto] nabór”.
-- BIP urzędu albo starostwa.
-- Profil urzędu na Facebooku, bo część urzędów ogłasza tam nabory szybciej.
+Na stronie urzędu przeglądasz aktualności i ogłoszenia z ostatnich miesięcy. Szukasz dwóch rodzajów naborów, bo to osobne pule pieniędzy.
+- **Fundusz Pracy** hasła „dofinansowanie podjęcia działalności”, „jednorazowe środki”, „nabór wniosków”.
+- **EFS+** hasła „EFS+”, „FE”, „projekt”, „Fundusze Europejskie dla…”, „aktywizacja osób”. Te nabory często trwają do wyczerpania środków albo do końca roku i mają grupy docelowe (np. wiek, długotrwałe bezrobocie).
 
-Wynik zapisujesz jako jeden z czterech stanów. Nabór otwarty do dnia X. Nabór zapowiedziany na termin Y. Nabory na ten rok zamknięte albo środki wyczerpane. Brak informacji na stronach urzędu.
+Z ogłoszenia zapisujesz termin, maksymalną kwotę, grupę docelową, formy zabezpieczenia i link do regulaminu.
+
+Zapasowo sprawdzasz https://zielonalinia.gov.pl (zapytanie „zielonalinia.gov.pl PUP [miasto] nabór”), BIP urzędu lub starostwa i profil urzędu na Facebooku.
 
 ## Lokalna Grupa Działania
 
-1. Ustal gminę klienta. Jeśli podał tylko miejscowość, ustal gminę i powiat.
-2. Znajdź LGD dla tej gminy. Wpisz w wyszukiwarce „LGD gmina [nazwa gminy]” albo „lokalna grupa działania [nazwa gminy] LSR 2023-2027”. Strona gminy często ma odnośnik do swojej LGD. Listy LGD z gminami publikują urzędy marszałkowskie, na przykład https://mazovia.pl/pl/wsparcie-unijne/wspolna-polityka-rolna-2023-2027/lokalne-grupy-dzialania.html dla Mazowsza i https://dprow.umww.pl/obszary-wiejskie/lokalne-grupy-dzialania/ dla Wielkopolski.
-3. Na stronie LGD szukasz zakładek „Harmonogram naborów”, „Nabory”, „Ogłoszenia o naborach”, „Konkursy”. Harmonogram mówi, kiedy planowany jest nabór, a ogłoszenie o naborze zawiera termin, kwotę premii i kryteria.
-4. Zapisujesz nazwę LGD, adres strony, termin najbliższego naboru na premię na start albo na rozwój i kwotę premii, jeśli jest podana.
+1. Ustal gminę (z miejscowości) i powiat.
+2. Znajdź LGD tej gminy. Zapytania „LGD gmina [nazwa]”, „lokalna grupa działania [nazwa gminy] LSR 2023-2027”. Strona gminy często linkuje swoją LGD. Listy LGD publikują urzędy marszałkowskie, np. https://mazovia.pl/pl/wsparcie-unijne/wspolna-polityka-rolna-2023-2027/lokalne-grupy-dzialania.html i https://dprow.umww.pl/obszary-wiejskie/lokalne-grupy-dzialania/
+3. Na stronie LGD otwierasz **harmonogram naborów** (zakładki „Harmonogram naborów”, „Nabory”, „Ogłoszenia o naborach”, „Konkursy”). Samo potwierdzenie, że gmina należy do LGD, nie wystarcza.
+4. Zapisujesz nazwę LGD, termin najbliższego naboru na podejmowanie działalności i na rozwój, kwotę premii, wymóg zameldowania i wkładu własnego, jeśli są w ogłoszeniu.
+5. Nabory LGD bywają też ogłaszane na stronie urzędu marszałkowskiego województwa (sekcja PS WPR, LEADER, RLKS).
 
-Gdy strona LGD się nie otwiera, próbujesz adresu z „www” i bez niego, wersji z http, profilu LGD na Facebooku oraz strony gminy z informacją o naborach. Gdy nadal nic nie wiadomo, klient dostaje informację, która jest pewna (nazwa LGD i to, że premie są w konkursach według harmonogramu), a właściciel dostaje w linii „Dla Ciebie” adres strony LGD do ręcznego sprawdzenia.
+## PFRON
 
-## PFRON na działalność
+Środki z art. 12a na działalność przyznaje PUP, więc szukasz ich na stronie urzędu pracy (hasła „PFRON”, „art. 12a”, „osoby niepełnosprawne”). Programy PFRON dla pracodawców i osób są na https://www.pfron.org.pl, a dofinansowanie wynagrodzeń obsługuje system SODiR.
 
-Nabór prowadzi powiatowy urząd pracy, więc sprawdzasz go na stronie PUP tak jak dotację, szukając słów „PFRON”, „art. 12a”, „środki na podjęcie działalności dla osób niepełnosprawnych”. Podstawa prawna to art. 12a ustawy o rehabilitacji https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971230776
+## Wsparcie w starcie (BGK)
 
-## Pożyczka Wsparcie w starcie
+Warunki ustawowe są w przepisy.md. Pośrednika w województwie klienta szukasz na stronie BGK https://www.bgk.pl/male-i-srednie-przedsiebiorstwa/inwestycje/finansowanie-ze-srodkow-krajowych/pozyczki-z-programu-pierwszy-biznes-wsparcie-w-starcie/ albo zapytaniem „Wsparcie w starcie pośrednik [województwo]”. U pośrednika sprawdzasz, czy pożyczka jest współfinansowana z UE (od tego zależy umorzenie) i czy przyjmuje wnioski.
 
-Opis programu i aktualne warunki są na stronie BGK https://www.bgk.pl/male-i-srednie-przedsiebiorstwa/inwestycje/finansowanie-ze-srodkow-krajowych/pozyczki-z-programu-pierwszy-biznes-wsparcie-w-starcie/ oraz gov.pl https://www.gov.pl/web/rodzina/wsparcie-w-starcie--krok-po-kroku-do-wlasnego-biznesu. Pośrednika dla województwa klienta szukasz na stronie BGK albo w wyszukiwarce „Wsparcie w starcie pośrednik [województwo]”. Oprocentowanie i warunki sprawdzasz przy każdej sprawie.
+## Fundusze Europejskie
 
-## Kwoty zależne od przeciętnego wynagrodzenia
+- Oficjalna wyszukiwarka dotacji https://www.funduszeeuropejskie.gov.pl/wyszukiwarka/ z filtrami typu wnioskodawcy, lokalizacji i rodzaju wsparcia (dotacje albo pożyczki i gwarancje). Pokazuje ogłoszone nabory.
+- Harmonogram naborów programu regionalnego danego województwa (strona FE województwa, np. funduszeue.slaskie.pl, funduszeue.lubelskie.pl, funduszeue.opolskie.pl).
+- Pożyczki dla firm prowadzą regionalne fundusze pożyczkowe i pośrednicy BGK. Szukasz „pożyczka unijna [województwo] fundusz pożyczkowy”.
+- Bezpłatne Punkty Informacyjne Funduszy Europejskich w każdym województwie.
 
-Limity „do 6-krotności” i „do 20-krotności” liczysz od aktualnego przeciętnego wynagrodzenia ogłaszanego przez GUS. Gdy podajesz kwotę w złotych, bierzesz ją z ogłoszenia urzędu albo przeliczasz z aktualnej wartości GUS i piszesz, z którego okresu jest.
+## PARP i programy krajowe
 
-## Gdy narzędzia zawodzą
+- https://www.parp.gov.pl (aktualne nabory i harmonogram) oraz harmonogram FENG na stronie programu Fundusze Europejskie dla Nowoczesnej Gospodarki.
+- Programy dla startupów idą zwykle przez akceleratory i inkubatory (np. Startup Booster, Platformy startowe).
 
-Jeśli pobieranie strony nie działa, a w rozmowie jest dostępna przeglądarka (na przykład Claude in Chrome), otwierasz stronę w przeglądarce. Jeśli żadna droga nie działa, nie zatrzymujesz sprzedaży. Klient dostaje rozwiązanie oparte na pewnych faktach i następny krok, a właściciel dostaje w linii „Dla Ciebie” dokładny adres do sprawdzenia.
+## ARiMR
+
+Harmonogram naborów w ramach Planu Strategicznego WPR jest na https://www.gov.pl/arimr (plik harmonogramu z orientacyjnymi terminami). Wnioski składa się przez Platformę Usług Elektronicznych ARiMR. Kredyty z dopłatą i gwarancją dla rolników prowadzą banki współpracujące z BGK.
+
+## Ekonomia społeczna (OWES, BGK)
+
+- OWES w województwie klienta. Zapytanie „OWES [województwo] dotacje miejsca pracy nabór”.
+- Pożyczki dla podmiotów ekonomii społecznej na stronie BGK i u pośredników. Zapytanie „BGK pożyczka podmioty ekonomii społecznej [rok]”.
+
+## Organizacje pozarządowe
+
+- NIW-CRSO https://niw.gov.pl (NOWEFIO, PROO, Korpus Solidarności, Fundusz Młodzieżowy).
+- Otwarte konkursy ofert w BIP gminy, powiatu i województwa.
+- Serwis ngo.pl, sekcja konkursów i dotacji, jako przegląd. Warunki zawsze z ogłoszenia.
+- LGD (granty dla organizacji) i wyszukiwarka FE z filtrem organizacji.
+
+## Kwoty zależne od wynagrodzeń
+
+Limity „do 6-krotności”, „do 20-krotności” liczysz od przeciętnego wynagrodzenia ogłaszanego przez GUS, obowiązującego w dniu zawarcia umowy. Limity zależne od minimalnego wynagrodzenia liczysz od kwoty obowiązującej w danym roku. Gdy podajesz złotówki, bierzesz je z ogłoszenia urzędu albo przeliczasz z aktualnego komunikatu GUS i mówisz, że to orientacyjnie.
+
+## Gdy strona się nie otwiera
+
+Próbujesz po kolei.
+1. Adres z „www” i bez, z https i http.
+2. Wyszukiwarka z nazwą instytucji i słowem „nabór”, „harmonogram”, „ogłoszenie”.
+3. BIP instytucji, zielonalinia.gov.pl, strona gminy lub urzędu marszałkowskiego.
+4. Profil instytucji na Facebooku.
+5. Przeglądarka (np. Claude in Chrome), jeśli jest dostępna w rozmowie.
+
+Jeśli nic nie działa, nie zatrzymujesz sprzedaży. Klient dostaje to, co pewne, i następny krok, a właściciel jedną krótką notatkę z adresem do sprawdzenia.
