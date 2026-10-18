@@ -1,13 +1,24 @@
 {
   "enabledMcpjsonServers": ["meta-inbox"],
   "permissions": {
-    "ask": [
+    "allow": [
+      "mcp__meta-inbox__check_access",
+      "mcp__meta-inbox__list_conversations",
+      "mcp__meta-inbox__get_conversation",
+      "mcp__meta-inbox__list_messages",
+      "mcp__meta-inbox__get_message",
+      "mcp__meta-inbox__list_posts",
+      "mcp__meta-inbox__list_comments",
+      "mcp__meta-inbox__get_comment",
       "mcp__meta-inbox__send_message",
+      "mcp__meta-inbox__send_sender_action",
       "mcp__meta-inbox__private_reply",
       "mcp__meta-inbox__reply_to_comment",
       "mcp__meta-inbox__create_comment",
       "mcp__meta-inbox__update_comment",
-      "mcp__meta-inbox__hide_comment"
+      "mcp__meta-inbox__hide_comment",
+      "WebSearch",
+      "WebFetch"
     ],
     "deny": [
       "mcp__meta-inbox__delete_comment"
