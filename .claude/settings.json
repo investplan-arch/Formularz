@@ -1,0 +1,16 @@
+{
+  "enabledMcpjsonServers": ["meta-inbox"],
+  "permissions": {
+    "ask": [
+      "mcp__meta-inbox__send_message",
+      "mcp__meta-inbox__private_reply",
+      "mcp__meta-inbox__reply_to_comment",
+      "mcp__meta-inbox__create_comment",
+      "mcp__meta-inbox__update_comment",
+      "mcp__meta-inbox__hide_comment"
+    ],
+    "deny": [
+      "mcp__meta-inbox__delete_comment"
+    ]
+  }
+}

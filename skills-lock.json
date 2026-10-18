@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "humanizer-pl": {
+      "source": "matematicsolutions/awesome-matematic-skills-pl",
+      "sourceType": "github",
+      "skillPath": "jakosc-tresci/skills/humanizer-pl/SKILL.md",
+      "computedHash": "b97c95e02d33fa63b6986bcd941a83d0a093e117b40790c02a167b8a0fdb7fc4"
+    },
     "impeccable": {
       "source": "pbakaus/impeccable",
       "sourceType": "github",

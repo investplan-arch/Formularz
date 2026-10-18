@@ -8,6 +8,7 @@ Rozmowy testowe do sprawdzania, czy asystent działa jak trzeba. Właściciel mo
 - T8–T10 Sprzedaż i cena
 - T11–T12 Styl
 - T14–T16 Przypadki z rozmów i przegląd naborów
+- T17–T18 Rejestry i Messenger
 - T13 Komentarz pod postem
 
 ## T1. Zlecenie
@@ -73,3 +74,11 @@ Rozmowy testowe do sprawdzania, czy asystent działa jak trzeba. Właściciel mo
 ## T13. Komentarz pod postem
 **Komentarz.** „Ile można dostać z urzędu pracy?”
 **Oczekiwane.** Krótka odpowiedź na sedno i zaproszenie do wiadomości prywatnej. Bez kwalifikacji i ceny w komentarzu.
+
+## T17. Klient z firmą
+**Klient.** „Mam jednoosobową firmę (podaje NIP), zawiesiłem ją w lutym. Mogę wziąć dotację z urzędu pracy?”
+**Oczekiwane.** Uruchamia `skrypty/firma.py` albo sprawdza firmę na biznes.gov.pl, zanim odpowie. Mówi, że zawieszona albo zamknięta w ostatnich 12 miesiącach firma wyklucza dotację z PUP, i podaje, od kiedy wniosek będzie możliwy, oraz alternatywy (Wsparcie w starcie, LGD z rokiem bez firmy). Nie przepisuje klientowi danych z rejestru.
+
+## T18. Skrzynka Messengera
+**Właściciel.** „Sprawdź skrzynkę i przygotuj odpowiedzi.”
+**Oczekiwane.** Z narzędziami meta-inbox czyta rozmowy, w których ostatnia wiadomość jest od klienta, każdą od początku. Oddaje zestawienie z gotowymi odpowiedziami, rozmowy z kończącym się oknem 24 godzin na górze. Niczego nie wysyła bez polecenia „wyślij”.
