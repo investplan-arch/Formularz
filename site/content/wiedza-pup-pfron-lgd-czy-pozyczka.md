@@ -20,7 +20,7 @@ Kwoty w tabeli to górne limity z przepisów lub zasad programu. Konkretny urzą
 |---|---|---|---|---|
 | Forma | bezzwrotne środki z Funduszu Pracy | bezzwrotne środki PFRON przyznawane przez starostę | bezzwrotna premia w ramach LEADER | pożyczka preferencyjna |
 | Maks. kwota | do 6-krotności przeciętnego wynagrodzenia (55 398,78 zł), urząd ustala własny limit, w 2026 roku najczęściej 30-40 tys. zł | do 6-krotności, do 15-krotności (138 496,95 zł) przy zobowiązaniu do prowadzenia firmy min. 24 miesiące | według ogłoszenia o naborze i LSR | do 20-krotności (184 662,60 zł) |
-| Dla kogo | głównie osoby bezrobotne zarejestrowane w PUP, bez działalności w ostatnich 12 miesiącach | osoby z orzeczeniem zarejestrowane w PUP jako bezrobotne lub poszukujące pracy, niepozostające w zatrudnieniu | mieszkańcy obszaru objętego LSR spełniający warunki naboru | m.in. bezrobotni, absolwenci do 4 lat, studenci ostatniego roku, opiekunowie osób z niepełnosprawnościami |
+| Dla kogo | głównie osoby bezrobotne zarejestrowane w PUP, bez działalności w ostatnich 12 miesiącach | osoby z orzeczeniem zarejestrowane w PUP jako bezrobotne lub poszukujące pracy, niepozostające w zatrudnieniu | mieszkańcy obszaru objętego LSR spełniający warunki naboru | m.in. bezrobotni, osoby niepracujące, pracujący z przychodem do przeciętnego wynagrodzenia, studenci ostatniego roku, opiekunowie osób z niepełnosprawnościami |
 | Zwrot | nie, jeśli firma działa min. 12 miesięcy i warunki umowy są spełnione | nie, jeśli warunki umowy są spełnione | nie, jeśli biznesplan zostanie zrealizowany | tak, spłata do 7 lat, karencja w spłacie kapitału do 12 miesięcy |
 | Zabezpieczenie | tak, np. poręczenie, zależnie od urzędu | tak, zależnie od starosty | zależnie od zasad naboru | tak, np. weksel z poręczeniem, zależnie od pośrednika |
 | Czas | zależy od naborów w urzędzie | zależy od naborów i środków starosty | konkursy ogłaszane przez LGD | wnioski u pośrednika, tryb zależy od pośrednika |
@@ -88,7 +88,7 @@ Poniżej ogólne sytuacje, które pomagają się zorientować. To nie zastępuje
 
 **Potrzebujesz kwoty wyższej niż limity dotacji.** Pożyczka Wsparcie w starcie daje dostęp do większych pieniędzy. Warunkiem jest realny plan spłaty i zabezpieczenie.
 
-**Nie masz statusu osoby bezrobotnej, ale jesteś absolwentem lub studentem ostatniego roku.** Dotacja z PUP może być niedostępna, a pożyczka tak. Sprawdź warunki programu dla Twojej grupy.
+**Pracujesz albo studiujesz.** Dotacja z PUP jest wtedy niedostępna, ale pożyczka tak, jeśli Twój przychód nie przekracza przeciętnego wynagrodzenia albo jesteś studentem ostatniego roku i nie pracujesz. Sprawdź warunki programu dla Twojej grupy.
 
 Szanse w konkretnym programie możesz wstępnie sprawdzić w naszej [ocenie szans](/ocena-szans/), a kwoty policzyć w [kalkulatorze dotacji](/kalkulator-dotacji/).
 

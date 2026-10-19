@@ -481,3 +481,4 @@ mark { background: var(--tag-yellow-bg); color: var(--tag-yellow); padding: 0 .2
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 @media print { .site-header, .cta-band, .site-footer, .preview-bar { display: none; } body { background: #fff; } }
+.quiz__summary { margin: 0 0 18px; font: 500 1.35rem/1.35 var(--serif); color: var(--ink); }

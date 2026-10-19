@@ -28,9 +28,13 @@ To pożyczka, a nie dotacja. Pieniądze trzeba oddać, ale na warunkach łagodni
 O pożyczkę mogą ubiegać się między innymi osoby, które dopiero planują firmę i należą do jednej z grup wskazanych w programie.
 
 - **Osoby bezrobotne** zarejestrowane w urzędzie pracy.
-- **Absolwenci** do 4 lat od ukończenia nauki.
-- **Studenci ostatniego roku** studiów.
-- **Opiekunowie osób z niepełnosprawnościami**, którzy chcą pogodzić opiekę z pracą na własny rachunek.
+- **Osoby, które nie pracują**, także bez rejestracji w urzędzie.
+- **Osoby pracujące**, których średni miesięczny przychód z ostatnich 3 miesięcy nie przekracza przeciętnego wynagrodzenia. Mogą dostać pożyczkę bez rezygnacji z pracy, ale bez umorzenia.
+- **Studenci ostatniego roku** studiów, którzy nie pracują.
+- **Opiekunowie osób z niepełnosprawnościami**, którzy nie pracują.
+- **Osoby powracające z zagranicy.**
+
+Grupy uprawnionych wymienia art. 172 ustawy o rynku pracy i służbach zatrudnienia. Pośrednicy wymagają też, żeby w ostatnich 12 miesiącach nie prowadzić firmy, także zawieszonej.
 
 Pełną listę uprawnionych grup i aktualne warunki podaje BGK. Sprawdzamy je przed każdym zgłoszeniem, bo od statusu zależy, czy w ogóle możesz złożyć wniosek.
 :::
