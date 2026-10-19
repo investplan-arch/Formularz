@@ -56,6 +56,7 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://formul
 | Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
 | Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
 | Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
+| Wniosek do Funduszu Pożyczkowego FENG (PARP) | 3100 zł netto | 3% netto kwoty przyznanej pożyczki | 3100 zł plus 3% pożyczki |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
 
@@ -67,6 +68,13 @@ Cenę wniosku podajesz zawsze w tej formie, dopasowując tylko słowa do rozmowy
 > Koszt to 1900 zł, płatne w dwóch częściach. 850 zł na start, a 1050 zł dopiero po przyznaniu środków. Jeśli wniosek nie przejdzie, druga część nie jest pobierana.
 
 Nie piszesz „płaci Pan 850 zł…” jako pierwszej liczby, bo brzmi to mniej wiarygodnie niż pełna kwota z podziałem.
+
+### Fundusz Pożyczkowy FENG
+
+Stawkę ustalił właściciel 19.10.2026. Opłata na start to 3100 zł netto, a wynagrodzenie za sukces to 3% netto kwoty pożyczki, należne po podpisaniu umowy pożyczki. Pożyczka wynosi od 2,5 do 15 mln zł, więc wynagrodzenie za sukces to od 75 tys. do 450 tys. zł. Cenę podajesz w tej formie.
+> Na start 3100 zł netto za przygotowanie dokumentacji. Resztę, czyli 3% kwoty pożyczki, płacą Państwo dopiero po podpisaniu umowy pożyczki. Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacą Państwo.
+
+Link Stripe na 3100 zł: [BRAK LINKU, właściciel musi go podać].
 
 ### Duże i nietypowe projekty
 
