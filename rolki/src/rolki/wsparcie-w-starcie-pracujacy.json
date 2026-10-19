@@ -1,0 +1,52 @@
+{
+  "id": "wsparcie-w-starcie-pracujacy",
+  "tytul": "Wsparcie w starcie dla osób pracujących",
+  "zrodla": "art. 172, 174 i 187 ustawy o rynku pracy i służbach zatrudnienia, przeciętne wynagrodzenie GUS za II kw. 2026 (9 233,13 zł)",
+  "sceny": [
+    {
+      "typ": "hak",
+      "sekundy": 3.5,
+      "nad": "Pracujesz na etacie?",
+      "kwota": 184000,
+      "przedrostek": "do ok.",
+      "pod": "na własną firmę",
+      "dopisek": "pożyczka Wsparcie w starcie"
+    },
+    {
+      "typ": "lista",
+      "sekundy": 4.5,
+      "tytul": "Warunki pożyczki",
+      "punkty": ["0,25% rocznie", "spłata do 7 lat", "rok bez spłaty kapitału"]
+    },
+    {
+      "typ": "fakt",
+      "sekundy": 5,
+      "tytul": "Kto dostanie przy etacie",
+      "duze": "ok. 9,2 tys. zł",
+      "pod": "maksymalny średni przychód brutto z ostatnich 3 miesięcy",
+      "dopisek": "czyli nie więcej niż przeciętne wynagrodzenie"
+    },
+    {
+      "typ": "uwaga",
+      "sekundy": 5,
+      "etykieta": "Pułapka",
+      "tytul": "Przy etacie bez umorzenia",
+      "tekst": "Umorzenie do ok. 55 tys. zł, maksymalnie połowa pożyczki, dostają tylko uprawnieni do dotacji z urzędu pracy, np. bezrobotni"
+    },
+    {
+      "typ": "fakt",
+      "sekundy": 4,
+      "tytul": "Nabory u pośredników",
+      "duze": "otwierają się falami",
+      "pod": "i szybko się zamykają",
+      "dopisek": "wniosek warto mieć gotowy wcześniej"
+    },
+    {
+      "typ": "cta",
+      "sekundy": 4,
+      "tytul": "Przygotujemy wniosek z biznesplanem",
+      "przycisk": "Napisz do nas na Messengerze",
+      "marka": "Kapitałownia"
+    }
+  ]
+}
