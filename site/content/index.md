@@ -7,7 +7,8 @@ hero:
   eyebrow: Dotacje, pożyczki, biznesplany
   title: Zdobądź pieniądze na start i rozwój działalności
   lead: Sprawdzamy, z którego programu możesz skorzystać, i przygotowujemy komplet dokumentów. Pomagamy osobom zakładającym firmę, przedsiębiorcom, rolnikom oraz fundacjom i stowarzyszeniom w całej Polsce.
-  cta: Sprawdź kwalifikację
+  cta: Sprawdź za darmo, ile możesz dostać
+  ctaHref: /ocena-szans/
   secondary: Porównaj programy
   secondaryHref: /#programy
 ---

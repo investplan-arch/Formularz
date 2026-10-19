@@ -17,13 +17,14 @@ Pożyczkę „Pierwszy biznes - Wsparcie w starcie” dostaniesz wtedy, gdy nale
 Program jest skierowany do osób, które dopiero zakładają firmę. Według informacji BGK i ministerstwa odpowiedzialnego za rynek pracy o pożyczkę mogą się ubiegać między innymi wymienione niżej osoby.
 
 - osoby bezrobotne zarejestrowane w urzędzie pracy,
-- absolwenci do 4 lat od ukończenia nauki,
-- studenci ostatniego roku studiów,
-- opiekunowie osób z niepełnosprawnościami, którzy nie pozostają w zatrudnieniu.
+- osoby, które nie pracują, także bez rejestracji w urzędzie,
+- osoby pracujące, których średni miesięczny przychód z ostatnich 3 miesięcy nie przekracza przeciętnego wynagrodzenia (bez prawa do umorzenia),
+- studenci ostatniego roku studiów, którzy nie pracują,
+- opiekunowie osób z niepełnosprawnościami, którzy nie pozostają w zatrudnieniu,
+- osoby powracające z zagranicy.
 
 Pełną i aktualną listę grup oraz dodatkowe warunki (na przykład dotyczące wcześniejszej działalności albo dochodów w okresie przed złożeniem wniosku) znajdziesz w regulaminie pośrednika i na stronie programu. Warto sprawdzić je na samym początku, bo status w dniu złożenia wniosku przesądza o tym, czy wniosek w ogóle zostanie rozpatrzony.
 
-<!-- TODO: sprawdź w aktualnym regulaminie pośrednika lub na wsparciewstarcie.bgk.pl, czy obowiązuje warunek dotyczący średnich miesięcznych przychodów z 3 miesięcy przed wnioskiem i dla których grup. Źródła wtórne podają go niejednoznacznie. -->
 
 ## Ile można pożyczyć i na jak długo
 
@@ -125,7 +126,7 @@ Dotacja z urzędu pracy jest bezzwrotna, ale jej kwota jest ograniczona do 6-kro
 Pożyczka bywa lepszym wyborem w kilku sytuacjach.
 
 - start wymaga większych nakładów, niż pokryje dotacja (sprzęt, wyposażenie lokalu, pojazd),
-- nie masz statusu osoby bezrobotnej, a należysz do innej grupy uprawnionej w programie, na przykład jako student ostatniego roku albo absolwent,
+- nie masz statusu osoby bezrobotnej, a należysz do innej grupy uprawnionej w programie, na przykład pracujesz i zarabiasz nie więcej niż przeciętne wynagrodzenie albo jesteś studentem ostatniego roku,
 - Twój urząd pracy nie ma otwartego naboru lub ma bardzo niski limit,
 - biznesplan pokazuje stabilne przychody, z których rata zmieści się w budżecie.
 

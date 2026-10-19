@@ -78,6 +78,7 @@
     var quizErr = document.getElementById('ocena-error');
     var wynik = document.getElementById('ocena-wynik');
     var lista = document.getElementById('ocena-lista');
+    var suma = document.getElementById('ocena-suma');
     var cta = document.getElementById('ocena-cta');
     var val = function (n) { var r = quiz.querySelector('input[name="' + n + '"]:checked'); return r ? r.value : ''; };
     var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
@@ -95,25 +96,41 @@
       }
       quizErr.hidden = true;
       var s = val('status'), firma = val('firma') === 'tak', orz = val('orzeczenie') === 'tak', opiekun = val('opiekun') === 'tak', srodki = val('srodki'), miejsce = val('miejsce');
-      var bezrob = s === 'bezrobotny', poszuk = s === 'poszukujacy';
+      var bezrob = s === 'bezrobotny', poszuk = s === 'poszukujacy', niepracuje = s === 'niepracuje', nisko = s === 'pracuje-nisko', pracuje = s === 'pracuje' || nisko;
       var out = [];
-      // Dotacja z urzędu pracy
+      // Dotacja z urzędu pracy (art. 147 i 148 ustawy o rynku pracy)
       if (firma) out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Warunkiem jest brak firmy, także zawieszonej, w ostatnich 12 miesiącach.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
-      else if (bezrob) out.push({ o: 'tak', p: 'Dotacja z urzędu pracy', t: 'Status osoby bezrobotnej to podstawowy warunek. Limit ustawowy to do ' + kwoty.pup + ', a urząd ustala własny.' + (srodki === 'tak' ? ' Sprawdzimy, czy wcześniejsze środki nie wykluczają Cię w Twoim urzędzie.' : ''), l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
-      else if (poszuk || opiekun) out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Ustawa obejmuje też niektóre osoby spoza grupy bezrobotnych, na przykład opiekunów osób z niepełnosprawnościami. Trzeba to sprawdzić w Twoim urzędzie.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
-      else out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Najczęściej trzeba mieć status osoby bezrobotnej w urzędzie pracy. Jeśli stracisz pracę i się zarejestrujesz, ta ścieżka się otworzy.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
-      // PFRON
+      else if (srodki === 'tak') out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Dotacji nie dostanie osoba, która wcześniej otrzymała bezzwrotne środki publiczne na założenie firmy.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else if (bezrob) out.push({ o: 'tak', p: 'Dotacja z urzędu pracy', t: 'Status osoby bezrobotnej to podstawowy warunek. Limit ustawowy to do ' + kwoty.pup + ', a urząd ustala własny, w 2026 roku zwykle od 30 do 50 tys. zł.', l: '/dotacja-z-urzedu-pracy/', u: 'pup', n: kwoty.n_pup, g: kwoty.n_pup });
+      else if (opiekun && !pracuje) out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Opiekun osoby z niepełnosprawnością, który nie pracuje i jest zarejestrowany jako poszukujący pracy, też może dostać dotację.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else if (poszuk || niepracuje) out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Wystarczy zarejestrować się w urzędzie pracy jako osoba bezrobotna. Wtedy ta ścieżka się otwiera.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else if (pracuje) out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Każda umowa o pracę i każde zlecenie, nawet na część etatu, wyklucza status osoby bezrobotnej. Jest za to pożyczka Wsparcie w starcie.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      else out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Najczęściej trzeba mieć status osoby bezrobotnej w urzędzie pracy. Sprawdzimy Twoją sytuację.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
+      // PFRON (art. 12a ustawy o rehabilitacji)
       if (orz) {
         if (srodki === 'tak') out.push({ o: 'nie', p: 'Środki PFRON na działalność', t: 'Środków PFRON nie można dostać, jeśli wcześniej otrzymano bezzwrotne środki publiczne na ten cel.', l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
-        else if ((bezrob || poszuk) && !firma) out.push({ o: srodki === 'niewiem' ? 'moze' : 'tak', p: 'Środki PFRON na działalność', t: 'Dla osób z orzeczeniem, zarejestrowanych w urzędzie pracy. Do ' + kwoty.pfron + ' albo do ' + kwoty.pfron24 + ' przy zobowiązaniu na 24 miesiące.' + (srodki === 'niewiem' ? ' Sprawdzimy, czy nie przyznano Ci wcześniej podobnych środków.' : ''), l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
+        else if (pracuje) out.push({ o: 'nie', p: 'Środki PFRON na działalność', t: 'Środki PFRON na start wymagają, żeby nie pozostawać w zatrudnieniu. Po odejściu z pracy i rejestracji w urzędzie ta ścieżka się otwiera.', l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
+        else if ((bezrob || poszuk) && !firma) out.push({ o: srodki === 'niewiem' ? 'moze' : 'tak', p: 'Środki PFRON na działalność', t: 'Dla osób z orzeczeniem, zarejestrowanych w urzędzie pracy. Do ' + kwoty.pfron + ' albo do ' + kwoty.pfron24 + ' przy zobowiązaniu na 24 miesiące.' + (srodki === 'niewiem' ? ' Sprawdzimy, czy nie przyznano Ci wcześniej podobnych środków.' : ''), l: '/finansowanie-na-start/#program-pfron', u: 'pfron', n: srodki === 'niewiem' ? 0 : kwoty.n_pfron24, g: srodki === 'niewiem' ? 0 : kwoty.n_pfron24 });
         else out.push({ o: 'moze', p: 'Środki PFRON na działalność', t: 'Potrzebna jest rejestracja w urzędzie pracy jako osoba bezrobotna albo poszukująca pracy, która nie pracuje.', l: '/finansowanie-na-start/#program-pfron', u: 'pfron' });
       }
-      // Wsparcie w starcie
-      if (bezrob || s === 'student' || s === 'absolwent' || opiekun) out.push({ o: 'tak', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Należysz do jednej z grup, do których program jest skierowany. Pożyczka do ' + kwoty.wws + ', spłata do 7 lat.', l: '/wsparcie-w-starcie/', u: 'wws' });
-      else out.push({ o: 'moze', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Program obejmuje kilka grup osób. Sprawdzimy aktualną listę w BGK dla Twojej sytuacji.', l: '/wsparcie-w-starcie/', u: 'wws' });
+      // Wsparcie w starcie (art. 172 i 187 ustawy o rynku pracy)
+      var umorzenie = ' Po roku prowadzenia firmy można umorzyć do ' + kwoty.umorzenie + ', ale nie więcej niż połowę pożyczki.';
+      if (firma) out.push({ o: 'nie', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Pożyczkę dostaje osoba, która przez ostatnie 12 miesięcy nie prowadziła firmy, także zawieszonej.', l: '/wsparcie-w-starcie/', u: 'wws' });
+      else if (bezrob) out.push({ o: 'tak', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Do ' + kwoty.wws + ', oprocentowanie 0,25% rocznie, spłata do 7 lat i rok przerwy w spłacie kapitału.' + (srodki === 'tak' ? '' : umorzenie + ' Umorzenie wyklucza późniejszą dotację z urzędu pracy, więc trzeba wybrać jedną z tych dróg.'), l: '/wsparcie-w-starcie/', u: 'wws', n: kwoty.n_wws, g: srodki === 'tak' ? 0 : Math.floor(kwoty.n_pup) });
+      else if (poszuk || niepracuje || s === 'student' || opiekun && !pracuje) out.push({ o: 'tak', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Pożyczka dla osób, które nie pracują. Do ' + kwoty.wws + ', oprocentowanie 0,25% rocznie, spłata do 7 lat i rok przerwy w spłacie kapitału.' + (srodki === 'tak' ? '' : ' Umorzenie części pożyczki jest możliwe po rejestracji w urzędzie pracy jako osoba bezrobotna przed złożeniem wniosku.'), l: '/wsparcie-w-starcie/', u: 'wws', n: kwoty.n_wws });
+      else if (nisko) out.push({ o: 'tak', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Pożyczka jest też dla osób pracujących, których średni miesięczny przychód z ostatnich 3 miesięcy nie przekracza przeciętnego wynagrodzenia. Do ' + kwoty.wws + ', 0,25% rocznie, spłata do 7 lat, bez rezygnacji z pracy. W tym wariancie nie ma umorzenia.', l: '/wsparcie-w-starcie/', u: 'wws', n: kwoty.n_wws });
+      else if (s === 'pracuje') out.push({ o: 'nie', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Przy przychodzie wyższym od przeciętnego wynagrodzenia pracujący nie dostaną tej pożyczki. Zostają pożyczki dla firm i premia z LGD.', l: '/wsparcie-w-starcie/', u: 'wws' });
+      else out.push({ o: 'moze', p: 'Pożyczka BGK Wsparcie w starcie', t: 'Program obejmuje kilka grup osób. Sprawdzimy, czy należysz do jednej z nich.', l: '/wsparcie-w-starcie/', u: 'wws' });
       // LGD
       if (miejsce === 'miasto') out.push({ o: 'nie', p: 'Premia z Lokalnej Grupy Działania', t: 'LGD działają głównie na obszarach wiejskich i w mniejszych miejscowościach.', l: '/finansowanie-na-start/#program-lgd', u: 'lgd' });
-      else out.push({ o: 'moze', p: 'Premia z Lokalnej Grupy Działania', t: 'Sprawdzimy, czy Twoja gmina należy do LGD i kiedy jest najbliższy nabór. Kwotę określa ogłoszenie.', l: '/finansowanie-na-start/#program-lgd', u: 'lgd' });
+      else if (firma) out.push({ o: 'nie', p: 'Premia z Lokalnej Grupy Działania', t: 'Premię na start dostaje osoba, która w ostatnim roku nie prowadziła firmy.', l: '/finansowanie-na-start/#program-lgd', u: 'lgd' });
+      else out.push({ o: 'moze', p: 'Premia z Lokalnej Grupy Działania', t: 'Bezzwrotna premia, dostępna również dla osób pracujących. Sprawdzimy, czy Twoja gmina należy do LGD i kiedy jest najbliższy nabór. Kwotę określa ogłoszenie.', l: '/finansowanie-na-start/#program-lgd', u: 'lgd' });
+      var maks = out.reduce(function (m, r) { return r.o === 'tak' && r.n > m ? r.n : m; }, 0);
+      var bezzwrotnie = out.reduce(function (m, r) { return r.o === 'tak' && r.g > m ? r.g : m; }, 0);
+      var zl = function (n) { return n.toLocaleString('pl-PL') + ' zł'; };
+      suma.textContent = !maks ? 'Na dziś żaden program nie pasuje wprost, ale poniżej piszemy, co zmienić, żeby się zakwalifikować.'
+        : bezzwrotnie && bezzwrotnie < maks ? 'Możesz ubiegać się nawet o ' + zl(maks) + ', z czego do ' + zl(bezzwrotnie) + ' bez zwrotu. Szczegóły poniżej.'
+        : 'Możesz ubiegać się nawet o ' + zl(maks) + (bezzwrotnie ? ' bez zwrotu' : '') + '. Szczegóły poniżej.';
       var label = { tak: 'Pasuje wstępnie', moze: 'Do sprawdzenia', nie: 'Raczej nie teraz' };
       var order = { tak: 0, moze: 1, nie: 2 };
       out.sort(function (a, b) { return order[a.o] - order[b.o]; });

@@ -5,7 +5,7 @@ path: /ocena-szans/
 hero:
   eyebrow: Bezpłatna ocena szans
   title: Czy dostaniesz pieniądze na firmę?
-  lead: Odpowiedz na sześć krótkich pytań. Pokażemy, które programy na start pasują do Twojej sytuacji, a które raczej nie, i dlaczego.
+  lead: Odpowiedz na sześć krótkich pytań. Pokażemy, ile możesz dostać, które programy na start pasują do Twojej sytuacji, a które raczej nie, i dlaczego.
 ---
 
 ::: ocena
