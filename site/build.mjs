@@ -168,6 +168,42 @@ const limity = [
   { id: 'wws', nazwa: 'Pożyczka BGK Wsparcie w starcie', x: 20, typ: 'Pożyczka', link: '/wsparcie-w-starcie/', uwaga: 'Pożyczkę trzeba spłacić, w czasie do 7 lat. Pośrednik ocenia zdolność do spłaty.' }
 ];
 const dataGus = new Intl.DateTimeFormat('pl-PL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(wyn.komunikat));
+
+// Pierwszy ekran strony głównej: co robimy, ile można dostać, ile to kosztuje i dlaczego warto zaufać
+const heroLimity = [
+  { nazwa: 'Dotacja z urzędu pracy', x: 6, link: '/dotacja-z-urzedu-pracy/', opis: 'bezzwrotnie, urzędy dają zwykle od 30 do 40 tys. zł' },
+  { nazwa: 'Środki PFRON', x: 15, link: '/finansowanie-na-start/#program-pfron', opis: 'bezzwrotnie, dla osób z orzeczeniem o niepełnosprawności' },
+  { nazwa: 'Pożyczka Wsparcie w starcie', x: 20, link: '/wsparcie-w-starcie/', opis: '0,25% rocznie, także dla pracujących z zarobkami do średniej krajowej' }
+];
+function homeHeroHtml(hero) {
+  const start = uslugi.find(u => u.id === 'pup');
+  const price = start && typeof start.cena === 'number' && start.successFee
+    ? `<p class="hero__price"><strong>Wniosek z biznesplanem za ${pln(start.cena + start.successFee)}.</strong> Płacisz ${pln(start.cena)} na start, a ${pln(start.successFee)} dopiero po przyznaniu środków. Jeśli wniosek nie przejdzie, drugiej części nie płacisz.</p>`
+    : '';
+  const proof = [
+    opinie.length ? `<li><a href="#opinie"><span class="hero__stars" aria-hidden="true">${star.repeat(5)}</span>5 na 5 w opiniach klientów</a></li>` : '',
+    ...site.stats.filter(st => st.value != null).map(st => `<li>${esc(st.value)} ${esc(st.label)}</li>`),
+    firmaFooter ? `<li>firma w CEIDG, ${esc(firmaFooter)}</li>` : ''
+  ].filter(Boolean).join('');
+  const rows = heroLimity.map(l => `<li><a href="${l.link}"><span class="hero-panel__name">${esc(l.nazwa)}</span><span class="hero-panel__amount">do ${pln(Math.floor(l.x * wyn.kwota))}</span><span class="hero-panel__note">${esc(l.opis)}</span></a></li>`).join('');
+  const messenger = site.messenger ? `<a class="btn btn--ghost btn--large" href="${esc(site.messenger)}" rel="noopener">Napisz na Messengerze</a>` : '';
+  return `<section class="hero hero--home">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <h1>${esc(hero.title)}</h1>
+        ${hero.lead ? `<p class="lead">${esc(hero.lead)}</p>` : ''}
+        <p class="hero__actions"><a class="btn btn--primary btn--large" href="${hero.ctaHref || '/ocena-szans/'}">${esc(hero.cta || 'Bezpłatna ocena szans')}</a>${messenger}</p>
+        ${price}
+        ${proof ? `<ul class="hero__proof">${proof}</ul>` : ''}
+      </div>
+      <aside class="hero-panel" aria-labelledby="hero-panel-h">
+        <h2 class="hero-panel__title" id="hero-panel-h">Ile można dostać na start</h2>
+        <ul class="hero-panel__list">${rows}<li><a href="/finansowanie-na-start/#program-lgd"><span class="hero-panel__name">Premia z Lokalnej Grupy Działania</span><span class="hero-panel__amount hero-panel__amount--text">kwota z ogłoszenia LGD</span><span class="hero-panel__note">dla firm na obszarze działania LGD</span></a></li></ul>
+        <p class="hero-panel__foot">Górne limity z ustawy, liczone od przeciętnego wynagrodzenia z GUS za ${esc(wyn.okres)}. <a href="/kalkulator-dotacji/">Policz w kalkulatorze</a></p>
+      </aside>
+    </div>
+  </section>`;
+}
 function kalkulatorHtml() {
   const rows = limity.map(l => `<tr data-limit="${(l.x * wyn.kwota).toFixed(2)}">
       <th scope="row"><a href="${l.link}">${esc(l.nazwa)}</a> <span class="calc__type">${l.typ}</span></th>
@@ -310,23 +346,22 @@ function layout(page, bodyHtml, extraHead = '') {
   const nav = site.nav.map(n => `<li><a href="${n.href}"${path.startsWith(n.href) ? ' aria-current="page"' : ''}>${n.label}</a></li>`).join('');
   const hero = page.hero || {};
   const isHome = page.layout === 'home';
-  const heroHtml = `<section class="hero${isHome ? ' hero--home' : ''}">
+  const heroHtml = isHome ? homeHeroHtml(hero) : `<section class="hero">
     <div class="wrap">
       <div class="hero__text">
         <h1>${esc(hero.title || page.title)}</h1>
         ${hero.lead ? `<p class="lead">${esc(hero.lead)}</p>` : ''}
         ${hero.cta ? `<p class="hero__actions"><a class="btn btn--primary btn--large" href="${hero.ctaHref || '/kontakt/'}">${esc(hero.cta)}</a>${hero.secondary ? `<a class="btn btn--ghost btn--large" href="${hero.secondaryHref}">${esc(hero.secondary)}</a>` : ''}</p>` : ''}
       </div>
-      ${isHome ? statsHtml('hero') : ''}
     </div>
   </section>`;
   const ctaBand = ['contact', 'legal', 'shop'].includes(page.layout) || page.noindex ? '' : `<section class="cta-band">
     <div class="wrap cta-band__inner">
       <div>
         <h2>Sprawdźmy, jakie finansowanie pasuje do Ciebie</h2>
-        <p>Odpowiedz na kilka pytań. Odpiszemy ze wstępną oceną na podany adres e-mail.</p>
+        <p>Opisz krótko swoją sytuację. Odpiszemy ze wstępną oceną, zanim cokolwiek zamówisz.</p>
       </div>
-      <a class="btn btn--light btn--large" href="/kontakt/">Sprawdź kwalifikację</a>
+      <p class="cta-band__actions"><a class="btn btn--light btn--large" href="/kontakt/">Poproś o ocenę</a>${site.messenger ? `<a class="cta-band__link" href="${esc(site.messenger)}" rel="noopener">albo napisz na Messengerze</a>` : ''}</p>
     </div>
   </section>`;
   const crumbLd = !isHome && !page.noindex ? `<script type="application/ld+json">${JSON.stringify({
@@ -390,7 +425,7 @@ ${previewBar}
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu"><span class="nav-toggle__bar" aria-hidden="true"></span><span class="nav-toggle__label">Menu</span></button>
     <nav class="site-nav" id="menu" aria-label="Główne menu">
       <ul>${nav}</ul>
-      <a class="btn btn--primary btn--small" href="/kontakt/"${path === '/kontakt/' ? ' aria-current="page"' : ''}>Sprawdź kwalifikację</a>
+      <a class="btn btn--primary btn--small" href="/ocena-szans/"${path === '/ocena-szans/' ? ' aria-current="page"' : ''}>Bezpłatna ocena szans</a>
     </nav>
   </div>
 </header>
@@ -406,26 +441,40 @@ ${ctaBand}
       <p class="site-footer__text">Dotacje, pożyczki i dokumentacja dla osób zakładających firmę, przedsiębiorców, rolników i organizacji. Działamy w całej Polsce.</p>
       <p><a href="mailto:${site.email}">${site.email}</a></p>
       ${site.facebook ? `<p><a class="social" href="${esc(site.facebook)}" rel="me noopener">${fbIcon}<span>Kapitałownia na Facebooku</span></a></p>` : ''}
+      ${site.messenger ? `<p><a href="${esc(site.messenger)}" rel="noopener">Napisz na Messengerze</a></p>` : ''}
     </div>
-    <nav aria-label="Stopka">
-      <ul class="site-footer__links">
-        <li><a href="/oferta/">Oferta</a></li>
-        <li><a href="/finansowanie-na-start/">Finansowanie na start</a></li>
-        <li><a href="/dotacja-z-urzedu-pracy/">Dotacja z urzędu pracy</a></li>
-        <li><a href="/wsparcie-w-starcie/">Pożyczka BGK Wsparcie w starcie</a></li>
-        <li><a href="/dotacje-dla-osp/">Dotacje dla OSP</a></li>
-        <li><a href="/wiedza/">Wiedza i poradniki</a></li>
-        <li><a href="/kalkulator-dotacji/">Kalkulator dotacji</a></li>
-        <li><a href="/ocena-szans/">Ocena szans</a></li>
-        <li><a href="/rozwoj-firmy/">Rozwój firmy</a></li>
-        <li><a href="/fundacje-i-stowarzyszenia/">Fundacje i stowarzyszenia</a></li>
-        <li><a href="/zamow/">Cennik i zamówienie</a></li>
-        <li><a href="/wspolpraca/">Jak pracujemy</a></li>
-        <li><a href="/faq/">Częste pytania</a></li>
-        <li><a href="/kontakt/">Kontakt</a></li>
-        <li><a href="/regulamin/">Regulamin</a></li>
-        <li><a href="/polityka-prywatnosci/">Polityka prywatności</a></li>
-      </ul>
+    <nav aria-label="Stopka" class="site-footer__nav">
+      <div>
+        <p class="site-footer__head">Start firmy</p>
+        <ul class="site-footer__links">
+          <li><a href="/finansowanie-na-start/">Wszystkie programy na start</a></li>
+          <li><a href="/dotacja-z-urzedu-pracy/">Dotacja z urzędu pracy</a></li>
+          <li><a href="/wsparcie-w-starcie/">Pożyczka Wsparcie w starcie</a></li>
+          <li><a href="/ocena-szans/">Ocena szans</a></li>
+          <li><a href="/kalkulator-dotacji/">Kalkulator dotacji</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="site-footer__head">Firmy i organizacje</p>
+        <ul class="site-footer__links">
+          <li><a href="/rozwoj-firmy/">Rozwój firmy</a></li>
+          <li><a href="/oferta/#rolnicy">Rolnicy</a></li>
+          <li><a href="/fundacje-i-stowarzyszenia/">Fundacje i stowarzyszenia</a></li>
+          <li><a href="/dotacje-dla-osp/">Dotacje dla OSP</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="site-footer__head">Współpraca</p>
+        <ul class="site-footer__links">
+          <li><a href="/zamow/">Cennik i zamówienie</a></li>
+          <li><a href="/wspolpraca/">Jak pracujemy</a></li>
+          <li><a href="/faq/">Częste pytania</a></li>
+          <li><a href="/wiedza/">Poradniki</a></li>
+          <li><a href="/kontakt/">Kontakt</a></li>
+          <li><a href="/regulamin/">Regulamin</a></li>
+          <li><a href="/polityka-prywatnosci/">Polityka prywatności</a></li>
+        </ul>
+      </div>
     </nav>
   </div>
   <div class="wrap site-footer__bottom"><p>© ${new Date().getFullYear()} Kapitałownia${firmaFooter ? `, ${firmaFooter}` : ''}</p></div>

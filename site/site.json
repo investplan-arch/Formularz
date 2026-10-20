@@ -4,6 +4,7 @@
   "email": "kontakt@kapitalownia.pl",
   "lang": "pl",
   "facebook": "https://www.facebook.com/kapitalownia",
+  "messenger": "https://m.me/1235937636280516",
   "nav": [
     {
       "href": "/finansowanie-na-start/",
@@ -15,23 +16,19 @@
     },
     {
       "href": "/fundacje-i-stowarzyszenia/",
-      "label": "NGO"
+      "label": "Fundacje i NGO"
     },
     {
       "href": "/zamow/",
-      "label": "Cennik i zamówienie"
-    },
-    {
-      "href": "/wiedza/",
-      "label": "Wiedza"
+      "label": "Cennik"
     },
     {
       "href": "/wspolpraca/",
       "label": "Jak pracujemy"
     },
     {
-      "href": "/faq/",
-      "label": "FAQ"
+      "href": "/wiedza/",
+      "label": "Poradniki"
     }
   ],
   "firma": {
