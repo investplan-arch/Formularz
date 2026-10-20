@@ -1,5 +1,7 @@
 {
-  "enabledMcpjsonServers": ["meta-inbox"],
+  "enabledMcpjsonServers": [
+    "meta-inbox"
+  ],
   "permissions": {
     "allow": [
       "mcp__meta-inbox__check_access",
@@ -18,7 +20,17 @@
       "mcp__meta-inbox__update_comment",
       "mcp__meta-inbox__hide_comment",
       "WebSearch",
-      "WebFetch"
+      "WebFetch",
+      "mcp__claude-in-chrome",
+      "mcp__Gmail__search_threads",
+      "mcp__Gmail__get_thread",
+      "mcp__Gmail__get_message",
+      "mcp__Gmail__list_drafts",
+      "mcp__Gmail__get_draft",
+      "mcp__Gmail__create_draft",
+      "mcp__Gmail__update_draft",
+      "Bash(npm test)",
+      "Bash(node site/build.mjs)"
     ],
     "deny": [
       "mcp__meta-inbox__delete_comment"
