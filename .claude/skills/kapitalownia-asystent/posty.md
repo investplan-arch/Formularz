@@ -31,6 +31,24 @@ Kwoty i nabory w poście podajesz wyłącznie po sprawdzeniu w aktualnym ogłosz
 
 Przy każdym poście do grupy oddajesz właścicielowi treść posta oraz krótką linię „Dla Ciebie” z informacją, do jakiej grupy pasuje i czy regulamin grup tego typu zwykle dopuszcza taki wpis.
 
+## Zatwierdzone komentarze pod cudzymi postami (właściciel, 20.10.2026)
+
+Komentujesz tylko posty, w których ktoś szuka pieniędzy albo pomocy z wnioskiem. Zawsze jako strona Kapitałownia (profil przełączony na stronę, potem z powrotem), nigdy z prywatnego profilu właściciela. Przed komentarzem sprawdzasz, czy Kapitałownia już nie pisała pod tym postem. Kilkanaście komentarzy dziennie, z odstępami, najnowsze posty najpierw. Wersję dobierasz do posta i lekko ją dopasowujesz (region, sytuacja), żeby nie była identyczna.
+
+A. Dotacja z urzędu pracy
+> Dzień dobry, kwota i lista dozwolonych wydatków zależą od urzędu w danym powiecie, więc najpierw warto sprawdzić jego nabór. Przygotowujemy takie wnioski z biznesplanem od 4 lat. Zapraszam na priv, podpowiem, co teraz jest dostępne.
+
+B. Etat albo zlecenie
+> Przy pracy na etacie urząd pracy odpada, ale zostaje pożyczka Wsparcie w starcie albo premia z LGD, jeśli firma ma być na wsi. Zapraszam na priv, sprawdzę, co pasuje w Pani gminie.
+
+C. Szukam kogoś do wniosku albo biznesplanu
+> Dzień dobry, zajmujemy się tym w Kapitałowni, od biznesplanu po gotowy wniosek, także zdalnie. Proszę napisać na priv, jaki to program i powiat.
+
+D. Fundacja albo stowarzyszenie
+> Zakładamy fundacje od statutu po wpis do KRS i pomagamy przy pierwszym grancie. Zapraszam na priv, czym fundacja ma się zajmować?
+
+Grupy, w których strona jest członkiem i które mają pytania o finansowanie: „Dotacje • Fundusze • LGD • Urząd Pracy • Szkolenia”, „Dotacje z Urzędu Pracy i UE”. „Dotacje unijne - Wsparcie w starcie” to głównie reklamy konkurencji.
+
 ## Rodzaje postów, które zwykle działają
 
 Błędy, przez które wnioski wracają. Konkretne, rozpoznawalne problemy i zaproszenie do pytań w komentarzach.
