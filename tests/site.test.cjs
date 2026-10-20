@@ -431,8 +431,8 @@ test('usługi z ceną pokazują opłatę początkową, success fee i łączny ko
   for (const u of uslugi.filter(x => typeof x.cena === 'number' && x.successFee)) {
     const card = h.split(`id="usluga-${u.id}"`)[1].split('</article>')[0];
     assert.match(card, new RegExp(`${u.cena} zł`));
-    assert.match(card, new RegExp(`\\+ ${u.successFee.toLocaleString('pl-PL').replace(/ /g, ' ')} zł po przyznaniu środków`));
+    assert.match(card, new RegExp(`\\+ ${u.successFee.toLocaleString('pl-PL').replace(/ /g, ' ')} zł ${u.feeKiedy || 'po przyznaniu środków'}`));
     assert.match(card, /Łącznie/);
-    assert.ok(card.includes(`href="${u.stripe}"`));
+    assert.ok(card.includes(u.stripe ? `href="${u.stripe}"` : `href="/kontakt/?usluga=${u.id}"`));
   }
 });

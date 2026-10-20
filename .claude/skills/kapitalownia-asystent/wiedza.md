@@ -56,6 +56,8 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://formul
 | Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
 | Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
 | Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
+| Założenie fundacji | 690 zł | 800 zł po wpisie fundacji do KRS | 1490 zł |
+| Fundacja z pierwszym wnioskiem grantowym | 1290 zł | 1200 zł po wpisie fundacji do KRS | 2490 zł |
 | Wniosek do Funduszu Pożyczkowego FENG (PARP) | 3100 zł netto | 3% netto kwoty przyznanej pożyczki | 3100 zł plus 3% pożyczki |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
@@ -75,6 +77,13 @@ Stawkę ustalił właściciel 19.10.2026. Opłata na start to 3100 zł netto, a 
 > Na start 3100 zł netto za przygotowanie dokumentacji. Resztę, czyli 3% kwoty pożyczki, płacą Państwo dopiero po podpisaniu umowy pożyczki. Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacą Państwo.
 
 Link Stripe na 3100 zł: [BRAK LINKU, właściciel musi go podać].
+
+### Założenie fundacji
+
+Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie fundacji do KRS, a nie po przyznaniu grantu. Linków Stripe jeszcze nie ma, więc na stronie przycisk prowadzi do formularza. Cenę podajesz w tej formie.
+> Założenie fundacji kosztuje 1490 zł w dwóch częściach. 690 zł na start, a 800 zł dopiero po wpisie fundacji do KRS. Opłatę sądową 250 zł i notariusza płaci fundator osobno.
+
+Fakty do rozmowy. Oświadczenie o ustanowieniu fundacji wymaga aktu notarialnego (art. 3 ust. 1 ustawy o fundacjach), więc notariusz jest zawsze potrzebny. Wpis do KRS kosztuje 250 zł, a z działalnością gospodarczą 500 zł. Przy działalności gospodarczej fundator przeznacza na nią co najmniej 1000 zł (art. 5 ust. 5), które zostają w fundacji. Wniosek do KRS składa klient przez Portal Rejestrów Sądowych z naszą instrukcją, bo nie jesteśmy pełnomocnikiem procesowym. Księgowości nie prowadzimy. Zanim obiecasz grant dla świeżej fundacji, sprawdź, czy konkurs dopuszcza organizacje bez historii.
 
 ### Duże i nietypowe projekty
 

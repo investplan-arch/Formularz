@@ -143,8 +143,11 @@ function serviceCard(u) {
   const priced = typeof u.cena === 'number';
   const buy = buyable(u);
   const fee = typeof u.successFee === 'number' ? u.successFee : 0;
+  // feeKiedy i feeTotal opisują drugą część opłaty, gdy nie zależy od przyznania środków (np. wpis do KRS)
+  const feeKiedy = u.feeKiedy || 'po przyznaniu środków';
+  const feeTotal = u.feeTotal || (priced ? `Łącznie ${pln(u.cena + fee)}, jeśli otrzymasz finansowanie. Jeśli nie, płacisz tylko ${pln(u.cena)}.` : '');
   const price = priced
-    ? `<div class="service__price"><p><strong>${pln(u.cena)}</strong> <span>${fee ? 'na start, ' : ''}płatne przy zamówieniu</span></p>${u.uwaga ? `<p class="service__total">${esc(u.uwaga)}</p>` : ''}${fee ? `<p class="service__fee">+ ${pln(fee)} po przyznaniu środków</p><p class="service__total">Łącznie ${pln(u.cena + fee)}, jeśli otrzymasz finansowanie. Jeśli nie, płacisz tylko ${pln(u.cena)}.</p>` : ''}</div>`
+    ? `<div class="service__price"><p><strong>${pln(u.cena)}</strong> <span>${fee ? 'na start, ' : ''}płatne przy zamówieniu</span></p>${u.uwaga ? `<p class="service__total">${esc(u.uwaga)}</p>` : ''}${fee ? `<p class="service__fee">+ ${pln(fee)} ${esc(feeKiedy)}</p><p class="service__total">${esc(feeTotal)}</p>` : ''}</div>`
     : '<p class="service__price service__price--quote">Wycena indywidualna</p>';
   const cta = buy
     ? `<a class="btn btn--primary" href="${esc(u.stripe)}" rel="noopener">Zamawiam i płacę</a>`
@@ -243,7 +246,7 @@ function renderBlock(type, extra, md) {
   const cls = extra ? ' ' + extra.split(/\s+/).filter(x => !x.includes('=')).map(x => `section--${x}`).join(' ') : '';
   if (type === 'stats') return `<section class="section section--stats"><div class="wrap">${sectionHead(md)}${statsHtml()}</div></section>`;
   if (type === 'programs') {
-    const ids = (extra.match(/ids=([\w,]+)/) || [])[1];
+    const ids = (extra.match(/ids=([\w,-]+)/) || [])[1];
     const compact = /\bcompact\b/.test(extra);
     return `<section class="section section--programs" id="programy"><div class="wrap">${sectionHead(md)}${programsHtml(ids, compact)}${compact ? `<p class="small sources-note">Dane sprawdzone: ${esc(sprawdzono)}, według stron instytucji publicznych. Źródła podajemy przy <a href="/finansowanie-na-start/#programy">pełnym opisie programów</a>.</p>` : sourcesHtml()}</div></section>`;
   }
@@ -251,7 +254,7 @@ function renderBlock(type, extra, md) {
   if (type === 'ocena') return `<section class="section section--tool"><div class="wrap narrow">${sectionHead(md)}${ocenaHtml()}</div></section>`;
   if (type === 'opinie') return opinie.length ? `<section class="section section--reviews" id="opinie"><div class="wrap">${sectionHead(md)}${opinieHtml()}</div></section>` : '';
   if (type === 'services') {
-    const ids = (extra.match(/ids=([\w,]+)/) || [])[1];
+    const ids = (extra.match(/ids=([\w,-]+)/) || [])[1];
     const list = ids ? ids.split(',').map(id => uslugi.find(u => u.id === id)).filter(Boolean) : uslugi;
     return `<section class="section section--services"><div class="wrap">${sectionHead(md)}<div class="services${list.length === 1 ? ' services--single' : ''}">${list.map(serviceCard).join('')}</div></div></section>`;
   }

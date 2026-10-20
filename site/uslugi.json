@@ -1,5 +1,5 @@
 {
-  "_opis": "Usługi do zamówienia na stronie /zamow/. cena: kwota w zł płatna z góry albo null, gdy wycena jest indywidualna. successFee: kwota w zł płatna po przyznaniu środków albo null. stripe: adres Payment Link ze Stripe (https://buy.stripe.com/...) albo pusty. Gdy cena lub link są puste, przycisk prowadzi do formularza wyceny. uwaga: dodatkowe zdanie pod ceną.",
+  "_opis": "Usługi do zamówienia na stronie /zamow/. cena: kwota w zł płatna z góry albo null, gdy wycena jest indywidualna. successFee: kwota w zł płatna po przyznaniu środków albo null. stripe: adres Payment Link ze Stripe (https://buy.stripe.com/...) albo pusty. Gdy cena lub link są puste, przycisk prowadzi do formularza wyceny. uwaga: dodatkowe zdanie pod ceną. feeKiedy i feeTotal (opcjonalne): kiedy płatna jest druga część i zdanie o łącznym koszcie, gdy druga część nie zależy od przyznania środków.",
   "uslugi": [
     {
       "id": "pup",
@@ -80,6 +80,38 @@
       "cena": null,
       "stripe": "",
       "successFee": null
+    },
+    {
+      "id": "fundacja",
+      "nazwa": "Założenie fundacji",
+      "opis": "Dokumenty do założenia fundacji i instrukcja rejestracji w KRS krok po kroku.",
+      "zakres": [
+        "cele i działania fundacji zapisane w statucie",
+        "statut i treść oświadczenia o ustanowieniu fundacji dla notariusza",
+        "wniosek do KRS przygotowany do złożenia w Portalu Rejestrów Sądowych",
+        "lista obowiązków po rejestracji, w tym zgłoszenie do urzędu skarbowego"
+      ],
+      "cena": 690,
+      "stripe": "",
+      "successFee": 800,
+      "feeKiedy": "po wpisie fundacji do KRS",
+      "feeTotal": "Łącznie 1490 zł. Opłatę sądową i taksę notarialną fundator płaci osobno."
+    },
+    {
+      "id": "fundacja-grant",
+      "nazwa": "Fundacja z pierwszym wnioskiem grantowym",
+      "opis": "Założenie fundacji i wniosek do konkursu, w którym młoda organizacja może startować.",
+      "zakres": [
+        "wszystko z usługi Założenie fundacji",
+        "wybór konkursu dopasowanego do celów fundacji",
+        "projekt, harmonogram i budżet",
+        "wniosek grantowy gotowy do złożenia"
+      ],
+      "cena": 1290,
+      "stripe": "",
+      "successFee": 1200,
+      "feeKiedy": "po wpisie fundacji do KRS",
+      "feeTotal": "Łącznie 2490 zł. Opłatę sądową i taksę notarialną fundator płaci osobno."
     },
     {
       "id": "sprawdzenie",
