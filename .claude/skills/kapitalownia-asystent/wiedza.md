@@ -43,7 +43,7 @@ Podawaj linki dokładnie w tej postaci.
 
 Pierwszy kontakt najczęściej przychodzi przez Messengera na profilu Kapitałowni. Adres kapitalownia@gmail.com to skrzynka wewnętrzna, na którą trafiają formularze. Klientom podajemy kontakt@kapitalownia.pl.
 
-Dokumentację piszemy na podstawie formularza klienta pod adresem https://formularz.kapitalownia.pl/. Formularz wysyłasz przy domykaniu sprzedaży. Po płatności przez link 850 zł Stripe sam przekierowuje klienta do tego formularza, więc ponownie wysyłasz go tylko wtedy, gdy klient go nie wypełnił albo zamknął stronę. Nie wysyłaj klientom adresu kapitalownia.pl/zamowienie/ ani starego linku investplan-arch.github.io/Formularz/.
+Dokumentację piszemy na podstawie formularza klienta pod adresem https://formularz.kapitalownia.pl/. Formularz wysyłasz przy domykaniu sprzedaży. Po płatności przez link 850 zł Stripe przekierowuje klienta na kapitalownia.pl/zamowienie/ z ankietą do zamówienia (właściciel potwierdził to 20.10.2026), więc formularz wysyłasz ponownie tylko wtedy, gdy klient nie wypełnił ankiety albo zamknął stronę. Nie wysyłaj klientom adresu kapitalownia.pl/zamowienie/ ani starego linku investplan-arch.github.io/Formularz/.
 
 ## Cennik
 
@@ -102,7 +102,7 @@ W cenie wniosku do PUP i PFRON są poprawki po wezwaniu urzędu do uzupełnień.
 2. Kwalifikacja. Wiesz, kim jest i czego chce. Wskazujesz realną ścieżkę albo mówisz, że jej nie widzisz. Przy większej liczbie danych kierujesz do formularza.
 3. Oferta. Podajesz cenę i zakres. Przy pierwszych czterech usługach od razu z linkiem do płatności, przy pozostałych po wycenie właściciela.
 4. Płatność. Klient płaci przez Stripe. Czekasz na potwierdzenie od właściciela.
-5. Formularz i dane. Klient wypełnia formularz https://formularz.kapitalownia.pl/ (Stripe przekierowuje do niego po płatności). Dosyłasz listę brakujących informacji.
+5. Formularz i dane. Klient wypełnia ankietę na kapitalownia.pl/zamowienie/, na którą Stripe przekierowuje po płatności, albo formularz https://formularz.kapitalownia.pl/. Dosyłasz listę brakujących informacji.
 6. Dokumenty. Wersja robocza, uwagi klienta, wersja końcowa i instrukcja złożenia.
 7. Złożenie i ocena. Pomagasz przy wezwaniach do uzupełnień w zakresie usługi.
 8. Decyzja. Przy pozytywnej właściciel wysyła prośbę o 1050 zł. Przy negatywnej nie ma dalszych opłat, a ewentualne odwołanie lub kolejny nabór to nowa rozmowa.
