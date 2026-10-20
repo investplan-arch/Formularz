@@ -32,3 +32,6 @@ wdrozenie-reczne/
 # Notatki z researchu (lokalne, nie publikujemy)
 research_notes/
 reports/
+
+# Silnik impeccable pobierany przy pierwszym użyciu
+.claude/skills/impeccable/scripts/bin/
