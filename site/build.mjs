@@ -227,8 +227,10 @@ function kalkulatorHtml() {
     <p class="small sources-note">Kwota bazowa to przeciętne wynagrodzenie za ${esc(wyn.okres)} z <a href="${esc(wyn.zrodlo)}" rel="noopener">komunikatu Prezesa GUS</a> z ${dataGus}. Urząd liczy limit od wartości obowiązującej w dniu podpisania umowy, więc kwota zmienia się co kwartał.</p>
   </div>`;
 }
+// Próg przychodu w pożyczce Wsparcie w starcie, zaokrąglony w dół do 100 zł
+const tys = n => (Math.floor(n / 100) / 10).toLocaleString('pl-PL', { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + '\u00a0tys.\u00a0zł';
 const pytania = [
-  { name: 'status', q: 'Jaka jest Twoja sytuacja zawodowa?', opts: [['bezrobotny', 'Mam status osoby bezrobotnej w urzędzie pracy'], ['poszukujacy', 'Mam status osoby poszukującej pracy i nie pracuję'], ['pracuje', 'Pracuję na etacie lub umowie'], ['student', 'Studiuję, to mój ostatni rok'], ['absolwent', 'Od ukończenia nauki minęło mniej niż 4 lata'], ['inne', 'Inna sytuacja']] },
+  { name: 'status', q: 'Jaka jest Twoja sytuacja zawodowa?', opts: [['bezrobotny', 'Mam status osoby bezrobotnej w urzędzie pracy'], ['poszukujacy', 'Mam status osoby poszukującej pracy i nie pracuję'], ['niepracuje', 'Nie pracuję i nie jestem zarejestrowany w urzędzie pracy'], ['pracuje-nisko', `Pracuję na etacie lub umowie i zarabiam do ${tys(wyn.kwota)} brutto miesięcznie`], ['pracuje', `Pracuję na etacie lub umowie i zarabiam więcej niż ${tys(wyn.kwota)} brutto`], ['student', 'Studiuję, to mój ostatni rok, i nie pracuję'], ['inne', 'Inna sytuacja']] },
   { name: 'firma', q: 'Czy w ostatnich 12 miesiącach była zarejestrowana na Ciebie firma, także zawieszona?', opts: [['nie', 'Nie'], ['tak', 'Tak']] },
   { name: 'orzeczenie', q: 'Czy masz orzeczenie o niepełnosprawności?', opts: [['nie', 'Nie'], ['tak', 'Tak']] },
   { name: 'opiekun', q: 'Czy opiekujesz się osobą z niepełnosprawnością?', opts: [['nie', 'Nie'], ['tak', 'Tak']] },
@@ -241,6 +243,8 @@ function ocenaHtml() {
       <div class="quiz__opts">${p.opts.map(([v, l]) => `<label class="choice"><input type="radio" name="${p.name}" value="${v}"><span class="choice__body">${esc(l)}</span></label>`).join('')}</div>
     </fieldset>`).join('');
   const kwoty = Object.fromEntries(limity.map(l => [l.id, zl(l.x * wyn.kwota)]));
+  Object.assign(kwoty, Object.fromEntries(limity.map(l => ['n_' + l.id, Math.floor(l.x * wyn.kwota)])));
+  kwoty.umorzenie = zl(6 * wyn.kwota);
   return `<form class="quiz" id="ocena" novalidate data-kwoty="${esc(JSON.stringify(kwoty))}">
     ${fs}
     <p class="quiz__error" id="ocena-error" role="alert" hidden></p>
@@ -249,9 +253,10 @@ function ocenaHtml() {
   </form>
   <section class="quiz__result" id="ocena-wynik" tabindex="-1" hidden aria-labelledby="ocena-wynik-h">
     <h2 id="ocena-wynik-h">Twój wstępny wynik</h2>
+    <p class="quiz__summary" id="ocena-suma"></p>
     <ul class="quiz__list" id="ocena-lista"></ul>
     <p class="quiz__disclaimer">To wstępna ocena na podstawie ogólnych warunków programów. Ostateczne zasady określa regulamin konkretnego urzędu, LGD albo pośrednika, dlatego przed zamówieniem sprawdzamy je w Twoim przypadku.</p>
-    <p class="hero__actions"><a class="btn btn--primary btn--large" id="ocena-cta" href="/kontakt/">Poproś o bezpłatną ocenę</a><a class="btn btn--ghost btn--large" href="/kalkulator-dotacji/">Zobacz kwoty</a></p>
+    <p class="hero__actions"><a class="btn btn--primary btn--large" id="ocena-cta" href="/kontakt/">Poproś o bezpłatną ocenę</a>${site.messenger ? `<a class="btn btn--ghost btn--large" href="${esc(site.messenger)}" rel="noopener">Napisz na Messengerze</a>` : ''}</p>
   </section>
   <noscript><p class="note">Ocena działa w przeglądarce z włączonym JavaScriptem. Możesz od razu wypełnić <a href="/kontakt/">formularz kwalifikacyjny</a>, a ocenimy Twoją sytuację e-mailem.</p></noscript>`;
 }

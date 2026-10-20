@@ -6,7 +6,7 @@ layout: home
 hero:
   title: Dotacja na start firmy do 55 tys. zł. Wniosek napiszemy za Ciebie
   lead: Sprawdzamy, z którego programu skorzystasz, i piszemy biznesplan z wnioskiem gotowe do złożenia. Urząd pracy, PFRON, LGD i pożyczka Wsparcie w starcie, zdalnie w całej Polsce.
-  cta: Bezpłatna ocena szans
+  cta: Sprawdź za darmo, ile możesz dostać
   ctaHref: /ocena-szans/
 ---
 
