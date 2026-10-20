@@ -29,6 +29,7 @@ Podawaj linki dokładnie w tej postaci.
 | Formularz wstępnej oceny | https://kapitalownia.pl/kontakt/ |
 | Cennik i zamówienie | https://kapitalownia.pl/zamow/ |
 | Płatność 850 zł, start wniosku PUP, PFRON, LGD, Wsparcie w starcie (Stripe) | https://buy.stripe.com/eVq14p99K35A30z4QJ6Zy07 |
+| Strona płatności 850 zł na naszej domenie (podgląd w Messengerze pokazuje Kapitałownię, NIP i zasady, przycisk prowadzi do Stripe). Wysyłasz ją zamiast surowego linku Stripe, gdy jest już wdrożona | https://kapitalownia.pl/platnosc/ |
 | Płatność 2500 zł, start dużego projektu (Stripe) | [BRAK LINKU, właściciel musi go podać] |
 | Płatność 249 zł, sprawdzenie wniosku (Stripe) | https://buy.stripe.com/7sYfZj2Lm35Aat15UN6Zy0a |
 | Płatność 149 zł, konsultacja 30 minut (Stripe) | https://buy.stripe.com/cNibJ33Pq6hMdFd6YR6Zy09 |

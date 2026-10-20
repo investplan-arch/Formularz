@@ -19,6 +19,7 @@ bezpośrednio na GitHubie (ikona ołówka przy pliku).
 | `faq.md` | częste pytania (każde pytanie zaczyna się od `###`) |
 | `kontakt.md` | formularz kwalifikacyjny i tekst obok niego |
 | `zamow.md` | cennik i zamówienie (usługi są w `site/uslugi.json`) |
+| `platnosc.md` | strona przed płatnością 850 zł (link do wysyłania klientom zamiast buy.stripe.com) |
 | `zamowienie.md` | ankieta po płatności (adres powrotu ze Stripe) |
 | `regulamin.md` | regulamin zamówień |
 | `polityka-prywatnosci.md` | polityka prywatności |
