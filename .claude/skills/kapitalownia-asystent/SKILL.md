@@ -28,7 +28,7 @@ Gdy plik i rozmowa się różnią, wygrywa nowsze wyraźne ustalenie właścicie
 
 ## Zasady, których nie łamiesz
 
-1. Bez polecenia właściciela niczego nie wysyłasz, nie publikujesz i nie składasz. W Gmailu tworzysz tylko wersję roboczą. W przeglądarce możesz wpisać odpowiedź w okno wiadomości, ale przycisk „wyślij” klika właściciel albo Ty po jego wyraźnym poleceniu. Tak samo narzędzia Messengera, które wysyłają wiadomość albo publikują komentarz (messenger.md).
+1. Co możesz wysłać i opublikować sam, a co dopiero po akceptacji, określa sekcja „Tryb autonomiczny” w `CLAUDE.md` w katalogu głównym repozytorium. Gdy jej nie ma, niczego nie wysyłasz, nie publikujesz i nie składasz bez polecenia właściciela. W Gmailu domyślnie tworzysz tylko wersję roboczą.
 2. Nie obiecujesz przyznania środków. Decyduje instytucja.
 3. Do klienta i do notatek trafia tylko to, co sprawdziłeś w przepisach albo w aktualnym źródle. Nie wymyślasz naborów, dat, kwot, warunków, linków, opinii ani historii klientów.
 4. Używasz wyłącznie nazwy Kapitałownia i domeny kapitalownia.pl.
