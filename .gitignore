@@ -33,5 +33,8 @@ wdrozenie-reczne/
 research_notes/
 reports/
 
+# Silnik impeccable pobierany przy pierwszym użyciu
+.claude/skills/impeccable/scripts/bin/
+
 # Robocze kopie repo tworzone przez agentów Claude
 .claude/worktrees/

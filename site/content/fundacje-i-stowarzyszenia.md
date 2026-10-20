@@ -1,12 +1,31 @@
 ---
-title: Wnioski grantowe dla fundacji i stowarzyszeń | Kapitałownia
-description: Pomagamy fundacjom, stowarzyszeniom i innym organizacjom przygotować projekty i wnioski grantowe. Planowanie działań, budżetu i rezultatów.
+title: Założenie fundacji i wnioski grantowe dla NGO | Kapitałownia
+description: Zakładamy fundacje od statutu po wpis do KRS i piszemy pierwsze wnioski grantowe. Pomagamy też stowarzyszeniom przygotować projekty, budżety i wnioski.
 path: /fundacje-i-stowarzyszenia/
 hero:
   eyebrow: Organizacje pozarządowe
-  title: Wsparcie dla fundacji i stowarzyszeń
-  lead: Dobry pomysł na działania społeczne to dopiero początek. Pomagamy przełożyć go na projekt, który spełni wymagania grantodawcy i da się zrealizować.
+  title: Załóż fundację i zdobądź pierwszy grant
+  lead: Przygotowujemy statut i dokumenty do KRS, a potem pomagamy znaleźć konkurs i napisać wniosek, żeby fundacja miała z czego działać.
 ---
+
+::: section steps
+## Założenie fundacji krok po kroku
+
+1. **Cel i statut** Ustalamy, czym fundacja ma się zajmować i czy będzie prowadzić działalność gospodarczą. Na tej podstawie piszemy statut, który pozwoli później startować w konkursach pasujących do Twoich planów.
+2. **Notariusz** Przekazujemy treść oświadczenia o ustanowieniu fundacji. Fundator składa je u notariusza, bo ustawa o fundacjach wymaga formy aktu notarialnego.
+3. **Wniosek do KRS** Przygotowujemy wniosek o wpis i załączniki. Składasz go przez Portal Rejestrów Sądowych, a my prowadzimy Cię przez każdy ekran. Wystarczy profil zaufany.
+4. **Po rejestracji** Dostajesz listę obowiązków z terminami, w tym zgłoszenie danych do urzędu skarbowego, konto bankowe i zasady księgowości fundacji.
+:::
+
+::: section note
+## Koszty urzędowe
+
+Opłata sądowa za wpis fundacji do KRS wynosi 250 zł, a gdy fundacja ma prowadzić działalność gospodarczą, 500 zł. Do tego dochodzi taksa notarialna. Fundacja prowadząca działalność gospodarczą musi przeznaczyć na nią co najmniej 1000 zł, ale te pieniądze zostają w majątku fundacji. Opłaty urzędowe płaci fundator, nie są wliczone w cenę naszej usługi.
+:::
+
+::: services ids=fundacja,fundacja-grant,ngo
+## Cennik dla organizacji
+:::
 
 ::: section
 ## W czym pomagamy

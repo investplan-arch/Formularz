@@ -13,8 +13,14 @@ hero:
   secondaryHref: /finansowanie-na-start/#programy
 ---
 
-::: services ids=pup,pfron,wws,lgd,biznesplan,ngo
+::: services ids=pup,pfron,wws,lgd,biznesplan
 ## Przygotowanie dokumentów
+:::
+
+::: services ids=fundacja,fundacja-grant,ngo
+## Dla fundacji i stowarzyszeń
+
+Zakładamy fundacje od statutu po wpis do KRS. Drugą część opłaty płacisz dopiero po wpisie fundacji do rejestru.
 :::
 
 ::: services ids=sprawdzenie,konsultacja

@@ -16,6 +16,8 @@ return [
         'lgd' => 'Wniosek do Lokalnej Grupy Działania',
         'biznesplan' => 'Biznesplan',
         'ngo' => 'Wniosek grantowy dla organizacji',
+        'fundacja' => 'Założenie fundacji',
+        'fundacja-grant' => 'Fundacja z pierwszym wnioskiem grantowym',
         'sprawdzenie' => 'Sprawdzenie Twojego wniosku',
         'konsultacja' => 'Konsultacja 30 minut',
     ],

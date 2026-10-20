@@ -16,23 +16,19 @@
     },
     {
       "href": "/fundacje-i-stowarzyszenia/",
-      "label": "NGO"
+      "label": "Fundacje i NGO"
     },
     {
       "href": "/zamow/",
-      "label": "Cennik i zamówienie"
-    },
-    {
-      "href": "/wiedza/",
-      "label": "Wiedza"
+      "label": "Cennik"
     },
     {
       "href": "/wspolpraca/",
       "label": "Jak pracujemy"
     },
     {
-      "href": "/faq/",
-      "label": "FAQ"
+      "href": "/wiedza/",
+      "label": "Poradniki"
     }
   ],
   "firma": {

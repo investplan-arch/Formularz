@@ -253,10 +253,14 @@ test('cennik bez ceny i linku Stripe kieruje do wyceny, a nie do płatności', (
   for (const [, href] of h.matchAll(/href="(https:\/\/buy\.stripe\.com[^"]*)"/g)) assert.match(href, /^https:\/\/buy\.stripe\.com\//);
 });
 
-test('liczniki mają wartości końcowe w HTML', () => {
+test('pierwszy ekran pokazuje kwoty, cenę z płatnością po sukcesie i dowody zaufania', () => {
   const h = readFileSync(join(dist, 'index.html'), 'utf8');
-  assert.match(h, /data-count="4">4</);
-  assert.match(h, /data-count="211">211</);
+  const hero = h.split('class="hero hero--home"')[1].split('</section>')[0];
+  assert.match(hero, /do 184\u00a0662 zł|do 184 662 zł/);
+  assert.match(hero, /850 zł na start/);
+  assert.match(hero, /211 wniosków ocenionych pozytywnie/);
+  assert.match(hero, /NIP 7393982505/);
+  assert.match(hero, /href="\/ocena-szans\/"/);
 });
 
 test('link z programu wybiera usługę w formularzu', async () => {
@@ -431,8 +435,8 @@ test('usługi z ceną pokazują opłatę początkową, success fee i łączny ko
   for (const u of uslugi.filter(x => typeof x.cena === 'number' && x.successFee)) {
     const card = h.split(`id="usluga-${u.id}"`)[1].split('</article>')[0];
     assert.match(card, new RegExp(`${u.cena} zł`));
-    assert.match(card, new RegExp(`\\+ ${u.successFee.toLocaleString('pl-PL').replace(/ /g, ' ')} zł po przyznaniu środków`));
+    assert.match(card, new RegExp(`\\+ ${u.successFee.toLocaleString('pl-PL').replace(/ /g, ' ')} zł ${u.feeKiedy || 'po przyznaniu środków'}`));
     assert.match(card, /Łącznie/);
-    assert.ok(card.includes(`href="${u.stripe}"`));
+    assert.ok(card.includes(u.stripe ? `href="${u.stripe}"` : `href="/kontakt/?usluga=${u.id}"`));
   }
 });

@@ -32,7 +32,7 @@ Podawaj linki dokładnie w tej postaci.
 | Płatność 2500 zł, start dużego projektu (Stripe) | [BRAK LINKU, właściciel musi go podać] |
 | Płatność 249 zł, sprawdzenie wniosku (Stripe) | https://buy.stripe.com/7sYfZj2Lm35Aat15UN6Zy0a |
 | Płatność 149 zł, konsultacja 30 minut (Stripe) | https://buy.stripe.com/cNibJ33Pq6hMdFd6YR6Zy09 |
-| Formularz klienta do dokumentacji, wysyłany przy domykaniu | https://kapitalownia.pl/zamowienie/ |
+| Formularz klienta do dokumentacji, wysyłany przy domykaniu | https://formularz.kapitalownia.pl/ |
 | Regulamin | https://kapitalownia.pl/regulamin/ |
 | Częste pytania | https://kapitalownia.pl/faq/ |
 | Ocena szans (quiz) | https://kapitalownia.pl/ocena-szans/ |
@@ -42,7 +42,7 @@ Podawaj linki dokładnie w tej postaci.
 
 Pierwszy kontakt najczęściej przychodzi przez Messengera na profilu Kapitałowni. Adres kapitalownia@gmail.com to skrzynka wewnętrzna, na którą trafiają formularze. Klientom podajemy kontakt@kapitalownia.pl.
 
-Dokumentację piszemy na podstawie formularza klienta pod adresem https://kapitalownia.pl/zamowienie/. Formularz wysyłasz przy domykaniu sprzedaży. Po płatności przez link 850 zł Stripe sam przekierowuje klienta do tego formularza, więc ponownie wysyłasz go tylko wtedy, gdy klient go nie wypełnił albo zamknął stronę. Dawny formularz pod adresem formularz.kapitalownia.pl nie jest już używany.
+Dokumentację piszemy na podstawie formularza klienta pod adresem https://formularz.kapitalownia.pl/. Formularz wysyłasz przy domykaniu sprzedaży. Po płatności przez link 850 zł Stripe sam przekierowuje klienta do tego formularza, więc ponownie wysyłasz go tylko wtedy, gdy klient go nie wypełnił albo zamknął stronę. Nie wysyłaj klientom adresu kapitalownia.pl/zamowienie/ ani starego linku investplan-arch.github.io/Formularz/.
 
 ## Cennik
 
@@ -56,6 +56,9 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://kapita
 | Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
 | Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
 | Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
+| Założenie fundacji | 690 zł | 800 zł po wpisie fundacji do KRS | 1490 zł |
+| Fundacja z pierwszym wnioskiem grantowym | 1290 zł | 1200 zł po wpisie fundacji do KRS | 2490 zł |
+| Wniosek do Funduszu Pożyczkowego FENG (PARP) | 3100 zł netto | 3% netto kwoty przyznanej pożyczki | 3100 zł plus 3% pożyczki |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
 
@@ -67,6 +70,20 @@ Cenę wniosku podajesz zawsze w tej formie, dopasowując tylko słowa do rozmowy
 > Koszt to 1900 zł, płatne w dwóch częściach. 850 zł na start, a 1050 zł dopiero po przyznaniu środków. Jeśli wniosek nie przejdzie, druga część nie jest pobierana.
 
 Nie piszesz „płaci Pan 850 zł…” jako pierwszej liczby, bo brzmi to mniej wiarygodnie niż pełna kwota z podziałem.
+
+### Fundusz Pożyczkowy FENG
+
+Stawkę ustalił właściciel 19.10.2026. Opłata na start to 3100 zł netto, a wynagrodzenie za sukces to 3% netto kwoty pożyczki, należne po podpisaniu umowy pożyczki. Pożyczka wynosi od 2,5 do 15 mln zł, więc wynagrodzenie za sukces to od 75 tys. do 450 tys. zł. Cenę podajesz w tej formie.
+> Na start 3100 zł netto za przygotowanie dokumentacji. Resztę, czyli 3% kwoty pożyczki, płacą Państwo dopiero po podpisaniu umowy pożyczki. Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacą Państwo.
+
+Link Stripe na 3100 zł: [BRAK LINKU, właściciel musi go podać].
+
+### Założenie fundacji
+
+Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie fundacji do KRS, a nie po przyznaniu grantu. Linków Stripe jeszcze nie ma, więc na stronie przycisk prowadzi do formularza. Cenę podajesz w tej formie.
+> Założenie fundacji kosztuje 1490 zł w dwóch częściach. 690 zł na start, a 800 zł dopiero po wpisie fundacji do KRS. Opłatę sądową 250 zł i notariusza płaci fundator osobno.
+
+Fakty do rozmowy. Oświadczenie o ustanowieniu fundacji wymaga aktu notarialnego (art. 3 ust. 1 ustawy o fundacjach), więc notariusz jest zawsze potrzebny. Wpis do KRS kosztuje 250 zł, a z działalnością gospodarczą 500 zł. Przy działalności gospodarczej fundator przeznacza na nią co najmniej 1000 zł (art. 5 ust. 5), które zostają w fundacji. Wniosek do KRS składa klient przez Portal Rejestrów Sądowych z naszą instrukcją, bo nie jesteśmy pełnomocnikiem procesowym. Księgowości nie prowadzimy. Zanim obiecasz grant dla świeżej fundacji, sprawdź, czy konkurs dopuszcza organizacje bez historii.
 
 ### Duże i nietypowe projekty
 
@@ -84,7 +101,7 @@ W cenie wniosku do PUP i PFRON są poprawki po wezwaniu urzędu do uzupełnień.
 2. Kwalifikacja. Wiesz, kim jest i czego chce. Wskazujesz realną ścieżkę albo mówisz, że jej nie widzisz. Przy większej liczbie danych kierujesz do formularza.
 3. Oferta. Podajesz cenę i zakres. Przy pierwszych czterech usługach od razu z linkiem do płatności, przy pozostałych po wycenie właściciela.
 4. Płatność. Klient płaci przez Stripe. Czekasz na potwierdzenie od właściciela.
-5. Formularz i dane. Klient wypełnia formularz https://kapitalownia.pl/zamowienie/ (Stripe przekierowuje do niego po płatności). Dosyłasz listę brakujących informacji.
+5. Formularz i dane. Klient wypełnia formularz https://formularz.kapitalownia.pl/ (Stripe przekierowuje do niego po płatności). Dosyłasz listę brakujących informacji.
 6. Dokumenty. Wersja robocza, uwagi klienta, wersja końcowa i instrukcja złożenia.
 7. Złożenie i ocena. Pomagasz przy wezwaniach do uzupełnień w zakresie usługi.
 8. Decyzja. Przy pozytywnej właściciel wysyła prośbę o 1050 zł. Przy negatywnej nie ma dalszych opłat, a ewentualne odwołanie lub kolejny nabór to nowa rozmowa.

@@ -192,7 +192,7 @@ Przy dużym projekcie link na 2500 zł z wiedza.md. Jeśli w wiedza.md go brakuj
 
 ### D2. „Zapłaciłem”
 
-> Dziękuję. Jeśli formularz po płatności się nie otworzył, jest tutaj https://kapitalownia.pl/zamowienie/ Po jego wypełnieniu zaczynamy dokumenty.
+> Dziękuję. Jeśli formularz po płatności się nie otworzył, jest tutaj https://formularz.kapitalownia.pl/ Po jego wypełnieniu zaczynamy dokumenty.
 
 Dla Ciebie. Potwierdź płatność w Stripe przed rozpoczęciem pracy.
 

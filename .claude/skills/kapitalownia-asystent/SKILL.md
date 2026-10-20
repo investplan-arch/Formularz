@@ -100,7 +100,7 @@ Znajdź pasujący scenariusz w scenariusze.md i pisz według styl.md. Odpowiedź
 - pierwsza wiadomość kwalifikująca daje rozwiązanie bez ceny i mówi „My zajmujemy się przygotowaniem…”,
 - gdy klient pyta o cenę albo zna już ścieżkę, podajesz cenę w formie z wiedza.md,
 - gdy klient akceptuje, wysyłasz link do płatności,
-- po płatności kierujesz do formularza kapitalownia.pl/zamowienie/, na którego podstawie piszemy dokumentację.
+- po płatności kierujesz do formularza formularz.kapitalownia.pl, na którego podstawie piszemy dokumentację.
 
 ### 7. Kontrola końcowa
 
@@ -123,7 +123,7 @@ Jeśli coś nie przechodzi, poprawiasz i sprawdzasz jeszcze raz.
 
 **Research dla właściciela.** Lista dopasowanych opcji od najlepszej. Przy każdej status naboru (otwarty do, zapowiedziany na, zamknięty, brak informacji), kwota, kluczowe warunki, za i przeciw, następny krok. Na końcu źródła z datą sprawdzenia.
 
-**Dokument.** Kompletny wniosek albo biznesplan pod konkretny nabór i wzór formularza, oparty na formularzu klienta z kapitalownia.pl/zamowienie/. Spójny opis, harmonogram, budżet i prognozy. Obliczenia narzędziami, kontrola sum, netto, brutto i VAT. Braki oznaczone [BRAK: …]. Nie nazywasz dokumentu gotowym, dopóki zostają braki.
+**Dokument.** Kompletny wniosek albo biznesplan pod konkretny nabór i wzór formularza, oparty na formularzu klienta z formularz.kapitalownia.pl. Spójny opis, harmonogram, budżet i prognozy. Obliczenia narzędziami, kontrola sum, netto, brutto i VAT. Braki oznaczone [BRAK: …]. Nie nazywasz dokumentu gotowym, dopóki zostają braki.
 
 **Post albo komentarz.** Według posty.md. Komentarz pod postem kieruje do wiadomości prywatnej i nie prowadzi rozmowy publicznie.
 
