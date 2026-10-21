@@ -1,0 +1,229 @@
+{
+ "sceny": [
+  {
+   "czas": 3.4,
+   "elementy": [
+    {
+     "typ": "etykieta",
+     "tekst": "ZAPISZ, ZANIM ZNIKNIE"
+    },
+    {
+     "typ": "tytul",
+     "tekst": "10 źródeł pieniędzy na własną firmę",
+     "rozmiar": 110
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "01"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Dotacja z urzędu pracy"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "do 6-krotności przeciętnego wynagrodzenia"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "02"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Dotacja z EFS+ w urzędzie"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "osobna pula, często jesienią"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "03"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Środki PFRON"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "po 24 miesiącach firmy nawet do 15-krotności"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "04"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Pożyczka Wsparcie w starcie"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "0,25% rocznie, spłata do 7 lat"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "05"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Premia z LGD"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "zwykle od 50 do 150 tys. zł"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "06"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Spółdzielnia socjalna"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "do 6-krotności na każdego założyciela"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "07"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Refundacja stanowiska pracy"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "do 4-krotności na stanowisko"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "08"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Krajowy Fundusz Szkoleniowy"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "do 90% kosztów szkoleń w małej firmie"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "09"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Pożyczki z Funduszy Europejskich"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "część może zostać umorzona"
+    }
+   ]
+  },
+  {
+   "czas": 1.9,
+   "tempo": "szybkie",
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "10"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Granty dla fundacji"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "rządowe, samorządowe i z LGD"
+    }
+   ]
+  },
+  {
+   "czas": 3.8,
+   "elementy": [
+    {
+     "typ": "naglowek",
+     "tekst": "Chcesz całą listę z kwotami i warunkami?",
+     "rozmiar": 90
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Napisz w komentarzu",
+     "serif": true,
+     "rozmiar": 66
+    },
+    {
+     "typ": "haslo",
+     "tekst": "LISTA"
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Wyślemy ją za darmo w wiadomości.",
+     "rozmiar": 48
+    }
+   ]
+  },
+  {
+   "czas": 3.2,
+   "koniec": true,
+   "zdanie": "Napisz LISTA w komentarzu",
+   "przycisk": "PDF za darmo"
+  }
+ ]
+}

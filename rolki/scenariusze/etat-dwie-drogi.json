@@ -1,0 +1,97 @@
+{
+ "sceny": [
+  {
+   "czas": 3.6,
+   "elementy": [
+    {
+     "typ": "etykieta",
+     "tekst": "PRACA NA ETACIE"
+    },
+    {
+     "typ": "tytul",
+     "tekst": "Pracujesz na etacie i chcesz otworzyć firmę?",
+     "rozmiar": 100
+    }
+   ]
+  },
+  {
+   "czas": 3.4,
+   "elementy": [
+    {
+     "typ": "naglowek",
+     "tekst": "Urząd pracy odpada.",
+     "rozmiar": 96
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Ale zostają dwie drogi.",
+     "rozmiar": 80,
+     "kolor": "blue",
+     "serif": true
+    }
+   ]
+  },
+  {
+   "czas": 5.2,
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "01"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Pożyczka Wsparcie w starcie",
+     "rozmiar": 80
+    },
+    {
+     "typ": "tekst",
+     "tekst": "0,25% rocznie, spłata do 7 lat i rok bez spłaty kapitału.",
+     "rozmiar": 52,
+     "kolor": "cream",
+     "serif": false
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Dla osób, które zarabiają poniżej przeciętnego wynagrodzenia.",
+     "rozmiar": 46,
+     "kolor": "muted",
+     "serif": false
+    }
+   ]
+  },
+  {
+   "czas": 4.8,
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "02"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Premia z Lokalnej Grupy Działania",
+     "rozmiar": 80
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Bezzwrotna, zwykle od 50 do 150 tys. zł.",
+     "rozmiar": 52,
+     "kolor": "cream",
+     "serif": false
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Dla firm na wsi i w małych miastach. Etat nie przeszkadza.",
+     "rozmiar": 46,
+     "kolor": "muted",
+     "serif": false
+    }
+   ]
+  },
+  {
+   "czas": 4.6,
+   "koniec": true,
+   "zdanie": "Sprawdzimy, co pasuje w Twojej gminie",
+   "przycisk": "Napisz do nas"
+  }
+ ]
+}
