@@ -45,4 +45,6 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Post z 21.09 poprawiony 20.10: kontakt@kapitalownia.pl i https://kapitalownia.pl zamiast starego gmaila i kapitalowniav2.pages.dev.
 - 20.10 wysłano zaproszenia do obserwowania strony do 285 osób, które reagowały albo komentowały (pominięte konta spamowe z ofertami pożyczek i opinii). Z prywatnego profilu właściciela niczego nie używamy.
 - Propozycje czekające na decyzję: plan postów na stronę na 2 tygodnie, rolki, połączenie Instagrama.
+- Komentarze w grupach jako strona: 20.10 sześć, 21.10 rano dwa (fundacja medyczna z Dolnego Śląska w „Dotacje • Fundusze • LGD…”, autodetailing w „Dotacje z Urzędu Pracy i UE”). W „Dotacje z Urzędu Pracy i UE” strona doszła do limitu treści czekających na akceptację admina, więc nowe komentarze tam nie przejdą, dopóki admin nie zatwierdzi poprzednich.
+- Rolki: projekt Remotion w `rolki/`. Lektor za darmo przez Piper, właściciel wybrał głos „bass” (pl_PL-bass-high). Następna rolka „Nie zakładaj firmy, zanim nie zobaczysz tego” z hasłem START czeka na ujęcia z Pexels (klucz API albo pobieranie z Chrome za zgodą).
 - Klucz Stripe trafił do historii jednej z sesji. Właściciel zdecydował, że zostaje. Nie kopiujesz go z historii i nie używasz, klucze tylko ze zmiennych środowiskowych.
