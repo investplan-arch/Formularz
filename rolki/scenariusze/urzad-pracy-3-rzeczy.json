@@ -1,0 +1,104 @@
+{
+ "sceny": [
+  {
+   "czas": 3.6,
+   "elementy": [
+    {
+     "typ": "etykieta",
+     "tekst": "URZĄD PRACY"
+    },
+    {
+     "typ": "tytul",
+     "tekst": "3 rzeczy do załatwienia przed naborem",
+     "rozmiar": 104
+    }
+   ]
+  },
+  {
+   "czas": 4.4,
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "01"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Rejestracja jako osoba bezrobotna",
+     "rozmiar": 84
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Bez tego statusu urząd nie przyjmie wniosku o dotację na start.",
+     "rozmiar": 50,
+     "kolor": "muted",
+     "serif": false
+    }
+   ]
+  },
+  {
+   "czas": 4.4,
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "02"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Poręczyciel",
+     "rozmiar": 84
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Urząd zawsze wymaga zabezpieczenia. Najczęściej jest nim poręczenie.",
+     "rozmiar": 50,
+     "kolor": "muted",
+     "serif": false
+    }
+   ]
+  },
+  {
+   "czas": 4.4,
+   "elementy": [
+    {
+     "typ": "numer",
+     "tekst": "03"
+    },
+    {
+     "typ": "naglowek",
+     "tekst": "Lista zakupów z cenami",
+     "rozmiar": 84
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Urząd sprawdza każdy wydatek osobno, więc każdy trzeba uzasadnić.",
+     "rozmiar": 50,
+     "kolor": "muted",
+     "serif": false
+    }
+   ]
+  },
+  {
+   "czas": 3.8,
+   "elementy": [
+    {
+     "typ": "naglowek",
+     "tekst": "Nabory często trwają tylko kilka dni.",
+     "rozmiar": 92
+    },
+    {
+     "typ": "tekst",
+     "tekst": "Dokumenty warto mieć gotowe przed ogłoszeniem.",
+     "rozmiar": 62,
+     "kolor": "muted",
+     "serif": true
+    }
+   ]
+  },
+  {
+   "czas": 4.6,
+   "koniec": true,
+   "zdanie": "Sprawdzimy nabór w Twoim urzędzie",
+   "przycisk": "Napisz do nas"
+  }
+ ]
+}
