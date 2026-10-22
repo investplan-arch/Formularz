@@ -35,3 +35,4 @@ reports/
 
 # Robocze kopie repo tworzone przez agentów Claude
 .claude/worktrees/
+posty/
