@@ -56,6 +56,11 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://kapita
 | Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
 | Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
 | Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
+| Założenie fundacji (statut pod granty, dokumenty do KRS, CRBR, NIP-8) | 1200 zł na start | 1700 zł po wpisie do KRS | 2900 zł |
+| Pierwszy wniosek o dotację dla fundacji (gmina, powiat, NIW, LGD) | 1500 zł | 5% przyznanej kwoty | 1500 zł + 5% |
+| Pakiet fundacja + pierwszy wniosek | 1200 zł na start, 1500 zł po wpisie do KRS, 1200 zł przy składaniu wniosku | 5% przyznanej kwoty | 3900 zł + 5% |
+
+Ceny fundacji ustalił właściciel 22.10.2026 po analizie rynku (kancelarie biorą za samo założenie od 2799 zł brutto do 4800 zł netto). Najpierw podajesz kwotę za całość, potem podział na etapy. Księgowości nie oferujemy. Opłaty sądowe (250 zł bez działalności gospodarczej) i notariusz są po stronie klienta. Klienci, którzy przed 22.10.2026 dostali ofertę 2350 zł, zachowują tę cenę.
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
 
