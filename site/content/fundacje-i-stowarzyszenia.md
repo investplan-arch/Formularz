@@ -1,6 +1,7 @@
 ---
 title: Założenie fundacji i wnioski grantowe dla NGO | Kapitałownia
 description: Zakładamy fundacje od statutu po wpis do KRS i piszemy pierwsze wnioski grantowe. Pomagamy też stowarzyszeniom przygotować projekty, budżety i wnioski.
+service: Zakładanie fundacji i wnioski grantowe
 path: /fundacje-i-stowarzyszenia/
 hero:
   eyebrow: Organizacje pozarządowe
@@ -15,6 +16,8 @@ hero:
 2. **Notariusz** Przekazujemy treść oświadczenia o ustanowieniu fundacji. Fundator składa je u notariusza, bo ustawa o fundacjach wymaga formy aktu notarialnego.
 3. **Wniosek do KRS** Przygotowujemy wniosek o wpis i załączniki. Składasz go przez Portal Rejestrów Sądowych, a my prowadzimy Cię przez każdy ekran. Wystarczy profil zaufany.
 4. **Po rejestracji** Dostajesz listę obowiązków z terminami, w tym zgłoszenie danych do urzędu skarbowego, konto bankowe i zasady księgowości fundacji.
+
+Koszty, opłaty w KRS i wszystkie formalności opisujemy w poradniku [jak założyć fundację krok po kroku](/wiedza/jak-zalozyc-fundacje/).
 :::
 
 ::: section note

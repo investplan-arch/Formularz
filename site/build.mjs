@@ -373,8 +373,15 @@ function layout(page, bodyHtml, extraHead = '') {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Strona główna', item: site.url + '/' },
-      { '@type': 'ListItem', position: 2, name: hero.title || page.title, item: canonical }
+      ...(page.layout === 'article' ? [{ '@type': 'ListItem', position: 2, name: 'Poradniki', item: site.url + '/wiedza/' }] : []),
+      { '@type': 'ListItem', position: page.layout === 'article' ? 3 : 2, name: hero.title || page.title, item: canonical }
     ]
+  })}</script>` : '';
+  // Strony usług: Service powiązany z organizacją ze strony głównej
+  const serviceLd = page.service && !page.noindex ? `<script type="application/ld+json">${JSON.stringify({
+    '@context': 'https://schema.org', '@type': 'Service', name: hero.title || page.title, serviceType: page.service,
+    description: page.description, url: canonical, areaServed: { '@type': 'Country', name: 'Polska' },
+    provider: { '@type': 'ProfessionalService', '@id': site.url + '/#organizacja', name: site.name, url: site.url + '/' }
   })}</script>` : '';
   const orgLd = isHome ? `<script type="application/ld+json">${JSON.stringify({
     '@context': 'https://schema.org', '@type': ['ProfessionalService', 'Organization'], '@id': site.url + '/#organizacja',
@@ -419,7 +426,7 @@ ${page.noindex ? '' : `<link rel="canonical" href="${canonical}">`}
 <link rel="stylesheet" href="/${cssName}">
 <noscript><link rel="stylesheet" href="/assets/noscript.css"></noscript>
 ${extraHead}
-${orgLd}${crumbLd}
+${orgLd}${crumbLd}${serviceLd}
 </head>
 <body class="page-${page.layout || 'default'}">
 <a class="skip" href="#tresc">Przejdź do treści</a>
@@ -600,7 +607,7 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
       '@context': 'https://schema.org', '@type': 'Article', headline: page.hero.title, description: page.description,
       datePublished: String(page.date), dateModified: String(page.updated || page.date), inLanguage: 'pl',
       mainEntityOfPage: site.url + page.path, image: site.url + '/assets/og.png',
-      author: { '@type': 'Organization', name: site.name, url: site.url + '/' },
+      author: { '@type': 'Organization', '@id': site.url + '/#organizacja', name: site.name, url: site.url + '/' },
       publisher: { '@type': 'Organization', name: site.name, logo: { '@type': 'ImageObject', url: site.url + '/assets/apple-touch-icon.png' } }
     })}</script>`;
   } else if (page.layout === 'wiedza') {

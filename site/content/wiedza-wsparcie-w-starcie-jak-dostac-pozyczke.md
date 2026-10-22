@@ -1,9 +1,10 @@
 ---
-title: Wsparcie w starcie, jak dostać pożyczkę BGK | Kapitałownia
+title: Wsparcie w starcie 2026, umorzenie i jak dostać pożyczkę | Kapitałownia
 description: Pożyczka Pierwszy biznes - Wsparcie w starcie w praktyce. Kto może ją dostać, jak znaleźć pośrednika, jaki biznesplan i zabezpieczenie przygotować, jak liczyć ratę.
 path: /wiedza/wsparcie-w-starcie-jak-dostac-pozyczke/
 layout: article
 date: 2026-10-14
+updated: 2026-10-22
 hero:
   eyebrow: Wiedza
   title: Jak dostać pożyczkę Wsparcie w starcie na założenie firmy?
@@ -90,7 +91,7 @@ Pośrednik może poprosić o uzupełnienia albo zaprosić na rozmowę. Przygotuj
 
 ## Jak policzyć ratę
 
-Nie podajemy w tym artykule oprocentowania, bo źródła dostępne w październiku 2026 roku podają różne wartości, a stawka zależy od przepisów i może się zmieniać. Aktualne oprocentowanie podaje BGK i pośrednik. Możesz jednak samodzielnie oszacować, jakie obciążenie pojawi się w budżecie firmy.
+Według strony BGK o pożyczce na samozatrudnienie (stan z 22 października 2026 roku) oprocentowanie wynosi 0,25% w skali roku. Pożyczka nie ma opłat ani prowizji. Obowiązującą stawkę i harmonogram zawsze potwierdza umowa z pośrednikiem. Ratę możesz oszacować samodzielnie.
 
 Rachunek wygląda tak.
 
@@ -103,13 +104,13 @@ Przykład rachunkowy wygląda tak. Przy pożyczce 100 000 zł, 12 miesiącach ka
 
 Tę ratę trzeba wpisać do prognozy przepływów pieniężnych od pierwszego miesiąca po karencji. Jeśli w prognozie firma nie ma na nią pieniędzy, pośrednik to zauważy.
 
-<!-- TODO: oprocentowanie. Wyniki wyszukiwania z października 2026 r. podają rozbieżne wartości (strona BGK według fragmentu wyników: 1,45% lub 0,58% w skali roku; inne źródła: 0,25% lub ułamek stopy redyskonta weksli NBP). Potwierdź aktualną stawkę na bgk.pl i dopisz ze źródłem i datą. -->
 
 ## Czy część pożyczki można umorzyć
 
-Źródła mówią o możliwości umorzenia części pożyczki po spełnieniu określonych warunków, ale podają różne zasady i limity. Nie opisujemy ich tutaj, żeby nie wprowadzać w błąd. Jeśli umorzenie ma znaczenie dla Twojej decyzji, zapytaj pośrednika o aktualne warunki i poproś o wskazanie podstawy prawnej. Przy planowaniu zakładaj, że oddajesz całą kwotę.
+Tak. Według BGK część kapitału może zostać umorzona, maksymalnie do 6-krotności przeciętnego wynagrodzenia i nie więcej niż 50% wartości pożyczki. Przy przeciętnym wynagrodzeniu za II kwartał 2026 roku (9233,13 zł) górna granica to 55 398,78 zł. Warunki są dwa. Firma musi działać co najmniej 12 miesięcy i nie możesz mieć zaległości w spłacie rat.
 
-<!-- TODO: umorzenie. Źródła wtórne podają sprzeczne informacje (np. "do 50%" albo "do 6-krotności przeciętnego wynagrodzenia" po 12 miesiącach działalności i terminowej spłacie). Sprawdź na bgk.pl i w ustawie o rynku pracy i służbach zatrudnienia z 2025 r. -->
+Umorzenie nie dzieje się samo. Składasz wniosek u pośrednika, a szczegóły opisuje regulamin projektu. Osoby pracujące, które biorą pożyczkę bez odchodzenia z pracy, nie mają prawa do umorzenia, dlatego w ich prognozie zakładamy spłatę całej kwoty. Umorzenie pożyczki wyklucza też późniejszą dotację z urzędu pracy na ten sam cel.
+
 
 ## Pożyczka na utworzenie stanowiska pracy
 
@@ -149,6 +150,7 @@ Przygotowujemy biznesplan z prognozą spłaty, wniosek i listę załączników w
 
 ## Źródła
 
+- [BGK, Pożyczka na samozatrudnienie](https://www.bgk.pl/produkty/pozyczka-na-samozatrudnienie/)
 - [BGK, Rządowy Program Pierwszy biznes - Wsparcie w starcie](https://www.bgk.pl/programy-i-fundusze/rzadowy-program-pierwszy-biznes-wsparcie-w-starcie/)
 - [BGK, Pożyczki z programu Pierwszy biznes - Wsparcie w starcie](https://www.bgk.pl/male-i-srednie-przedsiebiorstwa/inwestycje/finansowanie-ze-srodkow-krajowych/pozyczki-z-programu-pierwszy-biznes-wsparcie-w-starcie/)
 - [Ministerstwo Rodziny, Pracy i Polityki Społecznej, Wsparcie w starcie krok po kroku](https://www.gov.pl/web/rodzina/wsparcie-w-starcie--krok-po-kroku-do-wlasnego-biznesu)
