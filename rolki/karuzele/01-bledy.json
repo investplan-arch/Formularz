@@ -1,0 +1,12 @@
+{
+  "zrodlo": "Ustawa o rynku pracy, art. 147-153. Stan 10.2026",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Dotacja z urzędu pracy", "tytul": "5 ruchów, które zamykają Ci dotację z PUP", "akcent": "zamykają", "podtytul": "Większość z nich robi się w dobrej wierze, zanim ktokolwiek przeczyta wniosek." },
+    { "typ": "punkt", "numer": "01", "tytul": "Firma założona przed umową", "tekst": "Dotacja jest na podjęcie działalności. Rejestrujesz firmę dopiero po podpisaniu umowy z urzędem, w terminie, który ona wskazuje.", "uwaga": "Wcześniejsza rejestracja zwykle oznacza utratę statusu bezrobotnego i prawa do środków." },
+    { "typ": "punkt", "numer": "02", "tytul": "Firma w ostatnich 12 miesiącach", "tekst": "Warunkiem jest brak działalności gospodarczej przez rok przed wnioskiem. Liczy się też firma zawieszona i ta zamknięta kilka miesięcy temu." },
+    { "typ": "punkt", "numer": "03", "tytul": "Zlecenie albo etat w trakcie oczekiwania", "tekst": "Każda umowa o pracę i każda umowa zlecenia, nawet na drobną kwotę, wyklucza status osoby bezrobotnej. Bez tego statusu wniosek przepada.", "uwaga": "Jeśli coś podpisujesz w czasie naboru, najpierw sprawdź skutki." },
+    { "typ": "punkt", "numer": "04", "tytul": "Zakupy przed umową", "tekst": "Wydatki poniesione przed zawarciem umowy zwykle nie są rozliczane z dotacji. Kupujesz dopiero to, co znalazło się w zatwierdzonej specyfikacji." },
+    { "typ": "punkt", "numer": "05", "tytul": "Poręczyciel sprawdzony za późno", "tekst": "Zabezpieczenie zwrotu jest obowiązkowe, a wymagania wobec poręczyciela ustala urząd. Dochód, wiek, rodzaj i okres umowy o pracę.", "uwaga": "Poręczyciela szukasz przed złożeniem wniosku, nie po decyzji." },
+    { "typ": "koniec", "tytul": "Zanim złożysz wniosek, sprawdź swoją sytuację", "tekst": "Napisz do nas DOTACJA. Powiemy, z czego możesz skorzystać i na co uważać w Twoim urzędzie.", "przycisk": "Napisz DOTACJA" }
+  ]
+}
