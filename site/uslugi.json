@@ -108,7 +108,7 @@
         "wniosek grantowy gotowy do złożenia"
       ],
       "cena": 1290,
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/dRmeVf85GdKe8kT1Ex6Zy0c",
       "successFee": 1200,
       "feeKiedy": "po wpisie fundacji do KRS",
       "feeTotal": "Łącznie 2490 zł. Opłatę sądową i taksę notarialną fundator płaci osobno."

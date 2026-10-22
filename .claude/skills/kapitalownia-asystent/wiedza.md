@@ -81,7 +81,7 @@ Link Stripe na 3100 zł: [BRAK LINKU, właściciel musi go podać].
 
 ### Założenie fundacji
 
-Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie fundacji do KRS, a nie po przyznaniu grantu. Linków Stripe jeszcze nie ma, więc na stronie przycisk prowadzi do formularza. Cenę podajesz w tej formie.
+Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie fundacji do KRS, a nie po przyznaniu grantu. Link Stripe na 1290 zł (fundacja z pierwszym wnioskiem grantowym, utworzony 22.10.2026): https://buy.stripe.com/dRmeVf85GdKe8kT1Ex6Zy0c. Linku na 690 zł (samo założenie fundacji) jeszcze nie ma, więc przy tej usłudze przycisk na stronie prowadzi do formularza. Cenę podajesz w tej formie.
 > Założenie fundacji kosztuje 1490 zł w dwóch częściach. 690 zł na start, a 800 zł dopiero po wpisie fundacji do KRS. Opłatę sądową 250 zł i notariusza płaci fundator osobno.
 
 Fakty do rozmowy. Oświadczenie o ustanowieniu fundacji wymaga aktu notarialnego (art. 3 ust. 1 ustawy o fundacjach), więc notariusz jest zawsze potrzebny. Wpis do KRS kosztuje 250 zł, a z działalnością gospodarczą 500 zł. Przy działalności gospodarczej fundator przeznacza na nią co najmniej 1000 zł (art. 5 ust. 5), które zostają w fundacji. Wniosek do KRS składa klient przez Portal Rejestrów Sądowych z naszą instrukcją, bo nie jesteśmy pełnomocnikiem procesowym. Księgowości nie prowadzimy. Zanim obiecasz grant dla świeżej fundacji, sprawdź, czy konkurs dopuszcza organizacje bez historii.
