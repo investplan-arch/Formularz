@@ -1,0 +1,14 @@
+{
+  "zrodlo": "Ustawa o rynku pracy, art. 147-153. Stan 10.2026",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Krok po kroku", "tytul": "Dotacja z urzędu pracy w 6 krokach", "akcent": "6 krokach", "podtytul": "Od rejestracji w PUP do rozliczenia zakupów. Kolejność jest zawsze ta sama." },
+    { "typ": "lista", "tytul": "Cała droga w skrócie", "pozycje": ["Rejestracja w PUP jako osoba bezrobotna", "Nabór i regulamin Twojego urzędu", "Wniosek z biznesplanem", "Ocena i negocjacje", "Umowa, zabezpieczenie, rejestracja firmy", "Zakupy i rozliczenie"], "tekst": "Potem prowadzisz firmę co najmniej 12 miesięcy." },
+    { "typ": "punkt", "numer": "01", "tytul": "Rejestracja w urzędzie pracy", "tekst": "Wniosek składa osoba zarejestrowana jako bezrobotna, która przez ostatnie 12 miesięcy nie prowadziła firmy. Część urzędów przyznaje punkty za dłuższy okres rejestracji." },
+    { "typ": "punkt", "numer": "02", "tytul": "Nabór i regulamin", "tekst": "Wnioski przyjmuje się w ogłoszonych naborach, czasem kilkudniowych. Regulamin danego roku mówi, ile można dostać, na co wydać i jakie zabezpieczenie przyjmie urząd." },
+    { "typ": "punkt", "numer": "03", "tytul": "Wniosek z biznesplanem", "tekst": "Każdy PUP ma własny wzór. Komisja patrzy na konkrety, czyli klientów, konkurencję, ceny i uzasadnienie każdego zakupu.", "uwaga": "Kwoty we wniosku, specyfikacji i biznesplanie muszą się zgadzać." },
+    { "typ": "punkt", "numer": "04", "tytul": "Ocena i negocjacje", "tekst": "Urząd sprawdza wniosek formalnie, a przy brakach wzywa do uzupełnienia. W negocjacjach może zaproponować niższą kwotę albo zmianę zakupów. To normalny etap, nie odmowa." },
+    { "typ": "punkt", "numer": "05", "tytul": "Umowa, potem firma", "tekst": "Po pozytywnej decyzji podpisujesz umowę i ustanawiasz zabezpieczenie. Działalność rejestrujesz dopiero wtedy, w terminie z umowy." },
+    { "typ": "punkt", "numer": "06", "tytul": "Zakupy i rozliczenie", "tekst": "Kupujesz według specyfikacji z umowy i rozliczasz się w jej terminie. Zmiana sprzętu albo przesunięcie kwot wymaga zgody urzędu przed zakupem." },
+    { "typ": "koniec", "tytul": "Przygotujemy wniosek i biznesplan za Ciebie", "tekst": "Pracujemy zdalnie z całą Polską, według wzoru i regulaminu Twojego urzędu.", "przycisk": "Napisz DOTACJA" }
+  ]
+}

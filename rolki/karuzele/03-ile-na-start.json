@@ -1,0 +1,12 @@
+{
+  "zrodlo": "GUS, przeciętne wynagrodzenie II kw. 2026 9233,13 zł. Stan 10.2026",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Start firmy 2026", "tytul": "Ile możesz dostać na start firmy w 2026 roku", "akcent": "Ile możesz dostać", "podtytul": "Cztery źródła, cztery różne kwoty i warunki. Porównanie na liczbach." },
+    { "typ": "kafle", "tytul": "Dotacja z urzędu pracy", "kafle": [ { "etykieta": "Maksimum z ustawy", "wartosc": "55 398,78 zł", "opis": "6-krotność przeciętnego wynagrodzenia" }, { "etykieta": "W praktyce w 2026", "wartosc": "najczęściej 30-40 tys. zł", "opis": "limit ustala każdy urząd" }, { "etykieta": "Dla kogo", "wartosc": "osoby bezrobotne", "opis": "bez firmy w ostatnich 12 miesiącach" } ] },
+    { "typ": "kafle", "tytul": "Pożyczka Wsparcie w starcie", "kafle": [ { "etykieta": "Kwota", "wartosc": "do 184 662,60 zł", "opis": "20-krotność przeciętnego wynagrodzenia" }, { "etykieta": "Warunki", "wartosc": "0,25% rocznie", "opis": "do 7 lat spłaty, do 12 miesięcy przerwy w spłacie" }, { "etykieta": "Umorzenie", "wartosc": "do 50% pożyczki", "opis": "dla osób, które mogły dostać dotację z PUP, np. bezrobotnych" } ] },
+    { "typ": "kafle", "tytul": "Środki PFRON", "kafle": [ { "etykieta": "Przy 12 miesiącach firmy", "wartosc": "do 55 398,78 zł", "opis": "6-krotność przeciętnego wynagrodzenia" }, { "etykieta": "Przy 24 miesiącach firmy", "wartosc": "do 138 496,95 zł", "opis": "15-krotność przeciętnego wynagrodzenia" }, { "etykieta": "Dla kogo", "wartosc": "osoby z orzeczeniem", "opis": "zarejestrowane w PUP, niepracujące" } ] },
+    { "typ": "kafle", "tytul": "Premia z LGD", "kafle": [ { "etykieta": "Spotykane kwoty", "wartosc": "50-150 tys. zł", "opis": "kwotę ustala każda LGD w naborze" }, { "etykieta": "Forma", "wartosc": "zwykle refundacja", "opis": "najczęściej do 65% kosztów kwalifikowalnych" }, { "etykieta": "Dla kogo", "wartosc": "mieszkańcy obszaru LGD", "opis": "bez firmy w ostatnim roku, także pracujący" } ] },
+    { "typ": "punkt", "tytul": "Które źródło wybrać?", "tekst": "Decyduje Twoja sytuacja. Czy pracujesz, czy jesteś w urzędzie pracy, gdzie mieszkasz i ile potrzebujesz. Czasem lepsza jest bezzwrotna dotacja, czasem większa pożyczka z umorzeniem.", "uwaga": "Źródeł nie łączy się dowolnie. Umorzenie pożyczki zamyka późniejszą dotację z PUP." },
+    { "typ": "koniec", "tytul": "Sprawdzimy, które źródło jest dla Ciebie", "tekst": "Napisz, gdzie ma działać firma i czy teraz pracujesz.", "przycisk": "Napisz DOTACJA" }
+  ]
+}

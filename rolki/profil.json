@@ -1,0 +1,9 @@
+[
+  { "plik": "start", "tekst": "START" },
+  { "plik": "pup", "tekst": "PUP" },
+  { "plik": "wws", "tekst": "BGK" },
+  { "plik": "lgd", "tekst": "LGD" },
+  { "plik": "pfron", "tekst": "PFRON" },
+  { "plik": "fundacje", "tekst": "NGO" },
+  { "plik": "pytania", "tekst": "Q&A" }
+]

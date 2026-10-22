@@ -1,0 +1,11 @@
+{
+  "zrodlo": "Ustawa o rynku pracy, art. 172. Stan 10.2026",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Pracujesz na etacie?", "tytul": "Etat albo zlecenie i własna firma. Co jest dla Ciebie otwarte", "akcent": "otwarte", "podtytul": "Dotacja z urzędu pracy odpada. Pozostałe drogi nie." },
+    { "typ": "punkt", "numer": "01", "tytul": "Dlaczego PUP odpada", "tekst": "Dotację z urzędu pracy dostaje osoba bezrobotna. Każda umowa o pracę, także na część etatu, i każda umowa zlecenia wykluczają ten status." },
+    { "typ": "punkt", "numer": "02", "tytul": "Pożyczka Wsparcie w starcie", "tekst": "Mogą ją dostać osoby pracujące, jeśli średni miesięczny przychód z ostatnich 3 miesięcy nie przekracza przeciętnego wynagrodzenia. Za II kwartał 2026 to 9233,13 zł.", "uwaga": "Przy tej ścieżce nie ma umorzenia, pożyczkę spłacasz w całości." },
+    { "typ": "punkt", "numer": "03", "tytul": "Premia z LGD", "tekst": "Lokalne Grupy Działania wspierają mieszkańców swojego obszaru, najczęściej wsi i małych miast. Status na rynku pracy zwykle nie ma znaczenia, ale przez ostatni rok nie możesz prowadzić firmy." },
+    { "typ": "punkt", "numer": "04", "tytul": "Albo odejście z pracy", "tekst": "Po zakończeniu umowy i rejestracji w PUP otwiera się bezzwrotna dotacja i pożyczka z prawem do umorzenia. Najpierw jednak sprawdź, czy Twój urząd ma nabór i jaki limit.", "uwaga": "To decyzja finansowa. Policz oba warianty, zanim złożysz wypowiedzenie." },
+    { "typ": "koniec", "tytul": "Policzymy, która droga się opłaca", "tekst": "Napisz, gdzie ma działać firma i na jakiej umowie teraz pracujesz.", "przycisk": "Napisz DOTACJA" }
+  ]
+}

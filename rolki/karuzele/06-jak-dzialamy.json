@@ -1,0 +1,9 @@
+{
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Kapitałownia", "tytul": "Piszemy wnioski o pieniądze na firmę za Ciebie", "akcent": "za Ciebie", "podtytul": "Od 4 lat. 211 naszych wniosków zostało ocenionych pozytywnie." },
+    { "typ": "lista", "tytul": "W czym pomagamy", "pozycje": ["Dotacja z urzędu pracy", "Środki PFRON na działalność", "Pożyczka Wsparcie w starcie", "Premia z LGD", "Zakładanie fundacji i wnioski grantowe", "Pożyczki i dotacje dla działających firm"] },
+    { "typ": "lista", "tytul": "Jak wygląda współpraca", "pozycje": ["Piszesz do nas, sprawdzamy, z czego możesz skorzystać", "Wybieramy jedno najlepsze źródło", "Wypełniasz krótki formularz o swoim pomyśle", "Piszemy wniosek i biznesplan pod Twój urząd", "Poprawiamy, gdy urząd wezwie do uzupełnień"], "tekst": "Wszystko zdalnie, z całą Polską." },
+    { "typ": "punkt", "tytul": "Uczciwie o decyzji", "tekst": "O przyznaniu pieniędzy zawsze decyduje urząd, LGD albo pośrednik. My odpowiadamy za to, żeby wniosek był kompletny, spójny i dobrze uzasadniony." },
+    { "typ": "koniec", "tytul": "Zacznij od bezpłatnej oceny szans", "tekst": "Napisz DOTACJA albo wejdź w link w bio.", "przycisk": "kapitalownia.pl/ocena-szans" }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "zrodlo": "Ustawa o rynku pracy, art. 2. Stan 10.2026",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Mit o dotacji", "tytul": "„Małe zlecenie nie przeszkadza w dotacji”", "akcent": "nie przeszkadza", "podtytul": "Przeszkadza. Wyjaśniamy dlaczego i co z tym zrobić." },
+    { "typ": "punkt", "tytul": "Co mówi ustawa", "tekst": "Bezrobotny nie może być zatrudniony ani wykonywać innej pracy zarobkowej. Umowa zlecenia i umowa o dzieło to inna praca zarobkowa, bez względu na kwotę.", "uwaga": "Zlecenie na 300 zł zamyka dotację tak samo jak etat." },
+    { "typ": "punkt", "tytul": "Inne dochody też się liczą", "tekst": "Statusu bezrobotnego nie ma też osoba ze stałym źródłem dochodu, na przykład z najmu powyżej połowy minimalnego wynagrodzenia miesięcznie. Stałym dochodem jest też m.in. emerytura." },
+    { "typ": "punkt", "tytul": "Co możesz zrobić", "tekst": "Zakończ zlecenie, zarejestruj się w PUP jako bezrobotny i dopiero potem składaj wniosek w naborze. Jeśli nie chcesz rezygnować z pracy, sprawdź pożyczkę Wsparcie w starcie albo premię z LGD." },
+    { "typ": "koniec", "tytul": "Masz zlecenie i chcesz założyć firmę?", "tekst": "Napisz do nas, sprawdzimy Twoją sytuację, zanim cokolwiek wypowiesz.", "przycisk": "Napisz DOTACJA" }
+  ]
+}

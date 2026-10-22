@@ -1,4 +1,5 @@
-import { Composition } from 'remotion';
+import { Composition, Still } from 'remotion';
+import { SlajdKaruzeli, SlajdProps, OkladkaProfilu, OkladkaProps } from './Karuzela';
 import { Rolka, RolkaProps, czasTrwania } from './Rolka';
 import { Start, START_DLUGOSC } from './Start';
 import lista from '../scenariusze/lista.json';
@@ -18,5 +19,13 @@ export const Root = () => (
       calculateMetadata={({ props }) => ({ durationInFrames: czasTrwania(props, FPS) })}
     />
     <Composition id="Start" component={Start} width={1080} height={1920} fps={FPS} durationInFrames={START_DLUGOSC} />
+    <Still
+      id="Slajd"
+      component={SlajdKaruzeli}
+      width={1080}
+      height={1350}
+      defaultProps={{ slajd: { typ: 'okladka', etykieta: 'Dotacja z PUP', tytul: 'Przykładowa okładka' }, nr: 1, razem: 1 } as SlajdProps}
+    />
+    <Still id="Okladka" component={OkladkaProfilu} width={1080} height={1080} defaultProps={{} as OkladkaProps} />
   </>
 );
