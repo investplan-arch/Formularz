@@ -47,7 +47,15 @@ C. Szukam kogoś do wniosku albo biznesplanu
 D. Fundacja albo stowarzyszenie
 > Zakładamy fundacje od statutu po wpis do KRS i pomagamy przy pierwszym grancie. Zapraszam na priv, czym fundacja ma się zajmować?
 
-Grupy, w których strona jest członkiem i które mają pytania o finansowanie: „Dotacje • Fundusze • LGD • Urząd Pracy • Szkolenia”, „Dotacje z Urzędu Pracy i UE”. „Dotacje unijne - Wsparcie w starcie” to głównie reklamy konkurencji.
+Strona należy do 66 grup (lista w facebook.com/groups/joins jako strona). Właściciel 22.10.2026 polecił komentować we wszystkich, w których może się sprawdzić nasza usługa, także w grupach biznesowych, gdy ktoś szuka rozwiązania albo pieniędzy. Każdy komentarz piszesz pod konkretny post (region, branża, sytuacja), konkretną wiedzą, bez szablonu i bez wzorców AI, i kończysz zaproszeniem na priv. Posty sprzed ponad 2 tygodni pomijasz.
+
+Grupy do przeglądania (ID albo adres): 382500297954236, 1416568616858601, 329157923561846, 434338129371071, aktualnedotacje, KasaUE, 747883670512211, konkursyngo, 1179393112680996, dotacje.unijne.dofinansowania.pozyczki.fundusze, ofertybiznesu, 1464316974366241, 127659064629445, bazafunduszy, 397288445999412, fundusze.unijne.2021.2027.dotacje, 678589875991943, polskie.rolnictwo.pro, szukam.pomocy.wnioski.dotacje, dlaprzedsiebiorcow, 722638261783778, 724772859869740, 1025379502252607, 3548306795396304, 698732346911305, 713537793667818, 1325295838718203, 333435135108341, dotacjecalapolska, 395146794363789, 390397160450563, 3456101731358050, 1630999990744477, dotacjeunia, dotacjeue, dotacjezurzedupracy.
+
+Pomijasz grupy z wymianą opinii i lajków, chwilówkami, kosmetykami i ogłoszeniami lokalnymi z Legnicy. Nigdy nie piszesz z prywatnego profilu.
+
+Stan 22.10.2026: limit oczekującej zawartości w „Dotacje z Urzędu Pracy i UE” i „Dotacje 2021-2027” (aktualnedotacje). W „Fundacje, stowarzyszenia, dotacje, dofinansowania” (747883670512211) komentarze strony po chwili znikają, pewnie czekają na akceptację admina. Nie powtarzaj ich. „Dotacje unijne - Wsparcie w starcie” to głównie reklamy konkurencji.
+
+Małe granty z art. 19a ustawy o pożytku mają od 1.09.2026 według źródeł wyższy limit (do 20 tys. zł). Do potwierdzenia w Dz.U. nie podajesz kwoty.
 
 ## Rodzaje postów, które zwykle działają
 
