@@ -1,6 +1,7 @@
 ---
-title: Pożyczka BGK Wsparcie w starcie, biznesplan | Kapitałownia
-description: Pożyczka Pierwszy biznes - Wsparcie w starcie z BGK na założenie firmy. Kto może ją dostać, ile wynosi, jak wygląda spłata i jak przygotować biznesplan dla pośrednika.
+title: Pożyczka Wsparcie w starcie 2026, umorzenie i biznesplan | Kapitałownia
+description: Pożyczka Wsparcie w starcie z BGK do 184 tys. zł na 0,25%, z umorzeniem do 50%. Kto może ją dostać, jak wygląda spłata i jak przygotować biznesplan dla pośrednika.
+service: Biznesplan i wniosek o pożyczkę Wsparcie w starcie
 path: /wsparcie-w-starcie/
 hero:
   eyebrow: Pożyczka BGK na start
@@ -19,7 +20,18 @@ Pierwszy biznes - Wsparcie w starcie to rządowy program pożyczek na rozpoczęc
 
 To pożyczka, a nie dotacja. Pieniądze trzeba oddać, ale na warunkach łagodniejszych niż w banku. Długi okres spłaty i karencja sprawiają, że w pierwszym roku firmy nie musisz od razu spłacać kapitału.
 
-<!-- TODO: zweryfikuj na bgk.pl aktualne oprocentowanie pożyczki i ewentualne zasady umorzenia części pożyczki. Nie podawaj ich na stronie bez potwierdzenia. -->
+Najważniejsze parametry według BGK (stan z 22 października 2026 roku).
+
+| Parametr | Wartość |
+|---|---|
+| Kwota | do 20-krotności przeciętnego wynagrodzenia, przy danych za II kw. 2026 r. 184 662,60 zł |
+| Oprocentowanie | 0,25% w skali roku |
+| Spłata | do 7 lat |
+| Karencja | do 12 miesięcy |
+| Umorzenie | do 6-krotności przeciętnego wynagrodzenia (55 398,78 zł), nie więcej niż 50% pożyczki, po 12 miesiącach działalności i bez zaległości w ratach |
+| Opłaty i prowizje | brak |
+
+Osoby pracujące mogą dostać pożyczkę bez rezygnacji z etatu, ale bez umorzenia. Co jeszcze jest otwarte dla osób na etacie, opisujemy w poradniku o [dofinansowaniu na firmę dla pracujących](/wiedza/dofinansowanie-na-firme-dla-pracujacych/).
 :::
 
 ::: section split
@@ -94,6 +106,7 @@ Decyzję o przyznaniu pożyczki podejmuje pośrednik finansowy. Nikt nie może j
 
 Dane sprawdzone w październiku 2026 roku na stronach instytucji publicznych.
 
+- [BGK, Pożyczka na samozatrudnienie](https://www.bgk.pl/produkty/pozyczka-na-samozatrudnienie/)
 - [BGK, Pierwszy biznes - Wsparcie w starcie](https://www.bgk.pl/male-i-srednie-przedsiebiorstwa/inwestycje/finansowanie-ze-srodkow-krajowych/pozyczki-z-programu-pierwszy-biznes-wsparcie-w-starcie/)
 - [Ministerstwo Rodziny, Pracy i Polityki Społecznej, Wsparcie w starcie krok po kroku](https://www.gov.pl/web/rodzina/wsparcie-w-starcie--krok-po-kroku-do-wlasnego-biznesu)
 :::

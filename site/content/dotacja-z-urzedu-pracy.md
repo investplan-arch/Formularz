@@ -1,6 +1,7 @@
 ---
-title: Dotacja z urzędu pracy na założenie firmy | Kapitałownia
+title: Dotacja z urzędu pracy 2026 na założenie firmy | Kapitałownia
 description: Jednorazowe środki z powiatowego urzędu pracy na podjęcie działalności. Kto może je dostać, ile wynoszą, jakie są warunki i jak przygotować wniosek z biznesplanem.
+service: Przygotowanie wniosku o dotację z urzędu pracy z biznesplanem
 path: /dotacja-z-urzedu-pracy/
 hero:
   eyebrow: Dotacja z PUP
@@ -31,6 +32,8 @@ Najczęściej o środki ubiegają się osoby bezrobotne zarejestrowane w urzędz
 - **Warunki lokalne.** Starosta może określić dodatkowe wymagania, na przykład co do rodzaju działalności.
 
 Każdy urząd ma własne zasady, dlatego zawsze zaczynamy od przeczytania regulaminu Twojego PUP.
+
+Etat albo umowa zlecenia wykluczają status bezrobotnego. Jeśli pracujesz, sprawdź, [jakie dofinansowanie na firmę jest dostępne dla osób pracujących](/wiedza/dofinansowanie-na-firme-dla-pracujacych/).
 :::
 
 ::: section

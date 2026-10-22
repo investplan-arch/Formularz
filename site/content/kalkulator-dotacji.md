@@ -1,5 +1,5 @@
 ---
-title: Kalkulator dotacji na start firmy 2026, PUP, PFRON, BGK | Kapitałownia
+title: Kalkulator dotacji na start firmy 2026 | Kapitałownia
 description: Sprawdź, ile maksymalnie możesz dostać z urzędu pracy, PFRON i pożyczki BGK Wsparcie w starcie. Kwoty liczone od aktualnego przeciętnego wynagrodzenia z komunikatu GUS.
 path: /kalkulator-dotacji/
 hero:

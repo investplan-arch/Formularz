@@ -1,6 +1,7 @@
 ---
-title: Dotacja na otwarcie firmy z PUP, PFRON, LGD i BGK | Kapitałownia
+title: Dofinansowanie na otwarcie firmy 2026, PUP, PFRON, BGK | Kapitałownia
 description: Dotacja z urzędu pracy, środki z LGD i PFRON oraz pożyczka BGK Pierwszy biznes - Wsparcie w starcie. Pomagamy wybrać źródło finansowania i przygotować wniosek z biznesplanem.
+service: Wnioski o dofinansowanie na założenie firmy
 path: /finansowanie-na-start/
 hero:
   eyebrow: Start firmy
@@ -28,4 +29,6 @@ Porównanie najczęściej wybieranych źródeł finansowania. Szczegółowo opis
 ## Zanim się zarejestrujesz
 
 W wielu programach liczy się kolejność działań. Część środków można otrzymać tylko przed rejestracją firmy. Dlatego najlepiej skontaktować się z nami, zanim złożysz wniosek o wpis do CEIDG albo podpiszesz umowy związane z działalnością.
+
+Pracujesz na etacie albo na zleceniu? Zobacz, [które źródła są otwarte bez rezygnacji z pracy](/wiedza/dofinansowanie-na-firme-dla-pracujacych/).
 :::

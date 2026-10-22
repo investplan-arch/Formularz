@@ -1,6 +1,7 @@
 ---
 title: Dotacje dla OSP i granty Fundacji ORLEN | Kapitałownia
 description: Pomagamy ochotniczym strażom pożarnym pozyskać środki na sprzęt, wyposażenie i szkolenia. Granty Fundacji ORLEN Razem dla bezpieczeństwa i inne źródła finansowania OSP.
+service: Wnioski grantowe dla OSP
 path: /dotacje-dla-osp/
 hero:
   eyebrow: Ochotnicze Straże Pożarne

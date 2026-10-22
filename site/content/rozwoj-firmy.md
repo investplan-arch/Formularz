@@ -1,6 +1,7 @@
 ---
 title: Dotacje i pożyczki na rozwój firmy | Kapitałownia
 description: Dotacje i pożyczki na inwestycje, maszyny, wyposażenie i rozwój usług. Kapitałownia przygotowuje biznesplany i dokumentację dla firm i spółek.
+service: Biznesplany i wnioski o finansowanie rozwoju firmy
 path: /rozwoj-firmy/
 hero:
   eyebrow: Rozwój firmy
