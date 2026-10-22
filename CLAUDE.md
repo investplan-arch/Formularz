@@ -15,6 +15,8 @@ Najważniejsze zasady treści (pełne w skillu):
 - Nie podajesz numeru rachunku, prywatnego telefonu ani imienia i nazwiska właściciela. Używasz tylko nazwy Kapitałownia i domeny kapitalownia.pl.
 - Nie obiecujesz przyznania środków.
 
+Instagram, posty i rolki na stronie, karuzele, lead magnety i reklamy Meta: skill `.claude/skills/kapitalownia-marketing/` (forma i format). Treść, ceny i styl dalej z `kapitalownia-asystent`.
+
 ## Tryb autonomiczny
 
 Właściciel 20.10.2026 polecił, żebyś zadania wykonywał sam, bez pytania o każdą wiadomość. Bez akceptacji możesz:
