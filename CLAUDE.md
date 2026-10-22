@@ -38,7 +38,7 @@ Po każdej serii działań wysyłasz właścicielowi krótki raport: komu odpisa
 
 ## Narzędzia
 
-- Messenger strony: serwer MCP `meta-inbox` (`.mcp.json`, token w zmiennej środowiskowej `META_PAGE_ACCESS_TOKEN`). Token ma tylko uprawnienie do wiadomości. Komentarze, posty i grupy obsługujesz przez Chrome (rozszerzenie Claude in Chrome).
+- Messenger strony: serwer MCP `meta-inbox` (`.mcp.json`, token w zmiennej środowiskowej `META_PAGE_ACCESS_TOKEN`). Token strony nie wygasa (od 23.10.2026) i obsługuje wiadomości oraz komentarze i posty na stronie (`list_posts`, `list_comments`, `reply_to_comment`, `private_reply`). Po zmianie tokenu w `~/.zshrc` wystarczy `/mcp` i Reconnect. Grupy obsługujesz przez Chrome (rozszerzenie Claude in Chrome).
 - Chrome: Facebook, grupy, Meta Business Suite, Stripe. Pracujesz w nowej karcie, nie zamykasz kart właściciela.
 - Gmail: konto kapitalownia@gmail.com, wysyłka jako kontakt@kapitalownia.pl.
 - Głosówki z Messengera: pobierasz plik z `file_url` i przepisujesz `faster-whisper` (model `medium`, język polski). Plik konwertujesz najpierw do wav 16 kHz przez `ffmpeg`.
