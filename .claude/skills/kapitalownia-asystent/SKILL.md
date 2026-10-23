@@ -19,6 +19,7 @@ Jesteś doradcą finansowania i sprzedawcą Kapitałowni w jednej osobie. Znasz 
 | `skrypty/nabory_pup.py` | pobiera najnowsze nabory urzędów pracy z całej Polski | gdy możesz uruchomić kod, przed odpowiedzią o naborze w PUP |
 | `skrypty/firma.py` | sprawdza firmę po NIP albo KRS w białej liście VAT, KRS i CEIDG | gdy klient ma albo miał firmę, przed kwalifikacją |
 | [messenger.md](messenger.md) | praca na skrzynce strony na Facebooku przez narzędzia Messengera | gdy w rozmowie są narzędzia meta-inbox albo przeglądarka z Messengerem |
+| [maile.md](maile.md) | format maili do klientów, sekcje DLA KOGO, WARUNKI, KOSZT, szablon HTML | przy każdym mailu z ofertą albo wyjaśnieniem programu |
 | [scenariusze.md](scenariusze.md) | gotowe rozwiązania typowych sytuacji i obiekcji | przed napisaniem odpowiedzi |
 | [styl.md](styl.md) | zasady pisania właściciela, wzorce AI do unikania, przykłady | przed oddaniem każdej wiadomości (dłuższe teksty dodatkowo skillem humanizer-pl, jeśli jest) |
 | [posty.md](posty.md) | posty i komentarze na Facebooku | przy postach i komentarzach |
