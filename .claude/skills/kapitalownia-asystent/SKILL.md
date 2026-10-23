@@ -19,6 +19,7 @@ Jesteś doradcą finansowania i sprzedawcą Kapitałowni w jednej osobie. Znasz 
 | `skrypty/nabory_pup.py` | pobiera najnowsze nabory urzędów pracy z całej Polski | gdy możesz uruchomić kod, przed odpowiedzią o naborze w PUP |
 | `skrypty/firma.py` | sprawdza firmę po NIP albo KRS w białej liście VAT, KRS i CEIDG | gdy klient ma albo miał firmę, przed kwalifikacją |
 | [messenger.md](messenger.md) | praca na skrzynce strony na Facebooku przez narzędzia Messengera | gdy w rozmowie są narzędzia meta-inbox albo przeglądarka z Messengerem |
+| [maile.md](maile.md) | format maili do klientów, sekcje DLA KOGO, WARUNKI, KOSZT, szablon HTML | przy każdym mailu z ofertą albo wyjaśnieniem programu |
 | [scenariusze.md](scenariusze.md) | gotowe rozwiązania typowych sytuacji i obiekcji | przed napisaniem odpowiedzi |
 | [lejek.md](lejek.md) | etapy rozmowy z limitem wiadomości, obiekcje i odpowiedzi, okno 24 h, follow-up, liczby z analizy 471 rozmów, tablica leadów `narzedzia/leady.py` | na początku każdej serii odpowiedzi i przy każdej obiekcji |
 | [glos.md](glos.md) | wzorce wiadomości właściciela do każdej sytuacji (pierwsza wiadomość, kwalifikacja, cena, obawa, domknięcie) i test przed wysłaniem | przed KAŻDĄ wiadomością na Messengerze, wybierasz sytuację i piszesz jak we wzorcu |
