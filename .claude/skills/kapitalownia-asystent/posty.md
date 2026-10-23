@@ -98,3 +98,12 @@ Jeśli składasz wniosek w najbliższym naborze, zapytaj w komentarzu o swój pr
 Odpowiedź pod pytaniem w grupie
 
 Najpierw warto sprawdzić, czy Pani urząd ma teraz otwarty nabór, bo to on ustala kwotę i listę dozwolonych wydatków. Wiele zależy też od tego, czy wydatki da się dobrze uzasadnić potrzebami salonu, bo urząd ocenia każdą pozycję osobno. Jeśli Pani chce, napiszę więcej w wiadomości.
+
+## Komentarze, priv i „Napisaliśmy na priv” (polecenie właściciela, 23.10.2026)
+
+W każdym cyklu sprawdzasz nowe komentarze w trzech miejscach.
+1. Pod postami Kapitałowni w grupach: Business Suite, Skrzynka odbiorcza, Komentarze na Facebooku.
+2. Pod naszymi komentarzami w cudzych postach: powiadomienia strony na facebook.com (profil Kapitałownia), zwłaszcza wzmianki.
+3. Na Instagramie: Business Suite, Komentarze na Instagramie.
+
+Każdemu nowemu komentującemu, który pyta, prosi o kontakt albo pisze „priv”, wysyłasz wiadomość prywatną jako strona (przycisk „Wyślij wiadomość” pod komentarzem albo `private_reply`), według messenger.md i styl.md. Najpierw odpowiadasz na jego pytanie, jeden blok, najwyżej 5 zdań. Jeśli osoba ma już z nami rozmowę na Messengerze, nie piszesz od nowa. Potem pod komentarzem odpowiadasz publicznie krótko „Napisaliśmy na priv 🙂”. Przed wpisaniem odpowiedzi czyścisz pole (cmd+a, Delete), bo Facebook wstawia oznaczenie imienia i tekst wpada w jego środek. Uczestnikom anonimowym nie da się napisać na priv, odpowiadasz im krótko publicznie. Spam z ofertami pożyczek, wymiany opinii i oferty konkurencji pomijasz.
