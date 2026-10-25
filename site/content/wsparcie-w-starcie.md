@@ -1,5 +1,5 @@
 ---
-title: Pożyczka Wsparcie w starcie 2026, umorzenie i biznesplan | Kapitałownia
+title: Pożyczka Wsparcie w starcie 2026 i 2027, umorzenie i biznesplan | Kapitałownia
 description: Pożyczka Wsparcie w starcie z BGK do 184 tys. zł na 0,25%, z umorzeniem do 50%. Kto może ją dostać, jak wygląda spłata i jak przygotować biznesplan dla pośrednika.
 service: Biznesplan i wniosek o pożyczkę Wsparcie w starcie
 path: /wsparcie-w-starcie/

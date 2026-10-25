@@ -98,7 +98,7 @@ export function formHtml({ mode, uslugi = [], order = false }) {
       ${field({ name: 'miejscowosc', label: 'Miejscowość lub powiat', hint: 'Pomaga sprawdzić nabory urzędu pracy i LGD.', attrs: ' maxlength="100" autocomplete="address-level2"' })}
     </div>
     <div class="field-row">
-      ${field({ name: 'budzet', label: 'Orientacyjny budżet', required: true, options: ['Do 50 tys. zł', '50–150 tys. zł', '150–500 tys. zł', 'Powyżej 500 tys. zł', 'Nie wiem jeszcze'] })}
+      ${field({ name: 'budzet', label: 'Orientacyjny budżet', options: ['Do 50 tys. zł', '50–150 tys. zł', '150–500 tys. zł', 'Powyżej 500 tys. zł', 'Nie wiem jeszcze'] })}
       ${field({ name: 'termin', label: 'Kiedy chcesz zacząć?', options: ['Jak najszybciej', 'W ciągu 3 miesięcy', 'W ciągu 6 miesięcy', 'Później lub nie wiem'] })}
     </div>
     ${field({ name: 'opis', label: 'Opisz krótko cel finansowania', type: 'textarea', required: true, hint: 'Co chcesz zrobić i na co przeznaczyć środki. Wystarczy kilka zdań, co najmniej 20 znaków. Nie podawaj danych o zdrowiu.', attrs: ' minlength="20" maxlength="3000"' })}

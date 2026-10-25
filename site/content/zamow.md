@@ -7,14 +7,20 @@ hero:
   eyebrow: Cennik i zamówienie
   title: Zamów przygotowanie dokumentów
   lead: Wnioski o środki na start zamówisz i opłacisz online. Płacisz 850 zł przy zamówieniu, a 1050 zł tylko wtedy, gdy otrzymasz finansowanie. Masz już gotowy wniosek? Sprawdzimy go za 249 zł.
-  cta: Sprawdź kwalifikację
-  ctaHref: /ocena-szans/
-  secondary: Porównaj programy
-  secondaryHref: /finansowanie-na-start/#programy
+  cta: Zamawiam wniosek na start
+  ctaHref: /platnosc/
+  secondary: Najpierw zapytaj na Messengerze
+  secondaryHref: https://m.me/1235937636280516
 ---
 
 ::: services ids=pup,pfron,wws,lgd,biznesplan
 ## Przygotowanie dokumentów
+:::
+
+::: services ids=pozyczka-rozwojowa,digit,kfs,feng
+## Dla działających firm
+
+Ceny netto. Na start płacisz za przygotowanie dokumentów, a wynagrodzenie za sukces dopiero po podpisaniu umowy pożyczki albo wypłacie grantu.
 :::
 
 ::: services ids=fundacja,fundacja-grant,ngo
@@ -35,7 +41,7 @@ Masz już napisany wniosek albo chcesz najpierw porozmawiać? Te usługi kosztuj
 1. **Płatność** Przycisk przenosi Cię na bezpieczną stronę płatności Stripe, gdzie płacisz 850 zł.
 2. **Ankieta** Po płatności wracasz na naszą stronę i wypełniasz krótką ankietę o planowanej działalności.
 3. **Ustalenia** Odzywamy się e-mailem, sprawdzamy aktualny nabór i dopytujemy o szczegóły.
-4. **Dokumenty i decyzja** Przekazujemy komplet dokumentów gotowych do złożenia. Dopłata 1050 zł obowiązuje tylko po przyznaniu środków.
+4. **Dokumenty i decyzja** Komplet dokumentów gotowych do złożenia dostajesz w ciągu 7 dni od wypełnienia ankiety. Dopłata 1050 zł obowiązuje tylko po przyznaniu środków.
 :::
 
 ::: section steps if=bez-platnosci

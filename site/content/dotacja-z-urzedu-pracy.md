@@ -1,5 +1,5 @@
 ---
-title: Dotacja z urzędu pracy 2026 na założenie firmy | Kapitałownia
+title: Dotacja z urzędu pracy 2026 i 2027 na założenie firmy | Kapitałownia
 description: Jednorazowe środki z powiatowego urzędu pracy na podjęcie działalności. Kto może je dostać, ile wynoszą, jakie są warunki i jak przygotować wniosek z biznesplanem.
 service: Przygotowanie wniosku o dotację z urzędu pracy z biznesplanem
 path: /dotacja-z-urzedu-pracy/

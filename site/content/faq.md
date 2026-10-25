@@ -10,7 +10,10 @@ hero:
 ---
 
 ### Ile kosztuje przygotowanie wniosku?
-Przy wnioskach do urzędu pracy, PFRON, LGD i o pożyczkę Wsparcie w starcie płacisz 850 zł przy zamówieniu. Jeśli instytucja przyzna Ci środki, dopłacasz 1050 zł. Jeśli nie, na tym kończą się Twoje koszty. Pozostałe usługi wyceniamy indywidualnie. Wszystko znajdziesz w [cenniku](/zamow/).
+Przy wnioskach do urzędu pracy, PFRON, LGD i o pożyczkę Wsparcie w starcie płacisz 850 zł przy zamówieniu. Jeśli instytucja przyzna Ci środki, dopłacasz 1050 zł. Jeśli nie, na tym kończą się Twoje koszty. Sprawdzenie gotowego wniosku kosztuje 249 zł, konsultacja 149 zł, a założenie fundacji 1490 zł w dwóch częściach. Biznesplan i wnioski grantowe wyceniamy indywidualnie. Wszystko znajdziesz w [cenniku](/zamow/).
+
+### Ile czeka się na dokumenty?
+Biznesplan i wniosek do urzędu pracy, PFRON, LGD albo do pożyczki Wsparcie w starcie dostajesz w ciągu 7 dni od wypełnienia formularza z informacjami o firmie. Gdy nabór kończy się wcześniej, napisz, a dopasujemy termin. Przy dużych projektach dla firm termin ustalamy indywidualnie.
 
 ### Jak mogę zapłacić?
 Opłatę początkową zapłacisz online na stronie płatności Stripe. O wynagrodzenie za sukces poprosimy e-mailem dopiero po pozytywnej decyzji instytucji.

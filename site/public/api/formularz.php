@@ -120,8 +120,7 @@ else $rows['Województwo'] = $woj;
 if (($m = oneLine(clean('miejscowosc', 100))) !== '') $rows['Miejscowość lub powiat'] = $m;
 
 $budzet = oneLine(clean('budzet', 40));
-if ($budzet === '') $errors['budzet'] = 'Wybierz orientacyjny budżet.';
-else $rows['Budżet'] = $budzet;
+if ($budzet !== '') $rows['Budżet'] = $budzet;
 if (($term = oneLine(clean('termin', 40))) !== '') $rows['Termin'] = $term;
 
 $opis = clean('opis', 3000);

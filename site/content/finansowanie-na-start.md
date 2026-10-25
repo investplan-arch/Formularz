@@ -1,12 +1,16 @@
 ---
-title: Dofinansowanie na otwarcie firmy 2026, PUP, PFRON, BGK | Kapitałownia
+title: Dofinansowanie na otwarcie firmy 2026 i 2027, PUP, PFRON, BGK | Kapitałownia
 description: Dotacja z urzędu pracy, środki z LGD i PFRON oraz pożyczka BGK Pierwszy biznes - Wsparcie w starcie. Pomagamy wybrać źródło finansowania i przygotować wniosek z biznesplanem.
 service: Wnioski o dofinansowanie na założenie firmy
 path: /finansowanie-na-start/
 hero:
   eyebrow: Start firmy
   title: Dotacja i pożyczka na otwarcie firmy
-  lead: Własna firma zaczyna się od pierwszych wydatków na sprzęt, oprogramowanie, lokal czy wyposażenie. Pomagamy znaleźć na nie środki i przygotować dokumenty, które przekonają instytucję.
+  lead: Własna firma zaczyna się od pierwszych wydatków na sprzęt, oprogramowanie, lokal czy wyposażenie. Pomagamy znaleźć na nie środki i przygotować dokumenty, które przekonają instytucję. Wniosek z biznesplanem kosztuje 1900 zł, z czego 1050 zł płacisz dopiero po przyznaniu środków.
+  cta: Zamawiam wniosek, 850 zł na start
+  ctaHref: /platnosc/
+  secondary: Sprawdź za darmo, czy się kwalifikujesz
+  secondaryHref: /ocena-szans/
 ---
 
 ::: programs

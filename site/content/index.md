@@ -39,7 +39,7 @@ Zakładamy fundacje od statutu po wpis do KRS i piszemy wnioski grantowe dla fun
 1. **Sprawdzenie kwalifikacji** Wypełniasz krótki formularz. Odpisujemy, z jakich programów możesz skorzystać i czego potrzebujesz.
 2. **Zakres i cena** Ustalamy, co przygotujemy i ile to kosztuje. Przy wnioskach na start płacisz 850 zł na początku, a 1050 zł dopiero po przyznaniu środków.
 3. **Ankieta** Odpowiadasz na pytania o planowaną działalność i wydatki. Nie musisz pisać nic od zera.
-4. **Gotowe dokumenty** Dostajesz biznesplan i wniosek gotowe do złożenia, z instrukcją, gdzie i jak je złożyć.
+4. **Gotowe dokumenty** W ciągu 7 dni dostajesz biznesplan i wniosek gotowe do złożenia, z instrukcją, gdzie i jak je złożyć.
 
 [Szczegóły współpracy](/wspolpraca/)
 :::
@@ -66,7 +66,8 @@ Od 4 lat przygotowujemy wnioski i biznesplany. 211 z nich zostało ocenionych po
 
 - **Sprawdzamy warunki, zanim zamówisz.** Jeśli program nie jest dla Ciebie, mówimy to od razu.
 - **Aktualne informacje.** Kwoty i warunki podajemy według stron instytucji publicznych, z datą sprawdzenia.
-- **Wycena przed rozpoczęciem pracy.** Wiesz, ile zapłacisz i co dostaniesz, zanim zaczniemy.
+- **Stała cena i termin.** Wiesz, ile zapłacisz i co dostaniesz, zanim zaczniemy. Standardowy wniosek z biznesplanem przygotowujemy w ciągu 7 dni.
+- **Jedna osoba od początku do końca.** Twoją sprawę od pierwszej wiadomości do gotowego wniosku prowadzi ta sama osoba. Dane firmy sprawdzisz w CEIDG po NIP 7393982505.
 - **Dokumenty zgodne z regulaminem naboru.** Pilnujemy spójności biznesplanu, wniosku i załączników, bo to częsty powód odrzucenia.
 - **Cała Polska, bez wizyt w biurze.** Całą współpracę z nami prowadzisz mailowo i przez internet.
 

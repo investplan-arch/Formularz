@@ -13,9 +13,9 @@ hero:
 
 1. **Zgłoszenie przez formularz** Odpowiadasz na kilka pytań o swoją sytuację, cel i budżet. Nie potrzebujemy na tym etapie dokumentów ani numeru telefonu.
 2. **Wstępna ocena** Analizujemy zgłoszenie i odpisujemy e-mailem. Wskazujemy możliwe źródła finansowania albo uczciwie informujemy, że w tej chwili nie widzimy dobrego dopasowania.
-3. **Rozmowa i wycena** Omawiamy szczegóły, ustalamy zakres dokumentacji, terminy i koszt. Wycena jest indywidualna.
+3. **Zakres i cena** Cena wniosku na start jest stała, 1900 zł w dwóch częściach. Ceny pozostałych usług są w [cenniku](/zamow/), a nietypowe sprawy wyceniamy przed rozpoczęciem pracy.
 4. **Zbieranie informacji** Przekazujesz nam dane potrzebne do dokumentów. Dajemy listę, żeby niczego nie zabrakło.
-5. **Przygotowanie dokumentów** Piszemy biznesplan, wniosek i załączniki. Konsultujemy wersję roboczą i wprowadzamy Twoje uwagi.
+5. **Przygotowanie dokumentów** Piszemy biznesplan, wniosek i załączniki, przy standardowych wnioskach w ciągu 7 dni od otrzymania kompletu informacji. Konsultujemy wersję roboczą i wprowadzamy Twoje uwagi.
 6. **Przekazanie do złożenia** Otrzymujesz komplet dokumentów i informację, jak i gdzie je złożyć.
 :::
 
