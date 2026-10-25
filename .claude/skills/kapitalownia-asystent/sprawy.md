@@ -23,6 +23,8 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 - **Adrian Śmiech** (Messenger, t_1153748820308838, z komentarza w grupie „Dotacje unijne - Wsparcie w starcie”). Pracuje na etacie, ma fundację, firma raczej z branży medycznej. 15.10 i 18.10 dostał od nas błędną informację o umorzeniu „do 40%”. 25.10 inna sesja wysłała link 850 zł (Wsparcie w starcie) i termin 7 dni. 25.10 o 14:59 zapytał o ratę. O 15:10 dostał wyliczenie (0,25%, do 7 lat, przy 100 tys. zł rata ok. 1200 zł, przy roku karencji ok. 21 zł odsetek miesięcznie, potem ok. 1400 zł) i sprostowanie, że przy etacie umorzenie nie przysługuje. Pytanie o planowaną kwotę. Nie zapłacił. Dochodu z ostatnich 3 miesięcy (próg przeciętnego wynagrodzenia) nie potwierdził.
 
+- **Daisy Daisy** (Messenger, t_2293398358184712). Zakłada fundację prozwierzęcą w Gryfinie (ratowanie, leczenie, adopcje, wyłapywanie, kastracje). 25.10 wieczorem inna sesja podała jej źródła (program opieki nad bezdomnymi zwierzętami w gminie, konkursy gminy i powiatu, OPP po 2 latach). O 21:00 napisała, że nie wie, od czego zacząć. O 21:10 dostała kroki (statut, notariusz, KRS 250 zł) i opis naszej pomocy, bez ceny, z pytaniem, czy fundacja ma od razu starać się o pieniądze z gminy. Następny krok to cena pakietu z wiedza.md (2490 zł z grantem albo 1490 zł samo założenie).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - fpiibud@gmail.com (Pit Yama, pomorskie).
