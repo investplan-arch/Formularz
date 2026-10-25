@@ -98,7 +98,7 @@ Konkurs 2/2026: nabór 2–30.11.2026, grant 150–850 tys. zł, do 50% kosztów
 
 ### Pożyczka rozwojowa i KFS
 
-Stawki zatwierdził właściciel 25.10.2026. Pożyczka rozwojowa z funduszu regionalnego (np. pożyczki z programów regionalnych FE 2021–2027 dla działających firm) kosztuje 990 zł netto na start i 2% netto kwoty pożyczki po podpisaniu umowy pożyczki. Wniosek pracodawcy o środki KFS na szkolenia pracowników kosztuje 690 zł netto jednorazowo. Linków Stripe na 990 zł i 690 zł jeszcze nie ma. Cenę pożyczki podajesz w tej formie.
+Stawki zatwierdził właściciel 25.10.2026. Pożyczka rozwojowa z funduszu regionalnego (np. pożyczki z programów regionalnych FE 2021–2027 dla działających firm) kosztuje 990 zł netto na start i 2% netto kwoty pożyczki po podpisaniu umowy pożyczki. Wniosek pracodawcy o środki KFS na szkolenia pracowników kosztuje 690 zł netto jednorazowo. Link Stripe na 990 zł (wniosek o pożyczkę rozwojową, utworzony 25.10.2026, po płatności przekierowuje do formularza): https://buy.stripe.com/14AbJ3gCcdKefNl3MF6Zy0d. Linku na 690 zł jeszcze nie ma. Cenę pożyczki podajesz w tej formie.
 > Na start 990 zł netto za przygotowanie wniosku i biznesplanu. Resztę, czyli 2% kwoty pożyczki, płacą Państwo dopiero po podpisaniu umowy pożyczki. Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacą Państwo.
 
 ### Termin realizacji

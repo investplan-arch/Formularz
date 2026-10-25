@@ -66,7 +66,7 @@
       ],
       "cena": 990,
       "netto": true,
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/14AbJ3gCcdKefNl3MF6Zy0d",
       "successFee": "2% netto kwoty pożyczki po podpisaniu umowy pożyczki",
       "feeTotal": "Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacisz."
     },
