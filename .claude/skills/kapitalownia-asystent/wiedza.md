@@ -59,7 +59,10 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://formul
 | Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
 | Założenie fundacji | 690 zł | 800 zł po wpisie fundacji do KRS | 1490 zł |
 | Fundacja z pierwszym wnioskiem grantowym | 1290 zł | 1200 zł po wpisie fundacji do KRS | 2490 zł |
+| Grant ARP Dig.IT (cyfryzacja firm produkcyjnych) | 3900 zł netto | 5% netto przyznanego grantu, płatne po wypłacie grantu | 3900 zł plus 5% grantu, rozliczenie projektu w cenie |
 | Wniosek do Funduszu Pożyczkowego FENG (PARP) | 3100 zł netto | 3% netto kwoty przyznanej pożyczki | 3100 zł plus 3% pożyczki |
+| Wniosek o pożyczkę rozwojową z funduszu regionalnego | 990 zł netto | 2% netto kwoty pożyczki, płatne po podpisaniu umowy pożyczki | 990 zł plus 2% pożyczki |
+| Wniosek pracodawcy o środki z Krajowego Funduszu Szkoleniowego (KFS) | 690 zł netto | nie dotyczy | 690 zł |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
 
@@ -85,6 +88,26 @@ Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie f
 > Założenie fundacji kosztuje 1490 zł w dwóch częściach. 690 zł na start, a 800 zł dopiero po wpisie fundacji do KRS. Opłatę sądową 250 zł i notariusza płaci fundator osobno.
 
 Fakty do rozmowy. Oświadczenie o ustanowieniu fundacji wymaga aktu notarialnego (art. 3 ust. 1 ustawy o fundacjach), więc notariusz jest zawsze potrzebny. Wpis do KRS kosztuje 250 zł, a z działalnością gospodarczą 500 zł. Przy działalności gospodarczej fundator przeznacza na nią co najmniej 1000 zł (art. 5 ust. 5), które zostają w fundacji. Wniosek do KRS składa klient przez Portal Rejestrów Sądowych z naszą instrukcją, bo nie jesteśmy pełnomocnikiem procesowym. Księgowości nie prowadzimy. Zanim obiecasz grant dla świeżej fundacji, sprawdź, czy konkurs dopuszcza organizacje bez historii.
+
+### Grant ARP Dig.IT
+
+Stawkę ustalił właściciel 24.10.2026. Na start 3900 zł netto za Test Dojrzałości Cyfrowej, zakres projektu i wniosek. Resztę, czyli 5% netto przyznanego grantu, klient płaci dopiero po wypłacie grantu przez ARP. Rozliczenie projektu (lista dokumentów, wzory zapytań ofertowych i protokołów, sprawdzenie faktur, wniosek o płatność, odpowiedzi na pytania ARP) jest w cenie. Poza ceną są zmiany zakresu projektu na życzenie klienta i księgowość. Cenę podajesz w tej formie.
+> Na start 3900 zł netto za przygotowanie wniosku. Resztę, czyli 5% przyznanego grantu, płacą Państwo dopiero po wypłacie pieniędzy przez ARP, a rozliczenie projektu jest w cenie. Jeśli grant nie zostanie przyznany, nic więcej nie płacą Państwo.
+
+Konkurs 2/2026: nabór 2–30.11.2026, grant 150–850 tys. zł, do 50% kosztów, de minimis, dla MŚP z przetwórstwa przemysłowego albo usług produkcyjnych z co najmniej 5 zamkniętymi latami obrotowymi, grant do 30% średnich przychodów z 3 lat, refundacja jednorazowo po realizacji. ARP może skrócić nabór po przekroczeniu 200% puli (40 mln zł). Link Stripe na 3900 zł: [BRAK LINKU, właściciel musi go podać].
+
+### Pożyczka rozwojowa i KFS
+
+Stawki zatwierdził właściciel 25.10.2026. Pożyczka rozwojowa z funduszu regionalnego (np. pożyczki z programów regionalnych FE 2021–2027 dla działających firm) kosztuje 990 zł netto na start i 2% netto kwoty pożyczki po podpisaniu umowy pożyczki. Wniosek pracodawcy o środki KFS na szkolenia pracowników kosztuje 690 zł netto jednorazowo. Linków Stripe na 990 zł i 690 zł jeszcze nie ma. Cenę pożyczki podajesz w tej formie.
+> Na start 990 zł netto za przygotowanie wniosku i biznesplanu. Resztę, czyli 2% kwoty pożyczki, płacą Państwo dopiero po podpisaniu umowy pożyczki. Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacą Państwo.
+
+### Termin realizacji
+
+Właściciel ustalił 25.10.2026. Przy standardowych wnioskach (urząd pracy, PFRON, Wsparcie w starcie, LGD) i biznesplanach dokumenty przygotowujemy w ciągu 7 dni od otrzymania kompletu informacji z formularza. Przy dużych projektach (Dig.IT, FENG, pożyczki dla firm) termin ustalamy indywidualnie.
+
+### Rozmowa telefoniczna
+
+Właściciel ustalił 25.10.2026. Rozmowa jest dostępna, ale jej nie proponujesz pierwszy. Sprawę prowadzisz na Messengerze albo mailem. Gdy klient sam poprosi o telefon albo rozmowę, odpowiadasz, że to możliwe, pytasz o dogodną porę i numer, a prośbę zgłaszasz właścicielowi na górze raportu. W tej samej wiadomości odpowiadasz na pytania, które klient zadał.
 
 ### Duże i nietypowe projekty
 

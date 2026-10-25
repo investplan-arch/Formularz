@@ -1,5 +1,5 @@
 {
-  "_opis": "Usługi do zamówienia na stronie /zamow/. cena: kwota w zł płatna z góry albo null, gdy wycena jest indywidualna. successFee: kwota w zł płatna po przyznaniu środków albo null. stripe: adres Payment Link ze Stripe (https://buy.stripe.com/...) albo pusty. Gdy cena lub link są puste, przycisk prowadzi do formularza wyceny. uwaga: dodatkowe zdanie pod ceną. feeKiedy i feeTotal (opcjonalne): kiedy płatna jest druga część i zdanie o łącznym koszcie, gdy druga część nie zależy od przyznania środków.",
+  "_opis": "Usługi do zamówienia na stronie /zamow/. cena: kwota w zł płatna z góry albo null, gdy wycena jest indywidualna. successFee: kwota w zł płatna po przyznaniu środków albo null. stripe: adres Payment Link ze Stripe (https://buy.stripe.com/...) albo pusty. Gdy cena lub link są puste, przycisk prowadzi do formularza wyceny. uwaga: dodatkowe zdanie pod ceną. feeKiedy i feeTotal (opcjonalne): kiedy płatna jest druga część i zdanie o łącznym koszcie, gdy druga część nie zależy od przyznania środków. successFee może być tekstem (np. procent kwoty), wtedy feeTotal jest opcjonalny. netto: true dopisuje „netto” przy cenie.",
   "uslugi": [
     {
       "id": "pup",
@@ -54,6 +54,66 @@
       "cena": 850,
       "stripe": "https://buy.stripe.com/eVq14p99K35A30z4QJ6Zy07",
       "successFee": 1050
+    },
+    {
+      "id": "pozyczka-rozwojowa",
+      "nazwa": "Pożyczka rozwojowa dla firmy",
+      "opis": "Wniosek i biznesplan do preferencyjnej pożyczki z funduszy europejskich w Twoim województwie.",
+      "zakres": [
+        "wybór pożyczki i pośrednika w Twoim regionie",
+        "biznesplan z prognozą spłaty",
+        "wniosek i wymagane załączniki"
+      ],
+      "cena": 990,
+      "netto": true,
+      "stripe": "",
+      "successFee": "2% netto kwoty pożyczki po podpisaniu umowy pożyczki",
+      "feeTotal": "Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacisz."
+    },
+    {
+      "id": "digit",
+      "nazwa": "Grant ARP Dig.IT na cyfryzację produkcji",
+      "opis": "Grant od 150 do 850 tys. zł dla firm z przetwórstwa przemysłowego i usług produkcyjnych. Nabór od 2 do 30 listopada 2026.",
+      "zakres": [
+        "Test Dojrzałości Cyfrowej",
+        "zakres projektu i budżet",
+        "wniosek do ARP",
+        "rozliczenie projektu w cenie"
+      ],
+      "cena": 3900,
+      "netto": true,
+      "stripe": "",
+      "successFee": "5% netto przyznanego grantu, płatne po jego wypłacie",
+      "feeTotal": "Jeśli grant nie zostanie przyznany, nic więcej nie płacisz."
+    },
+    {
+      "id": "feng",
+      "nazwa": "Fundusz Pożyczkowy FENG",
+      "opis": "Pożyczka od 2,5 do 15 mln zł na inwestycje firmy.",
+      "zakres": [
+        "sprawdzenie warunków programu",
+        "biznesplan i model finansowy",
+        "wniosek z załącznikami"
+      ],
+      "cena": 3100,
+      "netto": true,
+      "stripe": "",
+      "successFee": "3% netto kwoty pożyczki po podpisaniu umowy pożyczki",
+      "feeTotal": "Jeśli pożyczka nie zostanie przyznana, nic więcej nie płacisz."
+    },
+    {
+      "id": "kfs",
+      "nazwa": "Krajowy Fundusz Szkoleniowy",
+      "opis": "Wniosek pracodawcy do urzędu pracy o sfinansowanie szkoleń pracowników.",
+      "zakres": [
+        "sprawdzenie priorytetów KFS w Twoim urzędzie",
+        "dobór szkoleń i uzasadnienie",
+        "wniosek z załącznikami"
+      ],
+      "cena": 690,
+      "netto": true,
+      "stripe": "",
+      "successFee": null
     },
     {
       "id": "biznesplan",
@@ -126,7 +186,7 @@
       "cena": 249,
       "stripe": "https://buy.stripe.com/7sYfZj2Lm35Aat15UN6Zy0a",
       "successFee": null,
-      "uwaga": "Jeśli w ciągu 14 dni od otrzymania uwag zamówisz u nas przygotowanie dokumentów, zaliczymy 249 zł na poczet tej usługi."
+      "uwaga": "Jeśli w ciągu 14 dni od otrzymania uwag zamówisz u nas przygotowanie dokumentów, zaliczymy 249 zł na poczet tej usługi. Po płatności wyślij wniosek i biznesplan na kontakt@kapitalownia.pl z adresu podanego przy płatności."
     },
     {
       "id": "konsultacja",

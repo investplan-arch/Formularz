@@ -143,11 +143,14 @@ function serviceCard(u) {
   const priced = typeof u.cena === 'number';
   const buy = buyable(u);
   const fee = typeof u.successFee === 'number' ? u.successFee : 0;
+  // successFee jako tekst, gdy druga część to procent kwoty (np. 5% grantu)
+  const feeText = typeof u.successFee === 'string' ? u.successFee : '';
+  const netto = u.netto ? ' netto' : '';
   // feeKiedy i feeTotal opisują drugą część opłaty, gdy nie zależy od przyznania środków (np. wpis do KRS)
   const feeKiedy = u.feeKiedy || 'po przyznaniu środków';
   const feeTotal = u.feeTotal || (priced ? `Łącznie ${pln(u.cena + fee)}, jeśli otrzymasz finansowanie. Jeśli nie, płacisz tylko ${pln(u.cena)}.` : '');
   const price = priced
-    ? `<div class="service__price"><p><strong>${pln(u.cena)}</strong> <span>${fee ? 'na start, ' : ''}płatne przy zamówieniu</span></p>${u.uwaga ? `<p class="service__total">${esc(u.uwaga)}</p>` : ''}${fee ? `<p class="service__fee">+ ${pln(fee)} ${esc(feeKiedy)}</p><p class="service__total">${esc(feeTotal)}</p>` : ''}</div>`
+    ? `<div class="service__price"><p><strong>${pln(u.cena)}${netto}</strong> <span>${fee || feeText ? 'na start, ' : ''}płatne przy zamówieniu</span></p>${u.uwaga ? `<p class="service__total">${esc(u.uwaga)}</p>` : ''}${fee ? `<p class="service__fee">+ ${pln(fee)} ${esc(feeKiedy)}</p><p class="service__total">${esc(feeTotal)}</p>` : ''}${feeText ? `<p class="service__fee">+ ${esc(feeText)}</p>${u.feeTotal ? `<p class="service__total">${esc(u.feeTotal)}</p>` : ''}` : ''}</div>`
     : '<p class="service__price service__price--quote">Wycena indywidualna</p>';
   const cta = buy
     ? `<a class="btn btn--primary" href="${esc(u.stripe)}" rel="noopener">Zamawiam i płacę</a>`
@@ -256,6 +259,7 @@ function ocenaHtml() {
     <p class="quiz__summary" id="ocena-suma"></p>
     <ul class="quiz__list" id="ocena-lista"></ul>
     <p class="quiz__disclaimer">To wstępna ocena na podstawie ogólnych warunków programów. Ostateczne zasady określa regulamin konkretnego urzędu, LGD albo pośrednika, dlatego przed zamówieniem sprawdzamy je w Twoim przypadku.</p>
+    ${(() => { const s = uslugi.find(u => u.id === 'pup'); return s && s.successFee ? `<p class="quiz__price" id="ocena-cena" hidden>Biznesplan i wniosek przygotujemy za ${pln(s.cena + s.successFee)}. ${pln(s.cena)} płacisz na start, a ${pln(s.successFee)} dopiero po przyznaniu środków. Jeśli wniosek nie przejdzie, drugiej części nie płacisz. Dokumenty dostajesz w ciągu 7 dni od wypełnienia formularza.</p>` : ''; })()}
     <p class="hero__actions"><a class="btn btn--primary btn--large" id="ocena-cta" href="/kontakt/">Poproś o bezpłatną ocenę</a>${site.messenger ? `<a class="btn btn--ghost btn--large" href="${esc(site.messenger)}" rel="noopener">Napisz na Messengerze</a>` : ''}</p>
   </section>
   <noscript><p class="note">Ocena działa w przeglądarce z włączonym JavaScriptem. Możesz od razu wypełnić <a href="/kontakt/">formularz kwalifikacyjny</a>, a ocenimy Twoją sytuację e-mailem.</p></noscript>`;
@@ -595,6 +599,7 @@ for (const file of readdirSync(join(root, 'content')).filter(f => f.endsWith('.m
     const contacts = `<aside class="form-aside form-aside--contact" aria-labelledby="kontakt-bezposredni">
       <h2 id="kontakt-bezposredni">Wolisz napisać bezpośrednio?</h2>
       <ul class="contact-cards">
+        ${site.messenger ? contactRow(esc(site.messenger), 'fb', 'Messenger', 'Odpisujemy najszybciej', true) : ''}
         ${contactRow(`mailto:${site.email}`, 'mail', 'E-mail', esc(site.email))}
         ${site.facebook ? contactRow(esc(site.facebook), 'fb', 'Facebook', 'Profil Kapitałowni', true) : ''}
         ${contactRow('/faq/', 'faq', 'Masz pytania?', 'Zobacz FAQ')}

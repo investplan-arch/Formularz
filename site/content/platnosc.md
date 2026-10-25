@@ -32,7 +32,7 @@ Od 4 lat przygotowujemy wnioski o środki na firmę. 211 naszych wniosków zosta
 
 1. **Formularz** Zaraz po płatności otwiera się krótki formularz o planowanej działalności. Gdyby się nie otworzył, jest pod adresem formularz.kapitalownia.pl.
 2. **Ustalenia** Odzywamy się z pytaniami i sprawdzamy aktualny nabór w Twojej instytucji.
-3. **Dokumenty** Przekazujemy biznesplan i wniosek gotowe do złożenia, z instrukcją złożenia.
+3. **Dokumenty** W ciągu 7 dni od wypełnienia formularza przekazujemy biznesplan i wniosek gotowe do złożenia, z instrukcją złożenia. Gdy nabór kończy się wcześniej, napisz, a dopasujemy termin.
 4. **Decyzja** Dopłata 1050 zł obowiązuje tylko po przyznaniu środków. Prośbę o nią wysyłamy e-mailem, z terminem 14 dni.
 :::
 

@@ -6,7 +6,11 @@ path: /fundacje-i-stowarzyszenia/
 hero:
   eyebrow: Organizacje pozarządowe
   title: Załóż fundację i zdobądź pierwszy grant
-  lead: Przygotowujemy statut i dokumenty do KRS, a potem pomagamy znaleźć konkurs i napisać wniosek, żeby fundacja miała z czego działać.
+  lead: Przygotowujemy statut i dokumenty do KRS, a potem pomagamy znaleźć konkurs i napisać wniosek, żeby fundacja miała z czego działać. Założenie fundacji kosztuje 1490 zł, z czego 800 zł płacisz dopiero po wpisie do KRS.
+  cta: Zobacz cennik dla organizacji
+  ctaHref: /zamow/#usluga-fundacja-grant
+  secondary: Napisz na Messengerze
+  secondaryHref: https://m.me/1235937636280516
 ---
 
 ::: section steps

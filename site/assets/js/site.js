@@ -80,6 +80,7 @@
     var lista = document.getElementById('ocena-lista');
     var suma = document.getElementById('ocena-suma');
     var cta = document.getElementById('ocena-cta');
+    var cena = document.getElementById('ocena-cena');
     var val = function (n) { var r = quiz.querySelector('input[name="' + n + '"]:checked'); return r ? r.value : ''; };
     var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
     quiz.addEventListener('submit', function (e) {
@@ -101,7 +102,7 @@
       // Dotacja z urzędu pracy (art. 147 i 148 ustawy o rynku pracy)
       if (firma) out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Warunkiem jest brak firmy, także zawieszonej, w ostatnich 12 miesiącach.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
       else if (srodki === 'tak') out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Dotacji nie dostanie osoba, która wcześniej otrzymała bezzwrotne środki publiczne na założenie firmy.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
-      else if (bezrob) out.push({ o: 'tak', p: 'Dotacja z urzędu pracy', t: 'Status osoby bezrobotnej to podstawowy warunek. Limit ustawowy to do ' + kwoty.pup + ', a urząd ustala własny, w 2026 roku zwykle od 30 do 50 tys. zł.', l: '/dotacja-z-urzedu-pracy/', u: 'pup', n: kwoty.n_pup, g: kwoty.n_pup });
+      else if (bezrob) out.push({ o: 'tak', p: 'Dotacja z urzędu pracy', t: 'Status osoby bezrobotnej to podstawowy warunek. Limit ustawowy to do ' + kwoty.pup + ', a urząd ustala własny, w 2026 roku zwykle od 30 do 40 tys. zł.', l: '/dotacja-z-urzedu-pracy/', u: 'pup', n: kwoty.n_pup, g: kwoty.n_pup });
       else if (opiekun && !pracuje) out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Opiekun osoby z niepełnosprawnością, który nie pracuje i jest zarejestrowany jako poszukujący pracy, też może dostać dotację.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
       else if (poszuk || niepracuje) out.push({ o: 'moze', p: 'Dotacja z urzędu pracy', t: 'Wystarczy zarejestrować się w urzędzie pracy jako osoba bezrobotna. Wtedy ta ścieżka się otwiera.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
       else if (pracuje) out.push({ o: 'nie', p: 'Dotacja z urzędu pracy', t: 'Każda umowa o pracę i każde zlecenie, nawet na część etatu, wyklucza status osoby bezrobotnej. Jest za to pożyczka Wsparcie w starcie.', l: '/dotacja-z-urzedu-pracy/', u: 'pup' });
@@ -138,7 +139,11 @@
         return '<li class="quiz__item quiz__item--' + r.o + '"><span class="tag">' + label[r.o] + '</span><h3><a href="' + r.l + '">' + esc(r.p) + '</a></h3><p>' + esc(r.t) + '</p></li>';
       }).join('');
       var best = out[0];
-      cta.href = best.o === 'nie' ? '/kontakt/' : '/kontakt/?usluga=' + best.u;
+      // Pewny wynik przy usłudze na start prowadzi od razu do zamówienia
+      var start = best.o === 'tak' && /^(pup|pfron|wws|lgd)$/.test(best.u);
+      cta.href = start ? '/platnosc/' : best.o === 'nie' ? '/kontakt/' : '/kontakt/?usluga=' + best.u;
+      cta.textContent = start ? 'Zamawiam wniosek, 850 zł na start' : 'Poproś o bezpłatną ocenę';
+      if (cena) cena.hidden = !start;
       wynik.hidden = false;
       wynik.focus();
       wynik.scrollIntoView({ block: 'start' });

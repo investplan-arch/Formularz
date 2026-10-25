@@ -6,8 +6,18 @@ path: /rozwoj-firmy/
 hero:
   eyebrow: Rozwój firmy
   title: Środki na inwestycje i rozwój firmy
-  lead: Gdy firma działa i chcesz zrobić kolejny krok, warto sprawdzić, czy część wydatków może pokryć dotacja albo tańsza pożyczka. Pomagamy to ocenić i przygotować dokumentację.
+  lead: Gdy firma działa i chcesz zrobić kolejny krok, warto sprawdzić, czy część wydatków może pokryć dotacja albo tańsza pożyczka. Pomagamy to ocenić i przygotować dokumentację. Większą część wynagrodzenia płacisz dopiero po przyznaniu środków.
+  cta: Opisz inwestycję, odpiszemy z programem
+  ctaHref: /kontakt/
+  secondary: Napisz na Messengerze
+  secondaryHref: https://m.me/1235937636280516
 ---
+
+::: services ids=pozyczka-rozwojowa,digit,kfs,feng
+## Programy dla działających firm
+
+Na start płacisz za przygotowanie dokumentów. Wynagrodzenie za sukces należy się dopiero po podpisaniu umowy pożyczki albo po wypłacie grantu.
+:::
 
 ::: section
 ## Na co można szukać finansowania

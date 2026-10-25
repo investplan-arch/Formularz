@@ -13,6 +13,6 @@ hero:
 
 1. Czytamy zgłoszenie i sprawdzamy dostępne programy.
 2. Odpisujemy e-mailem ze wstępną oceną.
-3. Jeśli widzimy szansę, proponujemy usługę i cenę.
+3. Jeśli widzimy szansę, odpisujemy z ceną i linkiem do zamówienia.
 
 Bez telefonu i dokumentów na tym etapie.
