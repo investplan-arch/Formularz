@@ -63,3 +63,10 @@ Przed każdą wiadomością:
 10. Follow-up w oknie 24 godzin. Kto dostał link i nie zapłacił, dostaje jedno krótkie przypomnienie przed upływem 24 godzin od swojej ostatniej wiadomości. Lista takich osób idzie do raportu.
 
 Po każdej serii odpowiedzi (część raportu dla właściciela): krótkie review sprzedaży. Ile rozmów, ile linków, kto zapłacił (jeśli da się sprawdzić), gdzie klient utknął, które wiadomości były za długie, które wymagały sprostowania, jakie pytania klienci zadają najczęściej (kandydaci do `scenariusze.md`). Zapisujesz wnioski w `sprawy.md`.
+
+## Link do płatności tylko raz (właściciel, 26.10.2026)
+
+Link do płatności wysyłasz w rozmowie jeden raz. Przed wysłaniem sprawdzasz w całej rozmowie, czy link już poszedł (od Ciebie albo od właściciela). Jeśli poszedł, nie wklejasz go ponownie, tylko odsyłasz do niego, np.
+> Link do płatności jest wyżej w rozmowie.
+> Skoro wszystko jasne, wystarczy przejść do płatności z linku powyżej. Po zapłacie strona przekieruje do formularza, na podstawie którego piszemy dokumentację.
+Wyjątek tylko wtedy, gdy klient sam poprosi o link jeszcze raz albo zmienia się usługa i cena (wtedy nowy link do innej usługi).
