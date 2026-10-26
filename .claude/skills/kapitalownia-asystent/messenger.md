@@ -51,7 +51,7 @@ Przed każdą wiadomością pobierasz całą rozmowę od pierwszej wiadomości (
 ## Sprzedaż na Messengerze, zasady z review 26.10.2026 (właściciel: ZAWSZE)
 
 Przed każdą wiadomością:
-1. Cała rozmowa od pierwszej wiadomości, lista faktów, które klient już podał. Nie pytasz drugi raz.
+1. KONTEKST PRZED ODPOWIEDZIĄ (właściciel, bezwzględnie). Czytasz całą rozmowę od pierwszej wiadomości, także wiadomości wysłane spoza tej sesji, oraz wpis klienta w `sprawy.md` i aktualny stan naboru w `nabory.md`. Spisujesz, co klient już podał, co już od nas dostał (ceny, linki, obietnice) i jaką usługę wybrał. Dopiero wtedy piszesz. Nie pytasz drugi raz, nie powtarzasz informacji, nie przeczysz temu, co już poszło.
 2. Jedna ścieżka zamiast wykładu. Polecasz jeden program, który pasuje, i mówisz dlaczego w jednym zdaniu. Inne opcje tylko, gdy klient pyta.
 3. Kwalifikacja przed linkiem. Link do płatności dopiero, gdy sprawdzone są status (praca, PUP, KRUS i hektary, przychód, firma w ostatnich 12 miesiącach), miejsce i stan naboru w `nabory.md`. Wtedy w tej samej wiadomości cena, link i zdanie o terminie naboru.
 4. Liczby z kalkulatora, nie z głowy (raty, odsetki, kwoty). Fakty z `wiedza.md`, `przepisy.md`, `nabory.md` albo z regulaminu. Czego nie sprawdziłeś, nie piszesz jako pewnik.
