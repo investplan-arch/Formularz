@@ -27,6 +27,8 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Gmail (wersje robocze, niewysłane)
 
+- Kamil (tdt.kinga@gmail.com), zgłoszenie z formularza 26.10 9:06. Spółka z o.o. ponad 3 lata, transport towarów, Jamno 99-400 (łódzkie), naczepy do transportu intermodalnego, budżet ponad 500 tys. zł, jak najszybciej. Wersja robocza odpowiedzi 26.10 (pożyczka rozwojowa FE dla Łódzkiego przez BGK, Fundusz Pożyczkowy PARP od 2,5 mln zł, pytanie o liczbę naczep i kwotę), bez ceny. Aktualny nabór pożyczki w Łódzkiem niepotwierdzony. Możliwe, że to ten sam anonim z posta o transporcie intermodalnym w łódzkim (24.10).
+
 - fpiibud@gmail.com (Pit Yama, pomorskie).
 - ampsuccess.biuro@gmail.com, krótkie pytanie, w czym możemy pomóc.
 - Firmy pod Fundusz Pożyczkowy FENG (AGRiCO, Vitrintec, Electro Welle, Wosana): treści są gotowe, wersji roboczych jeszcze nie ma. Mailing do firm tylko po zgodzie właściciela, ze stopką RODO.
