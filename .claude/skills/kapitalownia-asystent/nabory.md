@@ -116,3 +116,14 @@ Te programy nie są w ofercie Kapitałowni, ale warto o nich wspomnieć klientow
 - LGD „Perły Czarnej Nidy”, harmonogram 2026 https://perlycn.pl/wp-content/uploads/2026/06/Harmonogram-naborow-na-rok-2026-1.pdf
 - NIW-CRSO https://niw.gov.pl
 - PFRON „Siła możliwości” https://gmina.mielec.pl/pdf/konkurs-pfron-sila-mozliwosci-wsparcie-organizacji-dzialajacych-na-rzecz-osob-z-niepelnosprawnosciami.pdf
+
+## Wsparcie w starcie, stan na 26.10.2026 (strony pośredników, część stron niespójna)
+
+Żaden pośrednik nie ma teraz otwartego naboru, kolejne nieogłoszone. Nabory w 2026 zamykały się w kilkanaście minut do jednego dnia.
+- Południe (śląskie, małopolskie, opolskie, podkarpackie, świętokrzyskie, łódzkie, FARR i partnerzy): nabór 28.09.2026 zamknięty 29.09. Fundusz Górnośląski (śląskie, opolskie) wstrzymany od 9.06.2026.
+- Lubelskie, mazowieckie, podlaskie (Lubelska Fundacja Rozwoju): 29.09.2026 od 8:30, wstrzymany o 9:20.
+- Łódzkie i mazowieckie (KSWP): nabór od 1.12.2025, wstrzymany tego samego dnia, brak nowych dat.
+- Warmińsko-mazurskie (SCREP): ostatnio 14.05.2026 (zamknięty po 10 minutach), do końca września nie planowano, nowy termin nieogłoszony, zostały 3 rundy.
+- Pomorskie i zachodniopomorskie (PFP): wstrzymany 30.03.2026, wyniki wyszukiwania wspominają start 15.09.2026, do potwierdzenia.
+- Północny zachód (dolnośląskie, wielkopolskie, lubuskie, pomorskie, kujawsko-pomorskie, FRW): 27.08.2026, wstrzymany tego samego dnia.
+Klientom piszesz, że przygotowujemy wniosek na pierwszy dzień kolejnego naboru, bez obiecywania terminu.
