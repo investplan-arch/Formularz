@@ -70,3 +70,13 @@ Link do płatności wysyłasz w rozmowie jeden raz. Przed wysłaniem sprawdzasz 
 > Link do płatności jest wyżej w rozmowie.
 > Skoro wszystko jasne, wystarczy przejść do płatności z linku powyżej. Po zapłacie strona przekieruje do formularza, na podstawie którego piszemy dokumentację.
 Wyjątek tylko wtedy, gdy klient sam poprosi o link jeszcze raz albo zmienia się usługa i cena (wtedy nowy link do innej usługi).
+
+## Opóźnienia API Meta i podwójne wiadomości (błąd z 26.10.2026)
+
+Przyczyna błędu u Jakuba: lista wiadomości z API Meta (`/{thread}/messages`, także `list_messages`) bywa przez kilka do kilkudziesięciu minut niepełna. O 20:46 nie zwracała ani naszej wiadomości z 20:21, ani pytania klienta z 20:17, choć obie były w rozmowie. Uznałem, że nasza wiadomość nie doszła, i wysłałem ją drugi raz, a pytania o umorzenie w ogóle nie zobaczyłem.
+
+Zasady:
+1. Jeśli `send_message` zwrócił `message_id`, wiadomość poszła. Nigdy nie wysyłasz jej ponownie, nawet jeśli nie widać jej w rozmowie.
+2. Po każdej wysyłce dopisujesz do dziennika w scratchpadzie (`wyslane_messenger.log`: czas, PSID, pierwsze 80 znaków) i przed wysyłką do tej samej osoby sprawdzasz dziennik.
+3. Gdy w pobranej rozmowie brakuje naszej wiadomości z dziennika, dane są nieaktualne. Czekasz 1 do 2 minut i pobierasz rozmowę jeszcze raz, porównując `message_count` rozmowy z liczbą pobranych wiadomości. Odpowiadasz dopiero, gdy się zgadzają.
+4. Przed wysyłką zawsze pobierasz rozmowę jeszcze raz i odpowiadasz na wszystkie pytania klienta od naszej ostatniej wiadomości, nie tylko na ostatnie.
