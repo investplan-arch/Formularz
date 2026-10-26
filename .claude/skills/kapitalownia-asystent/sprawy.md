@@ -25,6 +25,8 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 - **Daisy Daisy** (Messenger, t_2293398358184712). Zakłada fundację prozwierzęcą w Gryfinie (ratowanie, leczenie, adopcje, wyłapywanie, kastracje). 25.10 wieczorem inna sesja podała jej źródła (program opieki nad bezdomnymi zwierzętami w gminie, konkursy gminy i powiatu, OPP po 2 latach). O 21:00 napisała, że nie wie, od czego zacząć. O 21:10 dostała kroki (statut, notariusz, KRS 250 zł) i opis naszej pomocy, bez ceny, z pytaniem, czy fundacja ma od razu starać się o pieniądze z gminy. Następny krok to cena pakietu z wiedza.md (2490 zł z grantem albo 1490 zł samo założenie).
 
+- **Joanna Pulkowska** (Messenger, t_1414304233525158). Zakłada fundację od zera (spisanie zabaw z życia babć, książka, warsztaty międzypokoleniowe dla przedszkoli i szkół, później psycholog, fizjoterapeuta, neurologopeda dla seniorów). Prowadzi JDG, która zostaje osobno. 25.10 inna sesja wysłała cenę 2490 zł (1290 + 1200 po KRS) i link 1290 zł, odpowiedziała „Działamy”. 26.10 o 12:20 dostała jedyny follow-up z formularzem i pytaniem o skład zarządu. Nie zapłaciła.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - Kamil (tdt.kinga@gmail.com), zgłoszenie z formularza 26.10 9:06. Spółka z o.o. ponad 3 lata, transport towarów, Jamno 99-400 (łódzkie), naczepy do transportu intermodalnego, budżet ponad 500 tys. zł, jak najszybciej. Wersja robocza odpowiedzi 26.10 (pożyczka rozwojowa FE dla Łódzkiego przez BGK, Fundusz Pożyczkowy PARP od 2,5 mln zł, pytanie o liczbę naczep i kwotę), bez ceny. Aktualny nabór pożyczki w Łódzkiem niepotwierdzony. Możliwe, że to ten sam anonim z posta o transporcie intermodalnym w łódzkim (24.10).
