@@ -53,6 +53,8 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://formul
 | Wniosek o środki PFRON na działalność | 850 zł | 1050 zł | 1900 zł |
 | Dokumenty do pożyczki Wsparcie w starcie | 850 zł | 1050 zł | 1900 zł |
 | Wniosek do Lokalnej Grupy Działania | 850 zł | 1050 zł | 1900 zł |
+| Wniosek o refundację wyposażenia stanowiska pracy z urzędu pracy (cena ustalona przez właściciela 26.10.2026) | 850 zł | 1050 zł | 1900 zł |
+| Wniosek do LGD na rozwój działającej firmy (cena ustalona przez właściciela 26.10.2026) | 850 zł | 1050 zł | 1900 zł |
 | Biznesplan | wycena indywidualna | nie dotyczy | nie dotyczy |
 | Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
 | Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
