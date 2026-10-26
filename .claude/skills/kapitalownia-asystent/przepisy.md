@@ -123,3 +123,7 @@ Refundacja stanowiska pracy jest naturalną drugą usługą dla klientów, któr
 ## PFRON na działalność
 
 Środki z art. 12a ustawy o rehabilitacji zawodowej i społecznej przyznaje starosta przez PUP. Dla osoby z orzeczeniem, zarejestrowanej jako bezrobotna albo poszukująca pracy i niepozostająca w zatrudnieniu. Do 6-krotności przeciętnego wynagrodzenia albo do 15-krotności przy zobowiązaniu do prowadzenia działalności co najmniej 24 miesiące. Nie można wcześniej dostać bezzwrotnych środków publicznych na ten cel. Podstawa https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971230776
+
+## Dotacja z PUP a Wsparcie w starcie (26.10.2026)
+
+Nie łączy się obu na jedną firmę. Po otwarciu firmy z dotacją z PUP nie ma już warunku „brak firmy w ostatnich 12 miesiącach”, a umorzenie Wsparcia w starcie jest tylko dla osób, które wcześniej nie dostały dotacji z PUP. Klient wybiera jedno. Nie piszesz „a dodatkowo wniosek o dotację z urzędu”.
