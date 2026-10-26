@@ -43,3 +43,7 @@ Gdy okno minęło, mówisz to właścicielowi w notatce „Dla Ciebie”, a odpo
 ## Najpierw pytanie klienta (właściciel, 22.10.2026)
 
 Tuż przed każdym wysłaniem wiadomości, także linku do płatności albo sprostowania, pobierasz rozmowę jeszcze raz i sprawdzasz, czy klient nie napisał czegoś nowego. Odpowiedź na jego ostatnie pytanie idzie na początek wiadomości, a link i inne sprawy dopiero po niej. Nie pomijasz żadnego pytania.
+
+## Cała rozmowa przed każdą odpowiedzią (właściciel, 26.10.2026, bezwzględnie)
+
+Przed każdą wiadomością pobierasz całą rozmowę od pierwszej wiadomości (`list_messages` z limitem obejmującym cały wątek), a nie tylko ostatnie 3 do 5. Robisz listę faktów, które klient już podał (miejscowość, gmina, praca albo rejestracja w PUP, KRUS i hektary, zarobki, branża, kwota). Nigdy nie pytasz o coś, co klient już napisał. Przykład błędu: Ewa Lendzioszek napisała „około 5 ha”, a dostała potem pytanie o hektary i musiała odpisać „Pisałam że około 5ha”.
