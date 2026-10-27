@@ -53,6 +53,10 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Gmail (wersje robocze, niewysłane)
 
+- **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
+- **Bartłomiej Nowogrodzki, No-Tech Dental** (notech.dental@gmail.com). Pracownia protetyczna, JDG od ok. 3 lat, lubelskie, chce się usamodzielnić (lokal, maszyny, oprogramowanie), min. 150 tys. zł, prywatne wpisy w bazach dłużników. 27.10 o 8:20 z kontakt@ dostał LGD na rozwój i refundację stanowiska, cenę 1900 zł i pytanie o miejscowość i zatrudnienie.
+- Uwaga: oba maile z 27.10 rano poszły z linkiem opakowanym w google.com/url, wbrew zasadzie z styl.md (htmlBody).
+
 - Kamil (tdt.kinga@gmail.com), zgłoszenie z formularza 26.10 9:06. Spółka z o.o. ponad 3 lata, transport towarów, Jamno 99-400 (łódzkie), naczepy do transportu intermodalnego, budżet ponad 500 tys. zł, jak najszybciej. Wersja robocza odpowiedzi 26.10 (pożyczka rozwojowa FE dla Łódzkiego przez BGK, Fundusz Pożyczkowy PARP od 2,5 mln zł, pytanie o liczbę naczep i kwotę), bez ceny. Aktualny nabór pożyczki w Łódzkiem niepotwierdzony. Możliwe, że to ten sam anonim z posta o transporcie intermodalnym w łódzkim (24.10).
 
 - fpiibud@gmail.com (Pit Yama, pomorskie).
