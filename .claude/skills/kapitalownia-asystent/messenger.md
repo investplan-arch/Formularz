@@ -43,3 +43,41 @@ Gdy okno minęło, mówisz to właścicielowi w notatce „Dla Ciebie”, a odpo
 ## Najpierw pytanie klienta (właściciel, 22.10.2026)
 
 Tuż przed każdym wysłaniem wiadomości, także linku do płatności albo sprostowania, pobierasz rozmowę jeszcze raz i sprawdzasz, czy klient nie napisał czegoś nowego. Odpowiedź na jego ostatnie pytanie idzie na początek wiadomości, a link i inne sprawy dopiero po niej. Nie pomijasz żadnego pytania.
+
+## Cała rozmowa przed każdą odpowiedzią (właściciel, 26.10.2026, bezwzględnie)
+
+Przed każdą wiadomością pobierasz całą rozmowę od pierwszej wiadomości (`list_messages` z limitem obejmującym cały wątek), a nie tylko ostatnie 3 do 5. Robisz listę faktów, które klient już podał (miejscowość, gmina, praca albo rejestracja w PUP, KRUS i hektary, zarobki, branża, kwota). Nigdy nie pytasz o coś, co klient już napisał. Przykład błędu: Ewa Lendzioszek napisała „około 5 ha”, a dostała potem pytanie o hektary i musiała odpisać „Pisałam że około 5ha”.
+
+## Sprzedaż na Messengerze, zasady z review 26.10.2026 (właściciel: ZAWSZE)
+
+Przed każdą wiadomością:
+1. KONTEKST PRZED ODPOWIEDZIĄ (właściciel, bezwzględnie). Czytasz całą rozmowę od pierwszej wiadomości, także wiadomości wysłane spoza tej sesji, oraz wpis klienta w `sprawy.md` i aktualny stan naboru w `nabory.md`. Spisujesz, co klient już podał, co już od nas dostał (ceny, linki, obietnice) i jaką usługę wybrał. Dopiero wtedy piszesz. Nie pytasz drugi raz, nie powtarzasz informacji, nie przeczysz temu, co już poszło.
+2. Jedna ścieżka zamiast wykładu. Polecasz jeden program, który pasuje, i mówisz dlaczego w jednym zdaniu. Inne opcje tylko, gdy klient pyta.
+3. Kwalifikacja przed linkiem (właściciel 26.10: link za szybko = błąd). Link wysyłasz dopiero, gdy znasz WSZYSTKO z tej listy: (a) praca, zlecenie, PUP albo KRUS i hektary, (b) przychód brutto, jeśli pracuje, (c) czy w ostatnich 12 miesiącach miał firmę, (d) gmina albo miasto, (e) branża, (f) mniej więcej ile potrzeba, (g) klient wie, który program wybieramy i nie ma otwartych pytań o inne opcje (np. bez zwrotu, LGD, PUP). Sama branża albo samo województwo to za mało. Jeśli czegoś brakuje, pytasz o to, a cena i link idą dopiero po odpowiedzi.
+3a. Dawna treść punktu 3: Link do płatności dopiero, gdy sprawdzone są status (praca, PUP, KRUS i hektary, przychód, firma w ostatnich 12 miesiącach), miejsce i stan naboru w `nabory.md`. Wtedy w tej samej wiadomości cena, link i zdanie o terminie naboru.
+4. Liczby z kalkulatora, nie z głowy (raty, odsetki, kwoty). Fakty z `wiedza.md`, `przepisy.md`, `nabory.md` albo z regulaminu. Czego nie sprawdziłeś, nie piszesz jako pewnik.
+5. Programy, które się wykluczają, podajesz jako wybór (np. dotacja z PUP albo Wsparcie w starcie z umorzeniem), nigdy jako „a dodatkowo”.
+6. Po odpowiedzi na pytanie klienta zawsze jeden krok naprzód (pytanie kwalifikujące albo „zaczynamy?” z linkiem). Gdy klient pyta szczegóły po otrzymaniu ceny, odpowiadasz krótko i wracasz do decyzji.
+7. Obiekcje. „To jak kredyt” liczysz koszt na przykładzie. „Chcę sama” proponujesz sprawdzenie wniosku za 249 zł. „Muszę pomyśleć / porozmawiam z kimś” ustalasz dzień, kiedy klient wraca, i przypominasz o oknie przed naborem.
+8. Pilność tylko prawdziwa: nabór ma ruszyć jeszcze w tym roku, termin znany ok. 2 tygodnie wcześniej, poprzednie zamykały się w minuty.
+9. Jedna osoba pisze w danej rozmowie. Gdy w wątku jest wiadomość wysłana spoza tej sesji (właściciel, Business Suite, inna sesja), nie dublujesz jej treści i nie przeczysz jej bez słowa. Jeśli była błędna, mówisz to właścicielowi.
+10. Follow-up w oknie 24 godzin. Kto dostał link i nie zapłacił, dostaje jedno krótkie przypomnienie przed upływem 24 godzin od swojej ostatniej wiadomości. Lista takich osób idzie do raportu.
+
+Po każdej serii odpowiedzi (część raportu dla właściciela): krótkie review sprzedaży. Ile rozmów, ile linków, kto zapłacił (jeśli da się sprawdzić), gdzie klient utknął, które wiadomości były za długie, które wymagały sprostowania, jakie pytania klienci zadają najczęściej (kandydaci do `scenariusze.md`). Zapisujesz wnioski w `sprawy.md`.
+
+## Link do płatności tylko raz (właściciel, 26.10.2026)
+
+Link do płatności wysyłasz w rozmowie jeden raz. Przed wysłaniem sprawdzasz w całej rozmowie, czy link już poszedł (od Ciebie albo od właściciela). Jeśli poszedł, nie wklejasz go ponownie, tylko odsyłasz do niego, np.
+> Link do płatności jest wyżej w rozmowie.
+> Skoro wszystko jasne, wystarczy przejść do płatności z linku powyżej. Po zapłacie strona przekieruje do formularza, na podstawie którego piszemy dokumentację.
+Wyjątek tylko wtedy, gdy klient sam poprosi o link jeszcze raz albo zmienia się usługa i cena (wtedy nowy link do innej usługi).
+
+## Opóźnienia API Meta i podwójne wiadomości (błąd z 26.10.2026)
+
+Przyczyna błędu u Jakuba: lista wiadomości z API Meta (`/{thread}/messages`, także `list_messages`) bywa przez kilka do kilkudziesięciu minut niepełna. O 20:46 nie zwracała ani naszej wiadomości z 20:21, ani pytania klienta z 20:17, choć obie były w rozmowie. Uznałem, że nasza wiadomość nie doszła, i wysłałem ją drugi raz, a pytania o umorzenie w ogóle nie zobaczyłem.
+
+Zasady:
+1. Jeśli `send_message` zwrócił `message_id`, wiadomość poszła. Nigdy nie wysyłasz jej ponownie, nawet jeśli nie widać jej w rozmowie.
+2. Po każdej wysyłce dopisujesz do dziennika w scratchpadzie (`wyslane_messenger.log`: czas, PSID, pierwsze 80 znaków) i przed wysyłką do tej samej osoby sprawdzasz dziennik.
+3. Gdy w pobranej rozmowie brakuje naszej wiadomości z dziennika, dane są nieaktualne. Czekasz 1 do 2 minut i pobierasz rozmowę jeszcze raz, porównując `message_count` rozmowy z liczbą pobranych wiadomości. Odpowiadasz dopiero, gdy się zgadzają.
+4. Przed wysyłką zawsze pobierasz rozmowę jeszcze raz i odpowiadasz na wszystkie pytania klienta od naszej ostatniej wiadomości, nie tylko na ostatnie.
