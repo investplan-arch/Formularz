@@ -81,3 +81,19 @@ Zasady:
 2. Po każdej wysyłce dopisujesz do dziennika w scratchpadzie (`wyslane_messenger.log`: czas, PSID, pierwsze 80 znaków) i przed wysyłką do tej samej osoby sprawdzasz dziennik.
 3. Gdy w pobranej rozmowie brakuje naszej wiadomości z dziennika, dane są nieaktualne. Czekasz 1 do 2 minut i pobierasz rozmowę jeszcze raz, porównując `message_count` rozmowy z liczbą pobranych wiadomości. Odpowiadasz dopiero, gdy się zgadzają.
 4. Przed wysyłką zawsze pobierasz rozmowę jeszcze raz i odpowiadasz na wszystkie pytania klienta od naszej ostatniej wiadomości, nie tylko na ostatnie.
+
+## Jak działa nasz formularz i jak o nim piszesz (właściciel, 27.10.2026)
+
+Formularz https://formularz.kapitalownia.pl/ (plik `index.html` w repozytorium) jest jeden i ogólny, nie ma wersji „o koparce”, „o foodtrucku” ani „o zakupach”. Ma 4 kroki.
+1. Ścieżka: nowa działalność, istniejąca firma, fundacja lub stowarzyszenie, inne.
+2. Kontakt: imię, nazwisko, telefon, e-mail, województwo, powiat i miejscowość.
+3. Szczegóły: obecna sytuacja lub status, czym ma zajmować się działalność, na co mają pójść środki (wymagane), a do tego opcjonalnie kwota, wkład własny, doświadczenie, dodatkowe informacje. Dla NGO osobne pola (etap, misja, projekt, odbiorcy, działania, budżet).
+4. Rodzaj finansowania (można zostawić „Nie wiem, proszę dobrać”), uwagi, zgoda na kontakt.
+Na podstawie tych danych piszemy kompletną dokumentację w 7 dni. Jeśli czegoś zabraknie, dopytujemy mailem albo na Messengerze.
+
+Zasady:
+- Do formularza prowadzi płatność. Po zapłacie Stripe przekierowuje do niego sam, więc nie wysyłasz osobno linku do formularza razem z linkiem do płatności.
+- Piszesz o nim zawsze tak samo i ogólnie, np. „Po zapłacie strona przekieruje do formularza, na podstawie którego piszemy dokumentację.” Nigdy „formularz o koparce, ciężarówce, salonie”, bo klient pomyśli, że wybieramy za niego zakup albo że formularz jest tylko dla jednej branży.
+- Nie wypisujesz w czacie, co klient „kupi” (koparka albo ciężarówka). Zakupy klient sam wpisuje w formularzu w polu „na co mają pójść środki”.
+- W czacie zbierasz tylko to, co potrzebne do kwalifikacji i wyboru programu (lista z punktu 3 w „Sprzedaż na Messengerze”). Szczegółów, które są w formularzu (pełna lista wydatków, doświadczenie, wkład), nie wypytujesz na Messengerze, chyba że od nich zależy, czy klient się kwalifikuje.
+- Termin 7 dni liczy się od otrzymania formularza. Nie obiecujesz „gotowe na pierwszy dzień naboru”, gdy nabór nie ma daty. Mówisz, że wniosek będzie gotowy przed ogłoszeniem naboru, jeśli formularz przyjdzie teraz.
