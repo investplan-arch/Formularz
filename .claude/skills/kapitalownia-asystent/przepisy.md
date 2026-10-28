@@ -127,3 +127,12 @@ Refundacja stanowiska pracy jest naturalną drugą usługą dla klientów, któr
 ## Dotacja z PUP a Wsparcie w starcie (26.10.2026)
 
 Nie łączy się obu na jedną firmę. Po otwarciu firmy z dotacją z PUP nie ma już warunku „brak firmy w ostatnich 12 miesiącach”, a umorzenie Wsparcia w starcie jest tylko dla osób, które wcześniej nie dostały dotacji z PUP. Klient wybiera jedno. Nie piszesz „a dodatkowo wniosek o dotację z urzędu”.
+
+## Wsparcie w starcie, regulamin nr 3 FERS (sprawdzone 28.10.2026, pełny tekst w `regulaminy/wws_regulamin_nr3_FERS.txt`, źródło https://frw.pl/wp-content/uploads/2025/11/Regulamin-nr-3-FERS-udzielania-pozyczek-na-podjecie-dzialalnosci-gospodarczej-oraz-swiadczenia-uslug-doradztwa-i-szkolen.pdf)
+
+- Kto (§6 ust. 1): bezrobotni; niezatrudnieni i niewykonujący pracy zarobkowej (bez rejestracji w PUP); studenci ostatniego roku niezatrudnieni; niezatrudnieni opiekunowie osób z niepełnosprawnością poszukujący pracy; osoby z przychodem średnio z 3 miesięcy do przeciętnego wynagrodzenia; powracający z zagranicy.
+- §7 ust. 1 pkt 1: przez 12 miesięcy przed wnioskiem nie prowadził działalności w Polsce I NIE POZOSTAWAŁ W ZAWIESZENIU. Zawieszona JDG i zawieszona spółka cywilna (wspólnicy to przedsiębiorcy) blokują wniosek, liczy się 12 miesięcy od zamknięcia.
+- §7 ust. 1 pkt 3: grupy 1 do 4 w dniu wniosku nie mogą być zatrudnione ani wykonywać pracy zarobkowej.
+- §6 ust. 2 pkt 1: pożyczka nie może finansować działalności w formie spółki prawa handlowego (sp. z o.o. odpada). Spółka cywilna jest dopuszczona (wzór oświadczenia wspólnika w regulaminie).
+- Kwota do 20-krotności przeciętnego wynagrodzenia, do 100% kosztów, tylko wydatki niezbędne do podjęcia działalności. Koszty stałe (czynsz, najem) do 6 miesięcy od umowy. Nie wolno finansować kosztów osobowych ani zakupu gruntu niezabudowanego. Wolno finansować infrastrukturę, w tym budowę, adaptację i remont budynków lub pomieszczeń pod nową funkcję.
+- Zawieszenie firmy po otrzymaniu pożyczki łącznie maks. 6 miesięcy.
