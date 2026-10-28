@@ -58,7 +58,7 @@ Dokumentację piszemy na podstawie formularza klienta pod adresem https://formul
 | Biznesplan | wycena indywidualna | nie dotyczy | nie dotyczy |
 | Sprawdzenie gotowego wniosku klienta | 249 zł | nie dotyczy | nie dotyczy |
 | Konsultacja 30 minut | 149 zł | nie dotyczy | nie dotyczy |
-| Wniosek grantowy dla NGO | wycena indywidualna | nie dotyczy | nie dotyczy |
+| Wniosek grantowy dla NGO (właściciel 28.10.2026) | 850 zł | 1050 zł po przyznaniu dotacji | 1900 zł |
 | Założenie fundacji | 690 zł | 800 zł po wpisie fundacji do KRS | 1490 zł |
 | Fundacja z pierwszym wnioskiem grantowym | 1290 zł | 1200 zł po wpisie fundacji do KRS | 2490 zł |
 | Grant ARP Dig.IT (cyfryzacja firm produkcyjnych) | 3900 zł netto | 5% netto przyznanego grantu, płatne po wypłacie grantu | 3900 zł plus 5% grantu, rozliczenie projektu w cenie |
