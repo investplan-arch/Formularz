@@ -131,3 +131,12 @@ Przykłady przed i po (prawdziwe wiadomości z 26–27.10):
   Dobrze: „Na usługi elektryczne się da. Ile mniej więcej potrzeba na start?”
 - Źle: „Oprocentowanie to 0,25% rocznie, bez prowizji, a przez pierwszy rok spłaca się tylko odsetki.”
   Dobrze: „0,25% rocznie, w praktyce przez pierwszy rok ok. 30 zł miesięcznie.”
+
+## Złoty środek: krótko, ale klient musi wiedzieć, co kupuje (właściciel, 27.10.2026)
+
+Zasada „maks. 2 zdania” dotyczy pytań kwalifikujących i krótkich odpowiedzi. Zanim padnie cena i link, klient dostaje JEDNĄ wiadomość, 3 do 4 zdań, która wyjaśnia po ludzku:
+1. czy to dotacja (bez zwrotu) czy pożyczka (do spłaty), nazywając to wprost,
+2. ile to w praktyce kosztuje klienta na jego kwocie (odsetki w pierwszym roku i rata potem, policzone skryptem),
+3. czy przysługuje mu umorzenie i od czego zależy,
+4. co robimy my (biznesplan i wniosek), a co on.
+Dopiero potem cena. Link do płatności tylko wtedy, gdy klient po wyjaśnieniu sam chce zaczynać („zaczynamy”, „biorę”, „jak zapłacić”) albo na pytanie „zaczynamy?” odpowie tak. Nigdy w tej samej turze co pierwsza cena, nigdy „z automatu” po kwalifikacji (właściciel 27.10). Przykład błędu: Katarzyna dostała link, a potem zapytała „czy to o dotację czy kredyt?”. Nie twierdzisz, że pośrednik „nie bada zdolności”, bo ocenia, czy raty da się spłacać.
