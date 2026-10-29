@@ -2,7 +2,9 @@
 
 **Stan na 18 października 2026, aktualizacja 29.10.2026 poniżej.** To zestawienie służy do szybkiego pomysłu na rozwiązanie i do postów. Zanim podasz klientowi termin albo kwotę, potwierdzasz ją w ogłoszeniu instytucji (zrodla.md). Terminy oznaczone „orientacyjnie” pochodzą z harmonogramów i mogą się przesunąć. Pozycje z datą zakończenia wcześniejszą niż dziś pomijasz.
 
-Najświeższe nabory urzędów pracy z całej Polski pobierasz skryptem `skrypty/nabory_pup.py` (opis w zrodla.md). Ten pl## Aktualizacja 29.10.2026 (sprawdzone źródła)
+Najświeższe nabory urzędów pracy z całej Polski pobierasz skryptem `skrypty/nabory_pup.py` (opis w zrodla.md). Ten plik aktualizuj co kilka tygodni.
+
+## Aktualizacja 29.10.2026 (sprawdzone źródła)
 
 | Program | Termin | Dla kogo | Źródło |
 |---|---|---|---|
@@ -13,8 +15,7 @@ Najświeższe nabory urzędów pracy z całej Polski pobierasz skryptem `skrypty
 | KFS w PUP (nabory uzupełniające) | Krotoszyn i Łowicz 2–6.11, Łosice do 4.11, Biała Podlaska 4–10.11, Przemyśl ok. 13–19.11 (14,5 tys. zł), Przasnysz do 17.11 | pracodawcy, szkolenia pracowników | zielonalinia.gov.pl (skrypt, 29.10) |
 | Dotacje na start w PUP | Gostynin (zamknięcie po pierwszym wniosku, termin otwarcia na stronie urzędu), Łosice i Garwolin do 30.10, Kamienna Góra 29–30.10 (28 tys. zł) | bezrobotni | zielonalinia.gov.pl (skrypt, 29.10) |
 | LGD na start | brak potwierdzonych naborów w listopadzie. LGD Północne Mazowsze zapowiada nabór na start „w drugiej połowie roku” bez daty, LGD Mszana nie planuje w 2026, Podkarpacie wstrzymało nabory LGD | osoby bez firmy przez 12 mies. | strony LGD |
-
-ik aktualizuj co kilka tygodni.
+| SPLOT Wartości 2.0, granty duże (program CERV, Sieć SPLOT) | 27.10–28.12.2026, godz. 12.00, webinary 5.11 i 2.12, wyniki 14.05.2027 | fundacje, stowarzyszenia i inne NGO (także lokalne, nie tylko organizacje wspierające NGO), 10–15 tys. euro bez wkładu własnego, projekty o prawach podstawowych, wartościach UE, aktywności obywatelskiej, rzecznictwie i równości, pula 587 926 euro, partnerstwo z doświadczoną organizacją możliwe. Cena jak wniosek grantowy NGO | publicystyka.ngo.pl (Sieć SPLOT, 27.10.2026), siecsplot.pl |
 
 ## Spis treści
 - A. Osoby zakładające firmę (urzędy pracy, LGD, startupy)
