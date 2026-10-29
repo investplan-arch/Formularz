@@ -124,6 +124,10 @@ Refundacja stanowiska pracy jest naturalną drugą usługą dla klientów, któr
 
 Środki z art. 12a ustawy o rehabilitacji zawodowej i społecznej przyznaje starosta przez PUP. Dla osoby z orzeczeniem, zarejestrowanej jako bezrobotna albo poszukująca pracy i niepozostająca w zatrudnieniu. Do 6-krotności przeciętnego wynagrodzenia albo do 15-krotności przy zobowiązaniu do prowadzenia działalności co najmniej 24 miesiące. Nie można wcześniej dostać bezzwrotnych środków publicznych na ten cel. Podstawa https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU19971230776
 
+## Na co można wydać pożyczkę Wsparcie w starcie (regulamin nr 3 BGK, §4 i §7, sprawdzone 29.10.2026)
+
+Regulamin nr 3 jest wspólny dla wszystkich pośredników, w tym SCREP w warmińsko-mazurskim. Pożyczka pokrywa do 100% kosztów podjęcia działalności i idzie wyłącznie na wydatki niezbędne do jej podjęcia. Regulamin nie wyklucza pojazdów, więc auto potrzebne do prowadzenia firmy (np. do transportu medycznego) mieści się, jeśli biznesplan pokazuje, że jest niezbędne. Wykluczone są koszty osobowe, grunt niezabudowany, zakup od małżonka, domowników, rodziców, dziadków, dzieci i rodzeństwa oraz przejęcie ich firmy. Koszty stałe (czynsz, najem) najwyżej przez 6 miesięcy od umowy. Można finansować zakupy z VAT oraz budowę, adaptację i remont pomieszczeń pod działalność.
+
 ## Dotacja z PUP a Wsparcie w starcie (26.10.2026)
 
 Nie łączy się obu na jedną firmę. Po otwarciu firmy z dotacją z PUP nie ma już warunku „brak firmy w ostatnich 12 miesiącach”, a umorzenie Wsparcia w starcie jest tylko dla osób, które wcześniej nie dostały dotacji z PUP. Klient wybiera jedno. Nie piszesz „a dodatkowo wniosek o dotację z urzędu”.
