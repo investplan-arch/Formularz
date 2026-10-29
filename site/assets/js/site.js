@@ -370,4 +370,25 @@
       submitBtn.textContent = submitLabel;
     });
   });
+
+  // Wejście sekcji: treść jest widoczna bez JS, animacja tylko ją odsłania
+  if (!reduce && 'IntersectionObserver' in window) {
+    var items = document.querySelectorAll('.section__head, .card, .review, .pcompact, .section--steps li, .split__body li, .note, .program, .service, .acard');
+    if (items.length) {
+      document.documentElement.classList.add('reveal-on');
+      var seen = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          var el = e.target, sib = el.parentNode ? Array.prototype.indexOf.call(el.parentNode.children, el) : 0;
+          el.style.transitionDelay = Math.min(sib, 5) * 70 + 'ms';
+          el.classList.add('is-in');
+          seen.unobserve(el);
+        });
+      }, { rootMargin: '0px 0px -8% 0px' });
+      Array.prototype.forEach.call(items, function (el) {
+        if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('is-in');
+        else { el.classList.add('reveal'); seen.observe(el); }
+      });
+    }
+  }
 })();
