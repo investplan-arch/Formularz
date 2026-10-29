@@ -75,3 +75,13 @@ Kapitałownia pisze wnioski i biznesplany o pieniądze na firmę. Dotacja z urz�
 Zaczynamy od sprawdzenia, z czego możesz skorzystać. Napisz DOTACJA w wiadomości albo wejdź w link w bio.
 
 #dotacja #własnafirma #biznesplan #kapitałownia
+
+## 10. Karuzela „SPLOT Wartości 2.0” (07-splot-wartosci), fakty z ogłoszenia Sieci SPLOT z 27.10.2026
+
+Fundacje, stowarzyszenia i koła gospodyń mogą do 28 grudnia złożyć wniosek o grant SPLOT Wartości 2.0. To od 10 do 15 tys. euro na projekt, bez wkładu własnego.
+
+Pieniądze są na działania wokół praw obywatelskich i równości szans. Kampania informacyjna w gminie, debaty z mieszkańcami, bezpłatne porady, projekt dla młodzieży albo osób z niepełnosprawnościami. Projekt może być lokalny, a mniejsza organizacja może złożyć wniosek razem z bardziej doświadczoną.
+
+Najtrudniejsze jest dopasowanie pomysłu do celów programu. Napisz SPLOT w wiadomości, czym zajmuje się organizacja i co chcecie zrobić, a podpowiemy, jak ułożyć projekt.
+
+#fundacja #stowarzyszenie #KGW #granty #ngo

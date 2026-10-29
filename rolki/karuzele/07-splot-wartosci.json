@@ -1,0 +1,10 @@
+{
+  "zrodlo": "Sieć SPLOT, ogłoszenie naboru dużych grantów z 27.10.2026",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Fundacja, stowarzyszenie, KGW?", "tytul": "Do 15 tys. euro na projekt organizacji bez wkładu własnego", "akcent": "15 tys. euro", "podtytul": "SPLOT Wartości 2.0, wnioski do 28 grudnia 2026" },
+    { "typ": "punkt", "numer": "01", "tytul": "Ile i do kiedy", "tekst": "Grant od 10 do 15 tys. euro, bez wkładu własnego. Wniosek składa się przez generator do 28 grudnia 2026, do godz. 12.00." },
+    { "typ": "punkt", "numer": "02", "tytul": "Na jakie działania", "tekst": "Kampanie informacyjne, debaty z mieszkańcami, bezpłatne porady, działania rzecznicze i projekty o równości szans, np. dla młodzieży albo osób z niepełnosprawnościami." },
+    { "typ": "punkt", "numer": "03", "tytul": "Mniejsza organizacja też może", "tekst": "Projekt może mieć zasięg lokalny. Organizacja z mniejszym doświadczeniem może złożyć wniosek w partnerstwie z bardziej doświadczoną.", "uwaga": "Projekt musi realizować cele programu CERV, czyli prawa podstawowe i wartości UE." },
+    { "typ": "koniec", "tytul": "Dopasujemy pomysł do konkursu", "tekst": "Napisz, czym zajmuje się organizacja i co chcecie zrobić.", "przycisk": "Napisz SPLOT" }
+  ]
+}
