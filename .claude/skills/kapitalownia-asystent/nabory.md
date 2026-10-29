@@ -1,8 +1,20 @@
 # Nabory, które trwają albo zaraz ruszą
 
-**Stan na 18 października 2026.** To zestawienie służy do szybkiego pomysłu na rozwiązanie i do postów. Zanim podasz klientowi termin albo kwotę, potwierdzasz ją w ogłoszeniu instytucji (zrodla.md). Terminy oznaczone „orientacyjnie” pochodzą z harmonogramów i mogą się przesunąć. Pozycje z datą zakończenia wcześniejszą niż dziś pomijasz.
+**Stan na 18 października 2026, aktualizacja 29.10.2026 poniżej.** To zestawienie służy do szybkiego pomysłu na rozwiązanie i do postów. Zanim podasz klientowi termin albo kwotę, potwierdzasz ją w ogłoszeniu instytucji (zrodla.md). Terminy oznaczone „orientacyjnie” pochodzą z harmonogramów i mogą się przesunąć. Pozycje z datą zakończenia wcześniejszą niż dziś pomijasz.
 
-Najświeższe nabory urzędów pracy z całej Polski pobierasz skryptem `skrypty/nabory_pup.py` (opis w zrodla.md). Ten plik aktualizuj co kilka tygodni.
+Najświeższe nabory urzędów pracy z całej Polski pobierasz skryptem `skrypty/nabory_pup.py` (opis w zrodla.md). Ten pl## Aktualizacja 29.10.2026 (sprawdzone źródła)
+
+| Program | Termin | Dla kogo | Źródło |
+|---|---|---|---|
+| Dig.IT, Konkurs 2/2026 (ARP) | 2–30.11.2026, ARP może zamknąć wcześniej (według Grant Thornton po 10 dniach, gdy wnioski przekroczą 2x budżet) | MŚP z przetwórstwa przemysłowego lub usług produkcyjnych, min. 5 lat, grant 150–850 tys. zł, do 50% | digit.arp.pl (strona główna, 29.10) |
+| Pożyczki na cyfrową i zieloną transformację (PARP, FENG, Fundusz Pożyczkowy) | składanie wniosków od 2.11.2026 u partnerów finansujących, do 2029 albo do wyczerpania puli | MŚP, 2,5–15 mln zł, 0,5% rocznie, do 15 lat, warunkowa dotacja na spłatę do 15% kapitału, zabezpieczenie i zdolność spłaty wymagane | parp.gov.pl/component/grants/grants/pozyczki-na-cyfrowa-i-zielona-transformacje-przedsiebiorstw |
+| Ścieżka SMART (PARP) | 29.10–29.12.2026 | MŚP z projektem B+R | parp.gov.pl (wpis wyżej) |
+| Platformy startowe IIb (PARP, FEPW) | do 10.12.2026 | startupy z Polski Wschodniej, do 2 mln zł | parp.gov.pl (wpis wyżej) |
+| KFS w PUP (nabory uzupełniające) | Krotoszyn i Łowicz 2–6.11, Łosice do 4.11, Biała Podlaska 4–10.11, Przemyśl ok. 13–19.11 (14,5 tys. zł), Przasnysz do 17.11 | pracodawcy, szkolenia pracowników | zielonalinia.gov.pl (skrypt, 29.10) |
+| Dotacje na start w PUP | Gostynin (zamknięcie po pierwszym wniosku, termin otwarcia na stronie urzędu), Łosice i Garwolin do 30.10, Kamienna Góra 29–30.10 (28 tys. zł) | bezrobotni | zielonalinia.gov.pl (skrypt, 29.10) |
+| LGD na start | brak potwierdzonych naborów w listopadzie. LGD Północne Mazowsze zapowiada nabór na start „w drugiej połowie roku” bez daty, LGD Mszana nie planuje w 2026, Podkarpacie wstrzymało nabory LGD | osoby bez firmy przez 12 mies. | strony LGD |
+
+ik aktualizuj co kilka tygodni.
 
 ## Spis treści
 - A. Osoby zakładające firmę (urzędy pracy, LGD, startupy)
