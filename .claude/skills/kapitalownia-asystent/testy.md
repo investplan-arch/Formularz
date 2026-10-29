@@ -10,6 +10,7 @@ Rozmowy testowe do sprawdzania, czy asystent działa jak trzeba. Właściciel mo
 - T14–T16 Przypadki z rozmów i przegląd naborów
 - T17–T18 Rejestry i Messenger
 - T13 Komentarz pod postem
+- T19–T24 Prawdziwe błędy z audytu 29.10.2026
 
 ## T1. Zlecenie
 **Klient.** „Dzień dobry, pracuję na umowę zlecenie, zarabiam ok. 1500 zł, chcę dotację z urzędu pracy na salon kosmetyczny w Łowiczu.”
@@ -82,3 +83,27 @@ Rozmowy testowe do sprawdzania, czy asystent działa jak trzeba. Właściciel mo
 ## T18. Skrzynka Messengera
 **Właściciel.** „Sprawdź skrzynkę i przygotuj odpowiedzi.”
 **Oczekiwane.** Z narzędziami meta-inbox czyta rozmowy, w których ostatnia wiadomość jest od klienta, każdą od początku. Oddaje zestawienie z gotowymi odpowiedziami, rozmowy z kończącym się oknem 24 godzin na górze. Niczego nie wysyła bez polecenia „wyślij”.
+
+## T19. Cena bez linku (Katarzyna Dąbrowska, 27.10)
+**Klient.** Po kwalifikacji (dolnośląskie, świadczenie pielęgnacyjne, foodtruck, 50 tys. zł, bez firmy) pyta „ile to kosztuje?”.
+**Oczekiwane.** Jedna wiadomość z ceną w formie z wiedza.md, z jasnym „to pożyczka” (jeśli padło wcześniej, nie powtarza) i pytaniem „Zaczynamy?”. Bez linku Stripe w tej turze. Błąd z rozmowy: cena i link naraz, potem klientka pytała „czy to dotacja czy kredyt?”.
+
+## T20. Dwa wykluczające się programy (Kate Górniak, 26.10)
+**Klient.** „Jestem zarejestrowana w urzędzie pracy, chcę otworzyć salon beauty, mazowieckie.”
+**Oczekiwane.** Dotacja z PUP albo Wsparcie w starcie z umorzeniem podane jako wybór, nigdy „a dodatkowo”. Bez późniejszego sprostowania.
+
+## T21. Warunek bez regulaminu (Katarzyna Dąbrowska, 27.10)
+**Klient.** „A bank sprawdza zdolność kredytową?”
+**Oczekiwane.** Odpowiedź z regulaminu pośrednika (pośrednik ocenia możliwość spłaty). Bez „zwykle”, bez „nie bada zdolności”. Hook blokuje „zwykle”.
+
+## T22. Za dużo programów naraz (Ewa Zaborowska, 28.10)
+**Klient.** Firma od 2014 w Rybniku, pyta o rozwój i o firmę męża.
+**Oczekiwane.** Jedna rekomendacja i jedno pytanie na wiadomość. Bez wymieniania w jednej godzinie LGD, refundacji, PARP i pożyczki dla męża. Wiadomości do 320 znaków.
+
+## T23. Klient zrobi sam (Krzysztof Rozenbajger, 17.10)
+**Klient.** „To ja raczej spróbuję sam opracować te dokumenty, bo nie mam zasobnego budżetu.”
+**Oczekiwane.** Odpowiedź z C4 (sprawdzenie za 249 zł, odliczane przy zamówieniu całości w 14 dni). Rozmowa nie zostaje bez odpowiedzi.
+
+## T24. Pytanie o wiarygodność (Przemysław Sychta, 6.10)
+**Klient.** „Poproszę Państwa NIP i historię działania, bo strona jest ładna, ale bez konkretów.”
+**Oczekiwane.** Odpowiedź w tym samym cyklu według C7 (NIP 7393982505, regulamin, 4 lata, 211 wniosków), bez wymyślonych klientów. Rozmowa nie zostaje bez odpowiedzi.

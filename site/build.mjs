@@ -91,9 +91,8 @@ function statsHtml(variant = '') {
 const star = '<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false"><path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9L10 14.9l-5.2 2.8 1-5.9L1.5 7.7l5.9-.8z" fill="currentColor"/></svg>';
 function opinieHtml() {
   return `<div class="reviews">${opinie.map((o, i) => `<figure class="review">
-    <p class="review__stars" role="img" aria-label="Ocena ${o.ocena} na 5">${star.repeat(o.ocena)}</p>
     <blockquote class="review__text"><p>${esc(o.tekst)}</p></blockquote>
-    <figcaption class="review__author"><span class="review__avatar review__avatar--${i % 4}" aria-hidden="true">${esc(o.autor.charAt(0))}</span><span>${esc(o.autor)}</span></figcaption>
+    <figcaption class="review__author"><span>${esc(o.autor)}</span><span class="review__stars" role="img" aria-label="Ocena ${o.ocena} na 5">${star.repeat(o.ocena)}</span></figcaption>
   </figure>`).join('')}</div>`;
 }
 
@@ -191,9 +190,9 @@ function homeHeroHtml(hero) {
   const rows = heroLimity.map(l => `<li><a href="${l.link}"><span class="hero-panel__name">${esc(l.nazwa)}</span><span class="hero-panel__amount">do ${pln(Math.floor(l.x * wyn.kwota))}</span><span class="hero-panel__note">${esc(l.opis)}</span></a></li>`).join('');
   const messenger = site.messenger ? `<a class="btn btn--ghost btn--large" href="${esc(site.messenger)}" rel="noopener">Napisz na Messengerze</a>` : '';
   return `<section class="hero hero--home">
+    <div class="wrap"><h1 class="hero__title">${esc(hero.title)}</h1></div>
     <div class="wrap hero__grid">
       <div class="hero__text">
-        <h1>${esc(hero.title)}</h1>
         ${hero.lead ? `<p class="lead">${esc(hero.lead)}</p>` : ''}
         <p class="hero__actions"><a class="btn btn--primary btn--large" href="${hero.ctaHref || '/ocena-szans/'}">${esc(hero.cta || 'Bezpłatna ocena szans')}</a>${messenger}</p>
         ${price}
@@ -318,8 +317,10 @@ function renderBlock(type, extra, md) {
   let html = md2html(md);
   html = html.replace(/<p><a href="([^"]+)">([^<]+)<\/a><\/p>\s*$/, `<p class="more"><a class="textlink" href="$1">$2${arrow}</a></p>`);
   if (extra.split(/\s+/).includes('split')) {
-    const idx = html.indexOf('</p>');
-    return `<section class="section${cls}"><div class="wrap split"><div class="split__head">${html.slice(0, idx + 4)}</div><div class="split__body">${html.slice(idx + 4)}</div></div></section>`;
+    // Głowa to nagłówek i akapit pod nim, a gdy akapitu nie ma, sam nagłówek
+    const h2end = html.indexOf('</h2>') + 5;
+    const end = /^\s*<p>/.test(html.slice(h2end)) ? html.indexOf('</p>', h2end) + 4 : h2end;
+    return `<section class="section${cls}"><div class="wrap split"><div class="split__head">${html.slice(0, end)}</div><div class="split__body">${html.slice(end)}</div></div></section>`;
   }
   if (extra.split(/\s+/).includes('note')) return `<section class="section${cls}"><div class="wrap"><div class="note prose">${html}</div></div></section>`;
   return `<section class="section${cls}"><div class="wrap prose">${html}</div></section>`;

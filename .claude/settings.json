@@ -35,5 +35,18 @@
     "deny": [
       "mcp__meta-inbox__delete_comment"
     ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__meta-inbox__send_message",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/narzedzia/hooks/sprawdz_wiadomosc.py\""
+          }
+        ]
+      }
+    ]
   }
 }

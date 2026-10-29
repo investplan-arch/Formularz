@@ -4,13 +4,13 @@ description: Piszemy wnioski z biznesplanem o dotację z urzędu pracy, środki 
 path: /
 layout: home
 hero:
-  title: Dotacja na start firmy do 55 tys. zł. Wniosek napiszemy za Ciebie
-  lead: Sprawdzamy, z którego programu skorzystasz, i piszemy biznesplan z wnioskiem gotowe do złożenia. Urząd pracy, PFRON, LGD i pożyczka Wsparcie w starcie, zdalnie w całej Polsce.
+  title: Pieniądze na start firmy
+  lead: Wniosek z biznesplanem piszemy za Ciebie, gotowy do złożenia. Najpierw sprawdzamy, który program pasuje, urząd pracy, PFRON, LGD czy pożyczka Wsparcie w starcie. Zdalnie w całej Polsce.
   cta: Sprawdź za darmo, ile możesz dostać
   ctaHref: /ocena-szans/
 ---
 
-::: cards white
+::: cards white rows
 ## Z kim pracujemy
 
 Zaczynamy od tego, kim jesteś i co chcesz sfinansować. Od tego zależy program i zestaw dokumentów.
