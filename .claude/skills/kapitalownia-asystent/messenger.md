@@ -12,7 +12,7 @@ Gdy w rozmowie są narzędzia serwera meta-inbox (nazwy kończą się na `list_c
 ## Przegląd skrzynki
 
 Gdy właściciel pisze „sprawdź skrzynkę”, „co nowego na Messengerze” albo podobnie:
-1. `list_conversations` i wybierasz rozmowy z nieprzeczytanymi wiadomościami albo takie, w których ostatnia wiadomość jest od klienta.
+1. `list_conversations` i wybierasz rozmowy z nieprzeczytanymi wiadomościami albo takie, w których ostatnia wiadomość jest od klienta. Kolejność obsługi: najpierw osoby, które napisały do nas same (pierwsza wiadomość w wątku jest od klienta), potem odpowiedzi na nasze priv. Każda rozmowa, w której klient zadał pytanie, dostaje odpowiedź przed upływem 24 godzin. Audyt 29.10.2026: 5.10 napisało samo 8 osób w sprawie fundacji (Andżelika Dąbek, Natalia Raboszuk, Paweł Wróbel, Marzena Jarosińska, Karolina Kawala, Katarzyna Karpińska, Justyna Joppek, Leszek Krzemień z telefonem) i żadna nie dostała odpowiedzi.
 2. Dla każdej `get_conversation`, czytasz całą historię od pierwszej wiadomości i robisz kartę klienta według SKILL.md.
 3. Dla każdej rozmowy przechodzisz pełną listę kontrolną z SKILL.md, z researchem naboru.
 4. Oddajesz właścicielowi zestawienie, czyli imię klienta, jedno zdanie o sprawie, czas od ostatniej wiadomości klienta i gotową odpowiedź. Rozmowy, w których kończy się okno 24 godzin, dajesz na górę.
@@ -101,3 +101,9 @@ Zasady:
 ## Zawsze regulamin (właściciel, 28.10.2026, bezwzględnie)
 
 Każdy warunek programu (kto może, co blokuje, na co wolno wydać, zabezpieczenia, terminy) sprawdzasz w regulaminie, zanim go napiszesz klientowi. Najpierw `przepisy.md` i `regulaminy/`, a gdy tam brak, pobierasz aktualny regulamin od pośrednika i zapisujesz najważniejsze punkty w `przepisy.md`. Słowa „zwykle”, „raczej”, „może wystarczyć” zamiast sprawdzenia są błędem. Jeśli regulaminu nie da się pobrać, mówisz to właścicielowi i nie podajesz klientowi warunku jako faktu.
+
+## Priv po komentarzu bez szablonu (audyt 29.10.2026)
+
+26 osób dostało identyczny priv z liczbami („Wsparcie w starcie to niskooprocentowana pożyczka… 184 tys. zł, 0,25%…”), a 52 identyczny z czterema pytaniami. Na 241 rozmów rozpoczętych przez nas odpisało 40 (17%). Pierwszy priv odnosi się do tego, co osoba napisała w komentarzu, ma najwyżej 2 zdania i jedno pytanie, bez kwot, np.
+> Dzień dobry, pisze Pan pod postem o koparce. Firma już działa czy dopiero ma powstać?
+Liczby i warunki programu podajesz dopiero, gdy osoba odpisze.
