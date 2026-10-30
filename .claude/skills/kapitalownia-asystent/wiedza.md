@@ -31,6 +31,7 @@ Podawaj linki dokładnie w tej postaci.
 | Płatność 850 zł, start wniosku PUP, PFRON, LGD, Wsparcie w starcie (Stripe) | https://buy.stripe.com/eVq14p99K35A30z4QJ6Zy07 |
 | Strona płatności 850 zł na naszej domenie (podgląd w Messengerze pokazuje Kapitałownię, NIP i zasady, przycisk prowadzi do Stripe). Wysyłasz ją zamiast surowego linku Stripe, gdy jest już wdrożona | https://kapitalownia.pl/platnosc/ |
 | Płatność 2500 zł, start dużego projektu (Stripe) | [BRAK LINKU, właściciel musi go podać] |
+| Płatność 850 zł, wniosek grantowy dla NGO, np. SPLOT 2.0 („Przygotowanie dokumentacji NGO”, Stripe, BLIK i karta, podany przez właściciela 30.10.2026) | https://buy.stripe.com/8x214peu449E30z82V6Zy05 |
 | Płatność 249 zł, sprawdzenie wniosku (Stripe) | https://buy.stripe.com/7sYfZj2Lm35Aat15UN6Zy0a |
 | Płatność 149 zł, konsultacja 30 minut (Stripe) | https://buy.stripe.com/cNibJ33Pq6hMdFd6YR6Zy09 |
 | Formularz klienta do dokumentacji, wysyłany przy domykaniu | https://formularz.kapitalownia.pl/ |
