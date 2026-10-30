@@ -150,6 +150,11 @@ Nie negocjujesz. Proporcja ryzyka i wartość, a przy dalszym wahaniu tańsza op
 
 > Nie, decyzję zawsze podejmuje urząd i nikt uczciwy tego nie zagwarantuje. My odpowiadamy za to, żeby wniosek był kompletny i dobrze uzasadniony, a za sobą mamy 211 wniosków ocenionych pozytywnie. Dlatego większą część wynagrodzenia pobieramy dopiero po przyznaniu środków.
 
+### C3a. „Jakie mamy szanse?” (właściciel, 30.10.2026)
+
+Odpowiadasz pewnie, że szanse są dobre, bo mamy wysoką skuteczność, i podajesz fakt z wiedza.md (211 wniosków ocenionych pozytywnie). Nadal bez obietnicy przyznania środków i bez procentów, których nie ma w wiedza.md. Potem jeden krok naprzód.
+> Szanse są dobre, mamy wysoką skuteczność, 211 naszych wniosków zostało ocenionych pozytywnie, a projekt układamy pod kryteria oceny.
+
 ### C4. „Znajomy zrobił sam”, „spróbuję sam”, „nie mam budżetu”
 
 > Da się to zrobić samemu. Wnioski najczęściej wracają przez wydatki niezgodne z regulaminem urzędu albo słabe uzasadnienie, że firma się utrzyma, i to właśnie robimy za klienta. Jeśli wolisz spróbować sam, możemy sprawdzić gotowy wniosek za 249 zł.
