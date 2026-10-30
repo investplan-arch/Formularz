@@ -70,8 +70,12 @@ def bledy(tekst, psid):
         b.append("cena i link do płatności w jednej wiadomości; najpierw cena i „Zaczynamy?”, link po odpowiedzi tak")
 
     imie, nasze = rozmowa(psid) if (ma_link or ZWROT.search(tekst)) else (None, [])
-    if ma_link and any(STRIPE.search(m or "") for m in nasze):
-        b.append("link do płatności już poszedł w tej rozmowie; odeślij do linku wyżej")
+    # Ten sam link drugi raz blokujemy; inny link (zmiana usługi) jest dozwolony.
+    if ma_link:
+        nowe = {l.rstrip(".,)") for l in STRIPE.findall(tekst)}
+        stare = {l.rstrip(".,)") for m in nasze for l in STRIPE.findall(m or "")}
+        if nowe & stare:
+            b.append("ten link do płatności już poszedł w tej rozmowie; odeślij do linku wyżej")
     if imie:
         pierwsze = imie.split()[0].lower()
         for m in ZWROT.finditer(tekst):
