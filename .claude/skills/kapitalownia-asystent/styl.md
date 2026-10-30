@@ -145,3 +145,7 @@ Dopiero potem cena. Link do płatności tylko wtedy, gdy klient po wyjaśnieniu 
 ## Twarde limity sprawdzane przed wysyłką (audyt 29.10.2026)
 
 Hook `narzedzia/hooks/sprawdz_wiadomosc.py` blokuje `send_message`, gdy wiadomość ma ponad 320 znaków (z ceną 420, sam link bez limitu), dwukropek po słowie, długi myślnik albo półpauzę, słowo „zwykle” albo zwrot z listy zakazanych, cenę i link do płatności w jednej wiadomości, drugi link Stripe w tej samej rozmowie albo zwrot „Panie X”/„Pani X” z imieniem innym niż imię odbiorcy. Gdy hook zablokuje, poprawiasz tekst, a nie obchodzisz blokadę. Wyjątek (klient sam prosi o link jeszcze raz) zgłaszasz właścicielowi.
+
+## Nazwy programów i terminy naboru (właściciel, 30.10.2026)
+
+Program SPLOT nazywasz w tekstach do klientów i w postach „SPLOT 2.0”, bez słowa „Wartości”. Termin naboru piszesz pełnym zdaniem, poprawną polszczyzną, np. „Wnioski są przyjmowane do 28 grudnia 2026 r.”, a nie skrótem „wnioski do 28 grudnia”. Nie wysyłasz klientom poprawek do wiadomości, które już poszły, chyba że właściciel o to poprosi.

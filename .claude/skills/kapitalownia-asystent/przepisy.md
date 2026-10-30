@@ -145,7 +145,7 @@ Nie łączy się obu na jedną firmę. Po otwarciu firmy z dotacją z PUP nie ma
 - Kwota do 20-krotności przeciętnego wynagrodzenia, do 100% kosztów, tylko wydatki niezbędne do podjęcia działalności. Koszty stałe (czynsz, najem) do 6 miesięcy od umowy. Nie wolno finansować kosztów osobowych ani zakupu gruntu niezabudowanego. Wolno finansować infrastrukturę, w tym budowę, adaptację i remont budynków lub pomieszczeń pod nową funkcję.
 - Zawieszenie firmy po otrzymaniu pożyczki łącznie maks. 6 miesięcy.
 
-## SPLOT Wartości 2.0, duże granty (regulamin naboru 4/SPLOT/GD/2026 z 27.10.2026, siecsplot.pl/splot-wartosci-granty-duze-2026)
+## SPLOT 2.0, duże granty (regulamin naboru 4/SPLOT/GD/2026 z 27.10.2026, siecsplot.pl/splot-wartosci-granty-duze-2026)
 
 - **Termin.** Wnioski przez generator od 27.10 do 28.12.2026, godz. 12.00. Webinary 5.11 (12.00) i 2.12 (16.00). Lista rankingowa 14.05.2027, start projektu 1.06 do 31.07.2027, projekt trwa 6 do 12 miesięcy. Nabór jednoetapowy.
 - **Kwota.** 10 000 do 15 000 euro na projekt, bez wkładu własnego, budżet w euro. Pula 587 926,60 euro (4% na odwołania). Do 20% na koszty administracyjne i do 20% na rozwój instytucjonalny organizacji (wyposażenie, szkolenia, usługi promocyjne i internetowe, strategia), oba ryczałtem. Reszta rozliczana fakturami.
@@ -158,4 +158,4 @@ Nie łączy się obu na jedną firmę. Po otwarciu firmy z dotacją z PUP nie ma
 - **Wypłata.** 75% po umowie, 20% po sprawozdaniu w połowie (rozliczone co najmniej 30% pierwszej transzy), 5% po sprawozdaniu końcowym. Do umowy wyodrębniony rachunek, statut, KRS i numer PIC (portal Funding & Tenders).
 - **Wniosek.** Pola z limitami znaków (uzasadnienie potrzeby 4000, cele 3000, grupa docelowa i rekrutacja 3000, każde zadanie do 4000, promocja 4000, dostępność i równość 3000, kadra i ewaluacja 3000, doświadczenie 3000), budżet w trzech częściach, tytuł i krótki opis także po angielsku.
 - **Helpdesk według województw.** Pomorskie i zachodniopomorskie CIO Słupsk, mazowieckie BORIS, podlaskie i lubelskie OWOP, lubuskie, wielkopolskie i łódzkie PISOP, śląskie, małopolskie i podkarpackie OPUS, świętokrzyskie i dolnośląskie BIS, opolskie i kujawsko-pomorskie RCWIP, warmińsko-mazurskie ESWIP.
-- **Pytania kwalifikujące.** Forma i rejestracja organizacji, województwo, czym się zajmuje, czy dostała już grant SPLOT Wartości 2.0, pomysł na projekt.
+- **Pytania kwalifikujące.** Forma i rejestracja organizacji, województwo, czym się zajmuje, czy dostała już grant SPLOT 2.0, pomysł na projekt.
