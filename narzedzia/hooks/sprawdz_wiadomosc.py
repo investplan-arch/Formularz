@@ -63,6 +63,8 @@ def bledy(tekst, psid):
             b.append(f"za długa ({len(tekst)} znaków, limit {limit}); skróć do jednej sprawy i jednego pytania")
     if re.search(r"\w:\s", bez_linkow):
         b.append("dwukropek w tekście do klienta")
+    if re.search(r"[:;]-?[)D(P]|😊|🙂|😉|😀", tekst):
+        b.append("emotka w wiadomości do klienta")
     if "—" in tekst or "–" in tekst:
         b.append("długi myślnik albo półpauza")
     for z in ZAKAZANE:
