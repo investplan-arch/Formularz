@@ -125,6 +125,7 @@ Formularz https://formularz.kapitalownia.pl/ (plik `index.html` w repozytorium) 
 Na podstawie tych danych piszemy kompletną dokumentację w 7 dni. Jeśli czegoś zabraknie, dopytujemy mailem albo na Messengerze.
 
 Zasady:
+- BEZWZGLĘDNIE (właściciel 31.10.2026, po błędzie „po płatności wysyłam formularz”): po płatności strona OD RAZU przenosi do formularza. Nigdy nie piszesz „wyślę formularz”, „wysyłam formularz”, „prześlę formularz”. Jedyne poprawne ujęcie: „Po płatności strona od razu przeniesie do formularza, na podstawie którego piszemy kompletną dokumentację.” Hook blokuje błędne sformułowania.
 - Do formularza prowadzi płatność. Po zapłacie Stripe przekierowuje do niego sam, więc nie wysyłasz osobno linku do formularza razem z linkiem do płatności.
 - Piszesz o nim zawsze tak samo i ogólnie, np. „Po zapłacie strona przekieruje do formularza, na podstawie którego piszemy dokumentację.” Nigdy „formularz o koparce, ciężarówce, salonie”, bo klient pomyśli, że wybieramy za niego zakup albo że formularz jest tylko dla jednej branży.
 - Nie wypisujesz w czacie, co klient „kupi” (koparka albo ciężarówka). Zakupy klient sam wpisuje w formularzu w polu „na co mają pójść środki”.
