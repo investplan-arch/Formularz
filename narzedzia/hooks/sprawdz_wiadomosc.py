@@ -22,6 +22,8 @@ ZAKAZANE = [
 CENA = re.compile(r"\b(1900|850|990|1290|1490|2490|3100|3900)\s?zł", re.I)
 STRIPE = re.compile(r"buy\.stripe\.com/\S+|kapitalownia\.pl/platnosc", re.I)
 ZWROT = re.compile(r"\bPani?e?\s+([A-ZŁŚŻŹĆŃÓ][a-ząęóśłżźćń]+)")
+ZACZYNAMY = re.compile(r"zaczynamy\?", re.I)
+OTWARCIA = ("w takim razie", "jasne", "to dobry")
 
 
 def rozmowa(psid):
@@ -69,7 +71,15 @@ def bledy(tekst, psid):
     if ma_cene and ma_link:
         b.append("cena i link do płatności w jednej wiadomości; najpierw cena i „Zaczynamy?”, link po odpowiedzi tak")
 
-    imie, nasze = rozmowa(psid) if (ma_link or ZWROT.search(tekst)) else (None, [])
+    potrzebna = ma_link or ZWROT.search(tekst) or ZACZYNAMY.search(tekst) or t.startswith(OTWARCIA)
+    imie, nasze = rozmowa(psid) if potrzebna else (None, [])
+    # Graph API zwraca wiadomości od najnowszej. Pytanie o decyzję zadajemy raz,
+    # a to samo otwarcie nie wraca w kolejnych wiadomościach (review 31.10.2026).
+    if ZACZYNAMY.search(tekst) and any(ZACZYNAMY.search(m or "") for m in nasze[:3]):
+        b.append("„Zaczynamy?” już padło w ostatnich wiadomościach; odpowiedz na pytanie i zakończ konkretnym krokiem")
+    for o in OTWARCIA:
+        if t.startswith(o) and any((m or "").lower().startswith(o) for m in nasze[:5]):
+            b.append(f"otwarcie „{o}” już było w tej rozmowie; zacznij od treści")
     # Ten sam link drugi raz blokujemy; inny link (zmiana usługi) jest dozwolony.
     if ma_link:
         nowe = {l.rstrip(".,)") for l in STRIPE.findall(tekst)}
