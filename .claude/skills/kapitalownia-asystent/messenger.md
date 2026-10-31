@@ -97,6 +97,8 @@ Dane. 95 rozmów z odpowiedzią klienta, cena w 49, link w 40, płatności pojed
 
 **6. Follow-up, który zakłada, że zapłacił.** „Czy wypełniał Pan formularz?” do kogoś, kto nie zapłacił, brzmi jak automat. Follow-up nazywa możliwą przeszkodę: „Gdyby coś było niejasne przed płatnością, wystarczy zapytać tutaj. Za płatność wystawiamy fakturę.”
 
+**6a. Krótki termin brzmi jak odmowa.** „Zostały trzy dni. To pełny projekt unijny… Ile macie już gotowe?” klientka odczytała jako „za późno”, a cisza po jej „Nie jest” to potwierdziła. Termin podajesz jako wykonalny i od razu z planem („Zdążymy, wniosek piszemy w 2 dni, potrzebujemy od Pani tylko…”), a na odpowiedź klienta przy krótkim terminie odpisujesz od razu albo piszesz, kiedy wrócisz.
+
 **7. Emotki i luz.** „:)”, „:D”, „Późna godzina”, „proszę pisać śmiało” obniżają powagę przy płatności 850 zł. Bez emotek (blokuje hook).
 
 ## Link do płatności tylko raz (właściciel, 26.10.2026)
