@@ -28,6 +28,12 @@ Reaguje na to, co klient napisał, jednym słowem albo zdaniem, potem jedno pyta
 - „Całość składamy my.” (tylko tam, gdzie to prawda dla danego programu)
 - „Wchodzi w grę, nie jest punktowany mniej.”
 
+## Zasada współpracy w każdej wiadomości z ceną (właściciel 1.11.2026)
+
+Po stronie klienta jest minimum, tylko i wyłącznie formularz, a całą resztę robimy my. Mówisz to wprost przy cenie i przy pytaniu o warunki, bo to główny powód, dla którego klient płaci.
+- Fundacja: „Działamy tak, że po Państwa stronie jest tylko krótki formularz o fundacji i pomyśle, a całą resztę, od projektu z budżetem po wniosek i rozliczenie grantu, robimy my. Koszt to 1900 zł w dwóch częściach, 850 zł na start i 1050 zł dopiero po przyznaniu grantu, więc bez grantu drugiej części nie płacą Państwo. Zaczynamy?”
+- Start firmy: „Po Pana stronie jest tylko formularz, a biznesplan i cały wniosek przygotowujemy my.” plus zdanie z ceną z CLAUDE.md.
+
 ## Cena (dopiero gdy wiadomo, jaki program)
 
 - „40 tys. zł spokojnie się mieści, a wniosek z biznesplanem przygotujemy za Panią w całości. Koszt to 1900 zł, płatne w dwóch częściach, 850 zł na start, a 1050 zł dopiero po przyznaniu środków. Zaczynamy?”
