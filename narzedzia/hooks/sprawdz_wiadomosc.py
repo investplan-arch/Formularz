@@ -67,7 +67,7 @@ def bledy(tekst, psid):
         if len(tekst) > limit:
             b.append(f"za długa ({len(tekst)} znaków, limit {limit}); skróć do jednej sprawy i jednego pytania")
     # Właściciel 1.11.2026: „piszesz jak bot”. Jak człowiek, czyli krótko i jedna sprawa.
-    zdania = len([z for z in re.split(r"(?<=[.?!])\s+", re.sub(r"^dzień dobry[.,!]?\s*", "", bez_linkow.strip(), flags=re.I)) if len(z) > 3])
+    zdania = len([z for z in re.split(r"(?<=[.?!])\s+", re.sub(r"\b(np|ok|tys|mln|r|ul|m\.in|tj|itd|godz|pkt|nr|zł)\.", r"\1", re.sub(r"^dzień dobry[.,!]?\s*", "", bez_linkow.strip(), flags=re.I))) if len(z) > 3])
     if zdania > (ZDANIA_Z_CENA if ma_cene else ZDANIA):
         b.append(f"{zdania} zdań; najwyżej {ZDANIA_Z_CENA if ma_cene else ZDANIA}, odpowiedz tylko na pytanie i zadaj jedno")
     # Wzorce AI z humanizer (blader/humanizer, iamanimesh9044/humanize-skill), 1.11.2026.
