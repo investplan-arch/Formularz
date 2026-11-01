@@ -12,8 +12,10 @@ import sys
 import urllib.parse
 import urllib.request
 
-LIMIT = 320
-LIMIT_Z_CENA = 420
+LIMIT = 220
+LIMIT_Z_CENA = 320
+ZDANIA = 2
+ZDANIA_Z_CENA = 3
 ZAKAZANE = [
     "zwykle", "chętnie pomog", "proszę dać znać", "śmiało", "nie ma problemu",
     "jak najbardziej", "oczywiście", "świetne pytanie", "dziękuję za wiadomość",
@@ -61,6 +63,10 @@ def bledy(tekst, psid):
         limit = LIMIT_Z_CENA if ma_cene else LIMIT
         if len(tekst) > limit:
             b.append(f"za długa ({len(tekst)} znaków, limit {limit}); skróć do jednej sprawy i jednego pytania")
+    # Właściciel 1.11.2026: „piszesz jak bot”. Jak człowiek, czyli krótko i jedna sprawa.
+    zdania = len([z for z in re.split(r"(?<=[.?!])\s+", re.sub(r"^dzień dobry[.,!]?\s*", "", bez_linkow.strip(), flags=re.I)) if len(z) > 3])
+    if zdania > (ZDANIA_Z_CENA if ma_cene else ZDANIA):
+        b.append(f"{zdania} zdań; najwyżej {ZDANIA_Z_CENA if ma_cene else ZDANIA}, odpowiedz tylko na pytanie i zadaj jedno")
     if re.search(r"\w:\s", bez_linkow):
         b.append("dwukropek w tekście do klienta")
     if re.search(r"(wyśl\w*|wysył\w*|prześl\w*|przesył\w*)\s+(\w+\s+)?formularz", t):
