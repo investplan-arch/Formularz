@@ -17,6 +17,7 @@ DZIENNIK = Path.home() / ".cache" / "kapitalownia" / "wyslane.jsonl"
 ODCZYTY = Path.home() / ".cache" / "kapitalownia" / "odczyty.jsonl"
 WATEK = None
 OSTATNIA_KLIENTA = None
+ILE = 0
 
 LIMIT = 220
 LIMIT_Z_CENA = 320
@@ -56,8 +57,9 @@ def rozmowa(psid):
     wiad = watek.get("messages", {}).get("data", [])
     nasze = [m.get("message", "") for m in wiad if m["from"]["id"] == page]
     klienta = [m.get("created_time") for m in wiad if m["from"]["id"] != page]
-    global WATEK, OSTATNIA_KLIENTA
+    global WATEK, OSTATNIA_KLIENTA, ILE
     WATEK = watek.get("id")
+    ILE = len(wiad)
     OSTATNIA_KLIENTA = klienta[0] if klienta else None
     return imie, nasze
 
@@ -116,8 +118,11 @@ def bledy(tekst, psid):
             odczyty = [json.loads(l) for l in ODCZYTY.read_text().splitlines()]
         except Exception:
             odczyty = []
-        if not any(o["watek"] == WATEK and o["czas"] >= ostatnia for o in odczyty):
-            b.append("nie przeczytałeś całego wątku po ostatniej wiadomości klienta; najpierw list_messages i odpowiedz na wszystkie jego pytania")
+        # Właściciel: zawsze cała rozmowa od pierwszej wiadomości, nie tylko końcówka.
+        if not any(o["watek"] == WATEK and o["czas"] >= ostatnia and o.get("ile", 0) >= min(ILE, 100)
+                   for o in odczyty):
+            b.append(f"nie przeczytałeś CAŁEJ rozmowy ({ILE} wiadomości) po ostatniej wiadomości klienta; "
+                     "list_messages z limitem obejmującym cały wątek, potem odpowiedź na wszystkie jego pytania")
     pierwsza = nasze is not None and not [m for m in nasze if m and "Odpowiadasz na komentarz" not in m]
     nasze = nasze or []
     # Właściciel 1.11.2026: w pierwszej wiadomości nigdy o płatności i cenie,
