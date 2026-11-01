@@ -47,6 +47,17 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "mcp__meta-inbox__list_messages|mcp__meta-inbox__get_conversation",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/narzedzia/hooks/zapisz_odczyt.py\""
+          }
+        ]
+      }
     ]
   }
 }

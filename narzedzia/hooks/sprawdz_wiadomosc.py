@@ -14,6 +14,9 @@ import urllib.request
 from pathlib import Path
 
 DZIENNIK = Path.home() / ".cache" / "kapitalownia" / "wyslane.jsonl"
+ODCZYTY = Path.home() / ".cache" / "kapitalownia" / "odczyty.jsonl"
+WATEK = None
+OSTATNIA_KLIENTA = None
 
 LIMIT = 220
 LIMIT_Z_CENA = 320
@@ -39,7 +42,7 @@ def rozmowa(psid):
         return None, None
     url = f"https://graph.facebook.com/v21.0/{page}/conversations?" + urllib.parse.urlencode({
         "user_id": psid,
-        "fields": "participants,messages.limit(100){from,message}",
+        "fields": "id,participants,messages.limit(100){from,message,created_time}",
         "access_token": token,
     })
     try:
@@ -50,8 +53,12 @@ def rozmowa(psid):
         return None, []
     watek = dane[0]
     imie = next((p["name"] for p in watek["participants"]["data"] if p["id"] == psid), None)
-    nasze = [m.get("message", "") for m in watek.get("messages", {}).get("data", [])
-             if m["from"]["id"] == page]
+    wiad = watek.get("messages", {}).get("data", [])
+    nasze = [m.get("message", "") for m in wiad if m["from"]["id"] == page]
+    klienta = [m.get("created_time") for m in wiad if m["from"]["id"] != page]
+    global WATEK, OSTATNIA_KLIENTA
+    WATEK = watek.get("id")
+    OSTATNIA_KLIENTA = klienta[0] if klienta else None
     return imie, nasze
 
 
@@ -100,6 +107,17 @@ def bledy(tekst, psid):
         b.append("cena i link do płatności w jednej wiadomości; najpierw cena i „Zaczynamy?”, link po odpowiedzi tak")
 
     imie, nasze = rozmowa(psid)
+    # Właściciel 1.11.2026: odpowiedź tylko po przeczytaniu całego wątku (list_messages),
+    # nigdy na podstawie podglądu z listy rozmów.
+    if WATEK and OSTATNIA_KLIENTA:
+        from datetime import datetime
+        ostatnia = datetime.strptime(OSTATNIA_KLIENTA, "%Y-%m-%dT%H:%M:%S%z").timestamp()
+        try:
+            odczyty = [json.loads(l) for l in ODCZYTY.read_text().splitlines()]
+        except Exception:
+            odczyty = []
+        if not any(o["watek"] == WATEK and o["czas"] >= ostatnia for o in odczyty):
+            b.append("nie przeczytałeś całego wątku po ostatniej wiadomości klienta; najpierw list_messages i odpowiedz na wszystkie jego pytania")
     pierwsza = nasze is not None and not [m for m in nasze if m and "Odpowiadasz na komentarz" not in m]
     nasze = nasze or []
     # Właściciel 1.11.2026: w pierwszej wiadomości nigdy o płatności i cenie,
