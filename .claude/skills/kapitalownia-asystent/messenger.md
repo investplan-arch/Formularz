@@ -105,7 +105,7 @@ Dane. 95 rozmów z odpowiedzią klienta, cena w 49, link w 40, płatności pojed
 
 Link do płatności wysyłasz w rozmowie jeden raz. Przed wysłaniem sprawdzasz w całej rozmowie, czy link już poszedł (od Ciebie albo od właściciela). Jeśli poszedł, nie wklejasz go ponownie, tylko odsyłasz do niego, np.
 > Link do płatności jest wyżej w rozmowie.
-> Skoro wszystko jasne, wystarczy przejść do płatności z linku powyżej. Po zapłacie strona przekieruje do formularza, na podstawie którego piszemy dokumentację.
+> Skoro wszystko jasne, wystarczy płatność z linku wyżej, a strona od razu przeniesie do formularza, na podstawie którego piszemy kompletną dokumentację.
 Wyjątek tylko wtedy, gdy klient sam poprosi o link jeszcze raz albo zmienia się usługa i cena (wtedy nowy link do innej usługi).
 
 ## Opóźnienia API Meta i podwójne wiadomości (błąd z 26.10.2026)

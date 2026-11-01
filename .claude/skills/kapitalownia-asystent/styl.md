@@ -78,7 +78,7 @@ Przy dłuższych tekstach (post, mail, opis do wniosku, biznesplan) przepuszczas
 Dlaczego źle. Powitanie z wykrzyknikiem, podziękowanie, streszczenie klienta, „świetny pomysł”, myślniki, lista bez konkretu, „proszę dać znać”, brak odpowiedzi na pytanie „ile”.
 
 Dobrze.
-> Dzień dobry. Urząd pracy w Mińsku Mazowieckim daje w tym roku do [kwota z ogłoszenia] bezzwrotnie, a przy firmie remontowej da się w tym zmieścić narzędzia, sprzęt i drobny transport. [Nabór trwa do X / Najbliższy nabór urząd zapowiada na Y.] My zajmujemy się przygotowaniem całego wniosku z biznesplanem, tak żeby wydatki pasowały do regulaminu tego urzędu. Czy ktoś z rodziny mógłby zostać poręczycielem? Urząd zawsze wymaga zabezpieczenia i najczęściej jest nim właśnie poręczenie.
+> Urząd pracy w Mińsku Mazowieckim daje w tym roku do [kwota z ogłoszenia] bez zwrotu, a firma remontowa dobrze się w tym mieści. Czy ktoś z rodziny mógłby zostać poręczycielem, bo urząd wymaga zabezpieczenia?
 
 **Klient (po ofercie).** A ile to u was kosztuje?
 
@@ -94,7 +94,7 @@ Dobrze.
 > Niestety jako osoba pracująca nie może Pani otrzymać dotacji z urzędu pracy.
 
 Dobrze.
-> Dzień dobry. Przy pracy na etacie urząd pracy odpada, ale są dwie inne drogi. Pierwsza to pożyczka Wsparcie w starcie, dostępna przy zarobkach poniżej średniej krajowej, oprocentowana 0,25% rocznie, z rokiem przerwy w spłacie i spłatą rozłożoną na 7 lat. Druga to premia z Lokalnej Grupy Działania, jeśli cukiernia ma być na jej terenie. W jakiej gminie miałaby działać?
+> Przy etacie urząd pracy odpada, ale zostaje pożyczka Wsparcie w starcie na 0,25% rocznie albo premia z Lokalnej Grupy Działania. W jakiej gminie miałaby działać cukiernia?
 
 ## Kontrola na koniec
 
