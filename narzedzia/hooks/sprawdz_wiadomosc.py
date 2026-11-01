@@ -11,6 +11,9 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+from pathlib import Path
+
+DZIENNIK = Path.home() / ".cache" / "kapitalownia" / "wyslane.jsonl"
 
 LIMIT = 220
 LIMIT_Z_CENA = 320
@@ -67,6 +70,21 @@ def bledy(tekst, psid):
     zdania = len([z for z in re.split(r"(?<=[.?!])\s+", re.sub(r"^dzień dobry[.,!]?\s*", "", bez_linkow.strip(), flags=re.I)) if len(z) > 3])
     if zdania > (ZDANIA_Z_CENA if ma_cene else ZDANIA):
         b.append(f"{zdania} zdań; najwyżej {ZDANIA_Z_CENA if ma_cene else ZDANIA}, odpowiedz tylko na pytanie i zadaj jedno")
+    # Wzorce AI z humanizer (blader/humanizer, iamanimesh9044/humanize-skill), 1.11.2026.
+    if re.search(r"\bnie tylko\b.{0,60}\b(ale|lecz)\b", t):
+        b.append("konstrukcja „nie tylko… ale”; powiedz to wprost")
+    if re.search(r"\w+, \w+(,| i| oraz) \w+(,| i| oraz) \w+", bez_linkow) and not ma_cene:
+        b.append("wyliczanka z kilku elementów w jednym zdaniu; zostaw najważniejszy")
+    if re.search(r"(w razie pytań|jestem do dyspozycji|służę pomocą|gdyby miała? (Pani|Pan) pytania)", t):
+        b.append("zdanie-oferta na końcu; usuń je")
+    # Ten sam początek wiadomości u kilku klientów brzmi jak szablon.
+    poczatek = re.sub(r"^dzień dobry[.,!]?\s*", "", t)[:60]
+    try:
+        stare = [json.loads(l) for l in DZIENNIK.read_text().splitlines()[-200:]]
+    except Exception:
+        stare = []
+    if len(poczatek) > 30 and not ma_link and any(w["p"] == poczatek and w["do"] != psid for w in stare):
+        b.append("ten sam początek wiadomości poszedł już do innego klienta; napisz do tej osoby jej słowami")
     if re.search(r"\w:\s", bez_linkow):
         b.append("dwukropek w tekście do klienta")
     if re.search(r"(wyśl\w*|wysył\w*|prześl\w*|przesył\w*)\s+(\w+\s+)?formularz", t):
@@ -119,7 +137,16 @@ def main():
     tekst = dane.get("text") or ""
     if not tekst:
         return 0
-    lista = bledy(tekst, str(dane.get("recipient_id", "")))
+    psid = str(dane.get("recipient_id", ""))
+    lista = bledy(tekst, psid)
+    if not lista:
+        try:
+            DZIENNIK.parent.mkdir(parents=True, exist_ok=True)
+            p = re.sub(r"^dzień dobry[.,!]?\s*", "", tekst.lower())[:60]
+            with DZIENNIK.open("a") as f:
+                f.write(json.dumps({"do": psid, "p": p}, ensure_ascii=False) + "\n")
+        except Exception:
+            pass
     if lista:
         print("Wiadomość zatrzymana przez hook (styl.md, audyt 29.10.2026): " + "; ".join(lista) + ".",
               file=sys.stderr)
