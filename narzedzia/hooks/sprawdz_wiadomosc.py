@@ -33,7 +33,7 @@ def rozmowa(psid):
     token = os.environ.get("META_PAGE_ACCESS_TOKEN")
     page = os.environ.get("META_PAGE_ID") or "1235937636280516"
     if not token:
-        return None, []
+        return None, None
     url = f"https://graph.facebook.com/v21.0/{page}/conversations?" + urllib.parse.urlencode({
         "user_id": psid,
         "fields": "participants,messages.limit(100){from,message}",
@@ -42,7 +42,7 @@ def rozmowa(psid):
     try:
         dane = json.load(urllib.request.urlopen(url, timeout=15))["data"]
     except Exception:
-        return None, []
+        return None, None
     if not dane:
         return None, []
     watek = dane[0]
@@ -81,8 +81,13 @@ def bledy(tekst, psid):
     if ma_cene and ma_link:
         b.append("cena i link do płatności w jednej wiadomości; najpierw cena i „Zaczynamy?”, link po odpowiedzi tak")
 
-    potrzebna = ma_link or ZWROT.search(tekst) or ZACZYNAMY.search(tekst) or t.startswith(OTWARCIA)
-    imie, nasze = rozmowa(psid) if potrzebna else (None, [])
+    imie, nasze = rozmowa(psid)
+    pierwsza = nasze is not None and not [m for m in nasze if m and "Odpowiadasz na komentarz" not in m]
+    nasze = nasze or []
+    # Właściciel 1.11.2026: w pierwszej wiadomości nigdy o płatności i cenie,
+    # nawet gdy klient pyta o koszt. Najpierw rozmowa o jego sprawie.
+    if pierwsza and re.search(r"płatno|stripe|\bzł\b|formularz", t):
+        b.append("pierwsza wiadomość do klienta mówi o płatności, kwocie albo formularzu; najpierw zapytaj o jego sprawę")
     # Graph API zwraca wiadomości od najnowszej. Pytanie o decyzję zadajemy raz,
     # a to samo otwarcie nie wraca w kolejnych wiadomościach (review 31.10.2026).
     if ZACZYNAMY.search(tekst) and any(ZACZYNAMY.search(m or "") for m in nasze[:3]):
