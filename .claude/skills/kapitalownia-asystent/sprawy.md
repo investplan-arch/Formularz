@@ -53,6 +53,11 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 - 27.10 około 11:15: **Patryk Wójciak** zapytał, ile musi być na bezrobociu. Dostał odpowiedź, że ustawa nie wymaga okresu, ale regulamin PUP może, a realny cel to pierwsze nabory 2027. **Adam Lampkowski** (powiat żuromiński, niezarejestrowany): w Zielonej Linii brak naboru PUP Żuromin z ostatnich 60 dni, WWS mazowieckie nieogłoszony, pytanie o pracę. **Paweł Sura** (domki i place zabaw z drewna, 4806 zł brutto): limit WWS spełniony, LGD, pytanie o gminę. **Welcome To Kalisz** (studio treningu, wielkopolskie, niepracujący, niezarejestrowany): rada rejestracji w PUP Kalisz, cena 1900 zł, „Zaczynamy?”. **Roland Urbaniak**: „na razie dziękuję, odezwę się”, sprawa zamknięta na razie.
 
+### 2.11 wieczór (SPLOT 2.0)
+- Grzegorz Domagalski: fundacja, NIP 6762725733, szuka grantów. 2.11 ok. 20:45 UTC odpisaliśmy o SPLOT 2.0, pytanie o działalność i województwo. Okno do 3.11 15:06 UTC.
+- Mateusz Jamka: stowarzyszenie zwykłe (piłka nożna dzieci, seniorzy, dzieci z niepełnosprawnością), zna cenę 1900, zbiera na 850 zł. Pytał o dokumenty, dostał formularz. Okno do 3.11 19:02 UTC.
+- Paweł Rogalny: fundacja, lubelskie, bez wcześniejszego grantu SPLOT. Dostał cenę 1900 i formularz. Okno do 3.11 18:13 UTC.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
