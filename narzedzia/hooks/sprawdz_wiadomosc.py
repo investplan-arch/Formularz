@@ -59,7 +59,10 @@ def rozmowa(psid):
     klienta = [m.get("created_time") for m in wiad if m["from"]["id"] != page]
     global WATEK, OSTATNIA_KLIENTA, ILE
     WATEK = watek.get("id")
-    ILE = len(wiad)
+    # Liczymy wiadomości do ostatniej wiadomości klienta włącznie; nasze późniejsze
+    # odpowiedzi nie unieważniają odczytu.
+    idx = next((i for i, m in enumerate(wiad) if m["from"]["id"] != page), 0)
+    ILE = len(wiad) - idx
     OSTATNIA_KLIENTA = klienta[0] if klienta else None
     return imie, nasze
 
