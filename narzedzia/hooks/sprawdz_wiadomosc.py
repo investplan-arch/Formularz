@@ -28,7 +28,16 @@ ZAKAZANE = [
     "jak najbardziej", "oczywiście", "świetne pytanie", "dziękuję za wiadomość",
     "przepraszam, nie ten",
 ]
-CENA = re.compile(r"\b(1900|850|990|1290|1490|2490|3100|3900)\s?zł", re.I)
+CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249)\s?zł", re.I)
+# Analiza 398 rozmów (3.11.2026): słowa pisane bez polskich znaków, wymiany opinii,
+# link przed ceną i pytania o formularz do osób, które nie zapłaciły.
+BEZ_OGONKOW = re.compile(
+    r"\b(ktory|ktora|ktore|ktorych|juz|sie|moze|mozna|prosze|dziekuje|dziekujemy|wiecej|bedzie|"
+    r"bedziemy|poszlo|zaplacic|platnosc|zl|tez|rowniez|takze|pozyczk\w*|urzad\w*|wlasn\w*|srodk\w*|"
+    r"wylacznie|swietnie|wczesniej|pozniej|zrobic|kazd\w*|jezeli|wazn\w*)\b", re.I)
+OPINIE = re.compile(r"(wymian\w* (opini|polub|obserw|komentarz)|opini\w* za opini|polubienie za|"
+                    r"obserwacj\w* i \d+ komentarz|wystaw\w* (nam )?(opini|recenzj)\w* (za|w zamian))", re.I)
+FORMULARZ_PYTANIE = re.compile(r"czy (już )?wypełnia\w*\s+(Pan|Pani|Państwo)?\s*formularz", re.I)
 STRIPE = re.compile(r"buy\.stripe\.com/\S+|kapitalownia\.pl/platnosc", re.I)
 ZWROT = re.compile(r"\bPani?e?\s+([A-ZŁŚŻŹĆŃÓ][a-ząęóśłżźćń]+)")
 ZACZYNAMY = re.compile(r"zaczynamy\?", re.I)
@@ -110,6 +119,21 @@ def bledy(tekst, psid):
             b.append(f"zakazany zwrot „{z}”")
     if ma_cene and ma_link:
         b.append("cena i link do płatności w jednej wiadomości; najpierw cena i „Zaczynamy?”, link po odpowiedzi tak")
+    pierwszy_znak = re.sub(r"^\W+", "", bez_linkow.strip())[:1]
+    if pierwszy_znak and pierwszy_znak.islower():
+        b.append("wiadomość zaczyna się małą literą")
+    if len(bez_linkow.strip()) < 12 and not ma_link and not re.search(r"\d{3}", tekst):
+        b.append("jednowyrazowa odpowiedź („Ok”, „Tak”, „Poszło”); napisz pełne zdanie z następnym krokiem")
+    for m in BEZ_OGONKOW.finditer(bez_linkow):
+        b.append(f"„{m.group(0)}” bez polskich znaków")
+        break
+    if OPINIE.search(tekst):
+        b.append("wymiana opinii, polubień albo obserwacji jest zakazana (CLAUDE.md, nieuczciwe praktyki rynkowe)")
+    if FORMULARZ_PYTANIE.search(tekst) and "płatn" not in t:
+        b.append("pytanie o formularz do osoby, która nie zapłaciła; formularz otwiera się dopiero po płatności, "
+                 "zapytaj o decyzję albo o to, co ją wstrzymuje")
+    if re.search(r"(muszę sprostować|poprawiam się|przepraszam, umknęło)", t) and len(tekst) > 260:
+        b.append("sprostowanie ma być jednym krótkim zdaniem z poprawnym faktem, bez długiego wywodu")
 
     imie, nasze = rozmowa(psid)
     # Właściciel 1.11.2026: odpowiedź tylko po przeczytaniu całego wątku (list_messages),
@@ -139,6 +163,10 @@ def bledy(tekst, psid):
     for o in OTWARCIA:
         if t.startswith(o) and any((m or "").lower().startswith(o) for m in nasze[:5]):
             b.append(f"otwarcie „{o}” już było w tej rozmowie; zacznij od treści")
+    # Link dopiero po cenie i zgodzie klienta (analiza 3.11.2026: link wysłany przed ceną
+    # albo zaraz po kwalifikacji kończył rozmowę).
+    if ma_link and not any(CENA.search(m or "") for m in nasze):
+        b.append("link do płatności przed podaniem ceny w tej rozmowie; najpierw cena, co klient dostaje i „Zaczynamy?”")
     # Ten sam link drugi raz blokujemy; inny link (zmiana usługi) jest dozwolony.
     if ma_link:
         nowe = {l.rstrip(".,)") for l in STRIPE.findall(tekst)}
