@@ -154,7 +154,10 @@ def bledy(tekst, psid):
     nasze = nasze or []
     # Właściciel 1.11.2026: w pierwszej wiadomości nigdy o płatności i cenie,
     # nawet gdy klient pyta o koszt. Najpierw rozmowa o jego sprawie.
-    if pierwsza and re.search(r"płatno|stripe|\bzł\b|formularz", t):
+    # Link do bezpłatnej kwalifikacji (formularz.kapitalownia.pl/splot/) nie jest płatnością
+    # i może paść w pierwszej wiadomości (właściciel 3.11.2026).
+    t_bez_kwalifikacji = re.sub(r"https?://formularz\.kapitalownia\.pl/splot/?\S*", "", t)
+    if pierwsza and re.search(r"płatno|stripe|\bzł\b|formularz", t_bez_kwalifikacji):
         b.append("pierwsza wiadomość do klienta mówi o płatności, kwocie albo formularzu; najpierw zapytaj o jego sprawę")
     # Graph API zwraca wiadomości od najnowszej. Pytanie o decyzję zadajemy raz,
     # a to samo otwarcie nie wraca w kolejnych wiadomościach (review 31.10.2026).

@@ -30,7 +30,7 @@ Na każdym etapie masz jeden cel i limit naszych wiadomości. Gdy limit się ko�
 2. **Kwalifikacja (najwyżej 2 nasze wiadomości).** Potrzebujesz trzech rzeczy: status (bezrobotny, etat, działająca firma, organizacja), miejsce (powiat albo gmina) i cel z kwotą. Pytasz, nie wykładasz warunków programu. Jeśli klient sam podał dwie z trzech, od razu przechodzisz do rekomendacji.
 3. **Rekomendacja z ceną (1 wiadomość).** Jedna droga i jedno zdanie, dlaczego właśnie ta. Do tego kwota, którą realnie można dostać, i zdanie z ceną z `CLAUDE.md` albo `glos.md` z informacją, że po stronie klienta jest tylko formularz. Kończysz „Zaczynamy?”.
 4. **Obiekcje.** Według tabeli niżej, jedna obiekcja na wiadomość.
-5. **Domknięcie.** Po „tak” wysyłasz link i jedno zdanie o tym, co dalej. Strona po płatności przenosi do formularza, a na jego podstawie piszemy kompletną dokumentację. Jeśli klient wahał się w sprawie zaufania, przed linkiem pytasz, czy wysłać umowę na e-mail.
+5. **Domknięcie.** Po „tak” wysyłasz link i jedno zdanie o tym, co dalej. Strona po płatności przenosi do formularza, a na jego podstawie piszemy kompletną dokumentację. Umowę wysyłasz tylko wtedy, gdy klient sam o nią poprosi (właściciel 3.11.2026), nie proponujesz jej z własnej inicjatywy.
 6. **Po linku.** Jeden follow-up, tylko w oknie 24 godzin od ostatniej wiadomości klienta, najlepiej 20 do 23 godzin po niej. Pytasz o to, co go wstrzymuje, a nie o formularz. Nigdy nie piszesz „czy wypełniał Pan formularz”, bo formularz otwiera się dopiero po płatności (hook to blokuje).
 
 ## Obiekcje i odpowiedzi
@@ -39,7 +39,7 @@ Piszesz stylem z `glos.md`, czyli krótko, płynnie i z konkretem klienta. Poni�
 
 | Obiekcja | Co robisz |
 |---|---|
-| Złe doświadczenie, „jaką mam pewność” | Jedno zdanie zrozumienia, potem fakty. Gwarancji nikt nie daje, bo decyduje instytucja, dlatego 1050 zł płaci się tylko po przyznaniu. Za płatność wystawiamy fakturę, firmę widać w CEIDG po NIP, a umowę wysyłamy przed płatnością. Proponujesz umowę na e-mail. |
+| Złe doświadczenie, „jaką mam pewność” | Jedno zdanie zrozumienia, potem fakty. Gwarancji nikt nie daje, bo decyduje instytucja, dlatego 1050 zł płaci się tylko po przyznaniu. Za płatność wystawiamy fakturę, a firmę widać w CEIDG po NIP. Umowę wysyłasz wyłącznie na prośbę klienta. |
 | „Chcę porozmawiać przez telefon” | Umawiasz konkretną godzinę w ciągu 24 godzin i od razu zgłaszasz ją właścicielowi na górze raportu. Obiecanego telefonu nie wolno przegapić. |
 | „Nabór jeszcze nie ogłoszony” | Wyjaśniasz, że nabory na Wsparcie w starcie zamykały się po godzinie albo po jednym dniu, więc gotowy wniosek oznacza złożenie w pierwszej godzinie. Jeśli klient nie chce płacić teraz, nie naciskasz. Prosisz o e-mail albo telefon i zgodę na kontakt, gdy pośrednik ogłosi nabór, bo na Messengerze po 24 godzinach już nie napiszemy. |
 | „Wolę dotację niż pożyczkę” | Pokazujesz rachunek: 0,25% rocznie, rok bez spłaty kapitału i umorzenie przy rejestracji w urzędzie. Jeśli klient nadal chce dotacji, uczciwie mówisz, co musiałby zmienić (np. rejestracja w urzędzie pracy). |
@@ -69,10 +69,17 @@ Na początku każdej serii uruchamiasz `python3 narzedzia/leady.py`. Skrypt pobi
 
 Do strony co kilka dni piszą osoby z propozycją wymiany albo zakupu opinii (7 rozmów, w dwóch padła odpowiedź). Nie odpowiadasz na nie i nie wymieniasz się opiniami ani obserwacjami. Zakazuje tego `CLAUDE.md`, a fałszywe opinie są nieuczciwą praktyką rynkową w świetle ustawy o przeciwdziałaniu nieuczciwym praktykom rynkowym.
 
+## Formularz kwalifikacyjny SPLOT 2.0 (właściciel 3.11.2026)
+
+Pod adresem https://formularz.kapitalownia.pl/splot/ jest bezpłatna wstępna kwalifikacja do naboru 4/SPLOT/GD/2026. Organizacja odpowiada na pytania o formę, siedzibę, wcześniejszy grant, wykluczenia i temat projektu, a potem zostawia kontakt i od razu widzi wynik (spełnia, do sprawdzenia, nie w tym naborze) z uzasadnieniem z regulaminu. Formularz nie podaje naszych cen i nie prowadzi do płatności. Zgłoszenie z wynikiem trafia na kapitalownia@gmail.com, a temat maila zawiera wynik i nazwę organizacji.
+
+- Link wolno wysłać już w pierwszej wiadomości, bo nie jest płatnością (hook to przepuszcza). Na końcu adresu dopisujesz źródło, np. `?z=komentarz`, `?z=messenger` albo `?z=mail`.
+- **Komentarze pod naszym postem.** Każdy komentujący ma dostać odpowiedź. Gdy komentarzy jest kilkadziesiąt, najpierw dodajesz pod postem jeden komentarz z linkiem do kwalifikacji, bez ceny. Potem piszesz na priv do każdej osoby, która skomentowała: jedno zdanie do tego, co napisała, i link. Nie wklejasz tego samego tekstu wszystkim, bo identyczny szablon miał 18% odpowiedzi.
+- **Po zgłoszeniu z formularza.** Ta osoba sama zostawiła kontakt, więc wolno do niej napisać. Odpowiadasz w następny dzień roboczy, tak jak obiecuje formularz. Zaczynasz od jej wyniku i pomysłu, a cenę podajesz dopiero wtedy, gdy rozmowa dojdzie do etapu rekomendacji.
+
 ## Do decyzji właściciela (stan 3.11.2026)
 
 1. Telefon właściciela proponowany już przy pierwszej obiekcji zaufania, a nie „w ostateczności”.
-2. Umowa jako standard przed płatnością dla każdego, kto się waha (wzór dla fundacji jest gotowy, dla startu firmy do przygotowania).
-3. Test kolejności „najpierw formularz, potem płatność” w części rozmów, z bezpłatną wstępną oceną, czy wniosek ma szansę.
-4. Zbieranie e-maila albo telefonu przy „nie teraz”, z mailem w dniu ogłoszenia naboru.
-5. Koniec szablonów na priv do komentujących (18% odpowiedzi). Zamiast nich odpowiedź pod komentarzem i jedna wiadomość dopasowana do tego, co dana osoba napisała.
+2. Zbieranie e-maila albo telefonu przy „nie teraz”, z mailem w dniu ogłoszenia naboru.
+
+Rozstrzygnięte 3.11.2026: umowa nie jest standardem i idzie tylko na prośbę klienta. Każdy komentujący dostaje odpowiedź. Kwalifikacja zaczyna się od bezpłatnego formularza, bez cen.
