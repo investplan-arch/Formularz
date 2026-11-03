@@ -58,6 +58,13 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Mateusz Jamka: stowarzyszenie zwykłe (piłka nożna dzieci, seniorzy, dzieci z niepełnosprawnością), zna cenę 1900, zbiera na 850 zł. Pytał o dokumenty, dostał formularz. Okno do 3.11 19:02 UTC.
 - Paweł Rogalny: fundacja, lubelskie, bez wcześniejszego grantu SPLOT. Dostał cenę 1900 i formularz. Okno do 3.11 18:13 UTC.
 
+### 3.11 (stan wieczorem)
+- Grzegorz Domagalski (Fundacja Energy Dream, zarzad@fundacjaenergydream.pl): SPLOT 2.0, cena 1900 znana, prosił o umowę. Druga sesja wysłała umowę mailem 3.11 16:17, czeka na podpisany skan i płatność 850. Okno do 4.11 12:17 UTC.
+- Anna Sokołowska: stowarzyszenie sportowe w ewidencji starosty, SPLOT 2.0, dostała cenę 1900 3.11 12:16, bez odpowiedzi. Okno zamknięte 4.11 11:28 UTC.
+- Kamila Cholewa: JDG ślusarstwo, śląskie, mąż chce ciężarówkę z HDS, bez zatrudnienia. Proponowana pożyczka rozwojowa, czekamy na koszt auta. Okno do 4.11 16:58 UTC.
+- Kasia Zawada: czeka na rozmowę z prezesem stowarzyszenia (3.11 11:28), sama da znać.
+- Borowiecka Martyna: 2.11 dostała link Stripe …8x214peu449E30z82V6Zy05 (nieznany, do potwierdzenia przez właściciela).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
