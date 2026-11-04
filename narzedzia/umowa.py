@@ -22,7 +22,10 @@ def z_krs(krs):
         url = url.replace("rejestr=S", "rejestr=P")
         d = json.load(urllib.request.urlopen(url, timeout=30))
     dz1 = d["odpis"]["dane"]["dzial1"]
-    nazwa = dz1["danePodmiotu"]["nazwa"].title().replace("Fundacja", "Fundacją")
+    slowa = dz1["danePodmiotu"]["nazwa"].replace('"', "").replace("„", "").replace("”", "").title().split()
+    male = {"I", "W", "Na", "Dla", "Oraz", "Z", "Ze", "Do", "Od", "Im.", "Imienia"}
+    nazwa = " ".join(w.lower() if k and w in male else w for k, w in enumerate(slowa))
+    nazwa = nazwa.replace("Fundacja", "Fundacją", 1).replace("Stowarzyszenie", "Stowarzyszeniem", 1)
     ident = dz1["danePodmiotu"].get("identyfikatory", {})
     adr = dz1["siedzibaIAdres"]["adres"]
     adres = f"ul. {adr.get('ulica', '').title().replace('Ul. ', '')} {adr.get('nrDomu', '')}{'/' + adr['nrLokalu'] if adr.get('nrLokalu') else ''}, {adr.get('kodPocztowy', '')} {adr.get('miejscowosc', '').title()}"
