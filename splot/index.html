@@ -364,6 +364,7 @@ input[aria-invalid="true"] { border-color: var(--danger); }
   var karta = document.getElementById('karta');
   var i = 0;
   var lastPointer = 0;
+  var START = Date.now();
 
   var params = new URLSearchParams(location.search);
   document.getElementById('zrodlo').value = params.get('z') || params.get('utm_source') || document.referrer || 'bezpośrednio';
@@ -523,12 +524,32 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     new FormData(form).forEach(function (v, k) { if (k === '_next') return; k = k.replace('[]', ''); dane[k] = dane[k] ? dane[k] + ', ' + v : v; });
     dane._subject = 'SPLOT 2.0, ' + ({ tak: 'kwalifikuje się', spr: 'do sprawdzenia', nie: 'nie kwalifikuje się' }[status]) + ', ' + nazwa;
     var btn = document.getElementById('wyslij'); btn.disabled = true;
-    fetch('https://formsubmit.co/ajax/kapitalownia@gmail.com', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(dane) })
+    function udane() {
+      info.hidden = false; info.className = 'sent';
+      info.textContent = 'Zgłoszenie jest u nas. Odezwiemy się ' + (email ? 'e-mailem' : 'telefonicznie') + ' najpóźniej w następny dzień roboczy.';
+    }
+    // Zapasowa droga przez serwer kapitalownia.pl, gdy FormSubmit nie odpowiada (522 w dniu wdrożenia).
+    // Serwer wymaga e-maila, więc przy samym telefonie podajemy skrzynkę Kapitałowni i telefon w opisie.
+    function zapas() {
+      var opis = dane._subject + '\n\n' + dane.wynik + '\n\nOrganizacja: ' + nazwa + '\nTelefon: ' + (tel || 'nie podano') +
+        '\nE-mail: ' + (email || 'nie podano, tylko telefon') + '\nTematy: ' + (dane.tematy || '') + '\nWykluczenia: ' + (dane.wykluczenia || '') +
+        '\nPomysł: ' + (dane.pomysl || '') + '\nDziałalność: ' + (dane.dzialalnosc || '') + '\nŹródło: ' + dane.zrodlo;
+      var b = new URLSearchParams({ rodzaj: 'ngo', ngo_forma: dane.forma || 'nie podano', ngo_staz: 'nie podano', ngo_obszar: 'SPLOT 2.0, ' + (dane.tematy || 'temat nie podany'),
+        wojewodztwo: dane.wojewodztwo || '', opis: opis, imie: imie + ', ' + nazwa, email: email || 'kontakt@kapitalownia.pl', zgoda: 'tak', t: String(START) });
+      return fetch('https://kapitalownia.pl/api/formularz.php', { method: 'POST', mode: 'no-cors', body: b });
+    }
+    var stop = typeof AbortController === 'function' ? new AbortController() : null;
+    var limit = setTimeout(function () { if (stop) stop.abort(); }, 10000);
+    fetch('https://formsubmit.co/ajax/kapitalownia@gmail.com', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(dane), signal: stop ? stop.signal : undefined })
       .then(function (r) { return r.json(); })
       .then(function (r) {
+        clearTimeout(limit);
         if (!r || String(r.success) !== 'true') throw new Error('formsubmit');
-        info.hidden = false; info.className = 'sent';
-        info.textContent = 'Zgłoszenie jest u nas. Odezwiemy się ' + (email ? 'e-mailem' : 'telefonicznie') + ' najpóźniej w następny dzień roboczy.';
+        udane();
+      })
+      .catch(function () {
+        clearTimeout(limit);
+        return zapas().then(udane);
       })
       .catch(function () {
         info.hidden = false; info.className = 'sent fail';
