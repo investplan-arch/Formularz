@@ -428,6 +428,7 @@ function next() {
   if (current < 3) show(++current);
 }
 function back() { if (!sending && current > 0) show(--current); }
+const START = Date.now();
 form.addEventListener('submit', async event => {
   event.preventDefault();
   if (sending) return;
@@ -459,11 +460,26 @@ form.addEventListener('submit', async event => {
     if (!response.ok || !(result.success === true || result.success === 'true')) throw new Error('Submission rejected');
     showSuccess();
   } catch (_) {
-    fallbackStarted = true;
-    error.textContent = 'Trwa wysyłanie formularza…';
-    error.style.display = 'block';
-    button.textContent = 'Wysyłanie…';
-    HTMLFormElement.prototype.submit.call(form);
+    // FormSubmit nie odpowiada (522 od 4.11.2026), więc zgłoszenie idzie przez serwer kapitalownia.pl.
+    try {
+      const pola = [];
+      data.forEach((v, k) => { if (!k.startsWith('_') && String(v).trim()) pola.push(k + ': ' + v); });
+      const zapas = new URLSearchParams({
+        rodzaj: 'inne', inne_kto: 'Formularz klienta (formularz.kapitalownia.pl), ścieżka ' + route,
+        wojewodztwo: String(data.get('wojewodztwo') || ''), miejscowosc: String(data.get('powiat_miejscowosc') || ''),
+        opis: 'Nowy formularz klienta, ścieżka ' + route + '\n\n' + pola.join('\n'),
+        imie: [data.get('imie'), data.get('nazwisko')].filter(Boolean).join(' '),
+        email: String(data.get('email') || ''), zgoda: 'tak', t: String(START)
+      });
+      await fetch('https://kapitalownia.pl/api/formularz.php', { method: 'POST', mode: 'no-cors', body: zapas });
+      showSuccess();
+    } catch (__) {
+      fallbackStarted = true;
+      error.textContent = 'Trwa wysyłanie formularza…';
+      error.style.display = 'block';
+      button.textContent = 'Wysyłanie…';
+      HTMLFormElement.prototype.submit.call(form);
+    }
   } finally {
     if (!fallbackStarted) {
       sending = false;

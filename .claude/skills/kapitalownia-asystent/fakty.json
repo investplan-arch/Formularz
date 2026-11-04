@@ -338,6 +338,28 @@
    "slowa": [],
    "sprawdzono": "2026-11-04T08:00",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie (informacja właściciela 26 i 28.10.2026): kolejny nabór otwiera się na przełomie listopada i grudnia 2026, ruszy jeszcze w tym roku, pośrednik podaje termin około 2 tygodnie wcześniej, a nabory zamykają się w kilka minut",
+   "wartosci": [
+    "2 tygodnie",
+    "2 tyg"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/nabory.md:145",
+   "tagi": [
+    "nabor",
+    "warunek"
+   ],
+   "slowa": [
+    "Wsparcie w starcie",
+    "Wsparcia w starcie",
+    "pożyczk",
+    "WwS",
+    "nabór na pożyczkę"
+   ],
+   "sprawdzono": "2026-11-04T08:43",
+   "waznosc_dni": 3,
+   "wazne_do": "2026-12-31"
   }
  ]
 }

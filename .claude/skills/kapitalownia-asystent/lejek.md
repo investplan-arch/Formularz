@@ -86,12 +86,13 @@ Właściciel: „nie sprawdzasz informacji”. Liczbę, datę, stan naboru albo 
 
 Nasze wcześniejsze wiadomości nie są źródłem.
 
+- **Informacja od właściciela jest źródłem.** Zapisujesz ją z datą w `nabory.md` albo `wiedza.md` i dodajesz do `fakty.json` przez `fakt.py dodaj --trwale` ze wskazaniem tej linii.
 - **Stan naboru** (ruszy, trwa, zamknięty, kolejny) sprawdzasz na stronie urzędu albo pośrednika. Zapis z tagiem `nabor` jest ważny 3 dni.
 - **Kwoty w złotych z przeciętnego wynagrodzenia** (np. 184 tys. zł, 55 tys. zł, 9,2 tys. zł) bierzesz z aktualnego komunikatu GUS albo z ogłoszenia pośrednika. Bez tego piszesz krotność, np. „do 20-krotności przeciętnego wynagrodzenia”.
 - **Warunek programu** (wymaga, nie można, odpada, wyklucza) bierzesz z regulaminu. Linię zapisujesz przez `fakt.py dodaj --psid`.
 - **Przed wysłaniem** możesz sprawdzić wiadomość: `python3 narzedzia/fakt.py sprawdz --psid <PSID> "treść"`.
 
-Analiza z 4.11.2026: ta kontrola zatrzymałaby 404 z 1131 naszych wcześniejszych wiadomości. Najczęściej chodziło o 184 tys. zł (145 razy), „umorzenie 40%” (39 razy, a regulamin Wsparcia w starcie mówi o 6-krotności, najwyżej 50%), 55 tys. zł (36 razy), 9,2 tys. zł (28 razy) i ceny spoza cennika, np. 1100 zł i 2350 zł. W 70 wiadomościach był też stan naboru bez sprawdzenia.
+Analiza z 4.11.2026: ta kontrola zatrzymałaby 404 z 1131 naszych wcześniejszych wiadomości. Najczęściej chodziło o 184 tys. zł (145 razy), „umorzenie 40%” (39 razy, a regulamin Wsparcia w starcie mówi o 6-krotności, najwyżej 50%), 55 tys. zł (36 razy), 9,2 tys. zł (28 razy) i ceny spoza cennika, np. 1100 zł i 2350 zł. W 70 wiadomościach był stan naboru. Ta część, która opierała się na informacji właściciela (nabór Wsparcia w starcie jeszcze w tym roku), była prawdziwa, ale nie była zapisana jako fakt. Błędy brały się z mojego własnego szukania.
 
 ## Do decyzji właściciela (stan 3.11.2026)
 
