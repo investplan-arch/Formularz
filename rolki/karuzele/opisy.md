@@ -76,9 +76,9 @@ Zaczynamy od sprawdzenia, z czego możesz skorzystać. Napisz DOTACJA w wiadomo�
 
 #dotacja #własnafirma #biznesplan #kapitałownia
 
-## 10. Karuzela „SPLOT Wartości 2.0” (07-splot-wartosci), fakty z ogłoszenia Sieci SPLOT z 27.10.2026
+## 10. Karuzela „SPLOT 2.0” (07-splot-wartosci), fakty z ogłoszenia Sieci SPLOT z 27.10.2026
 
-Fundacje, stowarzyszenia i koła gospodyń mogą do 28 grudnia złożyć wniosek o grant SPLOT Wartości 2.0. To od 10 do 15 tys. euro na projekt, bez wkładu własnego.
+Trwa nabór na granty SPLOT 2.0 dla fundacji, stowarzyszeń i kół gospodyń wiejskich. Wnioski są przyjmowane do 28 grudnia 2026 r. To od 10 do 15 tys. euro na projekt, bez wkładu własnego.
 
 Pieniądze są na działania wokół praw obywatelskich i równości szans. Kampania informacyjna w gminie, debaty z mieszkańcami, bezpłatne porady, projekt dla młodzieży albo osób z niepełnosprawnościami. Projekt może być lokalny, a mniejsza organizacja może złożyć wniosek razem z bardziej doświadczoną.
 

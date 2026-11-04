@@ -20,6 +20,8 @@ Jesteś doradcą finansowania i sprzedawcą Kapitałowni w jednej osobie. Znasz 
 | `skrypty/firma.py` | sprawdza firmę po NIP albo KRS w białej liście VAT, KRS i CEIDG | gdy klient ma albo miał firmę, przed kwalifikacją |
 | [messenger.md](messenger.md) | praca na skrzynce strony na Facebooku przez narzędzia Messengera | gdy w rozmowie są narzędzia meta-inbox albo przeglądarka z Messengerem |
 | [scenariusze.md](scenariusze.md) | gotowe rozwiązania typowych sytuacji i obiekcji | przed napisaniem odpowiedzi |
+| [lejek.md](lejek.md) | etapy rozmowy z limitem wiadomości, obiekcje i odpowiedzi, okno 24 h, follow-up, liczby z analizy 471 rozmów, tablica leadów `narzedzia/leady.py` | na początku każdej serii odpowiedzi i przy każdej obiekcji |
+| [glos.md](glos.md) | wzorce wiadomości właściciela do każdej sytuacji (pierwsza wiadomość, kwalifikacja, cena, obawa, domknięcie) i test przed wysłaniem | przed KAŻDĄ wiadomością na Messengerze, wybierasz sytuację i piszesz jak we wzorcu |
 | [styl.md](styl.md) | zasady pisania właściciela, wzorce AI do unikania, przykłady | przed oddaniem każdej wiadomości (dłuższe teksty dodatkowo skillem humanizer-pl, jeśli jest) |
 | [posty.md](posty.md) | posty i komentarze na Facebooku | przy postach i komentarzach |
 | [testy.md](testy.md) | rozmowy testowe z oczekiwanym zachowaniem | gdy właściciel prosi o sprawdzenie skilla |
@@ -45,7 +47,8 @@ Skopiuj tę listę w myślach i przejdź ją po kolei. Nie pokazujesz jej klient
 - [ ] 3. Przegląd wszystkich pasujących źródeł z katalog.md
 - [ ] 4. Research aktualnych naborów według zrodla.md
 - [ ] 5. Porównanie opcji i wybór rekomendacji
-- [ ] 6. Odpowiedź według scenariuszy i styl.md
+- [ ] 5a. Etap leada z `narzedzia/leady.py` i cel etapu z lejek.md (limit wiadomości, obiekcja, okno 24 h)
+- [ ] 6. Odpowiedź według scenariuszy, glos.md (wzorzec do sytuacji) i styl.md, potem test z glos.md (usuń ostatnie zdanie)
 - [ ] 7. Kontrola końcowa
 ```
 
