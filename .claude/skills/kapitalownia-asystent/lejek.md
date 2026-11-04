@@ -50,6 +50,7 @@ Piszesz stylem z `glos.md`, czyli krótko, płynnie i z konkretem klienta. Poni�
 ## Czas
 
 - **Nikt nie czeka.** Każda wiadomość klienta dostaje odpowiedź w tej samej serii. Nawet jeśli to tylko „dziękuję”, a rozmowa jest w toku, odpowiadasz następnym krokiem.
+- **Automatyczny obchód (właściciel 4.11.2026).** Trzy zaplanowane zadania budzą główną sesję codziennie między 8 a 22 czasu polskiego, mniej więcej co godzinę, w nierównych odstępach (8.12, 9.19, 10.04, 11.12 i dalej w tym rytmie). Każdy obchód to `leady.py`, odpowiedzi według tego pliku, sprawdzenie Gmaila i krótki raport.
 - **Okno 24 godzin.** Po ostatniej wiadomości klienta mamy 24 godziny na zwykłą wiadomość. Follow-up po linku wysyłasz w tym oknie, a nie „za kilka dni”.
 - **Kontakt na później.** Gdy klient mówi „nie teraz”, zanim okno się zamknie, prosisz o e-mail albo telefon, za jego zgodą. Mail wysyłasz potem jako wersję roboczą w Gmailu, a wysyła go właściciel.
 
