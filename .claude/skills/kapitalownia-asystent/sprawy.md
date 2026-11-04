@@ -65,6 +65,15 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Kasia Zawada: czeka na rozmowę z prezesem stowarzyszenia (3.11 11:28), sama da znać.
 - Borowiecka Martyna: 2.11 dostała link Stripe …8x214peu449E30z82V6Zy05 (nieznany, do potwierdzenia przez właściciela).
 
+### 4.11 (stan wieczorem)
+- Anna Sokołowska: OPŁACIŁA 850 zł przelewem 4.11 10:57 (potwierdzenie PKO w Messengerze), SPLOT 2.0, stowarzyszenie sportowe. Dostała formularz, faktura na stowarzyszenie. Czeka na wypełniony formularz; wpłatę potwierdza właściciel na koncie.
+- Iwona Szlaga: 3.11 napisała, że wpłaciła 850 zł; u nas brak, poprosiliśmy o potwierdzenie, 4.11 17:16 przypomnienie. Okno zamknięte (jej ostatnia wiadomość 3.11 05:15).
+- Artur Medrzycki (Fundacja Pomocy Ludziom i Zwierzętom, kontakt@fpliz.pl): umowa SPLOT wysłana mailem 4.11 10:48, czeka na podpis.
+- Grzegorz Domagalski: brak odpowiedzi po umowie, okno zamknięte 4.11 12:17.
+- Paweł Rogalny: 4.11 „Ok. Dam znać”.
+- Tomasz Waligóra: nowy, firma (onkologia, badania kliniczne, sprzęt do tlenoterapii), 4.11 ok. 20:20 rozmowę prowadzi właściciel.
+- Formularze: Włodzimierz Kaczkowski (Fundacja Scena Współczesna, mazowieckie, NIW 2027), mail z odpowiedzią wysłany 4.11 19:56. Barbara Czerwińska (CT Academy, fundacja, pomorskie, B.CZERWINSKA@CTRAVEL.PL) 4.11 20:15, bez odpowiedzi.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
