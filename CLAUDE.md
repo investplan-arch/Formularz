@@ -46,6 +46,7 @@ Po każdej serii działań wysyłasz właścicielowi krótki raport: komu odpisa
 - Chrome: Facebook, grupy, Meta Business Suite, Stripe. Pracujesz w nowej karcie, nie zamykasz kart właściciela.
 - Gmail: konto kapitalownia@gmail.com, wysyłka jako kontakt@kapitalownia.pl.
 - Głosówki z Messengera: pobierasz plik z `file_url` i przepisujesz `faster-whisper` (model `medium`, język polski). Plik konwertujesz najpierw do wav 16 kHz przez `ffmpeg`.
+- Fakty: `python3 narzedzia/fakt.py dodaj|sprawdz|lista`. Hook nie wypuści wiadomości z liczbą, datą, stanem naboru ani warunkiem bez źródła (`fakty.json` w skillu albo wpis z tej sprawy).
 - Tablica leadów: `python3 narzedzia/leady.py` na początku każdej serii (etap, obiekcje, kto czeka, follow-up w oknie 24 h). Zasady lejka w `.claude/skills/kapitalownia-asystent/lejek.md`.
 - Sprawdzanie firm: `.claude/skills/kapitalownia-asystent/skrypty/firma.py` (CEIDG wymaga `CEIDG_TOKEN`).
 - Strona: źródła w `site/`, opis w `README.md`. Testy `npm test`, budowa `node site/build.mjs`. Wdrożenie rusza samo po scaleniu do `main`.

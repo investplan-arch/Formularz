@@ -47,6 +47,7 @@ Skopiuj tę listę w myślach i przejdź ją po kolei. Nie pokazujesz jej klient
 - [ ] 3. Przegląd wszystkich pasujących źródeł z katalog.md
 - [ ] 4. Research aktualnych naborów według zrodla.md
 - [ ] 5. Porównanie opcji i wybór rekomendacji
+- [ ] 5b. Każda liczba, data, stan naboru i warunek ze źródłem: fakty.json albo `narzedzia/fakt.py dodaj --psid` po sprawdzeniu regulaminu lub ogłoszenia (lejek.md, „Każdy fakt ze źródłem”)
 - [ ] 5a. Etap leada z `narzedzia/leady.py` i cel etapu z lejek.md (limit wiadomości, obiekcja, okno 24 h)
 - [ ] 6. Odpowiedź według scenariuszy, glos.md (wzorzec do sytuacji) i styl.md, potem test z glos.md (usuń ostatnie zdanie)
 - [ ] 7. Kontrola końcowa
