@@ -1,0 +1,2222 @@
+  REGULAMIN KONKURSU
+Rządowy Program Fundusz Inicjatyw Obywatelskich
+         NOWEFIO na lata 2021-2030
+
+
+
+
+                 Priorytet 2-4
+                EDYCJA 2027
+Spis treści
+Słowniczek .................................................................................................................................. 3
+Część A – Zasady przyznawania dotacji .................................................................................. 10
+I.     Informacje ogólne o Programie........................................................................................ 10
+       Cel Programu .................................................................................................................... 10
+       Priorytety Programu ......................................................................................................... 11
+       Środki przeznaczone na realizację priorytetów ............................................................... 12
+       Podmioty uprawnione i nieuprawnione .......................................................................... 13
+       Termin i sposób naboru wniosków .................................................................................. 14
+       Oferta wspólna - współpraca dwóch organizacji uprawnionych do udziału w konkursie15
+       Partnerstwo z podmiotami niemogącymi wziąć udział w konkursie ............................... 16
+II.    Zasady finansowania i realizacji zadań ............................................................................. 17
+       Przeznaczenie środków programu ................................................................................... 17
+       Czas realizacji zadań ......................................................................................................... 21
+       Wysokość dotacji i wkład własny ..................................................................................... 21
+       Koszty kwalifikowalne ...................................................................................................... 22
+       Koszty niekwalifikowalne ................................................................................................. 23
+       Budżet projektu (kategorie kosztów) ............................................................................... 24
+       Zatrudnienie personelu w ramach projektu .................................................................... 25
+       Zasady rozliczenia podatku VAT ....................................................................................... 26
+       Przetwarzanie danych osobowych w związku z ubieganiem się o dotację ...................... 26
+III.       Zasady ubiegania się o dotację..................................................................................... 29
+       Ocena formalna ................................................................................................................ 30
+       Ocena merytoryczna ........................................................................................................ 32
+       Ocena strategiczna ........................................................................................................... 34
+IV.        Rozstrzygnięcie konkursu ............................................................................................. 36
+       Rozstrzygnięcie konkursu ................................................................................................. 36
+       Dysponowanie środkami uwolnionymi ............................................................................ 40
+       Unieważnienie konkursu .................................................................................................. 41
+V.     Podpisanie umowy i realizacja zadania ............................................................................ 41
+       Zawarcie umowy .............................................................................................................. 41
+       Przekazanie środków ........................................................................................................ 43
+       Zasady ponoszenia kosztów ............................................................................................. 44
+       Przetwarzanie danych osobowych przez oferenta .......................................................... 46
+
+                                                                    –2–
+        Promocja wsparcia w ramach programu ......................................................................... 47
+        Zapewnienie dostępności zadania osobom ze szczególnymi potrzebami ....................... 48
+        Zmiany w realizacji zadania publicznego ......................................................................... 49
+VI.         Forma i sposób udzielania wyjaśnień w kwestiach dot. Konkursu .............................. 51
+VII.        Zmiany w regulaminie .................................................................................................. 51
+Część B – Zasady rozliczania dotacji i sprawozdanie .............................................................. 53
+VIII.       Zasady rozliczania dotacji ............................................................................................. 53
+        Ogólne zasady .................................................................................................................. 53
+        Rozliczenie przez rezultat ................................................................................................. 53
+        Sprawozdanie z wykonania zadania ................................................................................. 54
+        Rozliczenie wkładu osobowego........................................................................................ 54
+        Rozliczenie podróży służbowych osób zaangażowanych w realizację projektu .............. 55
+        Rozliczenie dojazdów Zleceniobiorców ............................................................................ 55
+        Rozliczenie przychodów uzyskanych przy realizacji zadania publicznego ....................... 56
+        Dokumentacja finansowo-księgowa ................................................................................ 56
+        Uchybienia ........................................................................................................................ 58
+IX.         Monitoring realizacji Programu.................................................................................... 58
+X.      Kontrola realizacji zadania ............................................................................................... 59
+        Zatwierdzenie sprawozdania wraz z poinformowaniem organizacji ............................... 59
+        Konsekwencje uchybień ................................................................................................... 59
+        Rodzaje kontroli ............................................................................................................... 59
+        Okres kontroli przyznanej dotacji..................................................................................... 59
+     Załącznik 1 Wzór oferty realizacji zadania publicznego oraz oferty wspólnej realizacji zadania
+     publicznego; ......................................................................................................................... 61
+     Załącznik 2 Ramowy wzór umowy o realizację zadania publicznego oraz umowy o realizację
+     zadania publicznego na podstawie oferty wspólnej; ........................................................... 61
+     Załącznik 3 Wzór sprawozdania z wykonania zadania publicznego. .................................... 61
+     Załącznik 4 Wzór karty oceny formalnej .............................................................................. 61
+     Załącznik 5 Wzór karty oceny merytorycznej....................................................................... 62
+
+
+            Słowniczek
+ Zleceniobiorca                       Podmiot, który otrzymał dofinansowanie na realizację zadania w
+                                      ramach Programu, tj. podpisał umowę.
+ Odbiorca zadania                     Osoba lub organizacja, której uczestnictwo w przynajmniej jednym
+                                      działaniu merytorycznym wykazano w dokumentacji projektowej.
+
+                                                                    –3–
+    Dostępność                  Dostępność architektoniczna, cyfrowa oraz informacyjno-
+                                komunikacyjna, co najmniej w zakresie określonym przez
+                                minimalne wymagania, o których mowa w art. 6 ustawy z dnia 19
+                                lipca 2019 r. o zapewnianiu dostępności osobom ze szczególnymi
+                                potrzebami (Dz. U. z 2024 r. poz. 1411 z późn. zm.), będącą
+                                wynikiem uwzględnienia uniwersalnego projektowania albo
+                                zastosowania racjonalnego usprawnienia.
+    Dotacja                     Dotacja udzielana w ramach niniejszego konkursu na podstawie art.
+                                127 ust. 1 pkt 1 lit. e ustawy z dnia 27 sierpnia 2009 r. o finansach
+                                publicznych (Dz. U. 2025 r. poz. 1483 z późn. zm.) oraz art. 31
+                                UoNIW .
+    Dyrektor                    Dyrektor Narodowego Instytutu Wolności – Centrum Rozwoju
+                                Społeczeństwa Obywatelskiego, o którym mowa w art. 4 pkt
+                                1UoNIW.
+    Działania strażnicze1       Działania strażnicze to sprawdzanie jak działają wszelkiego rodzaju
+                                władze i administracja – tego, jak wydawane są pieniądze z
+                                publicznej kasy, czy jak realizowane są konkretne przepisy prawa, w
+                                tym bardzo często prawa człowieka. Czasem ci, którzy prowadzą
+                                działania strażnicze (strażnicy, watchdogi) stają na straży
+                                praworządności oraz etyki działań biznesu i mediów.
+    Instytucja                  Instytucja Zarządzająca Programem: Narodowy Instytut Wolności
+    Zarządzająca                Centrum Rozwoju Społeczeństwa Obywatelskiego.
+    Konkurs                     Niniejszy Konkurs zorganizowany w ramach Programu.
+    Kryteria strategiczne       Kryteria określone w związku z koniecznością zapewnienia realizacji
+                                celów szczegółowych Programu oraz realizacji bieżących polityk
+                                publicznych.
+                                Spełnianie kryteriów strategicznych oznacza przyznanie
+                                spełniającym je ofertom premii punktowej (w wysokości
+                                zróżnicowanej w zależności od Priorytetu). Spełnienie kryteriów
+                                strategicznych nie jest obowiązkowe do zakwalifikowania projektu
+                                do dofinansowania.
+    NIW, NIW-CRSO               Narodowy Instytut Wolności – Centrum Rozwoju Społeczeństwa
+                                Obywatelskiego będący Instytucją Zarządzającą w rozumieniu
+                                postanowień Programu.
+
+
+
+
+1
+    Za definicją Sieci Obywatelskiej Watchdog Polska.
+                                                        –4–
+Oferta              Oferta o udzielenie dotacji na realizację zadania składany za
+                    pośrednictwem Systemu Obsługi Dotacji w ramach konkursów.
+Oferent             Podmiot ubiegający się o dotację na realizację zadań w ramach
+                    konkursu.
+Oferta wspólna      Oferta składana wspólnie przez co najmniej dwie organizacje
+                    pozarządowe lub inne podmioty uprawnione do aplikowania o
+                    środki w ramach konkursu NOWEFIO. Podmioty składające taką
+                    ofertę mają obowiązek zawrzeć między sobą umowę o wspólną
+                    realizację projektu/zadania, przed podpisaniem umowy z NIW na
+                    realizację oferty.
+Osoba ze            Osoba, która ze względu na swoje cechy zewnętrzne lub
+szczególnymi        wewnętrzne, albo ze względu na okoliczności, w których się
+potrzebami          znajduje, musi podjąć dodatkowe działania lub zastosować
+                    dodatkowe środki w celu przezwyciężenia bariery, aby uczestniczyć
+                    w różnych sferach życia na zasadzie równości z innymi osobami.
+Partnerstwo         Partnerstwo to forma realizacji projektu wspólnie z partnerami
+                    publicznymi lub prywatnymi, ale niebędącymi stroną umowy na
+                    realizację działania/ zadania w ramach konkursu. Partnerstwo może
+                    być realizowane w formułach:
+                        1) partnerstwo publiczno-społeczne – partnerstwa z
+                            jednostkami sektora finansów publicznych;
+                        2) partnerstwo prywatno-społeczne – partnerstwa z
+                            podmiotami prywatnymi.
+Program, NOWEFIO    Rządowy Program Fundusz Inicjatyw Obywatelskich NOWEFIO na
+                    lata 2021-2030 przyjęty uchwałą nr 194/2020 Rady Ministrów z dnia
+                    22 grudnia 2020 r. w sprawie przyjęcia programu wspierania
+                    rozwoju społeczeństwa obywatelskiego pod nazwą „Program
+                    Fundusz Inicjatyw Obywatelskich NOWEFIO na lata 2021–2030” w
+                    wersji przyjętej uchwałą nr 82/2023 Rady Ministrów z dnia 31 maja
+                    2023 r. zmieniającą uchwałę w sprawie przyjęcia programu
+                    wspierania rozwoju społeczeństwa obywatelskiego pod nazwą
+                    „Rządowy Program Fundusz Inicjatyw Obywatelskich NOWEFIO na
+                    lata 2021–2030” .
+Projekt roczny      Projekt rozpoczynający się i kończący w 2027 roku.
+Projekt dwuletni    Projekt rozpoczynający się w 2027 roku a kończący się w roku 2028.
+Projekt trzyletni   Projekt rozpoczynający się w 2027 roku a kończący się w roku 2029.
+
+
+
+                                       –5–
+    Przewodniczący          Przewodniczący Komitetu do spraw Pożytku Publicznego, o którym
+    Komitetu                mowa w art. 34a ust. 1 pkt 1 ustawy z dnia 24 kwietnia 2003 r. o
+                            działalności pożytku publicznego i o wolontariacie (Dz. U. z 2025 r.
+                            poz.1338 z późn. zm.).
+    Przychód                Przychód to wartość uzyskana przez organizację w ramach
+                            wszystkich działalności (nieodpłatnej i odpłatnej pożytku
+                            publicznego oraz działalności gospodarczej), z wyłączeniem
+                            wartości darowizn rzeczowych przeznaczonych na prowadzenie
+                            działalności statutowej. Do przychodu włączają się także dotacje
+                            uzyskane ze źródeł zewnętrznych2.
+    Regulamin               Niniejszy Regulamin oraz ogłoszenie o otwartym konkursie ofert.
+    Realizacja zadania      Realizacja zadania przez podmiot niebędący stroną umowy na
+    przez podmiot           realizację działania/zadania w ramach niniejszego konkursu, o
+    niebędący stroną        którym mowa w art. 16 ust. 4 ustawy z dnia 24 kwietnia 2003 r. o
+    umowy                   działalności pożytku publicznego i o wolontariacie.
+                            Zleceniobiorca nie może dokonać dalszego powierzenia tego
+                            zadania publicznego ani w całości, ani w części innym podmiotom i
+                            podwykonawcom. Przekazanie otrzymanej przez organizację od
+                            organu dotacji musi nastąpić za wiedzą i zgodą organu (musi to
+                            zostać określone we wniosku).
+                            Zasada, o której mowa wyżej nie ma zastosowania do zakupu od
+                            podmiotów trzecich usług polegających na wykonywaniu czynności
+                            pomocniczych o charakterze technicznym lub specjalistycznym,
+                            które służą prawidłowej realizacji danego zadania publicznego.
+                            Czynności pomocnicze, takie jak np. wydruk ulotek, usługi
+                            hotelowe, transportowe, księgowe, promocyjne nie mogą stanowić
+                            meritum zadania i nie są tożsame z realizacją zadania.
+    Rzecznictwo3            Rzecznictwo to działanie w obronie lub popieranie jakiejś sprawy,
+                            osoby lub grupy interesów, polegające na występowaniu w ich
+                            imieniu. Działania te mają na celu wpływanie na decydentów (np.
+                            władze, polityków) w celu osiągnięcia zmiany w prawie, praktyce
+                            jego stosowania, czy też w konkretnych decyzjach. Rzecznictwo
+                            obejmuje aktywności takie jak wyrażanie interesów, dialog
+                            publiczny i wspieranie organizacji pozarządowych w ich pracy.
+
+
+
+
+2
+  Po stronie Oferenta leży obowiązek potwierdzenia wykazanego w ofercie przychodu, na etapie podpisywania
+umowy.
+3
+  Za Pomorską Pracownią Badań Obywatelskich.
+                                                  –6–
+RwWOUS              Rozporządzenie Przewodniczącego Komitetu do spraw Pożytku
+                    Publicznego w sprawie wzorów ofert i ramowych wzorów umów
+                    dotyczących realizacji zadań publicznych oraz wzorów sprawozdań
+                    z wykonania tych zadań.
+Rozwój              Działania    mające     na      celu     zwiększenie     potencjału
+instytucjonalny     Oferenta/Zleceniobiorcy.
+System Obsługi      Narzędzie teleinformatyczne, umożliwiające Wnioskodawcy
+Dotacji             utworzenie indywidualnego profilu w systemie informatycznym
+                    oraz złożenie i obsługę wniosku o dotację, składanego w Konkursie:
+                    (https://generator.niw.gov.pl/).
+Strona NIW          Strona internetowa NIW, mająca charakter Biuletynu Informacji
+                    Publicznej, o adresie www.niw.gov.pl
+Umowa               Umowa spełniająca warunki określone w art. 151 ust. 2 ustawy z
+                    dnia 27 sierpnia 2009 r. o finansach publicznych (Dz. U. 2025 r. poz.
+                    1483 z późn. zm.) zawarta pomiędzy NIW-CRSO a podmiotem,
+                    którego wniosek został przyjęty do realizacji.
+UoDPPiW             Ustawa z dnia 24 kwietnia 2003 r. o działalności pożytku
+                    publicznego i o wolontariacie (Dz. U. z 2025 r. poz. 1338 z późn.
+                    zm.).
+UoGH                Ustawa z dnia 19 listopada 2009 r. o grach hazardowych (Dz. U. z
+                    2025 r. poz. 595).
+UoNIW               Ustawa z dnia 15 września 2017 r. o Narodowym Instytucie
+                    Wolności - Centrum Rozwoju Społeczeństwa Obywatelskiego (Dz. U.
+                    z 2026 r. poz. 94).
+UoFP                Ustawa z dnia 27 sierpnia 2009 r. o finansach publicznych (Dz. U.
+                    2025 r. poz. 1483 z późn. zm.)
+Wydatki majątkowe   Wydatki majątkowe to wydatki, które nie są wydatki bieżącymi.
+                    Przeznacza się je na: inwestycje i zakupy inwestycyjne, które
+                    prowadzą do powiększenia majątku jednostki. Następuje to poprzez
+                    budowę obiektów majątku trwałego bądź poprzez nabywanie
+                    aktywów finansowych.
+                    Za wydatki majątkowe uważa się:
+                        1) środki trwałe oraz wartości niematerialne o wartości
+                           przekraczającej 10 tys. zł i okresie użytkowania dłuższym niż
+                           1 rok, gdzie odpisy amortyzacyjne od tych środków i
+                           wartości niematerialnych i prawnych nie są dokonywane
+                           jednorazowo.
+
+                                        –7–
+                           2) pierwsze wyposażenie budynku, do którego zalicza się
+                              wszystkie instalacje wbudowane w konstrukcje budynku na
+                              stałe, np. instalacje sanitarne, elektryczne, sygnalizacyjne,
+                              komputerowe, telekomunikacyjne, przeciwpożarowe oraz
+                              wyposażenie budynku np. wbudowane meble (meble,
+                              dywany itp. zaliczamy do pozostałych środków trwałych).
+                           3) Środki trwałe, które uległy ulepszeniu (modernizacji), gdzie
+                              wartość początkowa tych środków powiększa się o sumę
+                              wydatków na ulepszenie. W tym, także o nabycie części
+                              składowych lub peryferyjnych. Środki trwałe uważa się za
+                              ulepszone, gdy suma wydatków poniesionych na
+                              przebudowę, rozbudowę, rekonstrukcję adaptację lub
+                              modernizację w danym roku obrotowym przekracza 10 tys.
+                              zł.
+                           4) nabyte wartości niematerialne i prawne o wartości powyżej
+                              10 tys. zł, takie jak: autorskie prawa majątkowe, licencje,
+                              oprogramowanie komputerowe itp.
+
+
+Przed przystąpieniem do udziału w konkursach ogłaszanych w ramach Programu należy
+wnikliwie zapoznać się z niniejszym dokumentem. Złożenie wniosku w ramach konkursu
+ogłoszonego w edycji 2027 oznacza akceptację poniższego Regulaminu. Dotyczy to również
+akceptacji wymogu wypełnienia i przesłania elektronicznej wersji wniosku w Systemie Obsługi
+Dotacji dostępnym na stronie internetowej https://generator.niw.gov.pl/
+
+
+Wprowadzenie zmian w Regulaminie
+NIW-CRSO zastrzega sobie prawo do wprowadzania zmian w Regulaminie w trakcie trwania
+Konkursu jak i po ogłoszeniu jego wyników ale w trakcie realizacji zadań, na które została
+udzielona dotacja, z wyjątkiem zmian skutkujących nierównym traktowaniem Oferentów lub
+nałożeniem na nich dodatkowych obowiązków, chyba że konieczność wprowadzenia tych
+zmian wynika z przepisów powszechnie obowiązującego prawa.
+W sytuacji, gdy potrzeba wprowadzenia do Regulaminu zmiany (innej niż dotyczącej
+wydłużenia terminu naboru) zaistnieje po rozpoczęciu naboru, Oferenci mogą wycofać,
+poprawić oraz ponownie złożyć wnioski złożone przed wprowadzeniem zmiany, jednak
+wyłącznie w terminie naboru. W przypadku zmiany Regulaminu, NIW-CRSO zamieszcza na
+stronie www.niw.gov.pl informację o jego zmianie, aktualną treść Regulaminu, uzasadnienie
+
+                                           –8–
+oraz termin, od którego zmiana obowiązuje. W związku z tym zaleca się, by potencjalni
+Oferenci na bieżąco zapoznawali się z informacjami zamieszczanymi na stronie internetowej:
+www.niw.gov.pl.
+W przypadku zmian wprowadzonych w trakcie realizacji zadań NIW-CRSO informuje
+indywidualnie wszystkich Beneficjentów o wprowadzonych zmianach.
+
+
+Forma i sposób udzielania wnioskodawcy wyjaśnień w kwestiach dotyczących konkursu
+Wyjaśnienia w kwestiach dotyczących konkursu udzielane będą w odpowiedzi na pytania i
+wątpliwości:
+   1) otrzymane za pośrednictwem poczty elektronicznej do na adres: FIO@niw.gov.pl lub
+       kontakt@niw.gov.pl,
+   2) otrzymane drogą pocztową na adres: Narodowy Instytut Wolności Centrum Rozwoju
+       Społeczeństwa Obywatelskiego 00-124 Warszawa al. Jana Pawła II 12.
+Pytania w zakresie konkursu będą przyjmowane za pośrednictwem poczty elektronicznej pod
+adresem FIO@niw.gov.pl oraz za pośrednictwem infolinii, o której informacja znajdzie się w
+ogłoszeniu o konkursie.
+
+
+
+
+                                          –9–
+Część A – Zasady przyznawania dotacji
+
+
+  I.      Informacje ogólne o Programie
+Konkurs realizowany jest na podstawie:
+       1) - UoDPPiW;
+       2) - art. 30 i art. 31 UoNIW
+       3) - Programu.
+Podmiot ogłaszający konkurs:
+Instytucją Zarządzającą Programem jest Narodowy Instytut Wolności – Centrum Rozwoju
+Społeczeństwa Obywatelskiego.
+Wysokość środków przeznaczonych na realizację konkursu:
+Kwota środków na dotacje przeznaczone na realizację zadań dofinansowanych w ramach
+edycji 2027 wynosi ok. 62 900 000,00 zł.
+Tryb naboru ofert:
+Oferty w ramach konkursu można składać wyłącznie za pomocą Systemu Obsługi Dotacji w
+terminie wskazanym w ogłoszeniu o konkursie.
+Zasady rozliczenia dotacji:
+Rozliczenie dotacji przyznawanych w ramach konkursów nastąpi na podstawie oceny stopnia
+i celowości realizacji zaplanowanych działań oraz skali osiągniętych rezultatów.
+
+
+
+       Cel Programu
+Głównym celem Programu jest zwiększenie zaangażowania obywateli i organizacji
+pozarządowych w życie publiczne przez poprawę samoorganizacji społecznej, wzrost
+znaczenia sektora obywatelskiego w życiu publicznym oraz wzmocnienie instytucjonalne
+sektora obywatelskiego w Polsce.
+
+
+
+
+                                            – 10 –
+    Priorytety Programu
+W Programie wyodrębniono cztery priorytety merytoryczne, w ramach, których uprawnione
+podmioty mogą składać oferty o dofinansowanie zadań, oraz Priorytet 5 – Pomoc techniczna,
+w ramach którego zaplanowano środki przeznaczone na obsługę Programu NOWEFIO 4.
+
+
+Priorytet 1.: Mikro-inicjatywy
+Priorytet 1. jest przeznaczony dla organizacji małych, o zasięgu lokalnym i młodych stażem
+działania oraz grup nieformalnych.
+Realizacja projektów w ramach Priorytetu 1 odbywać się będzie poprzez wyłonienie
+zleceniobiorców (zwanych dalej: Operatorami), których zadanie polegać będzie na rozwoju i
+wzmacnianiu wspólnot lokalnych poprzez umożliwienie obywatelkom i obywatelom realizacji
+oddolnych inicjatyw. W ramach realizowanych zadań konieczne jest:
+    1) wykorzystanie mechanizmu regrantingu i wspieranie inicjatyw lokalnych w formule
+         małych grantów oraz zapewnienie możliwości realizacji inicjatyw grupom
+         nieformalnym5;
+    2) prowadzenie działań o charakterze animacyjnym i edukacyjnym, mających na celu
+         profesjonalizację,      zwiększenie       potencjału       i   trwałości     oddolnych        inicjatyw
+         w społecznościach lokalnych przez kompetencyjne i organizacyjne wzmocnienie
+         liderów lokalnych i realizowanych przez nich działań;
+    3) przeprowadzenie ewaluacji na zakończenie zrealizowanego projektu.
+
+
+Priorytet 2.: Organizacje obywatelskie na rzecz dobra wspólnego
+W ramach Priorytetu 2. wspierana będzie aktywność społeczna na rzecz dobra wspólnego
+realizowana przez obywateli działających w strukturach organizacji obywatelskich 6.
+
+
+
+
+4
+  Szczegółowy opis priorytetów znajduje się w Programie NOWEFIO.
+5
+  Oferty składane w Priorytecie 1 musza polegać na zastosowaniu instrumentu przewidzianego w art. 16a
+ustawy z dnia 24 kwietnia 2003 r. o działalności pożytku publicznego i o wolontariacie (Dz. U. z 2023 r. poz. 571
+z późn. zm.), tzw. „regrantingu”.
+6
+  W ramach działań wspierających aktywność społeczną mieści się również działalność reintegracyjna.
+Reintegracja społeczno-zawodowa nie jest jedynie instrumentem rynku pracy, ale również jest elementem
+budowania aktywnego społeczeństwa obywatelskiego. Osoby zagrożone wykluczeniem poprzez pracę w
+przedsiębiorstwach społecznych odzyskują sprawczość, uczestniczą w życiu lokalnym i stają się częścią
+wspólnoty obywatelskiej.
+                                                     – 11 –
+Projekty realizowane w ramach tego Priorytetu powinny pozwolić na zwiększanie aktywności
+i samoorganizacji obywatelskiej, w efekcie przyczyniając się do budowania i powiększania
+kapitału społecznego (tworzenia więzi społecznych, budowania zaufania i aktywności
+wolontariackiej w organizacjach obywatelskich).
+
+
+Priorytet 3.: Organizacje obywatelskie w życiu publicznym
+Projekty realizowane w ramach Priorytetu 3. powinny przyczyniać się do zwiększania
+obecności organizacji obywatelskich w życiu publicznym, wspierania dialogu obywatelskiego,
+procesów konsultacji, tworzenia forum debaty publicznej, budowania potencjału organizacji
+przez kształtowanie wizerunku organizacji obywatelskich w przestrzeni publicznej.
+
+
+Priorytet 4.: Wzmocnienie kompetencji organizacji obywatelskich
+Projekty realizowane w ramach Priorytetu 4. powinny przyczyniać się do poprawy zarządzania
+w organizacjach obywatelskich będących uczestnikami projektu, do budowania struktur,
+tworzenia i doskonalenia zasobów, tworzenia i rozwijania strategii działania organizacji, w tym
+strategii fundraisingowych, a także wypracowywania i wdrażania standardów działania
+organizacji-beneficjentów dotyczących np. zarządzania, oceny skuteczności działań
+organizacji, przejrzystości i otwartości, w tym upowszechniania w przystępny i przejrzysty
+sposób informacji o prowadzonych działaniach, kosztach i źródłach finansowania, kosztach
+pozyskiwania funduszy.
+
+
+Konkurs ogłaszany jest wyłącznie w Priorytetach 2-4.
+
+
+Zakres działań możliwych do zrealizowania w ramach Priorytetów 2-4 obejmuje wszystkie
+sfery zadań publicznych wymienione w art. 4 ust. 1 UoDPPiW.
+
+
+
+   Środki przeznaczone na realizację priorytetów
+Kwota środków na dotacje przeznaczone na realizację zadań dofinansowanych w ramach
+edycji 2027 wynosi ok. 62 900 000,00 zł.
+
+
+
+
+                                            – 12 –
+                 alokacja na rok    alokacja na rok      alokacja na rok
+     Priorytet                                                                  Łącznie
+                      2027               2028                 2029
+
+        2        17 900 000,00 zł   12 000 000,00 zł     5 000 000,00 zł    34 900 000,00 zł
+        3        5 000 000,00 zł    5 000 000,00 zł      3 000 000,00 zł    13 000 000,00 zł
+        4        5 000 000,00 zł    5 000 000,00 zł      5 000 000,00 zł    15 000 000,00 zł
+      SUMA       27 900 000,00 zł   22 000 000,00 zł     13 000 000,00 zł   62 900 000,00 zł
+
+
+
+
+Podział środków do poszczególnych priorytetów należy traktować jako podział ramowy. W
+celu racjonalizacji wydatkowania środków w ramach Programu NIW-CRSO może dokonać
+przesunięć środków między Priorytetami, bez konieczności dokonywania zmian w
+Regulaminie.
+
+
+
+
+   Podmioty uprawnione i nieuprawnione
+Podmioty uprawnione:
+   1) Organizacje pozarządowe, o których mowa w art. 3 ust. 2 UoDPPiW, w tym w
+      szczególności stowarzyszenia (w tym stowarzyszenia zwykłe), związki stowarzyszeń,
+      fundacje oraz jednostki terenowe organizacji pozarządowych posiadające osobowość
+      prawną;
+   2) Osoby prawne i jednostki organizacyjne działające na podstawie przepisów ustawy o
+      stosunku państwa do Kościoła Katolickiego w Rzeczypospolitej Polskiej, o stosunku
+      państwa do innych kościołów i związków wyznaniowych oraz o gwarancjach wolności
+      sumienia i wyznania, jeżeli ich cele statutowe obejmują prowadzenie działalności
+      pożytku publicznego;
+   3) Spółdzielnie socjalne;
+   4) Koła Gospodyń Wiejskich;
+   5) Spółki akcyjne i spółki z ograniczoną odpowiedzialnością oraz kluby sportowe będące
+      spółkami działającymi na podstawie przepisów ustawy z dnia 25 czerwca 2010 r. o
+      sporcie (Dz. U. z 2026 r. poz. 95 z późn. zm.), które nie działają w celu osiągnięcia zysku
+      oraz przeznaczają całość dochodu na realizację celów statutowych oraz nie
+                                                – 13 –
+           przeznaczają zysku do podziału między swoich udziałowców, akcjonariuszy i
+           pracowników.
+
+
+                  Podmioty uprawnione do aplikowania nie muszą posiadać statusu
+                              organizacji pożytku publicznego (opp).
+     Prowadzenie działalności odpłatnej lub gospodarczej przez Oferenta, a także posiadanie
+        statusu przedsiębiorstwa społecznego nie wpływa na udział w konkursie i ocenę.
+
+
+
+Podmioty nieuprawnione:
+Podmioty niemieszczące się w katalogu podmiotów uprawnionych, w tym w szczególności:
+      1) stowarzyszenia samorządu terytorialnego,
+      2) podmioty wymienione w art. 3 ust. 4 UoDPPiW,
+      3) oddziały terenowe organizacji pozarządowych, które nie posiadają osobowości
+           prawnej,
+      4) europejskie ugrupowania współpracy terytorialnej,
+      5) organizacje, które do dnia ogłoszenia konkursu nie rozliczyły zadań dofinansowanych
+
+           w poprzednich edycjach Programu (dotyczy zadań zakończonych do roku 2025 oraz
+           sprawozdań częściowych za rok 2025),
+      6) organizacje, które zostały zakwalifikowane do dofinansowania i podpisały umowę w
+           ramach edycji 2025 lub 2026 Programu, na realizację projektu kończącego się w 2027
+           lub 2028 roku7;
+      7) organizacje zarejestrowane po 31 grudnia 2025 r.
+
+
+
+      Termin i sposób naboru wniosków
+Prawidłowe złożenie wniosku musi nastąpić za pośrednictwem Systemu Obsługi Dotacji NIW-
+CRSO. Pierwszym krokiem umożliwiającym skorzystanie z dofinansowania realizacji zadania ze
+środków Programu jest wypełnienie i złożenie wniosku przy użyciu Systemu Obsługi Dotacji,
+
+
+
+
+7
+    Nie dotyczy organizacji będących Operatorami Priorytetu 1 NOWEFIO.
+                                                    – 14 –
+dostępnego na stronie internetowej https://generator.niw.gov.pl/ w terminie naboru
+określonym w ogłoszeniu o konkursie.
+    W ramach konkursów nie należy przesyłać wersji papierowej wniosku ani składać jej przez
+                                               ePUAP.
+
+
+
+      Oferta wspólna - współpraca dwóch organizacji uprawnionych do
+      udziału w konkursie
+Ofertę wspólną mogą złożyć co najmniej dwie organizacje pozarządowe lub inne podmioty
+uprawnione do aplikowania o środki w ramach konkursu.
+Oferta wspólna powinna zawierać następujące informacje dodatkowe: sposób reprezentacji
+podmiotów wobec organów administracji publicznej oraz określenie, jakie działania w ramach
+realizacji zadania publicznego wykonywać będą poszczególne podmioty.
+W przypadku oferty wspólnej, podmioty składające taką ofertę mają obowiązek zawrzeć
+między sobą umowę o wspólną realizację projektu/zadania. Umowa między Oferentami
+powinna zawierać:
+      1) dane dotyczące oferty (priorytet, tytuł zadania, data realizacji);
+      2) dane Oferentów (dane teleadresowe, numery KRS, NIP, regon, reprezentacja);
+      3) opis współpracy między Oferentami uwzględniający formę i zakres zaangażowania
+         Oferentów w realizację projektu;
+      4) sposób zarządzania projektem, przepływ informacji, sprawozdawczość;
+      5) regulacje odnośnie autorskich praw majątkowych w zakresie twórczego wkładu w treść
+         wspólnej oferty każdego Oferenta.
+
+
+            Niedozwolone są przepływy finansowe między Oferentami realizującymi
+                                zadanie w ramach oferty wspólnej8.
+
+
+
+
+8
+ Oznacza to, iż jeden Oferent otrzymując wskazaną w umowie kwotę dotacji nie może przekazać jej drugiemu
+Oferentowi.
+                                                – 15 –
+   Udział każdego z Oferentów w całkowitych kosztach zadania publicznego powinien być
+    racjonalny oraz uzasadniony (w stosunku do potencjału poszczególnych oferentów),
+                         co będzie podlegać ocenie merytorycznej.
+
+
+
+   Partnerstwo z podmiotami niemogącymi wziąć udział w
+   konkursie
+W przypadku, kiedy Oferent planuje realizację projektu wspólnie z partnerami publicznymi lub
+prywatnymi, zastosowanie ma partnerstwo. Partnerstwo może być realizowane w formułach:
+   1) partnerstwo publiczno-społeczne – podmioty uprawnione do ubiegania się o dotacje
+       mogą, w celu wspólnej realizacji zadań publicznych, tworzyć partnerstwa z
+       jednostkami sektora finansów publicznych;
+   2) partnerstwo prywatno-społeczne – partnerstwa mogą być tworzone także z
+       podmiotami prywatnymi.
+Partnerstwo może zostać zawarte jako:
+   1) partnerstwo formalne – pomiędzy oferentem a partnerem musi zostać zawarta
+       umowa/porozumienie o partnerstwie. Tylko w przypadku partnerstwa formalnego
+       partner ma możliwość wniesienia wkładu własnego finansowego do oferty.
+   2) partnerstwo nieformalne – nie jest wymagana umowa. Partnerstwo ma charakter
+       nieformalny.
+W ramach zadania możliwe jest zaangażowanie jednocześnie zarówno partnerów publicznych,
+jak i prywatnych. Nie ma także limitu ofert, w których podmioty mogą pełnić funkcję partnera.
+
+Wkład własny może być wnoszony zarówno przez Oferenta, jak i Partnera formalnego. Podział
+zadań i obowiązków między stronami musi być określony zarówno w ofercie, jak i umowie
+o partnerstwo. Za kosztorys i rozliczenie zadania (w tym wkładu własnego) odpowiada Oferent
+jako strona Umowy.
+
+   Niedozwolone są przepływy finansowe pomiędzy Oferentem a Partnerem formalnym.
+ Niedozwolone jest przekazanie części dotacji Partnerowi formalnemu, jak i nieformalnemu
+   lub dokonywanie jakichkolwiek zakupów przedmiotów i usług od podmiotu będącego
+                                   Partnerem formalnym.
+
+
+                                           – 16 –
+ II.      Zasady finansowania i realizacji zadań
+          Przeznaczenie środków programu
+Priorytet 2 Organizacje obywatelskie na rzecz dobra wspólnego
+
+W ramach Priorytetu 2. wspierana będzie aktywność społeczna na rzecz dobra wspólnego
+realizowana przez obywateli działających w strukturach organizacji obywatelskich. Projekty
+realizowane w ramach tego Priorytetu powinny pozwolić na zwiększanie aktywności
+i samoorganizacji obywatelskiej, w efekcie przyczyniając się do budowania i powiększania
+kapitału społecznego (tworzenia więzi społecznych, budowania zaufania, aktywności
+wolontariackiej w organizacjach obywatelskich). W ramach priorytetu dofinansowane będą
+projekty np.:
+
+       1) dotyczące działań na rzecz integracji i rozwoju społeczności lokalnych, w tym
+          działalności na rzecz integracji osób z doświadczeniem migracji lub uchodźstwa;
+
+       2) adresowane do rodzin, dzieci i młodzieży, osób starszych, osób zagrożonych
+          wykluczeniem społecznym.
+
+Realizując zasadę ogólną Programu jaką jest dywersyfikacja regionalna, mówiącą, iż
+dostępność środków w ramach Programu powinna być możliwie równa we wszystkich
+regionach kraju, mając przy tym na uwadze potencjał społeczno-demograficzny regionu, w
+ramach Priorytetu 2 alokacja została podzielona na poszczególne województwa. Podział
+środków do poszczególnych priorytetów oraz województw należy traktować jako podział
+ramowy. W celu racjonalizacji wydatkowania środków w ramach Programu NIW-CRSO może
+dokonać przesunięć środków między alokacjami dla poszczególnych województw.
+
+
+Łączna kwota przeznaczona na realizację Priorytetu 2 wynosić będzie 34,9 mln zł, w podziale
+na 16 województw (w tym województwo mazowieckie z wyłączeniem m. st. Warszawy) oraz
+m. st. Warszawa. Kwota przypadająca na jedno województwo uzależniona jest od liczby jego
+mieszkańców. Kwota przeznaczona na poszczególne województwa wynosić będzie:
+   L.p.         Województwo                2027                2028              2029
+   1        Opolskie                750 000,00 zł        12 000 000,00 zł   5 000 000,00 zł
+   2        Lubuskie                800 000,00 zł
+
+
+                                              – 17 –
+   3      Podlaskie               800 000,00 zł
+   4      Świętokrzyskie          800 000,00 zł
+   5      Warmińsko-mazurskie 800 000,00 zł
+   6      Zachodniopomorskie      900 000,00 zł
+   7      Warszawa                950 000,00 zł
+   8      Kujawsko-pomorskie      1 000 000,00 zł
+   9      Lubelskie               1 000 000,00 zł
+   10     Podkarpackie            1 100 000,00 zł
+   11     Łódzkie                 1 100 000,00 zł
+   12     Pomorskie               1 100 000,00 zł
+   13     Dolnośląskie            1 200 000,00 zł
+   14     Małopolskie             1 300 000,00 zł
+   15     Wielkopolskie           1 300 000,00 zł
+          Mazowieckie             1 400 000,00 zł
+   16     (bez Warszawy)
+   17     Śląskie                 1 600 000,00 zł
+
+
+Alokacja środków pomiędzy województwami jest elastyczna i na etapie rozstrzygnięcia
+konkursu może być modyfikowana.
+
+
+Priorytet 3.: Organizacje obywatelskie w życiu publicznym
+Projekty realizowane w ramach Priorytetu 3. powinny przyczyniać się do zwiększania
+obecności organizacji obywatelskich w życiu publicznym, wspierania dialogu obywatelskiego,
+procesów konsultacji, tworzenia forum debaty publicznej, budowania potencjału organizacji
+przez kształtowanie wizerunku organizacji obywatelskich w przestrzeni publicznej. W ramach
+priorytetu dofinansowane będą projekty dotyczące np.:
+        1) włączenia obywateli, organizacji pozarządowych w procesy decyzyjne (na poziomie
+           lokalnym, regionalnym, ogólnopolskim) np. w konsultacje społeczne, budżety
+           obywatelskie, inicjatywę lokalną, rzecznictwo;
+        2) organizowania, wzmacniania funkcjonowania ciał dialogu obywatelskiego (np. rad
+           młodzieżowych; szkolnych, dzielnicowych, seniorów);
+
+                                           – 18 –
+       3) budowania wizerunku organizacji pozarządowych w przestrzeni publicznej -
+           uświadamiające społeczeństwo na temat roli sektora pozarządowego.
+       4) wszelkich form wymiany informacji między organizacjami obywatelskimi i
+           władzami publicznymi, zwłaszcza takich, które prowadzą do stworzenia trwałych
+           rozwiązań instytucjonalnych w zakresie polityki informacyjnej.
+
+
+Priorytet 4.: Wzmocnienie kompetencji organizacji obywatelskich
+
+Projekty realizowane w ramach Priorytetu 4. powinny przyczyniać się do poprawy zarządzania
+w organizacjach obywatelskich, budowania struktur, tworzenia i doskonalenia zasobów,
+tworzenia i rozwijania strategii działania organizacji, w tym strategii fundraisingowych,
+wypracowywania i wdrażania standardów działania organizacji dotyczących np. zarządzania,
+oceny skuteczności działań organizacji, przejrzystości i otwartości, w tym upowszechniania
+w przystępny i przejrzysty sposób informacji o prowadzonych działaniach, kosztach i źródłach
+finansowania, kosztach pozyskiwania funduszy.
+
+Projekty realizowane w ramach Priorytetu 4 powinny posiadać charakter systemowy i
+angażować liczne organizacje pozarządowe w skali co najmniej wojewódzkiej, by przyczynić
+się do rozwiązywania problemów i przezwyciężania barier hamujących rozwój trzeciego
+sektora.
+Projekty systemowe powinny spełniać następujące warunki:
+   1) Szeroki – co najmniej wojewódzki lub ponad wojewódzki zasięg zadania. Projekty
+       systemowe służą wzmocnieniu sektora pozarządowego w Polsce i podniesieniu jakości
+       oraz standardów jego działań. Powinny odpowiadać na problem, który dotyczy
+       znacznej części sektora pozarządowego. Działania projektu powinny być dostępne dla
+       szerokiej grupy organizacji bądź działaczy sektora.
+   2) Praktyczne efekty działań. Rezultaty działań systemowych nie powinny zostać
+       ograniczone do opracowania wskazówek, wyników badań, modelu czy np. projektu
+       zmian prawnych. Powinna zostać także podjęta aktywna próba wdrożenia
+       wypracowanych rozwiązań bądź choćby ich pilotażowego przetestowania. Ta część
+       „wdrożeniowa” powinna stanowić istotną (a nie tylko symboliczną) część działań
+       projektu. W ten sposób projekt systemowy powinien, na ile to możliwe,
+       zapoczątkować trwałe rozwiązanie zdiagnozowanego problemu.
+                                            – 19 –
+   3) Wykorzystanie     dotychczasowego      potencjału.   Projekty   systemowe   powinny
+       wykorzystywać (o ile są dostępne) dotychczas przeprowadzone działania oraz zdobyte
+       doświadczenia.
+Projekty systemowe muszą wpisywać się w jeden z poniższych obszarów:
+   1) Systemowa poprawa zarządzania w organizacjach obywatelskich.
+   2) Edukacja nt. fundraisingu.
+   3) Tworzenie i rozwijanie porozumień organizacji obywatelskich.
+   4) Edukacja nt. informacji i komunikacji w organizacjach obywatelskich.
+   5) Kampanie społeczne i informacyjne nt. działalności organizacji obywatelskich.
+   6) Tworzenie i wdrażanie standardów jakości oraz upowszechnianie dobrych praktyk w
+       zakresie prowadzenia działalności statutowej przez organizacje pozarządowe.
+
+
+                                          Uwaga!
+    Projekty realizowane w ramach Priorytetu 4 nie mogą polegać wyłącznie na rozwoju
+ instytucjonalnym samej organizacji-wnioskodawcy. W ramach Priorytetu 4 wymagane jest
+        skierowanie przez organizację-wnioskodawcę wsparcia do innych organizacji
+                                      pozarządowych.
+
+
+
+Ze środków Programu finansowane będą jedynie działania mieszczące się w zakresie
+działalności statutowej nieodpłatnej i odpłatnej (w granicach limitów określonych w art. 9
+UoDPPiW). Tym samym, środki Programu nie mogą być przeznaczone na finansowanie
+działalności gospodarczej, natomiast mogą zostać przeznaczone na działania realizowane w
+ramach odpłatnej lub nieodpłatnej działalności pożytku publicznego.
+
+W przypadku, kiedy Oferent złoży w ofercie składanej w ramach konkursu oświadczenie o
+prowadzeniu wyłącznie nieodpłatnej działalności pożytku publicznego, to nie jest uprawniony
+do pobierania opłat od adresatów zadania (świadczeń pieniężnych od adresatów wsparcia).
+
+
+
+W ramach konkursu wykluczone z możliwości finansowania są działania polegające na
+prowadzeniu praktyk i kultu religijnego (obejmujących również głoszenie i szerzenie wiary),
+działalności partyjnej lub kampanii wyborczych.
+
+                                           – 20 –
+           Czas realizacji zadań
+W konkursie w Priorytetach 2-3 przewiduje się możliwość dofinansowania projektów
+trwających i realizowanych w terminie od 1 kwietnia 2027 r. do 31 grudnia 2029 r.9
+Okres realizacji zadania musi mieścić się w ww. określonych terminach i nie może być krótszy
+niż sześć miesięcy oraz musi rozpoczynać się w 2027 roku.
+W konkursie w Priorytecie 4 przewiduje się możliwość dofinansowania projektów
+realizowanych w terminie od 1 kwietnia 2027 do 31 grudnia 2029 r.10
+
+Rozstrzygnięcie otwartego konkursu ofert planowane jest w pierwszym półroczu 2027 roku.
+Koszty (zaciągnięcie zobowiązań) w ramach dofinansowanych projektów poniesione przed
+ogłoszeniem wyników konkursu będą kosztami kwalifikowalnymi zgodnie z terminem
+realizacji zadania.
+
+Jednocześnie, rozpoczęcie realizacji zadania przed rozstrzygnięciem konkursu nie jest
+równoznaczne z otrzymaniem dofinansowania.
+
+
+
+           Wysokość dotacji i wkład własny
+W ramach konkursu dotacje zostaną przeznaczone na powierzenie lub wsparcie realizacji
+zadania publicznego (Oferent w ofercie deklaruje odpowiednią formę realizacji zadania
+publicznego).
+W ramach konkursu w Priorytetach 2-4 można ubiegać się o dotację w wysokości od 100
+tysięcy do 300 tysięcy zł, przy czym wnioskowana roczna kwota dotacji może maksymalnie
+wynosić 150 tysięcy zł i nie może być niższa niż 50 tysięcy zł (w przypadku projektów
+wieloletnich). Ponadto maksymalna kwota dotacji uzależniona jest od wysokości najwyższego
+przychodu Oferenta z ostatnich trzech lat:
+       1) Organizacje, których najwyższy przychód z jednego z trzech ostatnich zamkniętych lat
+           budżetowych wynosił więcej niż 30.000 zł - 100.000 zł.
+       2) Organizacje, których najwyższy przychód z jednego z trzech ostatnich zamkniętych lat
+           budżetowych wynosił więcej niż 100.000 zł - do 200.000 zł.
+
+
+
+
+9
+    W przypadku zadań wieloletnich zadanie nie może zakończyć się przed 30 czerwca ostatniego roku realizacji.
+10
+    Zadanie nie może zakończyć się przed 30 czerwca 2029 r.
+                                                      – 21 –
+   3) Organizacje, których najwyższy przychód z jednego z trzech ostatnich zamkniętych lat
+       budżetowych wynosił więcej niż 150.000 zł - do 300.000 zł.
+Wkład własny
+Wartość projektu to łączna wartość dotacji i środków własnych, na które składają się środki
+niefinansowe i finansowe (środki własne, środki z innych źródeł, świadczenia pieniężne od
+odbiorców zadania publicznego).
+
+Środki z dotacji uzyskanej w ramach danego zadania publicznego, nie mogą stanowić wkładu
+własnego do innych projektów i zadań publicznych realizowanych ze środków programów
+wspierania rozwoju społeczeństwa obywatelskiego, dla których NIW-CRSO jest Instytucją
+Zarządzającą. Środki z dotacji mogą jednak stanowić wkład własny do projektów i zadań
+publicznych finansowanych w ramach innych programów, pod warunkiem wyrażenia zgody
+przez instytucję zarządzają danym programem.
+
+       Wniesienie wkładu własnego w ramach składanych ofert nie jest wymagane.
+
+              Wniesienie wkładu własnego nie podlega ocenie merytorycznej.
+
+
+
+
+       Koszty kwalifikowalne
+Regulamin nie określa zamkniętego katalogu kosztów kwalifikowalnych. Kryterium dla
+kwalifikowalności kosztów będzie ich bezpośredni związek ze specyfiką prowadzonej
+działalności statutowej, a także koncepcją rozwoju organizacji w ramach zadania, na którego
+realizację została udzielona dotacja.
+Koszty powinny być udokumentowane w sposób umożliwiający ocenę realizacji projektu pod
+względem     finansowym     i   merytorycznym,   w   sposób   umożliwiający   identyfikację
+poszczególnych operacji księgowych i bankowych.
+Przy dokonywaniu zakupów rekomendowane jest uwzględnianie Rekomendowanych
+standardów środowiskowych realizacji zadań publicznych w ramach rządowych programów
+wspierania rozwoju społeczeństwa obywatelskiego zamieszczonych na stronie internetowej
+NIW-CRSO.
+Dopuszczalne jest ponoszenie kosztów poza granicami Polski.
+
+
+
+
+                                           – 22 –
+         Koszty niekwalifikowalne
+Do kosztów, które nie mogą zostać sfinansowane ze środków pochodzących z dotacji należą
+m.in.:
+   1) wydatki majątkowe;
+   2) rezerwy na pokrycie przeszłych i przyszłych strat lub zobowiązań;
+   3) odsetki z tytułu niezapłaconych przez Beneficjenta w terminie zobowiązań;
+   4) wydatki sfinansowane przez Beneficjenta z innych źródeł;
+   5) nagrody, premie i inne formy gratyfikacji finansowej lub rzeczowej dla osób
+         zajmujących się realizacją zadania publicznego, jeżeli nie wynikają z regulaminu pracy,
+         wynagradzania bądź innych właściwych przepisów prawa pracy, obowiązują w
+         instytucji od daty złożenia wniosku o dofinansowanie, nie obejmują pracowników na
+         jednakowych zasadach oraz nie są przyznawane w ramach stosunku pracy w związku z
+         realizacją zadań projektowych;
+   6) podatek od towarów i usług (VAT), jeśli może zostać odliczony w oparciu o ustawę z
+         dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2026 r. poz. 1263);
+   7) zakupy dokonywane w ramach współwłasności z podmiotem trzecim;
+   8) amortyzacja;
+   9) leasing finansowy - kosztem kwalifikowanym jest leasing operacyjny;
+   10) koszty kar i grzywien, nakładanych na Beneficjenta;
+   11) koszty procesów sądowych Beneficjenta (z wyjątkiem spraw prowadzonych w ramach
+         realizowanego zadania);
+   12) zakup napojów alkoholowych (jest to niezgodne z art. 1 ust. 1 ustawy z dnia 26
+         października 1982 r. o wychowaniu w trzeźwości i przeciwdziałaniu alkoholizmowi ( Dz.
+         U. z 2023 r. poz. 2151);
+   13) zakup wyrobów tytoniowych, o których mowa w art. 2 pkt 48 ustawy z dnia 9 listopada
+         1995 r. o ochronie zdrowia przed następstwami używania tytoniu i wyrobów
+         tytoniowych (Dz. U. z 2026 r., poz. 1214);
+   14) podatki i opłaty z wyłączeniem podatku dochodowego od osób fizycznych, składek na
+         ubezpieczenie społeczne i zdrowotne, składek na Fundusz Pracy oraz Fundusz
+         Gwarantowanych Świadczeń Pracowniczych, wpłat na Pracownicze Plany Kapitałowe,
+         opłat bankowych (przelewy, przewalutowanie), a także opłat za zaświadczenie o
+
+                                              – 23 –
+       niekaralności, opłaty za zajęcie pasa drogowego, opłat notarialnych, opłaty za wydanie
+       wizy oraz kosztów związanych z uzyskaniem informacji publicznej (z wyjątkiem
+       realizacji działań merytorycznych prowadzonych w interesie ogólnym);
+   15) koszty wyjazdów służbowych osób zaangażowanych w realizację projektu na
+       podstawie umowy cywilnoprawnej, chyba że umowa ta określa zasady i sposób
+       podróży służbowych;
+   16) inne koszty nieodnoszące się jednoznacznie do zadania publicznego zaplanowanego w
+       treści oferty;
+   17) wydatki poniesione poza terminem wskazanym w umowie;
+   18) zakupy towarów lub usług od partnerów formalnych zaangażowanych przy realizacji
+       zadania.
+
+
+
+       Budżet projektu (kategorie kosztów)
+Ze środków Programu pokrywane będą jedynie następujące kategorie kosztów:
+ Kategoria                      Koszty                         Limity
+ Kategoria I Koszty             Koszty           bezpośrednio Brak limitu.
+ merytoryczne, w tym koszty związane z realizacją zadania.
+ promocji
+ Działanie w kategorii I        W ramach kategorii I Oferent Do         wysokości      20%
+ dotyczące rozwoju              może zaplanować działanie i przyznanej dotacji.
+ instytucjonalnego Oferenta     wydatki z nim związane
+                                dotyczące własnego rozwoju
+                                instytucjonalnego.
+ Kategoria II Koszty obsługi    Koszty      administracyjno- Do         wysokości      25%
+ zadania publicznego            księgowe.                      przyznanej dotacji.
+ Procentowy limit dotacji dla Kategorii II oraz działania dotyczącego rozwoju
+ instytucjonalnego Oferenta liczony jest od wysokości dotacji przekazanej na realizację
+ zadania, nie zaś kwoty wykorzystanej dotacji.
+ Limit dotacji przeznaczonej dla Kategorii II oraz działania dotyczącego rozwoju
+ instytucjonalnego Oferenta odnosi się do każdego roku. Przekroczenie limitu kosztów
+
+
+                                            – 24 –
+ administracyjnych wynikających z niewykorzystania pełnej kwoty dotacji przy jednoczesnej
+ pełnej realizacji działań i osiągnięcia rezultatów nie podlega zwrotowi.
+
+
+Kategoria II Koszty obsługi zadania publicznego planowana i rozliczana jest w sposób
+ryczałtowy. W ofercie Wnioskodawca ustala wysokość procentową ryczałtu dla kategorii II.
+Rozliczenie ryczałtowe nie zwalnia Oferenta z obowiązku bycia jedynym posiadaczem
+wskazanego rachunku bankowego oraz obowiązku prowadzenia wyodrębnionej dokumentacji
+finansowo-księgowej środków finansowych otrzymanych na realizację zadania zgodnie z
+zasadami wynikającymi z ustawy z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2026 r.
+poz. 522), w sposób umożliwiający identyfikację poszczególnych operacji księgowych.
+W ramach kategorii II możliwe jest poniesienie wyłącznie kosztów dotyczących:
+   1) wynagrodzenia koordynatora lub kierownika projektu oraz innego personelu
+       bezpośrednio zaangażowanego w zarządzanie, rozliczanie, monitorowanie projektu;
+   2) wynagrodzenia personelu obsługowego (obsługa kadrowa, księgowa, finansowa,
+       administracyjna, sekretariat, obsługa prawna, w tym ta dotycząca zamówień) na
+       potrzeby realizacji zadania publicznego;
+   3) koszty paliwa/podróży dot. wyjazdów służbowych koordynatora oraz osób związanych
+       z zarządzaniem i obsługą administracyjną zadania;
+   4) wynajmu pomieszczeń oraz opłat z nim związanych (np. opłaty za media, materiały
+       eksploatacyjne,     konserwacja/serwis        sprzętów,   usługi     telekomunikacyjne)
+       bezpośrednio związanych z realizacją zadania;
+   5) koszty usług pocztowych oraz opłat bankowych związanych z realizacją zadania;
+   6) koszty zakupu programów, licencji niezbędnych do obsługi administracyjnej zadania;
+   7) koszty materiałów biurowych i artykułów piśmienniczych związanych z obsługą
+       administracyjną projektu;
+   8) koszt wyrobienia kwalifikowanego podpisu elektronicznego.
+
+
+
+       Zatrudnienie personelu w ramach projektu
+W przypadku kosztów wynagrodzenia personelu, w tym kosztów osobowych administracji
+i obsługi projektu oraz kosztów osobowych merytorycznych, kwalifikowalne są wszystkie stałe
+składniki wynagrodzenia (zarówno w przypadku stosunku pracy, jak i umów cywilnoprawnych)
+                                            – 25 –
+które są związane z danym stosunkiem pracy lub stosunkiem cywilnoprawnym, w
+szczególności wynagrodzenie brutto, składki na ubezpieczenia społeczne, składki na Fundusz
+Pracy, Fundusz Gwarantowanych Świadczeń Pracowniczych oraz koszty ponoszone na
+Pracowniczy Program Emerytalny zgodnie z ustawą z dnia 20 kwietnia 2004 r. o pracowniczych
+programach emerytalnych.
+W ramach realizowanych zadań rekomendowane jest odpowiedzialne podchodzenie do NGO
+jako miejsca pracy, poprzez zatrudnianie pracowników na umowy o pracę, a także umowy o
+pracę na czas nieokreślony, jeżeli obowiązek zawarcia takiej umowy wynika z Kodeksu Pracy.
+
+
+
+   Zasady rozliczenia podatku VAT
+W przypadku, kiedy Zleceniobiorca nie ma możliwości odzyskania podatku VAT, wszelkie
+wydatki jakie zostały wskazane w budżecie, są wydatkami brutto – podatek VAT jest
+wydatkiem kwalifikowalnym.
+W sytuacji, kiedy Zleceniobiorca jest uprawniony do odzyskania podatku VAT (podatnik
+według ustawy o VAT) składa oświadczenie o braku możliwości ubiegania się o zwrot podatku
+VAT z tytułu wydatków poniesionych na realizację projektu, w takim przypadku budżet
+ustalany jest w kwotach brutto. Niezłożenie oświadczenia, o którym mowa powyżej oznacza,
+iż wnioskodawca ma możliwość odzyskania wydatków poniesionych na realizację projektu, w
+takim przypadku budżet ustalany jest w kwotach netto.
+W przypadku uzyskania możliwości odzyskaniu podatku VAT przez Zleceniobiorcy po
+podpisaniu umowy, zadanie realizowane jest zgodnie ze stanem faktycznym na dzień
+podpisania umowy.
+
+
+
+   Przetwarzanie danych osobowych w związku z ubieganiem się o
+   dotację
+W zawiązku z obowiązkiem informacyjnym wynikającym z Rozporządzenia Parlamentu
+Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób
+fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego
+przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie
+o ochronie danych), (dalej: RODO) informujemy, że:
+
+
+                                          – 26 –
+1) W przypadku ubiegania się o dotację, przez złożenie wniosku, a także ewentualnego
+   dofinansowania wniosku oraz rozliczenia dotacji, dojdzie do przetwarzania informacji
+   dotyczących zidentyfikowanych lub możliwych do zidentyfikowania osób fizycznych.
+   Informacje te stanowią dane osobowe w rozumieniu art. 4 ust. 1 RODO i podlegają
+   prawnej ochronie.
+2) Informacje te dotyczyć mogą Wnioskodawcy, osób pełnomocnych do reprezentacji
+   Wnioskodawcy oraz osób trzecich, których kwalifikacje, osiągnięcia, udział lub inna
+   forma partycypacji zostaną uwzględnione we wniosku.
+3) Zasady zawierania we wniosku danych osobowych osób trzecich określono w pkt.
+   dotyczącym przetwarzania danych osobowych przez Wnioskodawcę.
+4) Administratorem danych osobowych jest Narodowy Instytut Wolności – Centrum
+   Rozwoju Społeczeństwa Obywatelskiego (dalej: Administrator). Z Administratorem
+   można kontaktować się listownie pisząc na adres: al. Jana Pawła II 12, 00-124
+   Warszawa, poprzez e-mail: kontakt@niw.gov.pl lub dzwoniąc pod numer: 22 468 44
+   00.
+5) Administrator powołał Inspektora Ochrony Danych (dalej: IOD). Z IOD można
+   kontaktować się we wszystkich sprawach dotyczących przetwarzania danych
+   osobowych oraz korzystania z praw związanych z przetwarzaniem danych pisząc e-mail
+   na adres: iod@niw.gov.pl lub pisząc na adres siedziby Administratora.
+6) Dane osobowe zawarte w dokumentach (wniosku, umowie, oświadczeniach,
+   fakturach, itd.) będą przetwarzane w celach:
+         a) kontaktowych, w przypadku zaistnienia takiej potrzeby związanej z udziałem w
+            Konkursie;
+         b) oceny formalnej wniosku;
+         c) oceny merytorycznej wniosku;
+         d) w przypadku oceny pozytywnej, do zawarcia umowy dofinansowania;
+         e) wprowadzenia sprawozdawczości i rozliczeń;
+         f) ewentualnego udostępnienia w trybie dostępu do informacji publicznej;
+         g) ewentualnego ustalenia, dochodzenia lub obrony przed roszczeniami.
+7) Podstawami prawnymi realizacji działań na danych osobowych są:
+
+
+
+                                        – 27 –
+      a) realizacja postanowień Regulaminu oraz zawarcie i realizacja umowy lub
+          podjęcie działań przed zawarciem umowy – art. 6 ust. 1 lit. b) RODO.
+      b) realizacja zadań w związku z wypełnieniem obowiązku prawnego ciążącego na
+          Administratorze oraz w związku z realizacją zadań statutowych Administratora
+          – art. 6 ust. 1 lit. c) oraz art. 6 ust. 1 lit. e) RODO.
+      c) dochodzenie roszczeń lub obrona przed roszczeniami, na podstawie
+          uzasadnionego interesu prawnego Administratora – art. 6 ust. 1 lit. f) RODO
+          (przetwarzanie jest niezbędne do celów wynikających z prawnie uzasadnionych
+          interesów realizowanych przez Administratora lub stronę trzecią).
+8) Prawa osób, których dane dotyczą.
+      a) Prawo dostępu do swoich danych, w tym otrzymania ich kopii.
+      b) Prawo do sprostowania (poprawienia) danych osobowych, ich aktualizacji.
+      c) Prawo do ograniczenia przetwarzania danych osobowych.
+      d) Prawo do usunięcia danych osobowych (prawo do bycia zapomnianym).
+      e) Prawo dostępu do swoich danych, w tym otrzymania ich kopii.
+      f) Prawo do przenoszenia danych (w miarę technicznych możliwości).
+      g) Prawo do przejrzystej komunikacji i pełnej informacji.
+      h) Prawo do sprzeciwu wobec dalszego przetwarzania.
+      i) Prawo do wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (ul.
+          Stawki 2, 00-193 Warszawa) w przypadku podejrzenia, że przetwarzanie
+          danych osobowych odbywa się niezgodnie z prawem.
+9) Okres przechowywania danych.
+   Dane osobowe będą przetwarzane zgodnie z Instrukcją Kancelaryjną, o której mowa w
+   Rozporządzeniu Prezesa Rady Ministrów z dnia 18 stycznia 2011 r. w sprawie instrukcji
+   kancelaryjnej, jednolitych rzeczowych wykazów akt oraz instrukcji w sprawie
+   organizacji i zakresu działania archiwów zakładowych, czyli przez okres 6 lat licząc od
+   końca roku kalendarzowego, w którym zakończyła się realizacja Programu.
+10) Informacja o wymogu podania danych.
+   Podanie danych jest dobrowolne, ale niezbędne do złożenia wniosku oraz zawarcia i
+   realizacji umowy.
+11) Odbiorcy danych:
+
+                                           – 28 –
+          ○ Osoby i ciała odpowiedzialne za nadzór nad działalnością statutową Administratora,
+          np. członkowie Komitetu Sterująco Monitorującego, członkowie Rady Programowej
+          NIW oraz osoby realizujące czynności kontrolne w imieniu Rady Ministrów.
+          ○ Podmioty zewnętrzne wspierające Administratora, np. dostawca usługi poczty
+          elektronicznej, podmiot świadczący hosting danych, usługi administracji infrastrukturą
+          IT, usługi dostarczania narzędzia do obsługi wniosków, eksperci oceniający wniosek,
+          członkowie Komisji Konkursowej. (Wszystkie podmioty biorą udział w procesie
+          przetwarzania danych z Administratorem i zapewniają odpowiedni poziom ochrony
+          danych osobowych).
+          Treść wniosków stanowi informację publiczną, w rozumieniu Ustawy z dnia 6 września
+          2001 roku o dostępie do informacji publicznej. Dane osobowe będą dostępne w
+          Biuletynie Informacji Publicznej przez okres trwania Programu.
+       12) Dane osobowe nie są przetwarzane w sposób zautomatyzowany w celu podjęcia
+          jakiejkolwiek decyzji oraz profilowania.
+       13) Dane osobowe nie będą przekazywane poza Europejski Obszar Gospodarczy ani do
+          organizacji międzynarodowych.
+
+
+
+III.      Zasady ubiegania się o dotację
+
+Otwarty konkurs ofert ogłoszony zostanie zgodnie z UoDPPiW oraz UoNIW. Termin naboru
+ofert zostanie wskazany w ogłoszeniu o konkursie. Złożenie oferty musi nastąpić w terminie
+wskazanym w ogłoszeniu, które zostanie zamieszczone w Biuletynie Informacji Publicznej, w
+siedzibie NIW-CRSO oraz na stronie internetowej: www.niw.gov.pl.
+Organizacja może złożyć tylko jedną ofertę w ramach konkursu. Merytoryczna treść oferty
+nie może być tożsama z treścią innej oferty złożonej w niniejszym konkursie lub
+dofinansowanego w poprzednich edycjach Programu. Niedopuszczalna jest także sytuacja, w
+której Oferenci będący współautorami tożsamych co do treści ofert składają te oferty
+odrębnie, a nie jako ofertę wspólną.
+W przypadku przekroczenia powyższego limitu, każda kolejna oferta złożona przez Oferenta,
+będzie traktowana jako oferta złożona przez podmiot nieuprawniony do udziału w Konkursie.
+
+
+
+                                               – 29 –
+Załączniki nie są wymagane. Wymagane od Oferenta oświadczenia znajdują się we wzorze
+oferty.
+Oświadczenia weryfikowane będą na różnych etapach oceny ofert. W przypadku stwierdzenia,
+że oświadczenia Oferentów, których projekt został przeznaczony do dofinansowania, są
+niezgodne ze stanem faktycznym, umowa na realizację zadania publicznego może nie zostać
+podpisana.
+Na każdym etapie realizacji konkursu, NIW-CRSO może zażądać od Oferenta przedstawienia
+dokumentacji potwierdzającej informacje zawarte w oświadczeniach. Złożenie oświadczenia
+niezgodnego z prawdą może skutkować niepodpisaniem z Oferentem umowy bądź
+obowiązkiem zwrotu dotacji jako udzielonej nienależnie.
+
+
+
+           Ocena formalna
+Ocena formalna polega na weryfikacji spełnienia wszystkich kryteriów formalnych. Obowiązek
+spełnienia kryteriów formalnych dotyczy wszystkich wniosków. Kryteria formalne zostały
+określone w zamieszczonej poniżej tabeli.
+                                                                                            Możliwość
+ L.p.                               Kryterium formalne
+                                                                                            odwołania
+     1.   Wypełnienie i złożenie wniosku za pomocą Systemu Obsługi Dotacji,
+          dostępnego na stronie internetowej www.generator.niw.gov.pl we                         NIE
+          wskazanym terminie.
+     2.   Złożenie oferty przez podmiot uprawniony do udziału w Konkursie,
+          którego oferta spełnia wszystkie wymogi i warunki udziału w                            TAK
+          konkursie.
+     3    Merytoryczna treść oferty11 nie jest tożsama z treścią innej oferty
+          złożonej w niniejszym konkursie lub dofinansowanej w poprzednich                       TAK
+          edycjach Programu12.
+
+Oceny formalnej wniosku dokonuje NIW-CRSO.
+
+
+
+
+11
+  Część III i IV oferty.
+12
+  Dotyczy jedynie oferty złożonych przez inne podmioty niż oferent. Weryfikacja kryterium będzie się odbywała
+za pomocą wykorzystania narzędzia informatycznego sprawdzającego podobieństwo ofert w części
+merytorycznej. Oferty, w przypadku których współczynnik podobieństwa będzie wyższy niż 90% zostaną
+ocenione negatywnie w kryterium.
+                                                   – 30 –
+Jeżeli oferta nie spełnia kryteriów formalnych określonych w regulaminie, NIW wzywa
+Oferenta do uzupełnienia oferty w terminie 7 dni od wezwania. W przypadku nieuzupełnienia
+oferty w terminie, uznaje się ją za niespełniającą kryteriów formalnych.
+W wyniku oceny formalnej wniosek może zostać:
+    1) zakwalifikowany do oceny merytorycznej – w przypadku spełnienia wszystkich
+        kryteriów formalnych określonych w Regulaminie
+                      lub
+    2) odrzucony – w przypadku niespełnienia co najmniej jednego kryterium formalnego.
+Informacja o wynikach oceny formalnej wniosków jest publikowana na stronie NIW-CRSO:
+www.niw.gov.pl. Karta oceny formalnej będzie dostępna w Systemie Obsługi Dotacji oraz
+przekazywana na adres poczty elektronicznej Oferenta wskazany we wniosku, w dniu
+publikacji listy.
+Oferent, którego oferta nie spełnia kryteriów formalnych, ma możliwość, w ciągu 7 dni
+kalendarzowych następujących po dniu opublikowania wyników weryfikacji formalnej ofert,
+złożenia odwołania od negatywnego wyniku weryfikacji formalnej, na zasadach określonych
+w Regulaminie.
+Odwołanie należy przesłać:
+    1) drogą pocztową listem poleconym lub
+    2) wysłać skan/wersję elektroniczną odwołania drogą elektroniczną na adres
+        FIO@niw.gov.pl lub
+    3) złożyć w punkcie podawczym NIW-CRSO:
+                                Narodowy Instytut Wolności
+                     Centrum Rozwoju Społeczeństwa Obywatelskiego
+                                      00-124 Warszawa
+                                     al. Jana Pawła II 12
+z dopiskiem: odwołanie od oceny formalnej NOWEFIO 2027
+O zachowaniu terminu decyduje data wpływu odwołania. Odwołanie złożone po terminie
+podlega odrzuceniu przez NIW-CRSO bez badania jego zasadności.
+Dyrektor uznaje odwołanie za uzasadnione i informuje o tym Oferenta albo przekazuje
+odwołanie wraz z dokumentacją Przewodniczącemu Komitetu do spraw Pożytku Publicznego.
+
+
+
+                                            – 31 –
+Przewodniczący Komitetu do spraw Pożytku Publicznego uznaje je albo oddala i niezwłocznie
+przekazuje   rozstrzygnięcie   wraz   z   uzasadnieniem   do   NIW.    Od   rozstrzygnięcia
+Przewodniczącego Komitetu odwołanie nie przysługuje.
+NIW informuje Oferenta o uznaniu albo oddaleniu odwołania niezwłocznie po otrzymaniu
+rozstrzygnięcia Przewodniczącego Komitetu do spraw Pożytku Publicznego.
+
+
+
+       Ocena merytoryczna
+Ocena merytoryczna obejmuje ofertę i jest przeprowadzana na podstawie kryteriów oceny
+merytorycznej i skali punktowej określonych w zamieszczonej w poniższej tabeli.
+Kryteria merytoryczne – dotyczą ogólnych zasad odnoszących się do treści oferty,
+wiarygodności i zdolności projektodawcy do podjęcia realizacji projektu oraz zasad
+finansowania projektów w ramach konkursu. Kryteria merytoryczne mają charakter
+uniwersalny, tj. odnoszą się do wszystkich projektów realizowanych w ramach Konkursu.
+Kryteria merytoryczne weryfikowane są na etapie oceny merytorycznej.
+
+
+
+
+                                           – 32 –
+                                                                              Maksymalna
+Kryterium merytoryczne
+                                                                            liczba punktów
+   1. Adekwatność oferty w odniesieniu do celów programu oraz celów i
+      potrzeb jego uczestników i organizacji zaangażowanych w jego
+      realizację:
+   • Złożona Oferta wpisuje się w cel Programu jakim jest Zwiększenie
+      zaangażowania obywateli i organizacji pozarządowych w życie
+      publiczne? (NIE - kryterium ocenione na 0 punktów)
+   • Oferta wpisuje się w Priorytet, w którym została złożona? (NIE -
+      kryterium ocenione na 0 punktów)
+   • Zaplanowana Oferta jest adekwatna w odniesieniu do celów i
+                                                                                28 pkt
+      potrzeb jego uczestników i organizacji zaangażowanych w jego
+      realizację (czy zaplanowane działania i cele wynikają z prawidłowo
+      przygotowanej diagnozy)? 0-16 punktów
+   • Cele (cel główny i cele szczegółowe) wskazane w Ofercie zostały
+      prawidłowo sformułowane i są realne/możliwe do osiągnięcia? 0-6
+      punktów
+   • Grupa oraz liczba beneficjentów jest właściwie określona, spójna
+      oraz realna do objęcia w ramach planowanych działań? 0-6
+      punktów
+   2. Jakość planu działań zawartych w ofercie i sposobu jego realizacji.
+   • Opis planowanych działań tworzy spójną całość, jest adekwatny
+      wobec zidentyfikowanych problemów? 0-12 punktów
+   • Harmonogram realizacji projektu jest przejrzysty/klarowny? 0-6
+      punktów
+   • Terminy zawarte w harmonogramie pozwolą na realizację działań z            28 pkt
+      powodzeniem? 0-5 punktów
+   • Analiza ryzyka jest trafna, identyfikuje oraz odpowiada na
+      najbardziej prawdopodobne zagrożenia? 0-3 punkty
+   • Sposoby minimalizacji ryzyka są adekwatne do zidentyfikowanych
+      zagrożeń? 0-2 punkty
+
+
+
+
+                                         – 33 –
+   3. Wpływ działań zawartych w ofercie na uczestników, organizacje
+       zaangażowane w realizację oferty oraz inne podmioty będące
+       interesariuszami działań. W tym także trwałość rezultatów działań
+       zawartych w ofercie i jakość środków mających na celu
+       upowszechnienie rezultatów.
+   • Planowane działania będą miały wpływ na ich uczestników,
+       organizacje zaangażowane w realizację oferty oraz inne podmioty
+                                                                             20 pkt
+       będące interesariuszami działań? 0-10 punktów
+   • Rezultaty są mierzalne i realne do osiągnięcia? 0-3 punkty
+   • Rodzaj wskaźnika i sposób jego pomiaru jest odpowiedni do
+       rezultatu? 0-2 punkty
+   • Osiągnięcie rezultatów przyczyni się do realizacji celu projektu? 0-3
+       punkty
+   • Rezultaty działań będą trwałe? 0-2 punkty
+   4. Możliwość realizacji oferty przez Oferentów (uwzględniając
+       potencjał i doświadczenie ich członków i partnerów).
+   • Oferent (oraz jego partnerzy) są w stanie zrealizować z sukcesem
+                                                                             20 pkt
+       zaplanowane w Ofercie działania? 0-15 punktów
+   • Wymagania wobec kluczowych osób zaangażowanych w realizację
+       zadania są określone na wystarczającym poziomie? 0-5 punktów
+   5. Zasadność planowanych kosztów w stosunku do celów, rezultatów
+       i zakresu działań, które obejmuje oferta.
+   • Przedstawione koszty są racjonalne do poniesienia w celu realizacji
+       projektu; 0-1 punkty
+                                                                             4 pkt
+   • Stawki jednostkowe kosztów są adekwatne i realne; 0-1 punkty
+   • Kosztorys nie zawiera kosztów niekwalifikowalnych; 0-1 punkty
+   • Wydatki związane z rozwojem instytucjonalnym są uzasadnione i
+       przyczyniają się rozwoju Oferenta. 0-1 punkt13
+ŁĄCZNIE                                                                     100 pkt
+Wniosek uzyskuje pozytywną ocenę merytoryczną, jeśli uzyska nie mniej niż 80% wszystkich
+punktów.
+
+
+
+           Ocena strategiczna
+Kryteria strategiczne – określone w związku z koniecznością zapewnienia realizacji celów
+szczegółowych Programu NOWEFIO oraz realizacji bieżących polityk publicznych.
+
+
+
+
+13
+     Jeżeli w ofercie takie wydatki nie zostały zaplanowane: 1 punkt.
+                                                       – 34 –
+Spełnianie kryteriów strategicznych oznacza przyznanie spełniającym je ofertom premii
+punktowej (w wysokości zróżnicowanej w zależności od Priorytetu). Spełnienie kryteriów
+strategicznych nie jest obowiązkowe do zakwalifikowania projektu do dofinansowania.
+
+
+ Lp.             Kryterium Strategiczne              Punktacja    Priorytet      Podmiot
+                                                                               weryfikujący
+                                                                                kryterium
+
+ 1     Projekt realizowany na terenie co najmniej       5        Priorytet 3   Eksperci/NIW
+       dwóch województw.                             punktów
+
+ 2     Cel główny zadania nie dotyczy działań,          5        Priorytet 2   Eksperci/NIW
+       które wpisują się wprost w cele Rządowych     punktów
+                                                                 Priorytet 3
+       Programów: Fundusz Młodzieżowy oraz
+       Korpus Solidarności.                                      Priorytet 4
+
+
+
+Głównym celem Rządowego Programu Fundusz Młodzieżowy na lata 2022–2033 jest
+zwiększenie zaangażowania młodzieży i młodzieżowych organizacji pozarządowych w życie
+publiczne przez wsparcie inicjatyw młodzieżowych, wzrost ich znaczenia w życiu publicznym
+oraz ich wzmocnienie instytucjonalne.
+Celami szczegółowymi są:
+     1) zwiększenie zaangażowania młodzieży w życie publiczne;
+     2) wzrost znaczenia inicjatyw młodzieżowych w życiu publicznym;
+
+     3) wzmocnienie instytucjonalne inicjatyw młodzieżowych.
+Głównym celem Rządowego Programu Wspierania i Rozwoju Wolontariatu Systematycznego
+na lata 2018-2030 Korpus Solidarności jest wspieranie rozwoju społeczeństwa obywatelskiego
+poprzez    kompleksowe     oraz   długofalowe    wsparcie   wolontariuszy,     koordynatorów
+wolontariatu (w tym organizacji placówek, które reprezentują) oraz otoczenia wolontariatu
+szczególnie w zakresie rozwijania, a także umacniania wolontariatu systematycznego.
+Celami szczegółowymi są:
+     1) wzrost liczby wolontariuszy angażujących się w sposób trwały w działania wolontariatu
+        systematycznego;
+
+
+
+
+                                            – 35 –
+      2) wzrost skuteczności działania koordynatorów wolontariatu u organizatorów
+
+         współpracujących    z   wolontariuszami     oraz   zwiększenie   liczby   podmiotów
+         podejmujących systematyczną współpracę z wolontariuszami;
+      3) zwiększenie liczby organizatorów wolontariatu podejmujących systematyczną
+         współpracę z wolontariuszami i wzmocnienie ich zdolności organizacyjnych w zakresie
+         zarządzania wolontariatem;
+      4) pozytywna zmiana postrzegania wolontariatu i wzrost świadomości otoczenia w
+         zakresie zasad organizowania wolontariatu i włączania się obywateli w działania
+         ochotnicze.
+
+
+
+IV.      Rozstrzygnięcie konkursu
+      Rozstrzygnięcie konkursu
+Oceny każdej oferty dokonują eksperci wyłonieni w procedurze otwartego i konkurencyjnego
+naboru przez Dyrektora NIW-CRSO, który bierze pod uwagę ich doświadczenie w
+pracy/współpracy z sektorem pozarządowym oraz doświadczenie w ocenianiu ofert realizacji
+zadania publicznego. Przed rozpoczęciem oceny, eksperci otrzymują wykaz wszystkich
+podmiotów, które złożyły ofertę w ramach konkursu, by składana przez nich deklaracja o
+bezstronności została podpisana ze świadomością jakie konkretnie podmioty ubiegają się o
+wsparcie.
+Dla zapewnienia przejrzystości i niezależności pracy ekspertów, dane ekspertów oceniających
+poszczególne oferty nie będą ujawniane. Każda oferta będzie oceniana przez dwóch
+ekspertów na podstawie kryteriów oceny merytorycznej.
+Oferta niezgodna z celem ogólnym lub celami szczegółowymi Programu nie podlega dalszej
+ocenie merytorycznej.
+W ramach oceny merytorycznej oferta może otrzymać maksymalnie 200 punktów.
+W przypadku, gdy oferta została oceniona pozytywnie formalnie, ale występuje wyraźna
+różnica w ocenie:
+      1) różnica punktów pomiędzy ocenami obu ekspertów przekracza 20 punktów lub
+      2) rozbieżność w co najmniej jednym z kryterium merytorycznym nr 1-4 wynosi więcej niż
+         14 punktów
+       oraz co najmniej jedna z ocen jest wyższa niż 79 punktów
+                                            – 36 –
+oferta kierowana jest do oceny III eksperta, a przy tworzeniu listy rankingowej bierze się pod
+uwagę dwie najbliższe oceny14.
+Trzeci ekspert wyłaniany jest z grona pozostałych ekspertów.
+Oferty, których ocena merytoryczna jest niższa niż 160 punktów (80% maksymalnej oceny)
+zostają ocenione negatywnie pod względem merytorycznym.
+Następnie tworzona jest lista rankingowa ofert dla każdego Priorytetu (w Priorytecie 2
+uwzględniając podział na alokacji na województwa) na podstawie wyniku oceny
+merytorycznej i strategicznej, uszeregowanych zgodnie z liczbą uzyskanych punktów.
+Na liście rankingowej nie uwzględnia się ofert ocenionych negatywnie na etapie oceny
+formalnej lub merytorycznej.
+Na podstawie listy rankingowej NIW-CRSO sporządza listę ofert kwalifikujących się do
+przyznania dotacji przy uwzględnieniu dostępnej alokacji środków w ramach danego
+Priorytetu.
+NIW-CRSO sporządza „listę ofert rezerwowych” spośród ofert na liście rankingowej, które nie
+otrzymały dofinansowania, uszeregowanych zgodnie z uzyskaną punktacją w ramach oceny.
+Oferty, które nie znalazły się na liście rankingowej oraz liście rezerwowej, umieszcza się na
+„liście ofert odrzuconych w ocenie merytorycznej”.
+
+
+Po sporządzeniu list Dyrektor powołuje komisję konkursową w celu przeprowadzenia dyskusji
+nad wynikami oceny merytorycznej.
+W skład Komisji Konkursowej:
+     1) z prawem głosu wchodzą:
+              a) cztery osoby reprezentujące NIW,
+              b) dwie osoby wskazane przez wchodzących w skład Rady Działalności Pożytku
+                 Publicznego     przedstawicieli     organizacji    pozarządowych,        związków    i
+                 porozumień organizacji pozarządowych oraz podmiotów wymienionych w art.
+                 3 ust. 3.UoDPPiW, przy czym we wskazywaniu tych osób nie mogą uczestniczyć
+                 przedstawiciele podmiotów biorących udział w konkursie,
+
+
+
+
+14
+  W przypadku braku możliwości ustalenia dwóch najbliższych ocen, brane pod uwagę są dwie najwyższe
+oceny.
+                                                 – 37 –
+            c) dwie osoby wskazane przez organizacje pozarządowe lub podmioty
+                 wymienione w art. 3 ust. 3 UoDPPiW, z wyłączeniem osób wskazanych przez
+                 podmioty biorące udział w konkursie;
+   2) z głosem doradczym mogą wejść:
+            a) przedstawiciel Komitetu Sterująco-Monitorującego Programu;
+            b) wskazani przez Komisję Konkursową Eksperci uczestniczący w ocenie
+                 merytorycznej
+W skład Komisji Konkursowej nie mogą wchodzić przedstawiciele podmiotów biorących udział
+w danym konkursie.
+
+
+Ocena merytoryczna dokonywana jest przez komisję konkursową, o której mowa w art. 15 ust.
+2a UoDPPiW przy wsparciu ekspertów, ma postać oceny punktowej wraz z uzasadnieniem.
+Komisja konkursowa ustala ocenę oferty (liczbę punktów) oraz kwotę dotacji mając możliwość
+wykorzystania opinii ekspertów wyrażonych w trakcie oceny merytorycznej, oceny
+strategicznej oraz własnej oceny oferty. Z posiedzenia komisji konkursowej sporządzany jest
+protokół.
+Dyrektor, po zapoznaniu się z przedstawionym protokołem komisji konkursowej rozstrzyga
+konkurs ofert.
+NIW-CRSO przygotowuje listy. Znajdują się na niej wszystkie oferty ocenione merytorycznie.
+Lista zawiera następujące informacje:
+
+   1) numer oferty NOWEFIO;
+   2) nazwa organizacji;
+   3) nazwa zadania;
+   4) numer Priorytetu;
+   5) siedziba – miejscowość /województwo;
+   6) nr KRS lub numer z innego rejestru obowiązującego dla danej formy prawnej
+       organizacji pozarządowej;
+   7) wnioskowana i rekomendowana kwota dotacji;
+   8) liczba punktów uzyskanych w czasie oceny.
+
+
+
+
+                                            – 38 –
+Po zatwierdzeniu list przez Dyrektora NIW-CRSO następuje ogłoszenie wyników konkursu w
+sposób zgodny z art. 15 ust. 2j UoDPPiW. Listy ofert przeznaczonych do dofinansowania wraz
+z przyznanymi kwotami są publikowane na stronie internetowej www.niw.gov.pl, w Biuletynie
+Informacji Publicznej oraz w siedzibie NIW-CRSO.
+Po ogłoszeniu wyników konkursu NIW-CRSO kontaktuje się z Oferentami w celu dostosowania
+kosztorysu i harmonogramu oraz zaplanowanych w ofercie rezultatów. Informacja ta
+przekazywana jest za pośrednictwem poczty elektronicznej na adres e-mailowy podany w
+ofercie.
+NIW-CRSO publikuje na stronie internetowej NIW, w siedzibie NIW i Biuletynie Informacji
+Publicznej listy ofert zakwalifikowanych do realizacji, rezerwowych i odrzuconych oraz
+protokół   z   posiedzenia    komisji   konkursowej.     Informacja   o    wyborze    wniosku
+zakwalifikowanego do realizacji zadania jest przekazywana Wnioskodawcy na adres poczty
+elektronicznej oraz za pośrednictwem Systemu Obsługi Dotacji.
+Karta oceny merytorycznej oferty udostępniana jest wszystkim Oferentom za pośrednictwem
+Systemu Obsługi Dotacji.
+W przypadku zidentyfikowania ewidentnych błędów w karcie oceny oferty Oferent ma
+możliwość zgłoszenia wykrytych błędów do NIW-CRSO w ciągu 14 dni kalendarzowych od
+rozstrzygnięcia konkursu. Jeżeli błędy zostaną potwierdzone przez NIW-CRSO, Dyrektor NIW-
+CRSO może przyznać Oferentowi dofinansowanie na realizację zadania pod warunkiem, że:
+   1) są dostępne środki na udzielenie dofinansowania oraz
+   2) w przypadku braku wystąpienia tych błędów oferta otrzymałaby liczbę punktów
+       kwalifikującą ją do dofinansowania.
+Przyznana kwota dotacji jest kwotą ostateczną i nie może zostać zwiększona (Oferent może
+jedynie zmniejszyć kwotę przyznanej dotacji). W przypadku konieczności zmniejszenia kwoty
+dotacji w stosunku do kwoty wnioskowanej przez Oferenta, nie będzie on związany złożoną
+ofertą ani uwagami znajdującymi się w karcie oceny. Niemniej jednak, w ramach
+prowadzonych negocjacji Oferent ma obowiązek dostosowania treści wniosku do uwag
+wskazanych przez NIW-CRSO. Jednocześnie, Oferent może negocjować zmniejszenie zakresu
+zadania lub wycofać swoją ofertę. Decyzję o rezygnacji z realizacji zadania należy niezwłocznie
+przekazać do NIW-CRSO w formie pisemnej.
+
+
+
+                                             – 39 –
+   Dysponowanie środkami uwolnionymi
+W przypadku uwolnienia środków wynikającego z:
+   1) rezygnacji z realizacji zadania przez organizację, której projekt otrzymał
+       dofinansowanie,
+   2) rezygnacji z części dofinansowania przez organizację, której projekt otrzymał
+       dofinansowanie,
+   3) niewykorzystania części alokacji na dany priorytet,
+   4) zaistnienia jednej z przesłanek do niepodpisania umowy/odstąpienia od podpisania
+       umowy lub rozwiązania umowy, o których mowa w podrozdziale Zawarcie umowy oraz
+       określonych w umowie,
+Dyrektor NIW-CRSO może:
+   1) zwiększyć dofinansowanie (maksymalnie do wnioskowanej kwoty dotacji) lub
+   2) przyznać dofinansowanie dla projektów znajdujących się na „liście ofert rezerwowych”
+       – do wysokości kwoty uwolnionych środków.
+Dyrektor NIW-CRSO podejmując rozstrzygnięcie, o którym mowa powyżej, bierze pod uwagę
+pozycję oferty na liście rezerwowej, wysokość uwolnionych środków oraz wysokość
+wnioskowanych kwot dotacji, a także możliwość realizacji zadania w skróconym okresie czasu
+oraz obniżonej kwocie dotacji. Dyrektor NIW nie jest przy tym związany wyłącznie kolejnością
+oferty na liście rezerwowej.
+
+
+
+W celu zapewnienia przejrzystości dysponowania środkami uwolnionymi każdorazowo
+sporządzane jest uzasadnienie udzielenia dofinansowania ofert wybranych z list rezerwowych.
+Unieważnienie czynności podjętych w konkursie
+Dyrektor NIW-CRSO może unieważnić poszczególne czynności podjęte w konkursie w
+stosunku do danego Oferenta, aż do momentu zawarcia z nim umowy i dokonać ich
+powtórzenia, jeżeli przed podpisaniem umowy okaże się, że czynności te są obarczone wadą
+niemożliwą do usunięcia w inny sposób niż poprzez ponowne przeprowadzenie procedury
+oceny danej oferty. O dokonanym unieważnieniu danych czynności Dyrektor NIW-CRSO
+informuje Oferenta wskazując na unieważnione czynności dotknięte wadą oraz wskazując na
+przyczyny podjęcia takiej decyzji.
+
+
+                                           – 40 –
+   Unieważnienie konkursu
+NIW-CRSO unieważnia otwarty konkurs, jeżeli:
+
+   1) nie złożono żadnego wniosku;
+   2) żaden ze złożonych wniosków nie spełnił kryteriów formalnych.
+
+Informację o unieważnieniu konkursu NIW-CRSO podaje do publicznej wiadomości:
+
+   1) w Biuletynie Informacji Publicznej;
+   2) w siedzibie NIW-CRSO, w miejscu przeznaczonym na zamieszczanie ogłoszeń;
+   3) na stronie internetowej www.niw.gov.pl .
+
+
+
+V.     Podpisanie umowy i realizacja zadania
+   Zawarcie umowy
+W przypadku zakwalifikowania wniosku do realizacji z Oferentem zostaje podpisana umowa o
+dofinansowanie realizacji zadania. Elektroniczna wersja Umowy przygotowywana jest przez
+NIW-CRSO i przekazywana Wnioskodawcy za pośrednictwem Systemu Obsługi Dotacji.
+Przed podpisaniem umowy NIW-CRSO zwraca się do Oferenta z informacją o konieczności
+dokonania zmian we wniosku, dostosowania treści wniosku do przyznanej kwoty dotacji (m.in.
+opis działań, wskaźniki rezultatu, budżet). Wnioskodawca jest zobowiązany do dokonania
+wskazanych zmian.
+Umowa może nie zostać zawarta, jeżeli:
+
+   1) Oferent nie złożył sprawozdania z realizacji zadania publicznego dofinansowanego z
+       programów wspierania rozwoju społeczeństwa obywatelskiego realizowanych na
+       podstawie art. 23 UoNIW za lata poprzednie lub sprawozdanie to nie zostało
+       zaakceptowane przez NIW-CRSO;
+
+   2) została wydana ostateczna decyzja administracyjna w sprawie zwrotu dotacji
+       wykorzystanej niezgodnie z przeznaczeniem, pobranej nienależnie lub w nadmiernej
+       wysokości i nie została uregulowana stwierdzona w tej decyzji zaległość;
+
+   3) zostało wydane prawomocne orzeczenie sądu administracyjnego utrzymujące
+       zaskarżoną decyzję administracyjną w przedmiocie obowiązku zwrotu dotacji;
+
+
+                                            – 41 –
+   4) przeciwko Wnioskodawcy toczy się postępowanie egzekucyjne w toku, którego
+       mogłoby nastąpić zajęcie przekazanej dotacji na poczet zobowiązań Wnioskodawcy;
+   5) oświadczenie lub oświadczenia złożone we wniosku lub treść oferty w którejkolwiek
+       części, okaże się niezgodne ze stanem faktycznym;
+   6) Oferent znajduje się w rejestrze podmiotów wykluczonych z możliwości otrzymywania
+       środków przeznaczonych na realizację programów finansowanych z udziałem środków
+       europejskich;
+   7) Oferent, który posiada status organizacji pożytku publicznego zalega z zamieszczeniem
+       sprawozdań ze swojej działalności za ubiegły rok (i/lub lata poprzednie) w bazie
+       sprawozdań organizacji pożytku publicznego.
+
+
+Przyznanie dotacji (podpisanie Umowy) oznacza, że złożony Oferta, Umowa i pozostałe
+dokumenty związane z realizacją zadania publicznego stają się informacją publiczną
+w rozumieniu art. 2 ust. 1 ustawy z dnia 6 września 2001 r. o dostępie do informacji publicznej
+(Dz. U. z 2022 r. poz. 902) z zastrzeżeniem wynikającym z art. 5 ust. 2 tej ustawy, w
+szczególności ochrony danych osobowych.
+
+
+Dokumentami niezbędnymi do podpisania umowy są:
+   1) oferty/zaktualizowanej oferty o uzgodnionej ostatecznej treści, podpisanej przez
+       uprawnione osoby;
+   2) umowy lub potwierdzonej za zgodność z oryginałem kopii umowy o współpracy
+       Oferentów w przypadku oferty wspólnej;
+   3) aktualne dokumenty stanowiące o podstawie działalności Oferenta/Oferentów,
+       potwierdzającego status prawny i umocowanie osób go reprezentujących (nie dotyczy
+       podmiotów zarejestrowanych w Krajowym Rejestrze Sądowym):
+       a) w przypadku kościelnych osób prawnych nie będących osobami prawnymi –
+       aktualnego zaświadczenia o osobowości prawnej parafii/zakonu oraz aktualnego
+       upoważnienia dla proboszcza/przeora do reprezentowania parafii/zakonu i zaciągania
+       zobowiązań finansowych;
+       b) w przypadku pozostałych podmiotów, które nie podlegają rejestracji w Krajowym
+       Rejestrze Sądowym – innego dokumentu właściwego dla Oferenta/Oferentów. Jeśli
+
+                                            – 42 –
+        ofertę składa stowarzyszenie zwykłe, dokumentem właściwym będzie wypis z
+        ewidencji zawierający następujące dane: nazwę stowarzyszenia, cel działania, adres
+        siedziby, reprezentację stowarzyszenia, informację oraz pełnomocnictwo do zawarcia
+        umowy;
+        c) kopie umowy lub statutu spółki potwierdzonej za zgodność z oryginałem – w
+        przypadku, gdy Oferent jest spółką prawa handlowego, o której mowa w art. 3 ust. 3
+        pkt 4 UoDPPiW;
+     4) inne dokumenty, jeśli są wymagane, np.: szczególne upoważnienie osób do
+        reprezentowania Oferenta/Oferentów, w przypadku złożenia oferty wspólnej, należy
+        załączyć do oferty wspólnej umowę zawartą z podmiotami składającymi ofertę
+        wspólną;
+     5) dokumenty potwierdzające najwyższy przychód z trzech ostatnich lat;
+     6) kopie uchwały o zmianie statutu wraz z kopią (pierwszej strony) wniosku o zmianę
+        danych w Krajowym Rejestrze Sądowym – w przypadku Oferentów, którzy są w trakcie
+        zmian statutowych.
+Umowa dotacyjna zostanie podpisana zgodnie ze wzorem ramowym umowy określonym w
+rozporządzeniu wykonawczym do UoDPPiW15. Ramowy wzór umowy stanowi załącznik do
+Regulaminu. Umowa może zostać podpisana kwalifikowanym podpisem elektronicznym.
+
+
+
+     Przekazanie środków
+Przekazanie środków finansowych na numer rachunku bankowego podany w umowie
+następuje po podpisaniu jej przez obie strony (Dyrektora NIW-CRSO i Zleceniobiorcy) w
+terminie określonym w umowie. Przekazanie całości środków finansowych w ramach rocznej
+transzy dotacji odbywa się jednorazowo, w formie przelewu na rachunek bankowy
+Zleceniobiorcy wskazany w Umowie (środki finansowe na realizację zadania w 2028 roku
+zostaną przekazane po akceptacji przez NIW-CRSO sprawozdania z realizacji zadania za rok
+
+
+
+
+15
+  Rozporządzenie Przewodniczącego Komitetu do Spraw Pożytku Publicznego z dnia 24 października 2018 r. w
+sprawie wzorów ofert i ramowych wzorów umów dotyczących realizacji zadań publicznych oraz wzorów
+sprawozdań z wykonania tych zadań (Dz. U. poz. 2057).
+                                                – 43 –
+2027, analogicznie środki finansowe na realizację zadania w 2029 roku zostaną przekazane po
+akceptacji przez NIW-CRSO sprawozdania z realizacji zadania za rok 2028).
+Termin przekazania środków na rachunek Zleceniobiorcy uzależniony będzie od wpływu
+środków przeznaczonych na dofinansowanie zadań realizowanych w ramach Rządowego
+Programu Fundusz Inicjatyw Obywatelskich NOWEFIO 2021-2030, przekazanych na
+wyodrębniony rachunek NIW-CRSO przez KPRM.
+NIW-CRSO rekomenduje, aby Beneficjent posiadał wyodrębniony rachunek bankowy do
+obsługi środków pochodzących z dotacji.
+Zleceniobiorca musi być jedynym posiadaczem wskazanego rachunku bankowego oraz jest
+zobowiązany do prowadzenia wyodrębnionej dokumentacji finansowo-księgowej środków
+finansowych otrzymanych na realizację zadania zgodnie z zasadami wynikającymi z ustawy z
+dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2023 r. poz. 120, z późn. zm.), w sposób
+umożliwiający identyfikację poszczególnych operacji księgowych.
+
+
+
+   Zasady ponoszenia kosztów
+Zleceniobiorca może ponosić koszty w terminie realizacji zadania określonym w Umowie.
+Koszty (zaciąganie zobowiązań finansowych) są kwalifikowalne od daty rozpoczęcia realizacji
+zadania określonej w umowie. Zadanie nie może być realizowane przed datą wskazaną w
+umowie.
+Aby koszty zostały uznane za kwalifikowalne muszą być spełnione łącznie dwie przesłanki:
+   1. Zdarzenie gospodarcze, którego dotyczy koszt (dostawa towaru, wykonanie usługi lub
+       inne działanie związane z realizacją zadania), musi nastąpić w okresie realizacji zadania,
+       a koszt i wydatek muszą być przewidziane w budżecie zadania.
+   2. Dokument księgowy potwierdzający poniesienie kosztu musi dotyczyć zdarzenia
+       gospodarczego związanego z realizacją zadania oraz zostać wystawiony zgodnie z
+       obowiązującymi przepisami prawa, w tym przepisami ustawy o podatku od towarów i
+       usług - art. 106i ust. 1. Dopuszcza się wystawienie i otrzymanie dokumentu księgowego
+       po zakończeniu okresu realizacji zadania, jeżeli wynika to z obowiązujących przepisów,
+       w szczególności z ustawowych terminów wystawiania faktur, pod warunkiem że samo
+       zdarzenie gospodarcze nastąpiło w okresie realizacji zadania, a wydatek został
+
+
+                                             – 44 –
+       poniesiony w roku, w którym realizowano zadanie, zgodnie z zasadami
+       kwalifikowalności określonymi dla danego zadania.
+Zleceniobiorca nie może dokonywać płatności związanych z realizacją zadania w terminach
+innych niż wskazane w Umowie.
+Beneficjent prowadzi dokumentację i ewidencję zgodnie z właściwym dla niego reżimem
+prawnym. Dopuszcza się uproszczoną ewidencję przychodów i kosztów (UEPiK) wybraną
+zgodnie z art. 10a ustawy o działalności pożytku publicznego albo przepisami o kołach
+gospodyń wiejskich. Sam udział w konkursie lub otrzymanie dotacji nie nakłada obowiązku
+przejścia na pełne księgi ani ich równoległego prowadzenia, jeżeli nadal spełnione są warunki
+UEPiK. Ewidencja i dowody muszą odpowiadać właściwemu rozporządzeniu oraz pozwalać
+wyodrębnić dotację; w NGO służy temu także zestawienie uzupełniające z § 4 rozporządzenia
+Dz.U. 2025 poz. 1880. Audyt i kontrola badają UEPiK, jej zestawienia, dowody i powiązania,
+zamiast wymagać ksiąg, dekretacji lub sprawozdania finansowego, których dany podmiot nie
+ma obowiązku sporządzać. Przy badaniu dowodów stosuje się właściwe przepisy UEPiK, w tym
+§ 7 ust. 11 o KSeF; nie wymaga się polityki rachunkowości i planu kont właściwych pełnym
+księgom. Wykaz środków trwałych i WNiP oraz opis zasad UEPiK przedstawia się według
+rozporządzenia, bez wymuszania przejścia na pełną rachunkowość. Nie ustanawia się
+negatywnej oceny wyłącznie z powodu zgodnego z prawem wyboru tej ewidencji.
+Zasadą jest dokonywanie przez Zleceniobiorcę płatności bezgotówkowej (przelewy),
+jednakże dopuszczalne jest dokonywanie płatności gotówkowych w uzasadnionych
+przypadkach wtedy beneficjent ma obowiązek zobowiązany prowadzić kasę gotówkową.
+Zleceniobiorca jest zobowiązany wskazać w sprawozdaniu merytoryczno-finansowym
+wysokość ewentualnych przychodów uzyskanych przy realizacji zadania. Ewentualne
+przychody Zleceniobiorca może przeznaczyć wyłącznie na działania zgodne z katalogiem
+kosztów wskazanym w budżecie wniosku. Wydatkowanie osiągniętych przychodów
+niezgodnie z budżetem zadania uznaje się za dotacje pobraną w nadmiernej wysokości.
+W przypadku ponoszenia kosztów poza terytorium RP, na podstawie dokumentów
+księgowych/ faktur wystawionych w walucie obcej, Zleceniobiorca zobowiązany jest rozliczyć
+poniesione koszty w oparciu o kurs sprzedaży ustalony przez bank realizujący płatność w dniu
+dokonania zapłaty lub kurs Narodowego Banku Polskiego z ostatniego dnia roboczego
+
+
+
+                                           – 45 –
+poprzedzającego dzień wystawienia dokumentu księgowego. W przypadku występowania
+różnic kursowych za koszt kwalifikowalny ostatecznie uznaje się kwotę zapłaty.
+Zleceniobiorca korzystający z rachunku prowadzonego w polskich złotych powinien rozliczyć
+faktycznie poniesione koszty, w przypadku dokonywania płatności poza granicami RP z konta
+złotówkowego.
+Zleceniobiorca realizując umowę zobowiązany jest do wykonania zadania w sposób
+efektywny, oszczędny i terminowy, z zachowaniem zasad uczciwej konkurencji. Po stronie
+Zleceniobiorcy, któremu przyznano dotację leży obowiązek zapewnienia konkurencyjności
+wydatkowania środków (np. stosowanie wewnętrznych regulaminów udzielania zamówień,
+stosowanie prawa zamówień publicznych, jeżeli przepisy tego wymagają, dokonania
+rozeznania rynku).
+
+
+
+   Przetwarzanie danych osobowych przez oferenta
+Zgodnie z art. 4 pkt 2 Rozporządzenia Parlamentu Europejskiego i Rady Unii Europejskiej nr
+2016/679 w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych
+i w sprawie swobodnego przepływu takich danych: „przetwarzanie” oznacza operację lub
+zestaw operacji wykonywanych na danych osobowych lub zestawach danych osobowych w
+sposób zautomatyzowany lub niezautomatyzowany, taką jak zbieranie, utrwalanie,
+organizowanie, porządkowanie, przechowywanie, adaptowanie lub modyfikowanie,
+pobieranie,     przeglądanie,   wykorzystywanie,      ujawnianie     poprzez     przesłanie,
+rozpowszechnianie lub innego rodzaju udostępnianie, dopasowywanie lub łączenie,
+ograniczanie, usuwanie lub niszczenie, zaś zgodnie z art. 4 pkt 7 RODO: „administrator”
+oznacza osobę fizyczną lub prawną, organ publiczny, jednostkę lub inny podmiot, który
+samodzielnie lub wspólnie z innymi ustala cele i sposoby przetwarzania danych osobowych.
+W przypadku przetwarzania danych osobowych Zleceniobiorców oraz osób zaangażowanych
+w realizację projektu, Oferent jest administratorem danych tych osób. Oferent zobowiązany
+jest także poinformować te osoby o możliwości przekazania danych osobowych ww. osób do
+NIW-CRSO. W szczególnych przypadkach (np. kiedy charakter świadczonej usługi uzasadnia
+potrzebę zachowania anonimowości Zleceniobiorcy) NIW-CRSO może wyrazić zgodę na
+odstąpienie od tego zobowiązania.
+
+
+                                           – 46 –
+       Promocja wsparcia w ramach programu
+Wszystkie elementy wyposażenia lub środki trwałe zakupione ze środków otrzymanych w
+ramach Programu oraz materiały wytworzone w wyniku realizacji umowy, w szczególności
+publikacje, ulotki, materiały informacyjne, listy obecności, formularze zgłoszeniowe itp.,
+powinny być oznaczone znakami Komitetu do spraw Pożytku Publicznego, NIW-CRSO,
+Programu oraz napisem: „Sfinansowano/Współfinansowano ze środków Narodowego
+Instytutu Wolności – Centrum Rozwoju Społeczeństwa Obywatelskiego w ramach
+Rządowego Programu NOWEFIO.” Na małych przedmiotach może być umieszczone skrócone
+zestawienie znaków. Na niestandardowych tłach i powierzchniach zestawienie znaków może
+być stosowane również w innych wersjach kolorystycznych. Wszystkie gotowe zestawienia
+znaków dostępne są na stronie www.niw.gov.pl w zakładce „Dla beneficjentów”. Zestawienie
+znaków musi być czytelne i umieszczone w widocznym miejscu. W przypadku braku
+zestawienia znaków koszty poniesione ze środków z dotacji, związane z wytworzeniem danego
+materiału, mogą zostać uznane za niekwalifikowalne. Szczegółowe wytyczne dotyczące
+umieszczania zestawień znaków w poszczególnych formach promocji opisane zostały w
+dokumencie: Wytyczne promocji zadań publicznych finansowanych lub dofinansowanych z
+NIW-CRSO, który jest dostępny na stronie internetowej Narodowego Instytutu Wolności
+www.niw.gov.pl w zakładce „Dla Beneficjentów”.
+
+
+We wszelkich związanych z działaniem komunikatach lub publikacjach wydawanych przez
+Zleceniobiorców, wspólnie lub indywidualnie, w jakiejkolwiek formie i przy wykorzystaniu
+dowolnych środków, należy wskazać, że:
+1) odzwierciedlają one jedynie opinię ich autora,
+2) NIW-CRSO nie jest odpowiedzialny za sposób wykorzystania zawartych w nich informacji.
+
+
+Zleceniobiorcy muszą się stosować także do wymogów wynikających z Rozporządzenia Rady
+Ministrów z dnia 7 maja 2021 r. w sprawie określenia działań informacyjnych podejmowanych
+przez podmioty realizujące zadania finansowane lub dofinansowane z budżetu państwa lub z
+państwowych funduszy celowych16.
+
+
+
+16
+     https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20210000953
+                                                   – 47 –
+   Zapewnienie dostępności zadania osobom ze szczególnymi
+   potrzebami
+W ramach realizowanego zadania Zleceniobiorca ma dążyć do zapewniania dostępności
+osobom ze szczególnymi potrzebami zgodnie z art. 5 ust. 1 ustawy z dnia 19 lipca 2019 r. o
+zapewnianiu dostępności osobom ze szczególnymi potrzebami (Dz. U. z 2024 r. poz. 1411 z
+późn. zm.).
+Zapewnieniu dostępności osobom ze szczególnymi potrzebami obejmuje:
+   1. w zakresie dostępności architektonicznej:
+              a. zapewnienie wolnych od barier poziomych i pionowych przestrzeni
+                 komunikacyjnych budynków,
+              b. instalację urządzeń lub zastosowanie środków technicznych i rozwiązań
+                 architektonicznych w budynku, które umożliwiają dostęp do wszystkich
+                 pomieszczeń, z wyłączeniem pomieszczeń technicznych,
+              c. zapewnienie informacji na temat rozkładu pomieszczeń w budynku, co
+                 najmniej w sposób wizualny i dotykowy lub głosowy,
+              d. zapewnienie wstępu do budynku osobie korzystającej z psa asystującego, o
+                 którym mowa w art. 2 pkt 11 ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji
+                 zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z
+                 2026 r. poz. 884.),
+              e. zapewnienie osobom ze szczególnymi potrzebami możliwości ewakuacji lub ich
+                 uratowania w inny sposób;
+   2. w zakresie dostępności cyfrowej – wymagania określone w ustawie z dnia 4 kwietnia
+       2019 r. o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów
+       publicznych (Dz. U. z 2023 r. poz. 1440),
+   3. w zakresie dostępności informacyjno-komunikacyjnej:
+              a. obsługę z wykorzystaniem środków wspierających komunikowanie się, o
+                 których mowa w art. 3 pkt 5 ustawy z dnia 19 sierpnia 2011 r. o języku migowym
+                 i innych środkach komunikowania się (Dz. U. z 2023 r. poz. 20), lub przez
+                 wykorzystanie zdalnego dostępu online do usługi tłumacza przez strony
+                 internetowe i aplikacje,
+
+                                             – 48 –
+          b. instalację urządzeń lub innych środków technicznych do obsługi osób
+              słabosłyszących, w szczególności pętli indukcyjnych, systemów FM lub
+              urządzeń opartych o inne technologie, których celem jest wspomaganie
+              słyszenia,
+          c. zapewnienie na stronie internetowej danego podmiotu informacji o zakresie
+              jego działalności – w postaci elektronicznego pliku zawierającego tekst
+              odczytywalny maszynowo, nagrania treści w polskim języku migowym oraz
+              informacji w tekście łatwym do czytania,
+          d. zapewnienie, na wniosek osoby ze szczególnymi potrzebami, komunikacji z
+              podmiotem publicznym w formie określonej w tym wniosku.
+   4. W indywidualnym przypadku, jeżeli Zleceniobiorca nie jest w stanie, w szczególności
+       ze względów technicznych lub prawnych, zapewnić dostępności osobie ze
+       szczególnymi potrzebami w zakresie, o którym mowa w art. 6 pkt 1 i 3 ustawy o
+       zapewnianiu dostępności osobom ze szczególnymi potrzebami, podmiot ten jest
+       obowiązany zapewnić takiej osobie dostęp alternatywny, o którym mowa w art. 7 ust.
+       2 ww. ustawy.
+
+
+
+   Zmiany w realizacji zadania publicznego
+Realizując zadanie należy ponosić koszty zgodnie z umową i kosztorysem zadania i treścią
+Regulaminu.
+
+                   Zmiany w projekcie niewymagające informowania NIW
+ Kalkulacja kosztów
+    • Przesunięcie środków pomiędzy pozycjami w kategorii I (w ramach istniejących
+        pozycji) - nie dotyczy zwiększenia pozycji budżetowych w działaniu związanym z
+        rozwojem instytucjonalnym;
+    • Przesunięcie środków z kategorii II do kategorii I (w ramach istniejących pozycji);
+
+         Zmiany w projekcie wymagające jedynie zgłoszenia oraz akceptacji NIW
+ Harmonogram
+    • Zmiana terminów realizacji działań, które nie naruszają dat granicznych projektu.
+ Kalkulacja kosztów
+    • Zmiana treści opisu pozycji budżetowej niepowodująca zmiany jej przeznaczenia;
+    • Zmiana rodzaju miary, ceny i liczby jednostek;
+    • Planowane podzlecenie pozycji;
+                                          – 49 –
+    • Przesunięcie środków w ramach kategorii (w przypadku kat. II – do limitu 25%
+      otrzymanej dotacji, w przypadku działania dotyczącego rozwoju instytucjonalnego –
+      do limitu 20% otrzymanej dotacji).
+Zmiany osobowe
+   • Zmiany osobowe w zakresie personelu realizującego projekt wymienione w treści
+      oferty.
+
+Rezultaty i wskaźniki rezultatu
+   • Zmiana opisu rezultatów, opisu metod pomiaru oraz źródeł danych służących do
+       pomiaru wskaźnika.
+
+Zmiany o charakterze technicznym - zmiany wymagają jedynie zgłoszenia
+   • Zmiany siedziby organizacji, reprezentacji organizacji (zawarte w komparycji
+      umowy), mailowego adresu kontaktowego itd.
+
+         Zmiany w projekcie wymagające zgłoszenia do NIW oraz formy aneksu
+Zmiana nazwy organizacji
+Termin realizacji zadania
+   • Zmiana terminu realizacji zadania.
+Rachunek bankowy
+   • Zmiana numeru rachunku bankowego do obsługi środków pochodzących z dotacji.
+Kalkulacja kosztów
+   • Wprowadzenie nowej pozycji do kosztorysu;
+   • Obniżenie środków własnych;
+   • Zamiana środków własnych finansowych na środki własne niefinansowe.
+   • Zwiększenie łącznej wartości kat. II;
+Rezultaty oraz działania:
+  • zmiany dotyczące wartości rezultatów oraz działań podejmowanych w ramach
+     zadania
+    Zmiany nie mogą modyfikować oferty w sposób wpływający na zmianę jej oceny
+                                   merytorycznej.
+
+                                     Uwaga!
+   Pomimo wyżej opisanych przypadkach braku obowiązku informowania o wybranych
+  przesunięciach w budżecie na etapie realizacji projektu, na etapie sprawozdania każde
+               odstępstwo od oferty należy opisać i podać jego przyczynę.
+
+Wszelkie zmiany muszą być zgłaszane ze stosownym wyprzedzeniem uwzględniającym
+poszczególne etapy realizacji zadania.
+
+                                         – 50 –
+Wniosek o wprowadzenie zmian w umowie należy złożyć poprzez System Obsługi Dotacji
+(zakładka „Umowa” -> „Opcje” -> „Wnioskuj o aneks”). W odpowiedzi NIW-CRSO skontaktuje
+się drogą mailową z daną organizacją i udzieli dostępu do Systemu Obsługi Dotacji NIW-CRSO
+w celu naniesienia stosownych zmian. NIW-CRSO zweryfikuje wprowadzone dane i po
+akceptacji sformułuje stosowny aneks.
+
+Nie ma możliwości dokonywania zmian wymagających zawierania aneksu do umowy na etapie
+przygotowywania sprawozdania (tj. po dacie zakończenia realizacji zadania).
+
+Wnioski o zmiany w zadaniach wieloletnich złożone w pierwszym kwartale roku 2028/2029
+zostaną rozpatrzone po akceptacji sprawozdania częściowego za rok 2027/2028.
+
+
+
+VI.       Forma i sposób udzielania wyjaśnień w kwestiach dot.
+          Konkursu
+Wyjaśnienia w kwestiach dotyczących konkursu udzielane będą w odpowiedzi na pytania i
+wątpliwości:
+       1) otrzymane za pośrednictwem poczty elektronicznej na adres: FIO@niw.gov.pl lub
+          kontakt@niw.gov.pl,
+       2) otrzymane drogą pocztową na adres: Narodowy Instytut Wolności Centrum Rozwoju
+          Społeczeństwa Obywatelskiego 00-124 Warszawa al. Jana Pawła II 12.
+
+
+
+VII.      Zmiany w regulaminie
+NIW-CRSO zastrzega sobie prawo do wprowadzania zmian w Regulaminie
+       1) w trakcie trwania Konkursu z wyjątkiem zmian skutkujących nierównym traktowaniem
+          Oferentów;
+       2) oraz w trakcie realizacji zadań, na które została udzielona dotacja, z wyjątkiem zmian
+          skutkujących nierównym traktowaniem Oferentów lub nałożeniem na nich
+          dodatkowych obowiązków, chyba że konieczność wprowadzenia tych zmian wynika z
+          przepisów powszechnie obowiązującego prawa, bądź nałożenia na NIW-CRSO
+          obowiązków przez organy nadzoru i kontroli.
+W sytuacji, gdy potrzeba wprowadzenia do Regulaminu zmiany (innej niż dotyczącej
+wydłużenia terminu naboru) zaistnieje po rozpoczęciu naboru, ale przed terminem składania
+
+                                              – 51 –
+wniosków, Oferenci mogą wycofać, poprawić oraz ponownie złożyć wnioski złożone przed
+wprowadzeniem zmiany, jednak wyłącznie w terminie naboru.
+W przypadku zmiany Regulaminu, NIW-CRSO zamieszcza na stronie www.niw.gov.pl
+informację o jego zmianie, aktualną treść Regulaminu, uzasadnienie oraz termin, od którego
+zmiana obowiązuje. W związku z tym zaleca się, by potencjalni Oferenci na bieżąco
+zapoznawali się z informacjami zamieszczanymi na stronie internetowej: www.niw.gov.pl.
+W przypadku zmian wprowadzonych w trakcie realizacji zadań NIW-CRSO informuje
+indywidualnie wszystkich Beneficjentów o wprowadzonych zmianach.
+Zmiany wprowadzane w trakcie realizacji zadań nie wymagają zawarcia aneksów do zawartych
+umów.
+Nie wymagają zmiany regulaminu poprawy oczywistych omyłek – o dokonaniu ich poprawy
+informuje Dyrektor NIW-CRSO komunikatem.
+
+
+
+
+                                          – 52 –
+ Część B – Zasady rozliczania dotacji i sprawozdanie
+
+
+VIII.     Zasady rozliczania dotacji
+        Ogólne zasady
+ Ogólne zasady sprawozdawczości i rozliczania dotacji
+ W ramach Programu Zleceniobiorca jest zobowiązany do wykorzystania przekazanej dotacji
+ zgodnie z celem, na jaki ją uzyskał i na warunkach określonych umową. Rozliczenie dotacji
+ następuje zgodnie z przepisami UoFP, umową oraz postanowieniami Regulaminu.
+ Rozliczenie dotacji odbywa się w sposób częściowy, na zakończenie każdego z okresów
+ finansowania oraz w odniesieniu do całości zadania, po upływie okresu, na jaki została zawarta
+ umowa. Rozliczenie dotacji następuje na podstawie złożonego przez Zleceniobiorcę
+ sprawozdania merytoryczno-finansowego, które zawiera informacje na temat stopnia
+ realizacji zaplanowanych działań oraz osiągniętych rezultatów, osiągniętych w wyniku
+ realizacji działań wartości zaplanowanych wskaźników, a także kosztów poniesionych ze
+ środków dotacji. Sprawozdanie merytoryczno-finansowe składane jest przez Zleceniobiorcę za
+ pośrednictwem Systemu Obsługi Dotacji, a następnie przesyłane do NIW-CRSO. Sprawozdanie
+ może zostać podpisane odręcznie lub podpisem elektronicznym.
+ Zleceniobiorca zobowiązany jest do zwrotu niewykorzystanej dotacji lub części dotacji
+ w terminie i na rachunek bankowy wskazany w umowie na zasadach określonych w przepisach
+ UoFP i umowie.
+
+
+
+        Rozliczenie przez rezultat
+ Dotacja zostanie uznana za rozliczoną, jeżeli na dzień zakończenia zadania wszystkie działania
+ zostały zrealizowane i utrzymane.
+ Zleceniobiorca zobligowany jest do posiadania całości dokumentacji potwierdzającej
+ wydatkowanie dotacji.
+
+
+
+
+                                             – 53 –
+     Sprawozdanie z wykonania zadania
+Zleceniobiorca przedkłada do NIW-CRSO sprawozdanie częściowe z realizacji działań w ciągu
+30 dni od zakończenia okresów finansowania, w tym szczegółową informację dotyczącą
+stopnia osiągnięcia zaplanowanych wskaźników rezultatu.
+Po zakończeniu realizacji działań zaplanowanych we wniosku, Zleceniobiorca w terminie 30
+dni składa sprawozdanie końcowe. Sprawozdanie końcowe obejmuje część merytoryczną
+i finansową, a także zawiera szczegółową informację dotyczącą stopnia osiągnięcia
+zaplanowanych wskaźników rezultatu, które zostały określone we wniosku.
+Brak złożenia sprawozdania może stanowić podstawę do uznania dotacji za wykorzystaną
+niezgodnie z przeznaczeniem oraz jej zwrotu z tego tytułu.
+NIW-CRSO weryfikując sprawozdanie częściowe i końcowe może zwrócić się do Zleceniobiorcy
+o uzupełnienie zawartych w nim informacji. Zleceniobiorca na wezwanie NIW-CRSO dostarcza
+stosowne uzupełnienia i wyjaśnienia do sprawozdania w nieprzekraczalnym terminie 7 dni od
+dnia otrzymania wezwania.
+Sprawozdania składane są jednocześnie w Systemie Obsługi Dotacji w formie elektronicznej
+oraz formie papierowej lub podpisane elektronicznie (nie jest wymagany kwalifikowany
+podpis elektroniczny) przez osoby uprawnione do reprezentowania Zleceniobiorcy. O
+zachowaniu terminu decyduje data stempla pocztowego lub data wpływu dokumentów do
+NIW-CRSO (w przypadku przesyłki kurierskiej oraz dokumentów wysłanych drogą
+elektroniczną).
+
+W sprawozdaniu z realizacji zadania publicznego Zleceniobiorcy mają obowiązek wskazania
+przypadków zatrudniania, bądź nabywania towarów lub usług od osób najbliższych 17, w
+przypadku, gdy następować to będzie z udziałem – w całości lub części – środków publicznych.
+
+
+
+     Rozliczenie wkładu osobowego
+Rozliczenie wkładu osobowego obejmuje w szczególności porozumienie zawierane między
+Zleceniobiorcą a wolontariuszem w formie pisemnej. Praca społeczna członków jest
+
+
+
+
+17
+  Zgodnie z Kodeksem karnym (art. 115 § 11 k.k.): Osobą najbliższą jest małżonek, wstępny, zstępny,
+rodzeństwo, powinowaty w tej samej linii lub stopniu, osoba pozostająca w stosunku przysposobienia oraz jej
+małżonek, a także osoba pozostająca we wspólnym pożyciu.
+                                                   – 54 –
+dokumentowana w formie oświadczeń zawierających w szczególności: imię i nazwisko
+członka, nazwę organizacji, na rzecz której wykonuje on pracę społeczną, okres wykonywania
+pracy społecznej oraz przedmiot i miejsce wykonywania pracy społecznej, a także podpis.
+Przy świadczeniu nie dłuższym niż 30 dni, gdy prawo nie wymaga formy pisemnej, wkład
+można udokumentować ewidencją lub potwierdzeniem pozwalającym ustalić osobę,
+uzgodniony zakres, czas, wykonanie i metodę wyceny, także w dopuszczalnej formie
+elektronicznej. Nie wymaga się dodatkowego porozumienia zawartego wyłącznie na potrzeby
+dotacji.
+
+
+
+   Rozliczenie podróży służbowych osób zaangażowanych
+   w realizację projektu
+Do rozliczenia z tytułu podróży służbowej, odbywanej na obszarze kraju przez osoby
+zatrudnione przy realizacji zadania, dofinansowanego ze środków Programu NOWEFIO, należy
+stosować rozporządzenie Ministra Pracy i Polityki Społecznej z dnia 29 stycznia 2013 r. w
+sprawie należności przysługujących pracownikowi zatrudnionemu w państwowej lub
+samorządowej jednostce sfery budżetowej z tytułu podróży służbowej (Dz. U. z 2013 r. poz.
+167 z późn. zm) oraz Rozporządzeniu Ministra Infrastruktury z dnia 22 grudnia 2022 r.
+zmieniające rozporządzenie w sprawie warunków ustalania oraz sposobu dokonywania
+zwrotu kosztów używania do celów służbowych samochodów osobowych, motocykli i
+motorowerów niebędących własnością pracodawcy.
+
+
+
+   Rozliczenie dojazdów Zleceniobiorców
+Kwalifikowalne są koszty związane z przejazdem publicznymi lub prywatnymi środkami
+transportu (bilety kolejowe II klasą, bilety autobusowe PKS, bilety lotniczce, bilety komunikacji
+miejskiej lub opłaty za przejazdy wykonywane przez podmioty prywatne). Do rozliczenia
+kosztów poniesionych przez beneficjentów projektu w związku z przejazdem samochodem
+prywatnym należy stosować stawki wskazane w rozporządzeniu Ministra Pracy i Polityki
+Społecznej z dnia 29 stycznia 2013 r. w sprawie należności przysługujących pracownikowi
+zatrudnionemu w państwowej lub samorządowej jednostce sfery budżetowej z tytułu podróży
+służbowej (Dz. U. z 2013 r. poz. 167) oraz Rozporządzeniu Ministra Infrastruktury z dnia 22
+grudnia 2022 r. zmieniające rozporządzenie w sprawie warunków ustalania oraz sposobu
+                                         – 55 –
+dokonywania zwrotu kosztów używania do celów służbowych samochodów osobowych,
+motocykli i motorowerów niebędących własnością pracodawcy.
+
+
+
+   Rozliczenie przychodów uzyskanych przy realizacji zadania
+   publicznego
+Zleceniobiorca jest zobowiązany wskazać w sprawozdaniu z realizacji zadania publicznego
+wysokość przychodów uzyskanych przy realizacji tego zadania. Ewentualne przychody
+Zleceniobiorca może przeznaczyć wyłącznie na działania zgodne z katalogiem kosztów
+wskazanym w budżecie wniosku.
+Wydatkowanie osiągniętych przychodów niezgodnie z przeznaczeniem uznaje się za dotację
+pobraną w nadmiernej wysokości i podlega dochodzeniu w trybie postępowania
+administracyjnego.
+
+
+
+   Dokumentacja finansowo-księgowa
+Zleceniobiorcy zobowiązani są dokumentować koszty finansowane ze środków dotacji.
+Kwalifikowalne koszty ponoszone w związku z realizacją zadania muszą być dokumentowane
+za pomocą dowodów księgowych, spełniających wymagania określone dla dowodu
+księgowego, zgodnie z ustawą z dnia 29 września 1994 r. o rachunkowości (Dz. U. z 2023 r.
+poz. 120 z późn. zm.). Dowody księgowe powinny być rzetelne, to jest zgodne z rzeczywistym
+przebiegiem operacji gospodarczej, którą dokumentują, kompletne oraz wolne od błędów
+rachunkowych.
+Beneficjenci zobowiązani są do prowadzenia dokumentacji dotyczącej realizacji projektu w
+sposób umożliwiający jednoznaczną ocenę prawidłowości wykonania zadania - w
+szczególności w zakresie ponoszonych kosztów/wydatków oraz ich kwalifikowalności.
+
+Zarówno w przypadku dokumentów w formie papierowej, jak i dokumentów elektronicznych
+(np. faktur wystawianych i udostępnianych za pośrednictwem KSeF) wymagane informacje
+identyfikujące projekt mogą stanowić odpowiednie zapisy w ewidencji księgowej. Tym
+samym, Beneficjenci nie muszą drukować i opisywać dokumentów elektronicznych.
+
+Ewidencja ta powinna zapewniać trwałe, jednoznaczne i weryfikowalne powiązanie
+dokumentu księgowego z jego opisem w systemie finansowo księgowym. Aby tak się stało,
+
+                                          – 56 –
+można wskazać w nazwie konta księgowego oraz opisie dokumentu w systemie finansowo-
+księgowym np. numer i/lub nazwę projektu, źródło finansowania, kwotę wydatku
+kwalifikowanego oraz właściwą pozycję budżetu projektu zgodnie z zatwierdzonym wnioskiem
+o dofinansowanie (w tym kategorią kosztu i zadania, którego dotyczy wydatek).
+
+W przypadku uproszczonej ewidencji przychodów i kosztów (UEPIK) można zastosować
+dodatkowe oznaczenia, w postaci kodów i/ lub szczegółowo opisać w załączniku nr 1 do
+Rozporządzeniem Ministra Finansów i Gospodarki z dnia 22 grudnia 2025 r. w sprawie
+prowadzenia uproszczonej ewidencji przychodów i kosztów przez niektóre organizacje
+pozarządowe oraz stowarzyszenia jednostek samorządu terytorialnego w Zestawieniu
+Przychodów i Kosztów (opis zdarzenia).
+
+Podczas weryfikacji przez NIW-CRSO prawidłowości wydatkowania dotacji, dokumentami
+potwierdzającymi odpowiednie przypisanie wydatku będą przede wszystkim dane zawarte w
+systemie finansowo-księgowym lub w zestawieniu przychodów i kosztów oraz dokument
+źródłowy, Beneficjent może również zastosować inne rozwiązanie organizacyjne zapewniające
+przejrzystą identyfikację operacji projektowych.
+
+Sposób oznaczenia danych księgowych projektu pozostaje w gestii Beneficjenta, jednak
+powinien być zgodny z zasadą przejrzystości i umożliwiać łatwe wyszczególnienie wszystkich
+zdarzeń gospodarczych związanych z otrzymaniem i wykorzystaniem dotacji.
+
+Wszystkie przyjęte rozwiązania w zakresie prowadzenia ewidencji księgowej powinny
+pozostawać w szczególności zgodne z obowiązującymi przepisami ustawy z dnia 29 września
+1994   r.   o   rachunkowości,   przyjętą   przez    Beneficjenta   polityką   rachunkowości,
+Rozporządzeniem Ministra Finansów i Gospodarki z dnia 22 grudnia 2025 r. w sprawie
+prowadzenia uproszczonej ewidencji przychodów i kosztów przez niektóre organizacje
+pozarządowe     oraz   stowarzyszenia    jednostek   samorządu      terytorialnego,   a   także
+Rozporządzeniem Ministra Finansów i Gospodarki z dnia 23 grudnia 2025 r. w sprawie
+prowadzenia uproszczonej ewidencji przychodów i kosztów przez koła gospodyń wiejskich.
+
+
+
+Zleceniobiorca ma obowiązek posiadać dokumentację finansową i merytoryczną związaną
+z realizacją zadania publicznego przez okres 5 lat licząc od końca roku kalendarzowego, w
+którym realizowano zadanie publiczne.
+                                            – 57 –
+      Uchybienia
+Uchybieniami w świetle ustawy z dnia 17 grudnia 2004 r. o odpowiedzialności za naruszenie
+dyscypliny finansów publicznych (Dz. U. z 2025 r. poz. 1484) są:
+      1) wydatkowanie środków niezgodnie z przeznaczeniem,
+      2) nierozliczenie w terminie otrzymanej dotacji (niezłożenie sprawozdania lub niezłożenie
+         sprawozdania w terminie),
+      3) niedokonanie w terminie zwrotu dotacji w należnej wysokości,
+      4) niedokonanie w terminie zwrotu kwoty niewykorzystanej dotacji.
+Konsekwencją uchybień w rozliczaniu dotacji, w szczególności nieosiągnięcia wskaźników
+określonych we wniosku, może być zwrot części lub całości kwoty przyznanej dotacji (na
+podstawie przepisów o finansach publicznych i odpowiedzialności za naruszenie dyscypliny
+finansów publicznych).
+Kwota do zwrotu części lub całości dotacji jest wyliczana na podstawie analizy sprawozdania
+finansowego oraz merytorycznego, a także podjętych działań monitorująco-kontrolnych.
+Dyrektor określa kwotę do zwrotu wraz z odsetkami obliczonymi jak dla zaległości
+podatkowych wraz z uzasadnieniem i wzywa organizację do zwrotu środków.
+W przypadku braku zwrotu środków dotacji NIW-CRSO prowadzi postępowanie
+administracyjne w sprawie zaległości podatkowej.
+
+
+
+IX.      Monitoring realizacji Programu
+Po zakończeniu realizacji zadania określonego umową Zleceniobiorca zobowiązany jest
+przekazać do NIW-CRSO wypełnioną ankietę monitorującą realizację Programu. Ankieta
+przekazywana jest wraz ze sprawozdaniem końcowym lub przesyłana do Zleceniobiorców w
+innej formie.
+NIW-CRSO zastrzega sobie prawo do monitoringu zadania publicznego w trakcie jego trwania
+– w postaci wizyty monitorującej.
+
+
+
+
+                                             – 58 –
+ X.     Kontrola realizacji zadania
+      Zatwierdzenie sprawozdania wraz z poinformowaniem
+      organizacji
+Przesłane do NIW-CRSO sprawozdania są poddawane analizie, której wynik zostaje przesłany
+do Zleceniobiorcy. W przypadku braku uchybień Zleceniobiorca zostaje pisemnie
+poinformowany o zaakceptowaniu sprawozdania.
+
+      Konsekwencje uchybień
+Konsekwencją rażących uchybień w rozliczaniu dotacji może być zwrot części lub całości
+przyznanej dotacji (na podstawie przepisów o finansach publicznych). Każde uchybienie
+w wykorzystaniu i pobraniu dotacji skutkuje obowiązkiem zwrotu tej części dotacji wraz
+z odsetkami w wysokości określonej jak dla zaległości podatkowych, a w przypadku braku
+zwrotu obowiązkiem wydania decyzji administracyjnej zobowiązującej do zwrotu dotacji oraz
+wszczęcia postępowania egzekucyjnego w celu wyegzekwowania należności.
+
+      Rodzaje kontroli
+Kontrola obejmuje prawidłowość wykonania zadania przez Zleceniobiorcę oraz prawidłowość
+wydatkowania przekazanych środków finansowych. W związku z tym, kontrola może być
+prowadzona zarówno w trakcie, jak i po zakończeniu realizacji zadania.
+Prawo kontroli przysługuje Zleceniodawcy zarówno w siedzibie Zleceniobiorcy, jak i w miejscu
+realizacji zadania.
+
+      Okres kontroli przyznanej dotacji
+Stosownie do art. 70 §1 ustawy z dnia 29 sierpnia 1997 r. - Ordynacja podatkowa (Dz. U. z 2026
+r. poz. 622),         do której ustawa o finansach publicznych w przypadku należności
+publicznoprawnych odsyła w sprawach nieuregulowanych tą ustawą, zobowiązanie
+podatkowe przedawnia się z upływem pięciu lat, licząc od końca roku kalendarzowego w
+którym upłynął termin płatności podatku. Tym samym uprawnienia organu do sprawowania
+kontroli prawidłowości wykonania zadania publicznego przysługują mu przez okres 5 lat licząc
+od końca roku kalendarzowego, w którym realizowano zadanie publiczne.
+
+
+
+
+                                            – 59 –
+Załączniki:18
+1) wzór oferty realizacji zadania publicznego oraz oferty wspólnej realizacji zadania
+publicznego;
+2) ramowy wzór umowy o realizację zadania publicznego oraz umowy o realizację zadania
+publicznego na podstawie oferty wspólnej;
+3) wzór sprawozdania z wykonania zadania publicznego.
+4) wzór karty oceny formalnej;
+5) wzór karty oceny merytorycznej
+
+
+
+
+18
+  Załączniki są określone w rozporządzeniu Przewodniczącego Komitetu Do Spraw Pożytku Publicznego
+z dnia 24 października 2018 r. w sprawie wzorów ofert i ramowych wzorów umów dotyczących realizacji zadań
+publicznych oraz wzorów sprawozdań z wykonania tych zadań
+                                                  – 60 –
+Załącznik 1 Wzór oferty realizacji zadania publicznego oraz oferty wspólnej realizacji
+zadania publicznego;
+Załącznik 2 Ramowy wzór umowy o realizację zadania publicznego oraz umowy o realizację
+zadania publicznego na podstawie oferty wspólnej;
+Załącznik 3 Wzór sprawozdania z wykonania zadania publicznego.
+Wzory oferty, umowy i sprawozdania znajdują się w RwWOUS.
+Załącznik 4 Wzór karty oceny formalnej
+ Numer oferty
+
+
+
+ Nazwa Oferenta
+
+
+ Tytuł zadania
+
+
+
+ Kryteria formalne
+
+ Wypełnienie i złożenie wniosku za pomocą Systemu Obsługi Dotacji, dostępnego na stronie
+                                                                                              TAK   NIE
+ internetowej https://generator.niw.gov.pl we wskazanym terminie.
+ Złożenie wniosku przez podmiot uprawniony do udziału w Konkursie.                            TAK   NIE
+ Merytoryczna treść oferty nie jest tożsama z treścią innej oferty złożonej w konkursie lub
+                                                                                              TAK   NIE
+ dofinansowanej w poprzednich edycjach Programu.
+
+ Imię i nazwisko oceniającego
+
+
+
+ Data
+
+ dd-mm-rrrr
+
+
+
+
+                                                 – 61 –
+Załącznik 5 Wzór karty oceny merytorycznej
+ Numer oferty
+ Nazwa Oferenta
+ Tytuł zadania
+ Kryteria merytoryczne
+
+                                              Maksymalna liczba      Przyznana liczba
+     Kryterium oceny merytorycznej                                                        Uzasadnienie
+                                                   punktów               punktów
+
+       −
+      −
+      −
+
+
+      −
+
+
+
+      −
+
+
+ Łącznie:                                 (nie więcej niż 100 pkt)
+
+                   Kwestionowane pozycje wydatków
+
+ Nazwa             Kwota
+                                           Kwota rekomendowana                            Uzasadnienie
+ wydatku           kwestionowana
+                   (wg     danych     z
+ (wybór z listy)
+                   wniosku)
+
+ …                 …                      …                                               …
+
+                   Proponowana kwota dotacji
+
+                   (wnioskowana kwota dotacji pomniejszona o kwestionowane wartości wydatków)
+
+                   Imię i nazwisko oceniającego
+
+
+
+                   Data
+
+                   dd-mm-rrrr
+
+
+
+
+                                                     – 62 –
+
