@@ -706,6 +706,38 @@
    ],
    "sprawdzono": "2026-11-04T21:30",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: dofinansowanie działalności statutowej, w tym budowanie kapitału ludzkiego oraz zasobów technicznych",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:328",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "kapitał ludzki",
+    "sprzęt",
+    "trenerzy"
+   ],
+   "sprawdzono": "2026-11-04T22:25",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027 priorytet 2: projekty m.in. adresowane do rodzin, dzieci i młodzieży, osób starszych",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:590",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO",
+    "priorytet 2",
+    "dzieci",
+    "młodzież"
+   ],
+   "sprawdzono": "2026-11-04T22:25",
+   "waznosc_dni": 365
   }
  ]
 }
