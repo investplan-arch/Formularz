@@ -607,6 +607,36 @@
    ],
    "sprawdzono": "2026-11-04T20:16",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027 priorytet 4: projekty systemowe wzmacniające organizacje obywatelskie, zasięg co najmniej wojewódzki, angażujące liczne organizacje",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:654",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "priorytet 4",
+    "NOWEFIO",
+    "systemowy"
+   ],
+   "sprawdzono": "2026-11-04T20:21",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a ścieżka 3: w ramach zadania obowiązkowy audyt zewnętrzny",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:540",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "audyt",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T20:21",
+   "waznosc_dni": 365
   }
  ]
 }
