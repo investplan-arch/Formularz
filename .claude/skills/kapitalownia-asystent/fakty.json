@@ -543,6 +543,55 @@
    ],
    "sprawdzono": "2026-11-04T19:53",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: najem pomieszczeń tylko w kategorii II koszty obsługi, limit kategorii II 25% dotacji",
+   "wartosci": [
+    "25%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:847",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "najem",
+    "wynajem",
+    "lokal",
+    "koszty obsługi"
+   ],
+   "sprawdzono": "2026-11-04T19:55",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: dofinansowanie misji i kosztów prowadzenia działalności statutowej, w ścieżkach 2 i 3 w ramach zadania powstaje lub jest aktualizowana wieloletnia strategia rozwoju organizacji",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:328",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "strategia",
+    "działalność statutowa"
+   ],
+   "sprawdzono": "2026-11-04T19:55",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: działanie dotyczące rozwoju instytucjonalnego oferenta w kategorii I do 20% przyznanej dotacji",
+   "wartosci": [
+    "20%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:849",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "rozwój instytucjonalny",
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:56",
+   "waznosc_dni": 365
   }
  ]
 }
