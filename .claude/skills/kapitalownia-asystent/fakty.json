@@ -637,6 +637,75 @@
    ],
    "sprawdzono": "2026-11-04T20:21",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: wsparcie dla programów rozwoju zakładających budowanie trwałych modeli finansowania ze środków niepublicznych",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:331",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "środki niepubliczne",
+    "model finansowania"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a ścieżka 3: sprawozdania finansowe z co najmniej dwóch ostatnich zamkniętych lat opublikowane na stronie najpóźniej w dniu złożenia wniosku",
+   "wartosci": [
+    "2024",
+    "2025"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:449",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "ścieżka 3",
+    "sprawozdania"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 2027: rozstrzygnięcie konkursu planowane w pierwszym półroczu 2027 r., ścieżki 2 i 3 start zadania najwcześniej 1 czerwca 2027 r.",
+   "wartosci": [
+    "1 czerwca 2027",
+    "2027"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:640",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 2027",
+    "rozstrzygnięcie",
+    "wyniki"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a ścieżka 3: limit roczny od 100 do 200 tys. zł, ścieżka 2: od 50 do 100 tys. zł rocznie",
+   "wartosci": [
+    "200 tys. zł",
+    "100 tys. zł",
+    "50 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:671",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 3",
+    "limit roczny"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
   }
  ]
 }
