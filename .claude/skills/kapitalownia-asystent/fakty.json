@@ -592,6 +592,21 @@
    ],
    "sprawdzono": "2026-11-04T19:56",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: brak wymogu stażu ani przychodu, wystarczy zarejestrowana organizacja z siedzibą w Polsce działająca w obszarach CERV",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:234",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "nowa fundacja",
+    "staż"
+   ],
+   "sprawdzono": "2026-11-04T20:16",
+   "waznosc_dni": 365
   }
  ]
 }
