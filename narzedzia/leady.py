@@ -20,6 +20,7 @@ Etapy (wzorowane na SalesGPT i AgentSDR, dopasowane do naszej ścieżki):
     zgloszona_platnosc  klient napisał, że zapłacił (sprawdzić w Stripe)
     zamkniety      klient odmówił albo zrezygnował
     spam           propozycje wymiany albo zakupu opinii (nie odpisujemy)
+    czeka_na_klienta  klient zamknął wątek („Ok. Dam znać”), ruch po jego stronie
 """
 import argparse
 import json
@@ -51,6 +52,9 @@ ODMOWA = re.compile(r"(nie jestem zainteresowan|rezygnuj|dziękuję,? (to )?nie|
                     r"spróbuję sam|zrobię sam)", re.I)
 ZAPLATA = re.compile(r"(wpłat\w*[^.?!]{0,20}(dokonan|poszł|zrobion)|zapłaciłe?a?m za|opłaciłe?a?m|"
                      r"przelew poszedł|już zapłacone|płatność (poszła|zrobiona))", re.I)
+# Krótkie zamknięcie od klienta („Ok. Dam znać”, „Dziękuję”) nie czeka na odpowiedź.
+ZAMKNIECIE = re.compile(r"^\W*(ok\W*|okej\W*|dobrze\W*|super\W*|dzięki\W*|)*(dam znać|odezwę się|odezwiemy się|dziękuję( bardzo)?|"
+                        r"dziękujemy|pozdrawiam|do usłyszenia|przemyślę|zastanowię się)\W*$", re.I)
 SPAM = re.compile(r"(wymian\w* (się )?opini|zakup\w* opini|wymieni\w* (się )?opini|opinie za|polubienie za)", re.I)
 
 
@@ -119,6 +123,8 @@ def ocen(c, teraz):
         etap = "zgloszona_platnosc"
     elif ODMOWA.search(" ".join(m["message"] for m in jego[-2:])):
         etap = "zamkniety"
+    elif ostatnia["from"]["id"] != PAGE and ZAMKNIECIE.search(ostatnia["message"].strip()):
+        etap = "czeka_na_klienta"
     elif ostatnia["from"]["id"] != PAGE:
         etap = "do_odpisania"
     elif linki:
@@ -133,7 +139,7 @@ def ocen(c, teraz):
     # które dostały link do płatności (CLAUDE.md), raz, i tylko w 24 h od ostatniej
     # wiadomości klienta, bo potem Meta blokuje wiadomości strony.
     krok = ""
-    if etap in ("spam", "zamkniety", "zimny"):
+    if etap in ("spam", "zamkniety", "zimny", "czeka_na_klienta"):
         pass
     elif etap == "do_odpisania":
         krok = "odpisać teraz" if od_klienta_h < 24 else "okno 24 h minęło, odpowiedź tylko z tagiem HUMAN_AGENT"

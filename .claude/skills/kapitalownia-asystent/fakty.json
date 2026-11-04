@@ -360,6 +360,131 @@
    "sprawdzono": "2026-11-04T08:43",
    "waznosc_dni": 3,
    "wazne_do": "2026-12-31"
+  },
+  {
+   "tekst": "NOWEFIO 2027 priorytety 2-4: dotacja od 100 do 300 tys. zł, rocznie 50-150 tys. zł, maksimum zależy od najwyższego przychodu z 3 lat (powyżej 30 tys. zł)",
+   "wartosci": [
+    "100 tys. zł",
+    "300 tys. zł",
+    "150 tys. zł",
+    "50 tys. zł",
+    "30 tys. zł",
+    "30.000 zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:742",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: wykluczone organizacje zarejestrowane po 31 grudnia 2025 r.",
+   "wartosci": [
+    "31 grudnia"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:488",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: jedna oferta na organizację, próg 160 z 200 punktów (80%), bez wkładu własnego",
+   "wartosci": [
+    "80%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:1031",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: projekty od 1 kwietnia 2027 r. do 31 grudnia 2029 r., co najmniej 6 miesięcy, start w 2027",
+   "wartosci": [
+    "1 kwietnia",
+    "31 grudnia",
+    "6 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:722",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027 priorytety 2-4 i PROO 1a: nabór od 16 listopada do 16 grudnia 2026 r. do 12.00, wyniki do końca marca 2027 r.",
+   "wartosci": [
+    "16 listopada",
+    "16 grudnia",
+    "12 godz"
+   ],
+   "zrodlo": "https://niw.gov.pl/nowefio-i-proo-1a-wiemy-kiedy-rusza-nabory",
+   "tagi": [
+    "nabor",
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO",
+    "PROO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365,
+   "wazne_do": "2026-12-16"
+  },
+  {
+   "tekst": "NOWEFIO 2025: wskaźnik sukcesu priorytet 2 8%, priorytet 3 20%, priorytet 4 35%, 2296 ofert",
+   "wartosci": [
+    "8%",
+    "20%",
+    "35%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2025_sprawozdanie.txt:726",
+   "tagi": [
+    "statystyka"
+   ],
+   "slowa": [
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżka 1: organizacje zarejestrowane przed 1 listopada 2024 r., dotacja od 30 do 50 tys. zł, zadanie do 31 grudnia 2027 r., próg 80% punktów, +5 pkt bez wcześniejszej dotacji PROO na rozwój",
+   "wartosci": [
+    "30.000 zł",
+    "50.000 zł",
+    "30 tys. zł",
+    "50 tys. zł",
+    "1 listopada",
+    "31 grudnia",
+    "80%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:431",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO"
+   ],
+   "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
   }
  ]
 }

@@ -38,3 +38,6 @@ reports/
 
 # Robocze kopie repo tworzone przez agentów Claude
 .claude/worktrees/
+
+# Pliki tymczasowe Pythona z narzedzia/
+narzedzia/__pycache__/

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>NIW 2027</title>
+<style>
+@font-face { font-family: "Geist"; src: url(../../formularz-zasoby/geist-latin-wght-normal.woff2) format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Geist"; src: url(../../formularz-zasoby/geist-latin-ext-wght-normal.woff2) format("woff2"); font-weight: 100 900; unicode-range: U+0100-02AF; }
+@font-face { font-family: "Newsreader"; src: url(../../formularz-zasoby/newsreader-latin-wght-normal.woff2) format("woff2"); font-weight: 200 800; }
+@font-face { font-family: "Newsreader"; src: url(../../formularz-zasoby/newsreader-latin-ext-wght-normal.woff2) format("woff2"); font-weight: 200 800; unicode-range: U+0100-02AF; }
+:root { --navy: #10192b; --navy2: #182642; --blue: #2256ee; --cream: #faf7f2; --muted: #aab6cd; --line: #2a3a5c; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; background: var(--navy); }
+body { font-family: "Geist", sans-serif; color: var(--cream); padding: 64px 80px 56px; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.marka { display: flex; align-items: center; gap: 18px; font-weight: 600; font-size: 24px; letter-spacing: 2px; }
+.marka svg { width: 40px; height: 44px; }
+.pill { background: var(--blue); border-radius: 99px; padding: 10px 26px; font-weight: 600; font-size: 24px; }
+h1 { margin-top: 48px; font-weight: 800; font-size: 82px; line-height: 1.02; letter-spacing: -2.5px; text-wrap: balance; }
+h1 b { color: var(--blue); font-weight: 800; }
+.sub { margin-top: 20px; font-family: "Newsreader", serif; font-size: 36px; line-height: 1.25; color: var(--muted); }
+.karty { margin-top: 38px; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.karta { background: var(--navy2); border: 2px solid var(--line); border-radius: 28px; padding: 28px 30px 28px; }
+.karta .n { font-size: 22px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+.karta .k { margin-top: 14px; font-size: 52px; font-weight: 800; letter-spacing: -1.5px; line-height: 1; }
+.karta .k span { display: block; font-size: 30px; font-weight: 600; letter-spacing: -0.5px; margin-top: 8px; color: var(--blue); }
+.karta ul { list-style: none; margin-top: 20px; display: grid; gap: 10px; }
+.karta li { font-size: 25px; line-height: 1.3; padding-left: 26px; position: relative; color: #dfe4ee; }
+.karta li::before { content: ""; position: absolute; left: 0; top: 12px; width: 10px; height: 10px; border-radius: 3px; background: var(--blue); }
+.staty { margin-top: 22px; border: 2px solid var(--line); border-radius: 28px; padding: 24px 30px 24px; }
+.staty .n { font-size: 22px; font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+.wiersze { margin-top: 14px; display: grid; gap: 8px; }
+.w { display: grid; grid-template-columns: 170px 1fr 86px; align-items: center; gap: 18px; font-size: 24px; }
+.w .t { color: #dfe4ee; }
+.w .p { height: 16px; border-radius: 99px; background: #22314f; overflow: hidden; }
+.w .p i { display: block; height: 100%; border-radius: 99px; background: var(--blue); }
+.w .v { text-align: right; font-weight: 800; font-size: 32px; letter-spacing: -0.5px; }
+.staty .u { margin-top: 12px; font-size: 22px; color: var(--muted); }
+.cta { margin-top: auto; padding-top: 28px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.cta .t { font-family: "Newsreader", serif; font-size: 36px; line-height: 1.15; }
+.cta .b { background: var(--cream); color: var(--navy); border-radius: 99px; padding: 20px 32px; font-weight: 700; font-size: 28px; white-space: nowrap; }
+.stopka { margin-top: 22px; font-size: 19px; color: #7c89a3; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="marka"><svg viewBox="330 296 612 676" aria-hidden="true"><path fill="#faf7f2" d="M339 635L339 308L345 308C348 309 355 310 362 312C403 322 430 348 438 384L440 394L441 640C442 875 442 888 443 893C453 924 482 946 530 958C536 960 542 961 544 961C545 962 499 962 442 962L339 962L339 635ZM788 961C771 957 755 947 745 935C742 932 736 923 730 916C725 908 718 897 714 892C710 887 700 873 692 860C684 848 670 830 662 818C607 740 574 693 574 692C575 690 597 668 604 663C620 651 636 644 653 642C673 640 693 646 708 660C712 664 735 692 749 712C754 719 789 767 807 792C815 802 827 819 835 830C843 841 852 854 856 858C860 863 866 873 871 879C876 886 887 902 897 915C924 952 930 959 930 961C931 963 797 962 788 961ZM576 592L576 520L635 462C667 430 708 389 726 372L758 340L845 340L932 340L905 366C799 465 661 591 592 649C586 655 579 660 578 661L576 663L576 592Z"/><path fill="#2256ee" d="M541 960C513 954 487 943 471 931L464 926L464 649C464 497 464 372 464 372C465 372 500 391 509 397C531 410 543 425 549 444L551 452L552 707C552 912 552 962 551 962C550 962 546 961 541 960Z"/></svg>KAPITAŁOWNIA</div>
+  <div class="pill">Fundacje, stowarzyszenia, KGW</div>
+</div>
+
+<h1>Od 30 do <b>300&nbsp;tys.&nbsp;zł</b> z&nbsp;NIW na 2027 rok</h1>
+<p class="sub">PROO 1a i NOWEFIO, wnioski od 16 listopada do 16&nbsp;grudnia 2026&nbsp;r.</p>
+
+<div class="karty">
+  <div class="karta">
+    <div class="n">PROO 1a, ścieżka 1</div>
+    <div class="k">30 do 50<span>tys. zł na rozwój organizacji</span></div>
+    <ul>
+      <li>Sprzęt, szkolenia i strategia</li>
+      <li>Rejestracja przed listopadem&nbsp;2024&nbsp;r.</li>
+      <li>Bez progu przychodu</li>
+    </ul>
+  </div>
+  <div class="karta">
+    <div class="n">NOWEFIO 2027</div>
+    <div class="k">100 do 300<span>tys. zł na projekt do 3 lat</span></div>
+    <ul>
+      <li>Bez wkładu własnego</li>
+      <li>Rejestracja do końca 2025&nbsp;r.</li>
+      <li>Ponad 30 tys. zł przychodu w&nbsp;jednym z&nbsp;3&nbsp;ostatnich lat</li>
+    </ul>
+  </div>
+</div>
+
+<div class="staty">
+  <div class="n">Ile ofert NOWEFIO dostało pieniądze w 2025 r.</div>
+  <div class="wiersze">
+    <div class="w"><span class="t">Priorytet 2</span><span class="p"><i style="width:8%"></i></span><span class="v">8%</span></div>
+    <div class="w"><span class="t">Priorytet 3</span><span class="p"><i style="width:20%"></i></span><span class="v">20%</span></div>
+    <div class="w"><span class="t">Priorytet 4</span><span class="p"><i style="width:35%"></i></span><span class="v">35%</span></div>
+  </div>
+  <p class="u">Wniosek musi zdobyć co najmniej 80% punktów, więc liczy się każdy szczegół.</p>
+</div>
+
+<div class="cta">
+  <p class="t">Sprawdź organizację<br>w&nbsp;dwie minuty</p>
+  <div class="b">formularz.kapitalownia.pl/niw</div>
+</div>
+<p class="stopka">Na podstawie regulaminów NIW 2027 i sprawozdania z realizacji NOWEFIO 2025</p>
+</body>
+</html>

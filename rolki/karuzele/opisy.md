@@ -85,3 +85,19 @@ Pieniądze są na działania wokół praw obywatelskich i równości szans. Kamp
 Najtrudniejsze jest dopasowanie pomysłu do celów programu. Napisz SPLOT w wiadomości, czym zajmuje się organizacja i co chcecie zrobić, a podpowiemy, jak ułożyć projekt.
 
 #fundacja #stowarzyszenie #KGW #granty #ngo
+
+## 11. Karuzela „NIW 2027” (08-niw-2027), fakty z regulaminów PROO i NOWEFIO 2027 oraz sprawozdania NOWEFIO 2025 (stan 4.11.2026)
+
+Fundacja, stowarzyszenie albo koło gospodyń? 16 listopada ruszają nabory Narodowego Instytutu Wolności na 2027 rok i warto już teraz wiedzieć, gdzie Wasza organizacja ma szansę.
+
+PROO 1a daje od 30 do 50 tys. zł na rozwój samej organizacji, czyli sprzęt, szkolenia zespołu albo strategię. W ścieżce 1 mogą startować organizacje zarejestrowane przed 1 listopada 2024 r., bez względu na przychód.
+
+NOWEFIO to od 100 do 300 tys. zł na projekt na rok, dwa albo trzy lata, bez wkładu własnego. Startować mogą organizacje zarejestrowane do końca 2025 r., które w jednym z trzech ostatnich lat miały ponad 30 tys. zł przychodu, a od przychodu zależy maksymalna kwota.
+
+Konkurencja jest spora. W 2025 r. w NOWEFIO dofinansowano 8% ofert w priorytecie dla dobra wspólnego, 20% w priorytecie o życiu publicznym i 35% w priorytecie o wzmacnianiu organizacji, a wniosek musi zdobyć co najmniej 80% punktów. Dlatego wybór programu i priorytetu ma tu największe znaczenie.
+
+Wnioski są przyjmowane od 16 listopada do 16 grudnia 2026 r. Przygotowaliśmy krótki formularz, który w dwie minuty pokazuje, w którym programie możecie startować i do jakiej kwoty. Link w pierwszym komentarzu.
+
+Pierwszy komentarz: Formularz kwalifikacyjny https://formularz.kapitalownia.pl/niw/?z=grupa
+
+#fundacja #stowarzyszenie #KGW #NOWEFIO #PROO #ngo
