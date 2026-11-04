@@ -1,0 +1,10 @@
+{
+  "zrodlo": "NIW-CRSO, regulaminy 2027 i sprawozdanie 2025",
+  "slajdy": [
+    { "typ": "okladka", "etykieta": "Fundacja, stowarzyszenie, KGW?", "tytul": "Od 30 do 300 tys. zł z NIW na 2027 rok", "akcent": "300 tys. zł", "podtytul": "PROO 1a i NOWEFIO, wnioski od 16 listopada do 16 grudnia 2026" },
+    { "typ": "punkt", "numer": "01", "tytul": "PROO 1a na rozwój organizacji", "tekst": "Od 30 do 50 tys. zł na sprzęt, szkolenia zespołu i strategię. W ścieżce 1 startują organizacje zarejestrowane przed 1 listopada 2024 r., bez progu przychodu." },
+    { "typ": "punkt", "numer": "02", "tytul": "NOWEFIO na projekty do 3 lat", "tekst": "Od 100 do 300 tys. zł bez wkładu własnego. Potrzebna rejestracja do końca 2025 r. i ponad 30 tys. zł przychodu w jednym z trzech ostatnich lat." },
+    { "typ": "punkt", "numer": "03", "tytul": "Konkurencja jest duża", "tekst": "W 2025 r. w NOWEFIO dofinansowano 8% ofert w priorytecie 2, 20% w priorytecie 3 i 35% w priorytecie 4. Wniosek musi zdobyć co najmniej 80% punktów.", "uwaga": "Dane ze sprawozdania NIW z realizacji NOWEFIO 2025." },
+    { "typ": "koniec", "tytul": "Sprawdź organizację w dwie minuty", "tekst": "Formularz pokaże, w którym programie możecie startować i do jakiej kwoty.", "przycisk": "formularz.kapitalownia.pl/niw" }
+  ]
+}
