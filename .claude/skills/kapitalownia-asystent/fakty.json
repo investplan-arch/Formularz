@@ -485,6 +485,64 @@
    ],
    "sprawdzono": "2026-11-04T19:00",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżka 2: od 150 do 300 tys. zł (rocznie 50 do 100 tys. zł), ścieżka 3: od 300 do 500 tys. zł (rocznie 100 do 200 tys. zł)",
+   "wartosci": [
+    "150 tys. zł",
+    "300 tys. zł",
+    "500 tys. zł",
+    "150",
+    "300",
+    "500"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:663",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 2",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T19:53",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżki 2 i 3: rejestracja przed 1 listopada 2023 r., przychód w jednym z trzech ostatnich zamkniętych lat co najmniej 150 tys. zł (ścieżka 2) albo 500 tys. zł (ścieżka 3), w ścieżce 3 strona ze sprawozdaniami finansowymi z dwóch ostatnich lat",
+   "wartosci": [
+    "1 listopada 2023",
+    "150 tys. zł",
+    "500 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:431",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 2",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T19:53",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżki 2 i 3: zadanie zaczyna się w 2027 r. (od 1 czerwca), kończy się między 30 czerwca a 31 grudnia 2029 r.",
+   "wartosci": [
+    "2029"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:616",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 2",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T19:53",
+   "waznosc_dni": 365
   }
  ]
 }
