@@ -1,0 +1,1202 @@
+                                REGULAMIN
+                       naboru wniosków na duże granty
+                   w ramach projektu „SPLOT WARTOŚCI 2.0”
+
+                           Numer naboru 4/SPLOT/GD/2026
+
+
+
+
+              Program "Obywatele, Równość, Prawa i Wartości" (CERV)
+
+
+
+
+Program finansowany jest przez Unię Europejską. Wyrażone opinie i poglądy są wyłącznie poglądami
+autora (autorów) i niekoniecznie odzwierciedlają poglądy Unii Europejskiej lub Komisji Europejskiej.
+Ani Unia Europejska, ani organ przyznający finansowanie nie mogą ponosić za nie odpowiedzialności.
+
+
+
+                                      27 października 2026
+
+
+
+
+                                                  1
+Spis treści
+
+
+
+
+1. Słownik pojęć ............................................................................................................................................... 3
+2. Przeznaczenie grantów ................................................................................................................................ 6
+3. Podmioty uprawnione do ubiegania się o grant - Kryteria podmiotowe .................................................... 8
+4. Kryteria przedmiotowe dotyczące projektów grantowych........................................................................ 11
+5. Zasady aplikowania o grant........................................................................................................................ 12
+6. Dostępna alokacja środków ....................................................................................................................... 13
+7. Narzędzia i kanały komunikacji .................................................................................................................. 14
+8. Wybór Grantobiorców ............................................................................................................................... 15
+9. Zasady oceny wniosków............................................................................................................................. 16
+   Ocena formalna.......................................................................................................................................... 16
+   Ocena merytoryczna .................................................................................................................................. 17
+   Rozmowy indywidualne ............................................................................................................................. 20
+   Ocena strategiczna..................................................................................................................................... 21
+10. Procedura odwoławcza ............................................................................................................................ 22
+11. Środki zapobiegawcze i łagodzące potencjalne konflikty interesów ....................................................... 24
+12. Działania zapewniające zgodność Grantobiorców i projektów z wartościami UE ................................... 26
+13. Umowa o powierzenie grantu.................................................................................................................. 28
+14. Informacja o trybie wypłacania i rozliczania grantów oraz sprawozdawczości ....................................... 29
+15. Zasady monitorowania i kontroli grantów ............................................................................................... 34
+16. Zasady dotyczące zwrotu i odzyskiwania grantów .................................................................................. 35
+17. Wprowadzanie zmian w projekcie grantowym ....................................................................................... 36
+18. Wykaz załączników................................................................................................................................... 37
+
+
+
+
+                                                                                2
+1. Słownik pojęć
+
+Grant – środki finansowe pochodzące z Programu "Obywatele, Równość, Prawa i Wartości"
+(CERV), które Grantobiorca – organizacja społeczeństwa obywatelskiego otrzyma od
+Operatora na realizację projektu grantowego służącego rozwojowi społeczeństwa
+obywatelskiego.
+
+Grantobiorca – podmiot ubiegający się o grant oraz podmiot wybrany w drodze otwartego
+naboru wniosków ogłoszonego przez Grantodawcę w ramach funduszu grantowego z
+Programu "Obywatele, Równość, Prawa i Wartości" (CERV), w przypadku projektów
+partnerskich grantobiorcą jest Lider oraz Partner
+
+Grantodawca – konsorcjum podmiotów ogłaszające nabory do funduszu grantowego oraz
+wyłaniające Grantobiorców, składające się z następujących podmiotów (Operatorów):
+
+   1. Ośrodek Wspierania Organizacji Pozarządowych (OWOP)
+       ul. S. Bukowskiego 1 lok. 40, 15-066 Białystok
+   2. Fundacja Biuro Inicjatyw Społecznych (BIS)
+       ul. Krasickiego 18/1 piętro, 30-503 Kraków
+   3. Stowarzyszenie Biuro Obsługi Ruchu Inicjatyw Społecznych (BORIS)
+       ul. Warecka 4/6, 00-040 Warszawa
+   4. Centrum Promocji i Rozwoju Inicjatyw Obywatelskich (OPUS)
+       ul. Prezydenta Gabriela Narutowicza 8/10, 90-135 Łódź
+   5. Centrum Promocji i Rozwoju Inicjatyw Obywatelskich (PISOP)
+       ul. Słowiańska 59, 64-100 Leszno
+   6. Centrum Inicjatyw Obywatelskich (CIO), ul. Sienkiewicza 19, 76-200 Słupsk
+   7. Elbląskie Stowarzyszenie Wspierania Inicjatyw Pozarządowych (ESWIP)
+       ul. Stawidłowa 3, 82-300 Elbląg
+   8. Regionalne Centrum Wspierania Inicjatyw Pozarządowych (RCWIP)
+       ul. Mennicza 1, 50-057 Wrocław
+   9. Stowarzyszenie Klon/Jawor, ul. Szpitalna 5/5, 00-031 Warszawa
+   10. Sieć Wspierania Organizacji Pozarządowych SPLOT, ul. Szpitalna 5/5, 00-031 Warszawa
+
+
+                                               3
+Komisja konkursowa – zespół ekspertów (stanowiących personel projektu oraz ekspertów
+zewnętrznych) powołanych przez Grantodawcę, których zadaniem jest formalna i merytoryczna
+ocena wniosków złożonych w ramach naboru oraz wybór Grantobiorców.
+
+Lider - organizacja społeczeństwa obywatelskiego, podpisująca w imieniu Grantobiorcy umowę
+o powierzenie grantu ( dotyczy wniosków złożonych w partnerstwie).
+
+Operator - podmiot wskazany przez Grantodawcę jako strona umowy o powierzeniu grantu.
+
+Organizacja społeczeństwa obywatelskiego (CSO - civil society organisations) struktura
+organizacyjna, której członkowie służą interesowi ogólnemu poprzez proces demokratyczny i
+która odgrywa rolę mediatora między organami państwowymi, a obywatelami. Organizacje
+społeczeństwa obywatelskiego obejmują wszystkie niepaństwowe struktury nienastawione
+na zysk, które są bezstronne i pokojowe, które propagują i chronią podstawowe prawa i
+wartości, na których opiera się UE.
+
+Partner - organizacja społeczeństwa obywatelskiego współrealizująca grant. Partner musi
+spełniać wszystkie kryteria podmiotowe.
+
+Priorytety programu CERV - wzmocnienie zdolności i odporności organizacji społeczeństwa
+obywatelskiego do ochrony i propagowania wartości Unii, w tym demokracji i poszanowania
+praworządności; wspieranie organizacji społeczeństwa obywatelskiego w ich wysiłkach na
+rzecz ochrony, promowania i podnoszenia świadomości w zakresie praw podstawowych i
+wartości demokratycznych; wspieranie dialogu, przejrzystości i dobrych rządów.
+
+Projekt grantowy - przedsięwzięcie opisane we wniosku, na realizację którego Grantobiorca
+otrzyma Grant.
+
+Uczestnicy projektów grantowych - osoby, które w sposób bezpośredni skorzystają z
+realizacji grantów przez Grantobiorców.
+
+Umowa o powierzeniu grantu – umowa regulująca zasady wdrażania projektu grantowego i
+wydatkowania grantu przez organizację społeczeństwa obywatelskiego, a także prawa i
+obowiązki każdej ze stron.
+
+Umowa partnerska - w przypadku projektów partnerskich umowa zawierana pomiędzy
+Liderem, a Partnerem określająca obowiązki Lidera i Partnera oraz podział środków
+                                              4
+finansowych z grantu. Zawarcie umowy partnerskiej jest niezbędnym elementem podpisania
+umowy o powierzenie grantu.
+
+Prawa podstawowe – prawa, wolności i zasady opisane w dokumencie KARTA PRAW
+PODSTAWOWYCH UNII EUROPEJSKIEJ (2016/C 202/02) w tym: godność, wolność, równość,
+solidarność, prawa obywatelskie, wymiar sprawiedliwości https://eur-lex.europa.eu/legal-
+content/PL/TXT/PDF/?uri=CELEX:12016P/TXT&from=DE
+
+Wniosek o powierzenie grantu – dokument aplikacyjny opracowany i składany poprzez
+generator wniosków przez podmiot przystępujący do naboru grantów zawierający opis
+projektu grantowego.
+
+Numer PIC (Participant Identification Code) - unikalny kod identyfikacyjny podmiotów
+uczestniczącym w programach finansowanych ze środków Unii Europejskiej. Numer PIC
+wymagany od Lidera i Partnera ( jeśli dotyczy), przed podpisaniem umowy o powierzenie
+grantu.
+
+
+
+
+                                             5
+2. Przeznaczenie grantów
+
+Granty mogą być przeznaczone wyłącznie na realizację działań realizujących cele i priorytety
+programu CERV:
+
+
+
+●    Wzmocnienie zdolności i odporności organizacji społeczeństwa obywatelskiego do ochrony
+     i propagowania wartości Unii, w tym demokracji i poszanowania praworządności.
+
+
+●    Wspieranie organizacji społeczeństwa obywatelskiego w ich wysiłkach na rzecz ochrony,
+     promowania i podnoszenia świadomości w zakresie praw podstawowych i wartości
+     demokratycznych.
+
+
+●    Wspieranie dialogu, przejrzystości i dobrych rządów, również w przypadkach, gdy
+     przestrzeń dla społeczeństwa obywatelskiego się kurczy.
+
+
+ Cele funduszu grantowego:
+
+
+●    wzmocnienie potencjału organizacji społeczeństwa obywatelskiego oraz objętych
+     wsparciem liderów i liderek na rzecz propagowania i ochrony wartości UE i praw
+     podstawowych;
+
+●    wzmocnienie wśród organizacji objętych wsparciem umiejętności reprezentowania sektora
+     CSO oraz zdolności do podejmowania skutecznych decyzji;
+
+●    zwiększenie obecności CSO w życiu publicznym, a liderów i liderki na forum debaty
+     publicznej;
+
+●    podniesienie poziomu włączania się w procesy stanowienia prawa;
+
+●    wzmocnienie wizerunku CSO - bardziej sprzyjające otoczenie dla organizacji społeczeństwa
+     obywatelskiego;
+
+●    wzmocnienie świadomości znaczenia wartości demokratycznych dla społeczeństwa
+     obywatelskiego oraz roli organizacji w ich aktywnym promowaniu i ochronie.
+
+
+                                               6
+  W projektach grantowych mogą być finansowane następujące działania Grantobiorców:
+
+
+  1. Podnoszenie świadomości na temat praw i wartości wynikających z traktatów UE i
+     Karty oraz docieranie do ogółu społeczeństwa i kluczowych podmiotów, takich jak
+     decydenci polityczni i prawodawcy, przedstawiciele zawodów prawniczych i
+     sądownictwo; kampanie komunikacyjne i informacyjne za pośrednictwem mediów
+     społecznościowych.
+  2. Organizowanie platform obywatelskich i dialogów obywatelskich na tematy związane
+     z prawami i wartościami UE (w tym z wykorzystaniem technologii cyfrowych).
+  3. Koalicje i partnerstwa między organizacjami społeczeństwa obywatelskiego;
+     koordynacja    i   strategiczna   współpraca      między   organizacjami   społeczeństwa
+     obywatelskiego a innymi zainteresowanymi stronami, podmiotami sektora publicznego
+     lub prywatnego.
+  4. Udzielanie bezpłatnych porad, nadzór i monitorowanie polityk, praw i wartości UE
+     wynikających z Traktatów UE i Karty.
+  5. Promocja wdrażania przyjętych przepisów prawa, rozporządzeń i spraw sądowych.
+  6. Partycypacja obywatelska/lobbing/rzecznictwo mające na celu wywieranie wpływu na
+     politykę i przyczynianie się do procesów decyzyjnych (na szczeblu krajowym,
+     regionalnym lub lokalnym), w tym przegląd/aktualizacja/ przyjmowanie polityk i
+     przepisów.
+  7. Badania i analizy mające na celu informowanie o kształtowaniu polityki na szczeblu
+     unijnym i krajowym, opracowanie narzędzi i norm wspierających wartości UE.
+  8. Świadczenie ukierunkowanych usług wsparcia, takich jak wsparcie dla ofiar, wsparcie
+     psychologiczne w radzeniu sobie z zagrożeniami w internecie i poza nim itp.
+
+
+Kwalifikowane są wyłącznie działania realizowane na terenie Polski. Projekty grantowe mogą
+mieć charakter lokalny, regionalny lub ogólnopolski.
+
+Projekty grantowe w naborze na granty duże mogą być realizowane w partnerstwie organizacji
+pozarządowych (Lider i Partner) spełniają kryteria określone dla podmiotu uprawnionego do
+składania wniosków).
+
+
+                                                 7
+3. Podmioty uprawnione do ubiegania się o grant - Kryteria
+   podmiotowe
+Podmioty uprawnione do ubiegania się o grant (Lider oraz Partner) muszą spełniać łącznie
+następujące 4 kryteria podmiotowe:
+
+
+Kryterium 1– Podmiotami uprawnionymi do ubiegania się o grant (Lider oraz Partner) są
+organizacje społeczeństwa obywatelskiego zarejestrowane na terenie Polski w tym organizacje,
+które:
+
+●    mają siedzibę w Polsce;
+
+●    mają charakter niezarobkowy (nie działają dla zysku);
+
+●    działają na szczeblu lokalnym i/lub regionalnym i/lub krajowym;
+
+●    przestrzegają praw podstawowych i wartości, na których opiera się UE;
+
+●    prowadzą działalność w dziedzinach objętych programem CERV;
+
+●    nie są ani podmiotami powiązanymi z Grantodawcą, nie są współpracownikami, ani
+     kontrahentami w ciągu 12 miesięcy przed dniem aplikowania.
+
+
+Podmiotami uprawnionymi do składania wniosków są:
+
+
+●    organizacje pozarządowe, o których mowa w art. 3 ust. 2 UoDPPioW oraz jednostki
+     terenowe stowarzyszeń posiadające osobowość prawną, związki stowarzyszeń, fundacje,
+     koła gospodyń wiejskich, ochotnicze straże pożarne;
+
+●    osoby prawne i jednostki organizacyjne działające na podstawie przepisów o stosunku
+     Państwa do Kościoła Katolickiego w Rzeczypospolitej Polskiej, o stosunku Państwa do
+     innych kościołów i związków wyznaniowych oraz o gwarancjach wolności sumienia i
+     wyznania, jeżeli ich cele statutowe obejmują prowadzenie działalności pożytku
+     publicznego z zastrzeżeniem, że w ramach grantów nie jest możliwe prowadzenie
+     działań w zakresie kultu religijnego;
+
+●    spółdzielnie socjalne;
+
+
+                                               8
+●   spółki akcyjne i spółki z ograniczoną odpowiedzialnością oraz kluby sportowe będące
+    spółkami działającymi na podstawie przepisów ustawy z dnia 25 czerwca 2010 r. o
+    sporcie (Dz. U. z 2026 r. poz. 95 z późn. zm.), które nie działają w celu osiągnięcia zysku
+    oraz przeznaczają całość dochodu na realizację celów statutowych oraz nie
+    przeznaczają zysku do podziału między swoich udziałowców, akcjonariuszy i
+    pracowników.
+
+Podmiotami nieuprawnionymi do składania wniosków są:
+
+
+●   podmioty wskazane w art.3 ust.4 UoDPPioW tj. Partie polityczne, europejskie partie
+    polityczne, związki zawodowe i organizacje pracodawców, samorządy zawodowe, a także
+    fundacje utworzone przez partie polityczne, europejskich fundacji politycznych;
+
+●   spółki prawa handlowego będące państwowymi lub samorządowymi osobami prawnymi;
+
+●   organizacje planujące prowadzenie działań w zakresie kultu religijnego;
+
+●   osoby fizyczne;
+
+●   grupy nieformalne;
+
+●   stowarzyszenia, których członkami są jednostki samorządu terytorialnego;
+
+●   podmioty zależne od władz lokalnych, regionalnych i centralnych, podmiotów publicznych,
+    partii politycznych i podmiotów komercyjnych;
+
+●   podmioty powiązane z Operatorem, partnerzy stowarzyszeni oraz wykonawcy;
+
+●   inni operatorzy programu CERV;
+
+●   organizacje, które otrzymały grant w projekcie SPLOT WARTOŚCI 2.0 w naborach
+    nr 1/SPLOT/GM/2025, 2/SPLOT/GD/2025 lub 3/SPLOT/GM/2026.
+Weryfikacja kryterium będzie prowadzona na podstawie danych wskazanych we wniosku.
+
+Kryterium 2 – Grantobiorca (Lider oraz Partner) nie może podlegać wykluczeniu z możliwości
+ubiegania się o dofinansowanie, w tym wykluczeniu, o którym mowa w art. 207 ust. 4
+ustawy z dnia 27 sierpnia 2009 r. o finansach publicznych. Spełnienie tego kryterium
+weryfikowane jest na podstawie stosownego oświadczenia Grantobiorcy zawartego we
+
+                                                9
+wniosku.
+
+Kryterium 3 – Grantobiorca (Lider oraz Partner) działa z poszanowaniem wartości UE
+określonych w art. 2 Traktatu o Unii Europejskiej i Karcie praw podstawowych Unii
+Europejskiej. Spełnienie tego kryterium weryfikowane jest na podstawie stosownego
+oświadczenia Grantobiorcy zawartego we wniosku.
+
+Kryterium 4 – Grantobiorca (Lider oraz Partner) nie jest powiązany osobowo ani kapitałowo
+z Grantodawcą w tym Operatorem; poprzez powiązania kapitałowe lub osobowe rozumie
+się wzajemne powiązania między Grantobiorcą, a Grantodawcą (wszystkimi Partnerami
+wchodzącymi w skład konsorcjum realizującego projekt) polegające w szczególności na:
+
+
+●   uczestniczeniu w spółce jako wspólnik spółki cywilnej lub spółki osobowej;
+
+●   posiadaniu co najmniej 10% udziałów lub akcji, o ile niższy próg nie wynika z
+    przepisów prawa;
+
+●   pełnieniu funkcji członka organu nadzorczego lub zarządzającego, prokurenta,
+    pełnomocnika;
+
+●   pozostawaniu w związku małżeńskim, w stosunku pokrewieństwa lub powinowactwa w
+    linii prostej, pokrewieństwa drugiego stopnia lub powinowactwa drugiego stopnia w
+    linii bocznej lub w stosunku przysposobienia, opieki lub kurateli;
+
+●   byciu współpracownikiem w ciągu 12 miesięcy od dnia aplikowania (dotyczy
+    członków Zarządu potencjalnych Grantobiorców (Lidera i Partnera).
+
+Kryterium weryfikowane będzie na podstawie złożonego wraz z wnioskiem oświadczenia
+przez Grantobiorcę.
+
+Oświadczenia o braku powiązań z Grantobiorcą składać będą także przedstawiciele
+Grantodawcy uczestniczący w procedurze oceny formalnej i merytorycznej wniosków, a
+także członkowie Komisji konkursowej. Wzór oświadczenia jest zawarty w zapisach karty
+oceny formalnej i merytorycznej.
+
+
+
+
+                                               10
+  4. Kryteria przedmiotowe dotyczące projektów grantowych
+
+Projekty grantowe składane w naborze muszą spełniać następujące kryteria podmiotowe:
+
+
+Kryterium 1 – Realizacja projektu grantowego musi dotyczyć priorytetów programu CERV -
+podnoszenie świadomości na temat praw i wartości poprzez wspieranie organizacji
+społeczeństwa obywatelskiego; wzmocnienie ochrony i propagowania wartości Unii, w tym
+poszanowania praworządności; przyczynianie się do realizacji wartości demokratycznych, w
+tym poprzez wspieranie dialogu, przejrzystości i dobrych rządów, w tym w przypadkach
+kurczenia się przestrzeni dla społeczeństwa obywatelskiego. Kryterium weryfikowane na
+podstawie Informacji zawartych we wniosku.
+
+Kryterium 2 - Realizacja projektu wyłącznie na terenie Polski. Spełnienie niniejszego
+kryterium jest weryfikowane na podstawie zapisów we wniosku.
+
+Kryterium 3 – Wartość wnioskowanego grantu nie może być niższa niż 10 000 euro oraz
+wyższa niż 15 000 euro. Spełnienie niniejszego kryterium jest weryfikowane na podstawie
+zapisów we wniosku.
+
+Kryterium 4 - Czas trwania grantu od 6 do 12 miesięcy. Rozpoczęcie realizacji grantów z
+naboru nr 4/SPLOT/GD/2026 jest możliwe w okresie od 1 czerwca 2027 r. do 31 lipca 2027 r.
+Spełnienie niniejszego kryterium jest weryfikowane na podstawie zapisów wniosku.
+
+
+
+
+                                              11
+  5. Zasady aplikowania o grant
+
+Informacje o konkursie grantowym oraz ogłoszonym naborze są dostępne na stronie
+internetowej http://siecsplot.pl/splot-wartosci/.
+
+Grantobiorca składa wniosek poprzez Generator wniosków aplikacyjnych znajdujący się
+na stronie http://siecsplot.pl/splot-wartosci/ w terminie
+
+od 27 października 2026 r. do 28 grudnia 2026 r. do godz. 12.00
+
+Nabór na granty duże jest naborem jednoetapowym. Rozliczenie grantu następuje na
+podstawie rzeczywiście poniesionych wydatków dla kosztów merytorycznych oraz ryczałtowo
+dla kosztów administracyjnych oraz kosztów rozwoju instytucjonalnego.
+
+Grantobiorca wypełnia wniosek w języku polskim (z wyjątkiem pól dotyczących tytułu
+projektu oraz krótkiego opisu projektu w języku angielskim), natomiast budżet projektu
+grantowego sporządza w walucie EURO.
+
+Harmonogram naboru:
+
+
+                                                       27 października 2026 do 28 grudnia
+   Czas trwania naboru wniosków aplikacyjnych
+                                                                2026 godz.12.00
+
+                                                            05.11.2026 godzina 12.00
+    Sesje informacyjne dla wnioskodawców
+                 (webinary)                                 02.12.2026 godzina 16.00
+
+      Wsparcie Grantobiorców w przygotowaniu
+                                                      27 października 2026 - 28 grudnia 2026
+      wniosku przez animatorów oraz helpdesk
+
+    Publikacja listy rankingowej Grantobiorców                    14 maja 2027
+
+                                                       Grant powinien się rozpocząć w
+            Rozpoczęcie realizacji grantu               terminie od 01 czerwca 2027
+                                                              do 31 lipca 2027
+
+
+
+
+                                              12
+6. Dostępna alokacja środków
+W ramach naboru 4/SPLOT/GD/2026 dostępna alokacja środków to 587 926,60 euro
+
+Równomierne rozłożenie projektów na terenie Polski jest jednym z kryteriów oceny
+strategicznej. W ramach każdego naboru 4% alokacji jest rezerwowana na procedurę
+odwoławczą.
+
+     Wartość wnioskowanego grantu dużego nie może być niższa niż 10 000
+                    euro oraz wyższa niż 15 000 euro.
+
+
+Wkład własny nie jest wymagany. Budżet projektu grantowego sporządzany jest w EURO.
+
+W ramach grantu możliwe jest przeznaczenie:
+do 20% wartości grantu może zostać przeznaczone na koszty administracyjne w tym zarządzanie
+projektem grantowym – rozliczane na podstawie ryczałtu;
+do 20% wartości grantu może zostać przeznaczone na koszty związane z rozwojem
+instytucjonalnym organizacji społeczeństwa obywatelskiego – rozliczane na podstawie ryczałtu.
+
+
+
+
+                                              13
+     7. Narzędzia i kanały komunikacji
+
+ Grantodawcy prowadzą wsparcie dla Grantobiorców w postaci Helpdesk. Wsparcie na
+ obszarze całej Polski jest prowadzone w podziale na Operatorów:
+
+ Nazwa          Województwa objęte
+ Partnera       wsparciem                     Helpdesk                    Strona internetowa
+
+ BORIS          mazowieckie                   helpdesk@boris.org.pl       www.boris.org.pl
+                pomorskie
+ CIO            zachodniopomorskie            helpdesk@cio.slupsk.pl      www.cio.slupsk.pl
+                podlaskie
+ OWOP           lubelskie                     helpdesk@owop.org.pl        www.owop.org.pl
+                lubuskie
+ PISOP          wielkopolskie                 helpdesk@pisop.org.pl       www.pisop.org.pl
+                łódzkie
+ OPUS           śląskie                       helpdesk@opus.org.pl        www.opus.org.pl
+                małopolskie
+                podkarpackie
+ BIS            świętokrzyskie                helpdesk@bis-krakow.pl      www.bis-krakow.pl
+                dolnośląskie
+ RCWIP          opolskie                      helpdesk@rcwip.pl           www.rcwip.pl
+                kujawsko-pomorskie
+ ESWIP          warmińsko-mazurskie           helpdesk@eswip.pl           www.eswip.pl
+ Sieć SPLOT                                                               www.siecsplot.pl
+ KLON                                                                     www.klon.org.pl
+
+Grantobiorca może skorzystać ze wsparcia w postaci:
+ ●     doradztwa indywidualnego;
+
+ ●     szkoleń, seminariów m.in. z zakresu fundraisingu, metod strażniczych i rzeczniczych,
+       komunikacji w tym poprzez media społecznościowe, prowadzenia badań, analiz i innych
+       określonych w diagnozach indywidualnych;
+
+ ●     szkoleń tematycznych w zakresie prawa i polityki UE oraz praw i wartości zapisanych w
+       traktatach UE, Karcie oraz międzynarodowych konwencjach praw człowieka;
+
+ ●     podręcznika Grantobiorcy – „Baza Wiedzy” dostępna na stronie http://siecsplot.pl/splot-
+       wartosci/;
+
+ ●     wsparcia informacyjnego helpdesku oraz wsparcia merytorycznego animatora.
+                                                 14
+  8. Wybór Grantobiorców
+Wybór Grantobiorców zostanie dokonany w otwartym naborze o charakterze ogólnopolskim
+z zachowaniem zasady bezstronności i przejrzystości. Warunkiem udziału w naborze jest
+złożenie wniosku poprzez generator wniosków w terminie ogłoszonego naboru za
+pośrednictwem strony internetowej http://siecsplot.pl/splot-wartosci/ .
+
+Nabór wniosków zakończy się publikacją listy rankingowej Grantobiorców, których projekty
+grantowe zostaną zakwalifikowane do dofinansowania.
+
+Z Grantobiorcami, którzy zakwalifikują się do otrzymania grantu zostaną podpisane umowy o
+powierzeniu grantu.
+
+Grantobiorca (Lider oraz Partner) może realizować tylko jeden projekt grantowy we
+wszystkich naborach w ramach projektu „Splot wartości 2.0”.
+
+Projekty grantowe mogą być realizowane przez organizacje, które realizowały projekt
+grantowy w poprzedniej edycji w ramach projektu “Wzmacniamy Europę SPLOTowymi
+wartościami”.
+
+Nie ma przeciwwskazań, aby Grantobiorca aplikował i realizował projekty grantowe w
+innych projektach w ramach Programu CERV realizowanych na terenie Polski i Unii
+Europejskiej, jednakże w przypadku realizacji projektu u innego Podmiotu - beneficjenta
+Programu CERV jest zobowiązany powiadomić Konsorcjum za pośrednictwem poczty
+elektronicznej na adres helpdesk@owop.org.pl niezwłocznie po wystąpieniu takiej sytuacji.
+Grantobiorca złoży w takim przypadku oświadczenie o tym, że działania i koszty w ramach
+projektów nie będą się pokrywać – brak podwójnego finansowania.
+
+Każdy Grantobiorca może wycofać złożony przez siebie wniosek z uczestnictwa w procedurze
+wyboru Grantobiorców. W tym celu należy na adres e-mail helpdesk@owop.org.pl wysłać
+oświadczenie o wycofaniu wniosku z procedury naboru. Złożenie takiego oświadczenia może
+nastąpić w każdym momencie przeprowadzania procedury wyboru Grantobiorców.
+
+
+
+
+                                             15
+9. Zasady oceny wniosków
+
+Na łączną ocenę wniosku i wyboru Grantobiorców będą składały się następujące etapy:
+
+
+    Ocena formalna
+
+I. Ocena formalna wniosku, zgodnie z kartą oceny formalnej:
+
+          ● czy wniosek został złożony przez podmiot uprawniony (Lider oraz Partner)?
+
+          ● czy podmiot przestrzega praw podstawowych i wartości, na których opiera się UE?
+
+          ● czy wniosek został złożony w terminie naboru?
+
+          ● czy wniosek został złożony na właściwym formularzu poprzez generator
+                wniosków?
+
+          ● czy realizacja działań dotyczy obszaru Polski?
+
+          ● czy czas trwania projektu grantowego wynosi od 6 do 12 miesięcy?
+
+          ● czy we wniosku wskazano uprawnione osoby reprezentujące podmiot?
+
+          ●     czy wniosek zawiera pozytywnie odznaczone oświadczenie, że Grantobiorca (Lider
+                oraz Partner, jeśli dotyczy) nie jest powiązany osobowo i kapitałowo z
+                Operatorem?
+
+          ● czy wniosek zawiera pozytywnie odznaczone oświadczenie, że Grantobiorca (Lider
+                oraz Partner, jeśli dotyczy) nie podlega wykluczeniu z możliwości ubiegania się o
+                dofinansowanie, w tym wykluczeniu, o którym mowa w art.207 ust.4 ustawy z dnia
+                27 sierpnia 2009 r. o finansach publicznych?
+
+
+Potencjalni Grantobiorcy mogą być wezwani do złożenia wyjaśnień/uzupełnień w terminie do 5
+dni roboczych w przypadku wątpliwości weryfikacji kryteriów formalnych. Brak odpowiedzi we
+wskazanym terminie skutkować będzie odrzuceniem oferty.
+Wnioski, które pozytywnie przejdą etap oceny formalnej przechodzą do etapu oceny
+merytorycznej. Wnioski, które nie otrzymają pozytywnej oceny formalnej są odrzucane na tym
+etapie oceny.
+
+                                                 16
+Ocena merytoryczna
+II. Ocena merytoryczna wniosku zgodnie z kartą oceny merytorycznej – ocena punktowa
+dokonywana przez zespół ekspertów skupiony w komisji konkursowej. Każdy wniosek jest
+oceniany niezależnie przez 2 ekspertów (eksperci podpisują klauzulę bezstronności w stosunku do
+ocenianego Grantobiorcy).
+Kryteria merytoryczne:
+A. Istotność: maks. 20 punktów
+
+   ● w jakim stopniu projekt odpowiada na cele programu (0-10 pkt.)
+       Na ile zaplanowane cele odpowiadają celom programu CERV?
+       Na ile zaplanowane działania odpowiadają formom wsparcia opisanym w Regulaminie
+       naboru?
+
+   ● w jakim stopniu cele projektu są zgodne z potrzebami organizacji i potrzebami lokalnymi
+       (0-10 pkt.)
+       Sposób i jakość przeprowadzenia diagnozy problemu i potrzeb grupy docelowej oraz
+       potrzeb organizacji.
+
+B. Jakość: maks. 20 punktów
+
+   ● w jakim stopniu projekt jest spójny i logiczny oraz faktycznie przyczynia się do
+       wzmocnienia potencjału podmiotu (0-10 pkt.)
+       W tym w szczególności:
+       - czy zaplanowane działania kierowane do grup docelowych są spójne i logiczne?
+
+       - czy zaplanowane działania w ramach rozwoju instytucjonalnego są spójne i logiczne?
+
+       - czy zaplanowane działania faktycznie prowadzą do osiągnięcia celów projektu?
+
+       - czy harmonogram zaplanowanych działań jest wykonalny?
+
+       - czy wskazano wykonawców, realizatorów działań?
+
+       - czy we wniosku w opisie działań opisano ryzyko i sposób jego minimalizowania?
+
+       - czy właściwie opisano działania promocyjne i komunikacyjne?
+
+       - czy proponowane działania komunikacyjne i promocyjne są adekwatne do potrzeb i
+       możliwości grup odbiorców projektu?
+                                              17
+   ● w jakim stopniu projekt uwzględnia kwestie płci i dostępności dla osób ze szczególnymi
+      potrzebami (0-10 pkt.)
+
+      W tym w szczególności:
+
+      - czy każdy potencjalnie zainteresowany z przewidzianej w projekcie grupy docelowej
+      może wziąć udział w projekcie po spełnieniu kryteriów, czy jest on częściowo lub
+      całkowicie zamknięty na jakąś konkretną grupę?
+
+      - czy w projekcie zadeklarowano uwzględnienie zasady równości szans i niedyskryminacji
+      wiek niepełnosprawność np. w procesie rekrutacji?
+
+      - czy wniosek przewiduje działania zwiększające dostępność projektu dla osób ze
+      specjalnymi potrzebami z punktu widzenia dostępności architektonicznej, np. działania
+      prowadzone w miejscu zapewniającym dostępność?
+
+       - czy wniosek przewiduje działania zwiększające dostępność projektu dla osób ze
+      specjalnymi potrzebami z punktu widzenia dostępności informacyjnej, cyfrowej np.
+      dostępność napisów na filmach, właściwe przygotowane materiały drukowane, strona
+      internetowa dostępna dla osób z dysfunkcją wzroku, itp.
+
+      - czy wniosek uwzględnia kwestie równości płci, czy uwzględniono kwestie równości płci w
+      procesie rekrutacji? czy działania w projekcie mają równościowy charakter? czy opisano
+      kwestie równości płci w procesie zarządzania/koordynacji?
+
+C. Efektywność finansowa: maks. 10 punktów
+
+   ● w jakim stopniu przedstawione rezultaty uwzględniają nakład finansowy (0-10 pkt.)
+      W tym w szczególności:
+      - racjonalność kosztów - czy podane kwoty są rynkowe, czy nie są zawyżone lub zaniżone
+      w stosunku do cen występujących na rynku?
+
+      - kwalifikowalność kosztów - czy kosztorys nie zawiera wydatków niekwalifikowalnych lub
+      takich, które nie odnoszą się do działań projektowych, lub trudno jest je przypisać do
+      konkretnego działania?
+
+      - przejrzystość budżetu/kosztorysu - czy w kosztorysie wyodrębniono jednostkowe kwoty
+      czy też np. stosowane są takie jednostki jak zestaw w przypadku większych pozycji
+                                              18
+       kosztowych, co utrudnia ocenę racjonalności, czy podano stawkę godzinową za godzinę
+       pracy personelu, zleceniobiorców, czy właściwie określono jednostki miary?
+
+       - efektywność kosztowa - czy uwzględnione w kosztorysie kwoty są zgodne z zasadą
+       uzyskiwania najlepszych efektów z danych nakładów, czy są niezbędne do realizacji
+       projektu?
+
+D. Wpływ: maks. 10 punktów
+
+   ● jakość i trwałość rezultatów oraz planowana zmiana społeczna (0-10 pkt.)
+       W tym w szczególności:
+       - zasięg i znaczenie wpływu działań z punktu widzenia interesariuszy, otoczenia - czy
+       zakładane rezultaty zapoczątkowują proces zmian w środowisku lokalnym?
+
+       - jakość wskaźników - czy zaproponowane rezultaty zostały prawidłowo sformułowane
+       czy zaproponowano właściwe metody pomiaru ich osiągnięcia?
+
+       - spójność działań i rezultatów - czy opisane we wniosku działania i rezultaty są spójne, czy
+       uwzględniono zarówno rezultaty twarde jak i miękkie?
+
+       -trwałość rezultatów i ich upowszechnianie - czy w opisie zawarto plan utrzymania
+       trwałości rezultatów i sposób ich upowszechniania?
+
+       - ewaluacja - czy opisano sposób ewaluacji projektu, czy opis jest adekwatny do
+       zaplanowanych działań i rezultatów zwłaszcza miękkich?
+
+
+
+Średnia punktów przyznanych przez 2 ekspertów stanowi punktację uzyskaną przez Grantobiorcę
+w ocenie merytorycznej. W przypadku dużej rozbieżności ocen powyżej 30% puli punktów wniosek
+zostanie poddany ocenie trzeciego eksperta.
+
+Maksymalna liczba punktów możliwa do uzyskania w ramach kryteriów merytorycznych (bez
+uwzględnienia punktacji z rozmów indywidualnych) to 60 punktów.
+
+Aby otrzymać ocenę pozytywną wniosek musi uzyskać min 60% punktów (czyli min. 36
+punktów), wnioski z niższą liczbą punktów otrzymują ocenę negatywną i nie mogą otrzymać
+dofinansowania.
+
+
+
+                                                19
+Rozmowy indywidualne
+III. Rozmowy indywidualne
+
+Rozmowy indywidualne – przedstawiciele organizacji społeczeństwa obywatelskiego, których
+wnioski w ocenie merytorycznej uzyskały min. 90% punktów czyli min. 54 punkty zostaną
+zaproszone na wideokonferencję/spotkanie, na którym będą mieli okazję przedstawić swój
+pomysł. Komisja będzie składała się z 3 ekspertów, z których każdy będzie miał do dyspozycji 10
+pkt. do przyznania. Przedsięwzięcie w tym etapie może maksymalnie uzyskać 30 pkt.
+
+Kryteria oceny:
+
+   ● oddziaływanie społeczne, w tym na grupę docelową projektu i otoczenie;
+
+   ● jaką szansę na trwałość w perspektywie długofalowej ma dane przedsięwzięcie w
+       kontekście podnoszenia świadomości na temat praw i wartości UE;
+
+   ● w jaki sposób przedsięwzięcie przyczyni się długofalowo do rozwoju potencjału organizacji
+       lub partnerstwa składającej wniosek.
+
+
+
+
+                                              20
+Ocena strategiczna
+IV. Ocena strategiczna wniosku
+Ocena strategiczna polegająca na strategicznej ocenie wniosków rekomendowanych przez
+ekspertów skupionych w Komisji konkursowej mająca na celu weryfikację następujących
+elementów:
+
+   ● identyfikacja projektów w największym stopniu wpisujących się w cele Programu
+     CERV; w tym promujących równość;
+
+   ● zapewnienie równomiernego rozłożenia wsparcia na obszarze całego kraju tak aby
+       wesprzeć obszary o najniższym potencjale i/lub największych potrzebach o co najmniej
+       wojewódzkim zasięgu.
+
+Operator sporządza protokół oceny wniosków oraz listę rankingową zawierającą przyznane oceny
+i wskazującą wnioski wybrane do dofinansowania oraz wnioski znajdujące się na liście
+rezerwowej i publikuje ją na stronie internetowej http://siecsplot.pl/splot-wartosci/
+W przypadku niepodpisania umowy przez Grantobiorcę lub nieukończenia projektu oraz
+oszczędności Grantodawca może podpisać umowę z Grantobiorcą z listy rezerwowej.
+
+
+
+
+                                                21
+    10. Procedura odwoławcza
+W przypadku negatywnej oceny wniosku lub umieszczenie wniosku na liście rezerwowej
+proces naboru zostaje zakończony, jednakże Grantobiorcy przysługuje procedura
+odwoławcza opisana poniżej. W ramach każdego naboru 4% alokacji jest rezerwowana
+na procedurę odwoławczą.
+
+Grantobiorcy, których wniosek uzyskał ocenę negatywną lub którzy mają zastrzeżenia
+proceduralne, przysługuje prawo do złożenia odwołania. Instytucją, która rozpatruje
+odwołanie jest Grantodawca. Celem wniesienia odwołania jest ponowna weryfikacja
+złożonego wniosku oraz dokonanej oceny pod kątem spełnienia kryteriów wyboru
+określonych w procedurze. Odwołanie może dotyczyć każdego etapu oceny wniosku, a także
+sposobu dokonania oceny (w zakresie ewentualnych naruszeń proceduralnych). Gdy kwota
+przeznaczona na nabór nie wystarcza na wybranie wniosku do dofinansowania w formie
+grantu, okoliczność ta nie może stanowić wyłącznej przesłanki wniesienia odwołania.
+
+Sposób złożenia odwołania: Grantobiorca może wnieść odwołanie w terminie 7 dni
+kalendarzowych od dnia doręczenia pisma informującego o wyniku oceny. Terminem
+doręczenia odwołania jest data wpływu. Odwołanie należy wnieść w formie pisemnej na
+następujący adres: helpdesk@owop.org.pl.
+
+Zakres odwołania:
+
+
+●   oznaczenie instytucji właściwej do rozpatrzenia odwołania;
+
+●   oznaczenie Grantobiorcy;
+
+●   tytuł wniosku;
+
+●   wskazanie kryteriów wyboru, z których oceną Grantobiorca się nie zgadza,
+    wraz z uzasadnieniem;
+
+●   wskazanie zarzutów o charakterze proceduralnym w zakresie przeprowadzonej oceny,
+    jeżeli zdaniem Grantobiorcy naruszenia takie miały miejsce, wraz z uzasadnieniem;
+
+●   podpis Grantobiorcy lub osoby upoważnionej do jego reprezentowania.
+
+
+
+                                             22
+Odwołanie jest rozpatrywane przez Grantodawcę w terminie 14 dni roboczych od dnia jego
+otrzymania. Grantodawca informuje Grantobiorcę na piśmie o wyniku rozpatrzenia jego
+odwołania na adres e-mail, z którego wysłano odwołanie.
+
+Podczas rozpatrywania odwołania sprawdzana jest zgodność złożonego wniosku tylko z tym
+kryterium lub kryteriami oceny, które zostały wskazane w odwołaniu lub/oraz w zakresie
+zarzutów dotyczących sposobu dokonania oceny podniesionych przez Grantobiorcę.
+
+W wyniku rozpatrzenia protestu Operator może:
+
+1) nie uwzględnić odwołania;
+
+2) uwzględnić odwołanie; w takim przypadku kieruje wniosek do właściwego etapu oceny albo
+aktualizuje listę rankingową.
+
+
+
+Grantobiorca, którego odwołanie zostało uwzględnione otrzymuje grant pod warunkiem, że
+łączna przyznana punktacja i tym samym miejsce na liście rankingowej, a także dostępna w
+naborze pula środków przeznaczonych na granty, kwalifikuje Grantobiorcę do otrzymania
+grantu. Grantodawca sporządza listę Grantobiorców, z którymi została podpisana umowa o
+powierzenie grantu i publikuje ją na stronie http://siecsplot.pl/splot-wartosci/ niezwłocznie po
+podpisaniu ostatniej umowy o powierzenie grantu w ramach danego naboru.
+
+
+
+
+                                               23
+  11. Środki zapobiegawcze i łagodzące potencjalne konflikty
+interesów
+
+Środki zapobiegawcze i łagodzące mające na celu uniknięcie potencjalnych konfliktów interesów
+będą stosowane na każdym etapie oceny oraz będą zawierały następujące elementy:
+
+   ● Członkowie komisji konkursowej podpiszą deklarację bezstronności w stosunku do
+       ocenianych przez siebie wniosków.
+
+   ● Deklaracja bezstronności będzie dotyczyła następujących aspektów:
+
+   ● Czy Grantobiorca (Lider oraz Partner) nie jest powiązany osobowo ani kapitałowo z
+       Operatorem – poprzez powiązania kapitałowe lub osobowe rozumie się wzajemne
+       powiązania między Grantobiorcą a Operatorem polegające w szczególności na:
+     o uczestniczeniu w spółce jako wspólnik spółki cywilnej lub spółki osobowej,
+     o posiadaniu co najmniej 10% udziałów lub akcji, o ile niższy próg nie wynika z
+         przepisów prawa,
+     o pełnieniu funkcji członka organu nadzorczego lub zarządzającego, prokurenta,
+         pełnomocnika,
+     o pozostawaniu w związku małżeńskim, w stosunku pokrewieństwa lub powinowactwa
+         w linii prostej, pokrewieństwa drugiego stopnia lub powinowactwa drugiego stopnia w
+         linii bocznej lub stosunku przysposobienia, opieki lub kurateli,
+     o byciu współpracownikiem w ciągu 12 miesięcy od dnia aplikowania (dotyczy członków
+         Zarządu potencjalnych Grantobiorców oraz Operatorów),
+     o byciu kontrahentem Operatora skupionego w Konsorcjum w ciągu 12 miesięcy od dnia
+         aplikowania.
+Informacje o zasadach aplikowania o granty dostępne na stronie: http://siecsplot.pl/splot-
+wartosci/
+Lista rankingowa upubliczniona na stronie:
+http://siecsplot.pl/splot-wartosci/
+Informacja o konieczności unikania konfliktu interesów będzie elementem Regulaminu naboru
+oraz będzie przekazywana w trakcie webinariów informacyjnych o naborach.
+
+
+                                               24
+Zasady oceny:
+
+
+●     eksperci oceniający dany wniosek nie oceniają wniosków podmiotów
+      zarejestrowanych na obszarze województwa, w którym działa dany Operator.
+      Celem wyłączenia jest zapewnienie bezstronnej oceny wniosków;
+
+●     w trakcie oceny strategicznej w przypadku konfliktu interesów w stosunku do
+      Grantobiorcy ekspert zostanie wyłączony z oceny.
+
+
+
+
+                                           25
+ 12. Działania zapewniające zgodność Grantobiorców i
+projektów z wartościami UE
+
+Działania zapewniające zgodność Grantobiorców i projektów z wartościami UE:
+
+Działania informacyjne oraz animacyjne: Informacja o celach Programu CERV oraz celach i
+założeniach funduszu grantowego.
+
+Działania edukacyjne – szkolenia tematyczne z zakresu praw i polityk UE oraz praw
+wartości zapisanych w traktatach UE, Karcie oraz międzynarodowych konwencjach
+praw człowieka ze szczególnym uwzględnieniem kwestii równościowych.
+
+Zapisy dotyczące przeznaczenia grantów: Granty mogą być przeznaczone wyłącznie na
+realizację działań realizujących cele i priorytety programu CERV - podnoszenie świadomości
+na temat praw i wartości poprzez wspieranie organizacji społeczeństwa obywatelskiego;
+wzmocnienie ochrony i propagowania wartości Unii, w tym poszanowania praworządności;
+przyczynianie się do realizacji wartości demokratycznych, między innymi poprzez wspieranie
+dialogu, przejrzystości i dobrych rządów zwłaszcza w kontekście kurczenia się przestrzeni dla
+społeczeństwa obywatelskiego.
+Naruszenie wartości UE przez Grantobiorcę spowoduje rozwiązanie umowy, a poniesione
+koszty w związku z realizacją grantu zostaną uznane za niekwalifikowane.
+
+Grantobiorcy, wraz z podpisaną umową są zobowiązani złożyć oświadczenie o
+przestrzeganiu wartości UE wymienionych w art. 2 Traktatu o UE (Artykuł 2: Unia opiera się
+na wartościach poszanowania godności osoby ludzkiej, wolności, demokracji, równości,
+państwa prawnego, jak również poszanowania praw człowieka, w tym praw osób należących
+do mniejszości. Wartości te są wspólne Państwom Członkowskim w społeczeństwie opartym
+na pluralizmie, niedyskryminacji, tolerancji, sprawiedliwości, solidarności oraz na równości
+kobiet i mężczyzn).
+
+Równość szans kobiet i mężczyzn - Ocena potrzeb – diagnoza w ramach projektu
+grantowego powinna obejmować analizę równości płci. Wnioski z tej analizy powinny
+wpłynąć na kształt i realizację działań w ramach projektu. Działania powinny być łatwo
+dostępne dla kobiet i mężczyzn z uwzględnieniem społecznych uwarunkowań
+
+                                               26
+funkcjonowania. Opis równości szans kobiet i mężczyzn w obszarze objętym projektem
+grantowym powinien stanowić element diagnozy projektu oraz mieć odzwierciedlenie w
+planowanych działaniach projektowych oraz rezultatach. Opis równości szans kobiet i
+mężczyzn powinien odnosić się do bezpośrednio do obszaru tematycznego projektu
+grantowego.
+
+
+
+
+                                             27
+    13. Umowa o powierzenie grantu
+Umowa o powierzenie grantu zostanie zawarta w formie dwóch jednobrzmiących
+egzemplarzy pomiędzy Operatorem, a Grantobiorcą. Dopuszcza się możliwość podpisania
+umowy kwalifikowanym podpisem elektronicznym. Podstawą do zawarcia Umowy o
+powierzenie grantu jest decyzja komisji konkursowej ujęta w protokole z jej posiedzenia.
+Zawarcie umowy o powierzeniu grantu jest warunkiem przekazania środków finansowych.
+
+Zawarcie Umowy o powierzenie grantu nastąpi po wyborze Grantobiorcy i projektu
+grantowego pod warunkiem dostarczenia przez Grantobiorcę dokumentów stanowiących
+niezbędne załączniki do Umowy.
+
+Grantobiorca zostanie poproszony o dostarczenie do Operatora, niżej wymienionych
+dokumentów niezbędnych do zawarcia umowy o powierzenie grantu:
+
+●      pisma, w którym wskazano numer wyodrębnionego rachunku bankowego
+       Grantobiorcy i dane osoby/osób reprezentującej podmiot;
+
+●      statutu podmiotu lub inny dokument regulujący działanie podmiotu (dotyczy Lidera oraz
+       Partnera);
+
+●      aktualnego wyciągu z KRS lub innego rejestru (dotyczy Lidera oraz Partnera);
+
+●      kopii umowy partnerskiej zawierającej minimum podział zadań i obowiązków Lidera oraz
+       Partnera, podział środków pochodzących z grantu oraz numer rachunku Partnera, z
+       którego będa ponoszone wydatki (jeśli dotyczy).
+
+●      numer PIC ( Kod Identyfikacyjny Uczestnika) nadawany po rejestracji na Portal
+       Finansowania i Przetargów (EU Portal Funding & Tenders)
+
+
+
+
+                                              28
+  14. Informacja o trybie wypłacania i rozliczania grantów oraz
+sprawozdawczości
+Granty będą przekazywane Grantobiorcom na podstawie podpisanych umów o powierzenie
+grantu w trzech transzach na wskazany wyodrębniony rachunek bankowy Grantobiorcy ( Lider
+w przypadku projektów partnerskich).
+
+Grant wypłacany jest w trzech transzach:
+
+•     I transza w wysokości 75% przyznanej kwoty dotacji – wypłacana po podpisaniu
+umowy o powierzenie grantu, nie wcześniej niż na 10 dni kalendarzowych przed
+rozpoczęciem realizacji grantu;
+
+•     II transza w wysokości 20% przyznanej kwoty dotacji – wypłacana po zatwierdzeniu
+sprawozdania złożonego przez Grantobiorcę z realizacji projektu w połowie okresu jego
+realizacji, oraz rozliczenia w nim co najmniej 30% środków otrzymanych w ramach I transzy.
+W przypadku, gdy w połowie okresu realizacji projektu Grantobiorca nie wykorzysta co
+najmniej 30% środków z I transzy, może – po zatwierdzeniu sprawozdania cząstkowego –
+wnioskować o wypłatę kolejnej zaliczki. Wypłata tej zaliczki uzależniona jest od stopnia
+zaawansowania realizowanych działań projektowych. Termin złożenia sprawozdania
+cząstkowego do 14 dni kalendarzowych od dnia zakończenia okresu sprawozdawczego
+(pierwsza połowa okresu realizacji grantu).
+
+•     III transza w wysokości 5% przyznanej kwoty dotacji – wypłacana po złożeniu i
+zatwierdzeniu sprawozdania końcowego z realizacji projektu. W terminie 30 dni od
+zakończenia realizacji grantu Grantobiorca jest zobowiązany złożyć sprawozdanie z realizacji
+grantu.
+
+Operator zastrzega możliwość wypłacenia Grantobiorcy transzy w terminie późniejszym niż
+wynikającym z umowy o powierzenie grantu pomimo spełnienia przez Grantobiorcę
+wszystkich warunków w sytuacji, gdy nie otrzyma w terminie środków z Komisji Europejskiej.
+
+
+
+
+                                              29
+Rozliczenie kosztów merytorycznych grantu następuje na podstawie rzeczywiście poniesionych
+wydatków.
+
+•       do 20% wartości grantu może zostać przeznaczone na koszty administracyjne w tym
+zarządzanie projektem grantowym (np.: koszty koordynacji, księgowości, artykułów biurowych,
+czynszu i mediów oraz opłaty bankowe) – rozliczanie ryczałtowe,
+
+•       do 20% wartości grantu może zostać przeznaczone na koszty związane z rozwojem
+instytucjonalnym organizacji społeczeństwa obywatelskiego – rozliczanie ryczałtowe.
+
+Kwota grantu ustalona zostanie na podstawie złożonego budżetu przez Grantobiorcę oraz będzie
+podlegała ocenie merytorycznej na etapie oceny wniosków.
+
+Kwota grantu będzie określona w umowie z Grantobiorcą.
+
+Wymagany wyodrębniony rachunek bankowy Lidera, na który zostaną przelane transze grantu. Z
+rachunku projektu ponoszone są wydatki w ramach grantu. W przypadku projektów partnerskich
+możliwe jest przekazanie części środków przez Lidera na wydatki Partnera na statutowy rachunek
+bankowy Partnera, wskazany w umowie partnerskiej.
+
+Zasady ponoszenia wydatków reguluje umowa o powierzenie oraz niniejszy regulamin.
+
+Grantobiorcy są zobowiązani zapisami umowy o powierzenie grantu do ponoszenia
+wydatków w sposób gospodarny, racjonalny i oszczędny. Wydatki będą ponoszone w
+oparciu o budżet grantu ujęty we wniosku o powierzenie grantu.
+
+Ze środków grantu powierzonego Grantobiorcy nie można ponosić kosztów, które nie
+odnoszą się jednoznacznie do grantu, tj:
+
+    ●   podatek od towarów i usług (VAT), jeśli może zostać odliczony w oparciu o ustawę z
+         dnia 11 marca 2004 r. o podatku od towarów i usług (Dz. U. z 2025 r., poz. 775 z
+         późn. zm.);
+
+    ●   zakup nieruchomości gruntowej, lokalowej, budowlanej;
+
+    ●   rezerwy na pokrycie przyszłych strat lub zobowiązań;
+
+    ●   odsetki z tytułu niezapłaconych w terminie zobowiązań;
+
+    ●   koszty kar i grzywien;
+                                                30
+●     koszty procesów sądowych (z wyjątkiem spraw prowadzonych w interesie publicznym);
+
+●     nagrody, premie i inne formy bonifikaty rzeczowej lub finansowej dla osób
+          zajmujących się realizacją grantu;
+
+●     zakup napojów alkoholowych (jest to niezgodne z art. 1 ust. 1 ustawy z dnia 26
+          października 1982 r. o wychowaniu w trzeźwości i przeciwdziałaniu alkoholizmowi
+          (Dz. U. z 2023 r. poz. 2151, z późn. zm.);
+
+●     podatki i opłaty z wyłączeniem podatku dochodowego od osób fizycznych, składek
+          na ubezpieczenie społeczne i zdrowotne, składek na Fundusz Pracy oraz Fundusz
+          Gwarantowanych Świadczeń Pracowniczych, a także opłat za zaświadczenie o
+          niekaralności, opłaty za zajęcie pasa drogowego oraz kosztów związanych z
+          uzyskaniem informacji publicznej;
+
+●     koszty wyjazdów służbowych osób zaangażowanych w realizację grantu na podstawie
+          umowy cywilnoprawnej, chyba że umowa ta określa zasady i sposób podróży
+          służbowych.
+W grancie kwalifikowalne są wydatki ponoszone przed podpisaniem umowy o powierzenie
+grantu, ale w terminie po otrzymaniu informacji o przyznaniu grantu, o ile będą dotyczyć
+okresu realizacji grantu i będą się znajdowały w katalogu wydatków określonych w budżecie
+grantu.
+W ramach realizacji grantu nie jest możliwe pobieranie opłat od odbiorców za usługi
+świadczone w ramach projektu grantowego.
+
+Wydatki w ramach grantu są uznane za kwalifikowalne, jeśli:
+
+
+●         zostały wyliczone w sposób racjonalny i efektywny, z zachowaniem zasad
+          uzyskiwania najlepszych efektów z danych nakładów;
+
+●         zostały poniesione w okresie kwalifikowalności wydatków;
+
+●         zostały poniesione zgodnie z umową o powierzenie grantu, w tym budżetem
+          grantu oraz zgodnie z niniejszym regulaminem.
+
+Ocena kwalifikowalności stawek wynagrodzeń personelu oraz innych wydatków w ramach
+grantu będzie dokonywana w odniesieniu do stawek rynkowych dla poszczególnych
+
+                                                   31
+ wydatków na etapie oceny wniosku.
+
+ W ramach grantu jest możliwe ponoszenie wydatków w przypadku kosztów
+ administracyjnych związanych z utrzymaniem lokalu, księgowością, opłatami za usługi
+ pocztowe i bankowe oraz koordynacją projektu do wysokości 20 % wartości grantu.
+
+ W ramach grantu jest możliwe ponoszenie wydatków na działania związane z rozwojem
+ instytucjonalnym organizacji społeczeństwa obywatelskiego do wysokości 20% wartości
+ grantu. Działania związane z rozwojem instytucjonalnym mogą dotyczyć:
+
+ ●       zakupu wyposażenia na potrzeby organizacji;
+
+ ●       zakupu/organizacji szkoleń dla pracowników, członków, wolontariuszy CSO;
+
+ ●       zakupu usług, promocyjnych, internetowych;
+
+ ●       działań związanych z rozwojem organizacji np. budowaniem strategii;
+
+ ●       inne działania i usługi bezpośrednio związane z rozwojem organizacji.
+Rozliczenie grantu zakłada łącznie:
+     1. złożenie w terminach określonych w umowie o powierzenie grantu sprawozdań wraz z
+        zestawieniem poniesionych wydatków, wyciągiem z wyodrębnionego rachunku
+        bankowego;
+     2. złożenie w terminie wskazanym przez pracownika Operatora odpowiedzialnego za
+        weryfikację sprawozdania kopii (skanów) wylosowanych dokumentów finansowych min.
+        20%, ujętych w zestawieniu (próba dokumentów losowana przez pracownika Operatora
+        odpowiedzialnego za weryfikację sprawozdania);
+     3. złożenie przez Grantobiorcę Oświadczenia o wydatkowaniu środków zgodnie z
+        przeznaczeniem grantu;
+     4. złożenie dodatkowych wyjaśnień i dokumentów (jeśli dotyczy);
+     5. zatwierdzenie przez Operatora sprawozdań.
+Operator weryfikuje i rozlicza sprawozdania w terminie 21 dni roboczych od dnia złożenia
+sprawozdania, przy czym każdorazowe uzupełnienie dokumentów oraz prośba o dodatkowe
+wyjaśnienie wydłuża termin weryfikacji sprawozdania. Wybór próby: liczba losowo wybranych
+dokumentów z liczby dokumentów księgowych wskazanych w zestawieniu (20% dokumentów,
+min. 2 dokumenty).
+                                               32
+Grantobiorca poprzez odpowiednie zapisy Umowy o powierzenie grantu będzie miał obowiązek
+gromadzić dane osobowe odbiorców grantu zgodnie z zakresem przekazanym Grantobiorcy w
+dniu podpisania umowy o powierzenie grantu. Dane te posłużą Operatorowi do
+sprawozdawczości przed Komisją Europejską w tym do potwierdzenia osiągniętych rezultatów.
+
+
+
+
+                                            33
+15. Zasady monitorowania i kontroli grantów
+W celu minimalizowania ryzyka związanego z realizowanym przez Grantobiorcę grantem (w
+tym np. ryzyko nieukończenia wdrażania grantu, ryzyko związane z tematyką realizowanego
+grantu, ryzyko negatywnego postrzegania realizacji grantu przez część opinii publicznej,
+ryzyko realizacji grantu bez poszanowania wartości demokratycznych) Operator będzie
+prowadził monitoring realizacji grantu oraz ocenę ryzyka.
+
+Monitoring będzie prowadzony na każdym etapie realizacji rantu. Do prowadzenia monitoringu
+uprawnieni są pracownicy Operatora. Monitoring będzie prowadzony w następujących formach:
+1.      Wizyty monitoringowej w siedzibie Grantobiorcy i/lub w miejscu realizacji działań.
+2.      Zdalnie poprzez udostępnienie dokumentacji grantu na wniosek Grantobiorcy.
+3.      Zdalnie poprzez śledzenie przekazów medialnych.
+4.      Zdalnie poprzez wezwanie do spotkania zdalnego i złożenia wyjaśnień.
+
+Celem wizyty monitoringowej jest ocena całości lub wybranych zagadnień związanych z
+realizacją grantu w tym monitoring całości lub części dokumentacji merytorycznej związanej z
+realizacją grantu oraz dokumentacji finansowej. Operator powiadamia Grantobiorcę o
+terminie i miejscu wizyty monitoringowej na 5 dni kalendarzowych przed planowaną wizytą za
+pośrednictwem poczty elektronicznej. W przypadku zdalnej kontroli dokumentów
+Grantobiorca ma obowiązek przedłożenia dokumentów wskazanych przez Operatora w
+terminie 5 dni roboczych od dnia otrzymania prośby o przedłożenie dokumentów za
+pośrednictwem poczty elektronicznej.
+Wyniki wizyt monitoringowych oraz zdalnej kontroli dokumentów będą przedstawiane
+Grantobiorcom (w formie protokołu, za pośrednictwem poczty e-mail, najpóźniej w terminie
+21 dni roboczych od przeprowadzenia wizyty monitoringowej lub zdalnej kontroli
+dokumentów) i w uzasadnionych przypadkach będą zawierać rekomendacje ze strony
+Operatora co do modyfikacji sposobu prowadzenia realizowanego grantu, mające na celu
+zapewnienie realizacji założeń. Grantobiorca może ustosunkować się na piśmie (mailowo na
+adres helpdesk Operatora) do wyników monitoringu i uzupełnić je o brakujące dane.
+Umowa o powierzenie grantu zawarta z Grantobiorcą zawiera także zobowiązanie do
+poddania się kontroli przeprowadzanej przez Operatora lub inne uprawnione podmioty.
+
+
+                                                34
+     16. Zasady dotyczące zwrotu i odzyskiwania grantów
+ Grantobiorca zostanie zobowiązany odpowiednimi zapisami w Umowie o powierzenie
+ grantu do zwrotu całości lub części grantu w przypadku:
+
+ ●      wykorzystania go niezgodnie z przeznaczeniem grantu;
+
+ ●      zaistnienia uzasadnionego podejrzenia działań niezgodnych z celami i priorytetami
+        programu CERV;
+
+ ●      sytuacji, w których nie zostaną osiągnięte w pełni założone w projekcie grantowym
+        rezultaty;
+
+ ●      nierozpoczęcia lub przerwania realizacji grantu;
+
+ ●      nieprzedstawienia sprawozdań oraz właściwych dokumentów
+        potwierdzających potwierdzenie osiągnięcia rezultatów;
+
+ ●      stwierdzenia na etapie realizacji grantu naruszenia, nieprawidłowości, które
+        spowodują, że Grantobiorca będzie podlegał wykluczeniu, sankcjom
+        administracyjnym lub anulowaniu finansowania;
+
+ ●      sytuacji, w której Grantobiorca w swojej działalności naruszy wartości Unii, promuje
+        wartości sprzeczne z wartościami Unii oraz angażuje się w działania sprzeczne z
+        wartościami Unii.
+ W przypadku stwierdzenia nieprawidłowości w realizacji grantu Operator wysyła do
+ Grantobiorcy wezwanie do złożenia wyjaśnień oraz przesłania dokumentów z terminem ich
+ przesłania wynoszącym 5 dni roboczych od dnia otrzymania wezwania. Jeśli Grantobiorca nie
+ przedstawi wyjaśnień i dokumentów lub wyjaśnienia nie będą wystarczające Operator
+ wysyła w formie pisemnej mailem oraz pocztą wezwanie do zwrotu grantu lub jego części.
+
+
+Zwrot części grantu będzie rozpatrywany indywidualnie w zależności od etapu realizacji grantu
+i poziomu osiągniętych rezultatów.
+
+ W przypadku konieczności zwrotu przez Grantobiorcę całości lub części grantu dokonuje on
+ zwrotu w ciągu 10 dni roboczych od dnia otrzymania wezwania drogą pisemną (skan pisma
+ wysyłany e mailem, a oryginał pocztą) na konto funduszu grantowego z którego Grantobiorca
+ otrzymał środki.
+                                               35
+17. Wprowadzanie zmian w projekcie grantowym
+Wprowadzenie merytorycznych i/lub organizacyjnych zmian we wniosku o powierzenie
+grantu dotyczących:
+ -   opisu zadań, rezultatów lub innych zmian w części merytorycznej,
+ -   przesunięć kosztów pomiędzy zadaniami z zachowaniem limitów na koszty
+     administracyjne i rozwój instytucjonalny
+jest możliwe w uzasadnionych przypadkach i wymaga złożenia na piśmie wniosku o
+wprowadzenie zmian wraz z uzasadnieniem min 10 dni roboczych przed wprowadzeniem ich
+w życie oraz pisemnej akceptacji Operatora, a także aktualizacji wniosku o powierzenie grantu
+w generatorze.
+Zmiany polegające na zmianie wartości grantu, terminu realizacji grantu lub Partnera
+wymagają zawarcia aneksu do umowy o powierzenie grantu.
+
+
+W przypadku zdarzeń nieprzewidzianych (specjalnych) takich jak pandemie, katastrofy,
+konflikty zbrojne, zmiana prawa, itp. zmiany we wniosku oraz umowie będą rozpatrywane
+indywidualnie.
+
+
+
+
+                                                36
+18. Wykaz załączników
+
+1. Wzór wniosku.
+2. Wzór karty oceny formalnej wniosku.
+3. Wzór karty oceny merytorycznej wniosku.
+4. Wzór karty oceny - rozmowy indywidualne
+5. Wzór umowy o powierzenie grantu.
+6. Wzór sprawozdania z realizacji grantu.
+
+
+
+
+                                            37
+

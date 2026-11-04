@@ -13,9 +13,16 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+try:
+    import fakty_lib  # noqa: E402  (właściciel 4.11.2026: każdy fakt ze źródłem)
+except Exception:  # brak biblioteki nie może wyłączyć pozostałych kontroli
+    fakty_lib = None
+
 DZIENNIK = Path.home() / ".cache" / "kapitalownia" / "wyslane.jsonl"
 ODCZYTY = Path.home() / ".cache" / "kapitalownia" / "odczyty.jsonl"
 WATEK = None
+KLIENT_TEKSTY = []
 OSTATNIA_KLIENTA = None
 ILE = 0
 
@@ -66,7 +73,8 @@ def rozmowa(psid):
     wiad = watek.get("messages", {}).get("data", [])
     nasze = [m.get("message", "") for m in wiad if m["from"]["id"] == page]
     klienta = [m.get("created_time") for m in wiad if m["from"]["id"] != page]
-    global WATEK, OSTATNIA_KLIENTA, ILE
+    global WATEK, OSTATNIA_KLIENTA, ILE, KLIENT_TEKSTY
+    KLIENT_TEKSTY = [m.get("message", "") for m in wiad if m["from"]["id"] != page]
     WATEK = watek.get("id")
     # Liczymy wiadomości do ostatniej wiadomości klienta włącznie; nasze późniejsze
     # odpowiedzi nie unieważniają odczytu.
@@ -150,6 +158,14 @@ def bledy(tekst, psid):
                    for o in odczyty):
             b.append(f"nie przeczytałeś CAŁEJ rozmowy ({ILE} wiadomości) po ostatniej wiadomości klienta; "
                      "list_messages z limitem obejmującym cały wątek, potem odpowiedź na wszystkie jego pytania")
+    # Właściciel 4.11.2026: „nie sprawdzasz informacji”. Liczba, data, stan naboru i warunek
+    # programu przechodzą tylko ze źródłem (fakty.json, fakt.py dodaj) albo z ust klienta.
+    if fakty_lib is not None:
+        braki = fakty_lib.sprawdz(tekst, psid, KLIENT_TEKSTY)
+        if braki:
+            b.append("FAKTY BEZ ŹRÓDŁA: " + "; ".join(braki) + ". Sprawdź w regulaminie albo w aktualnym ogłoszeniu "
+                     f"i zapisz: python3 narzedzia/fakt.py dodaj --psid {psid} --tekst \"…\" --zrodlo <URL albo plik:linia>, "
+                     "albo usuń ten fakt z wiadomości")
     pierwsza = nasze is not None and not [m for m in nasze if m and "Odpowiadasz na komentarz" not in m]
     nasze = nasze or []
     # Właściciel 1.11.2026: w pierwszej wiadomości nigdy o płatności i cenie,

@@ -77,6 +77,23 @@ Pod adresem https://formularz.kapitalownia.pl/splot/ jest bezpłatna wstępna kw
 - **Komentarze pod naszym postem.** Każdy komentujący ma dostać odpowiedź. Gdy komentarzy jest kilkadziesiąt, najpierw dodajesz pod postem jeden komentarz z linkiem do kwalifikacji, bez ceny. Potem piszesz na priv do każdej osoby, która skomentowała: jedno zdanie do tego, co napisała, i link. Nie wklejasz tego samego tekstu wszystkim, bo identyczny szablon miał 18% odpowiedzi.
 - **Po zgłoszeniu z formularza.** Ta osoba sama zostawiła kontakt, więc wolno do niej napisać. Odpowiadasz w następny dzień roboczy, tak jak obiecuje formularz. Zaczynasz od jej wyniku i pomysłu, a cenę podajesz dopiero wtedy, gdy rozmowa dojdzie do etapu rekomendacji.
 
+## Każdy fakt ze źródłem (właściciel 4.11.2026, bezwzględnie)
+
+Właściciel: „nie sprawdzasz informacji”. Liczbę, datę, stan naboru albo warunek programu piszesz klientowi tylko wtedy, gdy masz na to źródło. Pilnuje tego hook. Wiadomość przejdzie, gdy fakt:
+- jest w `fakty.json` (regulaminy SPLOT i Wsparcia w starcie, przepisy, cennik, każdy z plikiem i linią),
+- albo sprawdziłeś go teraz i zapisałeś: `python3 narzedzia/fakt.py dodaj --psid <PSID> --tekst "…" --zrodlo <URL albo plik:linia> [--tagi nabor]`,
+- albo podał go sam klient.
+
+Nasze wcześniejsze wiadomości nie są źródłem.
+
+- **Informacja od właściciela jest źródłem.** Zapisujesz ją z datą w `nabory.md` albo `wiedza.md` i dodajesz do `fakty.json` przez `fakt.py dodaj --trwale` ze wskazaniem tej linii.
+- **Stan naboru** (ruszy, trwa, zamknięty, kolejny) sprawdzasz na stronie urzędu albo pośrednika. Zapis z tagiem `nabor` jest ważny 3 dni.
+- **Kwoty w złotych z przeciętnego wynagrodzenia** (np. 184 tys. zł, 55 tys. zł, 9,2 tys. zł) bierzesz z aktualnego komunikatu GUS albo z ogłoszenia pośrednika. Bez tego piszesz krotność, np. „do 20-krotności przeciętnego wynagrodzenia”.
+- **Warunek programu** (wymaga, nie można, odpada, wyklucza) bierzesz z regulaminu. Linię zapisujesz przez `fakt.py dodaj --psid`.
+- **Przed wysłaniem** możesz sprawdzić wiadomość: `python3 narzedzia/fakt.py sprawdz --psid <PSID> "treść"`.
+
+Analiza z 4.11.2026: ta kontrola zatrzymałaby 404 z 1131 naszych wcześniejszych wiadomości. Najczęściej chodziło o 184 tys. zł (145 razy), „umorzenie 40%” (39 razy, a regulamin Wsparcia w starcie mówi o 6-krotności, najwyżej 50%), 55 tys. zł (36 razy), 9,2 tys. zł (28 razy) i ceny spoza cennika, np. 1100 zł i 2350 zł. W 70 wiadomościach był stan naboru. Ta część, która opierała się na informacji właściciela (nabór Wsparcia w starcie jeszcze w tym roku), była prawdziwa, ale nie była zapisana jako fakt. Błędy brały się z mojego własnego szukania.
+
 ## Do decyzji właściciela (stan 3.11.2026)
 
 1. Telefon właściciela proponowany już przy pierwszej obiekcji zaufania, a nie „w ostateczności”.

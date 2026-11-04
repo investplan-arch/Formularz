@@ -1,0 +1,365 @@
+{
+ "opis": "Sprawdzone fakty, które wolno pisać klientom bez ponownego sprawdzania. Każdy ma źródło (plik z linią albo URL) i datę sprawdzenia. Nowy fakt dodajesz przez narzedzia/fakt.py dodaj --trwale.",
+ "fakty": [
+  {
+   "tekst": "SPLOT 2.0 (nabór 4/SPLOT/GD/2026): grant od 10 000 do 15 000 euro",
+   "wartosci": [
+    "10 000 euro",
+    "15 000 euro",
+    "10 tys. euro",
+    "15 tys. euro"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:371",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: wnioski od 27 października do 28 grudnia 2026 r. do godz. 12.00 w generatorze",
+   "wartosci": [
+    "27 października",
+    "28 grudnia",
+    "12 godz"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:391",
+   "tagi": [
+    "nabor",
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365,
+   "wazne_do": "2026-12-28"
+  },
+  {
+   "tekst": "SPLOT 2.0: lista rankingowa 14 maja 2027 r.",
+   "wartosci": [
+    "14 maja"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_harmonogram.txt",
+   "tagi": [
+    "nabor"
+   ],
+   "slowa": [
+    "SPLOT"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365,
+   "wazne_do": "2027-05-14"
+  },
+  {
+   "tekst": "SPLOT 2.0: projekt 6 do 12 miesięcy, start od 1 czerwca do 31 lipca 2027 r.",
+   "wartosci": [
+    "12 miesięcy",
+    "6 miesięcy",
+    "1 czerwca",
+    "31 lipca"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:375",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: wkład własny nie jest wymagany, budżet w euro",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:437",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "wkład"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: do 20% grantu na koszty administracyjne i do 20% na rozwój instytucjonalny, ryczałt",
+   "wartosci": [
+    "20%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:440",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "20%",
+    "administracyjn",
+    "rozwój"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: transze 75% po umowie (najwcześniej 10 dni przed startem), 20% po sprawozdaniu, 5% na koniec",
+   "wartosci": [
+    "75%",
+    "20%",
+    "5%",
+    "10 dni"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:940",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "transz",
+    "zaliczk"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: jedna organizacja realizuje najwyżej jeden projekt; wykluczone organizacje z grantem w 1/SPLOT/GM/2025, 2/SPLOT/GD/2025, 3/SPLOT/GM/2026",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:503",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: nie można pobierać opłat od odbiorców projektu",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:1030",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "opłat"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: uprawnione NGO z art. 3 ust. 2 UoDPPiW, fundacje, KGW, OSP, spółdzielnie socjalne, spółki non-profit; wpis w KRS lub innym rejestrze",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:238",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "KRS",
+    "ewidencj",
+    "stowarzyszeni",
+    "fundacj",
+    "klub"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie: do 20-krotności przeciętnego wynagrodzenia, 0,25% rocznie stałe, spłata do 7 lat, karencja do 12 miesięcy",
+   "wartosci": [
+    "20-krotności",
+    "0,25%",
+    "7 lat",
+    "12 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_regulamin_nr3_FERS.txt:335",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "Wsparcie w starcie",
+    "pożyczk"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie: umorzenie jednorazowo 6-krotności przeciętnego wynagrodzenia, nie więcej niż 50% pożyczki, po 12 miesiącach firmy, dla bezrobotnych",
+   "wartosci": [
+    "6-krotności",
+    "50%",
+    "12 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_regulamin_nr3_FERS.txt:698",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "umorz"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie: 12 miesięcy przed wnioskiem bez działalności i bez zawieszenia; pracujący, gdy przychód z 3 miesięcy nie przekracza przeciętnego wynagrodzenia",
+   "wartosci": [
+    "12 miesięcy",
+    "3 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_regulamin_nr3_FERS.txt:434",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "Wsparcie w starcie",
+    "pożyczk",
+    "zawiesz",
+    "pracując",
+    "etat"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie: koszty stałe do 6 miesięcy, bez kosztów osobowych i bez gruntu niezabudowanego",
+   "wartosci": [
+    "6 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_regulamin_nr3_FERS.txt:340",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "Wsparcie w starcie",
+    "pożyczk"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Dotacja z urzędu pracy: do 6-krotności przeciętnego wynagrodzenia, firma co najmniej 12 miesięcy, zabezpieczenie obowiązkowe",
+   "wartosci": [
+    "6-krotności",
+    "12 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/przepisy.md:40",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "urzęd",
+    "PUP",
+    "dotacj"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PFRON na działalność: do 6-krotności, przy 24 miesiącach do 15-krotności przeciętnego wynagrodzenia",
+   "wartosci": [
+    "6-krotności",
+    "15-krotności",
+    "24 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:146",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PFRON"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Cennik Kapitałowni (wiedza.md)",
+   "wartosci": [
+    "1900 zł",
+    "850 zł",
+    "1050 zł",
+    "990 zł",
+    "1290 zł",
+    "1200 zł",
+    "1490 zł",
+    "690 zł",
+    "800 zł",
+    "2490 zł",
+    "3100 zł",
+    "3900 zł",
+    "149 zł",
+    "249 zł",
+    "2%",
+    "3%",
+    "5%",
+    "7 dni",
+    "14 dni"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:53",
+   "tagi": [
+    "cena"
+   ],
+   "slowa": [],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Fundacja: wpis do KRS 250 zł, z działalnością gospodarczą 500 zł, na działalność gospodarczą co najmniej 1000 zł",
+   "wartosci": [
+    "250 zł",
+    "500 zł",
+    "1000 zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:95",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "KRS",
+    "fundacj"
+   ],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Kapitałownia: 4 lata doświadczenia, 211 wniosków z dofinansowaniem, 86% skuteczności (dane właściciela)",
+   "wartosci": [
+    "4 lata",
+    "86%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:18",
+   "tagi": [
+    "firma"
+   ],
+   "slowa": [],
+   "sprawdzono": "2026-11-04T08:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie (informacja właściciela 26 i 28.10.2026): kolejny nabór otwiera się na przełomie listopada i grudnia 2026, ruszy jeszcze w tym roku, pośrednik podaje termin około 2 tygodnie wcześniej, a nabory zamykają się w kilka minut",
+   "wartosci": [
+    "2 tygodnie",
+    "2 tyg"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/nabory.md:145",
+   "tagi": [
+    "nabor",
+    "warunek"
+   ],
+   "slowa": [
+    "Wsparcie w starcie",
+    "Wsparcia w starcie",
+    "pożyczk",
+    "WwS",
+    "nabór na pożyczkę"
+   ],
+   "sprawdzono": "2026-11-04T08:43",
+   "waznosc_dni": 3,
+   "wazne_do": "2026-12-31"
+  }
+ ]
+}
