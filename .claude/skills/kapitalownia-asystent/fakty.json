@@ -761,6 +761,27 @@
    ],
    "sprawdzono": "2026-11-05T06:20",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "Pożyczka rozwojowa FE dla Śląskiego (BGK, Fundusz Powierniczy): dla mikro, małych i średnich firm z inwestycją w śląskim, do 5 mln zł, 2% rocznie, spłata do 84 miesięcy (7 lat), karencja do 12 miesięcy po zakończeniu inwestycji; pośrednicy m.in. ŁARR (Katowice i Częstochowa); warunki orientacyjne",
+   "wartosci": [
+    "5 mln zł",
+    "2%",
+    "7 lat",
+    "84 miesięcy",
+    "12 miesięcy"
+   ],
+   "zrodlo": "https://funduszeue.slaskie.pl/web/guest/w/pozyczki-rozwojowe-dla-przedsiebiorstw",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "pożyczka rozwojowa",
+    "śląskie",
+    "BGK"
+   ],
+   "sprawdzono": "2026-11-05T08:27",
+   "waznosc_dni": 30
   }
  ]
 }
