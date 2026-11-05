@@ -799,6 +799,37 @@
    ],
    "sprawdzono": "2026-11-05T12:06",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: przychód obejmuje wszystkie działalności, także dotacje ze źródeł zewnętrznych (bez darowizn rzeczowych)",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:169",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "przychód",
+    "dotacje",
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-05T12:13",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: jeden wniosek w konkursie; NOWEFIO: jedna oferta; regulaminy nie zakazują złożenia wniosku do obu programów; PROO zakazuje podwójnego finansowania tych samych kosztów",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:980",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO",
+    "NOWEFIO",
+    "oba programy",
+    "jednocześnie"
+   ],
+   "sprawdzono": "2026-11-05T12:13",
+   "waznosc_dni": 365
   }
  ]
 }
