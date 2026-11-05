@@ -74,6 +74,14 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Tomasz Waligóra: nowy, firma (onkologia, badania kliniczne, sprzęt do tlenoterapii), 4.11 ok. 20:20 rozmowę prowadzi właściciel.
 - Formularze: Włodzimierz Kaczkowski (Fundacja Scena Współczesna, mazowieckie, NIW 2027), mail z odpowiedzią wysłany 4.11 19:56. Barbara Czerwińska (CT Academy, fundacja, pomorskie, B.CZERWINSKA@CTRAVEL.PL) 4.11 20:15, bez odpowiedzi.
 
+### 5.11 (stan wieczorem)
+- Borys Pardus (Stowarzyszenie Polskich Weteranów Szermierki, od 2012, przychód ponad 200 tys.): PROO 1a ścieżka 2, obiecano „koszt prześlę w kolejnej wiadomości” 5.11 20:20. Ceny PROO/NIW brak w wiedza.md, decyzja właściciela. Okno do 6.11 20:05 UTC.
+- Paulina Pięta: fundacja od 6.2024 i spółka od 7.2026, pyta o warunki. 5.11 ok. 20:40 dopytaliśmy o cel środków. Okno do 6.11 10:17 UTC.
+- Anna Opyrchał: mąż na wypowiedzeniu, blacharstwo, Kalwaria Zebrzydowska. Dostała cenę 1900, bez odpowiedzi. Okno zamknięte 6.11 10:13 UTC.
+- Tomasz Waligóra: dostał cenę pożyczki rozwojowej 990 netto + 2% (5.11 08:27), bez odpowiedzi.
+- Edyta Dziadczyk: 5.11 10:15 „zaraz zadzwonimy”.
+- Formularze NIW 2027 (odpowiedzi mailem wysłane przez drugą sesję): CT Academy, Scena Współczesna, MKS Stal Poniatowa, Aktywni Bez Barier, Polskie Realia Ludowe, SPR Oleśnica. Bez odpowiedzi: Fundacja KS Move Camp (kontakt@movecamp.pl, 5.11 12:52), Fundacja Inspiruj Zdrowo (inspirujzdrowo@gmail.com, podlaskie, 5.11 20:00).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
