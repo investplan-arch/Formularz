@@ -1,0 +1,6 @@
+{
+ "opis": "Osoby, którym nigdy nie odpisujemy (decyzja właściciela). Hook sprawdz_wiadomosc.py blokuje wysyłkę, leady.py pomija te osoby.",
+ "osoby": {
+  "28905352505760326": "Paulina Pięta, klientka starej marki; właściciel 5.11.2026: nigdy nie odpisywać, ignorować"
+ }
+}

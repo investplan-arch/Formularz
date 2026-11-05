@@ -101,3 +101,7 @@ Analiza z 4.11.2026: ta kontrola zatrzymałaby 404 z 1131 naszych wcześniejszyc
 2. Zbieranie e-maila albo telefonu przy „nie teraz”, z mailem w dniu ogłoszenia naboru.
 
 Rozstrzygnięte 3.11.2026: umowa nie jest standardem i idzie tylko na prośbę klienta. Każdy komentujący dostaje odpowiedź. Kwalifikacja zaczyna się od bezpłatnego formularza, bez cen.
+
+## Osoby, którym nie odpisujemy
+
+Lista w `nie_odpisuj.json` (PSID i powód). Hook blokuje wysyłkę, `leady.py` daje etap `nie_odpisujemy` i nie pokazuje ich w listach do odpisania. Dopisuje się tylko na polecenie właściciela (pierwszy wpis 5.11.2026, klientka starej marki).

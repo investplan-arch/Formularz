@@ -20,6 +20,7 @@ Etapy (wzorowane na SalesGPT i AgentSDR, dopasowane do naszej ścieżki):
     zgloszona_platnosc  klient napisał, że zapłacił (sprawdzić w Stripe)
     zamkniety      klient odmówił albo zrezygnował
     spam           propozycje wymiany albo zakupu opinii (nie odpisujemy)
+    nie_odpisujemy osoby z nie_odpisuj.json, decyzja właściciela (nigdy nie odpisujemy)
     czeka_na_klienta  klient zamknął wątek („Ok. Dam znać”), ruch po jego stronie
 """
 import argparse
@@ -55,6 +56,12 @@ ZAPLATA = re.compile(r"(wpłat\w*[^.?!]{0,20}(dokonan|poszł|zrobion)|zapłacił
 # Krótkie zamknięcie od klienta („Ok. Dam znać”, „Dziękuję”) nie czeka na odpowiedź.
 ZAMKNIECIE = re.compile(r"^\W*(ok\W*|okej\W*|dobrze\W*|super\W*|dzięki\W*|)*(dam znać|odezwę się|odezwiemy się|dziękuję( bardzo)?|"
                         r"dziękujemy|pozdrawiam|do usłyszenia|przemyślę|zastanowię się)\W*$", re.I)
+try:
+    NIE_ODPISUJ = json.loads((Path(__file__).resolve().parent.parent / ".claude/skills/kapitalownia-asystent/nie_odpisuj.json")
+                             .read_text())["osoby"]
+except Exception:
+    NIE_ODPISUJ = {}
+# Osoby z nie_odpisuj.json (decyzja właściciela) dostają etap „nie_odpisujemy” i nie trafiają do list do odpisania.
 SPAM = re.compile(r"(wymian\w* (się )?opini|zakup\w* opini|wymieni\w* (się )?opini|opinie za|polubienie za)", re.I)
 
 
@@ -115,7 +122,9 @@ def ocen(c, teraz):
     odp_po_linku = bool(linki) and any(m["created_time"] > linki[0]["created_time"] for m in jego)
 
     ostatnie_klienta = " ".join(m["message"] for m in jego[-3:])
-    if not jego:
+    if klient.get("id") in NIE_ODPISUJ:
+        etap = "nie_odpisujemy"
+    elif not jego:
         etap = "zimny"
     elif SPAM.search(tekst_klienta):
         etap = "spam"
@@ -139,7 +148,7 @@ def ocen(c, teraz):
     # które dostały link do płatności (CLAUDE.md), raz, i tylko w 24 h od ostatniej
     # wiadomości klienta, bo potem Meta blokuje wiadomości strony.
     krok = ""
-    if etap in ("spam", "zamkniety", "zimny", "czeka_na_klienta"):
+    if etap in ("spam", "nie_odpisujemy", "zamkniety", "zimny", "czeka_na_klienta"):
         pass
     elif etap == "do_odpisania":
         krok = "odpisać teraz" if od_klienta_h < 24 else "okno 24 h minęło, odpowiedź tylko z tagiem HUMAN_AGENT"

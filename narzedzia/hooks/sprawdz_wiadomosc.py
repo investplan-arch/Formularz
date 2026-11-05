@@ -211,6 +211,14 @@ def main():
     if not tekst:
         return 0
     psid = str(dane.get("recipient_id", ""))
+    try:
+        zakaz = json.loads((Path(__file__).resolve().parents[2] / ".claude/skills/kapitalownia-asystent/nie_odpisuj.json")
+                           .read_text())["osoby"]
+    except Exception:
+        zakaz = {}
+    if psid in zakaz:
+        print("Wiadomość zatrzymana: tej osobie nigdy nie odpisujemy (" + zakaz[psid] + ").", file=sys.stderr)
+        return 2
     lista = bledy(tekst, psid)
     if not lista:
         try:
