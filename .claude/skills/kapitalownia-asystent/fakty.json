@@ -738,6 +738,29 @@
    ],
    "sprawdzono": "2026-11-04T22:25",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: najwyższy przychód z 3 ostatnich zamkniętych lat ponad 30 tys. zł daje 100 tys. zł, ponad 100 tys. zł do 200 tys. zł, ponad 150 tys. zł do 300 tys. zł; stowarzyszenia zwykłe uprawnione",
+   "wartosci": [
+    "100 tys. zł",
+    "200 tys. zł",
+    "300 tys. zł",
+    "100",
+    "200",
+    "30 tys. zł",
+    "150 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:744",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO",
+    "przychód",
+    "limit"
+   ],
+   "sprawdzono": "2026-11-05T06:20",
+   "waznosc_dni": 365
   }
  ]
 }
