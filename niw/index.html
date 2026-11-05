@@ -376,7 +376,7 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     if (nowefio && r >= 1 && p >= 1) {
       var max = p >= 3 ? 300 : p === 2 ? 200 : 100;
       var pr = [];
-      if (c.indexOf('wsparcie organizacji') > -1) pr.push('priorytet 4, w 2025 r. dofinansowano 35% ofert');
+      if (c.indexOf('wsparcie organizacji') > -1) pr.push('priorytet 4, jeśli projekt wzmacnia wiele organizacji w skali co najmniej województwa, w 2025 r. dofinansowano 35% ofert');
       if (c.indexOf('życie publiczne') > -1) pr.push('priorytet 3, w 2025 r. dofinansowano 20% ofert');
       if (c.indexOf('działania dla ludzi') > -1 || !pr.length) pr.push('priorytet 2, w 2025 r. dofinansowano 8% ofert');
       lista.push({ s: f === 'Organizacja kościelna' ? 'spr' : 'tak', n: 'NOWEFIO 2027', k: (max === 100 ? '100 tys. zł' : 'od 100 do ' + max + ' tys. zł') + ' na projekt na 1 do 3 lat. Najlepiej ' + pr.join(', a także ') + '.' });
