@@ -782,6 +782,23 @@
    ],
    "sprawdzono": "2026-11-05T08:27",
    "waznosc_dni": 30
+  },
+  {
+   "tekst": "SPLOT 2.0: granty wyłącznie na cele CERV (prawa podstawowe, wartości UE, demokracja); działania m.in. kampanie o prawach, dialog obywatelski, koalicje, bezpłatne porady, rzecznictwo, badania, usługi wsparcia dla ofiar; nie na samą rehabilitację czy działalność zdrowotną",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:151",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "działania",
+    "CERV",
+    "rehabilitacja",
+    "prawa"
+   ],
+   "sprawdzono": "2026-11-05T12:06",
+   "waznosc_dni": 365
   }
  ]
 }
