@@ -830,6 +830,22 @@
    ],
    "sprawdzono": "2026-11-05T12:13",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: wspieranie działań statutowych oraz rozwoju instytucjonalnego, w tym podnoszenie standardów pracy i zarządzania organizacją",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:525",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "zarządzanie",
+    "standardy",
+    "działania statutowe"
+   ],
+   "sprawdzono": "2026-11-05T20:20",
+   "waznosc_dni": 365
   }
  ]
 }
