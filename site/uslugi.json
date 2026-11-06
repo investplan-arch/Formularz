@@ -152,7 +152,7 @@
         "lista obowiązków po rejestracji, w tym zgłoszenie do urzędu skarbowego"
       ],
       "cena": 690,
-      "stripe": "",
+      "stripe": "https://buy.stripe.com/cNieVf85G7lQ44Dfvn6Zy0e",
       "successFee": 800,
       "feeKiedy": "po wpisie fundacji do KRS",
       "feeTotal": "Łącznie 1490 zł. Opłatę sądową i taksę notarialną fundator płaci osobno."
