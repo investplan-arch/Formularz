@@ -104,4 +104,4 @@ Rozstrzygnięte 3.11.2026: umowa nie jest standardem i idzie tylko na prośbę k
 
 ## Osoby, którym nie odpisujemy
 
-Lista w `nie_odpisuj.json` (PSID i powód). Hook blokuje wysyłkę, `leady.py` daje etap `nie_odpisujemy` i nie pokazuje ich w listach do odpisania. Dopisuje się tylko na polecenie właściciela (pierwszy wpis 5.11.2026, klientka starej marki).
+Lista w `nie_odpisuj.json` (PSID, adresy e-mail, nazwy organizacji i powód). Blokada obowiązuje na każdym kanale: hook `sprawdz_wiadomosc.py` blokuje Messengera, hook `blokada_maili.py` blokuje maile i wersje robocze, `leady.py` daje etap `nie_odpisujemy`. Przed odpowiedzią na zgłoszenie z formularza sprawdzasz, czy to nie osoba z tej listy pod inną nazwą (6.11.2026 Paulina Pięta wróciła jako Fundacja Inspiruj Zdrowo i dostała maila, właściciel: nie odpisywać jej nigdzie). Dopisuje się tylko na polecenie właściciela (pierwszy wpis 5.11.2026, klientka starej marki).
