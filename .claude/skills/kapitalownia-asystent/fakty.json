@@ -850,6 +850,22 @@
    ],
    "sprawdzono": "2026-11-05T20:20",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie: do wniosku zaświadczenie z PUP o statusie bezrobotnego, regulamin nie wymaga minimalnego okresu bezrobocia; umorzenie dla osób bezrobotnych na etapie ubiegania się o pożyczkę",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_regulamin_nr3_FERS.txt:527",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "bezrobotna",
+    "status",
+    "zaświadczenie",
+    "Wsparcie w starcie"
+   ],
+   "sprawdzono": "2026-11-06T13:55",
+   "waznosc_dni": 365
   }
  ]
 }
