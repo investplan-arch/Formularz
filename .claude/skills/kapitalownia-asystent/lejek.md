@@ -105,3 +105,7 @@ Rozstrzygnięte 3.11.2026: umowa nie jest standardem i idzie tylko na prośbę k
 ## Osoby, którym nie odpisujemy
 
 Lista w `nie_odpisuj.json` (PSID, adresy e-mail, nazwy organizacji i powód). Blokada obowiązuje na każdym kanale: hook `sprawdz_wiadomosc.py` blokuje Messengera, hook `blokada_maili.py` blokuje maile i wersje robocze, `leady.py` daje etap `nie_odpisujemy`. Przed odpowiedzią na zgłoszenie z formularza sprawdzasz, czy to nie osoba z tej listy pod inną nazwą (6.11.2026 Paulina Pięta wróciła jako Fundacja Inspiruj Zdrowo i dostała maila, właściciel: nie odpisywać jej nigdzie). Dopisuje się tylko na polecenie właściciela (pierwszy wpis 5.11.2026, klientka starej marki).
+
+## Maile bez linków (właściciel 6.11.2026)
+
+Connector Gmaila zamienia każdy link i każdą domenę w treści maila (także kapitalownia.pl w stopce, także w HTML i bez https) na przekierowanie google.com/url. Dlatego w mailach nie ma żadnych linków ani domen, stopka to samo „Kapitałownia”. Link do płatności wysyłasz na Messengerze albo właściciel wysyła go ze swojej aplikacji Gmail. Hook blokada_maili.py zatrzymuje mail z linkiem albo domeną.

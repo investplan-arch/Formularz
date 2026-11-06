@@ -31,6 +31,13 @@ def main():
         if a in maile:
             print(f"Mail zatrzymany: tej osobie nigdy nie odpisujemy ({maile[a]}).", file=sys.stderr)
             return 2
+    import re
+    if re.search(r"https?://|www\.|\b[a-z0-9-]+\.(pl|com|eu|org|net)\b", tekst):
+        print("Mail zatrzymany: connector Gmaila zamienia każdy link i domenę (także kapitalownia.pl w stopce) "
+              "na przekierowanie google.com/url, czego właściciel zabronił 6.11.2026. Stopka to samo „Kapitałownia”. "
+              "Link do płatności wysyłasz na Messengerze albo prosisz właściciela, żeby wysłał go ze swojej aplikacji Gmail.",
+              file=sys.stderr)
+        return 2
     for s in slowa:
         if s in tekst:
             print(f"Mail zatrzymany: dotyczy osoby, której nie odpisujemy („{s}”, nie_odpisuj.json).", file=sys.stderr)
