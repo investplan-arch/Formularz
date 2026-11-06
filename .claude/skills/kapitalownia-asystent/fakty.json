@@ -297,7 +297,11 @@
     "3%",
     "5%",
     "7 dni",
-    "14 dni"
+    "14 dni",
+    "650 zł",
+    "1500 zł",
+    "2250 zł",
+    "1,5%"
    ],
    "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:53",
    "tagi": [

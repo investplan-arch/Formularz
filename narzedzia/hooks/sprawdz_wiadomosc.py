@@ -35,7 +35,7 @@ ZAKAZANE = [
     "jak najbardziej", "oczywiście", "świetne pytanie", "dziękuję za wiadomość",
     "przepraszam, nie ten",
 ]
-CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249)\s?zł", re.I)
+CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249|650|1500|2250)\s?zł", re.I)
 # Analiza 398 rozmów (3.11.2026): słowa pisane bez polskich znaków, wymiany opinii,
 # link przed ceną i pytania o formularz do osób, które nie zapłaciły.
 BEZ_OGONKOW = re.compile(

@@ -68,6 +68,9 @@ SPLOT 2.0 (sprawdzone w regulaminie 4/SPLOT/GD/2026, 2.11.2026): 850 zł na star
 | Wniosek do Funduszu Pożyczkowego FENG (PARP) | 3100 zł netto | 3% netto kwoty przyznanej pożyczki | 3100 zł plus 3% pożyczki |
 | Wniosek o pożyczkę rozwojową z funduszu regionalnego | 990 zł netto | 2% netto kwoty pożyczki, płatne po podpisaniu umowy pożyczki | 990 zł plus 2% pożyczki |
 | Wniosek pracodawcy o środki z Krajowego Funduszu Szkoleniowego (KFS) | 690 zł netto | nie dotyczy | 690 zł |
+| Wniosek NIW PROO 1a ścieżka 1, 30 do 50 tys. zł (właściciel 6.11.2026, kwoty brutto) | 650 zł | 850 zł po przyznaniu dotacji | 1500 zł |
+| Wniosek NIW PROO 1a ścieżka 2 lub 3, 150 do 500 tys. zł (właściciel 6.11.2026, kwoty brutto) | 2250 zł | 1,5% przyznanej dotacji | 2250 zł plus 1,5% dotacji |
+| Wniosek NIW NOWEFIO 2027, 100 do 300 tys. zł (właściciel 6.11.2026, kwoty brutto) | 1500 zł | 1,5% przyznanej dotacji | 1500 zł plus 1,5% dotacji |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
 
@@ -174,3 +177,8 @@ Klienci często mylą pożyczkę z dotacją, pytają o „dotację 40 tysięcy d
 ## Przykłady tonu
 
 Styl, wzorce do unikania i przykłady wiadomości przed i po poprawce są w styl.md. Gotowe rozwiązania typowych sytuacji są w scenariusze.md.
+
+### NIW 2027 (PROO 1a i NOWEFIO)
+
+Ceny ustalił właściciel 6.11.2026, wszystkie kwoty brutto. PROO 1a ścieżka 1 kosztuje 1500 zł, 650 zł na start i 850 zł dopiero po przyznaniu dotacji. PROO 1a ścieżka 2 lub 3 kosztuje 2250 zł na start i 1,5% przyznanej dotacji po sukcesie. NOWEFIO kosztuje 1500 zł na start i 1,5% przyznanej dotacji po sukcesie. Jeśli dotacja nie zostanie przyznana, druga część nie jest pobierana. Link Stripe na 650 zł, 1500 zł i 2250 zł trzeba dopiero utworzyć (właściciel przez Chrome), do tego czasu po zgodzie klienta pytasz właściciela, czy wysłać umowę i dane do przelewu.
+> PROO 1a ścieżka 2. Na start 2250 zł brutto za przygotowanie wniosku i strategii. Po przyznaniu dotacji 1,5% przyznanej kwoty, a jeśli dotacji nie będzie, nic więcej Państwo nie płacą.

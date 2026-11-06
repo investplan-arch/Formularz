@@ -38,7 +38,7 @@ PAGE = os.environ.get("META_PAGE_ID") or "1235937636280516"
 API = "https://graph.facebook.com/v21.0"
 CACHE = Path.home() / ".cache" / "kapitalownia" / "leady.json"
 
-CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249)\s?zł", re.I)
+CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249|650|1500|2250)\s?zł", re.I)
 LINK = re.compile(r"buy\.stripe\.com/\S+", re.I)
 OBIEKCJE = {
     "zaufanie": r"oszuk|popłynęł|naciągn|nie ma kontaktu|zapłaciłe?m? (już )?(komuś|firmie|raz)|pewnoś|gwarancj|"
