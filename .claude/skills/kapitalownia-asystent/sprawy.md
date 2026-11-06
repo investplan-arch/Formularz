@@ -82,6 +82,16 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Edyta Dziadczyk: 5.11 10:15 „zaraz zadzwonimy”.
 - Formularze NIW 2027 (odpowiedzi mailem wysłane przez drugą sesję): CT Academy, Scena Współczesna, MKS Stal Poniatowa, Aktywni Bez Barier, Polskie Realia Ludowe, SPR Oleśnica. Bez odpowiedzi: Fundacja KS Move Camp (kontakt@movecamp.pl, 5.11 12:52), Fundacja Inspiruj Zdrowo (inspirujzdrowo@gmail.com, podlaskie, 5.11 20:00).
 
+### 6.11 (stan wieczorem)
+- Paulina Pięta: fundacja, siedlisko na wsi, potrzebuje dużego namiotu i wyposażenia. 6.11 ok. 20:40 dopytaliśmy o działalność fundacji. Okno zamknięte (jej ostatnia 5.11 21:20).
+- Borys Pardus: PROO 1a, prosi o umowę; 6.11 15:08 poprosiliśmy o KRS, osobę reprezentującą i e-mail. Cena PROO poza wiedza.md.
+- Mar Cin: klub sportowy, SPLOT 2.0, dostał cenę 1900 6.11 14:22.
+- Ewa Marczak-Leszewska: WWS, bezrobotna; druga sesja napisała „nabór ma ruszyć jeszcze w tym roku” (niesprawdzone).
+- Magdalena Universum: fundacja przeciw stalkingowi, jeszcze bez KRS.
+- Łukasz (warnawieslawski@gmail.com): założenie fundacji, 6.11 dostał mailem link 690 zł https://buy.stripe.com/cNieVf85G7lQ44Dfvn6Zy0e (nowy link, brak w wiedza.md; w mailu jako google.com/url).
+- Sylwester Stachurka: NIW NOWEFIO 2027, 6.11 dostał mailem koszt obsługi (cena NIW spoza wiedza.md).
+- Formularz bez odpowiedzi: Gabriela, Mentis by Sokólska (gabrysia.sokolska@icloud.com, grupa nieformalna, wielkopolskie) 6.11 19:29.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
