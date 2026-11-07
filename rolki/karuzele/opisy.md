@@ -104,16 +104,17 @@ Pierwszy komentarz: Formularz kwalifikacyjny https://formularz.kapitalownia.pl/n
 
 ## 12. Post do grup, Wsparcie w starcie lubuskie i dolnośląskie (nabór PFP od 16.11.2026)
 
-Źródło: ogłoszenie i regulamin Polskiej Fundacji Przedsiębiorczości z 6.11.2026 (regulaminy/wws_pfp_2026/Regulamin.txt). Bez cen, bez linku w treści.
+Źródło: ogłoszenie i regulamin Polskiej Fundacji Przedsiębiorczości z 6.11.2026 (regulaminy/wws_pfp_2026/Regulamin.txt). Bez cen, bez linku w treści. Styl alarmowy na polecenie właściciela 7.11.2026.
 
-> Myślisz o własnej firmie w lubuskim albo dolnośląskim? 16 listopada o 8.00 rusza nabór na pożyczkę Wsparcie w starcie w Polskiej Fundacji Przedsiębiorczości.
+> ‼️ UWAGA! 16 listopada o 8.00 rusza nabór na pożyczkę Wsparcie w starcie w województwie lubuskim i dolnośląskim
 >
-> To do 184 662,60 zł na 0,25% rocznie, ze spłatą do 7 lat i do 12 miesięcy przerwy w spłacie. Osoby bezrobotne mogą po roku prowadzenia firmy umorzyć część pożyczki, do 6-krotności przeciętnego wynagrodzenia.
+> 💰 Do 184 662,60 zł na start firmy
+> ✅ Oprocentowanie tylko 0,25% rocznie
+> ✅ Spłata do 7 lat i do 12 miesięcy przerwy w spłacie
+> ✅ Osoby bezrobotne mogą po roku umorzyć część pożyczki
 >
-> Miejsc jest bardzo mało. Każdy oddział PFP w Gorzowie Wielkopolskim, Zielonej Górze, Jeleniej Górze i we Wrocławiu oraz platforma internetowa przyjmą po 12 wniosków, potem nabór się zawiesza. Liczy się godzina wpływu, więc wniosek z biznesplanem i zaświadczeniem z urzędu pracy trzeba mieć gotowy przed 16 listopada.
+> ⏰ Każdy oddział przyjmie tylko 12 wniosków, potem nabór się zawiesza. Decyduje godzina złożenia, więc wniosek trzeba mieć gotowy przed 16 listopada.
 >
-> Warto też wcześniej pomyśleć o zabezpieczeniu. Oprócz weksla PFP wymaga drugiego, na przykład poręczenia.
+> 📍 Wnioski przyjmują oddziały w Gorzowie Wielkopolskim, Zielonej Górze, Jeleniej Górze i we Wrocławiu.
 >
-> Napisz w komentarzu swój powiat i pomysł na firmę 📩 Odpiszemy na priv, czy się kwalifikujesz i co przygotować.
-
-Dla Ciebie: pasuje do grup o dotacjach i zakładaniu firmy oraz lokalnych z lubuskiego i dolnośląskiego. W grupie „Dotacje unijne - Wsparcie w starcie” są głównie reklamy konkurencji, regulamin zwykle przepuszcza takie wpisy, ale sprawdź dzień reklamowy.
+> 📩 Chcesz zdążyć? Napisz w komentarzu PIERWSZY BIZNES, a odezwiemy się na priv.
