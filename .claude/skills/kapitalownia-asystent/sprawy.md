@@ -92,6 +92,14 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Sylwester Stachurka: NIW NOWEFIO 2027, 6.11 dostał mailem koszt obsługi (cena NIW spoza wiedza.md).
 - Formularz bez odpowiedzi: Gabriela, Mentis by Sokólska (gabrysia.sokolska@icloud.com, grupa nieformalna, wielkopolskie) 6.11 19:29.
 
+### 7.11 (stan wieczorem)
+- Agnieszka Czinar (Fundacja Agnieszki Czinar, fingas@fingas.pl): PROO 1a ścieżka 1, dostała link https://buy.stripe.com/00w14pgCc49EeJh6YR6Zy0f, 18:10 prosi o fakturę proforma. Decyzja właściciela. Okno do 8.11 18:10 UTC.
+- Mariusz Babiarz: fundacja bez przychodu, sprzęt, PROO 1a ścieżka 1, cena 1500 = 650 + 850 (spoza wiedza.md), dostał link 00w14p… 7.11 15:05.
+- Włodzimierz Kaczkowski (Scena Współczesna): 7.11 mailem linki na start, m.in. PROO 1a ścieżka 3 2250 zł (spoza wiedza.md).
+- Karol Zużewicz: prosi o umowę na siebie, poproszony o dane 7.11 10:22.
+- Waldemar Czarnogrodzki i OSP (Użytkownik Facebooka): nowe wiadomości 20:27–20:36, bez odpowiedzi w chwili raportu.
+- Michał Bartoń: klub zrezygnował.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
