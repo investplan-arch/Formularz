@@ -945,6 +945,55 @@
    ],
    "sprawdzono": "2026-11-07T10:02",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS umorzenie (§12): tylko gdy przy wniosku był bezrobotnym (zarejestrowanym w PUP), niepracującym opiekunem osoby z niepełnosprawnością poszukującym pracy albo absolwentem CIS/KIS; po 12 mies. działalności, bez zaległości; kwota 6-krotność przeciętnego wynagrodzenia z dnia umowy, max 50% pożyczki; powracający z zagranicy bez statusu bezrobotnego nie ma umorzenia; 6 x 9233,13 = ok. 55 tys. zł",
+   "wartosci": [
+    "50%,6,12,55 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:695",
+   "tagi": [
+    "Wsparcie w starcie",
+    "umorzenie"
+   ],
+   "slowa": [
+    "umorzeni,bezrobotn,powracając,status"
+   ],
+   "sprawdzono": "2026-11-07T10:10",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS pomorskie i zachodniopomorskie (PFP): nabór 15.09.2026 od 8.00, zawieszony 28.09.2026 o 16.00 po wyczerpaniu limitu wniosków; kolejny termin nieogłoszony; oddziały Gdańsk, Gdynia, Słupsk, Lębork, Koszalin, Szczecin, Wałcz; wniosek papierowo albo przez ewnioski.pfp z kwalifikowanym podpisem; max 184 662,60 zł od 1.09.2026",
+   "wartosci": [
+    "15.09.2026,28.09.2026,184 662,60 zł"
+   ],
+   "zrodlo": "https://www.pfp.com.pl/pozyczka/zawieszenie-naboru-pierwszy-biznes-wsparcie-w-starcie-pozyczka-na-samozatrudnienie-w-wojewodztwie-pomorskim-i-zachodniopomorskim/",
+   "tagi": [
+    "Wsparcie w starcie",
+    "pomorskie",
+    "nabór"
+   ],
+   "slowa": [
+    "pomorsk,zachodniopomorsk,Malbork,Gdańsk,Gdyni,Słupsk,Lębork"
+   ],
+   "sprawdzono": "2026-11-07T10:10",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS: pożyczka do 20-krotności przeciętnego wynagrodzenia (184 662,60 zł od 1.09.2026), do 100% kosztów startu, koszty stałe (czynsz) do 6 mies., bez kosztów osobowych, bez gruntu niezabudowanego, remont/adaptacja lokalu dozwolone, VAT kwalifikowany, rozliczenie fakturami w 7 mies., firma min. 12 mies., zawieszenie max 6 mies., decyzja w 30 dni, umowa po założeniu firmy (firmę zakłada się po pozytywnej ocenie)",
+   "wartosci": [
+    "20,184 662,60 zł,6,7,12,30"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:335",
+   "tagi": [
+    "Wsparcie w starcie",
+    "warunki"
+   ],
+   "slowa": [
+    "150 tys,mieści się,limit,20-krotno"
+   ],
+   "sprawdzono": "2026-11-07T10:10",
+   "waznosc_dni": 365
   }
  ]
 }
