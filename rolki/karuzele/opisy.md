@@ -101,3 +101,19 @@ Wnioski są przyjmowane od 16 listopada do 16 grudnia 2026 r. Przygotowaliśmy k
 Pierwszy komentarz: Formularz kwalifikacyjny https://formularz.kapitalownia.pl/niw/?z=grupa
 
 #fundacja #stowarzyszenie #KGW #NOWEFIO #PROO #ngo
+
+## 12. Post do grup, Wsparcie w starcie lubuskie i dolnośląskie (nabór PFP od 16.11.2026)
+
+Źródło: ogłoszenie i regulamin Polskiej Fundacji Przedsiębiorczości z 6.11.2026 (regulaminy/wws_pfp_2026/Regulamin.txt). Bez cen, bez linku w treści.
+
+> Myślisz o własnej firmie w lubuskim albo dolnośląskim? 16 listopada o 8.00 rusza nabór na pożyczkę Wsparcie w starcie w Polskiej Fundacji Przedsiębiorczości.
+>
+> To do 184 662,60 zł na 0,25% rocznie, ze spłatą do 7 lat i do 12 miesięcy przerwy w spłacie. Osoby bezrobotne mogą po roku prowadzenia firmy umorzyć część pożyczki, do 6-krotności przeciętnego wynagrodzenia.
+>
+> Miejsc jest bardzo mało. Każdy oddział PFP w Gorzowie Wielkopolskim, Zielonej Górze, Jeleniej Górze i we Wrocławiu oraz platforma internetowa przyjmą po 12 wniosków, potem nabór się zawiesza. Liczy się godzina wpływu, więc wniosek z biznesplanem i zaświadczeniem z urzędu pracy trzeba mieć gotowy przed 16 listopada.
+>
+> Warto też wcześniej pomyśleć o zabezpieczeniu. Oprócz weksla PFP wymaga drugiego, na przykład poręczenia.
+>
+> Napisz w komentarzu swój powiat i pomysł na firmę 📩 Odpiszemy na priv, czy się kwalifikujesz i co przygotować.
+
+Dla Ciebie: pasuje do grup o dotacjach i zakładaniu firmy oraz lokalnych z lubuskiego i dolnośląskiego. W grupie „Dotacje unijne - Wsparcie w starcie” są głównie reklamy konkurencji, regulamin zwykle przepuszcza takie wpisy, ale sprawdź dzień reklamowy.

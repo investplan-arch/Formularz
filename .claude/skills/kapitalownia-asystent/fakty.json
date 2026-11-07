@@ -886,6 +886,32 @@
    ],
    "sprawdzono": "2026-11-07T01:10",
    "waznosc_dni": 10
+  },
+  {
+   "tekst": "WwS PFP lubuskie i dolnośląskie: max 184 662,60 zł, 0,25%, spłata do 7 lat, karencja do 12 miesięcy, umorzenie do 6-krotności przeciętnego wynagrodzenia; zabezpieczenie to weksel in blanco wraz z innym zabezpieczeniem (poręczenie, hipoteka, gwarancja, zastaw), limit 12 wniosków na oddział i na platformę; koszty stałe do 6 mies., bez kosztów osobowych; pracujący z przychodem do przeciętnego wynagrodzenia w 3 mies.",
+   "wartosci": [
+    "184 662,60 zł",
+    "0,25%",
+    "7 lat",
+    "12 miesięcy",
+    "12 sztuk",
+    "12 wniosków",
+    "6 miesięcy",
+    "3 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:210",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PFP",
+    "lubuskie",
+    "dolnośląskie",
+    "zabezpieczenie",
+    "12 wniosków"
+   ],
+   "sprawdzono": "2026-11-07T01:33",
+   "waznosc_dni": 365
   }
  ]
 }
