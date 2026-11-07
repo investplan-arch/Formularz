@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Umowa SPLOT 2.0 dla organizacji (wysyłana tylko na prośbę klienta, właściciel 3.11.2026).
+"""Umowa SPLOT 2.0 dla organizacji albo Wsparcie w starcie dla osoby fizycznej (--program wws) (wysyłana tylko na prośbę klienta, właściciel 3.11.2026).
 
     WYKONAWCA="Imię Nazwisko" python3 narzedzia/umowa.py --krs 0001259532 --out ~/umowa.docx
     WYKONAWCA="Imię Nazwisko" python3 narzedzia/umowa.py --zamawiajacy "Fundacją X z siedzibą w ..., KRS ..." --out ...
@@ -11,7 +11,7 @@ Wynik to mały plik .docx (pandoc), który mieści się jako załącznik w Gmail
 import argparse, io, json, os, subprocess, sys, tempfile, urllib.request, zipfile
 from pathlib import Path
 
-SZABLON = Path(__file__).resolve().parent / "szablony" / "umowa_splot.md"
+SZABLONY = Path(__file__).resolve().parent / "szablony"
 
 
 def z_krs(krs):
@@ -39,6 +39,7 @@ def z_krs(krs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--krs"); ap.add_argument("--zamawiajacy"); ap.add_argument("--out", required=True)
+    ap.add_argument("--program", default="splot", choices=["splot", "wws"], help="szablon umowy: splot albo wws (Wsparcie w starcie, osoba fizyczna)")
     a = ap.parse_args()
     wyk = os.environ.get("WYKONAWCA")
     if not wyk:
@@ -46,7 +47,7 @@ def main():
     zam = a.zamawiajacy or (z_krs(a.krs) if a.krs else None)
     if not zam:
         print("Podaj --krs albo --zamawiajacy.", file=sys.stderr); return 1
-    md = SZABLON.read_text().replace("{WYKONAWCA}", wyk).replace("{ZAMAWIAJACY}", zam)
+    md = (SZABLONY / f"umowa_{a.program}.md").read_text().replace("{WYKONAWCA}", wyk).replace("{ZAMAWIAJACY}", zam)
     with tempfile.TemporaryDirectory() as t:
         src, dst = Path(t) / "u.md", Path(t) / "u.docx"
         src.write_text(md)
