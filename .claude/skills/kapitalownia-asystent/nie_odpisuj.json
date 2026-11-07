@@ -1,10 +1,14 @@
 {
- "opis": "Osoby, którym nigdy nie odpisujemy (decyzja właściciela), na żadnym kanale. Hook sprawdz_wiadomosc.py blokuje Messengera (osoby), hook blokada_maili.py blokuje maile i wersje robocze (maile, slowa w temacie i treści), leady.py pomija te osoby. Zgłoszeń z formularzy od tych osób nie obsługujemy.",
- "osoby": {
-  "28905352505760326": "Paulina Pięta, klientka starej marki; właściciel 5.11.2026: nigdy nie odpisywać, ignorować"
- },
- "maile": {
-  "inspirujzdrowo@gmail.com": "Paulina Pięta, Fundacja Inspiruj Zdrowo; właściciel 6.11.2026: nie odpisywać także mailem"
- },
- "slowa": ["Inspiruj Zdrowo", "Paulina Pięta"]
+  "opis": "Osoby, którym nigdy nie odpisujemy (decyzja właściciela), na żadnym kanale. Hook sprawdz_wiadomosc.py blokuje Messengera (osoby), hook blokada_maili.py blokuje maile i wersje robocze (maile, slowa w temacie i treści), leady.py pomija te osoby. Zgłoszeń z formularzy od tych osób nie obsługujemy.",
+  "osoby": {
+    "28905352505760326": "Paulina Pięta, klientka starej marki; właściciel 5.11.2026: nigdy nie odpisywać, ignorować",
+    "29848868521368033": "Evi NoHouse (Ewelina Bator), polecenie właściciela 7.11.2026 „nic jej nie odpisuj”, do odwołania"
+  },
+  "maile": {
+    "inspirujzdrowo@gmail.com": "Paulina Pięta, Fundacja Inspiruj Zdrowo; właściciel 6.11.2026: nie odpisywać także mailem"
+  },
+  "slowa": [
+    "Inspiruj Zdrowo",
+    "Paulina Pięta"
+  ]
 }

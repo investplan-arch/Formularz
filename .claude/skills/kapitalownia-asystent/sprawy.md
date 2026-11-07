@@ -137,6 +137,7 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Evi NoHouse (Ewelina Bator), Messenger
 - 7.11.2026 pisze w sprawie ogłoszenia, prowadzi fundację od 2016 r., non profit, prosi o telefon 698 242 522. Zapytaliśmy o godzinę, odpisała „cały dzień od 12”. Właściciel po 12 niedostępny (7.11), więc bez telefonu, rozmowę prowadzimy na Messengerze. Poprosiliśmy o statut. Po statucie sprawdzić KRS, przychód i dopasować program (NIW PROO 1a/NOWEFIO, SPLOT), opiekować się aktywnie.
+- 7.11 nasza wiadomość „spokojnie także z miasta” wyszła niezręcznie. Właściciel: nic jej nie odpisuj. Wpisana do nie_odpisuj.json do odwołania, rozmowę przejmuje właściciel.
 
 ## Agnieszka Czinar, Messenger (SPLOT, komentarz w grupie)
 - 7.11.2026 podała nazwę „Fundacja Agnieszki Czinar”. Zapytaliśmy, czym fundacja się zajmuje.
