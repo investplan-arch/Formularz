@@ -140,3 +140,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Agnieszka Czinar, Messenger (SPLOT, komentarz w grupie)
 - 7.11.2026 podała nazwę „Fundacja Agnieszki Czinar”. Zapytaliśmy, czym fundacja się zajmuje.
+- 7.11 Agnieszka wysłała też formularz (fingas@fingas.pl, tel. 607 087 046, dolnośląskie, rejestracja przed 1.11.2023, przychód do 30 tys., pomysł studio nagrań, remont, publikacje). Pasuje PROO 1a ścieżka 1, NOWEFIO nie (przychód). Wersja robocza HTML w Gmailu z prośbą o KRS, czeka na „wyślij”.

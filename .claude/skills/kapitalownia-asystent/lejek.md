@@ -109,3 +109,6 @@ Lista w `nie_odpisuj.json` (PSID, adresy e-mail, nazwy organizacji i powód). Bl
 ## Maile bez linków (właściciel 6.11.2026)
 
 Connector Gmaila zamienia każdy link i każdą domenę w treści maila (także kapitalownia.pl w stopce, także w HTML i bez https) na przekierowanie google.com/url. Dlatego w mailach nie ma żadnych linków ani domen, stopka to samo „Kapitałownia”. Link do płatności wysyłasz na Messengerze albo właściciel wysyła go ze swojej aplikacji Gmail. Hook blokada_maili.py zatrzymuje mail z linkiem albo domeną.
+
+## Wygląd maili z formularzy (7.11.2026)
+Odpowiedzi na zgłoszenia z formularza robisz w HTML według `szablon_maila.html` (granatowy nagłówek, tabela z kwotą i terminami, ramka „Kolejny krok”), z tym samym tekstem w `body`. Pierwszy mail bez ceny. Nadal bez linków i domen.

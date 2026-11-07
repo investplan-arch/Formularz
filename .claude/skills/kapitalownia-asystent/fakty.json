@@ -912,6 +912,23 @@
    ],
    "sprawdzono": "2026-11-07T01:33",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 2027: katalog kosztów otwarty (związek z działalnością statutową i rozwojem), remonty zakończone i oddane do użytku w czasie zadania, inwestycja w cudzy lokal wymaga prawa do użytkowania min. 5 lat po zadaniu, wydatki inwestycyjne wymagają wkładu własnego min. 10% wartości wydatku, środek trwały to wartość ponad 10 tys. zł",
+   "wartosci": [
+    "10%,10 tys. zł,5 lat"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:709",
+   "tagi": [
+    "PROO 1a",
+    "koszty",
+    "remont"
+   ],
+   "slowa": [
+    "remont,studio,sprzęt,publikac,wkład własny,5 lat"
+   ],
+   "sprawdzono": "2026-11-07T08:36",
+   "waznosc_dni": 365
   }
  ]
 }
