@@ -151,4 +151,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 7.11 klub piłkarski, zajęcia dla dzieci i turnieje. Napisaliśmy, że pasuje przy równych szansach dzieci; pytanie o KRS albo ewidencję starosty.
 
 ## Mariusz Babiarz, Messenger
-- 7.11 pyta, czy piszemy wnioski dla fundacji. Odpowiedź: tak (SPLOT 2.0, NIW); pytanie od kiedy w KRS i czym się zajmuje.
+- 7.11 pyta, czy piszemy wnioski dla fundacji. Odpowiedź: tak (SPLOT 2.0, NIW); pytanie od kiedy w KRS i czym się zajmuje. Odp.: ok. 2 lata, rehabilitacja, wpis do rejestru podmiotów leczniczych. Prosimy o KRS (sprawdzić datę wpisu: PROO 1a przed 1.11.2024, NOWEFIO do końca 2025 + przychód >30 tys.; SPLOT tylko projekt o prawach osób z niepełnosprawnością).
