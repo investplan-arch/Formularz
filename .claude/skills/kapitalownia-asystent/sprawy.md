@@ -134,3 +134,9 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 ## Julian, UTW (śląskie), juliano48@poczta.fm
 - 7.11.2026 formularz NIW: stowarzyszenie, rejestracja 11.2024–12.2025, przychód 150–500 tys., cel rozwój i działania dla ludzi. Pasuje NOWEFIO 2027, PROO 1a nie (data rejestracji).
 - 7.11 wersja robocza w Gmailu (bez linków): NOWEFIO 100–300 tys., prośba o nazwę albo KRS. Czeka na „wyślij” właściciela.
+
+## Evi NoHouse (Ewelina Bator), Messenger
+- 7.11.2026 pisze w sprawie ogłoszenia, prowadzi fundację od 2016 r., non profit, prosi o telefon 698 242 522. Zapytaliśmy o godzinę. Po odpowiedzi jedno potwierdzenie, dalej dzwoni właściciel.
+
+## Agnieszka Czinar, Messenger (SPLOT, komentarz w grupie)
+- 7.11.2026 podała nazwę „Fundacja Agnieszki Czinar”. Zapytaliśmy, czym fundacja się zajmuje.
