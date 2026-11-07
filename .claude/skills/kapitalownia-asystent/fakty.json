@@ -994,6 +994,22 @@
    ],
    "sprawdzono": "2026-11-07T10:10",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0 wyjątek cenowy właściciela 7.11.2026: 750 zł na start + 1050 zł po przyznaniu, maksymalne ustępstwo",
+   "wartosci": [
+    "750 zł,1050 zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:186",
+   "tagi": [
+    "SPLOT",
+    "cena"
+   ],
+   "slowa": [
+    "750,zejść,niższ"
+   ],
+   "sprawdzono": "2026-11-07T15:07",
+   "waznosc_dni": 365
   }
  ]
 }
