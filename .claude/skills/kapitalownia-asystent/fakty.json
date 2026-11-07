@@ -929,6 +929,22 @@
    ],
    "sprawdzono": "2026-11-07T08:36",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS: powracający z zagranicy (obywatel PL, bez pracy i stałego dochodu, min. 12 mies. za granicą w ostatnich 24 mies.) jest uprawniony bez rejestracji w PUP; rejestracja jako bezrobotny daje tylko możliwość umorzenia części pożyczki",
+   "wartosci": [
+    "12,24"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:96",
+   "tagi": [
+    "Wsparcie w starcie",
+    "powracający"
+   ],
+   "slowa": [
+    "powracając,zza granicy,rejestracj,umorzeni"
+   ],
+   "sprawdzono": "2026-11-07T10:02",
+   "waznosc_dni": 365
   }
  ]
 }

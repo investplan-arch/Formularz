@@ -144,4 +144,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 7.11 Agnieszka wysłała też formularz (fingas@fingas.pl, tel. 607 087 046, dolnośląskie, rejestracja przed 1.11.2023, przychód do 30 tys., pomysł studio nagrań, remont, publikacje). Pasuje PROO 1a ścieżka 1, NOWEFIO nie (przychód). Wersja robocza HTML w Gmailu z prośbą o KRS, czeka na „wyślij”.
 
 ## Karol Zużewicz, Messenger (Wsparcie w starcie, komentarz w grupie)
-- 7.11.2026 Malbork (pomorskie), wraca zza granicy, nigdy nie miał firmy, planuje pośrednictwo nieruchomości. Napisaliśmy, że powracający z zagranicy są uprawnieni do WwS, pytanie o rejestrację w PUP Malbork. Dalej: jeśli tak, PUP + WwS (1900 zł, link 850).
+- 7.11.2026 Malbork (pomorskie), wraca zza granicy, nigdy nie miał firmy, planuje pośrednictwo nieruchomości. Napisaliśmy, że powracający z zagranicy są uprawnieni do WwS, pytanie o rejestrację w PUP Malbork (błąd, właściciel poprawił). Karol sam napisał, że urząd niepotrzebny. Sprostowane: rejestracja tylko dla umorzenia. Pytanie o kwotę na start biura. Dalej cena 1900 zł i link 850.

@@ -112,3 +112,6 @@ Connector Gmaila zamienia każdy link i każdą domenę w treści maila (także 
 
 ## Wygląd maili z formularzy (7.11.2026)
 Odpowiedzi na zgłoszenia z formularza robisz w HTML według `szablon_maila.html` (granatowy nagłówek, tabela z kwotą i terminami, ramka „Kolejny krok”), z tym samym tekstem w `body`. Pierwszy mail bez ceny. Nadal bez linków i domen.
+
+## Powracający z zagranicy (7.11.2026, poprawka właściciela)
+Przy Wsparciu w starcie nie pytasz powracającego z zagranicy o rejestrację w urzędzie pracy jako warunek. Jest uprawniony bez niej (regulamin PFP pkt 11 definicji). Rejestracja jako bezrobotny ma znaczenie tylko dla umorzenia części pożyczki. O urząd pytasz wyłącznie w kontekście umorzenia albo dotacji z PUP.
