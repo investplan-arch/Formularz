@@ -165,3 +165,6 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Krzysztof Mrozek, Messenger
 - 7.11 prosi o numer telefonu. 8.11 odpisane: rozmawiamy tutaj, oddzwaniamy sami; pytanie, czego dotyczy sprawa.
+
+## Anna Rutkowska, Messenger
+- 8.11 pyta o SPLOT. Odpisane: 10 do 15 tys. euro, do 28.12.2026, pytanie o organizację.
