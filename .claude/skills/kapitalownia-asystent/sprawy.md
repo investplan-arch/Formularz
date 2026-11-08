@@ -100,6 +100,13 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Waldemar Czarnogrodzki i OSP (Użytkownik Facebooka): nowe wiadomości 20:27–20:36, bez odpowiedzi w chwili raportu.
 - Michał Bartoń: klub zrezygnował.
 
+### 8.11 (stan wieczorem)
+- Agnieszka Czinar: obiecana proforma „w poniedziałek” 9.11 na fingas@fingas.pl (decyzja i wystawienie: właściciel).
+- Mariusz Babiarz: 8.11 07:14 przypomnienie o płatności, bez odpowiedzi.
+- Anna Rutkowska: fundacja, SPLOT 2.0, cena 1900 8.11 09:05.
+- OSP Marciszów (Użytkownik Facebooka): KRS od 2002, pytanie o wcześniejszy grant SPLOT.
+- Krzysztof Mrozek: prosił o telefon, odpowiedź „prowadzimy rozmowy tutaj”, pytanie o sprawę.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
