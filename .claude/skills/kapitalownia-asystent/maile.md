@@ -1,6 +1,6 @@
 # Maile do klientów
 
-Ustalenie właściciela z 23.10.2026. Każdy mail z ofertą albo wyjaśnieniem programu wysyłasz w tym formacie. Krótkie odpowiedzi na jedno pytanie mogą zostać zwykłym tekstem.
+Ustalenie właściciela z 23.10.2026. Wzór wizualny i zasady pierwszego maila są w `szablon_maila.html` i `lejek.md`, które mają pierwszeństwo. Ten plik dodaje tylko zasady poniżej. Każdy mail z ofertą albo wyjaśnieniem programu wysyłasz w tym formacie. Krótkie odpowiedzi na jedno pytanie mogą zostać zwykłym tekstem.
 
 ## Zasady
 
