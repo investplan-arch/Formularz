@@ -168,3 +168,6 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Anna Rutkowska, Messenger
 - 8.11 pyta o SPLOT. Odpisane: 10 do 15 tys. euro, do 28.12.2026, pytanie o organizację. Fundacja: dzieci i osoby z niepełnosprawnością, szkoła, przedszkole, ośrodek rehabilitacji. Odpisane: sama rehabilitacja/edukacja nie, projekt o prawach dzieci z niepełnosprawnością tak; pytanie o KRS. Odp.: tak. Cena 1900 (850+1050), „Zaczynamy?”. Dalej link 850 NGO; nazwę/KRS sprawdzić przy formularzu.
+
+## Jarek Ryżanowski, Fundacja PERUN (Messenger „Radaja Górskie”)
+- 9.11 pyta o środki na działania statutowe, tel. 532 996 668. Odpisane: numer zapisany, pytanie o profil i KRS przed rozmową.
