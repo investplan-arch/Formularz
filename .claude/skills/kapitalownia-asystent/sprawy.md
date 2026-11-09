@@ -170,4 +170,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 8.11 pyta o SPLOT. Odpisane: 10 do 15 tys. euro, do 28.12.2026, pytanie o organizację. Fundacja: dzieci i osoby z niepełnosprawnością, szkoła, przedszkole, ośrodek rehabilitacji. Odpisane: sama rehabilitacja/edukacja nie, projekt o prawach dzieci z niepełnosprawnością tak; pytanie o KRS. Odp.: tak. Cena 1900 (850+1050), „Zaczynamy?”. Dalej link 850 NGO; nazwę/KRS sprawdzić przy formularzu.
 
 ## Jarek Ryżanowski, Fundacja PERUN (Messenger „Radaja Górskie”)
-- 9.11 pyta o środki na działania statutowe, tel. 532 996 668. Odpisane: numer zapisany, pytanie o profil i KRS przed rozmową.
+- 9.11 pyta o środki na działania statutowe, tel. 532 996 668. Odpisane: numer zapisany, pytanie o profil i KRS przed rozmową. KRS 0001202937, wpis 30.10.2025, Bystra (śląskie), terapia naturalna, warsztaty, retreaty. PROO nie (rejestracja po 1.11.2024); NOWEFIO tylko przy przychodzie >30 tys.; SPLOT przy projekcie o równym dostępie do wsparcia psychicznego. Pytanie o przychód 2025/2026.
