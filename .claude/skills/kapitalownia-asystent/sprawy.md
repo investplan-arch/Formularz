@@ -107,6 +107,15 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - OSP Marciszów (Użytkownik Facebooka): KRS od 2002, pytanie o wcześniejszy grant SPLOT.
 - Krzysztof Mrozek: prosił o telefon, odpowiedź „prowadzimy rozmowy tutaj”, pytanie o sprawę.
 
+### 9.11 (stan wieczorem)
+- Włodzimierz Kaczkowski (Fundacja Scena Współczesna, wkaczkowski@gmail.com): 9.11 09:08 napisał, że wpłacił (NIW 2027), prosi o faktury i termin startu. Do potwierdzenia w Stripe i odpowiedzi przez właściciela.
+- Agnieszka Czinar (fingas@fingas.pl): proforma wysłana 9.11 02:11, 14:47 przysłała potwierdzenie przelewu (PROO 1a). Do potwierdzenia na koncie.
+- Łukasz Warna-Wiesławski: 9.11 17:24 wypełnił formularz klienta (fundacja, mazowieckie), wcześniej link 690 zł; sprawdzić płatność.
+- Tadeusz Dejnaka (Zielony szlak Podkarpacia): nie kwalifikuje się do NIW 2027, w odpowiedzi podał numer telefonu (prośba o telefon).
+- Sonia Trepka (soniatrepka@interia.pl): studio wizerunku, Wsparcie w starcie, odpowiedź mailem 9.11 19:04.
+- Fundacja Klucz (a.staniszewska@autograf.pl): odpowiedź NIW mailem 9.11 12:22.
+- Radaja Górskie: NOWEFIO, cena 1500 zł + 1,5% (spoza wiedza.md), 9.11 11:06.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
