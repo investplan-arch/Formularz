@@ -101,3 +101,20 @@ Wnioski są przyjmowane od 16 listopada do 16 grudnia 2026 r. Przygotowaliśmy k
 Pierwszy komentarz: Formularz kwalifikacyjny https://formularz.kapitalownia.pl/niw/?z=grupa
 
 #fundacja #stowarzyszenie #KGW #NOWEFIO #PROO #ngo
+
+## 12. Post do grup, Wsparcie w starcie lubuskie i dolnośląskie (nabór PFP od 16.11.2026)
+
+Źródło: ogłoszenie i regulamin Polskiej Fundacji Przedsiębiorczości z 6.11.2026 (regulaminy/wws_pfp_2026/Regulamin.txt). Bez cen, bez linku w treści. Styl alarmowy na polecenie właściciela 7.11.2026.
+
+> ‼️ UWAGA! 16 listopada o 8.00 rusza nabór na pożyczkę Wsparcie w starcie w województwie lubuskim i dolnośląskim
+>
+> 💰 Do 184 662,60 zł na start firmy
+> ✅ Oprocentowanie tylko 0,25% rocznie
+> ✅ Spłata do 7 lat i do 12 miesięcy przerwy w spłacie
+> ✅ Osoby bezrobotne mogą po roku umorzyć część pożyczki
+>
+> ⏰ Każdy oddział przyjmie tylko 12 wniosków, potem nabór się zawiesza. Decyduje godzina złożenia, więc wniosek trzeba mieć gotowy przed 16 listopada.
+>
+> 📍 Wnioski przyjmują oddziały w Gorzowie Wielkopolskim, Zielonej Górze, Jeleniej Górze i we Wrocławiu.
+>
+> 📩 Chcesz zdążyć? Napisz w komentarzu PIERWSZY BIZNES, a odezwiemy się na priv.

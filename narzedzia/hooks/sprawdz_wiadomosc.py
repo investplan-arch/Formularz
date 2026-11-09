@@ -35,7 +35,7 @@ ZAKAZANE = [
     "jak najbardziej", "oczywiście", "świetne pytanie", "dziękuję za wiadomość",
     "przepraszam, nie ten",
 ]
-CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249)\s?zł", re.I)
+CENA = re.compile(r"\b(1900|850|1050|990|1290|1200|1490|690|800|2490|3100|3900|149|249|650|1500|2250)\s?zł", re.I)
 # Analiza 398 rozmów (3.11.2026): słowa pisane bez polskich znaków, wymiany opinii,
 # link przed ceną i pytania o formularz do osób, które nie zapłaciły.
 BEZ_OGONKOW = re.compile(
@@ -211,6 +211,14 @@ def main():
     if not tekst:
         return 0
     psid = str(dane.get("recipient_id", ""))
+    try:
+        zakaz = json.loads((Path(__file__).resolve().parents[2] / ".claude/skills/kapitalownia-asystent/nie_odpisuj.json")
+                           .read_text())["osoby"]
+    except Exception:
+        zakaz = {}
+    if psid in zakaz:
+        print("Wiadomość zatrzymana: tej osobie nigdy nie odpisujemy (" + zakaz[psid] + ").", file=sys.stderr)
+        return 2
     lista = bledy(tekst, psid)
     if not lista:
         try:

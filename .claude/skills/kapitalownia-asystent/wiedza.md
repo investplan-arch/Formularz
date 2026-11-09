@@ -68,6 +68,9 @@ SPLOT 2.0 (sprawdzone w regulaminie 4/SPLOT/GD/2026, 2.11.2026): 850 zł na star
 | Wniosek do Funduszu Pożyczkowego FENG (PARP) | 3100 zł netto | 3% netto kwoty przyznanej pożyczki | 3100 zł plus 3% pożyczki |
 | Wniosek o pożyczkę rozwojową z funduszu regionalnego | 990 zł netto | 2% netto kwoty pożyczki, płatne po podpisaniu umowy pożyczki | 990 zł plus 2% pożyczki |
 | Wniosek pracodawcy o środki z Krajowego Funduszu Szkoleniowego (KFS) | 690 zł netto | nie dotyczy | 690 zł |
+| Wniosek NIW PROO 1a ścieżka 1, 30 do 50 tys. zł (właściciel 6.11.2026, kwoty brutto) | 650 zł | 850 zł po przyznaniu dotacji | 1500 zł |
+| Wniosek NIW PROO 1a ścieżka 2 lub 3, 150 do 500 tys. zł (właściciel 6.11.2026, kwoty brutto) | 2250 zł | 1,5% przyznanej dotacji | 2250 zł plus 1,5% dotacji |
+| Wniosek NIW NOWEFIO 2027, 100 do 300 tys. zł (właściciel 6.11.2026, kwoty brutto) | 1500 zł | 1,5% przyznanej dotacji | 1500 zł plus 1,5% dotacji |
 
 Zasady z regulaminu, potwierdzone przez właściciela, wyglądają tak. 850 zł klient płaci przy zamówieniu przez Stripe. 1050 zł jest należne tylko wtedy, gdy instytucja przyzna środki na podstawie naszych dokumentów. Prosimy o nie e-mailem po tym, jak klient poinformuje o pozytywnej decyzji, z terminem 14 dni. Gdy środków nie przyznano, klient nie płaci nic więcej, a 850 zł nie wraca, bo pokrywa wykonaną pracę. Konsument ma 14 dni na odstąpienie od umowy. Jeśli poprosił o wcześniejsze rozpoczęcie, płaci za pracę wykonaną do odstąpienia.
 
@@ -89,7 +92,7 @@ Link Stripe na 3100 zł: [BRAK LINKU, właściciel musi go podać].
 
 ### Założenie fundacji
 
-Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie fundacji do KRS, a nie po przyznaniu grantu. Link Stripe na 1290 zł (fundacja z pierwszym wnioskiem grantowym, utworzony 22.10.2026): https://buy.stripe.com/dRmeVf85GdKe8kT1Ex6Zy0c. Linku na 690 zł (samo założenie fundacji) jeszcze nie ma, więc przy tej usłudze przycisk na stronie prowadzi do formularza. Cenę podajesz w tej formie.
+Stawki ustalił właściciel 20.10.2026. Druga część jest płatna po wpisie fundacji do KRS, a nie po przyznaniu grantu. Link Stripe na 1290 zł (fundacja z pierwszym wnioskiem grantowym, utworzony 22.10.2026): https://buy.stripe.com/dRmeVf85GdKe8kT1Ex6Zy0c. Link Stripe na 690 zł (samo założenie fundacji, utworzony 6.11.2026 przez API, po płatności przekierowuje do formularza): https://buy.stripe.com/cNieVf85G7lQ44Dfvn6Zy0e. Cenę podajesz w tej formie.
 > Założenie fundacji kosztuje 1490 zł w dwóch częściach. 690 zł na start, a 800 zł dopiero po wpisie fundacji do KRS. Opłatę sądową 250 zł i notariusza płaci fundator osobno.
 
 Fakty do rozmowy. Oświadczenie o ustanowieniu fundacji wymaga aktu notarialnego (art. 3 ust. 1 ustawy o fundacjach), więc notariusz jest zawsze potrzebny. Wpis do KRS kosztuje 250 zł, a z działalnością gospodarczą 500 zł. Przy działalności gospodarczej fundator przeznacza na nią co najmniej 1000 zł (art. 5 ust. 5), które zostają w fundacji. Wniosek do KRS składa klient przez Portal Rejestrów Sądowych z naszą instrukcją, bo nie jesteśmy pełnomocnikiem procesowym. Księgowości nie prowadzimy. Zanim obiecasz grant dla świeżej fundacji, sprawdź, czy konkurs dopuszcza organizacje bez historii.
@@ -145,7 +148,7 @@ Dotacja z urzędu pracy. Bezzwrotna, do 6-krotności przeciętnego wynagrodzenia
 
 Środki PFRON na działalność. Bezzwrotne, do 6-krotności, a przy zobowiązaniu do 24 miesięcy działalności do 15-krotności przeciętnego wynagrodzenia. Dla osób z orzeczeniem zarejestrowanych w PUP jako bezrobotne albo poszukujące pracy, które nie pracują.
 
-Pożyczka Wsparcie w starcie. Przedstawiasz ją przez zalety. Do 20-krotności przeciętnego wynagrodzenia, oprocentowanie 0,25% rocznie, spłata do 7 lat, do 12 miesięcy przerwy w spłacie, bez prowizji. Po roku prowadzenia firmy można umorzyć do połowy pożyczki (maksymalnie 6-krotność przeciętnego wynagrodzenia), jeśli pożyczkobiorca mógł wcześniej dostać dotację z PUP, czyli był np. bezrobotny. Dostępna także dla osób pracujących, jeśli średnio zarabiały w ostatnich 3 miesiącach nie więcej niż przeciętne wynagrodzenie. Nie piszesz „to pożyczka, a nie dotacja”, tylko pokazujesz warunki. Kwoty w złotych (np. 184 tys. zł albo 55 tys. zł) podajesz tylko po sprawdzeniu aktualnego przeciętnego wynagrodzenia w komunikacie GUS albo kwoty w ogłoszeniu pośrednika, zapisanym przez `narzedzia/fakt.py dodaj`. Bez tego piszesz krotność (4.11.2026).
+Pożyczka Wsparcie w starcie (pełne kompendium z regulaminu: `kompendium_wws.md`, czytasz przed każdą rozmową o tej pożyczce). Przedstawiasz ją przez zalety. Do 20-krotności przeciętnego wynagrodzenia, oprocentowanie 0,25% rocznie, spłata do 7 lat, do 12 miesięcy przerwy w spłacie, bez prowizji. Po roku prowadzenia firmy można umorzyć do połowy pożyczki (maksymalnie 6-krotność przeciętnego wynagrodzenia), jeśli pożyczkobiorca mógł wcześniej dostać dotację z PUP, czyli był np. bezrobotny. Dostępna także dla osób pracujących, jeśli średnio zarabiały w ostatnich 3 miesiącach nie więcej niż przeciętne wynagrodzenie. Nie piszesz „to pożyczka, a nie dotacja”, tylko pokazujesz warunki. Kwoty w złotych (np. 184 tys. zł albo 55 tys. zł) podajesz tylko po sprawdzeniu aktualnego przeciętnego wynagrodzenia w komunikacie GUS albo kwoty w ogłoszeniu pośrednika, zapisanym przez `narzedzia/fakt.py dodaj`. Bez tego piszesz krotność (4.11.2026).
 
 Premia z Lokalnej Grupy Działania. Bezzwrotna, kwotę ustala LGD (spotykane 50 do 150 tys. zł). Dla mieszkańców obszaru LGD, także pracujących. Konkurs punktowy według harmonogramu naborów LGD.
 
@@ -174,3 +177,11 @@ Klienci często mylą pożyczkę z dotacją, pytają o „dotację 40 tysięcy d
 ## Przykłady tonu
 
 Styl, wzorce do unikania i przykłady wiadomości przed i po poprawce są w styl.md. Gotowe rozwiązania typowych sytuacji są w scenariusze.md.
+
+### NIW 2027 (PROO 1a i NOWEFIO)
+
+Ceny ustalił właściciel 6.11.2026, wszystkie kwoty brutto. PROO 1a ścieżka 1 kosztuje 1500 zł, 650 zł na start i 850 zł dopiero po przyznaniu dotacji. PROO 1a ścieżka 2 lub 3 kosztuje 2250 zł na start i 1,5% przyznanej dotacji po sukcesie. NOWEFIO kosztuje 1500 zł na start i 1,5% przyznanej dotacji po sukcesie. Jeśli dotacja nie zostanie przyznana, druga część nie jest pobierana. Linki Stripe (utworzone 6.11.2026 przez API, po płatności przekierowują do formularza): 650 zł https://buy.stripe.com/00w14pgCc49EeJh6YR6Zy0f, 1500 zł https://buy.stripe.com/eVqaEZeu4bC67gPbf76Zy0g, 2250 zł https://buy.stripe.com/00w5kF71CcGa44D5UN6Zy0h. Klucz Stripe jest w zmiennej STRIPE_SECRET_KEY.
+> PROO 1a ścieżka 2. Na start 2250 zł brutto za przygotowanie wniosku i strategii. Po przyznaniu dotacji 1,5% przyznanej kwoty, a jeśli dotacji nie będzie, nic więcej Państwo nie płacą.
+
+## Wyjątek cenowy SPLOT 2.0, 750 + 1050 (właściciel 7.11.2026)
+Gdy organizacja przy SPLOT 2.0 prosi o niższą kwotę na start albo „0 zł na start”, maksymalne ustępstwo to 750 zł na start i 1050 zł po przyznaniu grantu (razem 1800 zł). Niżej nie schodzisz, 0 zł na start nie ma. Najpierw proponujesz standard 850 + 1050, wyjątek tylko po obiekcji. Link Stripe 750 zł (utworzony 7.11.2026, przekierowuje do formularza): https://buy.stripe.com/4gMbJ3adOgWq0Srgzr6Zy0i

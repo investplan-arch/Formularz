@@ -101,3 +101,27 @@ Analiza z 4.11.2026: ta kontrola zatrzymałaby 404 z 1131 naszych wcześniejszyc
 2. Zbieranie e-maila albo telefonu przy „nie teraz”, z mailem w dniu ogłoszenia naboru.
 
 Rozstrzygnięte 3.11.2026: umowa nie jest standardem i idzie tylko na prośbę klienta. Każdy komentujący dostaje odpowiedź. Kwalifikacja zaczyna się od bezpłatnego formularza, bez cen.
+
+## Osoby, którym nie odpisujemy
+
+Lista w `nie_odpisuj.json` (PSID, adresy e-mail, nazwy organizacji i powód). Blokada obowiązuje na każdym kanale: hook `sprawdz_wiadomosc.py` blokuje Messengera, hook `blokada_maili.py` blokuje maile i wersje robocze, `leady.py` daje etap `nie_odpisujemy`. Przed odpowiedzią na zgłoszenie z formularza sprawdzasz, czy to nie osoba z tej listy pod inną nazwą (6.11.2026 Paulina Pięta wróciła jako Fundacja Inspiruj Zdrowo i dostała maila, właściciel: nie odpisywać jej nigdzie). Dopisuje się tylko na polecenie właściciela (pierwszy wpis 5.11.2026, klientka starej marki).
+
+## Maile bez linków (właściciel 6.11.2026)
+
+Connector Gmaila zamienia każdy link i każdą domenę w treści maila (także kapitalownia.pl w stopce, także w HTML i bez https) na przekierowanie google.com/url. Dlatego w mailach nie ma żadnych linków ani domen, stopka to samo „Kapitałownia”. Link do płatności wysyłasz na Messengerze albo właściciel wysyła go ze swojej aplikacji Gmail. Hook blokada_maili.py zatrzymuje mail z linkiem albo domeną.
+
+## Wygląd maili z formularzy (7.11.2026)
+Odpowiedzi na zgłoszenia z formularza robisz w HTML według `szablon_maila.html` (granatowy nagłówek, tabela z kwotą i terminami, ramka „Kolejny krok”), z tym samym tekstem w `body`. Pierwszy mail bez ceny. Nadal bez linków i domen.
+
+## Powracający z zagranicy (7.11.2026, poprawka właściciela)
+Przy Wsparciu w starcie nie pytasz powracającego z zagranicy o rejestrację w urzędzie pracy jako warunek. Jest uprawniony bez niej (regulamin PFP pkt 11 definicji). Rejestracja jako bezrobotny ma znaczenie tylko dla umorzenia części pożyczki. O urząd pytasz wyłącznie w kontekście umorzenia albo dotacji z PUP.
+
+## Po audycie 7.11.2026 (szczegóły w audyt_rozmow_2026-11-07.md)
+- Przed odpowiedzią potwierdzasz, że nazwa organizacji i program w Twojej wiadomości są z TEJ rozmowy.
+- SPLOT, opłata z grantu, jedna wersja: 850 zł z własnych środków, 1050 zł po przyznaniu da się pokryć z kosztów administracyjnych grantu (do 20%). Nigdy „naszej pracy nie da się opłacić z grantu”.
+- Umorzenie WwS tylko według wiedza.md: do połowy pożyczki, maksymalnie 6-krotność przeciętnego wynagrodzenia, gdy przysługiwała dotacja z PUP. Bez „40%”, bez wyliczania raty po umorzeniu.
+- Nie pytasz o nic, co klient już podał (KRS, NIP, miejscowość, praca). Gdy podał NIP, sprawdzasz sam.
+- Telefon obiecujesz z konkretną godziną tylko wtedy, gdy właściciel ją potwierdził. Inaczej „właściciel oddzwoni dziś” i wpis do raportu.
+- Gdy klient jest zakwalifikowany, nie wysyłasz linku do formularza-quizu, tylko cenę i link do płatności.
+- Po „Zaczynamy?” albo linku bez odpowiedzi jeden follow-up w oknie 24 h.
+- Bez krótkich zapychaczy („Ok.”, „Bez problemu”) i bez emotek.

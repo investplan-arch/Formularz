@@ -230,7 +230,7 @@ input[aria-invalid="true"] { border-color: var(--danger); }
 
         <fieldset class="q" data-q="rej" data-auto>
           <legend tabindex="-1">Kiedy organizacja została zarejestrowana?</legend>
-          <p class="hint">Od daty wpisu do KRS albo ewidencji zależy, w których ścieżkach możecie startować.</p>
+          <p class="hint">Liczy się data pierwszego wpisu do KRS albo ewidencji, a nie ostatniej zmiany. Od niej zależy, w których ścieżkach możecie startować.</p>
           <div class="opts opts--one">
             <label class="opt"><input type="radio" name="rejestracja" value="przed 1.11.2023" required><span>Przed listopadem 2023 r.</span></label>
             <label class="opt"><input type="radio" name="rejestracja" value="11.2023-10.2024"><span>Od listopada 2023 do października 2024 r.</span></label>
@@ -260,7 +260,7 @@ input[aria-invalid="true"] { border-color: var(--danger); }
             <label class="opt"><input type="checkbox" name="niw[]" value="nierozliczone"><span>Mamy nierozliczone zadanie z NOWEFIO albo PROO za 2025 r.</span></label>
             <label class="opt"><input type="checkbox" name="niw[]" value="nowefio wieloletni"><span>Realizujemy projekt z NOWEFIO 2025 albo 2026, który kończy się w 2027 lub 2028 r.</span></label>
             <label class="opt"><input type="checkbox" name="niw[]" value="proo wieloletni"><span>Realizujemy projekt z PROO 1a 2025 albo 2026, który kończy się w 2027 lub 2028 r.</span></label>
-            <label class="opt"><input type="checkbox" name="niw[]" value="podmiotowa"><span>Dostajemy dotację podmiotową z budżetu państwa</span></label>
+            <label class="opt"><input type="checkbox" name="niw[]" value="podmiotowa"><span>Dostajemy dotację podmiotową z budżetu państwa<small>Nie chodzi o zwykłe dotacje z gminy albo urzędu na zadania</small></span></label>
             <label class="opt"><input type="checkbox" name="niw[]" value="nic" data-none><span>Nic z tego nas nie dotyczy</span></label>
           </div>
           <p class="err" id="err-niw" role="alert">Zaznaczcie co najmniej jedną odpowiedź.</p>
@@ -376,7 +376,7 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     if (nowefio && r >= 1 && p >= 1) {
       var max = p >= 3 ? 300 : p === 2 ? 200 : 100;
       var pr = [];
-      if (c.indexOf('wsparcie organizacji') > -1) pr.push('priorytet 4, w 2025 r. dofinansowano 35% ofert');
+      if (c.indexOf('wsparcie organizacji') > -1) pr.push('priorytet 4, jeśli projekt wzmacnia wiele organizacji w skali co najmniej województwa, w 2025 r. dofinansowano 35% ofert');
       if (c.indexOf('życie publiczne') > -1) pr.push('priorytet 3, w 2025 r. dofinansowano 20% ofert');
       if (c.indexOf('działania dla ludzi') > -1 || !pr.length) pr.push('priorytet 2, w 2025 r. dofinansowano 8% ofert');
       lista.push({ s: f === 'Organizacja kościelna' ? 'spr' : 'tak', n: 'NOWEFIO 2027', k: (max === 100 ? '100 tys. zł' : 'od 100 do ' + max + ' tys. zł') + ' na projekt na 1 do 3 lat. Najlepiej ' + pr.join(', a także ') + '.' });
@@ -403,7 +403,9 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     else if (x.indexOf('nierozliczone') > -1) o.niw = ['nie', 'Nierozliczone zadanie za 2025 r. wyklucza z obu konkursów.'];
     else o.niw = ['spr', 'Trwający projekt albo dotacja podmiotowa zamyka jeden z programów, drugi może zostać otwarty.'];
     if (!c.length) o.cel = ['', ''];
-    else o.cel = ['tak', c.indexOf('rozwój organizacji') > -1 ? 'Rozwój organizacji to dokładnie zakres PROO 1a.' : 'Działania mieszczą się w priorytetach NOWEFIO.'];
+    else if (c.indexOf('rozwój organizacji') < 0) o.cel = ['tak', 'Działania mieszczą się w priorytetach NOWEFIO.'];
+    else if (REJ[r] >= 2) o.cel = ['tak', 'Rozwój organizacji to dokładnie zakres PROO 1a.'];
+    else o.cel = ['spr', 'Rozwój organizacji wspiera PROO 1a. W NOWEFIO można na niego przeznaczyć do 20% dotacji.'];
     return o;
   }
 

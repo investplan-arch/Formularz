@@ -297,7 +297,11 @@
     "3%",
     "5%",
     "7 dni",
-    "14 dni"
+    "14 dni",
+    "650 zł",
+    "1500 zł",
+    "2250 zł",
+    "1,5%"
    ],
    "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:53",
    "tagi": [
@@ -484,6 +488,544 @@
     "PROO"
    ],
    "sprawdzono": "2026-11-04T19:00",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżka 2: od 150 do 300 tys. zł (rocznie 50 do 100 tys. zł), ścieżka 3: od 300 do 500 tys. zł (rocznie 100 do 200 tys. zł)",
+   "wartosci": [
+    "150 tys. zł",
+    "300 tys. zł",
+    "500 tys. zł",
+    "150",
+    "300",
+    "500"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:663",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 2",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T19:53",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżki 2 i 3: rejestracja przed 1 listopada 2023 r., przychód w jednym z trzech ostatnich zamkniętych lat co najmniej 150 tys. zł (ścieżka 2) albo 500 tys. zł (ścieżka 3), w ścieżce 3 strona ze sprawozdaniami finansowymi z dwóch ostatnich lat",
+   "wartosci": [
+    "1 listopada 2023",
+    "150 tys. zł",
+    "500 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:431",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 2",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T19:53",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a 2027 ścieżki 2 i 3: zadanie zaczyna się w 2027 r. (od 1 czerwca), kończy się między 30 czerwca a 31 grudnia 2029 r.",
+   "wartosci": [
+    "2029"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:616",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 2",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T19:53",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: najem pomieszczeń tylko w kategorii II koszty obsługi, limit kategorii II 25% dotacji",
+   "wartosci": [
+    "25%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:847",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "najem",
+    "wynajem",
+    "lokal",
+    "koszty obsługi"
+   ],
+   "sprawdzono": "2026-11-04T19:55",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: dofinansowanie misji i kosztów prowadzenia działalności statutowej, w ścieżkach 2 i 3 w ramach zadania powstaje lub jest aktualizowana wieloletnia strategia rozwoju organizacji",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:328",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "strategia",
+    "działalność statutowa"
+   ],
+   "sprawdzono": "2026-11-04T19:55",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: działanie dotyczące rozwoju instytucjonalnego oferenta w kategorii I do 20% przyznanej dotacji",
+   "wartosci": [
+    "20%"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:849",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "rozwój instytucjonalny",
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-04T19:56",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: brak wymogu stażu ani przychodu, wystarczy zarejestrowana organizacja z siedzibą w Polsce działająca w obszarach CERV",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:234",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "nowa fundacja",
+    "staż"
+   ],
+   "sprawdzono": "2026-11-04T20:16",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027 priorytet 4: projekty systemowe wzmacniające organizacje obywatelskie, zasięg co najmniej wojewódzki, angażujące liczne organizacje",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:654",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "priorytet 4",
+    "NOWEFIO",
+    "systemowy"
+   ],
+   "sprawdzono": "2026-11-04T20:21",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a ścieżka 3: w ramach zadania obowiązkowy audyt zewnętrzny",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:540",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "audyt",
+    "ścieżka 3",
+    "PROO 1a"
+   ],
+   "sprawdzono": "2026-11-04T20:21",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: wsparcie dla programów rozwoju zakładających budowanie trwałych modeli finansowania ze środków niepublicznych",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:331",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "środki niepubliczne",
+    "model finansowania"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a ścieżka 3: sprawozdania finansowe z co najmniej dwóch ostatnich zamkniętych lat opublikowane na stronie najpóźniej w dniu złożenia wniosku",
+   "wartosci": [
+    "2024",
+    "2025"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:449",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "ścieżka 3",
+    "sprawozdania"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 2027: rozstrzygnięcie konkursu planowane w pierwszym półroczu 2027 r., ścieżki 2 i 3 start zadania najwcześniej 1 czerwca 2027 r.",
+   "wartosci": [
+    "1 czerwca 2027",
+    "2027"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:640",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 2027",
+    "rozstrzygnięcie",
+    "wyniki"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a ścieżka 3: limit roczny od 100 do 200 tys. zł, ścieżka 2: od 50 do 100 tys. zł rocznie",
+   "wartosci": [
+    "200 tys. zł",
+    "100 tys. zł",
+    "50 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:671",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "ścieżka 3",
+    "limit roczny"
+   ],
+   "sprawdzono": "2026-11-04T21:30",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: dofinansowanie działalności statutowej, w tym budowanie kapitału ludzkiego oraz zasobów technicznych",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:328",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "kapitał ludzki",
+    "sprzęt",
+    "trenerzy"
+   ],
+   "sprawdzono": "2026-11-04T22:25",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027 priorytet 2: projekty m.in. adresowane do rodzin, dzieci i młodzieży, osób starszych",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:590",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO",
+    "priorytet 2",
+    "dzieci",
+    "młodzież"
+   ],
+   "sprawdzono": "2026-11-04T22:25",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: najwyższy przychód z 3 ostatnich zamkniętych lat ponad 30 tys. zł daje 100 tys. zł, ponad 100 tys. zł do 200 tys. zł, ponad 150 tys. zł do 300 tys. zł; stowarzyszenia zwykłe uprawnione",
+   "wartosci": [
+    "100 tys. zł",
+    "200 tys. zł",
+    "300 tys. zł",
+    "100",
+    "200",
+    "30 tys. zł",
+    "150 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:744",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "NOWEFIO",
+    "przychód",
+    "limit"
+   ],
+   "sprawdzono": "2026-11-05T06:20",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Pożyczka rozwojowa FE dla Śląskiego (BGK, Fundusz Powierniczy): dla mikro, małych i średnich firm z inwestycją w śląskim, do 5 mln zł, 2% rocznie, spłata do 84 miesięcy (7 lat), karencja do 12 miesięcy po zakończeniu inwestycji; pośrednicy m.in. ŁARR (Katowice i Częstochowa); warunki orientacyjne",
+   "wartosci": [
+    "5 mln zł",
+    "2%",
+    "7 lat",
+    "84 miesięcy",
+    "12 miesięcy"
+   ],
+   "zrodlo": "https://funduszeue.slaskie.pl/web/guest/w/pozyczki-rozwojowe-dla-przedsiebiorstw",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "pożyczka rozwojowa",
+    "śląskie",
+    "BGK"
+   ],
+   "sprawdzono": "2026-11-05T08:27",
+   "waznosc_dni": 30
+  },
+  {
+   "tekst": "SPLOT 2.0: granty wyłącznie na cele CERV (prawa podstawowe, wartości UE, demokracja); działania m.in. kampanie o prawach, dialog obywatelski, koalicje, bezpłatne porady, rzecznictwo, badania, usługi wsparcia dla ofiar; nie na samą rehabilitację czy działalność zdrowotną",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt:151",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "SPLOT",
+    "działania",
+    "CERV",
+    "rehabilitacja",
+    "prawa"
+   ],
+   "sprawdzono": "2026-11-05T12:06",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "NOWEFIO 2027: przychód obejmuje wszystkie działalności, także dotacje ze źródeł zewnętrznych (bez darowizn rzeczowych)",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/nowefio_2027_p2-4_regulamin.txt:169",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "przychód",
+    "dotacje",
+    "NOWEFIO"
+   ],
+   "sprawdzono": "2026-11-05T12:13",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: jeden wniosek w konkursie; NOWEFIO: jedna oferta; regulaminy nie zakazują złożenia wniosku do obu programów; PROO zakazuje podwójnego finansowania tych samych kosztów",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:980",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO",
+    "NOWEFIO",
+    "oba programy",
+    "jednocześnie"
+   ],
+   "sprawdzono": "2026-11-05T12:13",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 1a: wspieranie działań statutowych oraz rozwoju instytucjonalnego, w tym podnoszenie standardów pracy i zarządzania organizacją",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:525",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO 1a",
+    "zarządzanie",
+    "standardy",
+    "działania statutowe"
+   ],
+   "sprawdzono": "2026-11-05T20:20",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie: do wniosku zaświadczenie z PUP o statusie bezrobotnego, regulamin nie wymaga minimalnego okresu bezrobocia; umorzenie dla osób bezrobotnych na etapie ubiegania się o pożyczkę",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_regulamin_nr3_FERS.txt:527",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "bezrobotna",
+    "status",
+    "zaświadczenie",
+    "Wsparcie w starcie"
+   ],
+   "sprawdzono": "2026-11-06T13:55",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "Wsparcie w starcie, lubuskie i dolnośląskie: nabór w Polskiej Fundacji Przedsiębiorczości od 16 listopada 2026 r. o 8.00, oddziały Gorzów Wlkp., Zielona Góra, Jelenia Góra, Wrocław, papierowo albo elektronicznie z podpisem kwalifikowanym (ogłoszenie PFP 6.11.2026)",
+   "wartosci": [
+    "16 listopada 2026",
+    "16 listopada",
+    "8.00"
+   ],
+   "zrodlo": "https://www.pfp.com.pl/aktualnosci/informacja-o-naborze-pierwszy-biznes-wsparcie-w-starcie-pozyczka-na-samozatrudnienie-w-wojewodztwie-lubuskim-i-dolnoslaskim/",
+   "tagi": [
+    "nabor"
+   ],
+   "slowa": [
+    "Wsparcie w starcie",
+    "lubuskie",
+    "dolnośląskie",
+    "PFP"
+   ],
+   "sprawdzono": "2026-11-07T01:10",
+   "waznosc_dni": 10
+  },
+  {
+   "tekst": "WwS PFP lubuskie i dolnośląskie: max 184 662,60 zł, 0,25%, spłata do 7 lat, karencja do 12 miesięcy, umorzenie do 6-krotności przeciętnego wynagrodzenia; zabezpieczenie to weksel in blanco wraz z innym zabezpieczeniem (poręczenie, hipoteka, gwarancja, zastaw), limit 12 wniosków na oddział i na platformę; koszty stałe do 6 mies., bez kosztów osobowych; pracujący z przychodem do przeciętnego wynagrodzenia w 3 mies.",
+   "wartosci": [
+    "184 662,60 zł",
+    "0,25%",
+    "7 lat",
+    "12 miesięcy",
+    "12 sztuk",
+    "12 wniosków",
+    "6 miesięcy",
+    "3 miesięcy"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:210",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PFP",
+    "lubuskie",
+    "dolnośląskie",
+    "zabezpieczenie",
+    "12 wniosków"
+   ],
+   "sprawdzono": "2026-11-07T01:33",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 2027: katalog kosztów otwarty (związek z działalnością statutową i rozwojem), remonty zakończone i oddane do użytku w czasie zadania, inwestycja w cudzy lokal wymaga prawa do użytkowania min. 5 lat po zadaniu, wydatki inwestycyjne wymagają wkładu własnego min. 10% wartości wydatku, środek trwały to wartość ponad 10 tys. zł",
+   "wartosci": [
+    "10%,10 tys. zł,5 lat"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt:709",
+   "tagi": [
+    "PROO 1a",
+    "koszty",
+    "remont"
+   ],
+   "slowa": [
+    "remont,studio,sprzęt,publikac,wkład własny,5 lat"
+   ],
+   "sprawdzono": "2026-11-07T08:36",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS: powracający z zagranicy (obywatel PL, bez pracy i stałego dochodu, min. 12 mies. za granicą w ostatnich 24 mies.) jest uprawniony bez rejestracji w PUP; rejestracja jako bezrobotny daje tylko możliwość umorzenia części pożyczki",
+   "wartosci": [
+    "12,24"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:96",
+   "tagi": [
+    "Wsparcie w starcie",
+    "powracający"
+   ],
+   "slowa": [
+    "powracając,zza granicy,rejestracj,umorzeni"
+   ],
+   "sprawdzono": "2026-11-07T10:02",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS umorzenie (§12): tylko gdy przy wniosku był bezrobotnym (zarejestrowanym w PUP), niepracującym opiekunem osoby z niepełnosprawnością poszukującym pracy albo absolwentem CIS/KIS; po 12 mies. działalności, bez zaległości; kwota 6-krotność przeciętnego wynagrodzenia z dnia umowy, max 50% pożyczki; powracający z zagranicy bez statusu bezrobotnego nie ma umorzenia; 6 x 9233,13 = ok. 55 tys. zł",
+   "wartosci": [
+    "50%,6,12,55 tys. zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:695",
+   "tagi": [
+    "Wsparcie w starcie",
+    "umorzenie"
+   ],
+   "slowa": [
+    "umorzeni,bezrobotn,powracając,status"
+   ],
+   "sprawdzono": "2026-11-07T10:10",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS pomorskie i zachodniopomorskie (PFP): nabór 15.09.2026 od 8.00, zawieszony 28.09.2026 o 16.00 po wyczerpaniu limitu wniosków; kolejny termin nieogłoszony; oddziały Gdańsk, Gdynia, Słupsk, Lębork, Koszalin, Szczecin, Wałcz; wniosek papierowo albo przez ewnioski.pfp z kwalifikowanym podpisem; max 184 662,60 zł od 1.09.2026",
+   "wartosci": [
+    "15.09.2026,28.09.2026,184 662,60 zł"
+   ],
+   "zrodlo": "https://www.pfp.com.pl/pozyczka/zawieszenie-naboru-pierwszy-biznes-wsparcie-w-starcie-pozyczka-na-samozatrudnienie-w-wojewodztwie-pomorskim-i-zachodniopomorskim/",
+   "tagi": [
+    "Wsparcie w starcie",
+    "pomorskie",
+    "nabór"
+   ],
+   "slowa": [
+    "pomorsk,zachodniopomorsk,Malbork,Gdańsk,Gdyni,Słupsk,Lębork"
+   ],
+   "sprawdzono": "2026-11-07T10:10",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "WwS: pożyczka do 20-krotności przeciętnego wynagrodzenia (184 662,60 zł od 1.09.2026), do 100% kosztów startu, koszty stałe (czynsz) do 6 mies., bez kosztów osobowych, bez gruntu niezabudowanego, remont/adaptacja lokalu dozwolone, VAT kwalifikowany, rozliczenie fakturami w 7 mies., firma min. 12 mies., zawieszenie max 6 mies., decyzja w 30 dni, umowa po założeniu firmy (firmę zakłada się po pozytywnej ocenie)",
+   "wartosci": [
+    "20,184 662,60 zł,6,7,12,30"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/wws_pfp_2026/Regulamin.txt:335",
+   "tagi": [
+    "Wsparcie w starcie",
+    "warunki"
+   ],
+   "slowa": [
+    "150 tys,mieści się,limit,20-krotno"
+   ],
+   "sprawdzono": "2026-11-07T10:10",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0 wyjątek cenowy właściciela 7.11.2026: 750 zł na start + 1050 zł po przyznaniu, maksymalne ustępstwo",
+   "wartosci": [
+    "750 zł,1050 zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:186",
+   "tagi": [
+    "SPLOT",
+    "cena"
+   ],
+   "slowa": [
+    "750,zejść,niższ"
+   ],
+   "sprawdzono": "2026-11-07T15:07",
+   "waznosc_dni": 365
+  },
+  {
+   "tekst": "LGD Bory Dolnośląskie (gminy Żary, Żagań, Małomice, Wymiarki, Iłowa, Przewóz, Gozdnica, Osiecznica, Pieńsk, Węgliniec): nabór 2/2025 Start DG 9 do 24.10.2025, premia od 50 do 150 tys. zł, ryczałt, max 65% kosztów, cel turystyczny obszaru, wnioskodawca mieszka min. rok na obszarze wiejskim LSR (bez miast >20 tys.), bez firmy w ostatnim roku; kolejny nabór Start DG nieogłoszony (7.11.2026)",
+   "wartosci": [
+    "50,150 tys. zł,65%"
+   ],
+   "zrodlo": "https://www.bory.org.pl/2025/09/nabor-wnioskow-o-przyznanie-pomocy-podjecie-dzialalnosci-gospodarczej/",
+   "tagi": [
+    "LGD",
+    "lubuskie",
+    "Żagań"
+   ],
+   "slowa": [
+    "Bory Dolnośląskie,Żagań,Miodnica,Pożarów,LGD"
+   ],
+   "sprawdzono": "2026-11-07T20:21",
    "waznosc_dni": 365
   }
  ]
