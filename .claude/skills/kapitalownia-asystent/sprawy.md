@@ -116,6 +116,13 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Fundacja Klucz (a.staniszewska@autograf.pl): odpowiedź NIW mailem 9.11 12:22.
 - Radaja Górskie: NOWEFIO, cena 1500 zł + 1,5% (spoza wiedza.md), 9.11 11:06.
 
+### 10.11 (stan wieczorem)
+- UWAGA: 10.11 ok. 18:32–18:36 UTC z kontakt@ wyszło co najmniej 50 maili „NIW 2027, PROO 1a ścieżka X, nabór od 16 listopada” do organizacji, które nie pisały pierwsze (lista rezerwowa NIW 2026, w każdym „192/193 punkty”). Wymaga decyzji właściciela (CLAUDE.md: mailing tylko za zgodą). Fundacja Full STEAM Ahead (fundacjasteam@gmail.com) odpisała „nie”, nie pisać więcej.
+- Ania Ania: prośba o telefon, podała numer, 10.11 18:05 obiecano oddzwonić najpóźniej 11.11 w ciągu dnia.
+- Włodzimierz Kaczkowski: 10.11 08:25 podał dane do faktury (Fundacja Scena Współczesna, NIP w mailu).
+- OSP Marciszów: rozmowa o wyposażeniu w SPLOT (laptop, rzutnik).
+- Formularz NIW: KSZO1929 (10.11 05:02).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
