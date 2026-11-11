@@ -174,3 +174,7 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Aneta (Staniszewska?), Fundacja Klucz (wielkopolskie), a.staniszewska@autograf.pl, tel. +48 625 029 595
 - 9.11 formularz NIW: rejestracja przed 1.11.2023, przychód 150 do 500 tys., cel rozwój i działania dla ludzi. KRS nieznany. Wersja robocza HTML: PROO 1a ścieżki 1 i 2, NOWEFIO, nabór; prośba o KRS i cel. Czeka na „wyślij”.
+
+## Sonia Trepka, soniatrepka@interia.pl (formularz 9.11.2026)
+- Studio kreowania wizerunku (beauty, stylizacja, fotografia), powiat piaseczyński (mazowieckie), budżet 50 do 150 tys. zł, start w ciągu 6 mies., sytuacja zawodowa „inna”, zaznaczyła pożyczkę na start i usługę sprawdzenia wniosku.
+- 11.11 wersja robocza HTML: Wsparcie w starcie (do 184 662,60 zł, 0,25%, 7 lat, karencja 12 mies., umorzenie przy statusie bezrobotnej), co można sfinansować, nabór na przełomie listopada i grudnia (właściciel 11.11: pewne), pytanie o pracę/rejestrację w PUP. Bez ceny. Czeka na „wyślij”. Dalej: cena 1900 (850+1050), przelew albo link.
