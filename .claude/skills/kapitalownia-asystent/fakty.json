@@ -1056,6 +1056,19 @@
    ],
    "sprawdzono": "2026-11-11T14:22",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "PROO 2027: koszty kwalifikowalne tylko za usługi wykonane w okresie realizacji zadania wskazanym w umowie i przewidziane w budżecie; koszt przygotowania wniosku sprzed startu zadania nie jest kwalifikowalny",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/proo_2027_regulamin.txt",
+   "tagi": [
+    "warunek"
+   ],
+   "slowa": [
+    "PROO,kosztorys,wynagrodzenie,koszty kwalifikowalne"
+   ],
+   "sprawdzono": "2026-11-11T17:11",
+   "waznosc_dni": 365
   }
  ]
 }
