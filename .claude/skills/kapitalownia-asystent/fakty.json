@@ -1027,6 +1027,22 @@
    ],
    "sprawdzono": "2026-11-07T20:21",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "Pełne przygotowanie (850 + 1050 zł): przygotowanie do kolejnego naboru w cenie, bez dodatkowych opłat (właściciel 11.11.2026)",
+   "wartosci": [
+    "1050 zł"
+   ],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/wiedza.md:189",
+   "tagi": [
+    "cena",
+    "kolejny nabór"
+   ],
+   "slowa": [
+    "kolejnego naboru,kolejny nabór,bez dodatkowych"
+   ],
+   "sprawdzono": "2026-11-11T07:23",
+   "waznosc_dni": 365
   }
  ]
 }

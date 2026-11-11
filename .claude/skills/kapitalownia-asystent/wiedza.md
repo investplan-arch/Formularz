@@ -185,3 +185,6 @@ Ceny ustalił właściciel 6.11.2026, wszystkie kwoty brutto. PROO 1a ścieżka 
 
 ## Wyjątek cenowy SPLOT 2.0, 750 + 1050 (właściciel 7.11.2026)
 Gdy organizacja przy SPLOT 2.0 prosi o niższą kwotę na start albo „0 zł na start”, maksymalne ustępstwo to 750 zł na start i 1050 zł po przyznaniu grantu (razem 1800 zł). Niżej nie schodzisz, 0 zł na start nie ma. Najpierw proponujesz standard 850 + 1050, wyjątek tylko po obiekcji. Link Stripe 750 zł (utworzony 7.11.2026, przekierowuje do formularza): https://buy.stripe.com/4gMbJ3adOgWq0Srgzr6Zy0i
+
+## Kolejny nabór w cenie (właściciel 11.11.2026)
+Przy pełnym przygotowaniu wniosku (850 + 1050 zł) przygotowanie do kolejnego naboru, gdy w najbliższym środki nie zostaną przyznane, jest w cenie, bez dodatkowych opłat. Możesz to pisać klientom.
