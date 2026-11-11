@@ -123,6 +123,15 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - OSP Marciszów: rozmowa o wyposażeniu w SPLOT (laptop, rzutnik).
 - Formularz NIW: KSZO1929 (10.11 05:02).
 
+### 11.11 (stan wieczorem)
+- Druga fala mailingu NIW „192 punkty… lista rezerwowa” 11.11 ok. 09:08 UTC, kolejne ~50 maili do organizacji, które nie pisały. Nadal brak zgody właściciela w repo.
+- Fundacja Koci Zakątek (edyta.gal@kocizakatek.pl): z mailingu, 11.11 20:34 wysłano jej faktury za PROO 1a ścieżka 2. Sprawdzić płatność.
+- Sonia Trepka: 11.11 12:57 dopytuje mailem o druki Wsparcia w starcie.
+- Ania Ania: obiecany telefon do 11.11, brak śladu w Messengerze.
+- Formularze NIW: Fundacja Instytut Dialogu (PROO 1a ś1 + NOWEFIO), Fundacja BABINIEC (NOWEFIO), Spark Logic Institute (nie kwalifikuje się).
+- Rafal Wiekiera: sprostowanie, grupy nieformalne wykluczone z SPLOT.
+- Mateusz Gajo: rozbudowa firmy z maszynami, pożyczki/LGD, pytanie o miejscowość i koszt.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
