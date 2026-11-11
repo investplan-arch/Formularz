@@ -1043,6 +1043,19 @@
    ],
    "sprawdzono": "2026-11-11T07:23",
    "waznosc_dni": 365
+  },
+  {
+   "tekst": "SPLOT 2.0: grupy nieformalne, osoby fizyczne, partie, związki zawodowe i stowarzyszenia z udziałem JST nie mogą składać wniosków",
+   "wartosci": [],
+   "zrodlo": ".claude/skills/kapitalownia-asystent/regulaminy/splot_4_GD_2026_regulamin.txt",
+   "tagi": [
+    "splot"
+   ],
+   "slowa": [
+    "grupy nieformalne,splot"
+   ],
+   "sprawdzono": "2026-11-11T14:22",
+   "waznosc_dni": 365
   }
  ]
 }
