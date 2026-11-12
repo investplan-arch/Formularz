@@ -201,3 +201,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 12.11 ok. 9.40: mailing NIW, partia 3 dokończona na polecenie właściciela: wszystkie 60 maili wysłane (NOWEFIO 189, PROO i NOWEFIO 188 i 187). Wysłany też mail do Gajo (refundacja). Następna partia od 186 pkt.
   - 12.11 10.10 Wiekiera: „Jakie koszty?”. Odpowiedź: 1900 zł (850 + 1050), druga część z kosztów administracyjnych grantu, prośba o maila. Organizacji jeszcze nie podał.
   - 12.11 12.20 Wiekiera podał maila. Messenger: potwierdzenie i pytanie o formę organizacji. Draft r-1223720833527936498: warunki SPLOT, 850 + 1050, prośba o KRS i pomysł.
+  - 12.11 13.20 Gajo mailem: refundacja to za mało, pyta o dotacje unijne. Draft r1476453834253800199 (wysyłkę zablokował filtr): brak dotacji UE na 2 mln dla młodej JDG, FEM to głównie pożyczki; LGD Forum Powiatu Garwolińskiego (przynależność gminy Trojanów do potwierdzenia, naboru nie znaleziono) + refundacja; propozycja planu etapami.
