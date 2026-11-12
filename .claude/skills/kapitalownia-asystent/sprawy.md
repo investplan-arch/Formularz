@@ -132,6 +132,16 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Rafal Wiekiera: sprostowanie, grupy nieformalne wykluczone z SPLOT.
 - Mateusz Gajo: rozbudowa firmy z maszynami, pożyczki/LGD, pytanie o miejscowość i koszt.
 
+### 12.11 (stan wieczorem)
+- Brak nowej fali mailingu NIW 12.11.
+- Fundacja Koci Zakątek: 12.11 12:25 proforma 1500 zł przelewem, czeka na potwierdzenie płatności.
+- Włodzimierz Kaczkowski: 12.11 16:29 przysłał bilanse 2024–2025, sprawozdania i statut, praca nad wnioskami ruszyła.
+- Fundacja Polskie Realia Ludowe (Natalia): chce współpracy przy NOWEFIO 2027, 12.11 19:17 poproszona o KRS, przychód 2025 i inne dane.
+- Mateusz Gajo (mateuszgajo@poczta.onet.pl): rozmowa mailowa o rozbudowie budynku i maszynach.
+- Stowarzyszenie Aktywni Bez Barier: rezygnuje (12.11).
+- Rafal Wiekiera, Borys Pardus, Łukasz Matusik: dostali przypomnienia o mailach.
+- Formularz: Biuro EURO Sylwia Sobczyk, nie kwalifikuje się do NIW.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
