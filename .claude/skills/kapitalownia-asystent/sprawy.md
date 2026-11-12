@@ -199,3 +199,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 12.11 ok. 9.15: **Stowarzyszenie Aktywni Bez Barier (Legnica)** odpisało, że są w KRS od 2025. KRS: wpis 12.06.2025, NOWEFIO tak, PROO 1a nie. Wysłany mail (na polecenie właściciela): progi przychodu za 2025, cena 1500 + 1,5%, pytanie o przychód 2025.
   - 12.11 9.25 Gajo podał maila. Messenger: potwierdzenie. Draft r-1383315776752170056: refundacja stanowiska (art. 154–158, warunki z przepisy.md), cena 850 + 1050, pytanie o liczbę stanowisk i maszyny.
 - 12.11 ok. 9.40: mailing NIW, partia 3 dokończona na polecenie właściciela: wszystkie 60 maili wysłane (NOWEFIO 189, PROO i NOWEFIO 188 i 187). Wysłany też mail do Gajo (refundacja). Następna partia od 186 pkt.
+  - 12.11 10.10 Wiekiera: „Jakie koszty?”. Odpowiedź: 1900 zł (850 + 1050), druga część z kosztów administracyjnych grantu, prośba o maila. Organizacji jeszcze nie podał.
