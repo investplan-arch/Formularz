@@ -207,3 +207,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 12.11 ok. 20.30: formularz NIW od biura rachunkowego z wielkopolskiego (firma, nie NGO, cel „wsparcie organizacji”). Draft: NIW tylko dla NGO, dwie drogi (NGO, które obsługuje, albo refundacja i KFS dla biura), pytanie, o co chodzi.
 - 13.11 rano: drugi proces (poza tą sesją) 12.11 o 21.05–21.17 wysłał ponownie partię 189/188/187 (duplikaty ok. 60 maili). Właściciel: mailing prowadzi tylko ta sesja. Partia NOWEFIO 186–184: 18 adresów, wysłane 3, 2 zablokował filtr, 13 czeka (scratchpad mailing2/send2.json).
   - 13.11: partia NOWEFIO 186–184 dokończona, wszystkie 18 wysłane. Następna: NOWEFIO 183 i niżej.
+  - 13.11: partia NOWEFIO 183–181: 24 adresy, wysłane 22, 2 zablokował filtr (saracademybydgoszcz, 10g). Pominięte błędne adresy z KRS (www zamiast maila, polskie znaki w domenie, gmail.pl). Następna: NOWEFIO 180 i niżej.
