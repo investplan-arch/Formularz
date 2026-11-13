@@ -222,3 +222,4 @@ Pyta, czy pomagamy przy zakładaniu fundacji. Odpisano 13.11: zajmujemy się ca�
 
 ## Iwona Szlaga (Messenger, WwS małopolskie, 13.11.2026)
 Zgłasza, że płatność 850 zł zostanie ponowiona (blokada karty), sprawdzić Stripe. Pyta, co jeśli staż przedłużą o 3 miesiące. Odpisano: wniosek w trakcie stażu bez umorzenia albo po stażu rejestracja w PUP i wniosek z umorzeniem, pytanie, która opcja.
+13.11 11:20 Szlaga: wybiera wniosek w trakcie stażu (staż do końca grudnia, może przedłużą o 3 mies.). Odpisano: przygotujemy teraz, przy końcu stażu przed naborem rejestracja w PUP i wniosek z umorzeniem, formularz po płatności z linku 850 zł. Czeka na płatność.
