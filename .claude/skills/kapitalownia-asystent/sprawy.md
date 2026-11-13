@@ -223,3 +223,6 @@ Pyta, czy pomagamy przy zakładaniu fundacji. Odpisano 13.11: zajmujemy się ca�
 ## Iwona Szlaga (Messenger, WwS małopolskie, 13.11.2026)
 Zgłasza, że płatność 850 zł zostanie ponowiona (blokada karty), sprawdzić Stripe. Pyta, co jeśli staż przedłużą o 3 miesiące. Odpisano: wniosek w trakcie stażu bez umorzenia albo po stażu rejestracja w PUP i wniosek z umorzeniem, pytanie, która opcja.
 13.11 11:20 Szlaga: wybiera wniosek w trakcie stażu (staż do końca grudnia, może przedłużą o 3 mies.). Odpisano: przygotujemy teraz, przy końcu stażu przed naborem rejestracja w PUP i wniosek z umorzeniem, formularz po płatności z linku 850 zł. Czeka na płatność.
+
+## Fundacja Serca na dłoniach (formularz NIW, lubuskie, 13.11.2026)
+Formularz 11:27, PROO 1a ścieżka 1, rejestracja 11.2023 do 10.2024, przychód do 30 tys., realizuje wieloletni NOWEFIO. Draft maila 13.11: warunki ścieżki 1, uwaga o podwójnym finansowaniu, 650 + 850, prośba o KRS i koszty NOWEFIO, link albo proforma. Czeka na wysyłkę przez właściciela. Telefon w formularzu.
