@@ -211,3 +211,6 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
   - 13.11 ok. 7.50: partia NOWEFIO 180–178: 23 adresy, wysłany 1, 2 zablokowane przez filtr (Real-World Transactions), 20 czeka (mailing2/send4.json). Mateusz Gajo: draft o pożyczce Wsparcie w starcie na jego własną firmę (filtr zablokował wysyłkę).
 - 13.11 ok. 8.20: **Mateo Montoya** (Messenger, t_1996942965043980): JDG klimatyzacja i wentylacja + sp. z o.o. obrót nieruchomościami, chce kompleksowej długiej współpracy. Odpowiedź: tak, model start + po przyznaniu, prośba o maila na analizę. Orzeł Marketingu (wymiana opinii) bez odpowiedzi, zgodnie z zasadami.
   - 13.11 9.20 Montoya podał maila. Messenger: potwierdzenie. Draft r1652124977893826195: model rozliczeń, 5 pytań do analizy obu firm (lokalizacja, wyniki, plany zakupów i inwestycji), wycena indywidualna.
+
+## Fundacja Crush On Trash (NIW PROO 1a ścieżka 2, 13.11.2026)
+Odpisała na mailing PROO 1a ścieżka 2 (186 pkt w 2026), chce złożyć ponownie. Mailing wysłał 13.11 o 10:11 inny proces, nie ta sesja. Draft odpowiedzi 13.11: zakres, 2250 zł + 1,5%, prośba o kartę oceny, wniosek 2026, przychód 2025 i wybór link/proforma. Czeka na wysyłkę przez właściciela.
