@@ -142,6 +142,13 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Rafal Wiekiera, Borys Pardus, Łukasz Matusik: dostali przypomnienia o mailach.
 - Formularz: Biuro EURO Sylwia Sobczyk, nie kwalifikuje się do NIW.
 
+### 13.11 (stan wieczorem)
+- Gmail MCP 13.11 wieczorem wymaga ponownego logowania (claude.ai, ustawienia konektorów); raport bez Gmaila.
+- Iwona Szlaga: 13.11 14:19 „płatność wysłana, formularz również” (Wsparcie w starcie, wariant: wniosek teraz, po stażu rejestracja w PUP i umorzenie). Do potwierdzenia wpłata 850.
+- Aneta Pawlarczyk: rozmowa telefoniczna umówiona na poniedziałek 16.11, numer podała w Messengerze 13.11.
+- Oleksandr Martyniuk: fundacja z 2025, SPLOT 2.0, pytanie o działalność 13.11 17:20.
+- Orzeł Marketingu: „Aktualne?” (wygląda na ofertę marketingową, pominięte).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
