@@ -218,3 +218,7 @@ Odpisała na mailing PROO 1a ścieżka 2 (186 pkt w 2026), chce złożyć ponown
 ## Aneta Pawlarczyk (Messenger, założenie fundacji, 13.11.2026)
 Pyta, czy pomagamy przy zakładaniu fundacji. Odpisano 13.11: zajmujemy się całością (statut, dokumenty dla notariusza, wniosek do KRS z instrukcją), pytanie o cel fundacji. Następny krok: po odpowiedzi prośba o maila i cena 690 + 800 (albo 1290 + 1200 z pierwszym wnioskiem grantowym).
 13.11 Pawlarczyk: cel fundacji ogólnie rozwój kobiet, pytała o procent. Wysłano: statut ułożymy od zarysu, 690 + 800 po KRS, notariusz i 250 zł osobno, prośba o maila. Czeka na adres.
+13.11 Pawlarczyk: podała maila, na Messengerze „szczegóły wyślę dziś, zaczynamy?”. Draft maila ze szczegółami i ceną w Gmailu, czeka na wysyłkę przez właściciela. Link 690 zł po jej „tak”.
+
+## Iwona Szlaga (Messenger, WwS małopolskie, 13.11.2026)
+Zgłasza, że płatność 850 zł zostanie ponowiona (blokada karty), sprawdzić Stripe. Pyta, co jeśli staż przedłużą o 3 miesiące. Odpisano: wniosek w trakcie stażu bez umorzenia albo po stażu rejestracja w PUP i wniosek z umorzeniem, pytanie, która opcja.
