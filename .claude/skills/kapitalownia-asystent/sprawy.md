@@ -217,3 +217,4 @@ Odpisała na mailing PROO 1a ścieżka 2 (186 pkt w 2026), chce złożyć ponown
 
 ## Aneta Pawlarczyk (Messenger, założenie fundacji, 13.11.2026)
 Pyta, czy pomagamy przy zakładaniu fundacji. Odpisano 13.11: zajmujemy się całością (statut, dokumenty dla notariusza, wniosek do KRS z instrukcją), pytanie o cel fundacji. Następny krok: po odpowiedzi prośba o maila i cena 690 + 800 (albo 1290 + 1200 z pierwszym wnioskiem grantowym).
+13.11 Pawlarczyk: cel fundacji ogólnie rozwój kobiet, pytała o procent. Wysłano: statut ułożymy od zarysu, 690 + 800 po KRS, notariusz i 250 zł osobno, prośba o maila. Czeka na adres.
