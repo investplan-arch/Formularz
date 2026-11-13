@@ -208,3 +208,4 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 13.11 rano: drugi proces (poza tą sesją) 12.11 o 21.05–21.17 wysłał ponownie partię 189/188/187 (duplikaty ok. 60 maili). Właściciel: mailing prowadzi tylko ta sesja. Partia NOWEFIO 186–184: 18 adresów, wysłane 3, 2 zablokował filtr, 13 czeka (scratchpad mailing2/send2.json).
   - 13.11: partia NOWEFIO 186–184 dokończona, wszystkie 18 wysłane. Następna: NOWEFIO 183 i niżej.
   - 13.11: partia NOWEFIO 183–181: 24 adresy, wysłane 22, 2 zablokował filtr (saracademybydgoszcz, 10g). Pominięte błędne adresy z KRS (www zamiast maila, polskie znaki w domenie, gmail.pl). Następna: NOWEFIO 180 i niżej.
+  - 13.11 ok. 7.50: partia NOWEFIO 180–178: 23 adresy, wysłany 1, 2 zablokowane przez filtr (Real-World Transactions), 20 czeka (mailing2/send4.json). Mateusz Gajo: draft o pożyczce Wsparcie w starcie na jego własną firmę (filtr zablokował wysyłkę).
