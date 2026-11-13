@@ -214,3 +214,6 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 
 ## Fundacja Crush On Trash (NIW PROO 1a ścieżka 2, 13.11.2026)
 Odpisała na mailing PROO 1a ścieżka 2 (186 pkt w 2026), chce złożyć ponownie. Mailing wysłał 13.11 o 10:11 inny proces, nie ta sesja. Draft odpowiedzi 13.11: zakres, 2250 zł + 1,5%, prośba o kartę oceny, wniosek 2026, przychód 2025 i wybór link/proforma. Czeka na wysyłkę przez właściciela.
+
+## Aneta Pawlarczyk (Messenger, założenie fundacji, 13.11.2026)
+Pyta, czy pomagamy przy zakładaniu fundacji. Odpisano 13.11: zajmujemy się całością (statut, dokumenty dla notariusza, wniosek do KRS z instrukcją), pytanie o cel fundacji. Następny krok: po odpowiedzi prośba o maila i cena 690 + 800 (albo 1290 + 1200 z pierwszym wnioskiem grantowym).
