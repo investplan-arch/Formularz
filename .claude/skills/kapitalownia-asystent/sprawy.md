@@ -226,3 +226,7 @@ Zgłasza, że płatność 850 zł zostanie ponowiona (blokada karty), sprawdzić
 
 ## Fundacja Serca na dłoniach (formularz NIW, lubuskie, 13.11.2026)
 Formularz 11:27, PROO 1a ścieżka 1, rejestracja 11.2023 do 10.2024, przychód do 30 tys., realizuje wieloletni NOWEFIO. Draft maila 13.11: warunki ścieżki 1, uwaga o podwójnym finansowaniu, 650 + 850, prośba o KRS i koszty NOWEFIO, link albo proforma. Czeka na wysyłkę przez właściciela. Telefon w formularzu.
+13.11 15:30 Serca na dłoniach: mail wysłany (polecenie właściciela „odpisz na formularz”). Czeka na KRS i wybór płatności.
+13.11 Szlaga: zgłasza płatność i formularz (formularz w Gmailu 14:17). Odpisano: formularz dotarł, płatność potwierdzimy po zaksięgowaniu. Stripe do sprawdzenia przez właściciela.
+13.11 Pawlarczyk: właściciel sam umówił telefon na poniedziałek 16.11, numer podała w rozmowie. Draft maila nadal w Gmailu.
+13.11 Oleksandr Martyniuk (SPLOT, komentarz 7.11): działalność społeczna, pyta o cele i szanse. Odpisano: tylko zarejestrowana organizacja, pytanie, czy fundacja albo stowarzyszenie w KRS.
