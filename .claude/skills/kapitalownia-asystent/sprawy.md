@@ -231,3 +231,8 @@ Formularz 11:27, PROO 1a ścieżka 1, rejestracja 11.2023 do 10.2024, przychód 
 13.11 Pawlarczyk: właściciel sam umówił telefon na poniedziałek 16.11, numer podała w rozmowie. Draft maila nadal w Gmailu.
 13.11 Oleksandr Martyniuk (SPLOT, komentarz 7.11): działalność społeczna, pyta o cele i szanse. Odpisano: tylko zarejestrowana organizacja, pytanie, czy fundacja albo stowarzyszenie w KRS.
 13.11 17:20 Martyniuk: fundacja zarejestrowana 10.2025. Odpisano: SPLOT bez wymogu stażu, projekt musi dotyczyć praw, wartości UE albo demokracji (CERV), pytanie o codzienną działalność. Następnie mail i cena 850 + 1050.
+
+## 14.11.2026 (polecenie właściciela „odpisz klientom, zaopiekuj się”)
+- Paweł Sura (Messenger, WwS, Krasiczyn, maszyny i hala 40 do 50 tys., etat, link 850 dostał 27.10): pyta o kwotę. Odpisano: pożyczka do 184 662,60 zł, 0,25%, do 7 lat, przy etacie bez umorzenia, pytanie, czy pożyczka mu odpowiada.
+- Adrian Śmiech (Messenger, fundacja, Janowice Wielkie): chce WwS na firmę i coś dla fundacji („ol i oc”, niejasne). Wcześniej przychód wyższy niż przeciętne wynagrodzenie. Odpisano: warunek przychodu, pytanie, czy coś się zmieniło.
+- Aneta Pawlarczyk: potwierdzony telefon w poniedziałek, prośba o przemyślenie nazwy, siedziby i fundatora.
