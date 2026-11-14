@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>NOWEFIO 2027</title>
+<style>
+@font-face { font-family: "Geist"; src: url(../../formularz-zasoby/geist-latin-wght-normal.woff2) format("woff2"); font-weight: 100 900; }
+@font-face { font-family: "Geist"; src: url(../../formularz-zasoby/geist-latin-ext-wght-normal.woff2) format("woff2"); font-weight: 100 900; unicode-range: U+0100-02AF; }
+@font-face { font-family: "Newsreader"; src: url(../../formularz-zasoby/newsreader-latin-wght-normal.woff2) format("woff2"); font-weight: 200 800; }
+@font-face { font-family: "Newsreader"; src: url(../../formularz-zasoby/newsreader-latin-ext-wght-normal.woff2) format("woff2"); font-weight: 200 800; unicode-range: U+0100-02AF; }
+
+:root { --navy: #10192b; --navy2: #182642; --blue: #2256ee; --cream: #faf7f2; --muted: #aab6cd; --line: #2a3a5c; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--navy); font-family: "Geist", sans-serif; color: var(--cream); display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+.top { display: flex; justify-content: space-between; align-items: center; }
+.marka { display: flex; align-items: center; gap: 18px; font-weight: 600; letter-spacing: 2px; }
+.pill { background: var(--blue); border-radius: 99px; font-weight: 600; }
+h1 { font-weight: 800; line-height: 1.02; text-wrap: balance; }
+h1 b { color: var(--blue); font-weight: 800; }
+.sub { font-family: "Newsreader", serif; line-height: 1.25; color: var(--muted); }
+.box { background: var(--navy2); border: 2px solid var(--line); border-radius: 28px; }
+.n { font-weight: 600; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); }
+.kw { display: grid; grid-template-columns: repeat(3, 1fr); }
+.kw div { text-align: left; }
+.kw .a { color: var(--muted); }
+.kw .b { font-weight: 800; letter-spacing: -1px; white-space: nowrap; }
+.kw .b span { color: var(--blue); }
+.pr { display: grid; }
+.p { display: grid; grid-template-columns: 1fr auto; align-items: center; column-gap: 20px; }
+.p .t { font-weight: 700; }
+.p .d { color: #c9d1e0; grid-column: 1; }
+.p .v { grid-row: 1 / span 2; grid-column: 2; font-weight: 800; letter-spacing: -1px; text-align: right; }
+.p .v small { display: block; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+.bar { grid-column: 1 / span 2; height: 14px; border-radius: 99px; background: #22314f; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--blue); border-radius: 99px; }
+ul.war { list-style: none; display: grid; }
+ul.war li { position: relative; color: #dfe4ee; line-height: 1.3; }
+ul.war li::before { content: ""; position: absolute; left: 0; width: 12px; height: 12px; border-radius: 3px; background: var(--blue); }
+.cta { margin-top: auto; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.cta .t { font-family: "Newsreader", serif; line-height: 1.15; }
+.cta .btn { background: var(--cream); color: var(--navy); border-radius: 99px; font-weight: 700; white-space: nowrap; }
+.stopka { color: #7c89a3; }
+
+html, body { width: 1080px; height: 1920px; }
+body { padding: 116px 76px 176px; }
+.marka { font-size: 28px; } .marka svg { width: 46px; height: 51px; }
+.pill { padding: 12px 30px; font-size: 28px; }
+h1 { margin-top: 48px; font-size: 92px; letter-spacing: -3px; }
+.sub { margin-top: 24px; font-size: 44px; }
+.box { padding: 28px 34px; }
+.s1 { margin-top: 34px; } .s2 { margin-top: 22px; }
+.n { font-size: 25px; }
+.kw { margin-top: 18px; gap: 22px; } .kw .a { font-size: 24px; } .kw .b { font-size: 46px; margin-top: 6px; }
+.box .u { margin-top: 12px; font-size: 24px; color: var(--muted); }
+.pr { margin-top: 16px; gap: 16px; }
+.p { row-gap: 4px; } .p .t { font-size: 32px; } .p .d { font-size: 25px; } .p .v { font-size: 48px; } .p .v small { font-size: 19px; }
+.bar { margin-top: 10px; height: 14px; }
+ul.war { margin-top: 28px; gap: 10px; } ul.war li { font-size: 31px; padding-left: 32px; } ul.war li::before { top: 13px; }
+.cta { flex-direction: column; align-items: flex-start; gap: 18px; padding-top: 26px; } .cta .t { font-size: 46px; } .cta .btn { padding: 24px 40px; font-size: 36px; }
+.stopka { margin-top: 18px; font-size: 20px; }
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="marka"><svg viewBox="330 296 612 676" aria-hidden="true"><path fill="#faf7f2" d="M339 635L339 308L345 308C348 309 355 310 362 312C403 322 430 348 438 384L440 394L441 640C442 875 442 888 443 893C453 924 482 946 530 958C536 960 542 961 544 961C545 962 499 962 442 962L339 962L339 635ZM788 961C771 957 755 947 745 935C742 932 736 923 730 916C725 908 718 897 714 892C710 887 700 873 692 860C684 848 670 830 662 818C607 740 574 693 574 692C575 690 597 668 604 663C620 651 636 644 653 642C673 640 693 646 708 660C712 664 735 692 749 712C754 719 789 767 807 792C815 802 827 819 835 830C843 841 852 854 856 858C860 863 866 873 871 879C876 886 887 902 897 915C924 952 930 959 930 961C931 963 797 962 788 961ZM576 592L576 520L635 462C667 430 708 389 726 372L758 340L845 340L932 340L905 366C799 465 661 591 592 649C586 655 579 660 578 661L576 663L576 592Z"/><path fill="#2256ee" d="M541 960C513 954 487 943 471 931L464 926L464 649C464 497 464 372 464 372C465 372 500 391 509 397C531 410 543 425 549 444L551 452L552 707C552 912 552 962 551 962C550 962 546 961 541 960Z"/></svg>KAPITAŁOWNIA</div>
+  <div class="pill">NOWEFIO 2027</div>
+</div>
+<h1>Do <b>300&nbsp;tys.&nbsp;zł</b> na projekt Waszej organizacji</h1>
+<p class="sub">Nabór w NIW od 16 listopada do 16&nbsp;grudnia 2026&nbsp;r.</p>
+
+<div class="box s1">
+  <div class="n">Ile można dostać</div>
+  <div class="kw">
+    <div><div class="a">przychód ponad 30&nbsp;tys.&nbsp;zł</div><div class="b"><span>100</span> tys. zł</div></div>
+    <div><div class="a">przychód ponad 100&nbsp;tys.&nbsp;zł</div><div class="b"><span>200</span> tys. zł</div></div>
+    <div><div class="a">przychód ponad 150&nbsp;tys.&nbsp;zł</div><div class="b"><span>300</span> tys. zł</div></div>
+  </div>
+  <p class="u">Liczy się najwyższy roczny przychód z&nbsp;3&nbsp;ostatnich lat, także z&nbsp;dotacji.</p>
+</div>
+
+<div class="box s2">
+  <div class="n">Priorytety i&nbsp;szanse w&nbsp;2025&nbsp;r.</div>
+  <div class="pr">
+    <div class="p"><span class="t">Priorytet 2</span><span class="d">Społeczności lokalne, rodziny, dzieci, seniorzy</span><span class="v">8%<small>ofert z&nbsp;dotacją</small></span><span class="bar"><i style="width:8%"></i></span></div>
+    <div class="p"><span class="t">Priorytet 3</span><span class="d">Organizacje w&nbsp;życiu publicznym i&nbsp;dialog obywatelski</span><span class="v">20%<small>ofert z&nbsp;dotacją</small></span><span class="bar"><i style="width:20%"></i></span></div>
+    <div class="p"><span class="t">Priorytet 4</span><span class="d">Projekty wzmacniające inne organizacje w&nbsp;regionie</span><span class="v">35%<small>ofert z&nbsp;dotacją</small></span><span class="bar"><i style="width:35%"></i></span></div>
+  </div>
+</div>
+
+<ul class="war">
+  <li>Organizacja wpisana do rejestru najpóźniej w&nbsp;2025&nbsp;r.</li>
+  <li>Bez wkładu własnego, projekt od 2027 do 2029&nbsp;r.</li>
+  <li>Próg to 80% punktów, więc decydują szczegóły</li>
+</ul>
+
+<div class="cta">
+  <p class="t">Sprawdź organizację<br>w&nbsp;dwie minuty</p>
+  <div class="btn">formularz.kapitalownia.pl/niw</div>
+</div>
+<p class="stopka">Na podstawie regulaminu NOWEFIO 2027 i&nbsp;sprawozdania NIW z&nbsp;NOWEFIO 2025</p>
+</body>
+</html>
