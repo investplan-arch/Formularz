@@ -236,3 +236,6 @@ Formularz 11:27, PROO 1a ścieżka 1, rejestracja 11.2023 do 10.2024, przychód 
 - Paweł Sura (Messenger, WwS, Krasiczyn, maszyny i hala 40 do 50 tys., etat, link 850 dostał 27.10): pyta o kwotę. Odpisano: pożyczka do 184 662,60 zł, 0,25%, do 7 lat, przy etacie bez umorzenia, pytanie, czy pożyczka mu odpowiada.
 - Adrian Śmiech (Messenger, fundacja, Janowice Wielkie): chce WwS na firmę i coś dla fundacji („ol i oc”, niejasne). Wcześniej przychód wyższy niż przeciętne wynagrodzenie. Odpisano: warunek przychodu, pytanie, czy coś się zmieniło.
 - Aneta Pawlarczyk: potwierdzony telefon w poniedziałek, prośba o przemyślenie nazwy, siedziby i fundatora.
+- 14.11 ok. 11:45: Pawlarczyk pyta o wkład fundatora. Odpisano: brak minimum, przy działalności gospodarczej co najmniej 1000 zł. Telefon właściciela w poniedziałek.
+- 14.11: Paweł Sura odrzuca pożyczkę, chce tylko bezzwrotnego. Odpisano: zostaje premia LGD, harmonogramy 2027 w grudniu, sprawdzimy LGD dla gminy Krasiczyn. DO ZROBIENIA: ustalić LGD dla Krasiczyna i jej harmonogram 2027.
+- 14.11: Adrian Śmiech odpisał tylko „Oki”, bez odpowiedzi na pytanie o przychód. Nie odpisujemy, czekamy.
