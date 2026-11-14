@@ -149,6 +149,12 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Oleksandr Martyniuk: fundacja z 2025, SPLOT 2.0, pytanie o działalność 13.11 17:20.
 - Orzeł Marketingu: „Aktualne?” (wygląda na ofertę marketingową, pominięte).
 
+### 14.11 (stan wieczorem)
+- Gmail nadal wymaga ponownego logowania (2. dzień).
+- Rafał Brudny: fundacja, budynek na prywatnej działce, 14.11 20:25 pytanie o umowę użyczenia/dzierżawy z fundacją. Okno do 15.11 ok. 20:00 UTC.
+- Aneta Pawlarczyk: telefon w poniedziałek 16.11.
+- Paweł Sura, Adrian Śmiech: krótkie „ok”, bez dalszych kroków.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
