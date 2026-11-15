@@ -155,6 +155,13 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Aneta Pawlarczyk: telefon w poniedziałek 16.11.
 - Paweł Sura, Adrian Śmiech: krótkie „ok”, bez dalszych kroków.
 
+### 15.11 (stan wieczorem)
+- Gmail nadal wymaga ponownego logowania (3. dzień).
+- Iwona Szlaga: 15.11 15:05 „wszystko mamy, zaczynamy biznesplan” (płatność potwierdzona przez rozmowę).
+- Grass Jeremy: mobilny serwis mechaniczny, Wsparcie w starcie 140–150 tys. zł, rejestracja w PUP po powrocie na święta, kredyt 100 tys. spłacany terminowo. 15.11 ok. 20:40 dostał cenę 1900 (850 + 1050), link Stripe 850 i formularz. Okno do 16.11 19:42 UTC.
+- Rafał Brudny: poproszony o KRS fundacji (14.11 21:05).
+- Użytkownik Facebooka (NOWEFIO): pytanie o organizację 15.11 07:13.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
