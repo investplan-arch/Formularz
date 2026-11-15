@@ -249,3 +249,7 @@ Rejestracja przed 1.11.2023, przychód ponad 500 tys. zł, bez dotacji NIW. Pomy
 
 ## Fundacja Sióstr Harcerek (formularz NIW 14.11.2026, zachodniopomorskie)
 Rejestracja przed 1.11.2023, przychód ponad 500 tys., cel wsparcie organizacji, pomysł pusty („Fajny pomysł”). Draft 15.11: NOWEFIO priorytet 4 (35% w 2025) i PROO 1a ścieżka 3, ceny 1500 + 1,5% i 2250 + 1,5%, prośba o KRS i opis działalności. Czeka na wysyłkę. Właściciel mówi, że jedna pani wypełniła formularz dwa razy; w Gmailu widać po jednym zgłoszeniu, odpowiadamy jednym mailem.
+
+## Stowarzyszenie Spółdzielnia Teatralna (formularze 15.11.2026, Poznań, dwa zgłoszenia)
+Anna, stowarzyszenie zwykłe, rejestracja przed 1.11.2023, przychód 150 do 500 tys. (formularz NIW pokazał ścieżki 1 i 2), produkcja i prezentacja spektakli dla dzieci i dorosłych, zasięg ogólnopolski. Draft jednym mailem 15.11: NOWEFIO i PROO 1a ścieżka 2, oba dopuszczają stowarzyszenia zwykłe (regulaminy PROO:407, NOWEFIO:448), ceny 1500 + 1,5% i 2250 + 1,5%, prośba o numer ewidencji albo KRS i przychód. Czeka na wysyłkę.
+UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kontakt@kapitalownia.pl z etykietą SENT (temat „Zgłoszenie ze strony”), więc filtr -from:me je wycina. Sprawdzać osobno: subject:"Zgłoszenie ze strony" newer_than:1d.
