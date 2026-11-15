@@ -246,3 +246,6 @@ Formularz 11:27, PROO 1a ścieżka 1, rejestracja 11.2023 do 10.2024, przychód 
 
 ## Fundacja Nie Widać Po Mnie (formularz NIW 15.11.2026, mazowieckie)
 Rejestracja przed 1.11.2023, przychód ponad 500 tys. zł, bez dotacji NIW. Pomysł: sprzęt, bezpłatne wsparcie psychologiczne, szkolenia z wypalenia, szkolenia zespołu. Draft maila 15.11: PROO 1a ścieżka 3 (sprzęt, szkolenia, strategia, audyt, sprawozdania na stronie) plus NOWEFIO (wsparcie psychologiczne), 2250 + 1,5% i 1500 + 1,5%, prośba o KRS, sprawozdania, wybór programów i płatności. Czeka na wysyłkę przez właściciela. Telefon w formularzu.
+
+## Fundacja Sióstr Harcerek (formularz NIW 14.11.2026, zachodniopomorskie)
+Rejestracja przed 1.11.2023, przychód ponad 500 tys., cel wsparcie organizacji, pomysł pusty („Fajny pomysł”). Draft 15.11: NOWEFIO priorytet 4 (35% w 2025) i PROO 1a ścieżka 3, ceny 1500 + 1,5% i 2250 + 1,5%, prośba o KRS i opis działalności. Czeka na wysyłkę. Właściciel mówi, że jedna pani wypełniła formularz dwa razy; w Gmailu widać po jednym zgłoszeniu, odpowiadamy jednym mailem.
