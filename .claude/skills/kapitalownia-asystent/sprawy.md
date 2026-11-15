@@ -243,3 +243,6 @@ Formularz 11:27, PROO 1a ścieżka 1, rejestracja 11.2023 do 10.2024, przychód 
 - 14.11: Rafał Brudny (Messenger, fundacja 2 lata, kujawsko-pomorskie, centrum terapeutyczne, 400 tys. zł, wątek z 28.09) wrócił: budowa na jego prywatnej działce, WZ dopuszczają działalność leczniczą. Odpisano: potrzebna długoletnia umowa użyczenia albo dzierżawy z fundacją, pytanie, czy jest.
 - 14.11 22:00: Brudny: fundacja może mieć umowę do działki. Odpisano: umowa przed wnioskiem, prośba o numer KRS do sprawdzenia daty rejestracji i doboru programów.
 - 15.11 rano: Bartłomiej Gądek (Messenger, nowy, t_1131840692758693) napisał „Fio”. Odpisano bez kwot: nabór NOWEFIO od 16.11, pytanie o organizację, rejestrację i cel dotacji.
+
+## Fundacja Nie Widać Po Mnie (formularz NIW 15.11.2026, mazowieckie)
+Rejestracja przed 1.11.2023, przychód ponad 500 tys. zł, bez dotacji NIW. Pomysł: sprzęt, bezpłatne wsparcie psychologiczne, szkolenia z wypalenia, szkolenia zespołu. Draft maila 15.11: PROO 1a ścieżka 3 (sprzęt, szkolenia, strategia, audyt, sprawozdania na stronie) plus NOWEFIO (wsparcie psychologiczne), 2250 + 1,5% i 1500 + 1,5%, prośba o KRS, sprawozdania, wybór programów i płatności. Czeka na wysyłkę przez właściciela. Telefon w formularzu.
