@@ -268,3 +268,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 15:10: Zakrzewska zakłada fundację na początku grudnia (dzienny dom seniora). Odpisano: NIW odpada dla nowej fundacji, założenie od statutu po KRS, 690 + 800, prośba o maila.
 - 16.11 15:10: z posta „Napisz NIW”: Zbigniew Osajda („NIW”, t_1176511448272656) i Arek Kasprzak („Kiv”, t_2218614399054637) dostali pytania o organizację, rejestrację i cel.
 - 16.11 15:15: Osajda: stowarzyszenie od 2015, kultura i edukacja, przy orkiestrze ok. 100 osób, chce sprzęt muzyczny, stroje, koncerty, warsztaty. Odpisano: PROO 1a (sprzęt, stroje) i NOWEFIO (koncerty, warsztaty), pytanie o najwyższy przychód 2023 do 2025 (decyduje o ścieżce i kwocie).
+- 16.11 15:25: Osajda: przychód ok. 200 tys. Odpisano (bez ceny, właściciel: jeszcze nie dopinać): PROO 1a ścieżka 2 (150 do 300 tys.) i NOWEFIO do 300 tys., pytanie o priorytety orkiestry na 2027.
