@@ -280,3 +280,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 16:20: Osajda: bez wcześniejszych dotacji NIW. Wysłano (polecenie właściciela): 3750 zł na start (PROO 1a 2250 + NOWEFIO 1500) + 1,5% po przyznaniu, dane do przelewu, tytuł NIW 2027 Vida Artis Rychwał, prośba o maila do umowy. Następnie: umowa.py --program proo (2 umowy albo jedna) po otrzymaniu maila.
 - 16.11 17:20: Luma zgodził się na kontakt przy pasującym naborze (motorsport młodzieży, bezpieczeństwo na drogach, stowarzyszenie od 03.2026). Do listy „odezwać się przy naborze”.
 - 16.11 17:20: Kasprzak pyta o „opcje na fundację”. Zapytany, czy fundacja już jest w KRS i od kiedy, czy dopiero ją zakłada.
+- 16.11 18:10: Kasprzak: fundacja od 2025. Odpisano: NOWEFIO tak przy przychodzie ponad 30 tys., PROO 1a wymaga starszego wpisu, pytanie o przychód 2025.
+- 16.11 18:10: Poniatowska: Rodzinne Ogrody Działkowe (PZD). Regulamin NOWEFIO i PROO dopuszcza jednostki terenowe NGO tylko z osobowością prawną (nowefio regulamin:448). Zapytana, czy to ROD w strukturach PZD, czy osobne stowarzyszenie ogrodowe z KRS.
