@@ -162,6 +162,16 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Rafał Brudny: poproszony o KRS fundacji (14.11 21:05).
 - Użytkownik Facebooka (NOWEFIO): pytanie o organizację 15.11 07:13.
 
+### 16.11 (stan wieczorem)
+- Gmail nadal wymaga ponownego logowania (4. dzień).
+- Zbigniew Osajda (Vida Artis Rychwał): PROO 1a + NOWEFIO, 3750 zł na start + 1,5% po dotacji, numer konta podany na Messengerze 16.11 16:16, prośba o e-mail do umowy.
+- Rafał Brudny: PROO 1a ścieżka 1, 650 + 850 zł, prośba o e-mail (16.11 16:11).
+- Magdalena Zakrzewska (dzienny dom seniora) i Małgorzata Janiaczyk: założenie fundacji 690 + 800 zł, prośba o e-mail.
+- Arek Kasprzak: „Dowiem się” (19:24).
+- Adrian Luma: stowarzyszenie z 2026, motorsport/bezpieczeństwo drogowe, zgoda na kontakt przy przyszłym naborze.
+- Karolina Poniatowska: nie kwalifikuje się, zakończona uprzejmie.
+- Grass Jeremy: brak odpowiedzi po linku 850 (okno do 16.11 19:42, minęło).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
