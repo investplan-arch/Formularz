@@ -272,3 +272,7 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 15:45: Osajda: priorytety mundury, sprzęt, zatrudnienie osoby, cykl koncertów patriotycznych. Odpisano: PROO 1a obejmuje mundury, sprzęt i etat, koncerty do NOWEFIO, prośba o KRS. Bez ceny (właściciel: nie dopinać).
 - 16.11 15:45: Brudny podał KRS 0001128150: Fundacja Wspierania Rozwoju „Wstajemy”, Grudziądz, wpis 23.09.2024 (PROO 1a ścieżka 1 tak, ścieżka 2 nie). Odpisano: PROO 1a 30 do 50 tys. np. wyposażenie, NOWEFIO przy przychodzie ponad 30 tys., pytanie o przychód 2025. NIW nie sfinansuje całej budowy za 400 tys.
 - 16.11 15:45: Adrian Luma (Messenger, nowy, t_1113837095036062), stowarzyszenie z marca 2026. Odpisano: NIW odpada, SPLOT 2.0 bez stażu przy projekcie o prawach lub dialogu obywatelskim, pytanie o działalność.
+- 16.11 16:15: Osajda: KRS 0000550588 Stowarzyszenie „Vida Artis Rychwał”, wpis 30.03.2015, bez likwidacji. Pytanie o wcześniejsze dotacje PROO lub NOWEFIO. Bez ceny.
+- 16.11 16:15: Brudny: przychód poniżej 10 tys. zł, NOWEFIO odpada. Odpisano: PROO 1a ścieżka 1 (30 do 50 tys., bez progu przychodu), 650 + 850, prośba o maila.
+- 16.11 16:15: Luma (motorsport młodzieży, bezpieczeństwo na drogach): SPLOT nie pasuje, NIW w kolejnych latach; pytanie o zgodę na kontakt przy pasującym naborze.
+- 16.11 16:15: z posta NIW: Małgorzata Janiaczyk (t_1688401219530816) i Karolina Poniatowska (t_1077508822006956) dostały pytania o organizację, rejestrację i cel.
