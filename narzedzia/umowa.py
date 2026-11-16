@@ -39,7 +39,9 @@ def z_krs(krs):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--krs"); ap.add_argument("--zamawiajacy"); ap.add_argument("--out", required=True)
-    ap.add_argument("--program", default="splot", choices=["splot", "wws"], help="szablon umowy: splot albo wws (Wsparcie w starcie, osoba fizyczna)")
+    ap.add_argument("--program", default="splot", choices=["splot", "wws", "proo"], help="szablon umowy: splot, wws (Wsparcie w starcie, osoba fizyczna) albo proo (PROO 1a)")
+    ap.add_argument("--start", default="2250 zł", help="proo: kwota pierwszej części, np. \"1500 zł\"")
+    ap.add_argument("--sciezka", default="ścieżka 2", help="proo: ścieżka, np. \"ścieżka 2\"")
     a = ap.parse_args()
     wyk = os.environ.get("WYKONAWCA")
     if not wyk:
@@ -47,7 +49,7 @@ def main():
     zam = a.zamawiajacy or (z_krs(a.krs) if a.krs else None)
     if not zam:
         print("Podaj --krs albo --zamawiajacy.", file=sys.stderr); return 1
-    md = (SZABLONY / f"umowa_{a.program}.md").read_text().replace("{WYKONAWCA}", wyk).replace("{ZAMAWIAJACY}", zam)
+    md = (SZABLONY / f"umowa_{a.program}.md").read_text().replace("{WYKONAWCA}", wyk).replace("{ZAMAWIAJACY}", zam).replace("{START}", a.start).replace("{SCIEZKA}", a.sciezka)
     with tempfile.TemporaryDirectory() as t:
         src, dst = Path(t) / "u.md", Path(t) / "u.docx"
         src.write_text(md)
