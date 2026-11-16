@@ -276,3 +276,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 16:15: Brudny: przychód poniżej 10 tys. zł, NOWEFIO odpada. Odpisano: PROO 1a ścieżka 1 (30 do 50 tys., bez progu przychodu), 650 + 850, prośba o maila.
 - 16.11 16:15: Luma (motorsport młodzieży, bezpieczeństwo na drogach): SPLOT nie pasuje, NIW w kolejnych latach; pytanie o zgodę na kontakt przy pasującym naborze.
 - 16.11 16:15: z posta NIW: Małgorzata Janiaczyk (t_1688401219530816) i Karolina Poniatowska (t_1077508822006956) dostały pytania o organizację, rejestrację i cel.
+- 16.11 16:20: WŁAŚCICIEL: Osajda (Vida Artis) w następnej wiadomości dostaje cenę (PROO 1a ścieżka 2 2250 zł + NOWEFIO 1500 zł, razem 3750 zł na start + 1,5% po przyznaniu) i dane do przelewu (tytuł NIW 2027, Stowarzyszenie Vida Artis Rychwał). Prośba o maila do umowy.
