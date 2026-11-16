@@ -287,3 +287,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 19:15: formularz „Kasia, WWO” (fundacja, mazowieckie, przed 1.11.2023, przychód 30 do 100 tys., rozwój organizacji, pomysł pusty). Draft: PROO 1a ścieżka 1 i NOWEFIO 100 tys., ceny 650 + 850 i 1500 + 1,5%, prośba o nazwę, KRS i pomysł. Czeka na wysyłkę.
 - 16.11 20:20: Janiaczyk: prowadzi DG (treningi, eventy dla osób z niepełnosprawnościami i sportowców amatorów), myśli o fundacji. Odpisano: fundacja obok firmy, NIW dla nowej fundacji dopiero w kolejnych latach, 690 + 800, prośba o maila.
 - 16.11 20:20: Kasprzak „Dowiem się” (przychód), czekamy. Poniatowska podziękowała, sprawa zamknięta bez odpowiedzi.
+- 16.11 21:10: Nie Widać Po Mnie (Szybowicz) prosi o rozmowę w środę 18.11 przed zakupem. Draft: zgoda, prośba o godzinę, projekt umowy przed rozmową. TELEFON właściciela w środę. Przygotować umowę: umowa.py --program proo (ścieżka 3, 2250 zł) i NOWEFIO.
+- 16.11 21:10: Eryk Szczypiński (Messenger, „NIW”, t_4312467782223656): pytanie o organizację, rejestrację i cel.
