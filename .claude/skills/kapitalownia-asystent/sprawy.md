@@ -282,3 +282,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 17:20: Kasprzak pyta o „opcje na fundację”. Zapytany, czy fundacja już jest w KRS i od kiedy, czy dopiero ją zakłada.
 - 16.11 18:10: Kasprzak: fundacja od 2025. Odpisano: NOWEFIO tak przy przychodzie ponad 30 tys., PROO 1a wymaga starszego wpisu, pytanie o przychód 2025.
 - 16.11 18:10: Poniatowska: Rodzinne Ogrody Działkowe (PZD). Regulamin NOWEFIO i PROO dopuszcza jednostki terenowe NGO tylko z osobowością prawną (nowefio regulamin:448). Zapytana, czy to ROD w strukturach PZD, czy osobne stowarzyszenie ogrodowe z KRS.
+- 16.11 19:15: Kasprzak pyta, czy przychód to zysk i co to za dotacja. Odpisano: przychód to wszystkie wpływy z dotacjami i darowiznami, NOWEFIO 100 do 300 tys. bez wkładu do 2029, pytanie o wpływy 2025.
+- 16.11 19:15: Poniatowska: ROD w strukturach PZD. Odpisano: ogród sam nie złoży wniosku do NIW (brak osobowości prawnej), pomożemy, gdyby był osobnym stowarzyszeniem ogrodowym. Sprawa zamknięta.
+- 16.11 19:15: formularz „Kasia, WWO” (fundacja, mazowieckie, przed 1.11.2023, przychód 30 do 100 tys., rozwój organizacji, pomysł pusty). Draft: PROO 1a ścieżka 1 i NOWEFIO 100 tys., ceny 650 + 850 i 1500 + 1,5%, prośba o nazwę, KRS i pomysł. Czeka na wysyłkę.
