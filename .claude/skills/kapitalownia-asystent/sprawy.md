@@ -172,6 +172,15 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Karolina Poniatowska: nie kwalifikuje się, zakończona uprzejmie.
 - Grass Jeremy: brak odpowiedzi po linku 850 (okno do 16.11 19:42, minęło).
 
+### 17.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (5. dzień); druga sesja wysyła maile (umowa do Mariany Felsztyńskiej).
+- Grzegorz Szafiński: podał numer, obiecany telefon 18.11 w ciągu dnia, pytanie o sprawę.
+- Mariana Felsztyńska: umowa i dane do przelewu wysłane mailem 17.11 14:00.
+- Jarosław Otłowski: klub tenisowy (wpis 2021), PROO 1a + NOWEFIO, pytanie o przychód 2023–2025.
+- Anna Blazejczyk: chce założyć fundację, pytanie o cel.
+- Ania Ania: 17.11 „Super” (kontakt podjęty).
+- ~7 nowych wiadomości po komentarzach pod postem NIW 2027.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
