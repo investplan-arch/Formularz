@@ -323,3 +323,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11.2026 Felsztyńska: mail z umową PROO 1a ścieżka 1 (pola nazwy/KRS/NIP puste do uzupełnienia przez klientkę) i danymi do przelewu 650 zł wysłany na polecenie właściciela. Na Messengerze potwierdzone.
 - 17.11.2026 Jarosław Otłowski, Stowarzyszenie Life Ten (KRS 0000886269, wpis 11.03.2021, tenis, dzieci i dorośli, bez likwidacji). Pasuje PROO 1a ścieżka 1 i NOWEFIO, zapytany o przychód 2023–2025.
 - 17.11.2026 Grzegorz Szafiński (Messenger, napisał pierwszy): prosi o telefon (numer w wątku). Obiecany telefon JUTRO 18.11 w ciągu dnia (właściciel). Zapytany, czego dotyczy sprawa.
+- 17.11.2026 Anna Blazejczyk: nie ma organizacji (sole trader), planuje założyć. Zaproponowane założenie fundacji, zapytana o profil działalności.
