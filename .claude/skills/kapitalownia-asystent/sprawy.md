@@ -300,3 +300,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11 7:50: Bebej (Sport Mentor): przychód ok. 300 tys. Odpisano: PROO 1a ścieżka 1 (wpis 09.2024) do 50 tys. i NOWEFIO do 300 tys., 650 + 1500 zł na start (850 i 1,5% po przyznaniu), „zaczynamy?”. Po „tak”: dane do przelewu (2150 zł) i prośba o maila do umowy.
 - 17.11: Szczypiński zgodził się na kontakt przy kolejnym naborze („Jasne”).
 - 17.11 8:15: Bebej pyta, ile po przyznaniu i co potrzebujemy. Odpisano: 850 zł (PROO) i 1,5% (NOWEFIO) po przyznaniu, potrzebny KRS, sprawozdania 2024 i 2025, opis działań, prośba o maila do szczegółów i umowy. Po mailu: umowa proo + dane do przelewu 2150 zł.
+- 17.11 9:10: Bebej (Sport Mentor): mail z umową WYSŁANY na polecenie właściciela (szablon umowa_niw.md, PROO 1a ścieżka 1 650 + 850 i NOWEFIO 1500 + 1,5%), dane do przelewu 2150 zł, lista potrzeb. Czeka na podpis i wpłatę.
