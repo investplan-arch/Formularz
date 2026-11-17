@@ -293,3 +293,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11 rano: Janiaczyk podała maila. Messenger: szczegóły dziś mailem. Draft maila: fundacja obok firmy, 690 + 800 albo 1290 + 1200 z pierwszym wnioskiem, notariusz i 250 zł osobno. Czeka na wysyłkę.
 - 17.11 rano: nowe z posta NIW: Anna Blazejczyk (t_1690997955775339), Arkadiusz Bebej (t_1861389778617705), Monica Makowska (t_4908902919338800) dostały pytania o organizację, wpis i cel.
 - 17.11 6:35: Janiaczyk: mail WYSŁANY (polecenie właściciela) ze szczegółami założenia fundacji i danymi do przelewu (690 zł albo 1290 zł z pierwszym wnioskiem, tytuł Założenie fundacji, Małgorzata Janiaczyk). Czeka na wpłatę.
+- 17.11 6:45: Szczypiński: stajnia na zajęcia (hipoterapia, dzieci). Odpisano: zajęcia z końmi dla dzieci mogą być projektem NOWEFIO przy przychodzie ponad 30 tys. w 2025, pytanie o przychód.
+- 17.11 6:45: Luk Sar (Messenger, „Niw”, t_1027376980400096): pytanie o formę, wpis i cel.
