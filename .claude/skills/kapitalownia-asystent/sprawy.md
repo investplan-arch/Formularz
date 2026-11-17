@@ -297,3 +297,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11 6:45: Luk Sar (Messenger, „Niw”, t_1027376980400096): pytanie o formę, wpis i cel.
 - 17.11 7:40: Szczypiński: przychód 2025 ok. 17 tys., NOWEFIO odpada. Zapytany o zgodę na kontakt przy kolejnym naborze.
 - 17.11 7:40: Bebej: Fundacja Sport Mentor, NIP 5862409592, wpis 09.2024, projekty sportowe. Odpisano: PROO 1a 30 do 50 tys. (sprzęt sportowy), NOWEFIO przy przychodzie ponad 30 tys., pytanie o najwyższy przychód.
+- 17.11 7:50: Bebej (Sport Mentor): przychód ok. 300 tys. Odpisano: PROO 1a ścieżka 1 (wpis 09.2024) do 50 tys. i NOWEFIO do 300 tys., 650 + 1500 zł na start (850 i 1,5% po przyznaniu), „zaczynamy?”. Po „tak”: dane do przelewu (2150 zł) i prośba o maila do umowy.
+- 17.11: Szczypiński zgodził się na kontakt przy kolejnym naborze („Jasne”).
