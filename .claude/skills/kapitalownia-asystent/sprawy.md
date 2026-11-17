@@ -306,3 +306,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11 8:40: Łukasz Berger (Messenger, „NIW”, t_1148984747613696): pytanie o organizację, wpis i cel.
 
 - 17.11.2026 Stowarzyszenie Paintballowe Wikingowie (Messenger „Kalabar Wiking”, manager Marek Karlsbad, od 2010, przychód 2025 ok. 125 tys. netto). Zgoda na PROO 1a ścieżka 1 (650+850) i NOWEFIO (1500+1,5%). Umowa niw wygenerowana (KRS/NIP do uzupełnienia), mail z umową i danymi do przelewu 2150 zł wysłany 17.11 na polecenie właściciela, czekamy na skan umowy, przelew, KRS i NIP. Na Messengerze potwierdzone, że mail przyjdzie dziś.
+- 17.11.2026 Aleksander Kruk, Kaliskie Centrum Sportowe „Kruk Gym” (stowarzyszenie, KRS 0000742749, wpis 06.08.2018, OPP, bez likwidacji). Sport dzieci i młodzieży. Pasuje PROO 1a ścieżka 1 i NOWEFIO, zapytany o najwyższy przychód 2023–2025.
+- 17.11.2026 Wikingowie: pytanie o wiek drużyny młodzieżowej (8–22 lata). Odpowiedź: NOWEFIO nie ma limitu wieku odbiorców (regulamin, słowniczek „Odbiorca zadania”), grupy wiekowe opiszemy we wniosku.
