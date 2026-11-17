@@ -320,3 +320,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11.2026 Felsztyńska podała maila (w wątku Messengera) i pytała, kto daje dotację (odp. NIW, PROO). Obiecana umowa dziś, zapytana o KRS fundacji (umowa proo, ścieżka 1, 650 zł).
 - 17.11.2026 Jarosław Otłowski: „NIW”, zapytany o organizację i datę wpisu.
 - 17.11.2026 Wikingowie: wersja robocza odpowiedzi po edycji w telefonie straciła załącznik, nowa wersja robocza r-7337325370956472426 z umową v2 czeka na „wyślij”.
+- 17.11.2026 Felsztyńska: mail z umową PROO 1a ścieżka 1 (pola nazwy/KRS/NIP puste do uzupełnienia przez klientkę) i danymi do przelewu 650 zł wysłany na polecenie właściciela. Na Messengerze potwierdzone.
+- 17.11.2026 Jarosław Otłowski, Stowarzyszenie Life Ten (KRS 0000886269, wpis 11.03.2021, tenis, dzieci i dorośli, bez likwidacji). Pasuje PROO 1a ścieżka 1 i NOWEFIO, zapytany o przychód 2023–2025.
