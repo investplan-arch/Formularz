@@ -313,3 +313,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11.2026 Kruk Gym: pytał o koszty po przyznaniu (odp. 1,5% z każdego konkursu po pierwszej transzy), chce umowę do zapoznania. Umowa niw wygenerowana z danymi z KRS, mail z umową i danymi do przelewu 3750 zł wysłany 17.11, czekamy na decyzję, skan i przelew.
 - 17.11.2026 Ania Ania (fundacja, komentarz SPLOT 2.0, 10.11): obiecaliśmy oddzwonić 11.11 i nikt nie zadzwonił, napisała 17.11. Przeprosiliśmy i obiecaliśmy telefon DZIŚ (właściciel). Zapytana, czym zajmuje się fundacja i od kiedy jest w KRS.
 - 17.11.2026 Felsztyńska: fundacja wpis 18.07.2024 (PROO 1a ścieżka 1 + NOWEFIO), stowarzyszenie 16.12.2024 (tylko NOWEFIO). Zapytana o cele dotacji. Potem przychód i oferta.
+- 17.11.2026 Felsztyńska: przychód znikomy (działalność charytatywna), NOWEFIO odpada (próg >30 tys.). Oferta PROO 1a ścieżka 1 dla fundacji (650+850), zapytana o mail do umowy.
+- 17.11.2026 Ania Ania: fundacja z KRS od 04.2026 (dzieci, domy dziecka, seniorzy, szeroki statut). NIW odpada, zaproponowany SPLOT 2.0. Telefon właściciela DZIŚ (obiecany dwukrotnie).
