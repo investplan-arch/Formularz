@@ -317,3 +317,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11.2026 Ania Ania: fundacja z KRS od 04.2026 (dzieci, domy dziecka, seniorzy, szeroki statut). NIW odpada, zaproponowany SPLOT 2.0. Telefon właściciela DZIŚ (obiecany dwukrotnie).
 - 17.11.2026 Wikingowie (mail 11.40): umowa OK, podali KRS 0000349412, NIP 5242701571, prezes zarządu (zgodne z KRS, wpis 19.02.2010). Umowa v2 uzupełniona, wersja robocza odpowiedzi (data wpisywana ręcznie) czeka na „wyślij”.
 - 17.11.2026 Ania Ania odpisała „Super” na propozycję SPLOT i telefon dziś. Telefon właściciela nadal do zrobienia.
+- 17.11.2026 Felsztyńska podała maila (w wątku Messengera) i pytała, kto daje dotację (odp. NIW, PROO). Obiecana umowa dziś, zapytana o KRS fundacji (umowa proo, ścieżka 1, 650 zł).
+- 17.11.2026 Jarosław Otłowski: „NIW”, zapytany o organizację i datę wpisu.
+- 17.11.2026 Wikingowie: wersja robocza odpowiedzi po edycji w telefonie straciła załącznik, nowa wersja robocza r-7337325370956472426 z umową v2 czeka na „wyślij”.
