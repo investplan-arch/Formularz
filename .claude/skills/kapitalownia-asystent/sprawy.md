@@ -289,3 +289,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 16.11 20:20: Kasprzak „Dowiem się” (przychód), czekamy. Poniatowska podziękowała, sprawa zamknięta bez odpowiedzi.
 - 16.11 21:10: Nie Widać Po Mnie (Szybowicz) prosi o rozmowę w środę 18.11 przed zakupem. Draft: zgoda, prośba o godzinę, projekt umowy przed rozmową. TELEFON właściciela w środę. Przygotować umowę: umowa.py --program proo (ścieżka 3, 2250 zł) i NOWEFIO.
 - 16.11 21:10: Eryk Szczypiński (Messenger, „NIW”, t_4312467782223656): pytanie o organizację, rejestrację i cel.
+- 17.11 rano: Szczypiński: fundacja od 1.09.2025, chce zbudować stajnię. Odpisano: PROO 1a nie (wpis po 1.11.2024), NOWEFIO nie finansuje budowy, pytanie o cel stajni (hipoterapia, zajęcia).
+- 17.11 rano: Janiaczyk podała maila. Messenger: szczegóły dziś mailem. Draft maila: fundacja obok firmy, 690 + 800 albo 1290 + 1200 z pierwszym wnioskiem, notariusz i 250 zł osobno. Czeka na wysyłkę.
+- 17.11 rano: nowe z posta NIW: Anna Blazejczyk (t_1690997955775339), Arkadiusz Bebej (t_1861389778617705), Monica Makowska (t_4908902919338800) dostały pytania o organizację, wpis i cel.
