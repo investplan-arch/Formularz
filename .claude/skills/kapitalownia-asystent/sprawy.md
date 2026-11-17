@@ -295,3 +295,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11 6:35: Janiaczyk: mail WYSŁANY (polecenie właściciela) ze szczegółami założenia fundacji i danymi do przelewu (690 zł albo 1290 zł z pierwszym wnioskiem, tytuł Założenie fundacji, Małgorzata Janiaczyk). Czeka na wpłatę.
 - 17.11 6:45: Szczypiński: stajnia na zajęcia (hipoterapia, dzieci). Odpisano: zajęcia z końmi dla dzieci mogą być projektem NOWEFIO przy przychodzie ponad 30 tys. w 2025, pytanie o przychód.
 - 17.11 6:45: Luk Sar (Messenger, „Niw”, t_1027376980400096): pytanie o formę, wpis i cel.
+- 17.11 7:40: Szczypiński: przychód 2025 ok. 17 tys., NOWEFIO odpada. Zapytany o zgodę na kontakt przy kolejnym naborze.
+- 17.11 7:40: Bebej: Fundacja Sport Mentor, NIP 5862409592, wpis 09.2024, projekty sportowe. Odpisano: PROO 1a 30 do 50 tys. (sprzęt sportowy), NOWEFIO przy przychodzie ponad 30 tys., pytanie o najwyższy przychód.
