@@ -315,3 +315,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11.2026 Felsztyńska: fundacja wpis 18.07.2024 (PROO 1a ścieżka 1 + NOWEFIO), stowarzyszenie 16.12.2024 (tylko NOWEFIO). Zapytana o cele dotacji. Potem przychód i oferta.
 - 17.11.2026 Felsztyńska: przychód znikomy (działalność charytatywna), NOWEFIO odpada (próg >30 tys.). Oferta PROO 1a ścieżka 1 dla fundacji (650+850), zapytana o mail do umowy.
 - 17.11.2026 Ania Ania: fundacja z KRS od 04.2026 (dzieci, domy dziecka, seniorzy, szeroki statut). NIW odpada, zaproponowany SPLOT 2.0. Telefon właściciela DZIŚ (obiecany dwukrotnie).
+- 17.11.2026 Wikingowie (mail 11.40): umowa OK, podali KRS 0000349412, NIP 5242701571, prezes zarządu (zgodne z KRS, wpis 19.02.2010). Umowa v2 uzupełniona, wersja robocza odpowiedzi (data wpisywana ręcznie) czeka na „wyślij”.
+- 17.11.2026 Ania Ania odpisała „Super” na propozycję SPLOT i telefon dziś. Telefon właściciela nadal do zrobienia.
