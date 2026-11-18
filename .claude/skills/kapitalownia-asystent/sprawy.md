@@ -329,3 +329,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Leszek Krzemień: 05.10 prosił o telefon (bez odpowiedzi z naszej strony!), 18.11 „Potrzebuje dotacji”. Przeprosiny, pytanie o cel dotacji.
 - 18.11.2026 Leszek Krzemień: chce dotacji na założenie firmy („duża dotacja, dam prowizję”). Ścieżka PUP/WwS, zapytany o rejestrację jako bezrobotny. Cena standard 850+1050, bez negocjacji prowizji.
 - 18.11.2026 Ewa Wiktoria: nie zna przychodu, interesują ją zajęcia i zawody (NOWEFIO). Poproszona o sprawdzenie przychodu 2024/2025 (próg >30 tys.).
+- 18.11.2026 Ewa Wiktoria: dotacje ok. 70 tys./rok, 3 obozy latem. Oferta NOWEFIO do 100 tys. (1500+1,5%) + PROO 1a ścieżka 1 (650+850), zapytana o mail do umowy. Przed umową sprawdzić KRS.
+- 18.11.2026 Robert Parzonka: „NIW”, zapytany o organizację i datę wpisu.
