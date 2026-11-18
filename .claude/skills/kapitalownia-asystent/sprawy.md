@@ -348,3 +348,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Kuba Kuba: przychód ok. 250 tys. w 2024 (z działalności), ale na początku 2026 „zamienili na stowarzyszenie zwykłe”. Zapytany, czy to nowy wpis z 2026 (wtedy NIW odpada) czy ta sama organizacja z 2016.
 - 18.11.2026 Fundacja Wielki Człowiek (odpowiedź na mailing PROO 1a ścieżka 3, 11.11): przysłała karty oceny 2026 (wniosek 91908, „Archiwum himalaizmu polskiego im. J. Kukuczki”, 90 i 94 pkt, proponowana dotacja 494 tys.). Straty głównie w budżecie (2/15 i 8/15). Wersja robocza bezpłatnej analizy z ofertą 2250 zł + 1,5% (r8680352437879465847) czeka na „wyślij”.
 - 18.11.2026 Kuba Kuba: ta sama organizacja od 2.12.2016, przychód ok. 250 tys. (2024). Oferta PROO 1a ścieżka 2 (2250+1,5%) + NOWEFIO do 300 tys. (1500+1,5%), pytanie o mail.
+- 18.11.2026 Krzysztof Jarzyna: chce założyć fundację ratującą koty i dotację na sprzęt. Zaproponowane założenie fundacji, zapytany o miejscowość.
+- 18.11.2026 Marcin Kozieł: stowarzyszenie, klub sportowy (komentarz SPLOT), skierowany na NIW, zapytany o datę wpisu do KRS.
+- 18.11.2026 Kuba Kuba: „uzgodnię i dam znać”, przypomniany termin naboru 16.12.
