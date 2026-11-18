@@ -363,3 +363,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Monika Hanc: organizacja jeździecka „w planach”, zapytana, czy już istnieje (jeśli nie, zakładanie fundacji).
 - 18.11.2026 Marcin Kozieł: pytał o resztę płatności i terminy projektów, odp. 1,5% po pierwszej transzy, projekty 2027–2029, ponowione pytanie o mail.
 - 18.11.2026 Mail od Funded (befunded.pl) z propozycją współpracy (B2B, nie klient), do decyzji właściciela, bez odpowiedzi.
+- 18.11.2026 Marcin Kozieł: mail z umową PROO 1a ścieżka 3 + NOWEFIO (nazwa/KRS/NIP puste) i danymi do przelewu 3750 zł wysłany na polecenie właściciela. Messenger potwierdzony.
