@@ -335,3 +335,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Robert Parzonka: organizacja wpis 24.02.2025 (PROO 1a odpada), NOWEFIO możliwe, zapytany o przychód 2025.
 - 18.11.2026 Jacek Lubiński (stowarzyszenie, napisał pierwszy): zapytany o datę wpisu i cel.
 - 18.11.2026 korekta: Wikingowie, odpowiedź z umową v2 wysłana przez właściciela 17.11 12.14. Klient 17.11 12.27: podpiszą profilem zaufanym i zrobią przelew 2150 zł. Czekamy na podpis i wpłatę, potem faktura.
+- 18.11.2026 Robert Parzonka: mail z umową NOWEFIO (pola nazwy/KRS/NIP puste, organizacja nieznana, profil FB w wątku) i danymi do przelewu 1500 zł wysłany na polecenie właściciela, z akcentem na trwający nabór (do 16.12, materiały do 4.12). Messenger potwierdzony.
+- 18.11.2026 Monika Kwiatkowska: „NIW”, zapytana o organizację i wpis.
+- 18.11.2026 Nabór NIW 2027 sprawdzony na stronie NIW (NOWEFIO 2-4: 16.11–16.12.2026 12.00), zapisany przez fakt.py z tagiem nabor (ważny 3 dni).
