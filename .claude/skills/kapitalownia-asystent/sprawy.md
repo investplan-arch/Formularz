@@ -327,3 +327,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Oleksandr Martyniuk, fundacja „Burza Rozkwitu” (Wrocław, wg jego zrzutu rej. 2025, prawa człowieka, dialog PL-UA, dezinformacja). Pasuje SPLOT 2.0. Prosi o telefon (numer w wątku), obiecany telefon DZIŚ 18.11, zapytany o godzinę.
 - 18.11.2026 Ewa Wiktoria, klub sportowy, wpis 21.09.2023. PROO 1a ścieżka 1 + NOWEFIO, zapytana o przychód. Sprawdzić KRS (czy nie UKS w ewidencji starosty).
 - 18.11.2026 Leszek Krzemień: 05.10 prosił o telefon (bez odpowiedzi z naszej strony!), 18.11 „Potrzebuje dotacji”. Przeprosiny, pytanie o cel dotacji.
+- 18.11.2026 Leszek Krzemień: chce dotacji na założenie firmy („duża dotacja, dam prowizję”). Ścieżka PUP/WwS, zapytany o rejestrację jako bezrobotny. Cena standard 850+1050, bez negocjacji prowizji.
+- 18.11.2026 Ewa Wiktoria: nie zna przychodu, interesują ją zajęcia i zawody (NOWEFIO). Poproszona o sprawdzenie przychodu 2024/2025 (próg >30 tys.).
