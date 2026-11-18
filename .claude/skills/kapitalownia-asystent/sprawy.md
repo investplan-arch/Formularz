@@ -354,3 +354,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Krzysztof Jarzyna: fundacja w Łodzi (koty). Cena założenia 690+800 + 250 zł sąd + notariusz, zapytany o mail. Grantu na sprzęt nie obiecano.
 - 18.11.2026 Marcin Kozieł: klub od 2007 (wg niego), zapytany o przychód 2023–2025.
 - 18.11.2026 Krzysztof Jarzyna: mail ze szczegółami założenia fundacji (1490 zł = 690+800, 250 zł sąd, notariusz, lista informacji) wysłany na polecenie właściciela. Link Stripe 690 zł obiecany na Messengerze, wyślę po jego „tak” na „Zaczynamy?” (hook wymaga zgody przed linkiem).
+- 18.11.2026 Marcin Kozieł: przychód ponad 1,5 mln (ostatni rok). Oferta PROO 1a ścieżka 3 (2250+1,5%) + NOWEFIO do 300 tys. (1500+1,5%), pytanie o mail. Ścieżka 3 wymaga strony ze sprawozdaniami i audytu.
