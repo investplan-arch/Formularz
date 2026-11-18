@@ -339,3 +339,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Monika Kwiatkowska: „NIW”, zapytana o organizację i wpis.
 - 18.11.2026 Nabór NIW 2027 sprawdzony na stronie NIW (NOWEFIO 2-4: 16.11–16.12.2026 12.00), zapisany przez fakt.py z tagiem nabor (ważny 3 dni).
 - 18.11.2026 Sonia Bochyńska-Knapik, fundacja Hasten (nauka pływania, obozy, półkolonie, eventy, warsztaty; drugi wątek LUPPO SYSTEM). Skierowana na NOWEFIO + PROO 1a zamiast SPLOT, zapytana o datę wpisu do KRS.
+- 18.11.2026 Hasten: fundacja od 2019. PROO 1a (ścieżka zależna od przychodu) + NOWEFIO, zapytana o najwyższy przychód 2023–2025.
+- 18.11.2026 Kuba Kuba: „NIW”, zapytany o organizację i wpis.
