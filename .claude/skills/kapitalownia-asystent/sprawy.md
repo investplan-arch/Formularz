@@ -324,3 +324,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 17.11.2026 Jarosław Otłowski, Stowarzyszenie Life Ten (KRS 0000886269, wpis 11.03.2021, tenis, dzieci i dorośli, bez likwidacji). Pasuje PROO 1a ścieżka 1 i NOWEFIO, zapytany o przychód 2023–2025.
 - 17.11.2026 Grzegorz Szafiński (Messenger, napisał pierwszy): prosi o telefon (numer w wątku). Obiecany telefon JUTRO 18.11 w ciągu dnia (właściciel). Zapytany, czego dotyczy sprawa.
 - 17.11.2026 Anna Blazejczyk: nie ma organizacji (sole trader), planuje założyć. Zaproponowane założenie fundacji, zapytana o profil działalności.
+- 18.11.2026 Oleksandr Martyniuk, fundacja „Burza Rozkwitu” (Wrocław, wg jego zrzutu rej. 2025, prawa człowieka, dialog PL-UA, dezinformacja). Pasuje SPLOT 2.0. Prosi o telefon (numer w wątku), obiecany telefon DZIŚ 18.11, zapytany o godzinę.
+- 18.11.2026 Ewa Wiktoria, klub sportowy, wpis 21.09.2023. PROO 1a ścieżka 1 + NOWEFIO, zapytana o przychód. Sprawdzić KRS (czy nie UKS w ewidencji starosty).
+- 18.11.2026 Leszek Krzemień: 05.10 prosił o telefon (bez odpowiedzi z naszej strony!), 18.11 „Potrzebuje dotacji”. Przeprosiny, pytanie o cel dotacji.
