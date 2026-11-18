@@ -358,3 +358,8 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Wikingowie: właściciel wysłał 15.14 odpowiedź merytoryczną. Klient 19.05: woli projekt treningi + turnieje 2027 (10 treningów, 4 PPC, 4 PXL, ok. 45 tys.), opcjonalnie 4 zestawy po 6 tys. netto; VAT odliczalny; nigdy PROO (2025, 2026 program KLUB po 12 tys.); drużyna 10 osób (5 w wieku 11–18). Przysłał statut i sprawozdania 2024–2025. Prezes chciał zwrotu zaliczki przy odrzuceniu formalnym z naszej winy, właściciel się zgodził. Wysłano umowę v3 (tylko PROO 1a ścieżka 1, 650+850, § 4 ust. 3 zwrot przy błędzie formalnym po naszej stronie) i dane do przelewu 650 zł. Klient dostępny jutro 19–21.
 - 18.11.2026 Leszek Krzemień: nie jest bezrobotny. Skierowany na WwS (po rejestracji w PUP także dotacja), zapytany o firmę w ostatnich 12 mies.
 - 18.11.2026 Monika Hanc: „Niw”, zapytana o organizację i wpis.
+- 18.11.2026 wieczór: Grzegorz Szafiński „ponawiam prośbę”, telefon z 18.11 nie odbył się. Przeprosiny, obiecany telefon 19.11 DO 12.00 (właściciel, numer w wątku).
+- 18.11.2026 Leszek Krzemień: bez firmy w ostatnich 12 mies., WwS 850+1050, zapytany o mail.
+- 18.11.2026 Monika Hanc: organizacja jeździecka „w planach”, zapytana, czy już istnieje (jeśli nie, zakładanie fundacji).
+- 18.11.2026 Marcin Kozieł: pytał o resztę płatności i terminy projektów, odp. 1,5% po pierwszej transzy, projekty 2027–2029, ponowione pytanie o mail.
+- 18.11.2026 Mail od Funded (befunded.pl) z propozycją współpracy (B2B, nie klient), do decyzji właściciela, bez odpowiedzi.
