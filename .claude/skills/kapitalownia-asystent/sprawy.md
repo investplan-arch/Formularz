@@ -351,3 +351,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Krzysztof Jarzyna: chce założyć fundację ratującą koty i dotację na sprzęt. Zaproponowane założenie fundacji, zapytany o miejscowość.
 - 18.11.2026 Marcin Kozieł: stowarzyszenie, klub sportowy (komentarz SPLOT), skierowany na NIW, zapytany o datę wpisu do KRS.
 - 18.11.2026 Kuba Kuba: „uzgodnię i dam znać”, przypomniany termin naboru 16.12.
+- 18.11.2026 Krzysztof Jarzyna: fundacja w Łodzi (koty). Cena założenia 690+800 + 250 zł sąd + notariusz, zapytany o mail. Grantu na sprzęt nie obiecano.
+- 18.11.2026 Marcin Kozieł: klub od 2007 (wg niego), zapytany o przychód 2023–2025.
