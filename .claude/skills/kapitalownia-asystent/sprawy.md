@@ -334,3 +334,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Oleksandr Martyniuk: telefon właściciela DZIŚ ok. 12.00 (SPLOT 2.0).
 - 18.11.2026 Robert Parzonka: organizacja wpis 24.02.2025 (PROO 1a odpada), NOWEFIO możliwe, zapytany o przychód 2025.
 - 18.11.2026 Jacek Lubiński (stowarzyszenie, napisał pierwszy): zapytany o datę wpisu i cel.
+- 18.11.2026 korekta: Wikingowie, odpowiedź z umową v2 wysłana przez właściciela 17.11 12.14. Klient 17.11 12.27: podpiszą profilem zaufanym i zrobią przelew 2150 zł. Czekamy na podpis i wpłatę, potem faktura.
