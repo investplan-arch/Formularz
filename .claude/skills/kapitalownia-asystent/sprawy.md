@@ -331,3 +331,6 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Ewa Wiktoria: nie zna przychodu, interesują ją zajęcia i zawody (NOWEFIO). Poproszona o sprawdzenie przychodu 2024/2025 (próg >30 tys.).
 - 18.11.2026 Ewa Wiktoria: dotacje ok. 70 tys./rok, 3 obozy latem. Oferta NOWEFIO do 100 tys. (1500+1,5%) + PROO 1a ścieżka 1 (650+850), zapytana o mail do umowy. Przed umową sprawdzić KRS.
 - 18.11.2026 Robert Parzonka: „NIW”, zapytany o organizację i datę wpisu.
+- 18.11.2026 Oleksandr Martyniuk: telefon właściciela DZIŚ ok. 12.00 (SPLOT 2.0).
+- 18.11.2026 Robert Parzonka: organizacja wpis 24.02.2025 (PROO 1a odpada), NOWEFIO możliwe, zapytany o przychód 2025.
+- 18.11.2026 Jacek Lubiński (stowarzyszenie, napisał pierwszy): zapytany o datę wpisu i cel.
