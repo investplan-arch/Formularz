@@ -181,6 +181,14 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Ania Ania: 17.11 „Super” (kontakt podjęty).
 - ~7 nowych wiadomości po komentarzach pod postem NIW 2027.
 
+### 18.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (6. dzień).
+- Umowy/oferty mailem 18.11: Robert Parzonka (umowa, dane do przelewu), Sonia Bochyńska-Knapik (oferta i umowa), Krzysztof Jarzyna (założenie fundacji, szczegóły).
+- Marcin Kozieł: klub, przychód >1,5 mln, PROO 1a ś3 + NOWEFIO, 2250 + 1500 zł na start, prośba o e-mail do umowy.
+- Kuba Kuba: decyzja w tym tygodniu (dwa wnioski NIW).
+- Oleksandr Martyniuk: telefon umówiony 18.11 ok. 12.
+- Monika Hanc (fundacja jeździecka w planach) i Leszek Krzemień: nowe wiadomości 20:22–20:23.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
