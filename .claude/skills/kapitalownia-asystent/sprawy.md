@@ -353,3 +353,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Kuba Kuba: „uzgodnię i dam znać”, przypomniany termin naboru 16.12.
 - 18.11.2026 Krzysztof Jarzyna: fundacja w Łodzi (koty). Cena założenia 690+800 + 250 zł sąd + notariusz, zapytany o mail. Grantu na sprzęt nie obiecano.
 - 18.11.2026 Marcin Kozieł: klub od 2007 (wg niego), zapytany o przychód 2023–2025.
+- 18.11.2026 Krzysztof Jarzyna: mail ze szczegółami założenia fundacji (1490 zł = 690+800, 250 zł sąd, notariusz, lista informacji) wysłany na polecenie właściciela. Link Stripe 690 zł obiecany na Messengerze, wyślę po jego „tak” na „Zaczynamy?” (hook wymaga zgody przed linkiem).
