@@ -371,3 +371,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 19.11.2026 Maja Polonis (komentarz SPLOT 2.11, odpisała po 17 dniach): studio treningowe, zapytana, czy to firma czy NGO.
 - 19.11.2026 Marcin Ulatowski: organizacja w KRS od 2018, potrzebuje kwot i kosztu dla zarządu. Podane widełki PROO 1a/NOWEFIO i ceny od 650 / 1500 zł, zapytany o mail na pełne warunki.
 - 19.11.2026 Marcin Ulatowski: podał mail, zarząd decyduje w sobotę 21.11. Wersja robocza zestawienia kwot i kosztów (r2115545991045572894) czeka na „wyślij”, na Messengerze obiecana wysyłka dziś.
+- 19.11.2026 Amazonka w Górach Beskid-Trail, fundacja „Zdrowie i Równowaga Amazonka w Górach” (głosówka przepisana): chce kupić siedlisko na zajęcia terapeutyczne z końmi i naturalną aptekę z ziołami. Odpowiedź: NIW realnie na zajęcia, wyposażenie i rozwój, nie na zakup siedliska; zapytana o datę wpisu do KRS.
