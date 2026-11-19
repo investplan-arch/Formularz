@@ -369,3 +369,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 19.11.2026 Błażej Kasprowicz (napisał pierwszy): pyta o „dofinansowanie na start 185 tys.”. Wyjaśnione, że to pożyczka WwS z umorzeniem dla bezrobotnych, zapytany o rejestrację w PUP.
 - 19.11.2026 Błażej Kasprowicz: prowadzi firmę, chce finansowania na rozwój. WwS odpada, zapytany o cel i staż firmy (kierunek: pożyczki dla firm).
 - 19.11.2026 Maja Polonis (komentarz SPLOT 2.11, odpisała po 17 dniach): studio treningowe, zapytana, czy to firma czy NGO.
+- 19.11.2026 Marcin Ulatowski: organizacja w KRS od 2018, potrzebuje kwot i kosztu dla zarządu. Podane widełki PROO 1a/NOWEFIO i ceny od 650 / 1500 zł, zapytany o mail na pełne warunki.
