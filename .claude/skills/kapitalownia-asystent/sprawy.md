@@ -189,6 +189,14 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Oleksandr Martyniuk: telefon umówiony 18.11 ok. 12.
 - Monika Hanc (fundacja jeździecka w planach) i Leszek Krzemień: nowe wiadomości 20:22–20:23.
 
+### 19.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (7. dzień).
+- Oleksandr Martyniuk: obiecany telefon 18.11 ok. 12 się nie odbył; 19.11 13:17 przeprosiny i cena SPLOT 850 + 1050, prośba o e-mail.
+- Marcin Ulatowski: zestawienie kwot i kosztów dla zarządu obiecane mailem 19.11, spotkanie zarządu w sobotę 21.11.
+- Amazonka W Gorach Beskid-Trail: organizacja z 2026, NIW odpada, SPLOT lub gmina, pytanie o gminę.
+- Błażej Kasprowicz: działająca firma, pożyczka na rozwój, pytanie o cel i staż.
+- Maja Polonis: studio, pytanie o formę prawną.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
