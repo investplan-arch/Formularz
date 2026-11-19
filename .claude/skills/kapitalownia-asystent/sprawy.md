@@ -367,3 +367,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 19.11.2026 Leszek Krzemień: po cenie WwS wyzwiska i groźba opisania na FB, właściciel odpisał sam 18.11 wieczorem. Nie odpisujemy. Do decyzji: dopisać do nie_odpisuj.json.
 - 19.11.2026 Grzegorz Szafiński: chodzi o finansowanie fundacji. Zapytany o nazwę i datę wpisu. Telefon obiecany DZIŚ do 12.00.
 - 19.11.2026 Błażej Kasprowicz (napisał pierwszy): pyta o „dofinansowanie na start 185 tys.”. Wyjaśnione, że to pożyczka WwS z umorzeniem dla bezrobotnych, zapytany o rejestrację w PUP.
+- 19.11.2026 Błażej Kasprowicz: prowadzi firmę, chce finansowania na rozwój. WwS odpada, zapytany o cel i staż firmy (kierunek: pożyczki dla firm).
+- 19.11.2026 Maja Polonis (komentarz SPLOT 2.11, odpisała po 17 dniach): studio treningowe, zapytana, czy to firma czy NGO.
