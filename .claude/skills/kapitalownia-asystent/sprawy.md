@@ -366,3 +366,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 18.11.2026 Marcin Kozieł: mail z umową PROO 1a ścieżka 3 + NOWEFIO (nazwa/KRS/NIP puste) i danymi do przelewu 3750 zł wysłany na polecenie właściciela. Messenger potwierdzony.
 - 19.11.2026 Leszek Krzemień: po cenie WwS wyzwiska i groźba opisania na FB, właściciel odpisał sam 18.11 wieczorem. Nie odpisujemy. Do decyzji: dopisać do nie_odpisuj.json.
 - 19.11.2026 Grzegorz Szafiński: chodzi o finansowanie fundacji. Zapytany o nazwę i datę wpisu. Telefon obiecany DZIŚ do 12.00.
+- 19.11.2026 Błażej Kasprowicz (napisał pierwszy): pyta o „dofinansowanie na start 185 tys.”. Wyjaśnione, że to pożyczka WwS z umorzeniem dla bezrobotnych, zapytany o rejestrację w PUP.
