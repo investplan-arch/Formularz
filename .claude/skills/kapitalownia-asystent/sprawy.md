@@ -383,3 +383,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 20.11.2026 Adrian Dorobisz: fundacja, wpis 12.2025 („budujemy”). NOWEFIO tylko przy przychodzie >30 tys. w 2025, zapytany o przychód 2025. PROO 1a odpada. Jeśli brak przychodu: SPLOT 2.0.
 - 20.11.2026 Wikingowie: przysłali umowę podpisaną przez prezesa (zgodna z v3, § 4 ust. 3 zwrot). Właściciel ma podpisać i odesłać skan, potem przelew 650 zł.
 - 20.11.2026 Adrian Dorobisz: przychód 2025 poniżej 30 tys. (NOWEFIO 2027 odpada), fundacja z DG (budowlanka, eventy, foto, pomoc osobom z niepełnosprawnościami). Zgoda na kierunek SPLOT 2.0 (dostępność, osoby z niepełnosprawnościami). Oferta 850+1050, pytanie o mail.
+- 20.11.2026 9:41 Adrian Dorobisz: mail z umową SPLOT 2.0 (850+1050, dane fundacji puste) i danymi do przelewu 850 zł wysłany na polecenie właściciela; statut ma dosłać w odpowiedzi. Zarząd jednoosobowy (prezes podpisuje). Messenger potwierdzony.
