@@ -197,6 +197,12 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Błażej Kasprowicz: działająca firma, pożyczka na rozwój, pytanie o cel i staż.
 - Maja Polonis: studio, pytanie o formę prawną.
 
+### 20.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (8. dzień). Spokojny dzień na Messengerze.
+- Grzegorz Szafiński: telefon z 18.11 się nie odbył, 20.11 08:45 „zadzwonimy dziś”.
+- Adrian Dorobisz: fundacja, SPLOT 2.0, pytanie o reprezentację (odpowiedź 20.11 08:45).
+- Marcin Ulatowski: zebranie zarządu 21.11, sprawdzić czy zestawienie wyszło.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
