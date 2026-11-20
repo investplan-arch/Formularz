@@ -384,3 +384,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 20.11.2026 Wikingowie: przysłali umowę podpisaną przez prezesa (zgodna z v3, § 4 ust. 3 zwrot). Właściciel ma podpisać i odesłać skan, potem przelew 650 zł.
 - 20.11.2026 Adrian Dorobisz: przychód 2025 poniżej 30 tys. (NOWEFIO 2027 odpada), fundacja z DG (budowlanka, eventy, foto, pomoc osobom z niepełnosprawnościami). Zgoda na kierunek SPLOT 2.0 (dostępność, osoby z niepełnosprawnościami). Oferta 850+1050, pytanie o mail.
 - 20.11.2026 9:41 Adrian Dorobisz: mail z umową SPLOT 2.0 (850+1050, dane fundacji puste) i danymi do przelewu 850 zł wysłany na polecenie właściciela; statut ma dosłać w odpowiedzi. Zarząd jednoosobowy (prezes podpisuje). Messenger potwierdzony.
+- 20.11.2026 Nie Widać Po Mnie (Szybowicz): prosi o telefon w poniedziałek 23.11, przed decyzją. Wersja robocza z prośbą o numer i godzinę.
+- 20.11.2026 Pardus: przysłał sprawozdania 2024–2025, statut, sprawozdanie merytoryczne 2024, zaświadczenie z ewidencji klubów UM Kraków; prosi o fakturę końcową (do wystawienia przez właściciela). Wersja robocza potwierdzenia.
