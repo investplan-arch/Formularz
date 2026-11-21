@@ -203,6 +203,12 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Adrian Dorobisz: fundacja, SPLOT 2.0, pytanie o reprezentację (odpowiedź 20.11 08:45).
 - Marcin Ulatowski: zebranie zarządu 21.11, sprawdzić czy zestawienie wyszło.
 
+### 21.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (9. dzień). Spokojna sobota.
+- Monika Hanc: fundacja jeździecka ze wspólniczką, na razie pomysł; pytanie o zajęcia sportowe czy hipoterapię (21.11 17:20).
+- Grzegorz Szafiński: brak śladu, czy telefon z 20.11 się odbył.
+- ~5 nowych wiadomości po komentarzach pod postem NIW 2027.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
