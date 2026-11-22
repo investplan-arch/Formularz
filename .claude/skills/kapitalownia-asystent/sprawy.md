@@ -388,3 +388,5 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 20.11.2026 Pardus: przysłał sprawozdania 2024–2025, statut, sprawozdanie merytoryczne 2024, zaświadczenie z ewidencji klubów UM Kraków; prosi o fakturę końcową (do wystawienia przez właściciela). Wersja robocza potwierdzenia.
 - 20.11.2026 Wikingowie: właściciel odesłał podpisaną umowę (8.35), klient przysłał POTWIERDZENIE PRZELEWU 650 zł (13.06). Do zrobienia: faktura 650 zł, start prac nad wnioskiem PROO 1a (sezon 2027, terminy od klienta).
 - 20.11.2026 Pardus: dosłał sprawozdanie merytoryczne i sprawozdanie zarządu za 2025 (komplet dokumentów). Faktura końcowa do wystawienia.
+
+- 22.11 Dorota Czarnecka (Messenger): zainteresowana wnioskiem NIW, zapytana o organizację i cel dotacji.
