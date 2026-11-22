@@ -209,6 +209,13 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Grzegorz Szafiński: brak śladu, czy telefon z 20.11 się odbył.
 - ~5 nowych wiadomości po komentarzach pod postem NIW 2027.
 
+### 22.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (10. dzień).
+- Przemysław Niemyjski: pożyczka BGK na turystykę (domki), ok. 1 mln zł, cena 990 netto + 2% po umowie. 22.11 19:13 podał e-mail do szczegółów (w Messengerze). Mail do wysłania przez właściciela/drugą sesję.
+- Adrian Śmiech: fundacja, interesują go nabory na ochronę ludności i obronę cywilną. 22.11 ok. 20:40 dopytaliśmy o cel (sprzęt czy szkolenia). Nabór OL/OC niesprawdzony.
+- Agnieszka Kiełtyka: fundacji nie ma w rejestrze pod podaną nazwą, prośba o KRS.
+- Dorota Czarnecka „Mam, dziękuję”, Urszula Kazub „Ok dzięki”.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
