@@ -406,3 +406,4 @@ UWAGA dla obchodów: zgłoszenia z formularza kapitalownia.pl przychodzą od kon
 - 22.11 formularz NIW: Stowarzyszenie Łączy Nas Wszystko (małopolskie, 2026), draft SPLOT r8831390929239175757.
 - 22.11 Agnieszka Kiełtyka (Messenger t_1141588671567347, z komentarza SPLOT 7.11): ma fundację, prosi o kontakt w sprawie wniosku. Napisane: tutaj szybciej, pytanie o nazwę albo KRS.
 - 22.11 formularz NIW: Fundacja Kultura Lex (podlaskie, 2026), draft SPLOT r600987369403335160.
+- 22.11 ok. 14.30 Ewa Kanabus-Koszal (komentarz pod postem NIW w grupie Dotacje, Fundusze, LGD..., prosiła o ofertę mailem): wysłana oferta PROO 1a ś1 + NOWEFIO z cenami, prośba o nazwę/KRS, przychód, cel. Kamila Dudek w tym samym wątku prosi o priv (grupa, do obsłużenia przez Chrome albo przez właściciela).
