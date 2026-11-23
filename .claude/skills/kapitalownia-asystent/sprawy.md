@@ -216,6 +216,15 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Agnieszka Kiełtyka: fundacji nie ma w rejestrze pod podaną nazwą, prośba o KRS.
 - Dorota Czarnecka „Mam, dziękuję”, Urszula Kazub „Ok dzięki”.
 
+### 23.11 (stan wieczorem)
+- Gmail w tej sesji nadal wymaga logowania (11. dzień).
+- Borys Pardus: komplet dokumentów dotarł (PROO 1a), pyta o fakturę w KSeF i kontakt telefoniczny. Decyzja właściciela.
+- Przemysław Niemyjski: 23.11 14:24 przeprosiny za zwłokę i prośba o numer telefonu (pożyczka BGK ok. 1 mln).
+- Adrian Śmiech: chce ambulans/pojazd sanitarny i sprzęt do szkoleń z pierwszej pomocy (ochrona ludności). 23.11 ok. 20:40 pytanie o datę wpisu do KRS. Program do sprawdzenia.
+- Mateusz Ostrowski: nowy, pyta o napisanie wniosku z biznesplanem, pytanie czy firma ma powstać.
+- Anna Paździorek: klub w trakcie rejestracji w KRS, SPLOT 2.0 jeśli wpis przed 28.12.
+- Iwona Szlaga: biznesplan w toku.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
