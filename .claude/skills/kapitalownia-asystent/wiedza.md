@@ -188,3 +188,6 @@ Gdy organizacja przy SPLOT 2.0 prosi o niższą kwotę na start albo „0 zł na
 
 ## Kolejny nabór w cenie (właściciel 11.11.2026)
 Przy pełnym przygotowaniu wniosku (850 + 1050 zł) przygotowanie do kolejnego naboru, gdy w najbliższym środki nie zostaną przyznane, jest w cenie, bez dodatkowych opłat. Możesz to pisać klientom.
+
+## Skuteczność i rozliczanie (właściciel 24.11.2026)
+W zeszłym roku 10 z 11 fundacji, którym pisaliśmy wnioski, dostało dotacje. Rozliczamy też projekty po przyznaniu dotacji (cena rozliczenia do ustalenia z właścicielem, nie podajesz jej sam).
