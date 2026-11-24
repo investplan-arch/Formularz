@@ -225,6 +225,12 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Anna Paździorek: klub w trakcie rejestracji w KRS, SPLOT 2.0 jeśli wpis przed 28.12.
 - Iwona Szlaga: biznesplan w toku.
 
+### 24.11 (stan wieczorem, leady.py 3 dni)
+- 18 leadów: zimny 7, kwalifikacja 3, cena 4, link 2, do odpisania 2; zgłoszonych płatności 0.
+- Monika Świerczewska-Szlanta: pyta, czy koszty wynajmu sali można ująć we wniosku (24.11 ok. 20:25), do odpisania przez główną sesję.
+- Borys Pardus i Przemysław Niemyjski: czekają ponad 24 h (faktura KSeF, telefon).
+- UWAGA: od 29.10 CLAUDE.md pozwala pisać do klientów tylko głównej sesji session_01CZYHfPgv9UusvTnPrbwP29. Ta sesja (raport wieczorny) wysłała mimo to wiadomości 2.11 (Domagalski, Jamka, Rogalny), 5.11 i 6.11 (Pięta), 15.11 (Grass Jeremy), 22.11 i 23.11 (Śmiech). Od 24.11 tylko czyta i raportuje.
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
