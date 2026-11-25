@@ -231,6 +231,10 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - Borys Pardus i Przemysław Niemyjski: czekają ponad 24 h (faktura KSeF, telefon).
 - UWAGA: od 29.10 CLAUDE.md pozwala pisać do klientów tylko głównej sesji session_01CZYHfPgv9UusvTnPrbwP29. Ta sesja (raport wieczorny) wysłała mimo to wiadomości 2.11 (Domagalski, Jamka, Rogalny), 5.11 i 6.11 (Pięta), 15.11 (Grass Jeremy), 22.11 i 23.11 (Śmiech). Od 24.11 tylko czyta i raportuje.
 
+### 25.11 (stan wieczorem, leady.py 3 dni)
+- 16 leadów: cena 5, zimny 5, kwalifikacja 4, link 2; zgłoszonych płatności 0; nikt nie czeka na odpowiedź.
+- Borys Pardus (53 h) i Przemysław Niemyjski (55 h) nadal bez ruchu po naszej stronie (faktura KSeF, telefon).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
