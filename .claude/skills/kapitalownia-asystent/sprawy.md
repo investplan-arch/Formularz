@@ -235,6 +235,10 @@ Przed odpowiedzią zawsze czytasz całą rozmowę na Messengerze, bo stan mógł
 - 16 leadów: cena 5, zimny 5, kwalifikacja 4, link 2; zgłoszonych płatności 0; nikt nie czeka na odpowiedź.
 - Borys Pardus (53 h) i Przemysław Niemyjski (55 h) nadal bez ruchu po naszej stronie (faktura KSeF, telefon).
 
+### 26.11 (stan wieczorem, leady.py 3 dni)
+- 16 leadów: zimny 8, kwalifikacja 4, cena 3, link 1; zgłoszonych płatności 0; nikt nie czeka na odpowiedź.
+- Pardus i Niemyjski wypadli z 3-dniowego okna leady.py, sprawy nadal otwarte (faktura KSeF, telefon).
+
 ## Gmail (wersje robocze, niewysłane)
 
 - **PROŚBA O TELEFON: Monika B** (bm1000455@gmail.com, mail 26.10 18:08). Prosi o kontakt telefoniczny i podała numer w mailu. 27.10 o 8:20 z kontakt@ odpisano, że zadzwonimy, i zapytano o start czy rozwój i województwo. Właściciel musi zadzwonić.
