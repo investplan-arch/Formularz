@@ -71,7 +71,7 @@ def main() -> int:
                 headers={"Content-Type": "application/json", "x-goog-api-key": klucz},
             )
             try:
-                with urllib.request.urlopen(req, timeout=180) as r:
+                with urllib.request.urlopen(req, timeout=240) as r:
                     d = json.load(r)
                 break
             except urllib.error.HTTPError as e:
@@ -80,6 +80,10 @@ def main() -> int:
                     time.sleep(5 * (proba + 1))
                     continue
                 break
+            except (TimeoutError, OSError) as e:
+                ostatni = f"{model}: {e}"
+                time.sleep(5)
+                continue
         if d:
             break
     if not d:
