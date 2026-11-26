@@ -12,6 +12,7 @@ Przykład:
 Nie wysyłaj danych osobowych klientów (nazwiska, telefony, e-maile, PESEL).
 """
 import argparse
+import datetime
 import json
 import os
 import re
@@ -57,11 +58,11 @@ def main() -> int:
     czesci.append("=== PYTANIE ===\n" + anonimizuj(a.pytanie))
 
     body = {
-        "systemInstruction": {"parts": [{"text": INSTRUKCJA}]},
+        "systemInstruction": {"parts": [{"text": INSTRUKCJA + f" Dzisiejsza data: {datetime.date.today().isoformat()}."}]},
         "contents": [{"role": "user", "parts": [{"text": "\n\n".join(czesci)}]}],
         "generationConfig": {"temperature": 0.2},
     }
-    modele = [a.model] + [m for m in ("gemini-3.8-flash", "gemini-3.5-flash", "gemini-flash-latest") if m != a.model]
+    modele = [a.model] + [m for m in ("gemini-3.8-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite") if m != a.model]
     d, ostatni = None, ""
     for model in modele:
         for proba in range(3):
