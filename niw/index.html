@@ -176,6 +176,18 @@ input[aria-invalid="true"] { border-color: var(--danger); }
 [hidden] { display: none !important; }
 
 .field select { width: 100%; min-height: 52px; padding: 12px 14px; border: 1px solid var(--field); border-radius: 4px; background: #fff; color: var(--ink); font: inherit; }
+.krs-row { display: flex; gap: 10px; }
+.krs-row input { flex: 1; min-width: 0; min-height: 52px; padding: 12px 14px; border: 1px solid var(--field); border-radius: 4px; background: #fff; color: var(--ink); font: 500 1.15rem var(--sans); letter-spacing: .06em; }
+.krs-row input:focus-visible { outline: 3px solid var(--blue); outline-offset: 1px; }
+.krs-card { margin: 18px 0 0; padding: 18px 20px; background: var(--tone); }
+.krs-card h3 { margin: 0 0 4px; font: 600 1.12rem/1.3 var(--sans); }
+.krs-card dl { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 6px 16px; margin: 14px 0 0; font-size: .96rem; }
+.krs-card dt { color: var(--muted); }
+.krs-card dd { margin: 0; }
+.krs-card .warn { margin: 12px 0 0; padding: 10px 12px; background: var(--danger-bg); color: var(--danger); font-size: .94rem; }
+.linkbtn { padding: 0; border: 0; background: none; color: var(--blue); font: inherit; text-decoration: underline; cursor: pointer; }
+.res-body .inne-src { margin-top: 10px; }
+@media (max-width: 760px) { .krs-row { flex-direction: column; } .krs-card dl { grid-template-columns: minmax(0, 1fr); gap: 2px; } .krs-card dd { margin-bottom: 8px; } }
 </style>
 <script>document.documentElement.className = 'js';</script>
 </head>
@@ -189,7 +201,7 @@ input[aria-invalid="true"] { border-color: var(--danger); }
   <section class="wrap hero" aria-labelledby="tytul">
     <div>
       <h1 id="tytul">Ile możecie dostać z&nbsp;NIW?</h1>
-      <p class="lead">Pięć pytań o organizację, a od razu zobaczycie, czy możecie startować w PROO 1a i NOWEFIO 2027, do jakiej kwoty i jakie są szanse.</p>
+      <p class="lead">Wpiszcie numer KRS i odpowiedzcie na kilka pytań, a od razu zobaczycie, czy możecie startować w PROO 1a i NOWEFIO 2027, do jakiej kwoty, i w jakich innych programach dla organizacji.</p>
       <div class="actions">
         <a class="btn btn--go" href="#sprawdz" id="start">Sprawdź organizację</a>
         <span class="time">Zajmie to około dwóch minut</span>
@@ -212,6 +224,19 @@ input[aria-invalid="true"] { border-color: var(--danger); }
         <input type="hidden" name="_next" value="https://formularz.kapitalownia.pl/niw/?wyslano=1">
         <input type="hidden" name="zrodlo" id="zrodlo" value="">
         <input type="hidden" name="wynik" id="wynik" value="">
+        <input type="hidden" name="krs_dane" id="krs-dane" value="">
+        <input type="hidden" name="inne_programy" id="inne-programy" value="">
+
+        <fieldset class="q" data-q="krs">
+          <legend tabindex="-1">Zacznijmy od numeru KRS</legend>
+          <p class="hint">Dane organizacji pobierzemy z Krajowego Rejestru Sądowego, więc nie trzeba ich przepisywać. Numer KRS ma 10 cyfr i zwykle jest w statucie, w stopce maili albo na stronie organizacji.</p>
+          <div class="field"><label for="f-krs">Numer KRS</label>
+            <div class="krs-row"><input type="text" id="f-krs" name="krs" inputmode="numeric" autocomplete="off" spellcheck="false" maxlength="14" placeholder="np. 0000123456" aria-describedby="err-krs"><button type="button" class="btn btn--go" id="krs-szukaj">Sprawdź w KRS</button></div>
+          </div>
+          <p class="err" id="err-krs" role="alert"></p>
+          <div class="krs-card" id="krs-karta" hidden></div>
+          <div class="nav"><button type="button" class="btn btn--plain" id="krs-bez">Nie mamy KRS</button><button type="button" class="btn btn--dark" data-next>Dalej</button></div>
+        </fieldset>
 
         <fieldset class="q" data-q="forma" data-auto>
           <legend tabindex="-1">Jaka to organizacja?</legend>
@@ -280,6 +305,27 @@ input[aria-invalid="true"] { border-color: var(--danger); }
           <div class="nav"><button type="button" class="btn btn--plain" data-back>Wstecz</button><button type="button" class="btn btn--dark" data-next>Dalej</button></div>
         </fieldset>
 
+        <fieldset class="q" data-q="obszar">
+          <legend tabindex="-1">Czym zajmuje się organizacja?</legend>
+          <p class="hint">Na tej podstawie pokażemy też programy spoza NIW. <span id="obszar-krs" hidden>Część obszarów zaznaczyliśmy na podstawie celów ze statutu w KRS, poprawcie, jeśli coś nie pasuje.</span></p>
+          <div class="opts">
+            <label class="opt"><input type="checkbox" name="obszar[]" value="sport"><span>Sport i rekreacja</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="kultura"><span>Kultura, sztuka, dziedzictwo</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="dzieci i młodzież"><span>Dzieci i młodzież</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="seniorzy"><span>Seniorzy</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="niepełnosprawność"><span>Osoby z niepełnosprawnościami</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="zdrowie"><span>Zdrowie i profilaktyka</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="prawa i równość"><span><b>Prawa, równość, przeciwdziałanie przemocy</b><small>także aktywność obywatelska</small></span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="edukacja"><span>Edukacja</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="pomoc społeczna"><span>Pomoc społeczna i rodziny</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="wieś i rozwój lokalny"><span>Wieś i rozwój lokalny</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="ekologia"><span>Ekologia i zwierzęta</span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="pracownicy"><span><b>Zatrudniamy pracowników</b><small>na umowę o pracę</small></span></label>
+            <label class="opt"><input type="checkbox" name="obszar[]" value="działalność gospodarcza"><span>Prowadzimy działalność gospodarczą</span></label>
+          </div>
+          <div class="nav"><button type="button" class="btn btn--plain" data-back>Wstecz</button><button type="button" class="btn btn--dark" data-next>Dalej</button></div>
+        </fieldset>
+
         <fieldset class="q" data-q="kontakt">
           <legend tabindex="-1">Z kim omówić wniosek?</legend>
           <p class="hint">Wynik zobaczycie od razu po kliknięciu. Kontakt zostawiacie po to, żebyśmy mogli porozmawiać o projekcie.</p>
@@ -305,7 +351,12 @@ input[aria-invalid="true"] { border-color: var(--danger); }
             <p class="sent" id="res-wyslano" hidden></p>
             <h3>Programy dla Was</h3>
             <ul class="crit" id="res-programy"></ul>
-            <h3>Warunki z regulaminów</h3>
+            <div id="res-inne-blok" hidden>
+              <h3>Inne programy dla Was</h3>
+              <ul class="crit" id="res-inne"></ul>
+              <p class="small inne-src">Terminy sprawdziliśmy 27 listopada 2026 r. na stronach ministerstw, NIW, PFRON i operatorów programów. Przy każdym naborze sprawdzamy aktualny regulamin.</p>
+            </div>
+            <h3>Warunki z regulaminów NIW</h3>
             <ul class="crit" id="res-kryteria"></ul>
             <h3>Co warto wiedzieć przed wnioskiem</h3>
             <ul class="remember">
@@ -409,6 +460,130 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     return o;
   }
 
+  // Dane z Krajowego Rejestru Sądowego (publiczne API Ministerstwa Sprawiedliwości).
+  var krsPobrany = '', krsOsp = false;
+  var OBSZARY = [
+    ['sport', /SPORT|KULTUR[AYZ] FIZYCZN|REKREAC/],
+    ['kultura', /KULTURY(?! FIZYCZN)|KULTURA(?! FIZYCZN)|KULTURALN|SZTUK|DZIEDZICTW|MUZYK|TEATR|ZABYT/],
+    ['dzieci i młodzież', /DZIECI|MŁODZIEŻ/],
+    ['seniorzy', /SENIOR|OSÓB STARSZYCH|OSOBOM STARSZYM|WIEKU EMERYTALN/],
+    ['niepełnosprawność', /NIEPEŁNOSPRAWN/],
+    ['zdrowie', /ZDROWI|PROFILAKTYK/],
+    ['prawa i równość', /PRAW CZŁOWIEKA|RÓWNOŚ|DYSKRYMINAC|PRZEMOC|OBYWATELSK|DEMOKRAC/],
+    ['edukacja', /EDUKAC|OŚWIAT/],
+    ['pomoc społeczna', /POMOCY SPOŁECZN|POMOC SPOŁECZN|UBÓSTW|WYKLUCZENI|BEZDOMN|RODZIN/],
+    ['wieś i rozwój lokalny', /OBSZARÓW WIEJSKICH|WIEJSK|ROZWOJU LOKALN|ROZWÓJ LOKALN|SPOŁECZNOŚCI LOKALN|WSPÓLNOT LOKALN/],
+    ['ekologia', /EKOLOG|ŚRODOWISK|PRZYROD|KLIMAT|ZWIERZĄT/]
+  ];
+  function esc(t) { return String(t == null ? '' : t).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function krsNumer() { var d = document.getElementById('f-krs').value.replace(/\D/g, ''); return d && d.length <= 10 ? ('0000000000' + d).slice(-10) : d; }
+  function krsBlad(t) { var e = document.getElementById('err-krs'); e.textContent = t; e.classList.toggle('show', !!t); }
+  function krsPobierz(nr, rejestr, sygnal) {
+    return fetch('https://api-krs.ms.gov.pl/api/krs/OdpisAktualny/' + nr + '?rejestr=' + rejestr + '&format=json', { signal: sygnal })
+      .then(function (r) { if (r.status === 404) return null; if (!r.ok) throw new Error('krs ' + r.status); return r.json(); });
+  }
+  function krsSzukaj(potem) {
+    var nr = krsNumer(), btn = document.getElementById('krs-szukaj');
+    krsBlad('');
+    if (!nr) { krsBlad('Wpiszcie numer KRS albo kliknijcie „Nie mamy KRS”.'); return; }
+    if (nr.length !== 10) { krsBlad('Numer KRS ma 10 cyfr. Sprawdźcie, czy nie ma literówki.'); return; }
+    var stop = typeof AbortController === 'function' ? new AbortController() : null;
+    var limit = setTimeout(function () { if (stop) stop.abort(); }, 12000);
+    btn.disabled = true; btn.textContent = 'Sprawdzam…';
+    krsPobierz(nr, 'S', stop && stop.signal)
+      .then(function (d) { return d || krsPobierz(nr, 'P', stop && stop.signal); })
+      .then(function (d) {
+        if (!d || !d.odpis) { krsBlad('Nie znaleźliśmy numeru ' + nr + ' w KRS. Sprawdźcie numer albo kliknijcie „Nie mamy KRS” i odpowiedzcie na kilka pytań.'); return; }
+        krsWypelnij(nr, d.odpis);
+        if (potem) potem();
+      })
+      .catch(function () { krsBlad('Rejestr KRS teraz nie odpowiada. Spróbujcie za chwilę albo kliknijcie „Nie mamy KRS” i odpowiedzcie na kilka pytań.'); })
+      .then(function () { clearTimeout(limit); btn.disabled = false; btn.textContent = 'Sprawdź w KRS'; });
+  }
+  function zaznacz(name, value) { var e = form.querySelector('[name="' + name + '"][value="' + value + '"]'); if (e) e.checked = true; return !!e; }
+  function krok(q) { return form.querySelector('.q[data-q="' + q + '"]'); }
+  function krsWyczysc() {
+    krsPobrany = ''; krsOsp = false; document.getElementById('krs-dane').value = '';
+    document.getElementById('krs-karta').hidden = true;
+    document.getElementById('obszar-krs').hidden = true;
+    krok('forma').removeAttribute('data-skip'); krok('rej').removeAttribute('data-skip');
+  }
+  function krsWypelnij(nr, odpis) {
+    var dane = odpis.dane || {}, d1 = dane.dzial1 || {}, pod = d1.danePodmiotu || {}, adr = d1.siedzibaIAdres || {}, sie = adr.siedziba || {};
+    var rep = ((dane.dzial2 || {}).reprezentacja) || {}, d3 = dane.dzial3 || {};
+    var nazwa = pod.nazwa || '', fp = (pod.formaPrawna || '').toUpperCase(), N = nazwa.toUpperCase();
+    var forma = '';
+    if (/STOWARZYSZENIE (GMIN|POWIAT|SAMORZĄD)|ZWIĄZEK (GMIN|POWIAT)/.test(N)) forma = 'Stowarzyszenie samorządów';
+    else if (fp.indexOf('FUNDACJA') > -1) forma = 'Fundacja';
+    else if (N.indexOf('OCHOTNICZA STRAŻ') > -1) forma = 'KGW albo OSP';
+    else if (/STOWARZYSZ|KLUB|ZWIĄZEK/.test(fp)) forma = 'Stowarzyszenie albo klub';
+    else if (/SPÓŁDZIELNIA SOCJALNA/.test(fp + ' ' + N) || /SPÓŁKA/.test(fp)) forma = 'Spółdzielnia socjalna albo spółka non-profit';
+    var data = (odpis.naglowekA || {}).dataRejestracjiWKRS || '', m = data.match(/(\d{2})\.(\d{2})\.(\d{4})/);
+    var rej = '';
+    if (m) {
+      var liczba = +m[3] * 10000 + +m[2] * 100 + +m[1];
+      rej = liczba < 20231101 ? 'przed 1.11.2023' : liczba < 20241101 ? '11.2023-10.2024' : liczba < 20260101 ? '11.2024-12.2025' : '2026 albo w trakcie';
+    }
+    var wczesniej = pod.daneOWczesniejszejRejestracji && Object.keys(pod.daneOWczesniejszejRejestracji).length > 0;
+    krsWyczysc();
+    form.querySelectorAll('[name="forma"],[name="rejestracja"]').forEach(function (e) { e.checked = false; });
+    if (forma && zaznacz('forma', forma)) krok('forma').setAttribute('data-skip', '');
+    if (rej && !wczesniej && zaznacz('rejestracja', rej)) krok('rej').setAttribute('data-skip', '');
+    if (nazwa) form.organizacja.value = nazwa;
+    var woj = (sie.wojewodztwo || '').toLowerCase();
+    if (woj) { form.wojewodztwo.value = woj; if (form.wojewodztwo.value !== woj) form.wojewodztwo.value = ''; }
+    var cele = ((d3.celDzialaniaOrganizacji || {}).celDzialania || '') + ' ' + N;
+    var trafione = [];
+    OBSZARY.forEach(function (o) { if (o[1].test(cele.toUpperCase()) && zaznacz('obszar[]', o[0])) trafione.push(o[0]); });
+    document.getElementById('obszar-krs').hidden = !trafione.length;
+    var funkcje = (rep.sklad || []).map(function (x) { return (x.funkcjaWOrganie || 'członek').toLowerCase(); });
+    var spr = (((d3.wzmiankiOZlozonychDokumentach || {}).wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego) || []).map(function (x) { var y = String(x.zaOkresOdDo || '').match(/(\d{4})\s*$/); return y ? y[1] : ''; }).filter(Boolean);
+    spr = spr.filter(function (y, k) { return spr.indexOf(y) === k; }).sort();
+    var likwidacja = /LIKWIDAC|UPADŁOŚ/.test(JSON.stringify(dane.dzial6 || {}).toUpperCase());
+    var miejsce = [(sie.miejscowosc || '').toLowerCase().replace(/(^|[\s-])(\S)/g, function (a, b, c) { return b + c.toUpperCase(); }), woj].filter(Boolean).join(', woj. ');
+    var sposob = rep.sposobReprezentacji || '';
+    if (sposob.length > 220) sposob = sposob.slice(0, 220).replace(/\s+\S*$/, '') + '…';
+    var kk = document.getElementById('krs-karta');
+    kk.innerHTML = '<h3>' + esc(nazwa) + '</h3><p class="small">KRS ' + esc(nr) + (pod.identyfikatory && pod.identyfikatory.nip ? ', NIP ' + esc(pod.identyfikatory.nip) : '') + ', ' + esc((pod.formaPrawna || '').toLowerCase()) + '</p>' +
+      '<dl><dt>Wpis do KRS</dt><dd>' + esc(data || 'brak daty') + (wczesniej ? ', wcześniej w innym rejestrze' : '') + '</dd>' +
+      '<dt>Siedziba</dt><dd>' + esc(miejsce || 'brak danych') + '</dd>' +
+      (funkcje.length ? '<dt>' + esc((rep.nazwaOrganu || 'Zarząd').charAt(0) + (rep.nazwaOrganu || 'Zarząd').slice(1).toLowerCase()) + '</dt><dd>' + esc(funkcje.join(', ')) + '</dd>' : '') +
+      (sposob ? '<dt>Kto podpisuje</dt><dd>' + esc(sposob.charAt(0) + sposob.slice(1).toLowerCase()) + '</dd>' : '') +
+      '<dt>Status OPP</dt><dd>' + (pod.czyPosiadaStatusOPP ? 'tak' : 'nie') + '</dd>' +
+      '<dt>Sprawozdania w KRS</dt><dd>' + (spr.length ? 'za lata ' + esc(spr.slice(-4).join(', ')) : 'brak wzmianek, organizacje bez działalności gospodarczej często składają je gdzie indziej') + '</dd></dl>' +
+      (likwidacja ? '<p class="warn">W KRS jest wpis o likwidacji albo upadłości. Organizacja w likwidacji nie złoży wniosku, napiszcie do nas, jeśli to nieaktualne.</p>' : '') +
+      '<p class="small">Formę, datę rejestracji, nazwę i województwo uzupełniliśmy z rejestru' + (wczesniej ? ', poza datą, bo organizacja była wcześniej w innym rejestrze' : '') + '. <button type="button" class="linkbtn" id="krs-popraw">Popraw ręcznie</button></p>';
+    kk.hidden = false;
+    krsPobrany = nr; krsOsp = N.indexOf('OCHOTNICZA STRAŻ') > -1;
+    document.getElementById('krs-dane').value = [
+      'KRS ' + nr + ', ' + nazwa, 'NIP ' + ((pod.identyfikatory || {}).nip || 'brak'), 'Forma ' + (pod.formaPrawna || ''), 'Wpis do KRS ' + data + (wczesniej ? ' (wcześniej inny rejestr)' : ''),
+      'Adres ' + [adr.adres && adr.adres.ulica, adr.adres && adr.adres.nrDomu, adr.adres && adr.adres.nrLokalu ? '/' + adr.adres.nrLokalu : '', adr.adres && adr.adres.kodPocztowy, adr.adres && adr.adres.miejscowosc].filter(Boolean).join(' ') + ', woj. ' + woj,
+      'Organ ' + (rep.nazwaOrganu || '') + ': ' + funkcje.join(', '), 'Reprezentacja ' + (rep.sposobReprezentacji || ''), 'OPP ' + (pod.czyPosiadaStatusOPP ? 'tak' : 'nie'),
+      'Sprawozdania w KRS ' + (spr.join(', ') || 'brak'), likwidacja ? 'UWAGA likwidacja albo upadłość w dziale 6' : ''
+    ].filter(Boolean).join(' | ');
+    rysuj(document.getElementById('karta'), ocena());
+  }
+
+  // Programy spoza NIW. Terminy sprawdzone 27.11.2026 (nabory.md, gov.pl, niw.gov.pl, pfron.org.pl).
+  function inne() {
+    var f = val('forma'), ob = vals('obszar[]'), lista = [];
+    var org = f && f.indexOf('Grupa') !== 0 && f !== 'Stowarzyszenie samorządów';
+    function ma(x) { return ob.indexOf(x) > -1; }
+    if (org) lista.push({ s: ma('prawa i równość') && (f === 'Fundacja' || f === 'Stowarzyszenie albo klub') ? 'tak' : 'spr', n: 'SPLOT 2.0, granty duże', k: 'Od 10 do 15 tys. euro bez wkładu własnego na projekty o prawach, równości, przeciwdziałaniu przemocy i aktywności obywatelskiej. Wnioski do 28 grudnia 2026 r., godz. 12.00. Organizacja dostaje grant w SPLOT 2.0 tylko raz.' });
+    if (org) lista.push({ s: 'tak', n: 'Konkursy ofert gminy, powiatu i województwa', k: 'Samorządy finansują zadania publiczne organizacji, np. zajęcia, wydarzenia i pomoc mieszkańcom. Konkursy na 2027 r. ogłaszane są zwykle od grudnia do lutego, po uchwaleniu budżetu.' });
+    if (f === 'KGW albo OSP' && !krsOsp) lista.push({ s: 'spr', n: 'Pomoc ARiMR dla kół gospodyń wiejskich', k: 'Dotyczy KGW z Krajowego Rejestru Kół Gospodyń Wiejskich. Nabór 2026 zakończył się 30 września, kolejny zwykle rusza wiosną.' });
+    if (org && ma('seniorzy')) lista.push({ s: 'spr', n: 'Aktywni Seniorzy, ASY 2026 do 2030', k: 'Rządowy program dla organizacji działających z osobami starszymi, na 2027 r. zaplanowano w nim 120 mln zł. Konkursy ogłasza Pełnomocnik Rządu ds. Polityki Senioralnej i urzędy wojewódzkie.' });
+    if (org && ma('niepełnosprawność')) lista.push({ s: 'spr', n: 'Konkursy PFRON dla organizacji', k: 'PFRON co roku ogłasza konkursy dla fundacji i stowarzyszeń działających na rzecz osób z niepełnosprawnościami, wnioski składa się w systemie iPFRON+.' });
+    if (org && ma('dzieci i młodzież')) lista.push({ s: 'spr', n: 'Rządowy Program Fundusz Młodzieżowy', k: 'Program NIW dla organizacji młodzieżowych i działających z młodzieżą. Edycję 2026 ogłoszono w czerwcu 2026 r., kolejna nie jest jeszcze ogłoszona.' });
+    if (org && ma('sport')) lista.push({ s: 'spr', n: 'Programy Ministerstwa Sportu i Turystyki', k: 'Dofinansowanie zajęć sportowych dla dzieci i dorosłych oraz wydarzeń. Ogłoszenia na kolejny rok pojawiają się zwykle jesienią i zimą.' });
+    if (org && ma('kultura')) lista.push({ s: 'spr', n: 'Programy Ministra Kultury i program „Kultura” z Funduszy EOG', k: 'Wydarzenia, edukacja kulturalna i dziedzictwo. Główne nabory ministerstwa ogłaszane są zwykle w październiku i listopadzie, a program EOG ma kolejne nabory w 2027 i 2028 r.' });
+    if (org && ma('zdrowie')) lista.push({ s: 'spr', n: 'Narodowy Program Zdrowia', k: 'Konkursy na profilaktykę i promocję zdrowia, terminy podaje ogłoszenie każdego zadania.' });
+    if (org && ma('wieś i rozwój lokalny')) lista.push({ s: 'spr', n: 'Granty LGD i Działaj Lokalnie', k: 'Lokalne Grupy Działania ogłaszają granty dla organizacji ze swojego obszaru według własnych harmonogramów, a lokalne konkursy Działaj Lokalnie ruszają zwykle wiosną.' });
+    if (org && ma('pracownicy')) lista.push({ s: 'tak', n: 'Krajowy Fundusz Szkoleniowy', k: 'Urząd pracy dofinansowuje szkolenia i kursy pracowników. Główne nabory w urzędach pracy są zwykle na początku roku.' });
+    if (f === 'Spółdzielnia socjalna albo spółka non-profit' || (org && ma('działalność gospodarcza'))) lista.push({ s: 'spr', n: 'Pożyczki dla ekonomii społecznej', k: 'Pożyczki BGK przez pośredników na start i rozwój działalności podmiotów ekonomii społecznej, aktualne warunki podają pośrednicy.' });
+    return lista;
+  }
+
   function rysuj(lista, o, pelne) {
     lista.innerHTML = '';
     KRYTERIA.forEach(function (k) {
@@ -431,6 +606,8 @@ input[aria-invalid="true"] { border-color: var(--danger); }
   }
   function waliduj(s) {
     var q = s.getAttribute('data-q');
+    if (q === 'krs') { var nr = krsNumer(); if (nr && nr !== krsPobrany) { krsSzukaj(dalej); return false; } return true; }
+    if (q === 'obszar') return true;
     if (q === 'niw' || q === 'cel') { var ok = s.querySelector('input:checked'); document.getElementById('err-' + q).classList.toggle('show', !ok); return !!ok; }
     var radio = s.querySelector('input[type=radio]');
     if (radio && !s.querySelector('input[type=radio]:checked')) { radio.focus(); return false; }
@@ -440,8 +617,9 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     var top = document.getElementById('sprawdz').getBoundingClientRect().top + window.scrollY - 12;
     if (Math.abs(window.scrollY - top) > 40) window.scrollTo({ top: top, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   }
-  function dalej() { if (!waliduj(steps[i])) return; if (i < steps.length - 1) { pokaz(i + 1); steps[i].querySelector('legend').focus({ preventScroll: true }); przewin(); } }
-  function wstecz() { if (i > 0) { pokaz(i - 1); steps[i].querySelector('legend').focus({ preventScroll: true }); przewin(); } }
+  function nastepny(k, krok) { do { k += krok; } while (steps[k] && steps[k].hasAttribute('data-skip')); return k; }
+  function dalej() { if (!waliduj(steps[i])) return; var n = nastepny(i, 1); if (n < steps.length) { pokaz(n); steps[i].querySelector('legend').focus({ preventScroll: true }); przewin(); } }
+  function wstecz() { var n = nastepny(i, -1); if (n >= 0) { pokaz(n); steps[i].querySelector('legend').focus({ preventScroll: true }); przewin(); } }
 
   form.addEventListener('pointerdown', function () { lastPointer = Date.now(); });
   form.addEventListener('change', function (e) {
@@ -458,7 +636,12 @@ input[aria-invalid="true"] { border-color: var(--danger); }
   form.addEventListener('click', function (e) {
     if (e.target.closest('[data-next]')) dalej();
     if (e.target.closest('[data-back]')) wstecz();
+    if (e.target.closest('#krs-szukaj')) krsSzukaj();
+    if (e.target.closest('#krs-bez')) { document.getElementById('f-krs').value = ''; krsBlad(''); krsWyczysc(); dalej(); }
+    if (e.target.closest('#krs-popraw')) { krok('forma').removeAttribute('data-skip'); krok('rej').removeAttribute('data-skip'); dalej(); }
   });
+  document.getElementById('f-krs').addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); krsSzukaj(); } });
+  document.getElementById('f-krs').addEventListener('input', function () { if (krsPobrany && krsNumer() !== krsPobrany) krsWyczysc(); });
   document.getElementById('start').addEventListener('click', function (e) { e.preventDefault(); przewin(); steps[i].querySelector('legend').focus({ preventScroll: true }); });
 
   form.addEventListener('submit', function (e) {
@@ -477,14 +660,15 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     err.textContent = blad; err.classList.toggle('show', !!blad);
     if (blad) return;
 
-    var o = ocena(), lista = programy();
-    var status = !lista.length ? 'nie' : lista.some(function (p) { return p.s === 'tak'; }) ? 'tak' : 'spr';
+    var o = ocena(), lista = programy(), poza = inne();
+    var status = !lista.length ? (poza.length ? 'spr' : 'nie') : lista.some(function (p) { return p.s === 'tak'; }) ? 'tak' : 'spr';
     var nazwy = lista.map(function (p) { return p.n; });
     var rodziny = nazwy.map(function (n) { return n.split(',')[0]; }).filter(function (n, k, a) { return a.indexOf(n) === k; });
-    var tytul = status === 'nie' ? 'W tych naborach się nie uda' : 'Możecie startować w ' + rodziny.join(' i ');
-    var opis = status === 'nie'
-      ? 'Regulaminy PROO 1a i NOWEFIO 2027 zamykają Wam drogę w tym naborze. Organizacje dostają też granty z gmin, SPLOT 2.0 i fundacji, i w tym też pomagamy.'
-      : 'Teraz najważniejsze jest ułożenie wniosku pod kryteria oceny, bo wymagany jest próg 80% punktów, a w NOWEFIO organizacja składa tylko jedną ofertę.';
+    var tytul = lista.length ? 'Możecie startować w ' + rodziny.join(' i ') : poza.length ? 'NIW tym razem nie, ale są inne programy' : 'W tych naborach się nie uda';
+    var opis = lista.length
+      ? 'Teraz najważniejsze jest ułożenie wniosku pod kryteria oceny, bo wymagany jest próg 80% punktów, a w NOWEFIO organizacja składa tylko jedną ofertę.' + (poza.length ? ' Niżej są też inne programy, które do Was pasują.' : '')
+      : poza.length ? 'Regulaminy PROO 1a i NOWEFIO 2027 zamykają Wam drogę w tym naborze, ale niżej są programy, w których możecie startować. W nich też pomagamy.'
+      : 'Regulaminy PROO 1a i NOWEFIO 2027 zamykają Wam drogę w tym naborze. Dotacje dostają zarejestrowane organizacje, więc warto zacząć od założenia fundacji albo stowarzyszenia, w czym też pomagamy.';
     document.getElementById('res-head').setAttribute('data-s', status);
     document.getElementById('res-tytul').textContent = tytul;
     document.getElementById('res-opis').textContent = opis;
@@ -492,6 +676,10 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     if (!lista.length) { var li0 = document.createElement('li'); li0.setAttribute('data-s', 'nie'); li0.innerHTML = '<i aria-hidden="true">' + ZNAK.nie + '</i><span><span class="l">Brak programu w tym naborze</span><em>Szczegóły w warunkach poniżej.</em></span>'; ul.appendChild(li0); }
     lista.forEach(function (p) { var li = document.createElement('li'); li.setAttribute('data-s', p.s); li.innerHTML = '<i aria-hidden="true">' + ZNAK[p.s] + '</i><span><span class="l">' + p.n + '</span><em>' + p.k + '</em></span>'; ul.appendChild(li); });
     rysuj(document.getElementById('res-kryteria'), o, true);
+    var ulI = document.getElementById('res-inne'); ulI.innerHTML = '';
+    poza.forEach(function (p) { var li = document.createElement('li'); li.setAttribute('data-s', p.s); li.innerHTML = '<i aria-hidden="true">' + ZNAK[p.s] + '</i><span><span class="l">' + p.n + '</span><em>' + p.k + '</em></span>'; ulI.appendChild(li); });
+    document.getElementById('res-inne-blok').hidden = !poza.length;
+    document.getElementById('inne-programy').value = poza.map(function (p) { return p.n; }).join('; ') || 'brak';
     document.getElementById('wynik').value = tytul + '. ' + lista.map(function (p) { return p.n + ' (' + p.k + ')'; }).join('; ') + ' | ' + KRYTERIA.map(function (k) { return k.nazwa + ' ' + ({ tak: 'TAK', spr: 'DO SPRAWDZENIA', nie: 'NIE' }[o[k.id][0]]) + ' (' + o[k.id][1] + ')'; }).join('; ');
 
     steps.forEach(function (s) { s.classList.remove('on'); });
@@ -503,12 +691,12 @@ input[aria-invalid="true"] { border-color: var(--danger); }
     var info = document.getElementById('res-wyslano');
     var dane = {};
     new FormData(form).forEach(function (v, k) { if (k === '_next') return; k = k.replace('[]', ''); dane[k] = dane[k] ? dane[k] + ', ' + v : v; });
-    dane._subject = 'NIW 2027, ' + (status === 'nie' ? 'nie kwalifikuje się' : nazwy.join(' + ')) + ', ' + nazwa;
+    dane._subject = 'NIW 2027, ' + (lista.length ? nazwy.join(' + ') : 'NIW nie, inne: ' + (poza.length ? poza.slice(0, 2).map(function (p) { return p.n.split(',')[0]; }).join(' + ') : 'brak')) + ', ' + nazwa + (krsPobrany ? ', KRS ' + krsPobrany : '');
     var btn = document.getElementById('wyslij'); btn.disabled = true;
     function udane() { info.hidden = false; info.className = 'sent'; info.textContent = 'Zgłoszenie jest u nas. Odezwiemy się ' + (email ? 'e-mailem' : 'telefonicznie') + ' najpóźniej w następny dzień roboczy.'; }
     // Zapasowa droga przez serwer kapitalownia.pl, gdy FormSubmit nie odpowiada.
     function zapas() {
-      var opisMail = dane._subject + '\n\n' + dane.wynik + '\n\nOrganizacja: ' + nazwa + '\nTelefon: ' + (tel || 'nie podano') + '\nE-mail: ' + (email || 'nie podano, tylko telefon') +
+      var opisMail = dane._subject + '\n\n' + dane.wynik + '\n\nKRS: ' + (dane.krs_dane || 'nie podano') + '\nInne programy: ' + (dane.inne_programy || '') + '\nObszar: ' + (dane.obszar || '') + '\n\nOrganizacja: ' + nazwa + '\nTelefon: ' + (tel || 'nie podano') + '\nE-mail: ' + (email || 'nie podano, tylko telefon') +
         '\nRejestracja: ' + (dane.rejestracja || '') + '\nPrzychód: ' + (dane.przychod || '') + '\nWykluczenia: ' + (dane.niw || '') + '\nCel: ' + (dane.cel || '') + '\nPomysł: ' + (dane.pomysl || '') + '\nŹródło: ' + dane.zrodlo;
       var b = new URLSearchParams({ rodzaj: 'ngo', ngo_forma: dane.forma || 'nie podano', ngo_staz: 'rejestracja ' + (dane.rejestracja || 'nie podano'), ngo_obszar: 'NIW 2027, ' + (dane.cel || 'cel nie podany'),
         wojewodztwo: dane.wojewodztwo || '', opis: opisMail, imie: imie + ', ' + nazwa, email: email || 'kontakt@kapitalownia.pl', zgoda: 'tak', t: String(START) });
