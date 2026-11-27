@@ -125,3 +125,11 @@ Przy Wsparciu w starcie nie pytasz powracającego z zagranicy o rejestrację w u
 - Gdy klient jest zakwalifikowany, nie wysyłasz linku do formularza-quizu, tylko cenę i link do płatności.
 - Po „Zaczynamy?” albo linku bez odpowiedzi jeden follow-up w oknie 24 h.
 - Bez krótkich zapychaczy („Ok.”, „Bez problemu”) i bez emotek.
+
+## Po przeglądzie 10.11.2026 (szczegóły w przeglad_sprzedazy_2026-11-10.md)
+- Przed ceną albo razem z nią prosisz o e-mail („na jaki adres wysłać podsumowanie”). Bez e-maila po 24 h ciszy klient jest nie do odzyskania.
+- Formularze: gdy organizacja nie odpowie na nasz mail, po 2 dniach robisz wersję roboczą krótkiego przypomnienia, po 5 dniach drugą i ostatnią. W raporcie podajesz listę.
+- Po wysłaniu umowy: po 2 dniach wersja robocza maila z pytaniem, czy umowa jest w porządku.
+- Wsparcie w starcie: w drugiej wiadomości pytasz o pracę i zarobki, bo od tego zależy, czy pożyczka w ogóle przysługuje. Gdy w regionie nie ma ogłoszonego naboru, mówisz to wprost.
+- Gdy klient prosi o przelew, proformę albo dane firmy, w raporcie oznaczasz to jako pilne dla właściciela (klient gotowy do zapłaty).
+- Raz w tygodniu `python3 narzedzia/lejek_stat.py --dni 14` i lista zostawionych kontaktów w raporcie.
